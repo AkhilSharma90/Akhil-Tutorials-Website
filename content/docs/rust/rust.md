@@ -38,5 +38,4 @@ fn main() {
     println!("Hello, {}", name);
 }
 ```
-
-![JvZwTrB.png](https://iili.io/JvZwTrB.png)
+![image](https://github.com/AkhilSharma90/Akhil-Tutorials-Website/assets/108602513/53d5fdc0-de00-4894-bf34-c69c35d37693)
