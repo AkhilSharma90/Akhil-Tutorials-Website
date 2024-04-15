@@ -40,3 +40,4 @@ fn main() {
 ```
 ![rust.png](/static/images/rust.png)
 ![rust.png](https://www.akhil.sh/static/images/rust.png)
+![rust.png](/tutorials/images/rust.png)
