@@ -39,4 +39,4 @@ fn main() {
 }
 ```
 
-[![JvZwTrB.md.png](https://iili.io/JvZwTrB.md.png)](https://freeimage.host/i/JvZwTrB)
+![JvZwTrB.png](https://iili.io/JvZwTrB.png)

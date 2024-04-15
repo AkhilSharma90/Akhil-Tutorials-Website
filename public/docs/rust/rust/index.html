@@ -12,9 +12,10 @@
 
     
 
-<html lang="en-us"><head>
+<html lang="en-us"><head><script src="/tutorials/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=tutorials/livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
     <title>Rust | My New Hugo Site</title>
+    <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
     <meta name="author" content="Colin Wilson - Lotus Labs" />
@@ -22,21 +23,21 @@
     <meta name="website" content="https://lotusdocs.dev" />
     <meta name="Version" content="v0.1.0" />
     
-    <link rel="icon" href="https://www.akhil.sh/tutorials/favicon.ico" sizes="any">
-<link rel="icon" type="image/svg+xml" href="https://www.akhil.sh/tutorials/favicon.svg">
-<link rel="apple-touch-icon" sizes="180x180" href="https://www.akhil.sh/tutorials/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://www.akhil.sh/tutorials/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://www.akhil.sh/tutorials/favicon-16x16.png">
-<link rel="manifest" crossorigin="use-credentials" href="https://www.akhil.sh/tutorials/site.webmanifest">
+    <link rel="icon" href="http://localhost:1313/tutorials/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="http://localhost:1313/tutorials/favicon.svg">
+<link rel="apple-touch-icon" sizes="180x180" href="http://localhost:1313/tutorials/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/tutorials/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/tutorials/favicon-16x16.png">
+<link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/tutorials/site.webmanifest">
 <meta property="og:title" content="Rust" />
 <meta property="og:description" content="A Quick Introduction to Rust linkWelcome to our Rust tutorial! linkIn this post, we&rsquo;ll take a brief look at Rust, a language prized for its safety and performance. I&rsquo;ll walk you through a basic example to get you started.
 Why Rust? Rust is known for its ability to provide memory safety without using a garbage collector. It accomplishes this through its unique system of ownership, borrowing, and lifetimes.
 A Simple Example: Hello, World!" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.akhil.sh/tutorials/docs/rust/rust/" /><meta property="og:image" content="https://www.akhil.sh/tutorials/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_1964307856750880320.png"/><meta property="article:section" content="docs" />
+<meta property="og:url" content="http://localhost:1313/tutorials/docs/rust/rust/" /><meta property="og:image" content="http://localhost:1313/tutorials/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_1964307856750880320.png"/><meta property="article:section" content="docs" />
 <meta property="article:published_time" content="2024-04-15T15:59:49+05:30" />
 <meta property="article:modified_time" content="2024-04-15T15:59:49+05:30" /><meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://www.akhil.sh/tutorials/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_1964307856750880320.png"/>
+<meta name="twitter:image" content="http://localhost:1313/tutorials/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_1964307856750880320.png"/>
 <meta name="twitter:title" content="Rust"/>
 <meta name="twitter:description" content="A Quick Introduction to Rust linkWelcome to our Rust tutorial! linkIn this post, we&rsquo;ll take a brief look at Rust, a language prized for its safety and performance. I&rsquo;ll walk you through a basic example to get you started.
 Why Rust? Rust is known for its ability to provide memory safety without using a garbage collector. It accomplishes this through its unique system of ownership, borrowing, and lifetimes.
@@ -47,15 +48,13 @@ A Simple Example: Hello, World!"/>
     
     
             
-                
-                <script type="text/javascript" src="https://www.akhil.sh/tutorials/docs/js/flexsearch.bundle.min.70b92c4c5202c26b45d7aa43e130e8440032cac751b9b9206ddba2052699286ac95beb01bb7f975514cc694a019a03c8.js" integrity="sha384-cLksTFICwmtF16pD4TDoRAAyysdRubkgbduiBSaZKGrJW&#43;sBu3&#43;XVRTMaUoBmgPI" crossorigin="anonymous"></script>
-                
+                <script type="text/javascript" src="http://localhost:1313/tutorials/docs/js/flexsearch.bundle.js"></script>
+            
         
     
     
 
-    <link rel="stylesheet" href="/tutorials/docs/scss/style.min.5a902f2bcc54a4a88bdd3cb32cb651de94b65f5e47538189dc24277052dc42dc18f9ab8dc2cb7ceea9800ea086776ae6.css" integrity="sha384-WpAvK8xUpKiL3TyzLLZR3pS2X15HU4GJ3CQncFLcQtwY&#43;auNwst87qmADqCGd2rm"crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="/tutorials/docs/scss/style.css" crossorigin="anonymous">
     
     
     </head><body>
@@ -77,7 +76,7 @@ A Simple Example: Hello, World!"/>
                     
                         
                         <li class="current">
-                            <a class="sidebar-root-link" href="https://www.akhil.sh/tutorials/docs/rust/rust/">
+                            <a class="sidebar-root-link" href="http://localhost:1313/tutorials/docs/rust/rust/">
                                 
                                 Rust
                             </a>
@@ -87,7 +86,7 @@ A Simple Example: Hello, World!"/>
                     
                         
                         <li class="">
-                            <a class="sidebar-root-link" href="https://www.akhil.sh/tutorials/docs/golang/setup/">
+                            <a class="sidebar-root-link" href="http://localhost:1313/tutorials/docs/golang/setup/">
                                 
                                 Setup
                             </a>
@@ -97,7 +96,7 @@ A Simple Example: Hello, World!"/>
                     
                         
                         <li class="">
-                            <a class="sidebar-root-link" href="https://www.akhil.sh/tutorials/docs/rust/example/">
+                            <a class="sidebar-root-link" href="http://localhost:1313/tutorials/docs/rust/example/">
                                 
                                 Example
                             </a>
@@ -107,7 +106,7 @@ A Simple Example: Hello, World!"/>
                     
                         
                         <li class="">
-                            <a class="sidebar-root-link" href="https://www.akhil.sh/tutorials/docs/golang/freshgo/">
+                            <a class="sidebar-root-link" href="http://localhost:1313/tutorials/docs/golang/freshgo/">
                                 
                                 FreshGO
                             </a>
@@ -291,7 +290,7 @@ Here’s how you can work with variables in Rust:</p>
     let name = &#34;Vibhor&#34;;
     println!(&#34;Hello, {}&#34;, name);
 }</code></pre>
-<p><a href="https://freeimage.host/i/JvZwTrB" rel="external" target="_blank">
+<p>
 
 
 
@@ -303,10 +302,10 @@ Here’s how you can work with variables in Rust:</p>
 
   
     
-      <img src="/tutorials/JvZwTrB.md_11843322158212788958.png" alt="JvZwTrB.md.png" width="500" height="281" loading="lazy">
+      <img src="/tutorials/JvZwTrB_11596921240560371453.png" alt="JvZwTrB.png" width="640" height="360" loading="lazy">
     
   
-<svg width="16" height="16" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path fill="currentColor" d="M14 5c-.552 0-1-.448-1-1s.448-1 1-1h6c.552 0 1 .448 1 1v6c0 .552-.448 1-1 1s-1-.448-1-1v-3.586l-7.293 7.293c-.391.39-1.024.39-1.414 0-.391-.391-.391-1.024 0-1.414l7.293-7.293h-3.586zm-9 2c-.552 0-1 .448-1 1v11c0 .552.448 1 1 1h11c.552 0 1-.448 1-1v-4.563c0-.552.448-1 1-1s1 .448 1 1v4.563c0 1.657-1.343 3-3 3h-11c-1.657 0-3-1.343-3-3v-11c0-1.657 1.343-3 3-3h4.563c.552 0 1 .448 1 1s-.448 1-1 1h-4.563z"/></svg></a></p>
+</p>
 
     </div>
 
@@ -375,12 +374,10 @@ Here’s how you can work with variables in Rust:</p>
 
 
 
-    
-
-    <script src="/tutorials/docs/js/bootstrap.d479bcf750dc64ea5dadc35d782fdc55066b54b6f80655bd81380639aa6289e5accdc55d58d8b2878a01876f06b22641.js" integrity="sha384-1Hm891DcZOpdrcNdeC/cVQZrVLb4BlW9gTgGOapiieWszcVdWNiyh4oBh28GsiZB"defer></script>
+    <script src="/tutorials/docs/js/bootstrap.js" defer></script>
 
 
-    <script type="text/javascript" src="https://www.akhil.sh/tutorials/docs/js/bundle.min.50d6da407b293e8e5d076742bdc8e5e2cc016503be045f1cc81355e4e10f4842dfc8a050f879ccba709f229279d3664b.js" integrity="sha384-UNbaQHspPo5dB2dCvcjl4swBZQO&#43;BF8cyBNV5OEPSELfyKBQ&#43;HnMunCfIpJ502ZL" crossorigin="anonymous" defer></script>
+    <script type="text/javascript" src="http://localhost:1313/tutorials/docs/js/bundle.js" defer></script>
     
 
     
