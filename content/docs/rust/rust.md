@@ -38,5 +38,5 @@ fn main() {
     println!("Hello, {}", name);
 }
 ```
-![rust.png](/images/rust.png)
-![rust.png](https://www.akhil.sh/images/rust.png)
+![rust.png](/static/images/rust.png)
+![rust.png](https://www.akhil.sh/static/images/rust.png)
