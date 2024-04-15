@@ -10,9 +10,14 @@ contentDir = "content"
     [[module.imports]]
         path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
         disable = false
+    [[module.mounts]]
+        source = 'static/images'
+        target = 'assets/images'
 
 [params]
     [params.docs] # Parameters for the /docs 'template'
         # pathName        = "docs"                            # path name for documentation site | default "docs"
 
         darkMode        = true                                # enable dark mode option? default false
+
+    
