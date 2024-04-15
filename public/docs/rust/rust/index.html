@@ -14,7 +14,7 @@
 
 <html lang="en-us"><head><script src="/tutorials/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=tutorials/livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
-    <title>Example | My New Hugo Site</title>
+    <title>Rust | My New Hugo Site</title>
     <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Documentation, Hugo, Hugo Theme, Bootstrap" />
@@ -29,15 +29,19 @@
 <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/tutorials/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/tutorials/favicon-16x16.png">
 <link rel="manifest" crossorigin="use-credentials" href="http://localhost:1313/tutorials/site.webmanifest">
-<meta property="og:title" content="Example" />
-<meta property="og:description" content="Hi this is example page link" />
+<meta property="og:title" content="Rust" />
+<meta property="og:description" content="A Quick Introduction to Rust linkWelcome to our Rust tutorial! linkIn this post, we&rsquo;ll take a brief look at Rust, a language prized for its safety and performance. I&rsquo;ll walk you through a basic example to get you started.
+Why Rust? Rust is known for its ability to provide memory safety without using a garbage collector. It accomplishes this through its unique system of ownership, borrowing, and lifetimes.
+A Simple Example: Hello, World!" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/tutorials/docs/example/" /><meta property="og:image" content="http://localhost:1313/tutorials/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_17948714980623716770.png"/><meta property="article:section" content="docs" />
-<meta property="article:published_time" content="2024-04-13T13:52:01+05:30" />
-<meta property="article:modified_time" content="2024-04-13T13:52:01+05:30" /><meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/tutorials/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_17948714980623716770.png"/>
-<meta name="twitter:title" content="Example"/>
-<meta name="twitter:description" content="Hi this is example page link"/>
+<meta property="og:url" content="http://localhost:1313/tutorials/docs/rust/rust/" /><meta property="og:image" content="http://localhost:1313/tutorials/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_1964307856750880320.png"/><meta property="article:section" content="docs" />
+<meta property="article:published_time" content="2024-04-15T15:59:49+05:30" />
+<meta property="article:modified_time" content="2024-04-15T15:59:49+05:30" /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://localhost:1313/tutorials/opengraph/card-base-2_hu06b1a92291a380a0d2e0ec03dab66b2f_17642_filter_1964307856750880320.png"/>
+<meta name="twitter:title" content="Rust"/>
+<meta name="twitter:description" content="A Quick Introduction to Rust linkWelcome to our Rust tutorial! linkIn this post, we&rsquo;ll take a brief look at Rust, a language prized for its safety and performance. I&rsquo;ll walk you through a basic example to get you started.
+Why Rust? Rust is known for its ability to provide memory safety without using a garbage collector. It accomplishes this through its unique system of ownership, borrowing, and lifetimes.
+A Simple Example: Hello, World!"/>
 
     
     <script>(()=>{var t=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches,e=localStorage.getItem("theme");t&&e===null&&(localStorage.setItem("theme","dark"),document.documentElement.setAttribute("data-dark-mode","")),t&&e==="dark"&&document.documentElement.setAttribute("data-dark-mode",""),e==="dark"&&document.documentElement.setAttribute("data-dark-mode","")})()</script>
@@ -71,7 +75,7 @@
                 
                     
                         
-                        <li class="">
+                        <li class="current">
                             <a class="sidebar-root-link" href="http://localhost:1313/tutorials/docs/rust/rust/">
                                 
                                 Rust
@@ -91,8 +95,8 @@
                 
                     
                         
-                        <li class="current">
-                            <a class="sidebar-root-link" href="http://localhost:1313/tutorials/docs/example/">
+                        <li class="">
+                            <a class="sidebar-root-link" href="http://localhost:1313/tutorials/docs/rust/example/">
                                 
                                 Example
                             </a>
@@ -224,7 +228,7 @@
             
         
             <li class="breadcrumb-item text-capitalize active" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-                <span itemprop="name">Example</span>
+                <span itemprop="name">Rust</span>
                 <meta itemprop="position" content='2' />
             </li>
         
@@ -233,22 +237,30 @@
                                 
                                 <div class="row flex-xl-nowrap">
                                     
-                                    <div class="docs-toc col-xl-3  visually-hidden  d-xl-block"><toc>
+                                    <div class="docs-toc col-xl-3    d-xl-block"><toc>
     <div class="fw-bold text-uppercase mb-2">On this page</div>
-    <nav id="TableOfContents"></nav>
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#welcome-to-our-rust-tutorial">Welcome to our Rust tutorial!</a></li>
+  </ul>
+</nav>
     </toc></div>
                                     
                                     
-                                    <div class="docs-toc-mobile  visually-hidden  d-print-none d-xl-none">
+                                    <div class="docs-toc-mobile    d-print-none d-xl-none">
                                         <button id="toc-dropdown-btn" class="btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-offset="0,0" aria-expanded="false">
                                             Table of Contents
                                         </button>
-<nav id="toc-mobile"></nav></div>
-                                    <div class="docs-content col-12  mt-0">
+<nav id="toc-mobile">
+  <ul class="dropdown-menu">
+    <li><a href="#welcome-to-our-rust-tutorial">Welcome to our Rust tutorial!</a></li>
+  </ul>
+</nav></div>
+                                    <div class="docs-content col-12 col-xl-9 mt-0">
                                         <div class="mb-0 d-flex">
                                             
                                             <h1 class="content-title mb-0">
-                                                Example
+                                                Rust
                                                 
                                             </h1>
                                         </div>
@@ -257,7 +269,44 @@
                                             
     
     <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
-        <h1 id="hi-this-is-example-page">Hi this is example page <a href="#hi-this-is-example-page" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1>
+        <h1 id="a-quick-introduction-to-rust">A Quick Introduction to Rust <a href="#a-quick-introduction-to-rust" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h1><h2 id="welcome-to-our-rust-tutorial">Welcome to our Rust tutorial! <a href="#welcome-to-our-rust-tutorial" class="anchor" aria-hidden="true"><i class="material-icons align-middle">link</i></a></h2><p>In this post, we&rsquo;ll take a brief look at Rust, a language prized for its safety and performance. I&rsquo;ll walk you through a basic example to get you started.</p>
+<p><strong>Why Rust?</strong>
+Rust is known for its ability to provide memory safety without using a garbage collector. It accomplishes this through its unique system of ownership, borrowing, and lifetimes.</p>
+<p><strong>A Simple Example</strong>: Hello, World!
+Let’s start with the classic &ldquo;Hello, World!&rdquo; program in Rust.</p>
+
+
+    
+    <pre tabindex="0"><code>fn main() {
+    println!(&#34;Hello, World!&#34;);
+}</code></pre>
+<p>This program makes use of Rust’s println! macro to print text to the console. It&rsquo;s a simple demonstration of a Rust function.</p>
+<p><strong>Working with Variables</strong>
+Here’s how you can work with variables in Rust:</p>
+
+
+    
+    <pre tabindex="0"><code>fn main() {
+    let name = &#34;Vibhor&#34;;
+    println!(&#34;Hello, {}&#34;, name);
+}</code></pre>
+<p>
+
+
+
+
+
+  
+
+
+
+  
+    
+      <img src="/tutorials/image_14594976907158850376.png" alt="rust" width="640" height="360" loading="lazy">
+    
+  
+</p>
+
     </div>
 
     
@@ -267,22 +316,12 @@
                                         <div><hr class="doc-hr">
 <div id="doc-nav" class="d-print-none">
 
-	<div class="row flex-xl-nowrap ">
-	<div class="col-sm-6 pt-2 doc-next">
-		<a href="/tutorials/docs/golang/setup/">
-			<div class="card h-100 my-1">
-				<div class="card-body py-2">
-                    <p class="card-title fs-5 fw-semibold lh-base mb-0"><i class="material-icons align-middle">navigate_before</i> Setup</p>
-					
-				</div>
-			</div>
-		</a>
-        </div>
+	<div class="row flex-xl-nowrap flex-row-reverse">
 	<div class="col-sm-6 pt-2 doc-prev">
-		<a class="ms-auto" href="/tutorials/docs/golang/freshgo/">
+		<a class="ms-auto" href="/tutorials/docs/golang/setup/">
 			<div class="card h-100 my-1 text-end">
 				<div class="card-body py-2">
-                    <p class="card-title fs-5 fw-semibold lh-base mb-0">FreshGO <i class="material-icons align-middle">navigate_next</i></p>
+                    <p class="card-title fs-5 fw-semibold lh-base mb-0">Setup <i class="material-icons align-middle">navigate_next</i></p>
 					
 				</div>
 			</div>
@@ -507,7 +546,7 @@
     index.add(
             {
                 id:  2 ,
-                href: "\/tutorials\/docs\/example\/",
+                href: "\/tutorials\/docs\/rust\/example\/",
                 title: "Example",
                 description: "Hi this is example page link",
                 content: "Hi this is example page link"
@@ -516,19 +555,19 @@
     index.add(
             {
                 id:  3 ,
-                href: "\/tutorials\/docs\/golang\/freshgo\/",
-                title: "FreshGO",
-                description: "GOGOGO link",
-                content: "GOGOGO link"
+                href: "\/tutorials\/docs\/",
+                title: "Documentation",
+                description: "Docs",
+                content: ""
             }
         );
     index.add(
             {
                 id:  4 ,
-                href: "\/tutorials\/docs\/",
-                title: "Docs",
-                description: "",
-                content: ""
+                href: "\/tutorials\/docs\/golang\/freshgo\/",
+                title: "FreshGO",
+                description: "GOGOGO link",
+                content: "GOGOGO link"
             }
         );
     search.addEventListener('input', show_results, true);
