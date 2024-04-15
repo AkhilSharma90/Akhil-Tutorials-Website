@@ -1,4 +1,4 @@
-baseURL = 'https://akhilsharma90.github.io/Akhil-Tutorials-Website/docs/'
+baseURL = 'https://akhil.sh/tutorials/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 
