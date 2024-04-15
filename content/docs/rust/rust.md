@@ -38,4 +38,6 @@ fn main() {
     println!("Hello, {}", name);
 }
 ```
-![image](https://github.com/AkhilSharma90/Akhil-Tutorials-Website/assets/108602513/53d5fdc0-de00-4894-bf34-c69c35d37693)
+
+{{< figure src="https://www.akhil.sh/tutorials/images/rust" alt="Alt Text" >}}
+ ![rust.png](https://www.akhil.sh/tutorials/images/rust.png)

@@ -1,6 +1,7 @@
-baseURL = 'https://akhilsharma90.github.io/Akhil-Tutorials-Website/'
+baseURL = 'https://www.akhil.sh/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+contentDir = "content"
 
 [module]
     [[module.imports]]
