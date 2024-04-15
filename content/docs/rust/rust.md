@@ -39,4 +39,4 @@ fn main() {
 }
 ```
 
-![rust](https://i.ibb.co/hX9r3bB/image.png)
+[![JvZwTrB.md.png](https://iili.io/JvZwTrB.md.png)](https://freeimage.host/i/JvZwTrB)
