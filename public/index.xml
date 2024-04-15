@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>https://akhilsharma90.github.io/Akhil-Tutorials-Website/</link>
+    <link>https://akhil.sh/tutorials/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Apr 2024 17:39:35 +0530</lastBuildDate>
-    <atom:link href="https://akhilsharma90.github.io/Akhil-Tutorials-Website/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://akhil.sh/tutorials/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rust</title>
-      <link>https://akhilsharma90.github.io/Akhil-Tutorials-Website/docs/rust/rust/</link>
+      <link>https://akhil.sh/tutorials/docs/rust/rust/</link>
       <pubDate>Mon, 15 Apr 2024 15:59:49 +0530</pubDate>
-      <guid>https://akhilsharma90.github.io/Akhil-Tutorials-Website/docs/rust/rust/</guid>
+      <guid>https://akhil.sh/tutorials/docs/rust/rust/</guid>
       <description>A Quick Introduction to Rust linkWelcome to our Rust tutorial! linkIn this post, we&amp;rsquo;ll take a brief look at Rust, a language prized for its safety and performance. I&amp;rsquo;ll walk you through a basic example to get you started.&#xA;Why Rust? Rust is known for its ability to provide memory safety without using a garbage collector. It accomplishes this through its unique system of ownership, borrowing, and lifetimes.&#xA;A Simple Example: Hello, World!</description>
     </item>
     <item>
       <title>Setup</title>
-      <link>https://akhilsharma90.github.io/Akhil-Tutorials-Website/docs/golang/setup/</link>
+      <link>https://akhil.sh/tutorials/docs/golang/setup/</link>
       <pubDate>Mon, 15 Apr 2024 17:39:26 +0530</pubDate>
-      <guid>https://akhilsharma90.github.io/Akhil-Tutorials-Website/docs/golang/setup/</guid>
+      <guid>https://akhil.sh/tutorials/docs/golang/setup/</guid>
       <description>Setup link</description>
     </item>
     <item>
       <title>Example</title>
-      <link>https://akhilsharma90.github.io/Akhil-Tutorials-Website/docs/rust/example/</link>
+      <link>https://akhil.sh/tutorials/docs/rust/example/</link>
       <pubDate>Sat, 13 Apr 2024 13:52:01 +0530</pubDate>
-      <guid>https://akhilsharma90.github.io/Akhil-Tutorials-Website/docs/rust/example/</guid>
+      <guid>https://akhil.sh/tutorials/docs/rust/example/</guid>
       <description>Hi this is example page link</description>
     </item>
     <item>
       <title>FreshGO</title>
-      <link>https://akhilsharma90.github.io/Akhil-Tutorials-Website/docs/golang/freshgo/</link>
+      <link>https://akhil.sh/tutorials/docs/golang/freshgo/</link>
       <pubDate>Mon, 15 Apr 2024 17:39:35 +0530</pubDate>
-      <guid>https://akhilsharma90.github.io/Akhil-Tutorials-Website/docs/golang/freshgo/</guid>
+      <guid>https://akhil.sh/tutorials/docs/golang/freshgo/</guid>
       <description>GOGOGO link</description>
     </item>
   </channel>
