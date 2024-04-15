@@ -38,6 +38,5 @@ fn main() {
     println!("Hello, {}", name);
 }
 ```
-
-{{< figure src="https://www.akhil.sh/tutorials/images/rust" alt="Alt Text" >}}
- ![rust.png](https://www.akhil.sh/tutorials/images/rust.png)
+![rust.png](/images/rust.png)
+![rust.png](https://www.akhil.sh/images/rust.png)
