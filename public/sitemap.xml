@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.akhil.sh/tutorials/docs/rust/rust/</loc>
+    <loc>https://akhilsharma90.github.io/Akhil-Tutorials-Website/docs/rust/rust/</loc>
     <lastmod>2024-04-15T15:59:49+05:30</lastmod>
   </url><url>
-    <loc>https://www.akhil.sh/tutorials/docs/golang/setup/</loc>
+    <loc>https://akhilsharma90.github.io/Akhil-Tutorials-Website/docs/golang/setup/</loc>
     <lastmod>2024-04-15T17:39:26+05:30</lastmod>
   </url><url>
-    <loc>https://www.akhil.sh/tutorials/docs/rust/example/</loc>
+    <loc>https://akhilsharma90.github.io/Akhil-Tutorials-Website/docs/rust/example/</loc>
     <lastmod>2024-04-13T13:52:01+05:30</lastmod>
   </url><url>
-    <loc>https://www.akhil.sh/tutorials/docs/</loc>
+    <loc>https://akhilsharma90.github.io/Akhil-Tutorials-Website/docs/</loc>
     <lastmod>2024-04-15T17:39:35+05:30</lastmod>
   </url><url>
-    <loc>https://www.akhil.sh/tutorials/docs/golang/freshgo/</loc>
+    <loc>https://akhilsharma90.github.io/Akhil-Tutorials-Website/docs/golang/freshgo/</loc>
     <lastmod>2024-04-15T17:39:35+05:30</lastmod>
   </url><url>
-    <loc>https://www.akhil.sh/tutorials/</loc>
+    <loc>https://akhilsharma90.github.io/Akhil-Tutorials-Website/</loc>
     <lastmod>2024-04-15T17:39:35+05:30</lastmod>
   </url><url>
-    <loc>https://www.akhil.sh/tutorials/categories/</loc>
+    <loc>https://akhilsharma90.github.io/Akhil-Tutorials-Website/categories/</loc>
   </url><url>
-    <loc>https://www.akhil.sh/tutorials/tags/</loc>
+    <loc>https://akhilsharma90.github.io/Akhil-Tutorials-Website/tags/</loc>
   </url>
 </urlset>

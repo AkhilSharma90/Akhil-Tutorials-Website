@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on My New Hugo Site</title>
-    <link>https://www.akhil.sh/tutorials/categories/</link>
+    <link>https://akhilsharma90.github.io/Akhil-Tutorials-Website/categories/</link>
     <description>Recent content in Categories on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="https://www.akhil.sh/tutorials/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://akhilsharma90.github.io/Akhil-Tutorials-Website/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
