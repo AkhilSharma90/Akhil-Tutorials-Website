@@ -1,6 +1,6 @@
 ---
 title: "Golang"
 description: "Best Golang blogs out there."
-icon: "api"
+icon: "folder"
 draft: false
 ---

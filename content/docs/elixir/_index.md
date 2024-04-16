@@ -1,7 +1,7 @@
 ---
 title: "Elixir"
 description: "Best elixir blogs out there."
-icon: "api"
+icon: "code"
 draft: false
 ---
 

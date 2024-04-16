@@ -8,6 +8,13 @@
     <language>en-us</language>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Cheatsheets</title>
+      <link>//localhost:1313/docs/cheatsheets/cheatsheets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/cheatsheets/cheatsheets/</guid>
+      <description>Starting here link</description>
+    </item>
+    <item>
       <title>Client</title>
       <link>//localhost:1313/docs/technical-architecture/technical-architecture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -33,6 +40,13 @@
       <link>//localhost:1313/docs/golang/golang/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/docs/golang/golang/</guid>
+      <description>Starting here link</description>
+    </item>
+    <item>
+      <title>Hacker</title>
+      <link>//localhost:1313/docs/hacking/hacking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/hacking/hacking/</guid>
       <description>Starting here link</description>
     </item>
     <item>

@@ -4,42 +4,68 @@
   <url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>
+    <loc>//localhost:1313/docs/cheatsheets/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/cheatsheets/cheatsheets/</loc>
+  </url><url>
     <loc>//localhost:1313/docs/technical-architecture/technical-architecture/</loc>
+    <lastmod>2024-04-16T21:18:00+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/</loc>
+    <lastmod>2024-04-16T21:18:00+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/elixir/</loc>
+    <lastmod>2024-04-16T21:18:00+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/elixir/elixir/</loc>
+    <lastmod>2024-04-16T21:18:00+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/full-stack-projects/full-stack-projects/</loc>
+    <lastmod>2024-04-16T21:18:00+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/full-stack-projects/</loc>
+    <lastmod>2024-04-16T21:18:00+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/golang/</loc>
+    <lastmod>2024-04-16T21:18:00+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/golang/golang/</loc>
+    <lastmod>2024-04-16T21:18:00+05:30</lastmod>
+  </url><url>
+    <loc>//localhost:1313/docs/hacking/hacking/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/hacking/</loc>
   </url><url>
     <loc>//localhost:1313/docs/haskell/</loc>
+    <lastmod>2024-04-16T21:18:00+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/haskell/haskell/</loc>
+    <lastmod>2024-04-16T21:18:00+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/</loc>
+    <lastmod>2024-04-16T21:18:00+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/python/</loc>
+    <lastmod>2024-04-16T21:18:00+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/python/python/</loc>
+    <lastmod>2024-04-16T21:18:00+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/rust/</loc>
+    <lastmod>2024-04-16T21:18:00+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/rust/rust/</loc>
+    <lastmod>2024-04-16T21:18:00+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/system-design/system-design/</loc>
+    <lastmod>2024-04-16T21:18:00+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/docs/system-design/</loc>
+    <lastmod>2024-04-16T21:18:00+05:30</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
   </url><url>
     <loc>//localhost:1313/docs/technical-architecture/</loc>
+    <lastmod>2024-04-16T21:18:00+05:30</lastmod>
   </url>
 </urlset>

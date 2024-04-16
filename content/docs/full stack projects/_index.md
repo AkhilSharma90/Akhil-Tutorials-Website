@@ -1,6 +1,6 @@
 ---
 title: "Full-Stack Projects"
 description: "All full stack projects handout"
-icon: "api"
+icon: "edit"
 draft: false
 ---

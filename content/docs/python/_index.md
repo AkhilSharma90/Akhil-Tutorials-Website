@@ -1,6 +1,6 @@
 ---
 title: "Python"
 description: "Best Python blogs out there."
-icon: "api"
+icon: "code"
 draft: false
 ---
