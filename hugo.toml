@@ -1,4 +1,3 @@
-baseURL = 'https://akhil.sh/tutorials/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 contentDir = "content"
