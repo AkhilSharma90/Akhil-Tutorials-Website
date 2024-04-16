@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introduction on My New Hugo Site</title>
-    <link>/docs/introduction/</link>
+    <link>//localhost:1313/docs/introduction/</link>
     <description>Recent content in Introduction on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 25 Aug 2023 23:36:29 +0100</lastBuildDate>
-    <atom:link href="/docs/introduction/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/docs/introduction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction</title>
-      <link>/docs/introduction/introduction/</link>
+      <link>//localhost:1313/docs/introduction/introduction/</link>
       <pubDate>Fri, 25 Aug 2023 23:36:29 +0100</pubDate>
-      <guid>/docs/introduction/introduction/</guid>
+      <guid>//localhost:1313/docs/introduction/introduction/</guid>
       <description>Hello link</description>
     </item>
     <item>
       <title>Communty</title>
-      <link>/docs/introduction/community/</link>
+      <link>//localhost:1313/docs/introduction/community/</link>
       <pubDate>Fri, 25 Aug 2023 23:36:29 +0100</pubDate>
-      <guid>/docs/introduction/community/</guid>
+      <guid>//localhost:1313/docs/introduction/community/</guid>
       <description>Community linkEveryone is welcome to join our community</description>
     </item>
   </channel>

@@ -2,39 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Apr 2024 15:59:49 +0530</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Rust</title>
-      <link>/docs/rust/</link>
-      <pubDate>Mon, 15 Apr 2024 15:59:49 +0530</pubDate>
-      <guid>/docs/rust/</guid>
-      <description>A Quick Introduction to Rust linkWelcome to our Rust tutorial! linkIn this post, we&amp;rsquo;ll take a brief look at Rust, a language prized for its safety and performance. I&amp;rsquo;ll walk you through a basic example to get you started.&#xA;Why Rust? Rust is known for its ability to provide memory safety without using a garbage collector. It accomplishes this through its unique system of ownership, borrowing, and lifetimes.&#xA;A Simple Example: Hello, World!</description>
+      <title>Client</title>
+      <link>//localhost:1313/docs/technical-architecture/technical-architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/technical-architecture/technical-architecture/</guid>
+      <description>Starting here link</description>
     </item>
     <item>
-      <title>Introduction</title>
-      <link>/docs/introduction/introduction/</link>
-      <pubDate>Fri, 25 Aug 2023 23:36:29 +0100</pubDate>
-      <guid>/docs/introduction/introduction/</guid>
-      <description>Hello link</description>
+      <title>Elixir</title>
+      <link>//localhost:1313/docs/elixir/elixir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/elixir/elixir/</guid>
+      <description>Starting here link</description>
     </item>
     <item>
-      <title>Communty</title>
-      <link>/docs/introduction/community/</link>
-      <pubDate>Fri, 25 Aug 2023 23:36:29 +0100</pubDate>
-      <guid>/docs/introduction/community/</guid>
-      <description>Community linkEveryone is welcome to join our community</description>
+      <title>Full-Stack projects</title>
+      <link>//localhost:1313/docs/full-stack-projects/full-stack-projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/full-stack-projects/full-stack-projects/</guid>
+      <description>Starting here link</description>
+    </item>
+    <item>
+      <title>Golang</title>
+      <link>//localhost:1313/docs/golang/golang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/golang/golang/</guid>
+      <description>Starting here link</description>
+    </item>
+    <item>
+      <title>Haskell</title>
+      <link>//localhost:1313/docs/haskell/haskell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/haskell/haskell/</guid>
+      <description>Starting here link</description>
     </item>
     <item>
       <title>Python Client</title>
-      <link>/docs/demo-1/python/</link>
+      <link>//localhost:1313/docs/python/python/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>/docs/demo-1/python/</guid>
-      <description>Python link</description>
+      <guid>//localhost:1313/docs/python/python/</guid>
+      <description>Starting here link</description>
+    </item>
+    <item>
+      <title>Rust</title>
+      <link>//localhost:1313/docs/rust/rust/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/rust/rust/</guid>
+      <description>Starting here link</description>
+    </item>
+    <item>
+      <title>System design</title>
+      <link>//localhost:1313/docs/system-design/system-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/docs/system-design/system-design/</guid>
+      <description>Starting here link</description>
     </item>
   </channel>
 </rss>

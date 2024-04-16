@@ -2,30 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/docs/rust/</loc>
-    <lastmod>2024-04-15T15:59:49+05:30</lastmod>
+    <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>/docs/introduction/introduction/</loc>
-    <lastmod>2023-08-25T23:36:29+01:00</lastmod>
+    <loc>//localhost:1313/docs/technical-architecture/technical-architecture/</loc>
   </url><url>
-    <loc>/docs/introduction/community/</loc>
-    <lastmod>2023-08-25T23:36:29+01:00</lastmod>
+    <loc>//localhost:1313/docs/</loc>
   </url><url>
-    <loc>/docs/</loc>
-    <lastmod>2024-04-15T15:59:49+05:30</lastmod>
+    <loc>//localhost:1313/docs/elixir/</loc>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2024-04-15T15:59:49+05:30</lastmod>
+    <loc>//localhost:1313/docs/elixir/elixir/</loc>
   </url><url>
-    <loc>/docs/introduction/</loc>
-    <lastmod>2023-08-25T23:36:29+01:00</lastmod>
+    <loc>//localhost:1313/docs/full-stack-projects/full-stack-projects/</loc>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>//localhost:1313/docs/full-stack-projects/</loc>
   </url><url>
-    <loc>/docs/demo-1/</loc>
+    <loc>//localhost:1313/docs/golang/</loc>
   </url><url>
-    <loc>/docs/demo-1/python/</loc>
+    <loc>//localhost:1313/docs/golang/golang/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>//localhost:1313/docs/haskell/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/haskell/haskell/</loc>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/python/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/python/python/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/rust/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/rust/rust/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/system-design/system-design/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/system-design/</loc>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+  </url><url>
+    <loc>//localhost:1313/docs/technical-architecture/</loc>
   </url>
 </urlset>
