@@ -10,14 +10,14 @@ contentDir = "content"
     [[module.imports]]
         path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
         disable = false
-    [[module.mounts]]
-        source = 'static/images'
-        target = 'assets/images'
 
 [params]
     [params.docs] # Parameters for the /docs 'template'
-        # pathName        = "docs"                            # path name for documentation site | default "docs"
+        pathName        = "docs"                            # path name for documentation site | default "docs"
 
         darkMode        = true                                # enable dark mode option? default false
-
+        
+        repoURL         = "https://github.com/AkhilSharma90/Akhil-Tutorials-Website"  # Git repository URL for your site [support for GitHub, GitLab, and BitBucket]
+        
+        repoBranch      = "main"
     

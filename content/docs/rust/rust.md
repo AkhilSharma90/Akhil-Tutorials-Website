@@ -43,3 +43,4 @@ fn main() {
 ![rust.png](/tutorials/images/rust.png)
 ![rust.png](/tutorials/static/images/rust.png)
 ![Alt Text](https://akhilsharma90.github.io/Akhil-Tutorials-Website/images/rust.png)
+![rust.png](rust.png)
