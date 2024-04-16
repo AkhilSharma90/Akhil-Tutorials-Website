@@ -85,32 +85,45 @@ A Simple Example: Hello, World!"/>
                     
                 
                     
-                        
-                        <li class="">
-                            <a class="sidebar-root-link" href="/docs/golang/newdata/setup/">
-                                
-                                Setup
-                            </a>
+                    
+                        <li class="sidebar-dropdown no-icon ">
+                            <button class="btn">
+                                Introduction
+                            </button>
+                            <div class="sidebar-submenu ">
+                                <ul>
+                                    
+                                        
+                                        
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/docs/introduction/introduction/">Introduction</a></li>
+                                        
+                                    
+                                        
+                                        
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/docs/introduction/community/">Communty</a></li>
+                                        
+                                    
+                                </ul>
+                            </div>
                         </li>
                     
                 
                     
-                        
-                        <li class="">
-                            <a class="sidebar-root-link" href="/docs/rust/example/">
-                                
-                                Example
-                            </a>
-                        </li>
                     
-                
-                    
-                        
-                        <li class="">
-                            <a class="sidebar-root-link" href="/docs/golang/freshgo/">
-                                
-                                FreshGO
-                            </a>
+                        <li class="sidebar-dropdown no-icon ">
+                            <button class="btn">
+                                Client Libraries
+                            </button>
+                            <div class="sidebar-submenu ">
+                                <ul>
+                                    
+                                        
+                                        
+                                            <li class=" no-icon"><a class="sidebar-nested-link" href="/docs/demo-1/python/">Python Client</a></li>
+                                        
+                                    
+                                </ul>
+                            </div>
                         </li>
                     
                 
@@ -302,69 +315,9 @@ Here’s how you can work with variables in Rust:</p>
 
 
   
-
-
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-
-  
     
       <img src="/rust_7074310121958790709.png" alt="Alt Text" width="2560" height="1440" loading="lazy">
     
-  
-
-
-
-
-
-
-
-  
-
-
-
   
 </p>
 
@@ -379,10 +332,10 @@ Here’s how you can work with variables in Rust:</p>
 
 	<div class="row flex-xl-nowrap flex-row-reverse">
 	<div class="col-sm-6 pt-2 doc-prev">
-		<a class="ms-auto" href="/docs/golang/newdata/setup/">
+		<a class="ms-auto" href="/docs/introduction/introduction/">
 			<div class="card h-100 my-1 text-end">
 				<div class="card-body py-2">
-                    <p class="card-title fs-5 fw-semibold lh-base mb-0">Setup <i class="material-icons align-middle">navigate_next</i></p>
+                    <p class="card-title fs-5 fw-semibold lh-base mb-0">Introduction <i class="material-icons align-middle">navigate_next</i></p>
 					
 				</div>
 			</div>
@@ -582,6 +535,20 @@ Here’s how you can work with variables in Rust:</p>
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
     
@@ -600,37 +567,55 @@ Here’s how you can work with variables in Rust:</p>
     index.add(
             {
                 id:  1 ,
-                href: "\/docs\/golang\/newdata\/setup\/",
-                title: "Setup",
-                description: "Setup link",
-                content: "Setup link"
+                href: "\/docs\/introduction\/introduction\/",
+                title: "Introduction",
+                description: "Hello link",
+                content: "Hello link"
             }
         );
     index.add(
             {
                 id:  2 ,
-                href: "\/docs\/rust\/example\/",
-                title: "Example",
-                description: "Hi this is example page link",
-                content: "Hi this is example page link"
+                href: "\/docs\/introduction\/community\/",
+                title: "Communty",
+                description: "Community linkEveryone is welcome to join our community",
+                content: "Community linkEveryone is welcome to join our community\n"
             }
         );
     index.add(
             {
                 id:  3 ,
                 href: "\/docs\/",
-                title: "Documentation",
-                description: "Docs",
+                title: "Docs",
+                description: "",
                 content: ""
             }
         );
     index.add(
             {
                 id:  4 ,
-                href: "\/docs\/golang\/freshgo\/",
-                title: "FreshGO",
-                description: "GOGOGO link",
-                content: "GOGOGO link"
+                href: "\/docs\/introduction\/",
+                title: "Introduction",
+                description: "General information about the project",
+                content: ""
+            }
+        );
+    index.add(
+            {
+                id:  5 ,
+                href: "\/docs\/demo-1\/",
+                title: "Client Libraries",
+                description: "How to make folder tut? lol",
+                content: ""
+            }
+        );
+    index.add(
+            {
+                id:  6 ,
+                href: "\/docs\/demo-1\/python\/",
+                title: "Python Client",
+                description: "How to install and use Python library",
+                content: "Python link"
             }
         );
     search.addEventListener('input', show_results, true);

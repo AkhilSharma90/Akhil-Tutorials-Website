@@ -6,35 +6,35 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Apr 2024 17:39:35 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 15 Apr 2024 15:59:49 +0530</lastBuildDate>
     <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rust</title>
-      <link>/docs/rust/rust/</link>
+      <link>/docs/rust/</link>
       <pubDate>Mon, 15 Apr 2024 15:59:49 +0530</pubDate>
-      <guid>/docs/rust/rust/</guid>
+      <guid>/docs/rust/</guid>
       <description>A Quick Introduction to Rust linkWelcome to our Rust tutorial! linkIn this post, we&amp;rsquo;ll take a brief look at Rust, a language prized for its safety and performance. I&amp;rsquo;ll walk you through a basic example to get you started.&#xA;Why Rust? Rust is known for its ability to provide memory safety without using a garbage collector. It accomplishes this through its unique system of ownership, borrowing, and lifetimes.&#xA;A Simple Example: Hello, World!</description>
     </item>
     <item>
-      <title>Setup</title>
-      <link>/docs/golang/newdata/setup/</link>
-      <pubDate>Mon, 15 Apr 2024 17:39:26 +0530</pubDate>
-      <guid>/docs/golang/newdata/setup/</guid>
-      <description>Setup link</description>
+      <title>Introduction</title>
+      <link>/docs/introduction/introduction/</link>
+      <pubDate>Fri, 25 Aug 2023 23:36:29 +0100</pubDate>
+      <guid>/docs/introduction/introduction/</guid>
+      <description>Hello link</description>
     </item>
     <item>
-      <title>Example</title>
-      <link>/docs/rust/example/</link>
-      <pubDate>Sat, 13 Apr 2024 13:52:01 +0530</pubDate>
-      <guid>/docs/rust/example/</guid>
-      <description>Hi this is example page link</description>
+      <title>Communty</title>
+      <link>/docs/introduction/community/</link>
+      <pubDate>Fri, 25 Aug 2023 23:36:29 +0100</pubDate>
+      <guid>/docs/introduction/community/</guid>
+      <description>Community linkEveryone is welcome to join our community</description>
     </item>
     <item>
-      <title>FreshGO</title>
-      <link>/docs/golang/freshgo/</link>
-      <pubDate>Mon, 15 Apr 2024 17:39:35 +0530</pubDate>
-      <guid>/docs/golang/freshgo/</guid>
-      <description>GOGOGO link</description>
+      <title>Python Client</title>
+      <link>/docs/demo-1/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/docs/demo-1/python/</guid>
+      <description>Python link</description>
     </item>
   </channel>
 </rss>
