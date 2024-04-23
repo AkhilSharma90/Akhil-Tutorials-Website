@@ -98,3 +98,7 @@ enableGitInfo = true # N.B. .GitInfo does not currently function with git submod
     url = "docs/"
     identifier = "docs"
     weight = 10
+
+[services]
+[services.googleAnalytics]
+    id = "G-5P6BXWDX4G"
