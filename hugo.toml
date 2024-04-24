@@ -1,6 +1,6 @@
 baseURL = 'https://akhil.sh/tutorials'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Tutorials'
 contentDir = "content"
 enableEmoji = true
 enableGitInfo = true # N.B. .GitInfo does not currently function with git submodule content directories
@@ -49,7 +49,7 @@ enableGitInfo = true # N.B. .GitInfo does not currently function with git submod
         
 
     [params.docs] # Parameters for the /docs 'template'
-        title           = "Lotus Docs Example Site"           # default html title for documentation pages/sections
+        # title           = ""           # default html title for documentation pages/sections
 
         # pathName        = "docs"                            # path name for documentation site | default "docs"
 

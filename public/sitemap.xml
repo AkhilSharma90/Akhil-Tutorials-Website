@@ -46,9 +46,6 @@
     <loc>http://localhost:1313/tutorials/docs/haskell/haskell/</loc>
     <lastmod>2024-04-16T21:18:00+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tutorials/</loc>
-    <lastmod>2024-04-16T21:53:40+05:30</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tutorials/docs/python/</loc>
     <lastmod>2024-04-16T21:53:40+05:30</lastmod>
   </url><url>
@@ -71,5 +68,8 @@
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/technical-architecture/</loc>
     <lastmod>2024-04-16T21:18:00+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/</loc>
+    <lastmod>2024-04-16T21:53:40+05:30</lastmod>
   </url>
 </urlset>
