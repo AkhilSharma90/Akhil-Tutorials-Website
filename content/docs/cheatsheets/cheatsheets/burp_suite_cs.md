@@ -1,8 +1,8 @@
 ---
 title: Burp Suite Cheat sheet
 date: 2023-12-18 15:01:35 +0300
-authors: [admin]
 image: 'https://wallpapers.com/images/high/pixel-nature-vg7rst9sfz93h8cz.webp'
+draft: false
 ---
 ### Tool Specific Hotkeys
 

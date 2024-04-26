@@ -1,7 +1,7 @@
 ---
 title: Metasploit cheat sheet
 date: 2023-12-18 15:01:35 +0300
-authors: [admin]
+draft: false
 image: 'https://wallpapercrafter.com/desktop1/505544-pixel-art-digital-art-pixelated-pixels-nature.jpg'
 ---
 

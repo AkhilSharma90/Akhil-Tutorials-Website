@@ -1,8 +1,8 @@
 ---
 title: Wireshark Cheat sheet
 date: 2023-12-18 15:01:35 +0300
-authors: [admin]
 image: 'https://wallpaperaccess.com/full/5927932.jpg'
+draft: false
 ---
 
 Protocols - ether, fddi, ip, arp, rarp, decnet, lat, sca, moprc, mopdl, tcp and udp

@@ -1,7 +1,7 @@
 ---
 title: Nmap cheatsheet
 date: 2023-12-18 15:01:35 +0300
-authors: [admin]
+draft: false
 image: 'https://wallpapercave.com/wp/wp9252537.jpg'
 ---
 ### Target Specification

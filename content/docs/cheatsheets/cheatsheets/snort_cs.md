@@ -1,7 +1,7 @@
 ---
 title: Snort cheat sheet
 date: 2023-12-18 15:01:35 +0300
-authors: [admin]
+draft: false
 image: 'https://wallpapercrafter.com/desktop/161536-pixel-art-pixelated-nature-landscape-pixels-digital-art-trees-cityscape-night-stars-water-blue-background-reflection.jpg'
 ---
 
