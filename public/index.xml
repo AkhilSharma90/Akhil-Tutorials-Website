@@ -8,11 +8,74 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cheatsheets</title>
-      <link>http://localhost:1313/tutorials/docs/cheatsheets/cheatsheets/</link>
+      <title>OSINT ( Google operators list )</title>
+      <link>http://localhost:1313/tutorials/docs/cheatsheets/osint_cs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/cheatsheets/cheatsheets/</guid>
-      <description>Starting here link</description>
+      <guid>http://localhost:1313/tutorials/docs/cheatsheets/osint_cs/</guid>
+      <description>Search operator What it does Example “ ” Search for results that mention a word or phrase. https://www.google.com/search?q=%22steve+jobs%22 OR Search for results related to X or Y. https://www.google.com/search?&amp;q=jobs+OR+gates Same as OR: AND Search for results related to X and Y. https://www.google.com/search?&amp;q=jobs+AND+gates - Search for results that don’t mention a word or phrase. https://www.google.com/search?q=jobs+-apple * Wildcard matching any word or phrase. https://www.google.com/search?q=%22steve+*+apple%22 ( ) Group multiple searches. https://www.google.com/search?q=%28ipad+OR+iphone%29+apple define: Search for the definition of a word or phrase.</description>
+    </item>
+    <item>
+      <title>Burp Suite Cheat sheet</title>
+      <link>http://localhost:1313/tutorials/docs/cheatsheets/burp_suite_cs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/cheatsheets/burp_suite_cs/</guid>
+      <description>Tool Specific Hotkeys link Ctrl-F: Forward Request (Proxy) Ctrl-T: Toggle Proxy Intercept On/Off Ctrl-Space: Send Request (Repeater) Double-click TAB: Rename a tab Navigational Hotkeys link Ctrl-Shift-T: Target Tab Ctrl-Shift-P: Proxy Tab Ctrl-Shift-R: Repeater Tab Ctrl-Shift-I: Intruder Tab Ctrl-Shift-O: Project Options Tab Ctrl-Shift-D: Dashboard Tab Ctrl-Equal: Next tab Ctrl-Minus: Previous tab Editor Encoding / Decoding Hotkeys link Ctrl-B: Base64 selection Ctrl-Shift-B: Base64 decode selection Ctrl-H: Replace with HTML Entities (key characters only) Ctrl-Shift-H: Replace HTML entities with characters Ctrl-U: URL encode selection (key characters only) Ctrl-Shift-U: URL decode selection Global Hotkeys link Ctrl-I: Send to Intruder Ctrl-R: Send to Repeater Ctrl-S: Search (places cursor in search field) Ctrl-.</description>
+    </item>
+    <item>
+      <title>John the ripper Cheat Sheet</title>
+      <link>http://localhost:1313/tutorials/docs/cheatsheets/john_the_ripper_cs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/cheatsheets/john_the_ripper_cs/</guid>
+      <description>John Installation link git clone https://github.com/openwall/john -b bleeding-jumbo /data/tools/john ; cd /data/tools/john/src/ ; ./configure &amp;amp;&amp;amp; make -s clean &amp;amp;&amp;amp; make -sj4 ; cd ~ John Modes link Wordlist mode (dictionary attack) - john --wordlist=&amp;lt;wordlist&amp;gt; &amp;lt;hash&amp;gt; Mangling rules mode - john --wordlist=&amp;lt;wordlist&amp;gt; --rules:&amp;lt;rulename&amp;gt; &amp;lt;hash&amp;gt; Incremental mode - john --incremental &amp;lt;hash&amp;gt; External mode - john --external:&amp;lt;rulename&amp;gt; &amp;lt;hash&amp;gt; Loopback mode (use .pot files) - john --loopback &amp;lt;hash&amp;gt; Mask mode - john --mask=?1?1?1?1?1?1?1?1 -1=[A-Z] -min-len=8 &amp;lt;hash&amp;gt; Markov mode - calc_stat &amp;lt;wordlist&amp;gt; markovstats john -markov:200 -max-len:12 --mkv-stats=markovstats &amp;lt;hash&amp;gt; Prince mode - john --prince=&amp;lt;wordlist&amp;gt; &amp;lt;hash&amp;gt; Refer the link for more examples.</description>
+    </item>
+    <item>
+      <title>Metasploit cheat sheet</title>
+      <link>http://localhost:1313/tutorials/docs/cheatsheets/metasploit_cs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/cheatsheets/metasploit_cs/</guid>
+      <description>Basic Metasploit Commands&#xA;Search for a Module&#xA;msf &amp;gt; search [regex]&#xA;Specify an Exploit&#xA;msf &amp;gt; use exploit/[ExploitPath]&#xA;Set a Payload&#xA;msf &amp;gt; set PAYLOAD [PayloadPath]&#xA;Show Options for Current Modules&#xA;msf &amp;gt; show options&#xA;Set Options&#xA;msf &amp;gt; set [Option] [Value]&#xA;Start Exploit&#xA;msf &amp;gt; exploit&#xA;Useful Auxiliary Modules&#xA;Port Scanner msf &amp;gt; use auxiliary/scanner/portscan/tcp&#xD;msf &amp;gt; set RHOSTS 10.10.10.0/24&#xD;msf &amp;gt; run DNS Enumeration msf &amp;gt; use auxiliary/gather/dns_enum&#xD;msf &amp;gt; set DOMAIN target.</description>
+    </item>
+    <item>
+      <title>Nmap cheat sheet</title>
+      <link>http://localhost:1313/tutorials/docs/cheatsheets/nmap_cs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/cheatsheets/nmap_cs/</guid>
+      <description>Target Specification link nmap [target] - Scan a single IP or hostname. nmap [target1,target2,etc.] - Scan multiple targets. nmap -iL [list.txt] - Scan targets from a list in a file. nmap [range of IP addresses] - Scan a range of IPs. nmap [IP address/cidr] - Scan a network using CIDR notation. nmap -iR [number] - Scan random hosts. nmap [targets] --exclude [targets] - Exclude listed hosts. nmap [targets] --excludefile [list.txt] - Exclude targets from a file.</description>
+    </item>
+    <item>
+      <title>Snort cheat sheet</title>
+      <link>http://localhost:1313/tutorials/docs/cheatsheets/snort_cs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/cheatsheets/snort_cs/</guid>
+      <description>Sniffer Mode link v: Verbose mode, shows packet headers. e: Display link layer headers. d: Show application layer data (payload). x: Display packets with headers in hexadecimal format. q: Run Snort in quiet mode, less output to the console. Packet Logger Mode link r: Read and process packets from a file (playback). l &amp;lt;directory&amp;gt;: Log the packets to a directory. k &amp;lt;mode&amp;gt;: Keep data link layer information. &amp;lt;mode&amp;gt; can be none, normal, or strict.</description>
+    </item>
+    <item>
+      <title>SQL Injection cheat sheet</title>
+      <link>http://localhost:1313/tutorials/docs/cheatsheets/sql_injection_cs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/cheatsheets/sql_injection_cs/</guid>
+      <description>MySQL SQL Injection link Command SQL Query Explanation Version SELECT @@version Retrieves the version of the MySQL server. Comments SELECT 1; #comment&#xA;SELECT /comment/1; Demonstrates how to use comments in SQL queries. Single-line and multi-line comments are shown. Current User SELECT user();&#xA;SELECT system_user(); Retrieves the current MySQL user and the system user that the MySQL server is running as. List Users SELECT user FROM mysql.user; — priv Lists all users in the MySQL database.</description>
+    </item>
+    <item>
+      <title>SSL/TLS Vulnerability Cheat Sheet</title>
+      <link>http://localhost:1313/tutorials/docs/cheatsheets/ssl_tls_vulnerability_cs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/cheatsheets/ssl_tls_vulnerability_cs/</guid>
+      <description>Vulnerable SSL/TLS Versions&#xA;Issue Severity Attack pre-requisites Impact Description References SSLv2 Medium MITM Exposure and tampering in real-time First released version of SSL that does not protect against MITM. Also susceptible to Bleichenbacher &amp;lsquo;98 (see BB98) attack to encrypt and decrypt data with server&amp;rsquo;s RSA private key. SSLv3 Low BEASTly, CBC Decryption of data POODLE attack, allows decryption of data through a padding oracle attack. BEAST, allows decryption of data through a padding oracle attack.</description>
+    </item>
+    <item>
+      <title>TCPdump Cheatsheet</title>
+      <link>http://localhost:1313/tutorials/docs/cheatsheets/tcpdump_cs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/cheatsheets/tcpdump_cs/</guid>
+      <description>Command link Command Description -a Converts network and broadcast addresses to names. -A Displays each packet (excluding its link level header) in ASCII. -e Prints the link-level header on each dump line. -E Decrypt IPSEC traffic by providing an encryption key. -n Avoids converting addresses (like host addresses) to names. -N Does not print domain name qualification of host names. -S Prints absolute TCP sequence numbers. -t Omits printing of timestamp on each dump line.</description>
+    </item>
+    <item>
+      <title>Wireshark Cheat sheet</title>
+      <link>http://localhost:1313/tutorials/docs/cheatsheets/wireshark_cs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/cheatsheets/wireshark_cs/</guid>
+      <description>Protocols - ether, fddi, ip, arp, rarp, decnet, lat, sca, moprc, mopdl, tcp and udp linkWireshark Capturing Modes link Promiscuous mode Sets interface to capture all packets on a network segment to which it is associated to Monitor mode setup the Wireless interface to capture all traffic it can receive (Unix/Linux only) Filter Types link Capture filter Filter packets during capture Display Filter Hide Packets from a capture display Capture Filter Syntax link Syntax protocol direction hosts value Logical operator Expressions Example tcp src 192.</description>
     </item>
     <item>
       <title>Client</title>

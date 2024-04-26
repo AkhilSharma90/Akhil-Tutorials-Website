@@ -99,6 +99,11 @@
                                     
                                         
                                         
+                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/tutorials/docs/cheatsheets/burp_suite_cs/">Burp Suite Cheat sheet</a></li>
+                                        
+                                    
+                                        
+                                        
                                             <li class="current "><a class="sidebar-nested-link" href="http://localhost:1313/tutorials/docs/cheatsheets/cheatsheets/">Cheatsheets</a></li>
                                         
                                     
@@ -516,7 +521,18 @@
                                         <div><hr class="doc-hr">
 <div id="doc-nav" class="d-print-none">
 
-	<div class="row flex-xl-nowrap flex-row-reverse">
+	<div class="row flex-xl-nowrap ">
+	<div class="col-sm-6 pt-2 doc-next">
+		<a href="/tutorials/docs/cheatsheets/burp_suite_cs/">
+			<div class="card h-100 my-1">
+				<div class="card-body py-2">
+                    <p class="card-title fs-5 fw-semibold lh-base mb-0"><i class="material-icons align-middle">navigate_before</i> Burp Suite Cheat sheet</p>
+					<p class="card-text ms-2"></p>
+					
+				</div>
+			</div>
+		</a>
+        </div>
 	<div class="col-sm-6 pt-2 doc-prev">
 		<a class="ms-auto" href="/tutorials/docs/technical-architecture/technical-architecture/">
 			<div class="card h-100 my-1 text-end">
@@ -834,6 +850,13 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
 
 
     
@@ -843,6 +866,15 @@
     index.add(
             {
                 id:  0 ,
+                href: "\/tutorials\/docs\/cheatsheets\/burp_suite_cs\/",
+                title: "Burp Suite Cheat sheet",
+                description: "Tool Specific Hotkeys link Ctrl-F: Forward Request (Proxy) Ctrl-T: Toggle Proxy Intercept On/Off Ctrl-Space: Send Request (Repeater) Double-click TAB: Rename a tab Navigational Hotkeys link Ctrl-Shift-T: Target Tab Ctrl-Shift-P: Proxy Tab Ctrl-Shift-R: Repeater Tab Ctrl-Shift-I: Intruder Tab Ctrl-Shift-O: Project Options Tab Ctrl-Shift-D: Dashboard Tab Ctrl-Equal: Next tab Ctrl-Minus: Previous tab Editor Encoding / Decoding Hotkeys link Ctrl-B: Base64 selection Ctrl-Shift-B: Base64 decode selection Ctrl-H: Replace with HTML Entities (key characters only) Ctrl-Shift-H: Replace HTML entities with characters Ctrl-U: URL encode selection (key characters only) Ctrl-Shift-U: URL decode selection Global Hotkeys link Ctrl-I: Send to Intruder Ctrl-R: Send to Repeater Ctrl-S: Search (places cursor in search field) Ctrl-.",
+                content: "Tool Specific Hotkeys link Ctrl-F: Forward Request (Proxy) Ctrl-T: Toggle Proxy Intercept On/Off Ctrl-Space: Send Request (Repeater) Double-click TAB: Rename a tab Navigational Hotkeys link Ctrl-Shift-T: Target Tab Ctrl-Shift-P: Proxy Tab Ctrl-Shift-R: Repeater Tab Ctrl-Shift-I: Intruder Tab Ctrl-Shift-O: Project Options Tab Ctrl-Shift-D: Dashboard Tab Ctrl-Equal: Next tab Ctrl-Minus: Previous tab Editor Encoding / Decoding Hotkeys link Ctrl-B: Base64 selection Ctrl-Shift-B: Base64 decode selection Ctrl-H: Replace with HTML Entities (key characters only) Ctrl-Shift-H: Replace HTML entities with characters Ctrl-U: URL encode selection (key characters only) Ctrl-Shift-U: URL decode selection Global Hotkeys link Ctrl-I: Send to Intruder Ctrl-R: Send to Repeater Ctrl-S: Search (places cursor in search field) Ctrl-.: Go to next selection Ctrl-,: Go to previous selection Ctrl-A: Select all Ctrl-Z: Undo Ctrl-Y: Redo Editors Hotkeys link Ctrl-Delete: Delete Word Ctrl-D: Delete Line Ctrl-Backspace: Delete Word Backwards Ctrl-Home: Go to beginning of the document Ctrl-End: Go to end of the document Ctrl-Left/Right: Navigate words Ctrl-Shift: Select data on its way Hunting for Vulnerabilities link Param Miner: Identifies unlinked parameters. Backslash Powered Scanner: Alerts on data transformations. Software Vulnerability Scanner: Checks software versions against known vulnerabilities. Authorization and Authentication link SAML-Raider: Inspect and modify SAML messages. JSON Web Tokens: Decode and manipulate JWTs on the fly. Autorize: Check access control for different roles or unauthenticated users. More Vulnerability Hunting Tools link HTTP Request Smuggler: Launch HTTP Request Smuggling attacks. Active Scan++: Additional vulnerability scanning capabilities. Retire.js: Identify outdated JavaScript libraries with associated CVEs. Utilities link Logger++: Log and monitor attacks; sort by status code. Turbo Intruder: High-speed, customizable HTTP request sending. Taborator: Ease Burp Collaborator usage for call-back vulnerabilities. REST API link Enable in user options, default access at http://127.0.0.1:1337/. Interact via web application, not just CLI. Use cURL commands for interaction with Burp’s features in headless mode. API Examples link List defined issues: curl -X GET 'http://127.0.0.1:1337/v0.1/knowledge_base/issue_definitions' Scan a URL: curl -X POST 'http://127.0.0.1:1337/v0.1/scan' -d '{\"urls\":[\"http://target1.com\",\"http://target2.com\"]}' Check scan status: curl -X GET 'http://127.0.0.1:1337/v0.1/scan/' "
+            }
+        );
+    index.add(
+            {
+                id:  1 ,
                 href: "\/tutorials\/docs\/cheatsheets\/",
                 title: "Cheatsheets",
                 description: "Best blogs out there.",
@@ -851,7 +883,7 @@
         );
     index.add(
             {
-                id:  1 ,
+                id:  2 ,
                 href: "\/tutorials\/docs\/cheatsheets\/cheatsheets\/",
                 title: "Cheatsheets",
                 description: "All kinda",
@@ -860,7 +892,7 @@
         );
     index.add(
             {
-                id:  2 ,
+                id:  3 ,
                 href: "\/tutorials\/docs\/technical-architecture\/technical-architecture\/",
                 title: "Client",
                 description: "Starting here link",
@@ -869,7 +901,7 @@
         );
     index.add(
             {
-                id:  3 ,
+                id:  4 ,
                 href: "\/tutorials\/docs\/",
                 title: "Docs",
                 description: "",
@@ -878,7 +910,7 @@
         );
     index.add(
             {
-                id:  4 ,
+                id:  5 ,
                 href: "\/tutorials\/docs\/elixir\/",
                 title: "Elixir",
                 description: "Best elixir blogs out there.",
@@ -887,7 +919,7 @@
         );
     index.add(
             {
-                id:  5 ,
+                id:  6 ,
                 href: "\/tutorials\/docs\/elixir\/elixir\/",
                 title: "Elixir",
                 description: "How to install and use Elixir libraries",
@@ -896,7 +928,7 @@
         );
     index.add(
             {
-                id:  6 ,
+                id:  7 ,
                 href: "\/tutorials\/docs\/full-stack-projects\/full-stack-projects\/",
                 title: "Full-Stack projects",
                 description: "How to install and use libraries",
@@ -905,7 +937,7 @@
         );
     index.add(
             {
-                id:  7 ,
+                id:  8 ,
                 href: "\/tutorials\/docs\/full-stack-projects\/",
                 title: "Full-Stack Projects",
                 description: "All full stack projects handout",
@@ -914,7 +946,7 @@
         );
     index.add(
             {
-                id:  8 ,
+                id:  9 ,
                 href: "\/tutorials\/docs\/golang\/",
                 title: "Golang",
                 description: "Best Golang blogs out there.",
@@ -923,7 +955,7 @@
         );
     index.add(
             {
-                id:  9 ,
+                id:  10 ,
                 href: "\/tutorials\/docs\/golang\/golang\/",
                 title: "Golang",
                 description: "How to install and use Golang",
@@ -932,7 +964,7 @@
         );
     index.add(
             {
-                id:  10 ,
+                id:  11 ,
                 href: "\/tutorials\/docs\/hacking\/hacking\/",
                 title: "Hacker",
                 description: "How to hack wifi?",
@@ -941,7 +973,7 @@
         );
     index.add(
             {
-                id:  11 ,
+                id:  12 ,
                 href: "\/tutorials\/docs\/hacking\/",
                 title: "Hacking",
                 description: "Best Security blogs out there.",
@@ -950,7 +982,7 @@
         );
     index.add(
             {
-                id:  12 ,
+                id:  13 ,
                 href: "\/tutorials\/docs\/haskell\/",
                 title: "Haskell",
                 description: "Best Haskell blogs out there.",
@@ -959,7 +991,7 @@
         );
     index.add(
             {
-                id:  13 ,
+                id:  14 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/",
                 title: "Haskell",
                 description: "How to install and use Haskell libraries",
@@ -968,7 +1000,7 @@
         );
     index.add(
             {
-                id:  14 ,
+                id:  15 ,
                 href: "\/tutorials\/docs\/python\/",
                 title: "Python",
                 description: "Best Python blogs out there.",
@@ -977,7 +1009,7 @@
         );
     index.add(
             {
-                id:  15 ,
+                id:  16 ,
                 href: "\/tutorials\/docs\/python\/python\/",
                 title: "Python Client",
                 description: "How to install and use Python libraries",
@@ -986,7 +1018,7 @@
         );
     index.add(
             {
-                id:  16 ,
+                id:  17 ,
                 href: "\/tutorials\/docs\/rust\/",
                 title: "Rust",
                 description: "Best Rust blogs out there.",
@@ -995,7 +1027,7 @@
         );
     index.add(
             {
-                id:  17 ,
+                id:  18 ,
                 href: "\/tutorials\/docs\/rust\/rust\/",
                 title: "Rust",
                 description: "How to install and use rust cargo",
@@ -1004,7 +1036,7 @@
         );
     index.add(
             {
-                id:  18 ,
+                id:  19 ,
                 href: "\/tutorials\/docs\/system-design\/system-design\/",
                 title: "System design",
                 description: "Starting here link",
@@ -1013,7 +1045,7 @@
         );
     index.add(
             {
-                id:  19 ,
+                id:  20 ,
                 href: "\/tutorials\/docs\/system-design\/",
                 title: "System Design",
                 description: "Best System Design blogs out there.",
@@ -1022,7 +1054,7 @@
         );
     index.add(
             {
-                id:  20 ,
+                id:  21 ,
                 href: "\/tutorials\/docs\/technical-architecture\/",
                 title: "Technical Architecture",
                 description: "Best blogs out there.",

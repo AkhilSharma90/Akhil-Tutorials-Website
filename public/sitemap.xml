@@ -2,12 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/tutorials/docs/cheatsheets/osint_cs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/docs/cheatsheets/burp_suite_cs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/docs/cheatsheets/john_the_ripper_cs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/docs/cheatsheets/metasploit_cs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/docs/cheatsheets/nmap_cs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/docs/cheatsheets/snort_cs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/docs/cheatsheets/sql_injection_cs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/docs/cheatsheets/ssl_tls_vulnerability_cs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/docs/cheatsheets/tcpdump_cs/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/docs/cheatsheets/wireshark_cs/</loc>
+  </url><url>
     <loc>http://localhost:1313/tutorials/categories/</loc>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/cheatsheets/</loc>
-    <lastmod>2024-04-16T21:53:40+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tutorials/docs/cheatsheets/cheatsheets/</loc>
     <lastmod>2024-04-16T21:53:40+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/</loc>

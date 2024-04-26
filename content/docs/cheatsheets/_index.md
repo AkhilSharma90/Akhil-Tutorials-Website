@@ -1,6 +1,6 @@
 ---
 title: "Cheatsheets"
-description: "Best blogs out there."
+description: "Making life easy..."
 icon: "C"
 draft: false
 ---

@@ -1,8 +1,8 @@
 ---
+description: 
+linkTitle: Wireshark
 title: Wireshark Cheat sheet
-date: 2023-12-18 15:01:35 +0300
-image: 'https://wallpaperaccess.com/full/5927932.jpg'
-draft: false
+weight: 10
 ---
 
 Protocols - ether, fddi, ip, arp, rarp, decnet, lat, sca, moprc, mopdl, tcp and udp
@@ -125,8 +125,6 @@ tcp.flags.syn == 1 and tcp.flags.ack == 0 |
 
 # **Main Toolbar Items**
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/66350b40-6562-46a3-a8b9-99bfce0a99ba/b112feb8-1b4b-45b8-8052-5b1c5a21d674/Untitled.webp)
-
-[Untitled Database](https://www.notion.so/cd40c5f1508c41d2b29f8c1637ac26aa?pvs=21)
+[link](https://www.notion.so/cd40c5f1508c41d2b29f8c1637ac26aa?pvs=21)
 
 

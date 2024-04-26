@@ -1,8 +1,8 @@
 ---
+description: 
+linkTitle: John the ripper
 title: John the ripper Cheat Sheet
-date: 2023-12-18 15:01:35 +0300
-image: 'http://wallup.net/wp-content/uploads/2017/03/28/442014-digital_art-pixel_art-pixels-pixelated-nature-landscape-rock-stones-waterfall-trees.jpg'
-draft: false
+weight: 10
 ---
 
 ## John Installation

@@ -1,9 +1,10 @@
 ---
-title: Nmap cheatsheet
-date: 2023-12-18 15:01:35 +0300
-draft: false
-image: 'https://wallpapercave.com/wp/wp9252537.jpg'
+description: 
+linkTitle: NMAP
+title: Nmap cheat sheet
+weight: 10
 ---
+
 ### Target Specification
 
 1. `nmap [target]` - Scan a single IP or hostname.

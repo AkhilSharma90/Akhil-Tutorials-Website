@@ -1,8 +1,8 @@
 ---
+description: 
+linkTitle: Snort
 title: Snort cheat sheet
-date: 2023-12-18 15:01:35 +0300
-draft: false
-image: 'https://wallpapercrafter.com/desktop/161536-pixel-art-pixelated-nature-landscape-pixels-digital-art-trees-cityscape-night-stars-water-blue-background-reflection.jpg'
+weight: 10
 ---
 
 ### Sniffer Mode

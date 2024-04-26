@@ -1,8 +1,8 @@
 ---
+description: 
+linkTitle: (OSINT)
 title: OSINT ( Google operators list )
-date: 2023-12-18 15:01:35 +0300
-draft: false
-image: 'https://i.pinimg.com/originals/9d/f5/57/9df557ca8e79431172966376e32aa753.png'
+weight: 10
 ---
 
 | Search operator | What it does | Example |

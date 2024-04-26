@@ -1,8 +1,8 @@
 ---
+description: 
+linkTitle: TCP
 title: TCPdump Cheatsheet
-date: 2023-12-18 15:01:35 +0300
-draft: false
-image: 'https://wallup.net/wp-content/uploads/2016/04/06/332169-digital_art-pixel_art-pixelated-pixels-water-nature-mountain-sea-rock-Sun-clouds-trees-waves-sun_rays-cliff-hill-748x421.png'
+weight: 10
 ---
 
 ## Command

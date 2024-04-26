@@ -1,9 +1,10 @@
 ---
-title: Burp Suite Cheat sheet
-date: 2023-12-18 15:01:35 +0300
-draft: false
-image: 'https://wallpaperaccess.com/full/5927932.jpg'
+description: 
+linkTitle: SQL
+title: SQL Injection cheat sheet
+weight: 10
 ---
+
 # **MySQL SQL Injection**
 
 | Command | SQL Query | Explanation |

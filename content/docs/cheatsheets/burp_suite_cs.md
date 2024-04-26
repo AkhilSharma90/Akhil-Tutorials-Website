@@ -1,9 +1,10 @@
 ---
+description: 
+linkTitle: Burp Suite
 title: Burp Suite Cheat sheet
-date: 2023-12-18 15:01:35 +0300
-image: 'https://wallpapers.com/images/high/pixel-nature-vg7rst9sfz93h8cz.webp'
-draft: false
+weight: 10
 ---
+
 ### Tool Specific Hotkeys
 
 - `Ctrl-F`: Forward Request (Proxy)
