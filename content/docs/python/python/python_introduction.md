@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Python"
-description: "Explore the essentials of Python programming in this comprehensive introduction. Discover why Python is favored for its simplicity and versatility across many disciplines, learn how to install it on different operating systems, and write your first Python program. This guide is perfect for beginners looking to understand the fundamentals of Python and set a solid foundation for more advanced programming topics."
+description: "Explore the essentials of Python programming in this comprehensive introduction. Discover why Python is favored for its simplicity and versatility across many disciplines, learn how to install it on different operating systems, and write your first Python program."
 icon: "code"
 draft: false
 ---
@@ -64,7 +64,3 @@ A "Hello World" program is a simple script that outputs "Hello, world!" to the c
 ### Conclusion
 
 This introduction to Python provides the groundwork for starting your programming journey. Upcoming sections will delve into Python syntax, programming constructs, and eventually more complex concepts such as object-oriented programming and web development with Python.
-
----
-
-This expanded version should provide a thorough introduction for beginners, setting a strong foundation for learning Python. Let me know if there's anything else you'd like to add or refine!
