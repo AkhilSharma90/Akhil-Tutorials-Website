@@ -1,7 +1,6 @@
 ---
 title: "Exploring Advanced Data Structures in Python: Collections and Priority Queues"
 description: "Enhance your Python programming skills by mastering advanced data structures from the collections module and utilizing heapq for efficient priority queues. This guide provides detailed insights into these powerful tools with practical examples."
-icon: "code"
 draft: false
 ---
 

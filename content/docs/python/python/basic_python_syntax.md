@@ -1,7 +1,6 @@
 ---
 title: "Mastering the Basics: Python Syntax, Indentation, and Comments"
 description: "Unlock the fundamentals of Python programming with a detailed exploration of its syntax. Learn through practical examples, including building a Fibonacci sequence, understanding the crucial role of indentation, and effectively using comments for better code readability."
-icon: "code"
 draft: false
 ---
 

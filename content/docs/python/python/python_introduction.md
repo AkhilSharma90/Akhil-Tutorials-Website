@@ -1,7 +1,6 @@
 ---
 title: "Introduction to Python"
 description: "Explore the essentials of Python programming in this comprehensive introduction. Discover why Python is favored for its simplicity and versatility across many disciplines, learn how to install it on different operating systems, and write your first Python program."
-icon: "code"
 draft: false
 ---
 

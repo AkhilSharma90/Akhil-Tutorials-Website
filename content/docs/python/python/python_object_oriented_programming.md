@@ -1,7 +1,6 @@
 ---
 title: "Mastering Object-Oriented Programming in Python: Classes, Inheritance, and Polymorphism"
 description: "Unlock the full potential of object-oriented programming in Python with this extensive guide. Learn how to define classes, create objects, and utilize inheritance and polymorphism to design reusable and modular code."
-icon: "code"
 draft: false
 ---
 

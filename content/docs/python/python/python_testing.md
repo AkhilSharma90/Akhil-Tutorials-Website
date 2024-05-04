@@ -1,7 +1,6 @@
 ---
 title: "Comprehensive Guide to Testing in Python: Unit Tests and Mocking Techniques"
 description: "Dive into Python testing methodologies with a thorough look at unit testing using the unittest framework and mocking objects with unittest.mock. Learn how to build robust tests and simulate complex scenarios to ensure your code performs reliably."
-icon: "code"
 draft: false
 ---
 

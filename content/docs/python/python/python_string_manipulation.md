@@ -1,7 +1,6 @@
 ---
 title: "Mastering String Manipulation in Python: Operations, Methods, and Formatting"
 description: "Explore the art of string manipulation in Python through this comprehensive guide. Learn basic operations, discover powerful string methods, and master the formatting techniques to enhance your data processing skills."
-icon: "code"
 draft: false
 ---
 

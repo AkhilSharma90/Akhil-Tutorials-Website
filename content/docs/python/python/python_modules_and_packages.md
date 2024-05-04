@@ -1,7 +1,6 @@
 ---
 title: "Python Modules and Packages: Importing Essentials and Exploring Standard Libraries"
 description: "Deep dive into Python's modular approach with a focus on importing modules and leveraging the capabilities of standard libraries such as math and datetime. This guide offers detailed insights and examples to enhance your programming efficiency."
-icon: "code"
 draft: false
 ---
 

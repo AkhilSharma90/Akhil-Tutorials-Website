@@ -1,7 +1,6 @@
 ---
 title: "Mastering Concurrency and Parallelism in Python: Threading, Multiprocessing, and Asyncio"
 description: "Explore the concepts of concurrency and parallelism in Python with an in-depth look at threading, multiprocessing, and the asyncio module. Learn how to effectively handle asynchronous and parallel tasks to optimize performance and efficiency in your applications."
-icon: "code"
 draft: false
 ---
 

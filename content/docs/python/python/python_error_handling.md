@@ -1,7 +1,6 @@
 ---
 title: "Effective Error Handling in Python: Try-Except Blocks and Finally Clause"
 description: "Learn how to robustly handle errors in Python using try-except blocks and the finally clause. This guide explains the mechanisms behind Python's error handling, with detailed examples to help you write more reliable code."
-icon: "code"
 draft: false
 ---
 

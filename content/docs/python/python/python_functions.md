@@ -1,7 +1,6 @@
 ---
 title: "Understanding Functions in Python: Definitions, Parameters, Returns, and Scope"
 description: "Master the fundamentals of Python functions, from creation and parameter handling to understanding variable scope. This guide offers detailed explanations and code examples to enrich your programming knowledge."
-icon: "code"
 draft: false
 ---
 

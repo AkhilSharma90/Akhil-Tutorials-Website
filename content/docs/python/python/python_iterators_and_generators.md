@@ -1,7 +1,6 @@
 ---
 title: "Understanding Iterators and Generators in Python: Leveraging Yield for Efficient Code"
 description: "Dive deep into the mechanics of iterators and generators in Python. Learn how to create custom iterators, design generator functions, and effectively use the yield keyword to optimize memory usage and code execution."
-icon: "code"
 draft: false
 ---
 

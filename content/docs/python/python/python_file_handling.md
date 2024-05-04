@@ -1,7 +1,6 @@
 ---
 title: "Efficient File Handling in Python: Reading, Writing, and Path Management"
 description: "Master file handling techniques in Python with this detailed guide. Learn how to read from and write to files effectively and manage file paths to handle data smoothly in your applications."
-icon: "code"
 draft: false
 ---
 

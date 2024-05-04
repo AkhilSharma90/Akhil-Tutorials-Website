@@ -1,7 +1,6 @@
 ---
 title: "Demystifying Python Decorators: Enhancing Functionality with Decorators"
 description: "Unlock the power of decorators in Python to modify and enhance the functionality of functions and methods dynamically. This guide delves into the principles of decorators and shows you how to create them with practical, real-world examples."
-icon: "code"
 draft: false
 ---
 

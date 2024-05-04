@@ -1,7 +1,6 @@
 ---
 title: "Exploring Python Operators: Arithmetic, Comparison, and Logical Operations"
 description: "Master the use of Python operators to manipulate values and control the flow of your programs. This comprehensive guide covers arithmetic, comparison, and logical operators with practical code examples."
-icon: "code"
 draft: false
 ---
 

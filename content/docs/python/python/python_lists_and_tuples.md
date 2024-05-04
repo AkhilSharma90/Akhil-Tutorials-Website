@@ -1,7 +1,6 @@
 ---
 title: "Working with Lists and Tuples in Python: Creation, Access, and More"
 description: "Discover how to effectively use lists and tuples in Python. Learn to create and access these data structures, utilize list comprehensions for concise coding, and understand tuple operations with clear examples."
-icon: "code"
 draft: false
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: "Understanding Python Variables and Data Types: From Basics to Type Conversion"
 description: "Delve into the fundamentals of Python variables and data types, covering numbers, strings, and booleans, along with essential type conversion techniques to manipulate and utilize data effectively."
-icon: "code"
 draft: false
 ---
 

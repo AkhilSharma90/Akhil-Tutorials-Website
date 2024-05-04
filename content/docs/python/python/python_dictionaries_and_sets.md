@@ -1,7 +1,6 @@
 ---
 title: "Mastering Dictionaries and Sets in Python: Comprehensive Guide to Data Handling"
 description: "Enhance your Python skills by mastering dictionaries and sets. This guide covers everything from basic operations to advanced methods of dictionaries, along with a deep dive into the functionalities of sets."
-icon: "code"
 draft: false
 ---
 

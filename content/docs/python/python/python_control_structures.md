@@ -1,7 +1,6 @@
 ---
 title: "Mastering Control Structures in Python: If Statements, Loops, and More"
 description: "Unlock the power of Python's control structures to guide your program's decisions and repetitive tasks. This guide provides a deep dive into if statements, for loops, and while loops with practical examples."
-icon: "code"
 draft: false
 ---
 

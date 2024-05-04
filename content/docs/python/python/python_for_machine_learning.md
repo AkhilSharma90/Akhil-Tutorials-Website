@@ -1,7 +1,6 @@
 ---
 title: "Essentials of Python for Machine Learning: Libraries, Concepts, and Model Building"
 description: "Embark on your machine learning journey with Python. This guide covers key libraries like NumPy, Pandas, Matplotlib, and Scikit-Learn, introduces fundamental machine learning concepts, and walks you through building a basic model to kickstart your machine learning projects."
-icon: "code"
 draft: false
 ---
 
