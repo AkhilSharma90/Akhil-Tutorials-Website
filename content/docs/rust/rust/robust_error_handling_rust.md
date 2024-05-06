@@ -1,6 +1,6 @@
 ---
-title: "Robust Error Handling in Rust: Using `Result` and `Option`"
-description: "Dive deep into Rust’s error handling mechanisms, exploring the `Result` and `Option` types, and advanced error propagation techniques. This comprehensive guide is packed with technical insights, practical coding examples, and best practices aimed at mastering error management in Rust programming.""
+title: "Robust Error Handling in Rust: Using Result and Option"
+description: "Dive deep into Rust’s error handling mechanisms, exploring the `Result` and `Option` types, and advanced error propagation techniques. This comprehensive guide is packed with technical insights, practical coding examples, and best practices aimed at mastering error management in Rust programming."
 icon: "code"
 draft: false
 ---
