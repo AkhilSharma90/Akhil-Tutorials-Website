@@ -4,7 +4,6 @@ description: "Dive into Go programming with this comprehensive guide on its phil
 icon: "code"
 draft: false
 ---
-### Getting Started with Go: Your First Steps in Go Programming
 
 **Introduction:**
 
