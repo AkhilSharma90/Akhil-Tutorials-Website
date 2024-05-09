@@ -8,11 +8,137 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Python Client</title>
-      <link>http://localhost:1313/tutorials/docs/python/python/</link>
+      <title>Comprehensive Guide to Testing in Python: Unit Tests and Mocking Techniques</title>
+      <link>http://localhost:1313/tutorials/docs/python/python/python_testing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/python/python/</guid>
-      <description>Starting here link</description>
+      <guid>http://localhost:1313/tutorials/docs/python/python/python_testing/</guid>
+      <description>Introduction linkTesting is an essential aspect of software development that ensures your code behaves as expected and can handle various input scenarios without crashing. Python offers several built-in libraries for testing, with unittest being one of the most popular for unit testing.&#xA;Unit Testing with unittest linkunittest is a testing framework inspired by JUnit. It supports test automation, sharing of setup and shutdown code, aggregation of tests into collections, and independence of the tests from the reporting framework.</description>
+    </item>
+    <item>
+      <title>Demystifying Python Decorators: Enhancing Functionality with Decorators</title>
+      <link>http://localhost:1313/tutorials/docs/python/python/python_decorators/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/python/python/python_decorators/</guid>
+      <description>Introduction linkDecorators in Python are a very powerful and useful tool, allowing programmers to modify the behavior of a function or class. Decorators are typically used to extend or alter the behavior of functions or methods without permanently modifying them. They provide a flexible way to &amp;ldquo;wrap&amp;rdquo; functions with additional code.&#xA;What are Decorators? linkA decorator in Python is essentially a function that takes another function and extends its functionality, often doing some processing before or after the execution of the original function.</description>
+    </item>
+    <item>
+      <title>Effective Error Handling in Python: Try-Except Blocks and Finally Clause</title>
+      <link>http://localhost:1313/tutorials/docs/python/python/python_error_handling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/python/python/python_error_handling/</guid>
+      <description>Introduction linkHandling errors properly in a Python program is crucial to ensure that the program can gracefully handle unexpected situations without crashing. Python provides several ways to handle errors, most notably through try-except blocks and the finally clause.&#xA;Try-Except Blocks linkTry-except blocks are used to catch and handle exceptions. An exception is an event, which occurs during the execution of a program that disrupts the normal flow of the program&amp;rsquo;s instructions.</description>
+    </item>
+    <item>
+      <title>Efficient File Handling in Python: Reading, Writing, and Path Management</title>
+      <link>http://localhost:1313/tutorials/docs/python/python/python_file_handling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/python/python/python_file_handling/</guid>
+      <description>Introduction linkFile handling is a critical aspect of many programming tasks, from data analysis to web development. Python provides built-in functions and modules that simplify reading from and writing to files, as well as managing file paths.&#xA;Reading from and Writing to Files linkPython uses file objects to interact with external files on your system. Files can be opened in various modes, like &amp;lsquo;r&amp;rsquo; for reading, &amp;lsquo;w&amp;rsquo; for writing, and &amp;lsquo;a&amp;rsquo; for appending.</description>
+    </item>
+    <item>
+      <title>Essentials of Python for Machine Learning: Libraries, Concepts, and Model Building</title>
+      <link>http://localhost:1313/tutorials/docs/python/python/python_for_machine_learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/python/python/python_for_machine_learning/</guid>
+      <description>Introduction linkPython, with its rich ecosystem and accessible syntax, has become the go-to language for many machine learning practitioners. This section will provide an in-depth exploration of Python&amp;rsquo;s most important machine learning libraries, introduce fundamental concepts, and demonstrate model implementation.&#xA;In-Depth Libraries Overview linkNumPy linkNumPy is essential for numerical computing in Python. It provides efficient storage and operations for large n-dimensional arrays, which are the backbone of data manipulation and scientific computing in Python.</description>
+    </item>
+    <item>
+      <title>Exploring Advanced Data Structures in Python: Collections and Priority Queues</title>
+      <link>http://localhost:1313/tutorials/docs/python/python/python_advanced_data_structures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/python/python/python_advanced_data_structures/</guid>
+      <description>Introduction linkAdvanced data structures are crucial for creating efficient algorithms and applications. Python’s standard library offers several modules that contain advanced data structures which can significantly simplify complex programming tasks.&#xA;Collections Module linkThe collections module provides alternatives to Python’s general purpose built-in containers. We will focus on Counter, deque, and OrderedDict.&#xA;Counter linkCounter is a subclass of dict that is used to count objects. It simplifies counting and frequency analysis tasks.</description>
+    </item>
+    <item>
+      <title>Exploring Python Operators: Arithmetic, Comparison, and Logical Operations</title>
+      <link>http://localhost:1313/tutorials/docs/python/python/python_operators/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/python/python/python_operators/</guid>
+      <description>Introduction linkOperators in Python are special symbols that carry out arithmetic or logical computation. The value that the operator operates on is called the operand. In this guide, we&amp;rsquo;ll explore three major types of operators: arithmetic, comparison, and logical.&#xA;Arithmetic Operators linkArithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication, and division.&#xA;Addition (+): Adds two operands. Subtraction (-): Subtracts right operand from the left. Multiplication (*): Multiplies two operands.</description>
+    </item>
+    <item>
+      <title>Introduction to Python</title>
+      <link>http://localhost:1313/tutorials/docs/python/python/python_introduction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/python/python/python_introduction/</guid>
+      <description>Python is a high-level, interpreted programming language known for its simplicity and readability, which has made it one of the most popular languages in the world. Developed by Guido van Rossum and first released in 1991, Python&amp;rsquo;s design philosophy emphasizes code readability with its notable use of significant whitespace.&#xA;Why Use Python? link Ease of Learning and Use: Python&amp;rsquo;s straightforward syntax closely mirrors the human language, which reduces the complexity of programming tasks and makes it accessible to beginners.</description>
+    </item>
+    <item>
+      <title>Mastering Concurrency and Parallelism in Python: Threading, Multiprocessing, and Asyncio</title>
+      <link>http://localhost:1313/tutorials/docs/python/python/python_concurrency_and_parallelism/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/python/python/python_concurrency_and_parallelism/</guid>
+      <description>Introduction linkConcurrency and parallelism are key concepts for developing high-performance applications. Python provides several modules that enable concurrent and parallel execution of code. We&amp;rsquo;ll discuss three primary methods: threading, multiprocessing, and asyncio.&#xA;Threading linkThreading is a technique for achieving concurrency. In Python, threads allow you to run multiple operations concurrently in the same process space.&#xA;Basic Threading link import threading&#xD;def print_cube(num):&#xD;&amp;#34;&amp;#34;&amp;#34;Function to print cube of given num&amp;#34;&amp;#34;&amp;#34;&#xD;print(&amp;#34;Cube: {}&amp;#34;.</description>
+    </item>
+    <item>
+      <title>Mastering Control Structures in Python: If Statements, Loops, and More</title>
+      <link>http://localhost:1313/tutorials/docs/python/python/python_control_structures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/python/python/python_control_structures/</guid>
+      <description>Introduction linkControl structures are essential in programming, allowing developers to direct the flow of execution based on conditions or by repeating operations. In Python, the primary control structures are conditional statements and loops. This section will explore these structures, provide detailed code explanations, and demonstrate their use in practical scenarios.&#xA;If Statements linkIf statements allow for conditional execution of code segments, enabling decisions within the program based on certain conditions.</description>
+    </item>
+    <item>
+      <title>Mastering Dictionaries and Sets in Python: Comprehensive Guide to Data Handling</title>
+      <link>http://localhost:1313/tutorials/docs/python/python/python_dictionaries_and_sets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/python/python/python_dictionaries_and_sets/</guid>
+      <description>Introduction linkDictionaries and sets are powerful data structures in Python used to store and manage data. Dictionaries allow you to connect pieces of related information through key-value pairs, making data retrieval quick and straightforward. Sets, on the other hand, are useful for storing unique items and performing common mathematical operations like unions, intersections, and differences.&#xA;Working with Dictionaries linkDictionaries in Python are a collection of key-value pairs enclosed in curly braces {}, where each key is unique.</description>
+    </item>
+    <item>
+      <title>Mastering Object-Oriented Programming in Python: Classes, Inheritance, and Polymorphism</title>
+      <link>http://localhost:1313/tutorials/docs/python/python/python_object_oriented_programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/python/python/python_object_oriented_programming/</guid>
+      <description>Introduction linkObject-oriented programming is a programming paradigm that uses &amp;ldquo;objects&amp;rdquo; — data structures consisting of data fields and methods together with their interactions — to design applications and computer programs. Python allows developers to implement OOP to enhance the modularity and reusability of their code.&#xA;Classes and Objects linkIn Python, classes provide a means of bundling data and functionality together. Creating a new class creates a new type of object, allowing new instances of that type to be made.</description>
+    </item>
+    <item>
+      <title>Mastering String Manipulation in Python: Operations, Methods, and Formatting</title>
+      <link>http://localhost:1313/tutorials/docs/python/python/python_string_manipulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/python/python/python_string_manipulation/</guid>
+      <description>Introduction linkStrings in Python are sequences of characters that are used to store text data. Python provides a rich set of methods and operations to work with strings, making it a robust tool for text manipulation needed in various applications from web development to data science.&#xA;Basic String Operations linkStrings in Python can be created by enclosing characters in quotes. You can use either single, double, or triple quotes for strings, with triple quotes used mostly for multiline strings.</description>
+    </item>
+    <item>
+      <title>Mastering the Basics: Python Syntax, Indentation, and Comments</title>
+      <link>http://localhost:1313/tutorials/docs/python/python/basic_python_syntax/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/python/python/basic_python_syntax/</guid>
+      <description>Introduction linkThe syntax of a programming language is a set of rules that defines how a program is written and interpreted. In Python, syntax is famously clean and often feels intuitive, making it an excellent choice for beginners. Yet, it possesses the depth required for advanced programming. This section explores Python syntax through various constructs and a practical example.&#xA;Fibonacci Series Example linkThe Fibonacci sequence is a classic example used to illustrate basic programming concepts in many languages.</description>
+    </item>
+    <item>
+      <title>Python Modules and Packages: Importing Essentials and Exploring Standard Libraries</title>
+      <link>http://localhost:1313/tutorials/docs/python/python/python_modules_and_packages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/python/python/python_modules_and_packages/</guid>
+      <description>Introduction linkModules in Python are simply files containing Python code that can be imported into other Python scripts or modules. They are the building blocks of larger Python programs and make it easy to organize and reuse code across different projects. Packages are a way of structuring Python’s module namespace by using “dotted module names”.&#xA;Importing Modules linkImporting modules is fundamental in Python as it allows you to use functionalities that are not built into the core language but are vital for your programs.</description>
+    </item>
+    <item>
+      <title>Understanding Functions in Python: Definitions, Parameters, Returns, and Scope</title>
+      <link>http://localhost:1313/tutorials/docs/python/python/python_functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/python/python/python_functions/</guid>
+      <description>Introduction linkFunctions are a cornerstone of organized, maintainable, and reusable code in Python. They allow you to execute specific blocks of code multiple times without needing to rewrite the code, enhancing the modularity and efficiency of your programs.&#xA;Defining Functions linkA function in Python is defined using the def keyword, followed by a function name, parentheses, and a colon. The code block within every function starts with an indentation.&#xA;Syntax and Explanation: link def function_name(parameters):&#xD;# Function body&#xD;return output Example: link def greet(name):&#xD;&amp;#34;&amp;#34;&amp;#34;Returns a greeting.</description>
+    </item>
+    <item>
+      <title>Understanding Iterators and Generators in Python: Leveraging Yield for Efficient Code</title>
+      <link>http://localhost:1313/tutorials/docs/python/python/python_iterators_and_generators/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/python/python/python_iterators_and_generators/</guid>
+      <description>Introduction linkIterators and generators are fundamental constructs in Python that allow for efficient looping and data processing, particularly when dealing with large datasets or complex computation scenarios. They help in managing memory efficiently and can make your code faster and more scalable.&#xA;Creating Iterators linkIn Python, iterators are objects that implement the __iter__() and __next__() methods, which collectively allow you to iterate over sequential data.&#xA;Defining an Iterator link class Count:&#xD;&amp;#34;&amp;#34;&amp;#34;Iterator that counts upward forever.</description>
+    </item>
+    <item>
+      <title>Understanding Python Variables and Data Types: From Basics to Type Conversion</title>
+      <link>http://localhost:1313/tutorials/docs/python/python/variables_and_data_types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/python/python/variables_and_data_types/</guid>
+      <description>Introduction linkIn Python, a variable is a container for storing data values. Unlike other programming languages that require explicit declaration to reserve memory space, Python variables do not need explicit declaration to reserve memory. Memory allocation happens automatically when you assign a value to a variable.&#xA;Numbers, Strings, and Booleans linkNumbers linkPython supports various numeric types including integers, floating-point numbers, and complex numbers:&#xA;Integers (int) are whole numbers, positive or negative, without decimals, of unlimited magnitude.</description>
+    </item>
+    <item>
+      <title>Working with Lists and Tuples in Python: Creation, Access, and More</title>
+      <link>http://localhost:1313/tutorials/docs/python/python/python_lists_and_tuples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/python/python/python_lists_and_tuples/</guid>
+      <description>Introduction linkLists and tuples are fundamental Python data structures for storing collections of data. Lists are mutable, allowing modification after creation. Tuples, however, are immutable, meaning they cannot be changed once created. This section explores how to work with these structures.&#xA;Creating and Accessing Lists linkLists are versatile and can be used to store a collection of items (strings, numbers, or other lists).&#xA;Creating Lists linkYou can create a list by enclosing items in square brackets [], separated by commas.</description>
     </item>
   </channel>
 </rss>
