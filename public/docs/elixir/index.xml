@@ -4,15 +4,43 @@
     <title>Elixir on Tutorials</title>
     <link>http://localhost:1313/tutorials/docs/elixir/</link>
     <description>Recent content in Elixir on Tutorials</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/elixir/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Elixir</title>
-      <link>http://localhost:1313/tutorials/docs/elixir/elixir/</link>
+      <title>Basic types</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/basic_types/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/</guid>
-      <description>Starting here link</description>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/basic_types/</guid>
+      <description>1 # integer 0x1F # integer 1.0 # float true # boolean :atom # atom / symbol &amp;#34;elixir&amp;#34; # string [1, 2, 3] # list {1, 2, 3} # tuple Basic Arithmetic linkOpen up iex and type the following expressions:&#xA;1 &amp;#43; 2 3 5 * 5 25 10 / 2 5.0 Notice that 10 / 2 returned a float 5.0 instead of an integer 5. This is expected. In Elixir, the operator / always returns a float.</description>
+    </item>
+    <item>
+      <title>Getting Started</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/getting_started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/getting_started/</guid>
+      <description>How to Install Elixir linkElixir is a dynamic, functional programming language designed for building scalable and maintainable applications. This guide will walk you through the steps to install and use elixir. For a detailed install, check out this: installation guide.&#xA;Interactive mode linkWhen you install Elixir, you will habe three new command line executables: iex, elixir and elixirc.&#xA;For now, let&amp;rsquo;s start by running iex (or iex.bat if you are on Windows PowerShell, where iex is a PowerShell command) which stands for Interactive Elixir.</description>
+    </item>
+    <item>
+      <title>Lists and tuples</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/lists_and_tuples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/lists_and_tuples/</guid>
+      <description>Linked Lists linkElixir uses square brackets to specify a list of values. Values can be of any type:&#xA;[1, 2, true, 3] [1, 2, true, 3] length([1, 2, 3]) 3 Two lists can be concatenated or subtracted using the ++/2 and --/2 operators respectively:&#xA;[1, 2, 3] &amp;#43;&amp;#43; [4, 5, 6] [1, 2, 3, 4, 5, 6] [1, true, 2, false, 3, true] -- [true, false] [1, 2, 3, true] List operators never modify the existing list.</description>
+    </item>
+    <item>
+      <title>Modules and functions</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/modules_and_functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/modules_and_functions/</guid>
+      <description>In Elixir, we group several functions into modules. We&amp;rsquo;ve already used many different modules in the previous chapters, such as the String module:&#xA;String.length(&amp;#34;hello&amp;#34;) 5 In order to create our own modules in Elixir, we use the defmodule macro. The first letter of the module must be in uppercase. We use the def macro to define functions in that module. The first letter of every function must be in lowercase (or underscore):</description>
+    </item>
+    <item>
+      <title>Pattern matching</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/pattern_matching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/pattern_matching/</guid>
+      <description>The match operator linkWe have used the = operator a couple times to assign variables in Elixir:&#xA;x = 1 1 x 1 In Elixir, the = operator is actually called the match operator. Let&amp;rsquo;s see why:&#xA;x = 1 1 1 = x 1 2 = x ** (MatchError) no match of right hand side value: 1 Notice that 1 = x is a valid expression, and it matched because both the left and right side are equal to 1.</description>
     </item>
   </channel>
 </rss>

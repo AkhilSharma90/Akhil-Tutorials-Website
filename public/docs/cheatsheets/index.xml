@@ -4,7 +4,7 @@
     <title>Cheatsheets on Tutorials</title>
     <link>http://localhost:1313/tutorials/docs/cheatsheets/</link>
     <description>Recent content in Cheatsheets on Tutorials</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/cheatsheets/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -33,7 +33,7 @@
       <link>http://localhost:1313/tutorials/docs/cheatsheets/metasploit_cs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/cheatsheets/metasploit_cs/</guid>
-      <description>Basic Metasploit Commands&#xA;Search for a Module&#xA;msf &amp;gt; search [regex]&#xA;Specify an Exploit&#xA;msf &amp;gt; use exploit/[ExploitPath]&#xA;Set a Payload&#xA;msf &amp;gt; set PAYLOAD [PayloadPath]&#xA;Show Options for Current Modules&#xA;msf &amp;gt; show options&#xA;Set Options&#xA;msf &amp;gt; set [Option] [Value]&#xA;Start Exploit&#xA;msf &amp;gt; exploit&#xA;Useful Auxiliary Modules&#xA;Port Scanner msf &amp;gt; use auxiliary/scanner/portscan/tcp&#xD;msf &amp;gt; set RHOSTS 10.10.10.0/24&#xD;msf &amp;gt; run DNS Enumeration msf &amp;gt; use auxiliary/gather/dns_enum&#xD;msf &amp;gt; set DOMAIN target.</description>
+      <description>Basic Metasploit Commands&#xA;Search for a Module&#xA;msf &amp;gt; search [regex]&#xA;Specify an Exploit&#xA;msf &amp;gt; use exploit/[ExploitPath]&#xA;Set a Payload&#xA;msf &amp;gt; set PAYLOAD [PayloadPath]&#xA;Show Options for Current Modules&#xA;msf &amp;gt; show options&#xA;Set Options&#xA;msf &amp;gt; set [Option] [Value]&#xA;Start Exploit&#xA;msf &amp;gt; exploit&#xA;Useful Auxiliary Modules&#xA;Port Scanner msf &amp;gt; use auxiliary/scanner/portscan/tcp msf &amp;gt; set RHOSTS 10.10.10.0/24 msf &amp;gt; run DNS Enumeration msf &amp;gt; use auxiliary/gather/dns_enum msf &amp;gt; set DOMAIN target.</description>
     </item>
     <item>
       <title>Nmap cheat sheet</title>

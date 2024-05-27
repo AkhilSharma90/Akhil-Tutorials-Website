@@ -4,7 +4,7 @@
     <title>Python on Tutorials</title>
     <link>http://localhost:1313/tutorials/docs/python/</link>
     <description>Recent content in Python on Tutorials</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -68,7 +68,7 @@
       <link>http://localhost:1313/tutorials/docs/python/python/python_concurrency_and_parallelism/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/python/python/python_concurrency_and_parallelism/</guid>
-      <description>Introduction linkConcurrency and parallelism are key concepts for developing high-performance applications. Python provides several modules that enable concurrent and parallel execution of code. We&amp;rsquo;ll discuss three primary methods: threading, multiprocessing, and asyncio.&#xA;Threading linkThreading is a technique for achieving concurrency. In Python, threads allow you to run multiple operations concurrently in the same process space.&#xA;Basic Threading link import threading&#xD;def print_cube(num):&#xD;&amp;#34;&amp;#34;&amp;#34;Function to print cube of given num&amp;#34;&amp;#34;&amp;#34;&#xD;print(&amp;#34;Cube: {}&amp;#34;.</description>
+      <description>Introduction linkConcurrency and parallelism are key concepts for developing high-performance applications. Python provides several modules that enable concurrent and parallel execution of code. We&amp;rsquo;ll discuss three primary methods: threading, multiprocessing, and asyncio.&#xA;Threading linkThreading is a technique for achieving concurrency. In Python, threads allow you to run multiple operations concurrently in the same process space.&#xA;Basic Threading link import threading def print_cube(num): &amp;#34;&amp;#34;&amp;#34;Function to print cube of given num&amp;#34;&amp;#34;&amp;#34; print(&amp;#34;Cube: {}&amp;#34;.</description>
     </item>
     <item>
       <title>Mastering Control Structures in Python: If Statements, Loops, and More</title>
@@ -117,14 +117,14 @@
       <link>http://localhost:1313/tutorials/docs/python/python/python_functions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/python/python/python_functions/</guid>
-      <description>Introduction linkFunctions are a cornerstone of organized, maintainable, and reusable code in Python. They allow you to execute specific blocks of code multiple times without needing to rewrite the code, enhancing the modularity and efficiency of your programs.&#xA;Defining Functions linkA function in Python is defined using the def keyword, followed by a function name, parentheses, and a colon. The code block within every function starts with an indentation.&#xA;Syntax and Explanation: link def function_name(parameters):&#xD;# Function body&#xD;return output Example: link def greet(name):&#xD;&amp;#34;&amp;#34;&amp;#34;Returns a greeting.</description>
+      <description>Introduction linkFunctions are a cornerstone of organized, maintainable, and reusable code in Python. They allow you to execute specific blocks of code multiple times without needing to rewrite the code, enhancing the modularity and efficiency of your programs.&#xA;Defining Functions linkA function in Python is defined using the def keyword, followed by a function name, parentheses, and a colon. The code block within every function starts with an indentation.&#xA;Syntax and Explanation: link def function_name(parameters): # Function body return output Example: link def greet(name): &amp;#34;&amp;#34;&amp;#34;Returns a greeting.</description>
     </item>
     <item>
       <title>Understanding Iterators and Generators in Python: Leveraging Yield for Efficient Code</title>
       <link>http://localhost:1313/tutorials/docs/python/python/python_iterators_and_generators/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/python/python/python_iterators_and_generators/</guid>
-      <description>Introduction linkIterators and generators are fundamental constructs in Python that allow for efficient looping and data processing, particularly when dealing with large datasets or complex computation scenarios. They help in managing memory efficiently and can make your code faster and more scalable.&#xA;Creating Iterators linkIn Python, iterators are objects that implement the __iter__() and __next__() methods, which collectively allow you to iterate over sequential data.&#xA;Defining an Iterator link class Count:&#xD;&amp;#34;&amp;#34;&amp;#34;Iterator that counts upward forever.</description>
+      <description>Introduction linkIterators and generators are fundamental constructs in Python that allow for efficient looping and data processing, particularly when dealing with large datasets or complex computation scenarios. They help in managing memory efficiently and can make your code faster and more scalable.&#xA;Creating Iterators linkIn Python, iterators are objects that implement the __iter__() and __next__() methods, which collectively allow you to iterate over sequential data.&#xA;Defining an Iterator link class Count: &amp;#34;&amp;#34;&amp;#34;Iterator that counts upward forever.</description>
     </item>
     <item>
       <title>Understanding Python Variables and Data Types: From Basics to Type Conversion</title>

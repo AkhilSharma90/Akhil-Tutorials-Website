@@ -4,7 +4,7 @@
     <title>Tutorials</title>
     <link>http://localhost:1313/tutorials/</link>
     <description>Recent content on Tutorials</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -33,7 +33,7 @@
       <link>http://localhost:1313/tutorials/docs/cheatsheets/metasploit_cs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/cheatsheets/metasploit_cs/</guid>
-      <description>Basic Metasploit Commands&#xA;Search for a Module&#xA;msf &amp;gt; search [regex]&#xA;Specify an Exploit&#xA;msf &amp;gt; use exploit/[ExploitPath]&#xA;Set a Payload&#xA;msf &amp;gt; set PAYLOAD [PayloadPath]&#xA;Show Options for Current Modules&#xA;msf &amp;gt; show options&#xA;Set Options&#xA;msf &amp;gt; set [Option] [Value]&#xA;Start Exploit&#xA;msf &amp;gt; exploit&#xA;Useful Auxiliary Modules&#xA;Port Scanner msf &amp;gt; use auxiliary/scanner/portscan/tcp&#xD;msf &amp;gt; set RHOSTS 10.10.10.0/24&#xD;msf &amp;gt; run DNS Enumeration msf &amp;gt; use auxiliary/gather/dns_enum&#xD;msf &amp;gt; set DOMAIN target.</description>
+      <description>Basic Metasploit Commands&#xA;Search for a Module&#xA;msf &amp;gt; search [regex]&#xA;Specify an Exploit&#xA;msf &amp;gt; use exploit/[ExploitPath]&#xA;Set a Payload&#xA;msf &amp;gt; set PAYLOAD [PayloadPath]&#xA;Show Options for Current Modules&#xA;msf &amp;gt; show options&#xA;Set Options&#xA;msf &amp;gt; set [Option] [Value]&#xA;Start Exploit&#xA;msf &amp;gt; exploit&#xA;Useful Auxiliary Modules&#xA;Port Scanner msf &amp;gt; use auxiliary/scanner/portscan/tcp msf &amp;gt; set RHOSTS 10.10.10.0/24 msf &amp;gt; run DNS Enumeration msf &amp;gt; use auxiliary/gather/dns_enum msf &amp;gt; set DOMAIN target.</description>
     </item>
     <item>
       <title>Nmap cheat sheet</title>
@@ -99,11 +99,25 @@
       <description>Introduction linkIn this post, we&amp;rsquo;re going to explore some fundamental concepts of Rust programming: variables and data types, along with mutability and immutability. Understanding these concepts is crucial as they form the foundation upon which safe and efficient Rust programs are built.&#xA;Variables and Data Types linkIn Rust, a variable is a storage location paired with an associated name, which contains some known or unknown quantity of data referred to as a value.</description>
     </item>
     <item>
+      <title>Basic types</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/basic_types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/basic_types/</guid>
+      <description>1 # integer 0x1F # integer 1.0 # float true # boolean :atom # atom / symbol &amp;#34;elixir&amp;#34; # string [1, 2, 3] # list {1, 2, 3} # tuple Basic Arithmetic linkOpen up iex and type the following expressions:&#xA;1 &amp;#43; 2 3 5 * 5 25 10 / 2 5.0 Notice that 10 / 2 returned a float 5.0 instead of an integer 5. This is expected. In Elixir, the operator / always returns a float.</description>
+    </item>
+    <item>
       <title>Building a Real-World Application in Go</title>
       <link>http://localhost:1313/tutorials/docs/golang/golang/building-real-world-application-go/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/golang/golang/building-real-world-application-go/</guid>
       <description></description>
+    </item>
+    <item>
+      <title>Building a Real-World Haskell Application</title>
+      <link>http://localhost:1313/tutorials/docs/haskell/haskell/building-real-world-haskell-application/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/haskell/haskell/building-real-world-haskell-application/</guid>
+      <description>Introduction: linkEmbarking on building a real-world application in Haskell is an exciting challenge that combines Haskell’s powerful features with software engineering best practices. In this guide, we’ll walk through the process of designing, implementing, testing, and deploying a Haskell application, complete with continuous integration and deployment. Our example project will be a simple web API for managing tasks, utilizing libraries like Scotty for web routing and Persistent for database operations.</description>
     </item>
     <item>
       <title>Building a Robust CLI Tool with Rust</title>
@@ -155,11 +169,32 @@
       <description>Introduction linkDecorators in Python are a very powerful and useful tool, allowing programmers to modify the behavior of a function or class. Decorators are typically used to extend or alter the behavior of functions or methods without permanently modifying them. They provide a flexible way to &amp;ldquo;wrap&amp;rdquo; functions with additional code.&#xA;What are Decorators? linkA decorator in Python is essentially a function that takes another function and extends its functionality, often doing some processing before or after the execution of the original function.</description>
     </item>
     <item>
+      <title>Diving Deeper into Haskell Functions</title>
+      <link>http://localhost:1313/tutorials/docs/haskell/haskell/diving-deeper-into-haskell-functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/haskell/haskell/diving-deeper-into-haskell-functions/</guid>
+      <description>Introduction:&#xA;Welcome back to our exploration of Haskell, a language that shines brightly in the realm of functional programming due to its elegant handling of functions. In this session, we dive deeper into Haskell&amp;rsquo;s approach to functions, focusing on pure functions, higher-order functions, and the intriguing concepts of currying and partial application. These advanced features empower developers to write more concise, flexible, and maintainable code.&#xA;Pure Functions and Side Effects</description>
+    </item>
+    <item>
+      <title>Effective Error Handling in Haskell</title>
+      <link>http://localhost:1313/tutorials/docs/haskell/haskell/error-handling-in-haskell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/haskell/haskell/error-handling-in-haskell/</guid>
+      <description>Introduction: linkWelcome back to our Haskell series, where today we focus on a crucial aspect of any robust application—error handling. Haskell, with its strong type system and pure functional nature, offers unique approaches for managing errors effectively. In this post, we will compare exceptions and type-based error handling, delve into using the Either type and error monads, and discuss best practices for ensuring your Haskell applications are as robust and error-resistant as possible.</description>
+    </item>
+    <item>
       <title>Effective Error Handling in Python: Try-Except Blocks and Finally Clause</title>
       <link>http://localhost:1313/tutorials/docs/python/python/python_error_handling/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/python/python/python_error_handling/</guid>
       <description>Introduction linkHandling errors properly in a Python program is crucial to ensure that the program can gracefully handle unexpected situations without crashing. Python provides several ways to handle errors, most notably through try-except blocks and the finally clause.&#xA;Try-Except Blocks linkTry-except blocks are used to catch and handle exceptions. An exception is an event, which occurs during the execution of a program that disrupts the normal flow of the program&amp;rsquo;s instructions.</description>
+    </item>
+    <item>
+      <title>Effective Testing and Debugging in Haskell</title>
+      <link>http://localhost:1313/tutorials/docs/haskell/haskell/testing-and-debugging-in-haskell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/haskell/haskell/testing-and-debugging-in-haskell/</guid>
+      <description>Introduction: linkWelcome to our in-depth exploration of testing and debugging in Haskell, essential skills for any Haskell developer looking to ensure the reliability and efficiency of their code. In this guide, we will dive into the best practices for writing unit tests with HUnit and QuickCheck, explore effective debugging techniques, and discuss how to profile and optimize Haskell applications for better performance. By mastering these techniques, you can build Haskell applications that are not only functional but also robust and efficient.</description>
     </item>
     <item>
       <title>Effective Testing Strategies in Rust</title>
@@ -183,13 +218,6 @@
       <description>Introduction:&#xA;Welcome back, Go enthusiasts! As you develop more complex applications or contribute to larger projects, understanding how to efficiently organize your Go code into packages and manage dependencies is essential. This blog will guide you through organizing your code with packages, using Go modules for dependency management, and publishing your own packages. These practices will help you maintain a clean codebase, manage dependencies easily, and share your work with the Go community.</description>
     </item>
     <item>
-      <title>Elixir</title>
-      <link>http://localhost:1313/tutorials/docs/elixir/elixir/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/</guid>
-      <description>Starting here link</description>
-    </item>
-    <item>
       <title>Essentials of Python for Machine Learning: Libraries, Concepts, and Model Building</title>
       <link>http://localhost:1313/tutorials/docs/python/python/python_for_machine_learning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -202,6 +230,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/python/python/python_advanced_data_structures/</guid>
       <description>Introduction linkAdvanced data structures are crucial for creating efficient algorithms and applications. Python’s standard library offers several modules that contain advanced data structures which can significantly simplify complex programming tasks.&#xA;Collections Module linkThe collections module provides alternatives to Python’s general purpose built-in containers. We will focus on Counter, deque, and OrderedDict.&#xA;Counter linkCounter is a subclass of dict that is used to count objects. It simplifies counting and frequency analysis tasks.</description>
+    </item>
+    <item>
+      <title>Exploring Advanced Data Types in Haskell</title>
+      <link>http://localhost:1313/tutorials/docs/haskell/haskell/advanced-data-types-in-haskell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/haskell/haskell/advanced-data-types-in-haskell/</guid>
+      <description>Introduction: linkWelcome back to our in-depth Haskell series! Today, we&amp;rsquo;re exploring some of Haskell&amp;rsquo;s most powerful features—its advanced data types. Haskell offers a variety of sophisticated data structures that help manage complex data more efficiently and safely. In this guide, we will cover Tuples, Maybe and Either types, Records, and Algebraic Data Types (ADTs). Additionally, we&amp;rsquo;ll delve into the powerful concepts of pattern matching and guards, essential tools that complement these data types perfectly.</description>
     </item>
     <item>
       <title>Exploring Advanced Features of Go</title>
@@ -225,11 +260,25 @@
       <description>Introduction:&#xA;Hello, Go enthusiasts! As we continue our journey into Go&amp;rsquo;s concurrency model, it&amp;rsquo;s essential to delve into one of its most significant components: channels. Channels in Go provide a powerful way for goroutines to communicate with each other. They help prevent common issues like race conditions and deadlocks that are typical in conventional multithreaded applications. In this blog, we&amp;rsquo;ll explore how to use channels to enable safe and efficient communication between goroutines, and we&amp;rsquo;ll differentiate between buffered and unbuffered channels.</description>
     </item>
     <item>
+      <title>Exploring Functional Design Patterns in Haskell</title>
+      <link>http://localhost:1313/tutorials/docs/haskell/haskell/functional-design-patterns-in-haskell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/haskell/haskell/functional-design-patterns-in-haskell/</guid>
+      <description>Introduction: linkWelcome back to our deep dive into Haskell&amp;rsquo;s capabilities. In this installment, we explore functional design patterns that are essential for effective Haskell programming. Functional programming patterns like recursion, functors, applicative functors, and monoids not only streamline code but also elevate its expressiveness and efficiency. This post will guide you through these patterns, showcasing how to leverage them for solving complex programming problems with elegance and clarity.&#xA;Recursion and Recursive Data Structures linkUnderstanding Recursion in Haskell:</description>
+    </item>
+    <item>
       <title>Exploring Functions in Go</title>
       <link>http://localhost:1313/tutorials/docs/golang/golang/functions-in-go/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/golang/golang/functions-in-go/</guid>
       <description>Introduction:&#xA;Welcome back, Go developers! As we venture deeper into the world of Go programming, we reach one of the most fundamental aspects of any programming language: functions. Functions in Go are powerful and flexible, allowing you to write clean, maintainable, and reusable code. This blog will guide you through defining and calling functions, handling parameters and return values, and mastering anonymous functions and closures. Let&amp;rsquo;s jump into the mechanics and best practices of Go functions.</description>
+    </item>
+    <item>
+      <title>Exploring Haskell Syntax and Basic Concepts</title>
+      <link>http://localhost:1313/tutorials/docs/haskell/haskell/exploring-haskell-syntax-basic-concepts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/haskell/haskell/exploring-haskell-syntax-basic-concepts/</guid>
+      <description>Introduction:&#xA;Welcome back to the fascinating world of Haskell, a language that redefines the boundaries of programming through its pure functional nature and strong static type system. In this post, we delve deeper into the syntax and foundational concepts of Haskell. This language&amp;rsquo;s focus on immutability, type safety, and function-driven solutions offers a distinct approach to solving programming challenges efficiently and effectively. By understanding Haskell&amp;rsquo;s expressions, variables, basic data types, and functions, you&amp;rsquo;ll be equipped to tackle more complex programming tasks with confidence.</description>
     </item>
     <item>
       <title>Exploring Python Operators: Arithmetic, Comparison, and Logical Operations</title>
@@ -244,6 +293,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/</guid>
       <description>Starting here link</description>
+    </item>
+    <item>
+      <title>Getting Started</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/getting_started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/getting_started/</guid>
+      <description>How to Install Elixir linkElixir is a dynamic, functional programming language designed for building scalable and maintainable applications. This guide will walk you through the steps to install and use elixir. For a detailed install, check out this: installation guide.&#xA;Interactive mode linkWhen you install Elixir, you will habe three new command line executables: iex, elixir and elixirc.&#xA;For now, let&amp;rsquo;s start by running iex (or iex.bat if you are on Windows PowerShell, where iex is a PowerShell command) which stands for Interactive Elixir.</description>
     </item>
     <item>
       <title>Getting Started with Go</title>
@@ -267,11 +323,11 @@
       <description>Starting here link</description>
     </item>
     <item>
-      <title>Haskell</title>
-      <link>http://localhost:1313/tutorials/docs/haskell/haskell/</link>
+      <title>Harnessing Concurrency and Parallelism in Haskell</title>
+      <link>http://localhost:1313/tutorials/docs/haskell/haskell/concurrency-and-parallelism-in-haskell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/haskell/haskell/</guid>
-      <description>Starting here link</description>
+      <guid>http://localhost:1313/tutorials/docs/haskell/haskell/concurrency-and-parallelism-in-haskell/</guid>
+      <description>Introduction: linkWelcome back to our Haskell series, where today we&amp;rsquo;re diving into the world of concurrency and parallelism. Haskell offers robust support for concurrent and parallel programming, allowing developers to write high-performance applications that make full use of modern multicore processors. In this post, we’ll cover the basics of concurrent programming in Haskell, discuss how to use threads and asynchronous operations, and explore strategies for effective parallel programming. Understanding these concepts will enable you to design and implement applications that are not only fast but also scalable.</description>
     </item>
     <item>
       <title>Integrating Rust with Other Languages: FFI and Safe Abstractions</title>
@@ -279,6 +335,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/rust/rust/integrating_rust_ffi_safe_abstractions/</guid>
       <description>Introduction linkInterfacing Rust with other languages is a powerful feature that enables developers to reuse existing libraries and perform tasks that might be cumbersome or impossible in pure Rust. This post focuses on Rust&amp;rsquo;s capabilities to interact with C using FFI and discusses strategies for maintaining safety despite the inherent risks of working with unsafe code.&#xA;FFI Basics: Calling C from Rust linkRust’s FFI is a way to interface with the C language.</description>
+    </item>
+    <item>
+      <title>Interfacing Databases with Haskell</title>
+      <link>http://localhost:1313/tutorials/docs/haskell/haskell/interfacing-with-databases-in-haskell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/haskell/haskell/interfacing-with-databases-in-haskell/</guid>
+      <description>Introduction: linkIn this installment of our Haskell series, we delve into interfacing Haskell applications with databases—a critical skill for developing dynamic, data-driven applications. Haskell’s strong type system and functional programming paradigm provide unique advantages in database operations, ensuring safety and efficiency. We will explore how to connect to databases, perform CRUD (Create, Read, Update, Delete) operations, and provide practical examples using popular databases like SQLite and PostgreSQL.&#xA;Connecting Haskell Applications to Databases linkOverview of Database Connectivity:</description>
+    </item>
+    <item>
+      <title>Introduction to Haskell</title>
+      <link>http://localhost:1313/tutorials/docs/haskell/haskell/introduction-to-haskell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/haskell/haskell/introduction-to-haskell/</guid>
+      <description>Introduction:&#xA;Welcome to the intriguing world of Haskell, a language that embodies the essence of functional programming with its emphasis on purity and immutability. If you&amp;rsquo;re drawn to Haskell, you&amp;rsquo;re likely intrigued by its elegance and robustness in tackling complex problems through simple, declarative code constructs. In this introductory guide, we will explore Haskell&amp;rsquo;s functional programming paradigm, set up the Haskell development environment, and write our very first program. Whether you&amp;rsquo;re a seasoned programmer or new to coding, Haskell offers a fresh perspective that can enhance your programming skills.</description>
     </item>
     <item>
       <title>Introduction to Python</title>
@@ -302,6 +372,13 @@
       <description>Introduction linkSlices are a powerful feature in Rust that provide a way to reference a contiguous sequence of elements in a collection rather than the whole collection. This post will explore slices in-depth, focusing on their definition, applications, and particularly how they are used with strings to perform operations on parts of a string efficiently and safely.&#xA;Understanding Slices linkA slice is a two-word object, the first word is a pointer to the data, and the second word is the length of the slice.</description>
     </item>
     <item>
+      <title>Lists and tuples</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/lists_and_tuples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/lists_and_tuples/</guid>
+      <description>Linked Lists linkElixir uses square brackets to specify a list of values. Values can be of any type:&#xA;[1, 2, true, 3] [1, 2, true, 3] length([1, 2, 3]) 3 Two lists can be concatenated or subtracted using the ++/2 and --/2 operators respectively:&#xA;[1, 2, 3] &amp;#43;&amp;#43; [4, 5, 6] [1, 2, 3, 4, 5, 6] [1, true, 2, false, 3, true] -- [true, false] [1, 2, 3, true] List operators never modify the existing list.</description>
+    </item>
+    <item>
       <title>Master the Basics of Go</title>
       <link>http://localhost:1313/tutorials/docs/golang/golang/understanding-go-basics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -320,7 +397,7 @@
       <link>http://localhost:1313/tutorials/docs/python/python/python_concurrency_and_parallelism/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/python/python/python_concurrency_and_parallelism/</guid>
-      <description>Introduction linkConcurrency and parallelism are key concepts for developing high-performance applications. Python provides several modules that enable concurrent and parallel execution of code. We&amp;rsquo;ll discuss three primary methods: threading, multiprocessing, and asyncio.&#xA;Threading linkThreading is a technique for achieving concurrency. In Python, threads allow you to run multiple operations concurrently in the same process space.&#xA;Basic Threading link import threading&#xD;def print_cube(num):&#xD;&amp;#34;&amp;#34;&amp;#34;Function to print cube of given num&amp;#34;&amp;#34;&amp;#34;&#xD;print(&amp;#34;Cube: {}&amp;#34;.</description>
+      <description>Introduction linkConcurrency and parallelism are key concepts for developing high-performance applications. Python provides several modules that enable concurrent and parallel execution of code. We&amp;rsquo;ll discuss three primary methods: threading, multiprocessing, and asyncio.&#xA;Threading linkThreading is a technique for achieving concurrency. In Python, threads allow you to run multiple operations concurrently in the same process space.&#xA;Basic Threading link import threading def print_cube(num): &amp;#34;&amp;#34;&amp;#34;Function to print cube of given num&amp;#34;&amp;#34;&amp;#34; print(&amp;#34;Cube: {}&amp;#34;.</description>
     </item>
     <item>
       <title>Mastering Concurrency in Go with Goroutines</title>
@@ -358,11 +435,25 @@
       <description>Introduction linkGenerics and traits are two of Rust’s most powerful features, allowing for more flexible and reusable code while maintaining Rust’s strict type safety. Generics let you write functions and data types that can operate on many different data types, while traits specify shared behavior that different types can implement. This post provides a detailed look at both, along with practical examples and best practices.&#xA;Introduction to Generics linkGenerics are the tool Rust provides to handle the concept of abstract types.</description>
     </item>
     <item>
+      <title>Mastering Haskell’s Module System for Efficient Code Organization</title>
+      <link>http://localhost:1313/tutorials/docs/haskell/haskell/module-system-in-haskell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/haskell/haskell/module-system-in-haskell/</guid>
+      <description>Introduction: linkWelcome to our exploration of the Haskell Module System—a powerful feature for managing and organizing code in large Haskell projects. Haskell’s module system not only enhances code readability and maintainability but also facilitates code reuse and collaboration. In this post, we will dive into how to organize code with modules, handle importing and exporting, and effectively split a project into multiple modules. By mastering these aspects, you can scale your Haskell projects efficiently while keeping the codebase clean and organized.</description>
+    </item>
+    <item>
       <title>Mastering Lifetime Management in Rust</title>
       <link>http://localhost:1313/tutorials/docs/rust/rust/mastering_lifetime_management_rust/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/rust/rust/mastering_lifetime_management_rust/</guid>
       <description>Introduction linkLifetimes are a foundational feature of Rust that ensures memory safety without the overhead of garbage collection. They are annotations that allow the Rust compiler to check that all borrows are valid for the duration of those borrows. This post explains the concept of lifetimes, how to annotate them in functions, and why understanding lifetimes is essential for writing robust Rust code.&#xA;Understanding Lifetimes linkIn Rust, every reference has a lifetime, which is the scope for which that reference is valid.</description>
+    </item>
+    <item>
+      <title>Mastering List Operations in Haskell</title>
+      <link>http://localhost:1313/tutorials/docs/haskell/haskell/working-with-lists-in-haskell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/haskell/haskell/working-with-lists-in-haskell/</guid>
+      <description>Introduction:&#xA;Welcome back to our exploration of Haskell, the pure functional programming language known for its powerful handling of data structures, particularly lists. Lists in Haskell are not just fundamental; they are central to many programming patterns and techniques in the language. This guide delves deep into Haskell lists, covering everything from basic operations to more advanced manipulations with list comprehensions and practical examples to enhance your understanding and skills.</description>
     </item>
     <item>
       <title>Mastering Macros in Rust</title>
@@ -414,6 +505,20 @@
       <description>Introduction linkThe syntax of a programming language is a set of rules that defines how a program is written and interpreted. In Python, syntax is famously clean and often feels intuitive, making it an excellent choice for beginners. Yet, it possesses the depth required for advanced programming. This section explores Python syntax through various constructs and a practical example.&#xA;Fibonacci Series Example linkThe Fibonacci sequence is a classic example used to illustrate basic programming concepts in many languages.</description>
     </item>
     <item>
+      <title>Modules and functions</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/modules_and_functions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/modules_and_functions/</guid>
+      <description>In Elixir, we group several functions into modules. We&amp;rsquo;ve already used many different modules in the previous chapters, such as the String module:&#xA;String.length(&amp;#34;hello&amp;#34;) 5 In order to create our own modules in Elixir, we use the defmodule macro. The first letter of the module must be in uppercase. We use the def macro to define functions in that module. The first letter of every function must be in lowercase (or underscore):</description>
+    </item>
+    <item>
+      <title>Monad Magic in Haskell</title>
+      <link>http://localhost:1313/tutorials/docs/haskell/haskell/monad-magic-in-haskell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/haskell/haskell/monad-magic-in-haskell/</guid>
+      <description>Introduction: linkWelcome to an intriguing exploration of one of Haskell’s most powerful and often mystifying features—monads. Monads play a crucial role in managing side effects and structuring functional programs in Haskell, providing a framework that helps maintain purity while performing IO, handling errors, or iterating over lists. This post will demystify the concept of monads, introduce you to the most commonly used monads like Maybe, IO, and List, and demonstrate how these can be leveraged for effective problem-solving in real-world applications.</description>
+    </item>
+    <item>
       <title>Numpy</title>
       <link>http://localhost:1313/tutorials/docs/numpy/numpy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -433,6 +538,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/pandas/pandas/</guid>
       <description>Starting here link</description>
+    </item>
+    <item>
+      <title>Pattern matching</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/pattern_matching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/pattern_matching/</guid>
+      <description>The match operator linkWe have used the = operator a couple times to assign variables in Elixir:&#xA;x = 1 1 x 1 In Elixir, the = operator is actually called the match operator. Let&amp;rsquo;s see why:&#xA;x = 1 1 1 = x 1 2 = x ** (MatchError) no match of right hand side value: 1 Notice that 1 = x is a valid expression, and it matched because both the left and right side are equal to 1.</description>
     </item>
     <item>
       <title>Python Modules and Packages: Importing Essentials and Exploring Standard Libraries</title>
@@ -470,6 +582,13 @@
       <description>Introduction linkSmart pointers are data structures that not only manage memory but also have additional metadata and capabilities. Rust’s standard library provides several smart pointers, including Box, Rc, and Arc, each serving specific memory management needs with unique characteristics. This post covers each smart pointer in detail and discusses their appropriate use cases.&#xA;Understanding Smart Pointers linkSmart pointers are more complex than typical pointers because they include additional &amp;ldquo;intelligence&amp;rdquo; such as reference counting or the capability to deallocate the box memory they point to.</description>
     </item>
     <item>
+      <title>Solidity</title>
+      <link>http://localhost:1313/tutorials/docs/solidity/solidity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/solidity/solidity/</guid>
+      <description>Starting here to the best about solidity link</description>
+    </item>
+    <item>
       <title>Structuring Rust Projects: Modules and Crates Explained</title>
       <link>http://localhost:1313/tutorials/docs/rust/rust/structuring_rust_projects_modules_crates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -502,14 +621,14 @@
       <link>http://localhost:1313/tutorials/docs/python/python/python_functions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/python/python/python_functions/</guid>
-      <description>Introduction linkFunctions are a cornerstone of organized, maintainable, and reusable code in Python. They allow you to execute specific blocks of code multiple times without needing to rewrite the code, enhancing the modularity and efficiency of your programs.&#xA;Defining Functions linkA function in Python is defined using the def keyword, followed by a function name, parentheses, and a colon. The code block within every function starts with an indentation.&#xA;Syntax and Explanation: link def function_name(parameters):&#xD;# Function body&#xD;return output Example: link def greet(name):&#xD;&amp;#34;&amp;#34;&amp;#34;Returns a greeting.</description>
+      <description>Introduction linkFunctions are a cornerstone of organized, maintainable, and reusable code in Python. They allow you to execute specific blocks of code multiple times without needing to rewrite the code, enhancing the modularity and efficiency of your programs.&#xA;Defining Functions linkA function in Python is defined using the def keyword, followed by a function name, parentheses, and a colon. The code block within every function starts with an indentation.&#xA;Syntax and Explanation: link def function_name(parameters): # Function body return output Example: link def greet(name): &amp;#34;&amp;#34;&amp;#34;Returns a greeting.</description>
     </item>
     <item>
       <title>Understanding Iterators and Generators in Python: Leveraging Yield for Efficient Code</title>
       <link>http://localhost:1313/tutorials/docs/python/python/python_iterators_and_generators/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/python/python/python_iterators_and_generators/</guid>
-      <description>Introduction linkIterators and generators are fundamental constructs in Python that allow for efficient looping and data processing, particularly when dealing with large datasets or complex computation scenarios. They help in managing memory efficiently and can make your code faster and more scalable.&#xA;Creating Iterators linkIn Python, iterators are objects that implement the __iter__() and __next__() methods, which collectively allow you to iterate over sequential data.&#xA;Defining an Iterator link class Count:&#xD;&amp;#34;&amp;#34;&amp;#34;Iterator that counts upward forever.</description>
+      <description>Introduction linkIterators and generators are fundamental constructs in Python that allow for efficient looping and data processing, particularly when dealing with large datasets or complex computation scenarios. They help in managing memory efficiently and can make your code faster and more scalable.&#xA;Creating Iterators linkIn Python, iterators are objects that implement the __iter__() and __next__() methods, which collectively allow you to iterate over sequential data.&#xA;Defining an Iterator link class Count: &amp;#34;&amp;#34;&amp;#34;Iterator that counts upward forever.</description>
     </item>
     <item>
       <title>Understanding Python Variables and Data Types: From Basics to Type Conversion</title>
@@ -524,6 +643,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/golang/golang/structs-and-interfaces-in-go/</guid>
       <description>Introduction:&#xA;Welcome to another insightful dive into Go programming! Today, we&amp;rsquo;re focusing on two crucial components of Go that provide the foundation for building well-structured and scalable applications: structs and interfaces. Structs allow you to create data types that group related data, making your programs more organized and manageable. Interfaces, on the other hand, define sets of methods that specify behavior, fostering flexible and modular coding practices. Let’s delve into the advanced usage of these features and explore how they can be applied to elevate your Go projects.</description>
+    </item>
+    <item>
+      <title>Understanding Type Classes and Polymorphism in Haskell</title>
+      <link>http://localhost:1313/tutorials/docs/haskell/haskell/type-classes-and-polymorphism-in-haskell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/haskell/haskell/type-classes-and-polymorphism-in-haskell/</guid>
+      <description>Introduction:&#xA;Dive deep into Haskell&amp;rsquo;s advanced features with this comprehensive exploration of type classes and polymorphism. Type classes in Haskell allow for a level of abstraction and code reuse not readily available in many other programming languages, offering powerful ways to work with different data types while maintaining strict type safety. This blog post will guide you through the foundational type classes like Eq, Ord, and Show, show you how to create custom type classes, and discuss the nuanced application of polymorphism in Haskell.</description>
     </item>
     <item>
       <title>Unlocking Asynchronous Programming in Rust</title>
