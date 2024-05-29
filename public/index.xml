@@ -78,6 +78,13 @@
       <description>Protocols - ether, fddi, ip, arp, rarp, decnet, lat, sca, moprc, mopdl, tcp and udp linkWireshark Capturing Modes link Promiscuous mode Sets interface to capture all packets on a network segment to which it is associated to Monitor mode setup the Wireless interface to capture all traffic it can receive (Unix/Linux only) Filter Types link Capture filter Filter packets during capture Display Filter Hide Packets from a capture display Capture Filter Syntax link Syntax protocol direction hosts value Logical operator Expressions Example tcp src 192.</description>
     </item>
     <item>
+      <title>A beginner&#39;s guide to the Elixir programming language</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/01_a_beginners_guide_to_elixir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/01_a_beginners_guide_to_elixir/</guid>
+      <description>In this section, we will cover:&#xA;What is Elixir? Key features, tools, and uses of Elixir Intro to Elixir functional programming Simple code snippets What is Elixir? linkElixir is a general-purpose, functional, concurrent programming language designed for building applications that are reliable, scalable, and easy to maintain. Tt looks a lot like Ruby but offers features that help with handling lots of tasks at the same time (concurrency), recovering from errors quickly (fault tolerance), and low latency.</description>
+    </item>
+    <item>
       <title>Advanced Enums and Pattern Matching in Rust</title>
       <link>http://localhost:1313/tutorials/docs/rust/rust/advanced_enums_pattern_matching_rust/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -97,13 +104,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/rust/rust/basic_concepts_in_rust/</guid>
       <description>Introduction linkIn this post, we&amp;rsquo;re going to explore some fundamental concepts of Rust programming: variables and data types, along with mutability and immutability. Understanding these concepts is crucial as they form the foundation upon which safe and efficient Rust programs are built.&#xA;Variables and Data Types linkIn Rust, a variable is a storage location paired with an associated name, which contains some known or unknown quantity of data referred to as a value.</description>
-    </item>
-    <item>
-      <title>Basic types</title>
-      <link>http://localhost:1313/tutorials/docs/elixir/elixir/basic_types/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/basic_types/</guid>
-      <description>1 # integer 0x1F # integer 1.0 # float true # boolean :atom # atom / symbol &amp;#34;elixir&amp;#34; # string [1, 2, 3] # list {1, 2, 3} # tuple Basic Arithmetic linkOpen up iex and type the following expressions:&#xA;1 &amp;#43; 2 3 5 * 5 25 10 / 2 5.0 Notice that 10 / 2 returned a float 5.0 instead of an integer 5. This is expected. In Elixir, the operator / always returns a float.</description>
     </item>
     <item>
       <title>Building a Real-World Application in Go</title>
@@ -160,6 +160,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/rust/rust/rust_ownership/</guid>
       <description>Introduction linkOwnership is arguably the most distinctive feature of Rust. It enforces a set of rules that manages memory and other resources automatically and safely, without the overhead of a garbage collector. This blog will explore the intricate details of ownership, its significance, and the strict yet beneficial rules it imposes.&#xA;What is Ownership? linkOwnership in Rust is a memory management concept that ensures memory safety by enforcing three rules regarding the ownership, scope, and borrowing of values.</description>
+    </item>
+    <item>
+      <title>Create A Simple Web Server using Elixir</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/02_creating_a_simple_web_server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/02_creating_a_simple_web_server/</guid>
+      <description>In this lesson, we will build a simple HTTP server from scratch using the PlugCowboy Elixir library. Cowboy is a simple HTTP server for Erlang and Plug will provide us with a connection adapter for the web server.&#xA;Getting started linkAssuming you already have Elixir installed, we will start a simple project by running the command:&#xA;mix new server --sup cd server Note that server is the name of your project, and you can name it however you want.</description>
     </item>
     <item>
       <title>Demystifying Python Decorators: Enhancing Functionality with Decorators</title>
@@ -295,13 +302,6 @@
       <description>Starting here link</description>
     </item>
     <item>
-      <title>Getting Started</title>
-      <link>http://localhost:1313/tutorials/docs/elixir/elixir/getting_started/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/getting_started/</guid>
-      <description>How to Install Elixir linkElixir is a dynamic, functional programming language designed for building scalable and maintainable applications. This guide will walk you through the steps to install and use elixir. For a detailed install, check out this: installation guide.&#xA;Interactive mode linkWhen you install Elixir, you will habe three new command line executables: iex, elixir and elixirc.&#xA;For now, let&amp;rsquo;s start by running iex (or iex.bat if you are on Windows PowerShell, where iex is a PowerShell command) which stands for Interactive Elixir.</description>
-    </item>
-    <item>
       <title>Getting Started with Go</title>
       <link>http://localhost:1313/tutorials/docs/golang/golang/getting-started-with-go/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -370,13 +370,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/rust/rust/leveraging_slices_rust/</guid>
       <description>Introduction linkSlices are a powerful feature in Rust that provide a way to reference a contiguous sequence of elements in a collection rather than the whole collection. This post will explore slices in-depth, focusing on their definition, applications, and particularly how they are used with strings to perform operations on parts of a string efficiently and safely.&#xA;Understanding Slices linkA slice is a two-word object, the first word is a pointer to the data, and the second word is the length of the slice.</description>
-    </item>
-    <item>
-      <title>Lists and tuples</title>
-      <link>http://localhost:1313/tutorials/docs/elixir/elixir/lists_and_tuples/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/lists_and_tuples/</guid>
-      <description>Linked Lists linkElixir uses square brackets to specify a list of values. Values can be of any type:&#xA;[1, 2, true, 3] [1, 2, true, 3] length([1, 2, 3]) 3 Two lists can be concatenated or subtracted using the ++/2 and --/2 operators respectively:&#xA;[1, 2, 3] &amp;#43;&amp;#43; [4, 5, 6] [1, 2, 3, 4, 5, 6] [1, true, 2, false, 3, true] -- [true, false] [1, 2, 3, true] List operators never modify the existing list.</description>
     </item>
     <item>
       <title>Master the Basics of Go</title>
@@ -505,13 +498,6 @@
       <description>Introduction linkThe syntax of a programming language is a set of rules that defines how a program is written and interpreted. In Python, syntax is famously clean and often feels intuitive, making it an excellent choice for beginners. Yet, it possesses the depth required for advanced programming. This section explores Python syntax through various constructs and a practical example.&#xA;Fibonacci Series Example linkThe Fibonacci sequence is a classic example used to illustrate basic programming concepts in many languages.</description>
     </item>
     <item>
-      <title>Modules and functions</title>
-      <link>http://localhost:1313/tutorials/docs/elixir/elixir/modules_and_functions/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/modules_and_functions/</guid>
-      <description>In Elixir, we group several functions into modules. We&amp;rsquo;ve already used many different modules in the previous chapters, such as the String module:&#xA;String.length(&amp;#34;hello&amp;#34;) 5 In order to create our own modules in Elixir, we use the defmodule macro. The first letter of the module must be in uppercase. We use the def macro to define functions in that module. The first letter of every function must be in lowercase (or underscore):</description>
-    </item>
-    <item>
       <title>Monad Magic in Haskell</title>
       <link>http://localhost:1313/tutorials/docs/haskell/haskell/monad-magic-in-haskell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -538,13 +524,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/pandas/pandas/</guid>
       <description>Starting here link</description>
-    </item>
-    <item>
-      <title>Pattern matching</title>
-      <link>http://localhost:1313/tutorials/docs/elixir/elixir/pattern_matching/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/pattern_matching/</guid>
-      <description>The match operator linkWe have used the = operator a couple times to assign variables in Elixir:&#xA;x = 1 1 x 1 In Elixir, the = operator is actually called the match operator. Let&amp;rsquo;s see why:&#xA;x = 1 1 1 = x 1 2 = x ** (MatchError) no match of right hand side value: 1 Notice that 1 = x is a valid expression, and it matched because both the left and right side are equal to 1.</description>
     </item>
     <item>
       <title>Python Modules and Packages: Importing Essentials and Exploring Standard Libraries</title>
