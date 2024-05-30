@@ -33,6 +33,7 @@
     <lastmod>2024-04-26T15:18:15+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/elixir/elixir/01_a_beginners_guide_to_elixir/</loc>
+    <lastmod>2024-05-29T02:59:05+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/rust/rust/advanced_enums_pattern_matching_rust/</loc>
     <lastmod>2024-05-06T04:29:03+00:00</lastmod>
@@ -42,6 +43,8 @@
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/rust/rust/basic_concepts_in_rust/</loc>
     <lastmod>2024-05-06T04:29:03+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/docs/elixir/elixir/03_cli_tool_using_elixir/</loc>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/golang/golang/building-real-world-application-go/</loc>
     <lastmod>2024-05-08T00:37:43+00:00</lastmod>
@@ -66,6 +69,8 @@
     <loc>http://localhost:1313/tutorials/docs/python/python/python_testing/</loc>
     <lastmod>2024-05-04T04:36:58+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tutorials/docs/elixir/elixir/04_concurrency_in_elixir_with_otp/</loc>
+  </url><url>
     <loc>http://localhost:1313/tutorials/docs/rust/rust/control_flow_in_rust/</loc>
     <lastmod>2024-05-06T04:29:03+00:00</lastmod>
   </url><url>
@@ -73,6 +78,7 @@
     <lastmod>2024-05-06T04:29:03+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/elixir/elixir/02_creating_a_simple_web_server/</loc>
+    <lastmod>2024-05-29T02:59:05+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/python/python/python_decorators/</loc>
     <lastmod>2024-05-04T04:36:58+00:00</lastmod>
@@ -81,7 +87,7 @@
     <lastmod>2024-05-10T04:53:59+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/</loc>
-    <lastmod>2024-05-27T15:47:39+02:00</lastmod>
+    <lastmod>2024-05-29T02:59:05+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/haskell/haskell/error-handling-in-haskell/</loc>
     <lastmod>2024-05-10T04:53:59+00:00</lastmod>
@@ -102,7 +108,7 @@
     <lastmod>2024-05-08T00:37:43+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/elixir/</loc>
-    <lastmod>2024-04-16T21:53:40+05:30</lastmod>
+    <lastmod>2024-05-29T02:59:05+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/python/python/python_for_machine_learning/</loc>
     <lastmod>2024-05-04T04:36:58+00:00</lastmod>
@@ -311,7 +317,7 @@
     <lastmod>2024-05-09T14:26:28+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/</loc>
-    <lastmod>2024-05-27T15:47:39+02:00</lastmod>
+    <lastmod>2024-05-29T02:59:05+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/rust/rust/understanding_using_unsafe_rust/</loc>
     <lastmod>2024-05-06T04:29:03+00:00</lastmod>

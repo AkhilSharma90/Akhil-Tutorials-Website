@@ -106,6 +106,13 @@
       <description>Introduction linkIn this post, we&amp;rsquo;re going to explore some fundamental concepts of Rust programming: variables and data types, along with mutability and immutability. Understanding these concepts is crucial as they form the foundation upon which safe and efficient Rust programs are built.&#xA;Variables and Data Types linkIn Rust, a variable is a storage location paired with an associated name, which contains some known or unknown quantity of data referred to as a value.</description>
     </item>
     <item>
+      <title>Build a CLI Todo List using Elixir</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/03_cli_tool_using_elixir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/03_cli_tool_using_elixir/</guid>
+      <description>This section will guide you throguh creating a basic command-line TODO application. We will explore key conteps and syntac along the way, makin git perfect for people who just started using the language.&#xA;Getting started linkFirst, we should create a new project by running the command&#xA;mix new todo_cli --sup We have already gone through the meaning of --sup in the first tutorial we had.&#xA;Our proejct will consist of four main modules:</description>
+    </item>
+    <item>
       <title>Building a Real-World Application in Go</title>
       <link>http://localhost:1313/tutorials/docs/golang/golang/building-real-world-application-go/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -146,6 +153,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/python/python/python_testing/</guid>
       <description>Introduction linkTesting is an essential aspect of software development that ensures your code behaves as expected and can handle various input scenarios without crashing. Python offers several built-in libraries for testing, with unittest being one of the most popular for unit testing.&#xA;Unit Testing with unittest linkunittest is a testing framework inspired by JUnit. It supports test automation, sharing of setup and shutdown code, aggregation of tests into collections, and independence of the tests from the reporting framework.</description>
+    </item>
+    <item>
+      <title>Concurrency in Elixir with OTP</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/04_concurrency_in_elixir_with_otp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/04_concurrency_in_elixir_with_otp/</guid>
+      <description>Concurrency is one of the core strengths of Elixir, and the language leverages the powerful capabilities of the Erlang VM to build highly concurrent and fault-tolerant systems. In this section, we will explore concurrency in Elixir using OTP (Open Telecom Platform), which is a set of libraries and design principles for building scalable and maintainable applications.&#xA;Introduction linkWhy Concurrency in Elixer? linkElixir, built on the Erlang VM, is designed for building concurrent, distributed, and fault-tolerant applications.</description>
     </item>
     <item>
       <title>Control Flow in Rust</title>

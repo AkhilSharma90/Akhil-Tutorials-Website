@@ -169,6 +169,16 @@
                                     
                                         
                                         
+                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/tutorials/docs/elixir/elixir/03_cli_tool_using_elixir/">Build a CLI Todo List using Elixir</a></li>
+                                        
+                                    
+                                        
+                                        
+                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/tutorials/docs/elixir/elixir/04_concurrency_in_elixir_with_otp/">Concurrency in Elixir with OTP</a></li>
+                                        
+                                    
+                                        
+                                        
                                             <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/tutorials/docs/elixir/elixir/02_creating_a_simple_web_server/">Create A Simple Web Server using Elixir</a></li>
                                         
                                     
@@ -2182,6 +2192,20 @@ long_running_task()</code>
     
     
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
 
     
@@ -2284,7 +2308,7 @@ long_running_task()</code>
                 href: "\/tutorials\/docs\/elixir\/elixir\/01_a_beginners_guide_to_elixir\/",
                 title: "A beginner's guide to the Elixir programming language",
                 description: "Elixir is a process-oriented, functional programming language that runs on the Erlang virtual machine (BEAM). The language was influenced by Ruby. This inspiration can be seen and felt in Elixir’s ecosystem and tooling options. Elixir is known to be easy to learn and widely applicable within the software development industry.",
-                content: "In this section, we will cover:\nWhat is Elixir? Key features, tools, and uses of Elixir Intro to Elixir functional programming Simple code snippets What is Elixir? linkElixir is a general-purpose, functional, concurrent programming language designed for building applications that are reliable, scalable, and easy to maintain. Tt looks a lot like Ruby but offers features that help with handling lots of tasks at the same time (concurrency), recovering from errors quickly (fault tolerance), and low latency.\nKey features, tools, and uses of Elixir linkElixer has many cool features such as:\nElixir compiles to bytecode for the Erlang VM making it very efficient. Metaprogramming with macros and polymorphism via protocols that saves time and effort. Emphasis on higher-order functions and recursion Handle large data collections efficiently with lazy and asynchronous operations. Pattern matching which makes it easy to work with complex data. The language also has a solid set of web development tools such as:\nMix: Mix is a build tool that allows you to create projects, run tests, manage tasks, and much more. IEx: IEx, Elixir’s interactive shell, provides you with many features like auto-complete, debugging, code reloading, and more. Phoenix: Phoenix is known to be one of the best web frameworks. It’s based on the MVC architecture just like Ruby on Rails. Elixir is great for web applications of any size, web APIs (such as JSON or GraphQL), event-driven systems, distributed systems, internet of things, embedded systems, and much more.\nIntro to Elixir functional programming linkElixir is a functional programming language, which means it helps you write clear and efficient code. Here are some key concepts like:\nImmutability: In Elixir, once a value is created, it cannot be changed. This makes your code more predictable and easier to run in parallel. Functions: Functions are the main building blocks. In functional programming, pure functions are preferred because they use immutable values, depend only on their arguments, don’t have side effects beyond their return values. Impure functions are more complex and can have unpredictable results. In Elixir, functions can be passed around as arguments and return values, making the code very flexible. Declarative Code: Instead of focusing on how to solve a problem, you focus on what needs to be done. This makes your code more concise and easier to understand, leading to fewer bugs. By grasping these principles, you’ll be able to use Elixir to build efficient, reliable applications. Some basic elixir code examples linkThese are just examples of elixir basic code snippets.\nStrings\nElixir uses UTF-8 to encode strings. UTF-8 is a variable-width character encoding that uses one to four eight-bit bytes to store each code point. Strings are surrounded by double quotes, like ”this”. Let’s take a look at a simple Hello, World! in Elixir:\nIO.puts(\"Hello, World!\") Atoms\nAtoms are constants whose values are their own names. In other languages, they are called symbols. They’re typically used to enumerate over distinct values:\niex\u003e :cat :cat iex\u003e :dog :dog iex\u003e :fish :fish Booleans\nElixir supports the booleans true and false:\niex\u003e true true iex\u003e true == false false Arithmetic operations\nYou can also do some basic arithmetic operations\niex\u003e 2 + 2 4 iex\u003e 10 * 2 20 and the divide operator / always returns as a float:\niex\u003e 8 / 2 4.0 Modules and functions\nIn Elixir, functions are grouped into modules. An example of a module is the String module. Here’s an example:\niex\u003e String.length(\"elixir\") 6 Now that you have learnt what elixir it, you can start experimenting and building simple, small projects that will further drill in these skills you learn and help you grasp them.\n"
+                content: "In this section, we will cover:\nWhat is Elixir? Key features, tools, and uses of Elixir Intro to Elixir functional programming Simple code snippets What is Elixir? linkElixir is a general-purpose, functional, concurrent programming language designed for building applications that are reliable, scalable, and easy to maintain. Tt looks a lot like Ruby but offers features that help with handling lots of tasks at the same time (concurrency), recovering from errors quickly (fault tolerance), and low latency.\nKey features, tools, and uses of Elixir linkElixer has many cool features such as:\nElixir compiles to bytecode for the Erlang VM making it very efficient. Metaprogramming with macros and polymorphism via protocols that saves time and effort. Emphasis on higher-order functions and recursion Handle large data collections efficiently with lazy and asynchronous operations. Pattern matching which makes it easy to work with complex data. The language also has a solid set of web development tools such as:\nMix: Mix is a build tool that allows you to create projects, run tests, manage tasks, and much more. IEx: IEx, Elixir’s interactive shell, provides you with many features like auto-complete, debugging, code reloading, and more. Phoenix: Phoenix is known to be one of the best web frameworks. It’s based on the MVC architecture just like Ruby on Rails. Elixir is great for web applications of any size, web APIs (such as JSON or GraphQL), event-driven systems, distributed systems, internet of things, embedded systems, and much more.\nIntro to Elixir functional programming linkElixir is a functional programming language, which means it helps you write clear and efficient code. Here are some key concepts like:\nImmutability: In Elixir, once a value is created, it cannot be changed. This makes your code more predictable and easier to run in parallel. Functions: Functions are the main building blocks. In functional programming, pure functions are preferred because they use immutable values, depend only on their arguments, don’t have side effects beyond their return values. Impure functions are more complex and can have unpredictable results. In Elixir, functions can be passed around as arguments and return values, making the code very flexible. Declarative Code: Instead of focusing on how to solve a problem, you focus on what needs to be done. This makes your code more concise and easier to understand, leading to fewer bugs. By grasping these principles, you’ll be able to use Elixir to build efficient, reliable applications. Some basic elixir code examples linkThese are just examples of elixir basic code snippets.\nStrings\nElixir uses UTF-8 to encode strings. UTF-8 is a variable-width character encoding that uses one to four eight-bit bytes to store each code point. Strings are surrounded by double quotes, like ”this”. Let’s take a look at a simple Hello, World! in Elixir:\nIO.puts(\"Hello, World!\") Atoms\nAtoms are constants whose values are their own names. In other languages, they are called symbols. They’re typically used to enumerate over distinct values:\niex\u003e :cat :cat iex\u003e :dog :dog iex\u003e :fish :fish Booleans\nElixir supports the booleans true and false:\niex\u003e true true iex\u003e true == false false Arithmetic operations\nYou can also do some basic arithmetic operations\niex\u003e 2 + 2 4 iex\u003e 10 * 2 20 and the divide operator / always returns as a float:\niex\u003e 8 / 2 4.0 Modules and functions\nIn Elixir, functions are grouped into modules. An example of a module is the String module. Here’s an example:\niex\u003e String.length(\"elixir\") 6 Looking more into functions, we also have anonymos functions. They start with fn and end with end.\niex\u003e add = fn a, b -\u003e a+ b end iex\u003e add.(1,2) #and the answer should be 3 3 Note that a dot (.) between the variable and parentesis is required to invoke an anonymouse function.\nIn Elixir, functions are first class citizens meaning that they can be passed as arguments to other functions the same way integers and strings can.\niex\u003e is_function(add) true This uses the inbuilt function is_function which checks to see if the parameter passed is a function and returns a bool. Anonymous functions are closures (named functions are not) and as such they can access variables that are in scope when the function is defined. You can define a new anonymous function that uses the add anonymous function we have previously defined:\nWith modules you’re able to group several functions together. Most of the time it is convenient to write modules into files so they can be compiled and reused. Get started by creating a file named math.ex, open it in your text editor and add the following code:\ndefmodule Math do def sum(a, b) do a + b end end In order to create your own modules in Elixir, use the defmodule macro, then use the def macro to define functions in that module. So in this case the module is Math and the function is sum. Once this is saved the file can be compiled by typing elixirc into the terminal followed by the file name. $ elixirc math.ex\nThis will generate a file named Elixir.Math.beam containing the bytecode for the defined module. If we start iex again, our module definition will be available (provided that iex is started in the same directory the bytecode file is in):\niex\u003e Math.sum(1,2) 3 Creating your first Elixir project linkWe will be using mix and we’ve already discussed what mix is. Now we are going to initialise a new project by running mix new [project_name]. Let’s choose our project name to be animals, then we will have\nmix new animals after that, you can open the new animals project with your desired editor and start working.\nNow that you have learnt what elixir it, you can start experimenting and building simple, small projects that will further drill in these skills you learn and help you grasp them.\nOpen up animal.ex file in the lib directory. You should see some boilerplate code looking like this:\ndefmodule Animals do @moduledoc \"\"\" Documentation for `Animals`. \"\"\" @doc \"\"\" Hello world. ## Examples iex\u003e Animals.hello() :world \"\"\" def hello do :world end end Elixir has created a module with the name of your project along with a function that prints out a :world atom when called. It’s also added boilerplate for module and function documentation - the first part of the file. (we will go into more detail about documentation later)\nRunning the code\nLet’s test out the code by running\niex -S mix Which will start and compile your project, now run\nAnimals.hello # :world "
             }
         );
     index.add(
@@ -2317,6 +2341,15 @@ long_running_task()</code>
     index.add(
             {
                 id:  14 ,
+                href: "\/tutorials\/docs\/elixir\/elixir\/03_cli_tool_using_elixir\/",
+                title: "Build a CLI Todo List using Elixir",
+                description: "Learn how to build a simple cli todo tool using elixir",
+                content: "This section will guide you throguh creating a basic command-line TODO application. We will explore key conteps and syntac along the way, makin git perfect for people who just started using the language.\nGetting started linkFirst, we should create a new project by running the command\nmix new todo_cli --sup We have already gone through the meaning of --sup in the first tutorial we had.\nOur proejct will consist of four main modules:\nTodoCli.Application: This module defines the application itself and utilizes the Supervisor behavior to manage child processes. TodoCli.MixProject: This module defines the project configuration using Mix, the Elixir build tool. It specifies dependencies, the Elixir version, and the application name. For this project, you won’t need to update it since we are not going to need any external dependancies. CLI: This module handles the command-line interface (CLI) interaction. It takes user input, processes commands, and interacts with the Todo module. Todo: This module represents the to-do list itself. It defines functions to manage tasks like adding, listing, and deleting them. The Todo Module linkThe todo module manges the Todo tasks, providing functions for adding, listing and deleting tasks. In the lib folder, create a file called todo.ex and put in the following code.\n#lib/todo.ex defmodule Todo do defstruct tasks: [] @doc \"\"\" Initializes a new to-do list. \"\"\" def new() do %Todo{} end @doc \"\"\" Adds a task to the to-do list. \"\"\" def add_task(%Todo{tasks: tasks} = todo, task) do %Todo{todo | tasks: tasks ++ [task]} end @doc \"\"\" Lists all tasks in the to-do list. \"\"\" def list_tasks(%Todo{tasks: tasks}) do tasks end @doc \"\"\" Deletes a task from the to-do list by its index. \"\"\" def delete_task(%Todo{tasks: tasks} = todo, index) when is_integer(index) and index \u003e= 0 do if index \u003c length(tasks) do tasks = List.delete_at(tasks, index) %Todo{todo | tasks: tasks} else IO.puts(\"Task deletion failed. Invalid index: #{index}\") todo end end end This module defines the Todo struct and functions fro initializing a new Todo list, adding tasks, listing tasks, and deleting tasks.\nThe CLI module linkAfter creating the Todo module, we now move over to create the CLI module which handles user input and commands. This will be using this interface to communicate with the module and manage their tasks. In the lib folder, create a file called cli.ex and put in the following code.\n#lib/cli.ex defmodule CLI do alias Todo @doc \"\"\" Starts the CLI and processes user commands. \"\"\" def start() do todo = Todo.new() loop(todo) end defp loop(todo) do IO.puts(\"Commands: add , list, delete , quit\") command = IO.gets(\"\u003e \") |\u003e String.trim() new_todo = case String.split(command) do [\"add\" | task] -\u003e task = Enum.join(task, \" \") todo = Todo.add_task(todo, task) IO.puts(\"Task added.\") todo [\"list\"] -\u003e IO.puts(\"Tasks:\") Enum.with_index(Todo.list_tasks(todo)) |\u003e Enum.each(fn {task, index} -\u003e IO.puts(\"#{index + 1}. #{task}\") end) todo [\"delete\", index_str] -\u003e case Integer.parse(index_str) do {index, _} when index \u003e 0 -\u003e todo = Todo.delete_task(todo, index - 1) IO.puts(\"Task deleted.\") todo :error -\u003e IO.puts(\"Invalid index. Please enter a valid number.\") todo end [\"quit\"] -\u003e IO.puts(\"Goodbye!\") :stop _ -\u003e IO.puts(\"Invalid command.\") todo end if new_todo != :stop do loop(new_todo) end end end This module defines the start/0 function, which initiates the CLI interface and starts the command loop. It interacts with the Todo module to perform actions such as adding, listing, and deleting tasks.\nNow that we are done with creating the two modules, we are going to configure the application and test out the commands.\nConfiguring our entry point linkThe TodoCli.Application module is the entry point of our application. It starts the supervision tree and initiates the CLI interface. Open the application.ex file in lib/todo_cli folder and update it using the following code:\n#lib/todo_cli/application.ex defmodule TodoCli.Application do @moduledoc false use Application @impl true def start(_type, _args) do children = [] opts = [strategy: :one_for_one, name: TodoCli.Supervisor] Supervisor.start_link(children, opts) # Start the CLI CLI.start() end end Running the project linkWe are now done creating the project. Now we are going to start the project buy running:\nmix run --no-halt You should get an output like this:\nAs you can see, we have four commands which are add, list, delete, and quit. Lets add a task by typing:\nadd Create a blog post After adding and also running the list command\nTasks: 1. Create a blog post If we add a second task like Code a new feature using the add command, and running list again, we will have:\nTasks: 1. Create a blog post 2. Code a new feature Now if you are done doing a task and you want to delete it, you can use the delete command with the number of the task you want to delete. In this case, if we want to delete the second task, we can run:\ndelete 2 and the out after running list again will be:\n```bash Tasks: 1. Create a blog post The last command quit will simply quit the application.\nThis brings us to the end of this session, you can use this CLI tool and adapt it for your specific usecase.\n"
+            }
+        );
+    index.add(
+            {
+                id:  15 ,
                 href: "\/tutorials\/docs\/golang\/golang\/building-real-world-application-go\/",
                 title: "Building a Real-World Application in Go",
                 description: "Learn how to plan, design, implement, test, and deploy a real-world application using Go. This guide covers practical tips for logging, configuration, and versioning to enhance your Go projects.",
@@ -2325,7 +2358,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  15 ,
+                id:  16 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/building-real-world-haskell-application\/",
                 title: "Building a Real-World Haskell Application",
                 description: "Learn how to design, implement, test, and deploy a real-world Haskell application. This comprehensive guide includes practical examples, complete code, and tips for incorporating CI/CD.",
@@ -2334,7 +2367,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  16 ,
+                id:  17 ,
                 href: "\/tutorials\/docs\/rust\/rust\/building_robust_cli_tool_rust\/",
                 title: "Building a Robust CLI Tool with Rust",
                 description: "Learn how to build a powerful and user-friendly CLI tool in Rust with this comprehensive guide. Dive into structuring a CLI project, parsing command-line arguments, and managing input effectively. This post is filled with technical insights, practical coding examples, and best practices to help you develop sophisticated CLI applications in Rust.",
@@ -2343,7 +2376,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  17 ,
+                id:  18 ,
                 href: "\/tutorials\/docs\/golang\/golang\/microservices-with-go\/",
                 title: "Building Microservices with Go",
                 description: "Explore how to design, deploy, and scale microservices using Go. This comprehensive guide covers the best practices for developing high-performance microservices architectures in Go.",
@@ -2352,7 +2385,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  18 ,
+                id:  19 ,
                 href: "\/tutorials\/docs\/cheatsheets\/",
                 title: "Cheatsheets",
                 description: "Making life easy...",
@@ -2361,7 +2394,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  19 ,
+                id:  20 ,
                 href: "\/tutorials\/docs\/technical-architecture\/technical-architecture\/",
                 title: "Client",
                 description: "Starting here link",
@@ -2370,7 +2403,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  20 ,
+                id:  21 ,
                 href: "\/tutorials\/docs\/python\/python\/python_testing\/",
                 title: "Comprehensive Guide to Testing in Python: Unit Tests and Mocking Techniques",
                 description: "Dive into Python testing methodologies with a thorough look at unit testing using the unittest framework and mocking objects with unittest.mock. Learn how to build robust tests and simulate complex scenarios to ensure your code performs reliably.",
@@ -2379,7 +2412,16 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  21 ,
+                id:  22 ,
+                href: "\/tutorials\/docs\/elixir\/elixir\/04_concurrency_in_elixir_with_otp\/",
+                title: "Concurrency in Elixir with OTP",
+                description: "Learn more about concurrency in Elixir with OTP",
+                content: "Concurrency is one of the core strengths of Elixir, and the language leverages the powerful capabilities of the Erlang VM to build highly concurrent and fault-tolerant systems. In this section, we will explore concurrency in Elixir using OTP (Open Telecom Platform), which is a set of libraries and design principles for building scalable and maintainable applications.\nIntroduction linkWhy Concurrency in Elixer? linkElixir, built on the Erlang VM, is designed for building concurrent, distributed, and fault-tolerant applications. The actor model, used by Elixir, provides a robust way to manage concurrency by treating each process as an independent entity that communicates with other processes via message passing.\nWhat is OTP? linkOTP stands for Open Telecom Platform. It is a collection of middleware, libraries, and tools used to design and implement concurrent, scalable, and fault-tolerant systems. OTP provides several abstractions like GenServer, Supervisor, and Application, which simplify building and maintaining complex applications.\nProcesses in Elixir linkCreating Processes linkIn Elixir, processes are lightweight and run in isolation. They are created using the spawn function:\ndefmodule SimpleProcess do def greet do IO.puts(\"Hello from a process!\") end end pid = spawn(SimpleProcess, :greet, []) Here, spawn/3 creates a new process that executes the greet function\nSending and Receiving Messages linkProcesses communicate via message passing. You can send a message to a process using the send function and receive messages using the receive block:\ndefmodule Messenger do def loop do receive do {:msg, sender, message} -\u003e IO.puts(\"Received message: #{message}\") send(sender, {:ok, self()}) loop() end end end pid = spawn(Messenger, :loop, []) send(pid, {:msg, self(), \"Hello\"}) receive do {:ok, _pid} -\u003e IO.puts(\"Message received successfully!\") end GenServer linkGenServer is a generic server implementation that abstracts the common patterns of working with processes. It simplifies the implementation of servers in Elixir by providing a standard way to define and handle state, callbacks, and message passing.\nCreating a GenServer linkTo create a GenServer, you need to define a module that uses GenServer and implement the required callbacks:\ndefmodule MyGenServer do use GenServer # Client API def start_link(initial_state) do GenServer.start_link(__MODULE__, initial_state, name: __MODULE__) end def get_state do GenServer.call(__MODULE__, :get_state) end def set_state(new_state) do GenServer.cast(__MODULE__, {:set_state, new_state}) end # Server Callbacks @impl true def init(initial_state) do {:ok, initial_state} end @impl true def handle_call(:get_state, _from, state) do {:reply, state, state} end @impl true def handle_cast({:set_state, new_state}, _state) do {:noreply, new_state} end end Using the GenServer linkYou can start and interact with the GenServer using the client API functions:\n{:ok, _pid} = MyGenServer.start_link(%{count: 0}) IO.inspect(MyGenServer.get_state()) # Output: %{count: 0} MyGenServer.set_state(%{count: 42}) IO.inspect(MyGenServer.get_state()) # Output: %{count: 42} Supervisors linkSupervisors are a core part of OTP that provide fault tolerance by monitoring processes and restarting them if they fail. Supervisors are designed to manage process lifecycles, making it easier to build resilient systems.\nCreating a Supervisor linkTo create a supervisor, define a module that uses Supervisor and specify a supervision strategy:\ndefmodule MySupervisor do use Supervisor def start_link(_) do Supervisor.start_link(__MODULE__, :ok, name: __MODULE__) end @impl true def init(:ok) do children = [ {MyGenServer, %{count: 0}} ] Supervisor.init(children, strategy: :one_for_one) end end Starting the Supervisor linkYou can start the supervisor and it will automatically start its child processes:\n{:ok, _pid} = MySupervisor.start_link(:ok) IO.inspect(MyGenServer.get_state()) # Output: %{count: 0} MyGenServer.set_state(%{count: 42}) IO.inspect(MyGenServer.get_state()) # Output: %{count: 42} "
+            }
+        );
+    index.add(
+            {
+                id:  23 ,
                 href: "\/tutorials\/docs\/rust\/rust\/control_flow_in_rust\/",
                 title: "Control Flow in Rust",
                 description: "Explore the essentials of Rust's control flow, including conditional statements, loops, and iterators, to master directing program execution and handling complex logic efficiently.",
@@ -2388,7 +2430,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  22 ,
+                id:  24 ,
                 href: "\/tutorials\/docs\/rust\/rust\/rust_ownership\/",
                 title: "Control Flow in Rust",
                 description: "Explore the fundamental principles of Rust's ownership model in this detailed post, covering the mechanics of ownership transfer, borrowing, and the crucial rules that ensure memory safety and efficient resource management.",
@@ -2397,16 +2439,16 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  23 ,
+                id:  25 ,
                 href: "\/tutorials\/docs\/elixir\/elixir\/02_creating_a_simple_web_server\/",
                 title: "Create A Simple Web Server using Elixir",
                 description: "We are going to be creating a simple web server using elixir and cowboy",
-                content: "In this lesson, we will build a simple HTTP server from scratch using the PlugCowboy Elixir library. Cowboy is a simple HTTP server for Erlang and Plug will provide us with a connection adapter for the web server.\nGetting started linkAssuming you already have Elixir installed, we will start a simple project by running the command:\nmix new server --sup cd server Note that server is the name of your project, and you can name it however you want. We also added --sup because our app needs a supervision tree because we will use a Supervision to start up and run our Cowboy server.\nAdding the Cowboy dependancy** linkAdding dependencies is way simpler than you thought. To use Plug as an adapter interface for Cowboy webserver, we need to install PlugCowboy package. Open your mix.exs file and add the following code\ndef deps do [ {:plug_cowboy, \"~\u003e 2.0\"}, ] end Now, your complete mix.exs file should look like this :\ndefmodule Server.MixProject do use Mix.Project def project do [ app: :server, version: \"0.1.0\", elixir: \"~\u003e 1.12\", start_permanent: Mix.env() == :prod, deps: deps() ] end def application do [ extra_applications: [:logger], mod: {Server.Application, []} ] end defp deps do [ {:plug_cowboy, \"~\u003e 2.0\"} ] end end Now you can simply install the dependencie by runnig the following command in your terminal:\nmix deps.get Building our router linkTo handle requests and send responses, we have to make a router. You can use the example below to build it. Simply create a router.ex file in your lib folder and have this code in it:\ndefmodule Server.Router do use Plug.Router plug :match plug :dispatch get \"/\" do send_resp(conn, 200, \"Hello World\") end match _ do send_resp(conn, 404, \"Not found\") end end Here, we are making GET request to “/” and it will send back “Hello World”. If the URL you are visiting is not defined in the routes, it will send back “Not Found”. You can add as many routes as you want here. You can of course do more than just receiving GET requests. For our demonstation, we will focus only on this one.\nConfiguring our application module linkWe need to tell our application to start up and supervise the Cowboy web server when the app starts up.\nWe’ll do so with the Plug.Cowboy function. This function expects three options:\n:scheme - HTTP or HTTPS as an atom (:http, :https) :plug - The plug module to be used as the interface for the web server. You can specify a module name, like MyPlug, or a tuple of the module name and options {MyPlug, plug_opts}, where plug_opts gets passed to your plug modules init/1 function. :options - The server options. Should include the port number on which you want your server listening for requests. Open your application.ex in the lib/server/application.ex and replace the code with this:\ndefmodule Server.Application do use Application require Logger @impl true def start(_type, _args) do children = [ {Plug.Cowboy, scheme: :http, plug: Server.Router, options: [port: 4000]} ] opts = [strategy: :one_for_one, name: Server.Supervisor] Logger.info(\"starting the application...\") Supervisor.start_link(children, opts) end end Running our server linkNo we are finished setting up everything an we can finally run our server. We can use the following command:\nmix run --no-halt Using your browser or postman, you can enter the request localhost:4000/ and you should see the Hello World message.\nYou have just learnt how to set up and configure a server for your elixir project. You can add more route definitions and try it out unti you get it. Remember, repitition is key.\n"
+                content: "In this lesson, we will build a simple HTTP server from scratch using the PlugCowboy Elixir library. Cowboy is a simple HTTP server for Erlang and Plug will provide us with a connection adapter for the web server.\nGetting started linkAssuming you already have Elixir installed, we will start a simple project by running the command:\nmix new server --sup cd server Note that server is the name of your project, and you can name it however you want. We also added --sup because our app needs a supervision tree because we will use a Supervision to start up and run our Cowboy server.\nAdding the Cowboy dependancy linkAdding dependencies is way simpler than you thought. To use Plug as an adapter interface for Cowboy webserver, we need to install PlugCowboy package. Open your mix.exs file and add the following code\ndef deps do [ {:plug_cowboy, \"~\u003e 2.0\"}, ] end Now, your complete mix.exs file should look like this :\ndefmodule Server.MixProject do use Mix.Project def project do [ app: :server, version: \"0.1.0\", elixir: \"~\u003e 1.12\", start_permanent: Mix.env() == :prod, deps: deps() ] end def application do [ extra_applications: [:logger], mod: {Server.Application, []} ] end defp deps do [ {:plug_cowboy, \"~\u003e 2.0\"} ] end end Now you can simply install the dependencie by runnig the following command in your terminal:\nmix deps.get Building our router linkTo handle requests and send responses, we have to make a router. You can use the example below to build it. Simply create a router.ex file in your lib folder and have this code in it:\ndefmodule Server.Router do use Plug.Router plug :match plug :dispatch get \"/\" do send_resp(conn, 200, \"Hello World\") end match _ do send_resp(conn, 404, \"Not found\") end end Here, we are making GET request to “/” and it will send back “Hello World”. If the URL you are visiting is not defined in the routes, it will send back “Not Found”. You can add as many routes as you want here. You can of course do more than just receiving GET requests. For our demonstation, we will focus only on this one.\nConfiguring our application module linkWe need to tell our application to start up and supervise the Cowboy web server when the app starts up.\nWe’ll do so with the Plug.Cowboy function. This function expects three options:\n:scheme - HTTP or HTTPS as an atom (:http, :https) :plug - The plug module to be used as the interface for the web server. You can specify a module name, like MyPlug, or a tuple of the module name and options {MyPlug, plug_opts}, where plug_opts gets passed to your plug modules init/1 function. :options - The server options. Should include the port number on which you want your server listening for requests. Open your application.ex in the lib/server/application.ex and replace the code with this:\ndefmodule Server.Application do use Application require Logger @impl true def start(_type, _args) do children = [ {Plug.Cowboy, scheme: :http, plug: Server.Router, options: [port: 4000]} ] opts = [strategy: :one_for_one, name: Server.Supervisor] Logger.info(\"starting the application...\") Supervisor.start_link(children, opts) end end Running our server linkNo we are finished setting up everything an we can finally run our server. We can use the following command:\nmix run --no-halt Using your browser or postman, you can enter the request localhost:4000/ and you should see the Hello World message.\nYou have just learnt how to set up and configure a server for your elixir project. You can add more route definitions and try it out unti you get it. Remember, repitition is key.\n"
             }
         );
     index.add(
             {
-                id:  24 ,
+                id:  26 ,
                 href: "\/tutorials\/docs\/python\/python\/python_decorators\/",
                 title: "Demystifying Python Decorators: Enhancing Functionality with Decorators",
                 description: "Unlock the power of decorators in Python to modify and enhance the functionality of functions and methods dynamically. This guide delves into the principles of decorators and shows you how to create them with practical, real-world examples.",
@@ -2415,7 +2457,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  25 ,
+                id:  27 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/diving-deeper-into-haskell-functions\/",
                 title: "Diving Deeper into Haskell Functions",
                 description: "Explore the advanced functionalities of Haskell functions including pure functions, higher-order functions like map, filter, and fold, and the concepts of currying and partial application.",
@@ -2424,7 +2466,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  26 ,
+                id:  28 ,
                 href: "\/tutorials\/docs\/",
                 title: "Docs",
                 description: "",
@@ -2433,7 +2475,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  27 ,
+                id:  29 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/error-handling-in-haskell\/",
                 title: "Effective Error Handling in Haskell",
                 description: "Explore the sophisticated error handling techniques in Haskell, including the use of types like Either and monads for managing errors, and learn best practices for building robust Haskell applications.",
@@ -2442,7 +2484,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  28 ,
+                id:  30 ,
                 href: "\/tutorials\/docs\/python\/python\/python_error_handling\/",
                 title: "Effective Error Handling in Python: Try-Except Blocks and Finally Clause",
                 description: "Learn how to robustly handle errors in Python using try-except blocks and the finally clause. This guide explains the mechanisms behind Python's error handling, with detailed examples to help you write more reliable code.",
@@ -2451,7 +2493,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  29 ,
+                id:  31 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/testing-and-debugging-in-haskell\/",
                 title: "Effective Testing and Debugging in Haskell",
                 description: "Master the art of testing and debugging Haskell code with this detailed guide. Learn how to write unit tests using HUnit and QuickCheck, debug effectively, and optimize performance.",
@@ -2460,7 +2502,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  30 ,
+                id:  32 ,
                 href: "\/tutorials\/docs\/rust\/rust\/effective_testing_strategies_rust\/",
                 title: "Effective Testing Strategies in Rust",
                 description: "Master the art of testing in Rust with this comprehensive guide on writing unit tests, managing integration tests, and organizing test suites. Packed with technical details, practical examples, and best practices, this post will help you ensure robustness and reliability in your Rust applications through effective testing methodologies.",
@@ -2469,7 +2511,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  31 ,
+                id:  33 ,
                 href: "\/tutorials\/docs\/python\/python\/python_file_handling\/",
                 title: "Efficient File Handling in Python: Reading, Writing, and Path Management",
                 description: "Master file handling techniques in Python with this detailed guide. Learn how to read from and write to files effectively and manage file paths to handle data smoothly in your applications.",
@@ -2478,7 +2520,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  32 ,
+                id:  34 ,
                 href: "\/tutorials\/docs\/golang\/golang\/packages-and-dependency-management-in-go\/",
                 title: "Efficient Go Programming",
                 description: "Learn how to organize your Go code with packages, manage dependencies with Go modules, and publish your own packages for the Go community.",
@@ -2487,7 +2529,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  33 ,
+                id:  35 ,
                 href: "\/tutorials\/docs\/elixir\/",
                 title: "Elixir",
                 description: "Elixir is a process-oriented, functional programming language that runs on the Erlang virtual machine (BEAM). The language was influenced by Ruby. This inspiration can be seen and felt in Elixir’s ecosystem and tooling options. Elixir is known to be easy to learn and widely applicable within the software development industry.",
@@ -2496,7 +2538,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  34 ,
+                id:  36 ,
                 href: "\/tutorials\/docs\/python\/python\/python_for_machine_learning\/",
                 title: "Essentials of Python for Machine Learning: Libraries, Concepts, and Model Building",
                 description: "Embark on your machine learning journey with Python. This guide covers key libraries like NumPy, Pandas, Matplotlib, and Scikit-Learn, introduces fundamental machine learning concepts, and walks you through building a basic model to kickstart your machine learning projects.",
@@ -2505,7 +2547,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  35 ,
+                id:  37 ,
                 href: "\/tutorials\/docs\/python\/python\/python_advanced_data_structures\/",
                 title: "Exploring Advanced Data Structures in Python: Collections and Priority Queues",
                 description: "Enhance your Python programming skills by mastering advanced data structures from the collections module and utilizing heapq for efficient priority queues. This guide provides detailed insights into these powerful tools with practical examples.",
@@ -2514,7 +2556,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  36 ,
+                id:  38 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/advanced-data-types-in-haskell\/",
                 title: "Exploring Advanced Data Types in Haskell",
                 description: "Dive deep into Haskell's advanced data types including Tuples, Maybe, Either types, Records, and Algebraic Data Types (ADTs). Learn how to leverage pattern matching and guards for more robust Haskell programming.",
@@ -2523,7 +2565,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  37 ,
+                id:  39 ,
                 href: "\/tutorials\/docs\/golang\/golang\/advanced-features-of-go\/",
                 title: "Exploring Advanced Features of Go",
                 description: "Dive deep into the advanced features of Go programming, including reflection, interfaces and type assertions, and sophisticated concurrency patterns to enhance your Go applications.",
@@ -2532,7 +2574,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  38 ,
+                id:  40 ,
                 href: "\/tutorials\/docs\/rust\/rust\/exploring_advanced_types_rust\/",
                 title: "Exploring Advanced Types in Rust: Structs and Enums",
                 description: "Enhance your Rust expertise by mastering advanced struct usage and exploring enums with data. This detailed guide provides an in-depth look at sophisticated patterns and techniques for struct and enum definitions, offering practical coding examples and best practices to maximize code efficiency and maintainability.",
@@ -2541,7 +2583,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  39 ,
+                id:  41 ,
                 href: "\/tutorials\/docs\/golang\/golang\/concurrency-in-go-channels\/",
                 title: "Exploring Channels in Go",
                 description: "Discover the power of channels in Go for synchronizing and communicating between goroutines. Learn the difference between buffered and unbuffered channels and how to use the select statement for efficient channel operations.",
@@ -2550,7 +2592,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  40 ,
+                id:  42 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/functional-design-patterns-in-haskell\/",
                 title: "Exploring Functional Design Patterns in Haskell",
                 description: "Delve into Haskell's functional design patterns, including recursion, functors, applicative functors, and monoids. Understand how these patterns can enhance your functional programming skills.",
@@ -2559,7 +2601,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  41 ,
+                id:  43 ,
                 href: "\/tutorials\/docs\/golang\/golang\/functions-in-go\/",
                 title: "Exploring Functions in Go",
                 description: "Delve into Go programming functions, including how to define and call them, manage parameters and multiple return values, and utilize anonymous functions and closures for advanced coding techniques.",
@@ -2568,7 +2610,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  42 ,
+                id:  44 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/exploring-haskell-syntax-basic-concepts\/",
                 title: "Exploring Haskell Syntax and Basic Concepts",
                 description: "Unravel the fundamentals of Haskell with a focus on expressions, types, type inference, and functions. This guide provides a clear introduction to Haskell’s syntax and basic programming concepts.",
@@ -2577,7 +2619,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  43 ,
+                id:  45 ,
                 href: "\/tutorials\/docs\/python\/python\/python_operators\/",
                 title: "Exploring Python Operators: Arithmetic, Comparison, and Logical Operations",
                 description: "Master the use of Python operators to manipulate values and control the flow of your programs. This comprehensive guide covers arithmetic, comparison, and logical operators with practical code examples.",
@@ -2586,7 +2628,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  44 ,
+                id:  46 ,
                 href: "\/tutorials\/docs\/full-stack-projects\/full-stack-projects\/",
                 title: "Full-Stack projects",
                 description: "How to install and use libraries",
@@ -2595,7 +2637,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  45 ,
+                id:  47 ,
                 href: "\/tutorials\/docs\/full-stack-projects\/",
                 title: "Full-Stack Projects",
                 description: "All full stack projects handout",
@@ -2604,7 +2646,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  46 ,
+                id:  48 ,
                 href: "\/tutorials\/docs\/golang\/golang\/getting-started-with-go\/",
                 title: "Getting Started with Go",
                 description: "Dive into Go programming with this comprehensive guide on its philosophy, setting up your development environment, and writing your first Go program. Perfect for beginners!",
@@ -2613,7 +2655,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  47 ,
+                id:  49 ,
                 href: "\/tutorials\/docs\/rust\/rust\/rust_introduction\/",
                 title: "Getting Started with Rust",
                 description: "A comprehensive introduction to Rust, detailing its advantages, installation, and initial setup with Cargo, Rust’s build system and package manager.",
@@ -2622,7 +2664,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  48 ,
+                id:  50 ,
                 href: "\/tutorials\/docs\/golang\/",
                 title: "Golang",
                 description: "Best Golang blogs out there.",
@@ -2631,7 +2673,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  49 ,
+                id:  51 ,
                 href: "\/tutorials\/docs\/hacking\/hacking\/",
                 title: "Hacker",
                 description: "How to hack wifi?",
@@ -2640,7 +2682,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  50 ,
+                id:  52 ,
                 href: "\/tutorials\/docs\/hacking\/",
                 title: "Hacking",
                 description: "Best Security blogs out there.",
@@ -2649,7 +2691,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  51 ,
+                id:  53 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/concurrency-and-parallelism-in-haskell\/",
                 title: "Harnessing Concurrency and Parallelism in Haskell",
                 description: "Explore the essentials of concurrent and parallel programming in Haskell. Learn how to effectively use threads, asynchronous operations, and strategies for maximizing parallelism.",
@@ -2658,7 +2700,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  52 ,
+                id:  54 ,
                 href: "\/tutorials\/docs\/haskell\/",
                 title: "Haskell",
                 description: "Best Haskell blogs out there.",
@@ -2667,7 +2709,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  53 ,
+                id:  55 ,
                 href: "\/tutorials\/docs\/rust\/rust\/integrating_rust_ffi_safe_abstractions\/",
                 title: "Integrating Rust with Other Languages: FFI and Safe Abstractions",
                 description: "Explore the essentials of integrating Rust with other programming languages through the Foreign Function Interface (FFI). This comprehensive guide covers how to call C functions from Rust and how to build safe abstractions over inherently unsafe code, providing technical insights, practical coding examples, and best practices for interoperability and safety.",
@@ -2676,7 +2718,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  54 ,
+                id:  56 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/interfacing-with-databases-in-haskell\/",
                 title: "Interfacing Databases with Haskell",
                 description: "Learn how to connect Haskell applications to databases and perform CRUD operations using SQLite and PostgreSQL. This guide provides practical examples to enhance your database management skills in Haskell.",
@@ -2685,7 +2727,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  55 ,
+                id:  57 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/introduction-to-haskell\/",
                 title: "Introduction to Haskell",
                 description: "Begin your journey into Haskell and functional programming. Learn how to set up the Haskell environment with GHC and Stack and write your first Haskell program.",
@@ -2694,7 +2736,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  56 ,
+                id:  58 ,
                 href: "\/tutorials\/docs\/python\/python\/python_introduction\/",
                 title: "Introduction to Python",
                 description: "Explore the essentials of Python programming in this comprehensive introduction. Discover why Python is favored for its simplicity and versatility across many disciplines, learn how to install it on different operating systems, and write your first Python program.",
@@ -2703,7 +2745,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  57 ,
+                id:  59 ,
                 href: "\/tutorials\/docs\/keras\/",
                 title: "keras",
                 description: "Best keras blogs out there.",
@@ -2712,7 +2754,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  58 ,
+                id:  60 ,
                 href: "\/tutorials\/docs\/keras\/keras\/",
                 title: "Keras",
                 description: "...",
@@ -2721,7 +2763,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  59 ,
+                id:  61 ,
                 href: "\/tutorials\/docs\/rust\/rust\/leveraging_slices_rust\/",
                 title: "Leveraging the Power of Slices in Rust",
                 description: "Explore the versatile and efficient slice type in Rust, learning how to utilize string slices and other applications to manage data segments without ownership, featuring detailed technical insights and practical coding examples.",
@@ -2730,7 +2772,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  60 ,
+                id:  62 ,
                 href: "\/tutorials\/docs\/golang\/golang\/understanding-go-basics\/",
                 title: "Master the Basics of Go",
                 description: "Unlock the fundamentals of Go programming with an in-depth look at its data types, variables, constants, basic operators, and control structures including if, else, switch, and loops.",
@@ -2739,7 +2781,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  61 ,
+                id:  63 ,
                 href: "\/tutorials\/docs\/rust\/rust\/collections-rust\/",
                 title: "Mastering Collections in Rust: Vectors, HashMaps, and HashSets",
                 description: "Delve deep into Rust's collections framework in this comprehensive guide, exploring the intricacies of Vectors, HashMaps, and HashSets. Learn how to utilize these collections effectively to build more efficient and robust Rust applications. This post is packed with technical insights, practical coding examples, and best practices tailored for advanced Rust developers.",
@@ -2748,7 +2790,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  62 ,
+                id:  64 ,
                 href: "\/tutorials\/docs\/python\/python\/python_concurrency_and_parallelism\/",
                 title: "Mastering Concurrency and Parallelism in Python: Threading, Multiprocessing, and Asyncio",
                 description: "Explore the concepts of concurrency and parallelism in Python with an in-depth look at threading, multiprocessing, and the asyncio module. Learn how to effectively handle asynchronous and parallel tasks to optimize performance and efficiency in your applications.",
@@ -2757,7 +2799,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  63 ,
+                id:  65 ,
                 href: "\/tutorials\/docs\/golang\/golang\/concurrency-in-go-routines\/",
                 title: "Mastering Concurrency in Go with Goroutines",
                 description: "Unlock the power of asynchronous programming in Go with our comprehensive guide on goroutines. Learn best practices for managing concurrency effectively in your Go applications.",
@@ -2766,7 +2808,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  64 ,
+                id:  66 ,
                 href: "\/tutorials\/docs\/rust\/rust\/concurrency_rust\/",
                 title: "Mastering Concurrency in Rust",
                 description: "Unlock the power of safe concurrency in Rust with this in-depth exploration of threading, parallelism, and Rust's ownership-based approach to concurrency safety. This detailed guide provides technical insights, practical coding examples, and best practices to effectively utilize concurrency in Rust applications.",
@@ -2775,7 +2817,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  65 ,
+                id:  67 ,
                 href: "\/tutorials\/docs\/python\/python\/python_control_structures\/",
                 title: "Mastering Control Structures in Python: If Statements, Loops, and More",
                 description: "Unlock the power of Python's control structures to guide your program's decisions and repetitive tasks. This guide provides a deep dive into if statements, for loops, and while loops with practical examples.",
@@ -2784,7 +2826,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  66 ,
+                id:  68 ,
                 href: "\/tutorials\/docs\/python\/python\/python_dictionaries_and_sets\/",
                 title: "Mastering Dictionaries and Sets in Python: Comprehensive Guide to Data Handling",
                 description: "Enhance your Python skills by mastering dictionaries and sets. This guide covers everything from basic operations to advanced methods of dictionaries, along with a deep dive into the functionalities of sets.",
@@ -2793,7 +2835,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  67 ,
+                id:  69 ,
                 href: "\/tutorials\/docs\/rust\/rust\/mastering_generics_traits_rust\/",
                 title: "Mastering Generic Types and Traits in Rust",
                 description: "Unlock the full potential of Rust’s type system with an in-depth exploration of generic types and traits. This comprehensive guide delves into the creation and use of generics to write flexible and reusable code, and explains how traits and trait bounds are used to define shared behavior across types. Packed with technical insights and practical examples, this post is perfect for Rust programmers aiming to elevate their coding practices.",
@@ -2802,7 +2844,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  68 ,
+                id:  70 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/module-system-in-haskell\/",
                 title: "Mastering Haskell’s Module System for Efficient Code Organization",
                 description: "Learn how to effectively organize your Haskell projects with a comprehensive guide to Haskell’s module system, including how to import, export, and structure your code across multiple modules.",
@@ -2811,7 +2853,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  69 ,
+                id:  71 ,
                 href: "\/tutorials\/docs\/rust\/rust\/mastering_lifetime_management_rust\/",
                 title: "Mastering Lifetime Management in Rust",
                 description: "Explore the crucial concept of lifetimes in Rust, understanding how to define and use lifetime annotations to manage memory safely and efficiently. This comprehensive guide discusses the intricacies of lifetimes in Rust, providing technical insights, practical coding examples, and best practices for effective lifetime management in your Rust applications.",
@@ -2820,7 +2862,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  70 ,
+                id:  72 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/working-with-lists-in-haskell\/",
                 title: "Mastering List Operations in Haskell",
                 description: "Explore the essentials of working with lists in Haskell, including detailed list operations and the use of list comprehensions. Discover practical examples to enhance your Haskell programming skills.",
@@ -2829,7 +2871,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  71 ,
+                id:  73 ,
                 href: "\/tutorials\/docs\/rust\/rust\/macros-rust\/",
                 title: "Mastering Macros in Rust",
                 description: "Dive deep into the powerful macro system of Rust with this comprehensive guide on understanding and creating custom macros. This post provides a detailed exploration of macro syntax, practical examples of custom macros, and best practices for utilizing macros to write more concise and flexible Rust code.",
@@ -2838,7 +2880,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  72 ,
+                id:  74 ,
                 href: "\/tutorials\/docs\/python\/python\/python_object_oriented_programming\/",
                 title: "Mastering Object-Oriented Programming in Python: Classes, Inheritance, and Polymorphism",
                 description: "Unlock the full potential of object-oriented programming in Python with this extensive guide. Learn how to define classes, create objects, and utilize inheritance and polymorphism to design reusable and modular code.",
@@ -2847,7 +2889,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  73 ,
+                id:  75 ,
                 href: "\/tutorials\/docs\/rust\/rust\/mastering_references_borrowing_rust\/",
                 title: "Mastering References and Borrowing in Rust",
                 description: "Dive deep into the concepts of references and borrowing in Rust, exploring both immutable and mutable references, and how they interact with Rust's ownership rules to facilitate safe and efficient memory management.",
@@ -2856,7 +2898,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  74 ,
+                id:  76 ,
                 href: "\/tutorials\/docs\/python\/python\/python_string_manipulation\/",
                 title: "Mastering String Manipulation in Python: Operations, Methods, and Formatting",
                 description: "Explore the art of string manipulation in Python through this comprehensive guide. Learn basic operations, discover powerful string methods, and master the formatting techniques to enhance your data processing skills.",
@@ -2865,7 +2907,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  75 ,
+                id:  77 ,
                 href: "\/tutorials\/docs\/rust\/rust\/mastering_structs_rust\/",
                 title: "Mastering Structs in Rust: Definition, Methods, and Usage",
                 description: "Dive deep into the fundamentals and advanced uses of structs in Rust, covering their definition, the implementation of methods, and associated functions. This comprehensive guide includes practical examples and technical explanations to master struct-based designs in Rust programming.",
@@ -2874,7 +2916,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  76 ,
+                id:  78 ,
                 href: "\/tutorials\/docs\/golang\/golang\/testing-in-go\/",
                 title: "Mastering Testing in Go",
                 description: "Dive into the best practices of writing unit tests in Go, leveraging the built-in testing package, and utilizing benchmarks and profiling to optimize your Go applications.",
@@ -2883,7 +2925,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  77 ,
+                id:  79 ,
                 href: "\/tutorials\/docs\/python\/python\/basic_python_syntax\/",
                 title: "Mastering the Basics: Python Syntax, Indentation, and Comments",
                 description: "Unlock the fundamentals of Python programming with a detailed exploration of its syntax. Learn through practical examples, including building a Fibonacci sequence, understanding the crucial role of indentation, and effectively using comments for better code readability.",
@@ -2892,7 +2934,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  78 ,
+                id:  80 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/monad-magic-in-haskell\/",
                 title: "Monad Magic in Haskell",
                 description: "Unlock the mystery of monads in Haskell. Learn the fundamental concepts and theories of monads, and explore practical uses with the Maybe, IO, and List Monads.",
@@ -2901,7 +2943,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  79 ,
+                id:  81 ,
                 href: "\/tutorials\/docs\/numpy\/",
                 title: "numpy",
                 description: "Best numpy blogs out there.",
@@ -2910,7 +2952,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  80 ,
+                id:  82 ,
                 href: "\/tutorials\/docs\/numpy\/numpy\/",
                 title: "Numpy",
                 description: "...",
@@ -2919,7 +2961,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  81 ,
+                id:  83 ,
                 href: "\/tutorials\/docs\/opencv\/",
                 title: "OpenCV",
                 description: "Best OpenCV blogs out there.",
@@ -2928,7 +2970,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  82 ,
+                id:  84 ,
                 href: "\/tutorials\/docs\/opencv\/opencv\/",
                 title: "OpenCV",
                 description: "...",
@@ -2937,7 +2979,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  83 ,
+                id:  85 ,
                 href: "\/tutorials\/docs\/pandas\/",
                 title: "pandas",
                 description: "Best pandas blogs out there.",
@@ -2946,7 +2988,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  84 ,
+                id:  86 ,
                 href: "\/tutorials\/docs\/pandas\/pandas\/",
                 title: "Pandas",
                 description: "...",
@@ -2955,7 +2997,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  85 ,
+                id:  87 ,
                 href: "\/tutorials\/docs\/python\/",
                 title: "Python",
                 description: "Best Python blogs out there.",
@@ -2964,7 +3006,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  86 ,
+                id:  88 ,
                 href: "\/tutorials\/docs\/python\/python\/python_modules_and_packages\/",
                 title: "Python Modules and Packages: Importing Essentials and Exploring Standard Libraries",
                 description: "Deep dive into Python's modular approach with a focus on importing modules and leveraging the capabilities of standard libraries such as math and datetime. This guide offers detailed insights and examples to enhance your programming efficiency.",
@@ -2973,7 +3015,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  87 ,
+                id:  89 ,
                 href: "\/tutorials\/docs\/pytorch\/",
                 title: "pytorch",
                 description: "Best pytorch blogs out there.",
@@ -2982,7 +3024,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  88 ,
+                id:  90 ,
                 href: "\/tutorials\/docs\/pytorch\/pytorch\/",
                 title: "Pytorch",
                 description: "...",
@@ -2991,7 +3033,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  89 ,
+                id:  91 ,
                 href: "\/tutorials\/docs\/rust\/rust\/robust_error_handling_rust\/",
                 title: "Robust Error Handling in Rust: Using Result and Option",
                 description: "Dive deep into Rust’s error handling mechanisms, exploring the `Result` and `Option` types, and advanced error propagation techniques. This comprehensive guide is packed with technical insights, practical coding examples, and best practices aimed at mastering error management in Rust programming.",
@@ -3000,7 +3042,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  90 ,
+                id:  92 ,
                 href: "\/tutorials\/docs\/rust\/",
                 title: "Rust",
                 description: "Best Rust blogs out there.",
@@ -3009,7 +3051,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  91 ,
+                id:  93 ,
                 href: "\/tutorials\/docs\/scikit-learn\/",
                 title: "scikit-learn",
                 description: "Best scikit-learn blogs out there.",
@@ -3018,7 +3060,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  92 ,
+                id:  94 ,
                 href: "\/tutorials\/docs\/scikit-learn\/scikit-learn\/",
                 title: "scikit-learn",
                 description: "...",
@@ -3027,7 +3069,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  93 ,
+                id:  95 ,
                 href: "\/tutorials\/docs\/rust\/rust\/smart_pointers_rust\/",
                 title: "Smart Pointers in Rust",
                 description: "Deep dive into the world of smart pointers in Rust with this comprehensive guide on `Box`, `Rc`, and `Arc`. Learn how to effectively utilize these tools to manage memory in complex applications, including technical explanations, practical examples, and best practices for when to use each type of smart pointer.",
@@ -3036,7 +3078,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  94 ,
+                id:  96 ,
                 href: "\/tutorials\/docs\/solidity\/",
                 title: "Solidity",
                 description: "Best Solidity blogs out there.",
@@ -3045,7 +3087,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  95 ,
+                id:  97 ,
                 href: "\/tutorials\/docs\/solidity\/solidity\/",
                 title: "Solidity",
                 description: "...",
@@ -3054,7 +3096,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  96 ,
+                id:  98 ,
                 href: "\/tutorials\/docs\/rust\/rust\/structuring_rust_projects_modules_crates\/",
                 title: "Structuring Rust Projects: Modules and Crates Explained",
                 description: "Deepen your understanding of Rust's module system and learn how to leverage external crates for project enhancement. This comprehensive guide covers the essentials of organizing code with modules and integrating functionality from external sources through crates. Perfect for Rust developers aiming to build scalable and maintainable applications.",
@@ -3063,7 +3105,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  97 ,
+                id:  99 ,
                 href: "\/tutorials\/docs\/system-design\/system-design\/",
                 title: "System design",
                 description: "If you are looking to grow in you tech career and understand system design indepth, this guide is for you.",
@@ -3072,7 +3114,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  98 ,
+                id:  100 ,
                 href: "\/tutorials\/docs\/system-design\/",
                 title: "System Design",
                 description: "If you are looking to grow in you tech career and understand system design indepth, this guide is for you.",
@@ -3081,7 +3123,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  99 ,
+                id:  101 ,
                 href: "\/tutorials\/docs\/technical-architecture\/",
                 title: "Technical Architecture",
                 description: "Best blogs out there.",
@@ -3090,7 +3132,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  100 ,
+                id:  102 ,
                 href: "\/tutorials\/docs\/tensorflow\/",
                 title: "tensorflow",
                 description: "Best tensorflow blogs out there.",
@@ -3099,7 +3141,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  101 ,
+                id:  103 ,
                 href: "\/tutorials\/docs\/tensorflow\/tensorflow\/",
                 title: "Tensorflow",
                 description: "...",
@@ -3108,7 +3150,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  102 ,
+                id:  104 ,
                 href: "\/tutorials\/docs\/rust\/rust\/understanding_using_unsafe_rust\/",
                 title: "Understanding and Using Unsafe Rust",
                 description: "Delve into the realm of Unsafe Rust with this in-depth guide, exploring the principles of `unsafe` code, its usage, and best practices. Learn technical details and practical strategies for when and how to responsibly incorporate `unsafe` Rust into your projects to manipulate low-level system details safely and efficiently.",
@@ -3117,7 +3159,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  103 ,
+                id:  105 ,
                 href: "\/tutorials\/docs\/python\/python\/python_functions\/",
                 title: "Understanding Functions in Python: Definitions, Parameters, Returns, and Scope",
                 description: "Master the fundamentals of Python functions, from creation and parameter handling to understanding variable scope. This guide offers detailed explanations and code examples to enrich your programming knowledge.",
@@ -3126,7 +3168,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  104 ,
+                id:  106 ,
                 href: "\/tutorials\/docs\/python\/python\/python_iterators_and_generators\/",
                 title: "Understanding Iterators and Generators in Python: Leveraging Yield for Efficient Code",
                 description: "Dive deep into the mechanics of iterators and generators in Python. Learn how to create custom iterators, design generator functions, and effectively use the yield keyword to optimize memory usage and code execution.",
@@ -3135,7 +3177,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  105 ,
+                id:  107 ,
                 href: "\/tutorials\/docs\/python\/python\/variables_and_data_types\/",
                 title: "Understanding Python Variables and Data Types: From Basics to Type Conversion",
                 description: "Delve into the fundamentals of Python variables and data types, covering numbers, strings, and booleans, along with essential type conversion techniques to manipulate and utilize data effectively.",
@@ -3144,7 +3186,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  106 ,
+                id:  108 ,
                 href: "\/tutorials\/docs\/golang\/golang\/structs-and-interfaces-in-go\/",
                 title: "Understanding Structs and Interfaces in Go",
                 description: "Explore the powerful concepts of structs and interfaces in Go programming. Learn how to define structs, implement methods on them, and utilize interfaces for flexible, scalable code.",
@@ -3153,7 +3195,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  107 ,
+                id:  109 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/type-classes-and-polymorphism-in-haskell\/",
                 title: "Understanding Type Classes and Polymorphism in Haskell",
                 description: "Explore the concepts of type classes and polymorphism in Haskell, including an introduction to foundational type classes like Eq, Ord, and Show, and how to implement custom type classes for sophisticated type handling.",
@@ -3162,7 +3204,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  108 ,
+                id:  110 ,
                 href: "\/tutorials\/docs\/rust\/rust\/async_programming_rust\/",
                 title: "Unlocking Asynchronous Programming in Rust",
                 description: "Explore the powerful asynchronous programming model in Rust with this in-depth guide on the async/await syntax and best practices for building scalable asynchronous applications. Packed with technical insights, practical coding examples, and advanced techniques, this post is essential for Rust developers looking to enhance the responsiveness and performance of their applications.",
@@ -3171,7 +3213,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  109 ,
+                id:  111 ,
                 href: "\/tutorials\/docs\/golang\/golang\/using-databases-in-go\/",
                 title: "Using Databases in Go",
                 description: "Learn how to connect to SQL and NoSQL databases from Go applications, perform CRUD operations, and utilize popular ORM tools to streamline your data handling.",
@@ -3180,7 +3222,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  110 ,
+                id:  112 ,
                 href: "\/tutorials\/docs\/golang\/golang\/working-with-collections-in-go\/",
                 title: "Working with Collections in Go",
                 description: "Learn how to efficiently manage collections in Go, including mastering arrays, slices, maps, and iterating over these collections using the range clause.",
@@ -3189,7 +3231,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  111 ,
+                id:  113 ,
                 href: "\/tutorials\/docs\/python\/python\/python_lists_and_tuples\/",
                 title: "Working with Lists and Tuples in Python: Creation, Access, and More",
                 description: "Discover how to effectively use lists and tuples in Python. Learn to create and access these data structures, utilize list comprehensions for concise coding, and understand tuple operations with clear examples.",
@@ -3198,7 +3240,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  112 ,
+                id:  114 ,
                 href: "\/tutorials\/docs\/xgboost\/",
                 title: "XGboost",
                 description: "Best XGboost blogs out there.",
@@ -3207,7 +3249,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  113 ,
+                id:  115 ,
                 href: "\/tutorials\/docs\/xgboost\/xgboost\/",
                 title: "XGboost",
                 description: "...",
@@ -3216,7 +3258,7 @@ long_running_task()</code>
         );
     index.add(
             {
-                id:  114 ,
+                id:  116 ,
                 href: "\/tutorials\/docs\/rust\/rust\/first_rust_program\/",
                 title: "Your First Rust Program",
                 description: "Learn to write, compile, and run your first simple Rust program. Understand the basics of Rust compilation and execution.",
