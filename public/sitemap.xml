@@ -32,8 +32,11 @@
     <loc>http://localhost:1313/tutorials/docs/cheatsheets/wireshark_cs/</loc>
     <lastmod>2024-04-26T15:18:15+05:30</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tutorials/docs/</loc>
+    <lastmod>2024-05-29T13:20:12+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tutorials/docs/elixir/elixir/01_a_beginners_guide_to_elixir/</loc>
-    <lastmod>2024-05-29T02:59:05+02:00</lastmod>
+    <lastmod>2024-05-30T11:21:18+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/rust/rust/advanced_enums_pattern_matching_rust/</loc>
     <lastmod>2024-05-06T04:29:03+00:00</lastmod>
@@ -41,10 +44,13 @@
     <loc>http://localhost:1313/tutorials/docs/golang/golang/error-handling-and-panics-in-go/</loc>
     <lastmod>2024-05-08T00:37:43+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tutorials/docs/solidity/solidity/introduction_to_solidity.md/</loc>
+  </url><url>
     <loc>http://localhost:1313/tutorials/docs/rust/rust/basic_concepts_in_rust/</loc>
     <lastmod>2024-05-06T04:29:03+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/elixir/elixir/03_cli_tool_using_elixir/</loc>
+    <lastmod>2024-05-30T11:21:18+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/golang/golang/building-real-world-application-go/</loc>
     <lastmod>2024-05-08T00:37:43+00:00</lastmod>
@@ -70,6 +76,7 @@
     <lastmod>2024-05-04T04:36:58+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/elixir/elixir/04_concurrency_in_elixir_with_otp/</loc>
+    <lastmod>2024-05-30T11:21:18+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/rust/rust/control_flow_in_rust/</loc>
     <lastmod>2024-05-06T04:29:03+00:00</lastmod>
@@ -78,16 +85,13 @@
     <lastmod>2024-05-06T04:29:03+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/elixir/elixir/02_creating_a_simple_web_server/</loc>
-    <lastmod>2024-05-29T02:59:05+02:00</lastmod>
+    <lastmod>2024-05-30T11:21:18+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/python/python/python_decorators/</loc>
     <lastmod>2024-05-04T04:36:58+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/haskell/haskell/diving-deeper-into-haskell-functions/</loc>
     <lastmod>2024-05-10T04:53:59+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tutorials/docs/</loc>
-    <lastmod>2024-05-29T02:59:05+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/haskell/haskell/error-handling-in-haskell/</loc>
     <lastmod>2024-05-10T04:53:59+00:00</lastmod>
@@ -109,6 +113,12 @@
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/elixir/</loc>
     <lastmod>2024-05-29T02:59:05+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/docs/elm/</loc>
+    <lastmod>2024-05-30T20:25:41+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/docs/erlang/</loc>
+    <lastmod>2024-05-30T20:25:41+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/python/python/python_for_machine_learning/</loc>
     <lastmod>2024-05-04T04:36:58+00:00</lastmod>
@@ -167,6 +177,12 @@
     <loc>http://localhost:1313/tutorials/docs/haskell/</loc>
     <lastmod>2024-04-16T21:53:40+05:30</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tutorials/docs/htmx/</loc>
+    <lastmod>2024-05-30T20:25:41+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/docs/huff/</loc>
+    <lastmod>2024-05-30T20:25:41+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tutorials/docs/rust/rust/integrating_rust_ffi_safe_abstractions/</loc>
     <lastmod>2024-05-06T04:29:03+00:00</lastmod>
   </url><url>
@@ -178,6 +194,9 @@
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/python/python/python_introduction/</loc>
     <lastmod>2024-05-04T04:36:58+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/docs/julia/</loc>
+    <lastmod>2024-05-30T20:25:41+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/keras/</loc>
     <lastmod>2024-05-09T14:26:28+05:30</lastmod>
@@ -242,14 +261,23 @@
     <loc>http://localhost:1313/tutorials/docs/python/python/basic_python_syntax/</loc>
     <lastmod>2024-05-04T04:36:58+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tutorials/docs/mojo/</loc>
+    <lastmod>2024-05-30T20:25:41+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tutorials/docs/haskell/haskell/monad-magic-in-haskell/</loc>
     <lastmod>2024-05-10T04:53:59+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/docs/nim/</loc>
+    <lastmod>2024-05-30T20:25:41+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/numpy/</loc>
     <lastmod>2024-05-09T14:26:28+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/numpy/numpy/</loc>
     <lastmod>2024-05-09T14:26:28+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/docs/ocaml/</loc>
+    <lastmod>2024-05-30T20:25:41+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/opencv/</loc>
     <lastmod>2024-05-09T14:26:28+05:30</lastmod>
@@ -262,6 +290,9 @@
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/pandas/pandas/</loc>
     <lastmod>2024-05-09T14:26:28+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/docs/pheonix/</loc>
+    <lastmod>2024-05-30T20:25:41+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/python/</loc>
     <lastmod>2024-04-16T21:53:40+05:30</lastmod>
@@ -281,6 +312,9 @@
     <loc>http://localhost:1313/tutorials/docs/rust/</loc>
     <lastmod>2024-04-16T21:18:00+05:30</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tutorials/docs/scala/</loc>
+    <lastmod>2024-05-30T20:25:41+05:30</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tutorials/docs/scikit-learn/</loc>
     <lastmod>2024-05-09T14:26:28+05:30</lastmod>
   </url><url>
@@ -291,9 +325,6 @@
     <lastmod>2024-05-06T04:29:03+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/solidity/</loc>
-    <lastmod>2024-05-27T15:47:39+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tutorials/docs/solidity/solidity/</loc>
     <lastmod>2024-05-27T15:47:39+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/rust/rust/structuring_rust_projects_modules_crates/</loc>
@@ -317,7 +348,7 @@
     <lastmod>2024-05-09T14:26:28+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/</loc>
-    <lastmod>2024-05-29T02:59:05+02:00</lastmod>
+    <lastmod>2024-05-30T20:25:41+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/rust/rust/understanding_using_unsafe_rust/</loc>
     <lastmod>2024-05-06T04:29:03+00:00</lastmod>
@@ -357,5 +388,8 @@
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/rust/rust/first_rust_program/</loc>
     <lastmod>2024-05-06T04:29:03+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/docs/zig/</loc>
+    <lastmod>2024-05-30T20:25:41+05:30</lastmod>
   </url>
 </urlset>

@@ -8,11 +8,74 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/solidity/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Solidity</title>
-      <link>http://localhost:1313/tutorials/docs/solidity/solidity/</link>
+      <title>An Introduction To Solidity</title>
+      <link>http://localhost:1313/tutorials/docs/solidity/solidity/introduction_to_solidity.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/solidity/solidity/</guid>
-      <description>Starting here to the best about solidity link</description>
+      <guid>http://localhost:1313/tutorials/docs/solidity/solidity/introduction_to_solidity.md/</guid>
+      <description>What is Solidity? linkSolidity is an object-oriented programming language influenced by C++, JavaScript, and Python. It is designed to be compiled into bytecode that runs on the Ethereum Virtual Machine (EVM), which is the runtime environment for Solidity code, similar to how a browser runs JavaScript code.&#xA;In essence, you write smart contract code in Solidity, and the compiler converts it into bytecode. This bytecode is then deployed and stored on Ethereum (and other EVM-compatible blockchains).</description>
+    </item>
+    <item>
+      <title>Build A Crowdfunding Contract with Solidity and ERC20 Tokens</title>
+      <link>http://localhost:1313/tutorials/docs/solidity/solidity/build_a_crowdfunding_contract/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/solidity/solidity/build_a_crowdfunding_contract/</guid>
+      <description>In decentralized finance (DeFi), crowdfunding has become increasingly popular as a means for raising funds for various projects. In this section, we&amp;rsquo;ll explore how to create a crowdfunding contract on Ethereum using ERC20 tokens. The contract allows users to create campaigns, pledge tokens to campaigns, and claim funds if the campaign goal is reached. If the goal is not met, users can withdraw their pledged tokens.&#xA;Contract Overview linkOur crowdfunding contract consists of the following functionalities:</description>
+    </item>
+    <item>
+      <title>Build a Voting Contract Using Solidity</title>
+      <link>http://localhost:1313/tutorials/docs/solidity/solidity/build_a_voting_contract/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/solidity/solidity/build_a_voting_contract/</guid>
+      <description>In this section, we&amp;rsquo;ll walk you through the process of building a smart contract for conducting secure and transparent voting on the Ethereum blockchain. We&amp;rsquo;ll explain each section of the code step-by-step to help you understand how it works. Note, this is not a full implementation and you can customize of for whatever usecase you want.&#xA;Introduction linkThis contract implements a voting contract. Of course, the main problems of electronic voting is how to assign voting rights to the correct persons and how to prevent manipulation.</description>
+    </item>
+    <item>
+      <title>Effective error handling in Solidity</title>
+      <link>http://localhost:1313/tutorials/docs/solidity/solidity/effective_error_handling_in_solidity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/solidity/solidity/effective_error_handling_in_solidity/</guid>
+      <description>Error Handling in Solidity - Require, Assert, Revert linkError handling in Solidity is essential for ensuring that smart contracts function correctly and securely. Solidity provides three main mechanisms for handling errors: require(), assert(), and revert(). Each of these has specific use cases and behaviors that make them suitable for different types of error handling scenarios.&#xA;Understanding Error Handling linkWhen an error occurs in Solidity, the Ethereum Virtual Machine (EVM) reverts all changes made to the blockchain’s state during the current call and its sub-calls.</description>
+    </item>
+    <item>
+      <title>Essential Gas Optimization Techniques in Solidity</title>
+      <link>http://localhost:1313/tutorials/docs/solidity/solidity/essential_gas_optimization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/solidity/solidity/essential_gas_optimization/</guid>
+      <description>Ethereum gas fees have long been a concern for users. Although the recent Ethereum Proof-of-Stake merge introduced a more energy-efficient system, it had little effect on gas fees. To maintain high standards, minimize risk, write clean code, and create secure, cost-effective smart contracts, it is critical to know the techniques for optimizing gas with Solidity.&#xA;In this section on the best Solidity gas optimization tips and techniques, you will learn advanced, real-world, and tested strategies taught by top-notch web3 developers to reduce the gas costs of your smart contracts.</description>
+    </item>
+    <item>
+      <title>How to Send and Receive Ether in Solidity</title>
+      <link>http://localhost:1313/tutorials/docs/solidity/solidity/sending_and_recieving_ether/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/solidity/solidity/sending_and_recieving_ether/</guid>
+      <description>Sending and receiving Ether in Solidity involves understanding the different methods available and their respective use cases. This guide will cover how to send Ether using transfer, send, and call, how to receive Ether, and which method to use for optimal security.&#xA;Sending Ether linktransfer linkThe transfer method sends 2300 gas and throws an error if the transfer fails.&#xA;function sendViaTransfer(address payable _to) public payable { // This function is no longer recommended for sending Ether.</description>
+    </item>
+    <item>
+      <title>Learn About Reentracny Attacks and how to Prevent them</title>
+      <link>http://localhost:1313/tutorials/docs/solidity/solidity/reentrancy_attacks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/solidity/solidity/reentrancy_attacks/</guid>
+      <description>What is a Solidity Reentrancy Attack? linkIn Solidity smart contracts, a reentrancy attack occurs when an external contract is called, allowing the function to be recursively called before its initial execution is complete. This can enable the external contract to manipulate the state of the original contract before it finishes executing.&#xA;Reentrancy attacks exploit state synchronization issues, occurring when the state is not updated before making an external call. For instance, if a function checks a condition, updates the state, and then makes an external call, an attacker can re-enter the function in the middle of its execution, bypassing the updated state and potentially draining funds.</description>
+    </item>
+    <item>
+      <title>Price Oracle Using Chainlink and Solidity</title>
+      <link>http://localhost:1313/tutorials/docs/solidity/solidity/price_oracle_using_chainlink_and_solidity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/solidity/solidity/price_oracle_using_chainlink_and_solidity/</guid>
+      <description>One application of Solidity is in decentralized finance (DeFi) and obtaining accurate and reliable price data is crucial for various operations such as asset valuation, trading, and lending. Chainlink, a decentralized oracle network, provides a solution to this problem by offering decentralized price oracles. In this section, we&amp;rsquo;ll explore a Solidity contract that interacts with a Chainlink price oracle to fetch the latest ETH/USD price.&#xA;Chainlink price oracles are decentralized services that provide tamper-resistant price data to smart contracts on the blockchain.</description>
+    </item>
+    <item>
+      <title>Solidity and ERC20 Tokens</title>
+      <link>http://localhost:1313/tutorials/docs/solidity/solidity/solidity_and_erc20_tokens/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/solidity/solidity/solidity_and_erc20_tokens/</guid>
+      <description>The Ethereum ecosystem features a variety of standards that guide the functionality of smart contracts from creation to deployment. The most common standards include ERC-20, ERC-721, ERC-777, and ERC-1155, each serving distinct purposes.&#xA;This article defines ERC-20 tokens, highlights their uses, and outlines some mandatory functions in Solidity that developers need to use to adhere to the standard. If you want to create your own ERC-20 token using Solidity, this guide will provide a comprehensive understanding of how to get started.</description>
+    </item>
+    <item>
+      <title>Understandin Application Binary Interface (ABI) in Solidity</title>
+      <link>http://localhost:1313/tutorials/docs/solidity/solidity/understanding_application_binary_interface/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/solidity/solidity/understanding_application_binary_interface/</guid>
+      <description>What is a Smart Contract ABI linkThe ABI, or “Application Binary Interface,” of a smart contract defines the standard way to interact with contracts in the Ethereum ecosystem. It allows both humans and machines to interact with contracts on the blockchain, facilitating both user-to-contract and contract-to-contract interactions.&#xA;In this section, you&amp;rsquo;ll learn what a smart contract ABI is and how to obtain it for interaction purposes.&#xA;What does an ABI look like?</description>
     </item>
   </channel>
 </rss>
