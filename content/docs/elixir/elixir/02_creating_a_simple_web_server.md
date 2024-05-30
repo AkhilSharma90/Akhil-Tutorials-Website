@@ -15,7 +15,7 @@ cd server
 ```
 Note that `server` is the name of your project, and you can name it however you want. We also added `--sup` because our app needs a supervision tree because we will use a Supervision to start up and run our `Cowboy` server.
 
-### Adding the Cowboy dependancy**
+### Adding the Cowboy dependancy
 
 Adding dependencies is way simpler than you thought. To use `Plug` as an adapter interface for `Cowboy` webserver, we need to install `PlugCowboy` package. Open your `mix.exs` file and add the following code
 

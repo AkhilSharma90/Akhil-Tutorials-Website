@@ -15,6 +15,20 @@
       <description>In this section, we will cover:&#xA;What is Elixir? Key features, tools, and uses of Elixir Intro to Elixir functional programming Simple code snippets What is Elixir? linkElixir is a general-purpose, functional, concurrent programming language designed for building applications that are reliable, scalable, and easy to maintain. Tt looks a lot like Ruby but offers features that help with handling lots of tasks at the same time (concurrency), recovering from errors quickly (fault tolerance), and low latency.</description>
     </item>
     <item>
+      <title>Build a CLI Todo List using Elixir</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/03_cli_tool_using_elixir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/03_cli_tool_using_elixir/</guid>
+      <description>This section will guide you throguh creating a basic command-line TODO application. We will explore key conteps and syntac along the way, makin git perfect for people who just started using the language.&#xA;Getting started linkFirst, we should create a new project by running the command&#xA;mix new todo_cli --sup We have already gone through the meaning of --sup in the first tutorial we had.&#xA;Our proejct will consist of four main modules:</description>
+    </item>
+    <item>
+      <title>Concurrency in Elixir with OTP</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/04_concurrency_in_elixir_with_otp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/04_concurrency_in_elixir_with_otp/</guid>
+      <description>Concurrency is one of the core strengths of Elixir, and the language leverages the powerful capabilities of the Erlang VM to build highly concurrent and fault-tolerant systems. In this section, we will explore concurrency in Elixir using OTP (Open Telecom Platform), which is a set of libraries and design principles for building scalable and maintainable applications.&#xA;Introduction linkWhy Concurrency in Elixer? linkElixir, built on the Erlang VM, is designed for building concurrent, distributed, and fault-tolerant applications.</description>
+    </item>
+    <item>
       <title>Create A Simple Web Server using Elixir</title>
       <link>http://localhost:1313/tutorials/docs/elixir/elixir/02_creating_a_simple_web_server/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

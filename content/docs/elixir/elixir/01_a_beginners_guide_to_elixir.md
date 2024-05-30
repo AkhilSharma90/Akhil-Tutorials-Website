@@ -93,11 +93,92 @@ iex> 8 / 2
 
 **Modules and functions**
 
-
 In Elixir, functions are grouped into modules. An example of a module is the String module. Here’s an example:
 ```elixir
 iex> String.length("elixir")
 6
 ```
+Looking more into functions, we also have `anonymos functions`. They start with `fn` and end with `end`.
+```elixir
+iex> add = fn a, b -> a+ b end
+iex> add.(1,2)
+
+#and the answer should be 3
+3
+```
+
+Note that a dot (`.`) between the variable and parentesis is required to invoke an anonymouse function.
+
+In Elixir, functions are first class citizens meaning that they can be passed as arguments to other functions the same way integers and strings can.
+```elixir
+iex> is_function(add)
+true
+```
+This uses the inbuilt function `is_function` which checks to see if the parameter passed is a function and returns a bool.
+Anonymous functions are closures (named functions are not) and as such they can access variables that are in scope when the function is defined. You can define a new anonymous function that uses the add anonymous function we have previously defined:
+
+
+With `modules` you're able to group several functions together. Most of the time it is convenient to write modules into files so they can be compiled and reused.
+Get started by creating a file named math.ex, open it in your text editor and add the following code:
+```elixir
+defmodule Math do
+  def sum(a, b) do
+    a + b
+  end
+end
+```
+
+In order to create your own modules in Elixir, use the defmodule macro, then use the def macro to define functions in that module. So in this case the module is Math and the function is sum.
+Once this is saved the file can be compiled by typing elixirc into the terminal followed by the file name.
+`$ elixirc math.ex`
+
+This will generate a file named Elixir.Math.beam containing the bytecode for the defined module. If we start iex again, our module definition will be available (provided that iex is started in the same directory the bytecode file is in):
+```elixir
+iex> Math.sum(1,2)
+3
+```
+
+### Creating your first Elixir project
+We will be using mix and we've already discussed what mix is. Now we are going to initialise a new project by running `mix new [project_name]`. Let's choose our project name to be animals, then we will have
+```bash
+mix new animals
+```
+after that, you can open the new animals project with your desired editor and start working.
 
 Now that you have learnt what elixir it, you can start experimenting and building simple, small projects that will further drill in these skills you learn and help you grasp them.
+
+Open up `animal.ex` file in the lib directory. You should see some boilerplate code looking like this:
+```elixir
+defmodule Animals do
+  @moduledoc """
+  Documentation for `Animals`.
+  """
+
+  @doc """
+  Hello world.
+
+  ## Examples
+
+      iex> Animals.hello()
+      :world
+
+  """
+  def hello do
+    :world
+  end
+end
+```
+
+Elixir has created a module with the name of your project along with a function that prints out a :world atom when called. It's also added boilerplate for module and function documentation - the first part of the file. (we will go into more detail about documentation later)
+
+**Running the code**
+
+Let's test out the code by running
+```bash
+iex -S mix
+```
+Which will start and compile your project, now run
+```bash
+Animals.hello
+# :world
+```
