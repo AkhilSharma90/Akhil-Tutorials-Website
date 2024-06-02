@@ -15,6 +15,13 @@
       <description>In this section, we will cover:&#xA;What is Elixir? Key features, tools, and uses of Elixir Intro to Elixir functional programming Simple code snippets What is Elixir? linkElixir is a general-purpose, functional, concurrent programming language designed for building applications that are reliable, scalable, and easy to maintain. Tt looks a lot like Ruby but offers features that help with handling lots of tasks at the same time (concurrency), recovering from errors quickly (fault tolerance), and low latency.</description>
     </item>
     <item>
+      <title>A Deep Dive into Pheonix Framework</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/phoenix_elixix_framework/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/phoenix_elixix_framework/</guid>
+      <description>Introduction to Phoenix Framework linkOverview linkPhoenix Framework, crafted in Elixir, stands out in the realm of web development for its exceptional performance, reliability, and scalability. Rooted in the Erlang VM, Phoenix inherits characteristics ideal for building low-latency, distributed, and fault-tolerant systems. This makes it a top choice for applications demanding real-time features.&#xA;Advantages of Using Elixir and Erlang VM linkElixir, the language behind Phoenix, offers remarkable features like lightweight concurrency and fault tolerance, thanks to its Erlang foundation.</description>
+    </item>
+    <item>
       <title>Build a CLI Todo List using Elixir</title>
       <link>http://localhost:1313/tutorials/docs/elixir/elixir/03_cli_tool_using_elixir/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

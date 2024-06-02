@@ -7,5 +7,12 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/elm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started With Elm</title>
+      <link>http://localhost:1313/tutorials/docs/elm/elm/getting_started_with_elm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elm/elm/getting_started_with_elm/</guid>
+      <description>Introduction to Elm linkElm is a delightful language for reliable web applications. It compiles to JavaScript, but it&amp;rsquo;s much more than just a language; it&amp;rsquo;s a framework for making web development more robust and pleasant. One of the most striking features of Elm is its emphasis on simplicity and quality tooling, making it an excellent choice for both beginners and experienced developers.&#xA;Why Elm? linkSimplicity and Safety&#xA;Elm&amp;rsquo;s syntax is clean and easy to understand, making it an ideal starting point for those new to programming.</description>
+    </item>
   </channel>
 </rss>

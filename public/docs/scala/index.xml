@@ -7,5 +7,12 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/scala/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Scala</title>
+      <link>http://localhost:1313/tutorials/docs/scala/scala/scala/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/scala/scala/scala/</guid>
+      <description>Scala, an acronym for &amp;ldquo;Scalable Language,&amp;rdquo; is a modern, multi-paradigm programming language designed to express common programming patterns in a concise, elegant, and type-safe way. It smoothly integrates features of object-oriented and functional languages.&#xA;Brief History and Purpose linkDeveloped by Martin Odersky and released in 2003, Scala was designed to address the shortcomings of Java, particularly in terms of scalability and functional programming support. Scala runs on the Java Virtual Machine (JVM), which allows it to be interoperable with Java and makes it an attractive choice for developers familiar with Java.</description>
+    </item>
   </channel>
 </rss>

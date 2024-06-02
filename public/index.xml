@@ -78,11 +78,39 @@
       <description>Protocols - ether, fddi, ip, arp, rarp, decnet, lat, sca, moprc, mopdl, tcp and udp linkWireshark Capturing Modes link Promiscuous mode Sets interface to capture all packets on a network segment to which it is associated to Monitor mode setup the Wireless interface to capture all traffic it can receive (Unix/Linux only) Filter Types link Capture filter Filter packets during capture Display Filter Hide Packets from a capture display Capture Filter Syntax link Syntax protocol direction hosts value Logical operator Expressions Example tcp src 192.</description>
     </item>
     <item>
+      <title>1. Introduction to Pandas</title>
+      <link>http://localhost:1313/tutorials/docs/pandas/pandas/intro_to_pandas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pandas/pandas/intro_to_pandas/</guid>
+      <description>pandas is arguably the most important Python package for data analysis. It is the de facto standard package for data manipulation and exploratory data analysis. Its ability to read from and write to an extensive list of formats makes it a versatile tool for data science practitioners. Its data manipulation functions make it a highly accessible and practical tool for aggregating, analyzing, and cleaning data.&#xA;In this introduction on how to learn pandas, we discussed the learning path you may take to master this package.</description>
+    </item>
+    <item>
+      <title>2. Viewing and Understanding Dataframes</title>
+      <link>http://localhost:1313/tutorials/docs/pandas/pandas/viewing_and_understanding_dataframes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pandas/pandas/viewing_and_understanding_dataframes/</guid>
+      <description>Viewing and Understanding DataFrames Using Pandas linkAfter reading tabular data as a DataFrame, you would need to have a glimpse of the data. You can either view a small sample of the dataset or a summary of the data in the form of summary statistics.&#xA;How to View Data Using .head() and .tail() linkYou can view the first few or last few rows of a DataFrame using the .head() or .</description>
+    </item>
+    <item>
+      <title>3. How to Clean Data using Pandas</title>
+      <link>http://localhost:1313/tutorials/docs/pandas/pandas/cleaning_data_using_panda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pandas/pandas/cleaning_data_using_panda/</guid>
+      <description>Cleaning Data Using Pandas linkData cleaning is one of the most common tasks in data science. Pandas lets you preprocess data for various uses, including training machine learning and deep learning models. Let’s use the DataFrame df2 from earlier, having four missing values, to illustrate a few data cleaning use cases. As a reminder, here&amp;rsquo;s how you can see how many missing values are in a DataFrame.&#xA;df2.isnull().sum() Pregnancies 4 Glucose 0 BloodPressure 0 SkinThickness 0 Insulin 0 BMI 0 DiabetesPedigreeFunction 0 Age 0 Outcome 0 dtype: int64 Dealing with Missing Data Technique #1: Dropping Missing Values linkOne way to deal with missing data is to drop it.</description>
+    </item>
+    <item>
       <title>A beginner&#39;s guide to the Elixir programming language</title>
       <link>http://localhost:1313/tutorials/docs/elixir/elixir/01_a_beginners_guide_to_elixir/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/elixir/elixir/01_a_beginners_guide_to_elixir/</guid>
       <description>In this section, we will cover:&#xA;What is Elixir? Key features, tools, and uses of Elixir Intro to Elixir functional programming Simple code snippets What is Elixir? linkElixir is a general-purpose, functional, concurrent programming language designed for building applications that are reliable, scalable, and easy to maintain. Tt looks a lot like Ruby but offers features that help with handling lots of tasks at the same time (concurrency), recovering from errors quickly (fault tolerance), and low latency.</description>
+    </item>
+    <item>
+      <title>A Deep Dive into Pheonix Framework</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/phoenix_elixix_framework/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/phoenix_elixix_framework/</guid>
+      <description>Introduction to Phoenix Framework linkOverview linkPhoenix Framework, crafted in Elixir, stands out in the realm of web development for its exceptional performance, reliability, and scalability. Rooted in the Erlang VM, Phoenix inherits characteristics ideal for building low-latency, distributed, and fault-tolerant systems. This makes it a top choice for applications demanding real-time features.&#xA;Advantages of Using Elixir and Erlang VM linkElixir, the language behind Phoenix, offers remarkable features like lightweight concurrency and fault tolerance, thanks to its Erlang foundation.</description>
     </item>
     <item>
       <title>Advanced Enums and Pattern Matching in Rust</title>
@@ -99,6 +127,13 @@
       <description>Introduction:&#xA;Hello, Go developers! Error handling is a critical component of robust application development. Unlike many programming languages that use exceptions for error handling, Go uses a distinct approach that encourages explicit error checking, which can lead to more reliable and understandable code. In this blog, we&amp;rsquo;ll dive deep into Go&amp;rsquo;s error handling strategies, exploring how to handle errors effectively, create and use custom errors, and utilize Go&amp;rsquo;s defer, panic, and recover mechanisms to manage exceptional situations gracefully.</description>
     </item>
     <item>
+      <title>An Introduction to Nim</title>
+      <link>http://localhost:1313/tutorials/docs/nim/nim/nim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/nim/nim/nim/</guid>
+      <description>Nim is a relatively new programming language which allows users to write easy-to-read high-performance code.&#xA;Installation • Nim has ready made distributions for all three major operating systems and there are several options when it comes to installing Nim.&#xA;• You can follow the official installation procedure to install the latest stable version.&#xA;• If you’re using Linux, there is a high probability that your distribution has Nim in the package manager.</description>
+    </item>
+    <item>
       <title>An Introduction To Solidity</title>
       <link>http://localhost:1313/tutorials/docs/solidity/solidity/introduction_to_solidity.md/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -113,6 +148,13 @@
       <description>Introduction linkIn this post, we&amp;rsquo;re going to explore some fundamental concepts of Rust programming: variables and data types, along with mutability and immutability. Understanding these concepts is crucial as they form the foundation upon which safe and efficient Rust programs are built.&#xA;Variables and Data Types linkIn Rust, a variable is a storage location paired with an associated name, which contains some known or unknown quantity of data referred to as a value.</description>
     </item>
     <item>
+      <title>Basic data types in Nim</title>
+      <link>http://localhost:1313/tutorials/docs/nim/nim/basic_data_types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/nim/nim/basic_data_types/</guid>
+      <description>In this section, we will be learning more about basic data types in Nim.&#xA;Integers linkCreate a file called Integers.nim and have the following code:&#xA;let a = 11 b = 4 echo &amp;#34;a &amp;#43; b = &amp;#34;, a &amp;#43; b echo &amp;#34;a - b = &amp;#34;, a - b echo &amp;#34;a * b = &amp;#34;, a * b echo &amp;#34;a / b = &amp;#34;, a / b echo &amp;#34;a div b = &amp;#34;, a div b echo &amp;#34;a mod b = &amp;#34;, a mod b The echo command will print to the screen everything that follows it separated by commas.</description>
+    </item>
+    <item>
       <title>Build a CLI Todo List using Elixir</title>
       <link>http://localhost:1313/tutorials/docs/elixir/elixir/03_cli_tool_using_elixir/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -125,6 +167,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/solidity/solidity/build_a_crowdfunding_contract/</guid>
       <description>In decentralized finance (DeFi), crowdfunding has become increasingly popular as a means for raising funds for various projects. In this section, we&amp;rsquo;ll explore how to create a crowdfunding contract on Ethereum using ERC20 tokens. The contract allows users to create campaigns, pledge tokens to campaigns, and claim funds if the campaign goal is reached. If the goal is not met, users can withdraw their pledged tokens.&#xA;Contract Overview linkOur crowdfunding contract consists of the following functionalities:</description>
+    </item>
+    <item>
+      <title>Build a Remote Purchase Contract Using Solidity</title>
+      <link>http://localhost:1313/tutorials/docs/solidity/solidity/building_a_remote_purchase_contract/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/solidity/solidity/building_a_remote_purchase_contract/</guid>
+      <description>Purchasing goods remotely currently requires multiple parties that need to trust each other. The simplest configuration involves a seller and a buyer. The buyer would like to receive an item from the seller, and the seller would like to get some compensation, e.g., Ether, in return. The problematic part is the shipment: There is no way to determine for sure that the item arrived at the buyer.&#xA;There are multiple ways to solve this problem, but all fall short in one way or another.</description>
     </item>
     <item>
       <title>Build a Voting Contract Using Solidity</title>
@@ -181,6 +230,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/elixir/elixir/04_concurrency_in_elixir_with_otp/</guid>
       <description>Concurrency is one of the core strengths of Elixir, and the language leverages the powerful capabilities of the Erlang VM to build highly concurrent and fault-tolerant systems. In this section, we will explore concurrency in Elixir using OTP (Open Telecom Platform), which is a set of libraries and design principles for building scalable and maintainable applications.&#xA;Introduction linkWhy Concurrency in Elixer? linkElixir, built on the Erlang VM, is designed for building concurrent, distributed, and fault-tolerant applications.</description>
+    </item>
+    <item>
+      <title>Containers and Procedures in Nim</title>
+      <link>http://localhost:1313/tutorials/docs/nim/nim/containers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/nim/nim/containers/</guid>
+      <description>Containers linkContainers are data types which contain a collection of items and allow us to access those elements. Typically a container is also iterable, meaning that we can use them the same way we used strings in the loops chapter.&#xA;Arrays linkAn array is the simplest container type. The elements of an array are enclosed inside of square brackets.&#xA;var a: array[3, int] = [5, 7, 9] b = [5, 7, 9] c = [] # error d: array[7, string] If we provide the values, the length and type of array b are known at compile time.</description>
+    </item>
+    <item>
+      <title>Control flow in Nim</title>
+      <link>http://localhost:1313/tutorials/docs/nim/nim/control_flow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/nim/nim/control_flow/</guid>
+      <description>So far in our programs every line of code was executed at some point. Control flow statements allow us to have parts of code which will be executed only if some boolean condition is satisfied.&#xA;If statement link if &amp;lt;condition&amp;gt;: &amp;lt;indented block&amp;gt; If statements can be nested, i.e. inside one if-block there can be another if statement.&#xA;if.nim&#xA;let a = 11 b = 22 c = 999 if a &amp;lt; b: echo &amp;#34;a is smaller than b&amp;#34; if 10*a &amp;lt; b: echo &amp;#34;not only that, a is *much* smaller than b&amp;#34; if b &amp;lt; c: echo &amp;#34;b is smaller than c&amp;#34; if 10*b &amp;lt; c: echo &amp;#34;not only that, b is *much* smaller than c&amp;#34; if a&amp;#43;b &amp;gt; c: echo &amp;#34;a and b are larger than c&amp;#34; if 1 &amp;lt; 100 and 321 &amp;gt; 123: echo &amp;#34;did you know that 1 is smaller than 100?</description>
     </item>
     <item>
       <title>Control Flow in Rust</title>
@@ -351,11 +414,25 @@
       <description>Starting here link</description>
     </item>
     <item>
+      <title>Getting Started With Elm</title>
+      <link>http://localhost:1313/tutorials/docs/elm/elm/getting_started_with_elm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elm/elm/getting_started_with_elm/</guid>
+      <description>Introduction to Elm linkElm is a delightful language for reliable web applications. It compiles to JavaScript, but it&amp;rsquo;s much more than just a language; it&amp;rsquo;s a framework for making web development more robust and pleasant. One of the most striking features of Elm is its emphasis on simplicity and quality tooling, making it an excellent choice for both beginners and experienced developers.&#xA;Why Elm? linkSimplicity and Safety&#xA;Elm&amp;rsquo;s syntax is clean and easy to understand, making it an ideal starting point for those new to programming.</description>
+    </item>
+    <item>
       <title>Getting Started with Go</title>
       <link>http://localhost:1313/tutorials/docs/golang/golang/getting-started-with-go/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/golang/golang/getting-started-with-go/</guid>
       <description>Introduction:&#xA;Welcome to the world of Go programming! Go, or Golang as it&amp;rsquo;s commonly called, is a programming language created by Google in 2007 with efficiency and readability in mind. Developed by programming legends such as Ken Thompson and Rob Pike, Go combines simplicity in syntax with the performance of compiled languages like C++. It&amp;rsquo;s used by developers around the world for everything from simple command-line tools to large-scale network servers and distributed systems.</description>
+    </item>
+    <item>
+      <title>Getting Started With Huff</title>
+      <link>http://localhost:1313/tutorials/docs/huff/huff/huff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/huff/huff/huff/</guid>
+      <description>Introduction to Huff linkThe world of blockchain technology and Ethereum, in particular, has revolutionized how we think about digital transactions and smart contract programming. Ethereum, known for its robust and secure platform, allows developers to create decentralized applications (dApps) using smart contracts. These contracts are self-executing agreements with the terms of the agreement directly written into lines of code.&#xA;At the forefront of Ethereum&amp;rsquo;s smart contract development languages is Solidity, widely recognized and used for its accessibility and security features.</description>
     </item>
     <item>
       <title>Getting Started with Rust</title>
@@ -414,6 +491,20 @@
       <description>Python is a high-level, interpreted programming language known for its simplicity and readability, which has made it one of the most popular languages in the world. Developed by Guido van Rossum and first released in 1991, Python&amp;rsquo;s design philosophy emphasizes code readability with its notable use of significant whitespace.&#xA;Why Use Python? link Ease of Learning and Use: Python&amp;rsquo;s straightforward syntax closely mirrors the human language, which reduces the complexity of programming tasks and makes it accessible to beginners.</description>
     </item>
     <item>
+      <title>Introduction to Scala</title>
+      <link>http://localhost:1313/tutorials/docs/scala/scala/scala/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/scala/scala/scala/</guid>
+      <description>Scala, an acronym for &amp;ldquo;Scalable Language,&amp;rdquo; is a modern, multi-paradigm programming language designed to express common programming patterns in a concise, elegant, and type-safe way. It smoothly integrates features of object-oriented and functional languages.&#xA;Brief History and Purpose linkDeveloped by Martin Odersky and released in 2003, Scala was designed to address the shortcomings of Java, particularly in terms of scalability and functional programming support. Scala runs on the Java Virtual Machine (JVM), which allows it to be interoperable with Java and makes it an attractive choice for developers familiar with Java.</description>
+    </item>
+    <item>
+      <title>Julia</title>
+      <link>http://localhost:1313/tutorials/docs/julia/julia/julia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/julia/julia/julia/</guid>
+      <description>Introduction linkJulia, a high-level, high-performance programming language, is designed for technical computing. It combines the simplicity of Python with the power of languages like C or Fortran. Julia is known for its impressive speed and is widely used in scientific computing, machine learning, data mining, large-scale linear algebra, and more.&#xA;Getting Started with Julia linkInstalling Julia linkTo begin with Julia, the first step is installing the language. Julia can be downloaded from its official website, JuliaLang.</description>
+    </item>
+    <item>
       <title>Keras</title>
       <link>http://localhost:1313/tutorials/docs/keras/keras/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -421,11 +512,32 @@
       <description>Starting here link</description>
     </item>
     <item>
+      <title>Learn about Erlang</title>
+      <link>http://localhost:1313/tutorials/docs/erlang/erlang/getting_started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/erlang/erlang/getting_started/</guid>
+      <description>Brief History of Erlang linkErlang was created by Ericsson&amp;rsquo;s Computer Science Lab in 1986 for handling large-scale telecommunications projects. Its development was driven by the need for a robust system capable of managing numerous concurrent activities, with high levels of fault tolerance. Over the years, Erlang has evolved significantly and is now used in various domains, including banking, e-commerce, and instant messaging.&#xA;Key Features of Erlang linkErlang stands out due to its unique features, which include:</description>
+    </item>
+    <item>
       <title>Learn About Reentracny Attacks and how to Prevent them</title>
       <link>http://localhost:1313/tutorials/docs/solidity/solidity/reentrancy_attacks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/solidity/solidity/reentrancy_attacks/</guid>
       <description>What is a Solidity Reentrancy Attack? linkIn Solidity smart contracts, a reentrancy attack occurs when an external contract is called, allowing the function to be recursively called before its initial execution is complete. This can enable the external contract to manipulate the state of the original contract before it finishes executing.&#xA;Reentrancy attacks exploit state synchronization issues, occurring when the state is not updated before making an external call. For instance, if a function checks a condition, updates the state, and then makes an external call, an attacker can re-enter the function in the middle of its execution, bypassing the updated state and potentially draining funds.</description>
+    </item>
+    <item>
+      <title>Learn How To Write Unit Tests In Solidity</title>
+      <link>http://localhost:1313/tutorials/docs/solidity/solidity/testing_in_solidity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/solidity/solidity/testing_in_solidity/</guid>
+      <description>Unit testing is a critical part of the development process, ensuring that your smart contracts behave as expected. In this section, we will explore how to write unit tests in Solidity using the Forge testing framework. We will start by understanding the concept of AAA (Arrange, Act, Assert) and then dive into a practical example.&#xA;Understanding AAA (Arrange, Act, Assert) linkThe AAA pattern is a standard approach in unit testing that ensures tests are well-structured and easy to understand.</description>
+    </item>
+    <item>
+      <title>Learning More Abuot HTMX</title>
+      <link>http://localhost:1313/tutorials/docs/htmx/htmx/getting_started_with_htmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/getting_started_with_htmx/</guid>
+      <description>htmx in a Nutshell linkhtmx is a library that allows you to access modern browser features directly from HTML, rather than using javascript. To understand htmx, first let’s take a look at an anchor tag:&#xA;&amp;lt;a href=&amp;#34;/blog&amp;#34;&amp;gt;Blog&amp;lt;/a&amp;gt; This anchor tag tells a browser:&#xA;“When a user clicks on this link, issue an HTTP GET request to ‘/blog’ and load the response content into the browser window”.&#xA;With that in mind, consider the following bit of HTML:</description>
     </item>
     <item>
       <title>Leveraging the Power of Slices in Rust</title>
@@ -561,6 +673,20 @@
       <description>Introduction linkThe syntax of a programming language is a set of rules that defines how a program is written and interpreted. In Python, syntax is famously clean and often feels intuitive, making it an excellent choice for beginners. Yet, it possesses the depth required for advanced programming. This section explores Python syntax through various constructs and a practical example.&#xA;Fibonacci Series Example linkThe Fibonacci sequence is a classic example used to illustrate basic programming concepts in many languages.</description>
     </item>
     <item>
+      <title>Modules in Nim</title>
+      <link>http://localhost:1313/tutorials/docs/nim/nim/modules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/nim/nim/modules/</guid>
+      <description>Modules linkSo far we have used the functionality which is available by default every time we start a new Nim file. This can be extended with modules, which give more functionality for some specific topics.&#xA;Some of the most used Nim modules are:&#xA;strutils: additional functionality when dealing with strings sequtils: additional functionality for sequences math: mathematical functions (logarithms, square roots, …), trigonometry (sin, cos, …) times: measure and deal with time But there are many more, both in what’s called the standard library and in the Nimble package manager.</description>
+    </item>
+    <item>
+      <title>Mojo</title>
+      <link>http://localhost:1313/tutorials/docs/mojo/mojo/mojo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/mojo/mojo/mojo/</guid>
+      <description>Why Mojo linkBackground link Common Perception: Python is often labeled as a slow and merely a scripting language. Frustration with Misconception: The belief that Python&amp;rsquo;s performance issues stem from the language itself, rather than how the code is written. Choosing Mojo: The Main Reason link Modular | Mojo as a Bridge: Mojo combines Python&amp;rsquo;s ease of use with advanced programming capabilities. It&amp;rsquo;s tailored for both research and production environments. Systems Programming Language: Designed for heterogeneous computing, Mojo excels in handling different processors like CPUs, GPUs, FPGAs, and NPUs.</description>
+    </item>
+    <item>
       <title>Monad Magic in Haskell</title>
       <link>http://localhost:1313/tutorials/docs/haskell/haskell/monad-magic-in-haskell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -575,17 +701,17 @@
       <description>Starting here link</description>
     </item>
     <item>
+      <title>Ocaml</title>
+      <link>http://localhost:1313/tutorials/docs/ocaml/ocaml/ocaml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/ocaml/ocaml/ocaml/</guid>
+      <description>Introduction to OCaml linkOCaml is a multi-paradigm programming language, an extension of the Caml language, and a member of the ML (Meta Language) family. It emerged in the mid-1990s and was developed by INRIA, a French national research institution. Its design offers a functional, imperative, and object-oriented programming style.&#xA;Key Features of OCaml: link Strong static typing: Errors are caught at compile time, reducing runtime errors. Type inference: The compiler deduces types, simplifying the coding process.</description>
+    </item>
+    <item>
       <title>OpenCV</title>
       <link>http://localhost:1313/tutorials/docs/opencv/opencv/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/opencv/opencv/</guid>
-      <description>Starting here link</description>
-    </item>
-    <item>
-      <title>Pandas</title>
-      <link>http://localhost:1313/tutorials/docs/pandas/pandas/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/pandas/pandas/</guid>
       <description>Starting here link</description>
     </item>
     <item>
@@ -748,6 +874,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/rust/rust/first_rust_program/</guid>
       <description>Welcome to your first adventure in Rust programming! In this post, we&amp;rsquo;ll take a detailed walk through the process of writing, compiling, and executing a simple Rust program. We&amp;rsquo;ll cover everything you need to know to get started, from setting up your project to understanding each line of code.&#xA;Getting Started with Rust linkBefore we dive into writing code, make sure you have Rust installed. If you haven&amp;rsquo;t installed Rust yet, refer to the previous post on Getting Started with Rust.</description>
+    </item>
+    <item>
+      <title>Zig</title>
+      <link>http://localhost:1313/tutorials/docs/zig/zig/zig/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/zig/zig/zig/</guid>
+      <description>Key Features of Zig: link Safety and Performance: Zig ensures memory safety and offers performance comparable to languages like C. Simplicity and Maintainability: Zig&amp;rsquo;s focus on avoiding hidden control flow and minimizing dependencies. Comptime: Fast compile-time execution and it sets Zig apart from other languages. Installation linkThis guide assumes Zig 0.11, which is the latest major release as of writing.&#xA;Download and extract a prebuilt master binary of Zig from: https://ziglang.</description>
     </item>
   </channel>
 </rss>

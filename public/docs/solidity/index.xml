@@ -22,6 +22,13 @@
       <description>In decentralized finance (DeFi), crowdfunding has become increasingly popular as a means for raising funds for various projects. In this section, we&amp;rsquo;ll explore how to create a crowdfunding contract on Ethereum using ERC20 tokens. The contract allows users to create campaigns, pledge tokens to campaigns, and claim funds if the campaign goal is reached. If the goal is not met, users can withdraw their pledged tokens.&#xA;Contract Overview linkOur crowdfunding contract consists of the following functionalities:</description>
     </item>
     <item>
+      <title>Build a Remote Purchase Contract Using Solidity</title>
+      <link>http://localhost:1313/tutorials/docs/solidity/solidity/building_a_remote_purchase_contract/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/solidity/solidity/building_a_remote_purchase_contract/</guid>
+      <description>Purchasing goods remotely currently requires multiple parties that need to trust each other. The simplest configuration involves a seller and a buyer. The buyer would like to receive an item from the seller, and the seller would like to get some compensation, e.g., Ether, in return. The problematic part is the shipment: There is no way to determine for sure that the item arrived at the buyer.&#xA;There are multiple ways to solve this problem, but all fall short in one way or another.</description>
+    </item>
+    <item>
       <title>Build a Voting Contract Using Solidity</title>
       <link>http://localhost:1313/tutorials/docs/solidity/solidity/build_a_voting_contract/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -55,6 +62,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/solidity/solidity/reentrancy_attacks/</guid>
       <description>What is a Solidity Reentrancy Attack? linkIn Solidity smart contracts, a reentrancy attack occurs when an external contract is called, allowing the function to be recursively called before its initial execution is complete. This can enable the external contract to manipulate the state of the original contract before it finishes executing.&#xA;Reentrancy attacks exploit state synchronization issues, occurring when the state is not updated before making an external call. For instance, if a function checks a condition, updates the state, and then makes an external call, an attacker can re-enter the function in the middle of its execution, bypassing the updated state and potentially draining funds.</description>
+    </item>
+    <item>
+      <title>Learn How To Write Unit Tests In Solidity</title>
+      <link>http://localhost:1313/tutorials/docs/solidity/solidity/testing_in_solidity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/solidity/solidity/testing_in_solidity/</guid>
+      <description>Unit testing is a critical part of the development process, ensuring that your smart contracts behave as expected. In this section, we will explore how to write unit tests in Solidity using the Forge testing framework. We will start by understanding the concept of AAA (Arrange, Act, Assert) and then dive into a practical example.&#xA;Understanding AAA (Arrange, Act, Assert) linkThe AAA pattern is a standard approach in unit testing that ensures tests are well-structured and easy to understand.</description>
     </item>
     <item>
       <title>Price Oracle Using Chainlink and Solidity</title>

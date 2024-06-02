@@ -1,6 +1,6 @@
 ---
 title: "Erlang"
-description: "Erlang Lang description"
+description: "Elm Lang description"
 icon: "code"
 draft: false
 ---

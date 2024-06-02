@@ -11,7 +11,6 @@ In Solidity smart contracts, a reentrancy attack occurs when an external contrac
 
 Reentrancy attacks exploit state synchronization issues, occurring when the state is not updated before making an external call. For instance, if a function checks a condition, updates the state, and then makes an external call, an attacker can re-enter the function in the middle of its execution, bypassing the updated state and potentially draining funds.
 
-
 ### Types of Smart Contract Reentrancy Attacks
 
 **1. Single Function Reentrancy**
@@ -33,8 +32,6 @@ Cross-chain reentrancy, though less common, involves interactions between smart 
 **6. Read-Only Reentrancy**
 
 Read-only reentrancy occurs when an external call is made to another contract, but the called contract’s function does not modify its state. Instead, the called function reads data from the calling contract and then reenters it, potentially causing unexpected behavior.
-
----
 
 ### How to prevent Solidity Reentrancy Attacks
 
@@ -99,7 +96,6 @@ contract ReentracyProtected is ReentrancyGuard {
 
 **Curve Finance:** On July 30th, 2023, Curve Finance, a decentralized finance (DeFi) protocol, was attacked due to a Vyper compiler bug, leading to a loss of nearly $70 million.
 
----
 
 ### Reentrancy Example
 

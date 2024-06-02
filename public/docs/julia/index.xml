@@ -7,5 +7,12 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/julia/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Julia</title>
+      <link>http://localhost:1313/tutorials/docs/julia/julia/julia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/julia/julia/julia/</guid>
+      <description>Introduction linkJulia, a high-level, high-performance programming language, is designed for technical computing. It combines the simplicity of Python with the power of languages like C or Fortran. Julia is known for its impressive speed and is widely used in scientific computing, machine learning, data mining, large-scale linear algebra, and more.&#xA;Getting Started with Julia linkInstalling Julia linkTo begin with Julia, the first step is installing the language. Julia can be downloaded from its official website, JuliaLang.</description>
+    </item>
   </channel>
 </rss>

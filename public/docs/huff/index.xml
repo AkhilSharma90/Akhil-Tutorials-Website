@@ -7,5 +7,12 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/huff/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started With Huff</title>
+      <link>http://localhost:1313/tutorials/docs/huff/huff/huff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/huff/huff/huff/</guid>
+      <description>Introduction to Huff linkThe world of blockchain technology and Ethereum, in particular, has revolutionized how we think about digital transactions and smart contract programming. Ethereum, known for its robust and secure platform, allows developers to create decentralized applications (dApps) using smart contracts. These contracts are self-executing agreements with the terms of the agreement directly written into lines of code.&#xA;At the forefront of Ethereum&amp;rsquo;s smart contract development languages is Solidity, widely recognized and used for its accessibility and security features.</description>
+    </item>
   </channel>
 </rss>

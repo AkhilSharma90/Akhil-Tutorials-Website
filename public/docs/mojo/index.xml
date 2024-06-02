@@ -7,5 +7,12 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/mojo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mojo</title>
+      <link>http://localhost:1313/tutorials/docs/mojo/mojo/mojo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/mojo/mojo/mojo/</guid>
+      <description>Why Mojo linkBackground link Common Perception: Python is often labeled as a slow and merely a scripting language. Frustration with Misconception: The belief that Python&amp;rsquo;s performance issues stem from the language itself, rather than how the code is written. Choosing Mojo: The Main Reason link Modular | Mojo as a Bridge: Mojo combines Python&amp;rsquo;s ease of use with advanced programming capabilities. It&amp;rsquo;s tailored for both research and production environments. Systems Programming Language: Designed for heterogeneous computing, Mojo excels in handling different processors like CPUs, GPUs, FPGAs, and NPUs.</description>
+    </item>
   </channel>
 </rss>

@@ -7,5 +7,40 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/nim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Introduction to Nim</title>
+      <link>http://localhost:1313/tutorials/docs/nim/nim/nim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/nim/nim/nim/</guid>
+      <description>Nim is a relatively new programming language which allows users to write easy-to-read high-performance code.&#xA;Installation • Nim has ready made distributions for all three major operating systems and there are several options when it comes to installing Nim.&#xA;• You can follow the official installation procedure to install the latest stable version.&#xA;• If you’re using Linux, there is a high probability that your distribution has Nim in the package manager.</description>
+    </item>
+    <item>
+      <title>Basic data types in Nim</title>
+      <link>http://localhost:1313/tutorials/docs/nim/nim/basic_data_types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/nim/nim/basic_data_types/</guid>
+      <description>In this section, we will be learning more about basic data types in Nim.&#xA;Integers linkCreate a file called Integers.nim and have the following code:&#xA;let a = 11 b = 4 echo &amp;#34;a &amp;#43; b = &amp;#34;, a &amp;#43; b echo &amp;#34;a - b = &amp;#34;, a - b echo &amp;#34;a * b = &amp;#34;, a * b echo &amp;#34;a / b = &amp;#34;, a / b echo &amp;#34;a div b = &amp;#34;, a div b echo &amp;#34;a mod b = &amp;#34;, a mod b The echo command will print to the screen everything that follows it separated by commas.</description>
+    </item>
+    <item>
+      <title>Containers and Procedures in Nim</title>
+      <link>http://localhost:1313/tutorials/docs/nim/nim/containers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/nim/nim/containers/</guid>
+      <description>Containers linkContainers are data types which contain a collection of items and allow us to access those elements. Typically a container is also iterable, meaning that we can use them the same way we used strings in the loops chapter.&#xA;Arrays linkAn array is the simplest container type. The elements of an array are enclosed inside of square brackets.&#xA;var a: array[3, int] = [5, 7, 9] b = [5, 7, 9] c = [] # error d: array[7, string] If we provide the values, the length and type of array b are known at compile time.</description>
+    </item>
+    <item>
+      <title>Control flow in Nim</title>
+      <link>http://localhost:1313/tutorials/docs/nim/nim/control_flow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/nim/nim/control_flow/</guid>
+      <description>So far in our programs every line of code was executed at some point. Control flow statements allow us to have parts of code which will be executed only if some boolean condition is satisfied.&#xA;If statement link if &amp;lt;condition&amp;gt;: &amp;lt;indented block&amp;gt; If statements can be nested, i.e. inside one if-block there can be another if statement.&#xA;if.nim&#xA;let a = 11 b = 22 c = 999 if a &amp;lt; b: echo &amp;#34;a is smaller than b&amp;#34; if 10*a &amp;lt; b: echo &amp;#34;not only that, a is *much* smaller than b&amp;#34; if b &amp;lt; c: echo &amp;#34;b is smaller than c&amp;#34; if 10*b &amp;lt; c: echo &amp;#34;not only that, b is *much* smaller than c&amp;#34; if a&amp;#43;b &amp;gt; c: echo &amp;#34;a and b are larger than c&amp;#34; if 1 &amp;lt; 100 and 321 &amp;gt; 123: echo &amp;#34;did you know that 1 is smaller than 100?</description>
+    </item>
+    <item>
+      <title>Modules in Nim</title>
+      <link>http://localhost:1313/tutorials/docs/nim/nim/modules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/nim/nim/modules/</guid>
+      <description>Modules linkSo far we have used the functionality which is available by default every time we start a new Nim file. This can be extended with modules, which give more functionality for some specific topics.&#xA;Some of the most used Nim modules are:&#xA;strutils: additional functionality when dealing with strings sequtils: additional functionality for sequences math: mathematical functions (logarithms, square roots, …), trigonometry (sin, cos, …) times: measure and deal with time But there are many more, both in what’s called the standard library and in the Nimble package manager.</description>
+    </item>
   </channel>
 </rss>

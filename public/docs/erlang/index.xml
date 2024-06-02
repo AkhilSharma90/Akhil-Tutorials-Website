@@ -7,5 +7,12 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/erlang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Strted With Erlang</title>
+      <link>http://localhost:1313/tutorials/docs/erlang/erlang/getting_started/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/erlang/erlang/getting_started/</guid>
+      <description>Introduction to Erlang linkBrief History of Erlang linkErlang was created by Ericsson&amp;rsquo;s Computer Science Lab in 1986 for handling large-scale telecommunications projects. Its development was driven by the need for a robust system capable of managing numerous concurrent activities, with high levels of fault tolerance. Over the years, Erlang has evolved significantly and is now used in various domains, including banking, e-commerce, and instant messaging.&#xA;Key Features of Erlang linkErlang stands out due to its unique features, which include:</description>
+    </item>
   </channel>
 </rss>

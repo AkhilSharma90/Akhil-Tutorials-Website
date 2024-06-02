@@ -7,5 +7,12 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/htmx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Learning More Abuot HTMX</title>
+      <link>http://localhost:1313/tutorials/docs/htmx/htmx/getting_started_with_htmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/getting_started_with_htmx/</guid>
+      <description>htmx in a Nutshell linkhtmx is a library that allows you to access modern browser features directly from HTML, rather than using javascript. To understand htmx, first let’s take a look at an anchor tag:&#xA;&amp;lt;a href=&amp;#34;/blog&amp;#34;&amp;gt;Blog&amp;lt;/a&amp;gt; This anchor tag tells a browser:&#xA;“When a user clicks on this link, issue an HTTP GET request to ‘/blog’ and load the response content into the browser window”.&#xA;With that in mind, consider the following bit of HTML:</description>
+    </item>
   </channel>
 </rss>

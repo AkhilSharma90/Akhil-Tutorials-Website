@@ -7,5 +7,12 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/ocaml/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ocaml</title>
+      <link>http://localhost:1313/tutorials/docs/ocaml/ocaml/ocaml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/ocaml/ocaml/ocaml/</guid>
+      <description>Introduction to OCaml linkOCaml is a multi-paradigm programming language, an extension of the Caml language, and a member of the ML (Meta Language) family. It emerged in the mid-1990s and was developed by INRIA, a French national research institution. Its design offers a functional, imperative, and object-oriented programming style.&#xA;Key Features of OCaml: link Strong static typing: Errors are caught at compile time, reducing runtime errors. Type inference: The compiler deduces types, simplifying the coding process.</description>
+    </item>
   </channel>
 </rss>

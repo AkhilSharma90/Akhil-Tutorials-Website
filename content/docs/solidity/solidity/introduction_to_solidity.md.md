@@ -52,22 +52,26 @@ Here's a simple smart contract example to help you understand the basics of Soli
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.18;
 
-contract Count {
-    uint public count;
+contract Counter {
+    uint public number;
 
-    // Get the current count
+    function setNumber(uint newNumber) public {
+        number = newNumber;
+    }
+
+    // Get the current number
     function get() public view returns (uint) {
-        return count;
+        return number;
     }
 
-    // Increment count quantity by 1
+    // Increment count
     function increment() public {
-        count += 1;
+        number ++;
     }
 
-    // Function to decrement count by 1
+    // Function to decrement
     function decrement() public {
-        count -= 1; // What happens if count = 0 when this function is called?
+        count --;
     }
 }
 ```
@@ -80,29 +84,29 @@ We'll delve into details like what `public` and `view` mean shortly. For now, he
 4. Semicolons are essential in Solidity; the compiler will fail if even one is missing.
 5. The `contract` keyword tells the compiler you're declaring a smart contract.
 6. Functions encapsulate single ideas, specific functionality, tasks, etc. They should do one thing at a time.
-7. The `count` variable is a state variable, holding the contract’s state data that persists on the blockchain.
+7. The `number` variable is a state variable, holding the contract’s state data that persists on the blockchain.
 
 ### Declaring Variables and Functions in Solidity
 
-To understand more about the structure of Solidity, let’s break down the `Count` smart contract.
+To understand more about the structure of Solidity, let’s break down the `Counter` smart contract.
 
 **State Variable Declaration:**
 
 ```solidity
-uint public count;
+uint public number;
 ```
 
-This line declares a state variable called `count` that can only store unsigned integers (positive whole numbers).
+This line declares a state variable called `number` that can only store unsigned integers (positive whole numbers).
 
 **Function Declaration:**
 
 ```solidity
 function get() public view returns (uint) {
-    return count;
+    return number;
 }
 ```
 
-This function returns the value of the state variable `count`. You might already be familiar with this concept from Object Oriented Programming which are getters.
+This function returns the value of the state variable `number`. You might already be familiar with this concept from Object Oriented Programming which are getters.
 
 **Visibility Specifiers:**
 
