@@ -1,7 +1,7 @@
 ---
 title: "Ocaml"
 description: "Ocaml Lang description"
-icon: "code"
+icon: "🐪"
 draft: false
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "HTMX"
 description: "htmx Lang description"
-icon: "code"
+icon: "/"
 draft: false
 ---
 
