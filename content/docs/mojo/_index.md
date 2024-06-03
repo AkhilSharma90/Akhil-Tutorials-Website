@@ -1,7 +1,7 @@
 ---
 title: "Mojo"
 description: "Mojo Lang description"
-icon: "code"
+icon: "🔥"
 draft: false
 ---
 
