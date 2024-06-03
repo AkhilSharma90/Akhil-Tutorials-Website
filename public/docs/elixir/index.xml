@@ -22,6 +22,13 @@
       <description>Introduction to Phoenix Framework linkOverview linkPhoenix Framework, crafted in Elixir, stands out in the realm of web development for its exceptional performance, reliability, and scalability. Rooted in the Erlang VM, Phoenix inherits characteristics ideal for building low-latency, distributed, and fault-tolerant systems. This makes it a top choice for applications demanding real-time features.&#xA;Advantages of Using Elixir and Erlang VM linkElixir, the language behind Phoenix, offers remarkable features like lightweight concurrency and fault tolerance, thanks to its Erlang foundation.</description>
     </item>
     <item>
+      <title>Build A Chat App using Elixir</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/build_a_chat_app_using_elixir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/build_a_chat_app_using_elixir/</guid>
+      <description>Through this tutorial, we are going to gain a better understanding of web sockets and learn how to take advantage of Elixir&amp;rsquo;s Asynchronous programming model.&#xA;Creating a new project linkWe will create a new project named chat_app&#xA;mix phx.new chat_app # next cd chat_app mix ecto.create Once these are done, you should see something like</description>
+    </item>
+    <item>
       <title>Build a CLI Todo List using Elixir</title>
       <link>http://localhost:1313/tutorials/docs/elixir/elixir/03_cli_tool_using_elixir/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

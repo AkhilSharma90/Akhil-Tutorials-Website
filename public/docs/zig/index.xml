@@ -12,7 +12,7 @@
       <link>http://localhost:1313/tutorials/docs/zig/zig/zig/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/zig/zig/zig/</guid>
-      <description>Welcome linkZig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.&#xA;Key Features of Zig: link Safety and Performance: Zig ensures memory safety and offers performance comparable to languages like C. Simplicity and Maintainability: Zig&amp;rsquo;s focus on avoiding hidden control flow and minimizing dependencies. Comptime: Fast compile-time execution and it sets Zig apart from other languages. Installation linkThis guide assumes Zig 0.11, which is the latest major release as of writing.</description>
+      <description>Key Features of Zig: link Safety and Performance: Zig ensures memory safety and offers performance comparable to languages like C. Simplicity and Maintainability: Zig&amp;rsquo;s focus on avoiding hidden control flow and minimizing dependencies. Comptime: Fast compile-time execution and it sets Zig apart from other languages. Installation linkThis guide assumes Zig 0.11, which is the latest major release as of writing.&#xA;Download and extract a prebuilt master binary of Zig from: https://ziglang.</description>
     </item>
   </channel>
 </rss>

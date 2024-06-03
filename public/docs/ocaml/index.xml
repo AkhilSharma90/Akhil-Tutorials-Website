@@ -8,10 +8,24 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/ocaml/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Ocaml</title>
-      <link>http://localhost:1313/tutorials/docs/ocaml/ocaml/ocaml/</link>
+      <title>Advanced Concepts in OCaml</title>
+      <link>http://localhost:1313/tutorials/docs/ocaml/ocaml/advanced_ocaml_concepts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/ocaml/ocaml/ocaml/</guid>
+      <guid>http://localhost:1313/tutorials/docs/ocaml/ocaml/advanced_ocaml_concepts/</guid>
+      <description>Advanced OCaml Concepts linkAs we delve deeper into OCaml, we encounter advanced features that provide powerful tools for software development. These include modules, error handling, and object-oriented features.&#xA;Modules and Namespaces linkModules in OCaml are like containers for types, functions, and sub-modules, providing a way to organize and reuse code. They act as namespaces to prevent naming conflicts.&#xA;Here’s how to define a simple module:&#xA;module MathOps = struct let add a b = a &amp;#43; b let subtract a b = a - b end;; You can access module contents using the dot notation:</description>
+    </item>
+    <item>
+      <title>Core Concepts in OCaml</title>
+      <link>http://localhost:1313/tutorials/docs/ocaml/ocaml/core_concepts_in_ocaml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/ocaml/ocaml/core_concepts_in_ocaml/</guid>
+      <description>Core Concepts in OCaml linkData Types and Variables linkOCaml supports several basic data types:&#xA;Integers: let a = 5 Floating-point numbers: let b = 5.0 Strings: let c = &amp;quot;Hello&amp;quot; Booleans: let d = true Variable declaration in OCaml is immutable by default, which means once a value is assigned to a variable, it cannot be changed.&#xA;Control Structures linkOCaml includes several control structures for decision-making and looping:&#xA;If-Else Statements:</description>
+    </item>
+    <item>
+      <title>Introduction to Ocaml </title>
+      <link>http://localhost:1313/tutorials/docs/ocaml/ocaml/introduction_to_ocaml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/ocaml/ocaml/introduction_to_ocaml/</guid>
       <description>Introduction to OCaml linkOCaml is a multi-paradigm programming language, an extension of the Caml language, and a member of the ML (Meta Language) family. It emerged in the mid-1990s and was developed by INRIA, a French national research institution. Its design offers a functional, imperative, and object-oriented programming style.&#xA;Key Features of OCaml: link Strong static typing: Errors are caught at compile time, reducing runtime errors. Type inference: The compiler deduces types, simplifying the coding process.</description>
     </item>
   </channel>

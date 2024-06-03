@@ -8,11 +8,32 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/scala/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Introduction to Scala</title>
-      <link>http://localhost:1313/tutorials/docs/scala/scala/scala/</link>
+      <title>Advanced Concepts in Scala</title>
+      <link>http://localhost:1313/tutorials/docs/scala/scala/advanced_concepts_in_scala/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/scala/scala/scala/</guid>
+      <guid>http://localhost:1313/tutorials/docs/scala/scala/advanced_concepts_in_scala/</guid>
+      <description>Advanced Concepts linkScala offers several advanced features, including pattern matching, case classes, and implicit parameters and conversions.&#xA;Pattern Matching&#xA;Pattern matching in Scala is a powerful tool for checking a value against a pattern.&#xA;Basic Syntax:&#xA;val number = 3 number match { case 1 =&amp;gt; println(&amp;#34;One&amp;#34;) case 2 =&amp;gt; println(&amp;#34;Two&amp;#34;) case 3 =&amp;gt; println(&amp;#34;Three&amp;#34;) case _ =&amp;gt; println(&amp;#34;Something else&amp;#34;) } Pattern Matching with Case Classes:&#xA;case class Person(name: String, age: Int) val alice = Person(&amp;#34;Alice&amp;#34;, 25) alice match { case Person(&amp;#34;Alice&amp;#34;, 25) =&amp;gt; println(&amp;#34;Hi Alice!</description>
+    </item>
+    <item>
+      <title>Functional Programming in Scala</title>
+      <link>http://localhost:1313/tutorials/docs/scala/scala/functional_programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/scala/scala/functional_programming/</guid>
+      <description>Functional Programming in Scala linkScala&amp;rsquo;s support for functional programming (FP) emphasizes writing software by composing pure functions, avoiding shared state, mutable data, and side-effects.&#xA;Understanding Functional Programming&#xA;Functional programming treats computation as the evaluation of mathematical functions. It emphasizes the use of immutable data and functions as first-class citizens.&#xA;Immutable Collections: Scala provides a rich set of immutable collections, making code safer and easier to understand. Higher-Order Functions: Higher-order functions can take functions as parameters or return functions, and they are critical in FP.</description>
+    </item>
+    <item>
+      <title>Introduction to Scala</title>
+      <link>http://localhost:1313/tutorials/docs/scala/scala/introduction_to_scala/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/scala/scala/introduction_to_scala/</guid>
       <description>Scala, an acronym for &amp;ldquo;Scalable Language,&amp;rdquo; is a modern, multi-paradigm programming language designed to express common programming patterns in a concise, elegant, and type-safe way. It smoothly integrates features of object-oriented and functional languages.&#xA;Brief History and Purpose linkDeveloped by Martin Odersky and released in 2003, Scala was designed to address the shortcomings of Java, particularly in terms of scalability and functional programming support. Scala runs on the Java Virtual Machine (JVM), which allows it to be interoperable with Java and makes it an attractive choice for developers familiar with Java.</description>
+    </item>
+    <item>
+      <title>Object-Oriented Programming in Scala</title>
+      <link>http://localhost:1313/tutorials/docs/scala/scala/object_oriented_programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/scala/scala/object_oriented_programming/</guid>
+      <description>Object-Oriented Programming in Scala linkScala treats everything as objects and supports key object-oriented programming (OOP) concepts such as classes, objects, constructors, inheritance, and traits.&#xA;Classes and Objects&#xA;Classes: A class in Scala is a blueprint for creating objects. It can contain fields and methods.&#xA;class Person(var name: String, var age: Int) { def greet(): Unit = { println(s&amp;#34;Hello, my name is $name and I am $age years old.&amp;#34;) } } Objects: An instance of a class is known as an object.</description>
     </item>
   </channel>
 </rss>

@@ -8,25 +8,25 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/pandas/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to Clean Data using Pandas</title>
-      <link>http://localhost:1313/tutorials/docs/pandas/pandas/cleaning_data_using_panda/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/pandas/pandas/cleaning_data_using_panda/</guid>
-      <description>Cleaning Data Using Pandas linkData cleaning is one of the most common tasks in data science. Pandas lets you preprocess data for various uses, including training machine learning and deep learning models. Let’s use the DataFrame df2 from earlier, having four missing values, to illustrate a few data cleaning use cases. As a reminder, here&amp;rsquo;s how you can see how many missing values are in a DataFrame.&#xA;df2.isnull().sum() Pregnancies 4 Glucose 0 BloodPressure 0 SkinThickness 0 Insulin 0 BMI 0 DiabetesPedigreeFunction 0 Age 0 Outcome 0 dtype: int64 Dealing with Missing Data Technique #1: Dropping Missing Values linkOne way to deal with missing data is to drop it.</description>
-    </item>
-    <item>
-      <title>Introduction to Pandas</title>
+      <title>1. Introduction to Pandas</title>
       <link>http://localhost:1313/tutorials/docs/pandas/pandas/intro_to_pandas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/pandas/pandas/intro_to_pandas/</guid>
       <description>pandas is arguably the most important Python package for data analysis. It is the de facto standard package for data manipulation and exploratory data analysis. Its ability to read from and write to an extensive list of formats makes it a versatile tool for data science practitioners. Its data manipulation functions make it a highly accessible and practical tool for aggregating, analyzing, and cleaning data.&#xA;In this introduction on how to learn pandas, we discussed the learning path you may take to master this package.</description>
     </item>
     <item>
-      <title>Viewing and Unedrstanding Dataframes</title>
+      <title>2. Viewing and Understanding Dataframes</title>
       <link>http://localhost:1313/tutorials/docs/pandas/pandas/viewing_and_understanding_dataframes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/pandas/pandas/viewing_and_understanding_dataframes/</guid>
       <description>Viewing and Understanding DataFrames Using Pandas linkAfter reading tabular data as a DataFrame, you would need to have a glimpse of the data. You can either view a small sample of the dataset or a summary of the data in the form of summary statistics.&#xA;How to View Data Using .head() and .tail() linkYou can view the first few or last few rows of a DataFrame using the .head() or .</description>
+    </item>
+    <item>
+      <title>3. How to Clean Data using Pandas</title>
+      <link>http://localhost:1313/tutorials/docs/pandas/pandas/cleaning_data_using_panda/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pandas/pandas/cleaning_data_using_panda/</guid>
+      <description>Cleaning Data Using Pandas linkData cleaning is one of the most common tasks in data science. Pandas lets you preprocess data for various uses, including training machine learning and deep learning models. Let’s use the DataFrame df2 from earlier, having four missing values, to illustrate a few data cleaning use cases. As a reminder, here&amp;rsquo;s how you can see how many missing values are in a DataFrame.&#xA;df2.isnull().sum() Pregnancies 4 Glucose 0 BloodPressure 0 SkinThickness 0 Insulin 0 BMI 0 DiabetesPedigreeFunction 0 Age 0 Outcome 0 dtype: int64 Dealing with Missing Data Technique #1: Dropping Missing Values linkOne way to deal with missing data is to drop it.</description>
     </item>
   </channel>
 </rss>
