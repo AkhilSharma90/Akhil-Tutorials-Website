@@ -8,11 +8,46 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/pytorch/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Pytorch</title>
-      <link>http://localhost:1313/tutorials/docs/pytorch/pytorch/</link>
+      <title>An Introduction to PyTorch</title>
+      <link>http://localhost:1313/tutorials/docs/pytorch/pytorch/introduction_to_pytorch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/pytorch/pytorch/</guid>
-      <description>Starting here link</description>
+      <guid>http://localhost:1313/tutorials/docs/pytorch/pytorch/introduction_to_pytorch/</guid>
+      <description>Introduction to PyTorch linkPyTorch is a popular open-source machine learning library developed by Facebook&amp;rsquo;s AI Research lab (FAIR). Known for its flexibility, ease of use, and dynamic computational graphs, PyTorch has become a go-to framework for both research and production in the field of deep learning.&#xA;Key Features of PyTorch linkPyTorch stands out due to its unique features, which include:&#xA;Dynamic Computational Graphs&#xA;PyTorch uses dynamic computational graphs (also known as define-by-run), allowing the graph to be built on-the-fly as operations are performed.</description>
+    </item>
+    <item>
+      <title>Deep Dive into PyTorch: Autograd and Neural Networks</title>
+      <link>http://localhost:1313/tutorials/docs/pytorch/pytorch/pytorch_and_neural_networks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pytorch/pytorch/pytorch_and_neural_networks/</guid>
+      <description>Autograd: Automatic Differentiation in PyTorch linkPyTorch&amp;rsquo;s autograd is a powerful tool for automatically computing gradients of tensor operations. Understanding autograd is essential for training neural networks efficiently.&#xA;How Autograd Works linkAutograd works by automatically tracking operations performed on tensors and then using this information to compute gradients during backpropagation. When you perform operations on tensors with requires_grad=True, PyTorch builds a computational graph to track the operations. During the backward pass, gradients are computed using the chain rule of calculus and propagated back through the graph.</description>
+    </item>
+    <item>
+      <title>Deep Dive into Tensors</title>
+      <link>http://localhost:1313/tutorials/docs/pytorch/pytorch/tensors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pytorch/pytorch/tensors/</guid>
+      <description>Tensors are a specialized data structure that are very similar to arrays and matrices. In PyTorch, we use tensors to encode the inputs and outputs of a model, as well as the model’s parameters.&#xA;Tensors are similar to NumPy’s ndarrays, except that tensors can run on GPUs or other hardware accelerators. In fact, tensors and NumPy arrays can often share the same underlying memory, eliminating the need to copy data (see Bridge with NumPy).</description>
+    </item>
+    <item>
+      <title>Model Training and Evaluation</title>
+      <link>http://localhost:1313/tutorials/docs/pytorch/pytorch/model_training_and_evaluation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pytorch/pytorch/model_training_and_evaluation/</guid>
+      <description>Introduction to Model Training and Evaluation linkModel training and evaluation are critical steps in the machine learning workflow. PyTorch provides a flexible framework for training and evaluating deep learning models. In this tutorial, we&amp;rsquo;ll explore the process of training and evaluating models using PyTorch.&#xA;Define the Model Architecture linkThe first step in model training is defining the architecture of the neural network. PyTorch provides the torch.nn module for building neural network architectures.</description>
+    </item>
+    <item>
+      <title>PyTorch: Data Loading and Preprocessing</title>
+      <link>http://localhost:1313/tutorials/docs/pytorch/pytorch/data_loading_and_preprocessing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pytorch/pytorch/data_loading_and_preprocessing/</guid>
+      <description>Introduction to Data Loading and Preprocessing linkData loading and preprocessing are crucial steps in the machine learning pipeline. PyTorch provides tools and utilities to efficiently load and preprocess datasets for training, validation, and testing. In this tutorial, we&amp;rsquo;ll explore various techniques for data loading and preprocessing using PyTorch.&#xA;Dataset Classes in PyTorch linkPyTorch provides a torch.utils.data.Dataset class for representing datasets. To work with custom datasets, you can subclass Dataset and implement the __len__ and __getitem__ methods.</description>
+    </item>
+    <item>
+      <title>Writing a training loop from scratch in PyTorch</title>
+      <link>http://localhost:1313/tutorials/docs/pytorch/pytorch/writing_a_training_loop_from_scratch_in_pytorch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pytorch/pytorch/writing_a_training_loop_from_scratch_in_pytorch/</guid>
+      <description>Introduction linkKeras provides default training and evaluation loops, fit() and evaluate().&#xA;If you want to customize the learning algorithm of your model while still leveraging the convenience of fit() (for instance, to train a GAN using fit()), you can subclass the Model class and implement your own train_step() method, which is called repeatedly during fit().&#xA;Now, if you want very low-level control over training &amp;amp; evaluation, you should write your own training &amp;amp; evaluation loops from scratch.</description>
     </item>
   </channel>
 </rss>

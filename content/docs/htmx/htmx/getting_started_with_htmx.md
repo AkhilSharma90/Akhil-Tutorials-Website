@@ -1,5 +1,5 @@
 ---
-title: "Learning More Abuot HTMX"
+title: "1. Getting started guide with HTMX"
 description: "Learn about what HTMX is and how you can use it."
 icon: "code"
 draft: false

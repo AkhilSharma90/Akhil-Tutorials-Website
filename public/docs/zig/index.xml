@@ -8,11 +8,39 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/zig/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Zig</title>
+      <title>A getting started guide to Zig</title>
       <link>http://localhost:1313/tutorials/docs/zig/zig/zig/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/zig/zig/zig/</guid>
       <description>Key Features of Zig: link Safety and Performance: Zig ensures memory safety and offers performance comparable to languages like C. Simplicity and Maintainability: Zig&amp;rsquo;s focus on avoiding hidden control flow and minimizing dependencies. Comptime: Fast compile-time execution and it sets Zig apart from other languages. Installation linkThis guide assumes Zig 0.11, which is the latest major release as of writing.&#xA;Download and extract a prebuilt master binary of Zig from: https://ziglang.</description>
+    </item>
+    <item>
+      <title>Concurrency in Zig</title>
+      <link>http://localhost:1313/tutorials/docs/zig/zig/concurrency_in_zig/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/zig/zig/concurrency_in_zig/</guid>
+      <description>Concurrency is a fundamental aspect of modern software development, enabling programs to execute multiple tasks concurrently for improved performance and responsiveness. Zig provides powerful concurrency primitives that make it easy to write concurrent programs while maintaining safety and performance. In this tutorial, we&amp;rsquo;ll explore Zig&amp;rsquo;s concurrency features, including async/await, channels, and message passing.&#xA;Async/Await linkZig&amp;rsquo;s async/await syntax allows you to write asynchronous code that is easy to read and reason about.</description>
+    </item>
+    <item>
+      <title>DSA using Zig</title>
+      <link>http://localhost:1313/tutorials/docs/zig/zig/dsa_zig/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/zig/zig/dsa_zig/</guid>
+      <description>Using Zig for data structures and algorithms (DSA) can be a rewarding experience due to Zig&amp;rsquo;s focus on safety, performance, and simplicity. While Zig does not have built-in data structures and algorithms libraries like some other languages, you can implement your own or utilize existing libraries from other languages through Zig&amp;rsquo;s interoperability with C.&#xA;Here&amp;rsquo;s a basic overview of how you can use Zig for DSA:&#xA;Implementing Data Structures linkZig allows you to implement various data structures, such as arrays, linked lists, stacks, queues, trees, and graphs, from scratch.</description>
+    </item>
+    <item>
+      <title>Error Handling in Zig</title>
+      <link>http://localhost:1313/tutorials/docs/zig/zig/error_handling_in_zig/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/zig/zig/error_handling_in_zig/</guid>
+      <description>Error handling is an essential aspect of writing robust and reliable software. Zig provides a powerful and ergonomic error handling mechanism that ensures safety and correctness while dealing with errors. In this tutorial, we&amp;rsquo;ll explore Zig&amp;rsquo;s error handling features, including error sets, error unions, and error propagation patterns.&#xA;Error Sets linkAn error set in Zig is similar to an enum, where each error in the set is a value. Error sets allow you to define a set of named errors that a function can return.</description>
+    </item>
+    <item>
+      <title>System Programming in Zig</title>
+      <link>http://localhost:1313/tutorials/docs/zig/zig/system_programming_using_zig/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/zig/zig/system_programming_using_zig/</guid>
+      <description>System programming with Zig involves tasks such as interacting with hardware, writing device drivers, and working with low-level APIs. Zig&amp;rsquo;s focus on safety, performance, and simplicity makes it well-suited for system programming tasks. In this tutorial, we&amp;rsquo;ll explore how Zig can be used for system programming, covering topics such as low-level memory management, interacting with hardware, and writing platform-specific code.&#xA;Low-Level Memory Management linkOne of the core aspects of system programming is managing memory efficiently.</description>
     </item>
   </channel>
 </rss>

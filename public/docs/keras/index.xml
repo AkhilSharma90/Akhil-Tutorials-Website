@@ -8,11 +8,53 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/keras/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Keras</title>
-      <link>http://localhost:1313/tutorials/docs/keras/keras/</link>
+      <title>1. Introduction to keras</title>
+      <link>http://localhost:1313/tutorials/docs/keras/keras/introduction_to_keras/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/keras/keras/</guid>
-      <description>Starting here link</description>
+      <guid>http://localhost:1313/tutorials/docs/keras/keras/introduction_to_keras/</guid>
+      <description>Keras is an open source deep learning framework for python. It has been developed by an artificial intelligence researcher at Google named Francois Chollet. Leading organizations like Google, Square, Netflix, Huawei and Uber are currently using Keras. This tutorial walks through the installation of Keras, basics of deep learning, Keras models, Keras layers, Keras modules and finally conclude with some real-time applications.&#xA;Overview of Keras linkKeras runs on top of open source machine libraries like TensorFlow, Theano or Cognitive Toolkit (CNTK).</description>
+    </item>
+    <item>
+      <title>2. Modules in keras</title>
+      <link>http://localhost:1313/tutorials/docs/keras/keras/modules_in_keras/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/keras/keras/modules_in_keras/</guid>
+      <description>Keras modules contains pre-defined classes, functions and variables which are useful for deep learning algorithm. Let us learn the modules provided by Keras in this chapter.&#xA;Available modules linkLet us first see the list of modules available in the Keras.&#xA;Initializers − Provides a list of initializers function. We can learn it in details in Keras layer chapter. during model creation phase of machine learning.&#xA;Regularizers − Provides a list of regularizers function.</description>
+    </item>
+    <item>
+      <title>3. Training models on arbitrary data sources</title>
+      <link>http://localhost:1313/tutorials/docs/keras/keras/training_models_on_arbitrary_data_sources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/keras/keras/training_models_on_arbitrary_data_sources/</guid>
+      <description>All Keras models can be trained and evaluated on a wide variety of data sources, independently of the backend you&amp;rsquo;re using. This includes:&#xA;NumPy arrays Pandas dataframes TensorFlow tf.data.Dataset objects PyTorch DataLoader objects Keras PyDataset objects They all work whether you&amp;rsquo;re using TensorFlow, JAX, or PyTorch as your Keras backend.&#xA;Let&amp;rsquo;s try it out with PyTorch DataLoaders:&#xA;import torch # Create a TensorDataset train_torch_dataset = torch.utils.data.TensorDataset( torch.from_numpy(x_train), torch.from_numpy(y_train) ) val_torch_dataset = torch.</description>
+    </item>
+    <item>
+      <title>4. Model evaludation and prediction in keras</title>
+      <link>http://localhost:1313/tutorials/docs/keras/keras/evaluation_and_prediction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/keras/keras/evaluation_and_prediction/</guid>
+      <description>This chapter deals with the model evaluation and model prediction in Keras.&#xA;Let us begin by understanding the model evaluation.&#xA;Model Evaluation linkEvaluation is a process during development of the model to check whether the model is best fit for the given problem and corresponding data. Keras model provides a function, evaluate which does the evaluation of the model. It has three main arguments,&#xA;Test data Test data label verbose - true or false Let us evaluate the model, which we created in the previous chapter using test data.</description>
+    </item>
+    <item>
+      <title>5. Writing cross-framework custom components</title>
+      <link>http://localhost:1313/tutorials/docs/keras/keras/writing_cross_framework_custom_components/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/keras/keras/writing_cross_framework_custom_components/</guid>
+      <description>Keras enables you to write custom Layers, Models, Metrics, Losses, and Optimizers that work across TensorFlow, JAX, and PyTorch with the same codebase. Let&amp;rsquo;s take a look at custom layers first.&#xA;The keras.ops namespace contains:&#xA;An implementation of the NumPy API, e.g. keras.ops.stack or keras.ops.matmul. A set of neural network specific ops that are absent from NumPy, such as keras.ops.conv or keras.ops.binary_crossentropy. Let&amp;rsquo;s make a custom Dense layer that works with all backends: class MyDense(keras.</description>
+    </item>
+    <item>
+      <title>6. Deploying Keras Models</title>
+      <link>http://localhost:1313/tutorials/docs/keras/keras/deploying_keras_models/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/keras/keras/deploying_keras_models/</guid>
+      <description>This tutorial covers the process of deploying Keras models, including exporting models, deploying on different platforms, and optimizing models for deployment.&#xA;Exporting Models linkExporting models is the first step towards deploying them. Keras models can be saved and loaded in different formats.&#xA;Saving Models linkKeras models can be saved in two formats: HDF5 and SavedModel.&#xA;HDF5 Format link model.save(&amp;#39;model.h5&amp;#39;) SavedModel Format link model.save(&amp;#39;saved_model/&amp;#39;) Loading Models linkModels saved in HDF5 or SavedModel format can be loaded back into Keras.</description>
+    </item>
+    <item>
+      <title>7. Advanced Model Tuning and Optimization Techniques in Keras</title>
+      <link>http://localhost:1313/tutorials/docs/keras/keras/advanced_model_tuning_andoptimization_techniques_in_keras/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/keras/keras/advanced_model_tuning_andoptimization_techniques_in_keras/</guid>
+      <description>This tutorial covers advanced techniques for tuning and optimizing models in Keras, including hyperparameter tuning, regularization methods, and learning rate schedulers.&#xA;Hyperparameter Tuning linkHyperparameter tuning is crucial for improving the performance of machine learning models. Keras provides several ways to perform hyperparameter tuning.&#xA;Grid Search linkGrid search exhaustively searches through a specified subset of hyperparameters. It is straightforward but can be computationally expensive.&#xA;from sklearn.model_selection import GridSearchCV from keras.wrappers.scikit_learn import KerasClassifier def create_model(optimizer=&amp;#39;adam&amp;#39;): model = Sequential() model.</description>
     </item>
   </channel>
 </rss>

@@ -8,25 +8,32 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/erlang/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Advanced Erlang Concepts</title>
+      <title>Concurrency and Process Management in Erlang</title>
       <link>http://localhost:1313/tutorials/docs/erlang/erlang/advanced_erlang_concepts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/erlang/erlang/advanced_erlang_concepts/</guid>
-      <description>Advanced Erlang Concepts linkConcurrent Programming in Erlang linkErlang is renowned for its excellent support for concurrent programming, which is fundamental in building scalable and reliable applications.&#xA;Processes in Erlang&#xA;Erlang handles concurrency through lightweight processes, which are isolated and run in parallel. These processes communicate via message passing, avoiding shared state and ensuring robustness.&#xA;Message Passing&#xA;Processes exchange information using asynchronous message passing, which is a safe and efficient way to handle inter-process communication.</description>
+      <description>Concurrency and Process Management in Erlang linkErlang&amp;rsquo;s concurrency model is one of its most powerful features, making it ideal for building scalable and reliable systems. Understanding how Erlang handles concurrency and process management is crucial for leveraging its full potential.&#xA;The Actor Model linkErlang&amp;rsquo;s concurrency is based on the Actor model, where each actor is a process that communicates with others through message passing. This model simplifies concurrent programming by avoiding shared state and locks.</description>
     </item>
     <item>
       <title>Learn about Erlang</title>
       <link>http://localhost:1313/tutorials/docs/erlang/erlang/getting_started/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/erlang/erlang/getting_started/</guid>
-      <description>Brief History of Erlang linkErlang was created by Ericsson&amp;rsquo;s Computer Science Lab in 1986 for handling large-scale telecommunications projects. Its development was driven by the need for a robust system capable of managing numerous concurrent activities, with high levels of fault tolerance. Over the years, Erlang has evolved significantly and is now used in various domains, including banking, e-commerce, and instant messaging.&#xA;Key Features of Erlang linkErlang stands out due to its unique features, which include:</description>
+      <description>Brief History of Erlang linkErlang was created by Ericsson&amp;rsquo;s Computer Science Lab in 1986 for handling large-scale telecommunications projects. Its development was driven by the need for a robust system capable of managing numerous concurrent activities with high levels of fault tolerance. Over the years, Erlang has evolved significantly and is now used in various domains, including banking, e-commerce, and instant messaging.&#xA;Key Features of Erlang linkErlang stands out due to its unique features, which include:</description>
     </item>
     <item>
       <title>Practical Applications and Best Practices</title>
       <link>http://localhost:1313/tutorials/docs/erlang/erlang/applications_and_best_practices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/erlang/erlang/applications_and_best_practices/</guid>
-      <description>Practical Applications and Best Practices linkReal-World Applications of Erlang linkErlang&amp;rsquo;s unique features make it a preferred choice in several critical industries:&#xA;Case Studies&#xA;Notable examples include WhatsApp for instant messaging, Ericsson for telecommunications, and Klarna for online payments. These applications leverage Erlang&amp;rsquo;s ability to handle massive concurrency and maintain high availability.&#xA;Industry Use-Cases&#xA;Erlang is extensively used in sectors requiring scalable, fault-tolerant systems, such as banking, e-commerce, telecommunication, and cloud computing.</description>
+      <description>Practical Applications and Best Practices linkReal-World Applications of Erlang linkErlang&amp;rsquo;s unique features make it a preferred choice in several critical industries:&#xA;Case Studies linkWhatsApp: One of the most well-known examples, WhatsApp uses Erlang to handle its messaging infrastructure. Erlang&amp;rsquo;s ability to support massive concurrency and its fault tolerance ensures that millions of messages are delivered reliably every day.&#xA;Ericsson: As the creator of Erlang, Ericsson uses it extensively in its telecommunications infrastructure, benefiting from its robustness and ability to manage large-scale concurrent activities.</description>
+    </item>
+    <item>
+      <title>Understanding Erlang&#39;s OTP Framework</title>
+      <link>http://localhost:1313/tutorials/docs/erlang/erlang/erlangs_otp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/erlang/erlang/erlangs_otp/</guid>
+      <description>Understanding Erlang&amp;rsquo;s OTP Framework linkErlang&amp;rsquo;s Open Telecom Platform (OTP) framework is a set of libraries and design principles for building robust, fault-tolerant applications. OTP provides a solid foundation for building complex systems with high availability requirements, making it an essential tool for Erlang developers.&#xA;What is OTP? linkOTP stands for Open Telecom Platform, and it is a collection of middleware, libraries, and tools designed to help developers create large-scale, reliable applications.</description>
     </item>
   </channel>
 </rss>

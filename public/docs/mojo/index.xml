@@ -8,6 +8,13 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/mojo/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>A Getting Started Guide to Mojo</title>
+      <link>http://localhost:1313/tutorials/docs/mojo/mojo/introduction_to_mojo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/mojo/mojo/introduction_to_mojo/</guid>
+      <description>Background link Common Perception: Python is often labeled as a slow and merely a scripting language. Frustration with Misconception: The belief that Python&amp;rsquo;s performance issues stem from the language itself, rather than how the code is written. Choosing Mojo: The Main Reason link Modular | Mojo as a Bridge: Mojo combines Python&amp;rsquo;s ease of use with advanced programming capabilities. It&amp;rsquo;s tailored for both research and production environments. Systems Programming Language: Designed for heterogeneous computing, Mojo excels in handling different processors like CPUs, GPUs, FPGAs, and NPUs.</description>
+    </item>
+    <item>
       <title>Data Types, Variables, and Operators in Mojo</title>
       <link>http://localhost:1313/tutorials/docs/mojo/mojo/data_types_variables_operators/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -27,13 +34,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/mojo/mojo/using_python_in_mojo/</guid>
       <description>Importing Python Modules in Mojo link Mojo&amp;rsquo;s ability to import and use Python modules is a significant advantage, especially for leveraging existing Python code. It utilizes the CPython interpreter, allowing seamless integration with Python modules. Example: Using NumPy in Mojo link from python import Python let np = Python.import_module(&amp;#34;numpy&amp;#34;) ar = np.arange(15).reshape(3, 5) print(ar.shape) Note: NumPy must be installed in your Python environment. Limitations link While Mojo can import Python modules, it is not yet a feature-complete superset of Python.</description>
-    </item>
-    <item>
-      <title>Introduction to Mojo</title>
-      <link>http://localhost:1313/tutorials/docs/mojo/mojo/introduction_to_mojo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/mojo/mojo/introduction_to_mojo/</guid>
-      <description>Background link Common Perception: Python is often labeled as a slow and merely a scripting language. Frustration with Misconception: The belief that Python&amp;rsquo;s performance issues stem from the language itself, rather than how the code is written. Choosing Mojo: The Main Reason link Modular | Mojo as a Bridge: Mojo combines Python&amp;rsquo;s ease of use with advanced programming capabilities. It&amp;rsquo;s tailored for both research and production environments. Systems Programming Language: Designed for heterogeneous computing, Mojo excels in handling different processors like CPUs, GPUs, FPGAs, and NPUs.</description>
     </item>
     <item>
       <title>Modules and Packages in Mojo</title>

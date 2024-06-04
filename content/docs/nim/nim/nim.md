@@ -7,7 +7,7 @@ draft: false
 
 Nim is a relatively new programming language which allows users to write easy-to-read high-performance code.
 
-Installation
+**Installation**
 • Nim has ready made distributions for all three major operating systems and there are several options when it comes to installing Nim.
 
 • You can follow the [official installation procedure](https://nim-lang.org/index/html) to install the latest stable version.

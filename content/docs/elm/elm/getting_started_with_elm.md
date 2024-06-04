@@ -1,14 +1,13 @@
 ---
-title: "Getting Started With Elm"
-description: "Elm Lang description"
+title: "1. Getting Started With Elm"
+description: "Get started and learn the introduction of elm"
 icon: "code"
 draft: false
 ---
 
 ## Introduction to Elm
 
-Elm is a delightful language for reliable web applications. It compiles to JavaScript, but it's much
-more than just a language; it's a framework for making web development more robust and
+Elm is a delightful language for reliable web applications. It compiles to JavaScript, but it's much more than just a language; it's a framework for making web development more robust and
 pleasant. One of the most striking features of Elm is its emphasis on simplicity and quality
 tooling, making it an excellent choice for both beginners and experienced developers.
 
@@ -86,4 +85,83 @@ To run this program:
 ​ Open your web browser and go to http://localhost:8000.
 ​ Click on HelloWorld.elm to see your program running.
 
+## Example Code using elm
+Each section of the code is explained through the comments
 
+```elm
+-- This is a single line comment.
+
+{-
+This is a multi-line comment.
+It is {- nestable. -}
+-}
+
+-- Here we define a value named `greeting`. The type is inferred as a `String`.
+greeting =
+    "Hello World!"
+
+ -- It is best to add type annotations to top-level declarations.
+hello : String
+hello =
+    "Hi there."
+
+-- Functions are declared the same way, with arguments following the function name.
+add x y =
+    x + y
+
+-- Again, it is best to add type annotations.
+hypotenuse : Float -> Float -> Float
+hypotenuse a b =
+    sqrt (a^2 + b^2)
+
+-- We can create lambda functions with the `\[arg] -> [expression]` syntax.
+hello : String -> String
+hello = \s -> "Hi, " ++ s
+
+-- Function declarations may have the anonymous parameter names denoted by `_`, which are matched but not used in the body. 
+const : a -> b -> a
+const k _ = k
+
+-- Functions are also curried; here we've curried the multiplication 
+-- infix operator with a `2`
+multiplyBy2 : number -> number
+multiplyBy2 =
+    (*) 2
+
+-- If-expressions are used to branch on `Bool` values
+absoluteValue : number -> number
+absoluteValue number =
+    if number < 0 then negate number else number
+
+ -- Records are used to hold values with named fields
+book : { title : String, author : String, pages : Int }
+book =
+    { title = "Steppenwolf"
+    , author = "Hesse"
+    , pages = 237 
+    }
+
+-- Record access is done with `.`
+title : String
+title =
+    book.title
+
+-- Record access `.` can also be used as a function
+author : String
+author =
+    .author book
+
+-- We can create tagged unions with the `type` keyword.
+-- The following value represents a binary tree.
+type Tree a
+    = Empty
+    | Node a (Tree a) (Tree a)
+
+-- It is possible to inspect these types with case-expressions.
+depth : Tree a -> Int
+depth tree =
+    case tree of
+        Empty ->  0
+        Node _ left right ->
+            1 + max (depth left) (depth right)
+```

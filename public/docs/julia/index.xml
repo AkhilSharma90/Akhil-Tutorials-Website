@@ -8,11 +8,11 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/julia/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Advanced Features with Julia</title>
-      <link>http://localhost:1313/tutorials/docs/julia/julia/advanced_features_in_julia/</link>
+      <title>A Getting Started Guide with Julia</title>
+      <link>http://localhost:1313/tutorials/docs/julia/julia/getting_started_with_julia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/julia/julia/advanced_features_in_julia/</guid>
-      <description>Advanced Topics linkThis section delves into some of the more advanced features of Julia, including metaprogramming, concurrency, and parallel computing, as well as a look at Julia&amp;rsquo;s package ecosystem and error handling techniques.&#xA;Metaprogramming in Julia linkMetaprogramming refers to the creation of programs that can manipulate other programs as their data. Julia has powerful metaprogramming capabilities, allowing programs to generate, modify, and execute code dynamically.&#xA;Example of metaprogramming:&#xA;# Defining a macro in Julia macro sayhello(name) return :( println(&amp;#34;Hello, &amp;#34;, $name) ) end # Using the macro @sayhello(&amp;#34;World&amp;#34;) Concurrency and Parallel Computing linkJulia offers several constructs for concurrent and parallel programming.</description>
+      <guid>http://localhost:1313/tutorials/docs/julia/julia/getting_started_with_julia/</guid>
+      <description>Introduction linkJulia, a high-level, high-performance programming language, is designed for technical computing. It combines the simplicity of Python with the power of languages like C or Fortran. Julia is known for its impressive speed and is widely used in scientific computing, machine learning, data mining, large-scale linear algebra, and more.&#xA;Getting Started with Julia linkInstalling Julia linkTo begin with Julia, the first step is installing the language. Julia can be downloaded from its official website, JuliaLang.</description>
     </item>
     <item>
       <title>Basic Calculator with Julia</title>
@@ -22,11 +22,11 @@
       <description>Code Example: Basic Calculator in Julia linkHere’s a simple calculator that performs addition, subtraction, multiplication, and division:&#xA;function calculate(a, b, operation) if operation == &amp;#34;&amp;#43;&amp;#34; return a &amp;#43; b elseif operation == &amp;#34;-&amp;#34; return a - b elseif operation == &amp;#34;*&amp;#34; return a * b elseif operation == &amp;#34;/&amp;#34; return a / b else return &amp;#34;Unknown operation&amp;#34; end end println(calculate(10, 5, &amp;#34;&amp;#43;&amp;#34;)) # 15 println(calculate(10, 5, &amp;#34;-&amp;#34;)) # 5 println(calculate(10, 5, &amp;#34;*&amp;#34;)) # 50 println(calculate(10, 5, &amp;#34;/&amp;#34;)) # 2.</description>
     </item>
     <item>
-      <title>Getting Started with Julia</title>
-      <link>http://localhost:1313/tutorials/docs/julia/julia/getting_started_with_julia/</link>
+      <title>Learn About Advanced Features with Julia</title>
+      <link>http://localhost:1313/tutorials/docs/julia/julia/advanced_features_in_julia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/julia/julia/getting_started_with_julia/</guid>
-      <description>Introduction linkJulia, a high-level, high-performance programming language, is designed for technical computing. It combines the simplicity of Python with the power of languages like C or Fortran. Julia is known for its impressive speed and is widely used in scientific computing, machine learning, data mining, large-scale linear algebra, and more.&#xA;Getting Started with Julia linkInstalling Julia linkTo begin with Julia, the first step is installing the language. Julia can be downloaded from its official website, JuliaLang.</description>
+      <guid>http://localhost:1313/tutorials/docs/julia/julia/advanced_features_in_julia/</guid>
+      <description>Advanced Topics linkThis section delves into some of the more advanced features of Julia, including metaprogramming, concurrency, and parallel computing, as well as a look at Julia&amp;rsquo;s package ecosystem and error handling techniques.&#xA;Metaprogramming in Julia linkMetaprogramming refers to the creation of programs that can manipulate other programs as their data. Julia has powerful metaprogramming capabilities, allowing programs to generate, modify, and execute code dynamically.&#xA;Example of metaprogramming:&#xA;# Defining a macro in Julia macro sayhello(name) return :( println(&amp;#34;Hello, &amp;#34;, $name) ) end # Using the macro @sayhello(&amp;#34;World&amp;#34;) Concurrency and Parallel Computing linkJulia offers several constructs for concurrent and parallel programming.</description>
     </item>
     <item>
       <title>Object Oriented Programming with Julia</title>

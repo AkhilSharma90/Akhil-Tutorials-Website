@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Scala"
+title: "An Introduction to Scala"
 description: "Scala Lang description"
 icon: "code"
 draft: false

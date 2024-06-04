@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Mojo"
+title: "A Getting Started Guide to Mojo"
 description: "Mojo Lang description"
 icon: "code"
 draft: false

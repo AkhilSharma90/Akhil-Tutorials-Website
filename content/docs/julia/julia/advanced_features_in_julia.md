@@ -1,5 +1,5 @@
 ---
-title: "Advanced Features with Julia"
+title: "Learn About Advanced Features with Julia"
 description: "Julia, a high-level, high-performance programming language, is designed for technical computing"
 icon: "code"
 draft: false

@@ -156,7 +156,7 @@
                     
                         <li class="sidebar-dropdown  ">
                             <button class="btn">
-                                <i class="material-icons me-2">code</i>
+                                <i class="material-icons me-2">🩸</i>
                                 Elixir
                             </button>
                             <div class="sidebar-submenu ">
@@ -209,22 +209,27 @@
                                     
                                         
                                         
-                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/tutorials/docs/elm/elm/core_concepts/">Core Concepts in Elm</a></li>
+                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/tutorials/docs/elm/elm/getting_started_with_elm/">1. Getting Started With Elm</a></li>
                                         
                                     
                                         
                                         
-                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/tutorials/docs/elm/elm/elm_architecture/">Elm Architecture</a></li>
+                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/tutorials/docs/elm/elm/core_concepts/">2. Core Concepts in Elm</a></li>
                                         
                                     
                                         
                                         
-                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/tutorials/docs/elm/elm/getting_started_with_elm/">Getting Started With Elm</a></li>
+                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/tutorials/docs/elm/elm/elm_architecture/">3. Elm Architecture</a></li>
                                         
                                     
                                         
                                         
-                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/tutorials/docs/elm/elm/working_with_http_requests/">Working with HTTP Requests</a></li>
+                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/tutorials/docs/elm/elm/working_with_http_requests/">4. Working with HTTP Requests</a></li>
+                                        
+                                    
+                                        
+                                        
+                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/tutorials/docs/elm/elm/building_forms_and_handling_user_input/">Building Forms and Handling User Input</a></li>
                                         
                                     
                                 </ul>
@@ -456,7 +461,7 @@
                     
                         <li class="sidebar-dropdown  ">
                             <button class="btn">
-                                <i class="material-icons me-2">code</i>
+                                <i class="material-icons me-2">/</i>
                                 HTMX
                             </button>
                             <div class="sidebar-submenu ">
@@ -591,7 +596,7 @@
                     
                         <li class="sidebar-dropdown  ">
                             <button class="btn">
-                                <i class="material-icons me-2">code</i>
+                                <i class="material-icons me-2">🔥</i>
                                 Mojo
                             </button>
                             <div class="sidebar-submenu ">
@@ -696,7 +701,7 @@
                     
                         <li class="sidebar-dropdown  ">
                             <button class="btn">
-                                <i class="material-icons me-2">code</i>
+                                <i class="material-icons me-2">🐪</i>
                                 Ocaml
                             </button>
                             <div class="sidebar-submenu ">
@@ -2873,6 +2878,13 @@
     
     
     
+    
+    
+    
+    
+    
+    
+    
 
 
     
@@ -2981,6 +2993,15 @@
     index.add(
             {
                 id:  11 ,
+                href: "\/tutorials\/docs\/elm\/elm\/getting_started_with_elm\/",
+                title: "1. Getting Started With Elm",
+                description: "Elm Lang description",
+                content: "Introduction to Elm linkElm is a delightful language for reliable web applications. It compiles to JavaScript, but it’s much more than just a language; it’s a framework for making web development more robust and pleasant. One of the most striking features of Elm is its emphasis on simplicity and quality tooling, making it an excellent choice for both beginners and experienced developers.\nWhy Elm? linkSimplicity and Safety\nElm’s syntax is clean and easy to understand, making it an ideal starting point for those new to programming. It avoids runtime errors in your application, thanks to its strong type system and compiler checks. This means fewer crashes and unexpected behavior in your applications.\nPerformance and Maintainability Elm applications are known for their performance. The language is designed for easy refactoring and maintainability, so your codebase remains manageable, even as it grows in complexity. Great Developer Experience\nElm provides a friendly compiler that not only catches errors but also suggests how to fix them. This feature, along with a strong set of tools and a helpful community, makes learning and developing with Elm a rewarding experience. In the following sections, we will delve into Elm’s setup, basic syntax, core concepts, and some advanced features, all accompanied by practical code examples. This journey will equip you with the foundational knowledge and skills to start building your own Elm applications.\nGetting Started with Elm linkElm provides a smooth entry point for beginners, and setting it up is straightforward. Here’s how you can get started with Elm and write your first Elm program.\nInstallation and Setup\nInstall Elm: Visit Elm’s official website and follow the instructions to install Elm for your operating system.2. Editor Setup: For a better experience, use an editor with Elm support, like Visual Studio Code. Install the Elm language support extensions for syntax highlighting and auto-completion. Create Your First Elm File: Create a new file with the extension .elm. For instance, HelloWorld.elm. Basic Syntax and Structure linkElm is a purely functional language, and its syntax reflects this. Here’s a quick overview: ● Comments: Single-line comments start with –, and multi-line comments are enclosed in {- and -}. ● Functions: Functions are central in Elm. A simple function to add two numbers looks like this:\nadd a b = a + b ● ● Variables: Elm uses immutable variables. Once a variable is declared, its value can’t change. Types: Types are explicit in Elm, ensuring code reliability.\n“Hello, World!” in Elm linkLet’s write the classic “Hello, World!” program. Create a file named HelloWorld.elm and write the following code:\nmodule HelloWorld exposing (..) import Html exposing (text) main = text \"Hello, World!\" This program uses the Html module to display text. The main function is the entry point of every Elm program. Here, it’s using text from the Html module to render “Hello, World!” on the screen. To run this program: ​ Open your terminal or command prompt. ​ Navigate to the directory containing your HelloWorld.elm file. ​ Run elm reactor. ​ Open your web browser and go to http://localhost:8000. ​ Click on HelloWorld.elm to see your program running.\nExample Code using elm linkEach section of the code is explained through the comments\n-- This is a single line comment. {- This is a multi-line comment. It is {- nestable. -} -} -- Here we define a value named `greeting`. The type is inferred as a `String`. greeting = \"Hello World!\" -- It is best to add type annotations to top-level declarations. hello : String hello = \"Hi there.\" -- Functions are declared the same way, with arguments following the function name. add x y = x + y -- Again, it is best to add type annotations. hypotenuse : Float -\u003e Float -\u003e Float hypotenuse a b = sqrt (a^2 + b^2) -- We can create lambda functions with the `\\[arg] -\u003e [expression]` syntax. hello : String -\u003e String hello = \\s -\u003e \"Hi, \" ++ s -- Function declarations may have the anonymous parameter names denoted by `_`, which are matched but not used in the body. const : a -\u003e b -\u003e a const k _ = k -- Functions are also curried; here we've curried the multiplication -- infix operator with a `2` multiplyBy2 : number -\u003e number multiplyBy2 = (*) 2 -- If-expressions are used to branch on `Bool` values absoluteValue : number -\u003e number absoluteValue number = if number \u003c 0 then negate number else number -- Records are used to hold values with named fields book : { title : String, author : String, pages : Int } book = { title = \"Steppenwolf\" , author = \"Hesse\" , pages = 237 } -- Record access is done with `.` title : String title = book.title -- Record access `.` can also be used as a function author : String author = .author book -- We can create tagged unions with the `type` keyword. -- The following value represents a binary tree. type Tree a = Empty | Node a (Tree a) (Tree a) -- It is possible to inspect these types with case-expressions. depth : Tree a -\u003e Int depth tree = case tree of Empty -\u003e 0 Node _ left right -\u003e 1 + max (depth left) (depth right) "
+            }
+        );
+    index.add(
+            {
+                id:  12 ,
                 href: "\/tutorials\/docs\/pandas\/pandas\/intro_to_pandas\/",
                 title: "1. Introduction to Pandas",
                 description: "This is an introduction to pandas, a python package for data analysis.",
@@ -2989,7 +3010,16 @@
         );
     index.add(
             {
-                id:  12 ,
+                id:  13 ,
+                href: "\/tutorials\/docs\/elm\/elm\/core_concepts\/",
+                title: "2. Core Concepts in Elm",
+                description: "Understanding the foundational concepts that make Elm robust and functional.",
+                content: "Elm is built on a set of core concepts that make it robust and functional. Understanding these concepts is key to becoming proficient in Elm. Let’s explore some of these fundamental ideas.\nTypes and Type Annotations linkElm is a statically typed language, meaning the type of every variable and expression is known at compile time. This feature makes your code more reliable and easier to maintain.\nBasic Types linkElm has several basic types such as Int, Float, String, Bool, and more.\nmyInt : Int myInt = 5 myString : String myString = \"Hello, Elm!\" Type Annotations linkType annotations are used to explicitly declare the type of a function or variable. While not mandatory, they are a good practice.\nadd : Int -\u003e Int -\u003e Int add x y = x + y This function, add, takes two Int values and returns an Int.\nFunctions and Function Composition linkFunctions are the building blocks of Elm programs. Elm functions are pure, meaning they always produce the same output for the same input and have no side effects.\nDefining Functions linkFunctions are defined with a name, a list of parameters, an equals sign, and the function body.\ngreet : String -\u003e String greet name = \"Hello, \" ++ name Function Composition linkFunction composition is a way to combine simple functions to build more complex ones. Elm uses the \u003e\u003e and \u003c\u003c operators for composition.\nuppercase : String -\u003e String uppercase str = String.toUpper str exclaim : String -\u003e String exclaim str = str ++ \"!\" excitedGreet : String -\u003e String excitedGreet = greet \u003e\u003e uppercase \u003e\u003e exclaim -- excitedGreet \"Elm\" returns \"HELLO, ELM!\" Records and Modules linkRecords in Elm are similar to objects in JavaScript. They are used to store structured data.\nRecords link type alias Person = { name : String , age : Int } bob : Person bob = { name = \"Bob\", age = 42 } Modules linkElm uses modules to organize code. Modules can contain functions, type aliases, and type definitions. You can expose certain parts of a module to be used in other modules.\nmodule Math exposing (add, subtract) add : Int -\u003e Int -\u003e Int add a b = a + b subtract : Int -\u003e Int -\u003e Int subtract a b = a - b In this Math module, add and subtract functions are exposed.\nAdvanced Elm linkAs you get more comfortable with the basics of Elm, you can start exploring its advanced features. These include handling side effects, making HTTP requests, and decoding JSON. These concepts are essential for building complex and interactive web applications.\nHandling Side Effects linkIn Elm, side effects (like HTTP requests) are managed in a controlled way using Cmd. The Elm Architecture handles these commands to perform side effects and then routes the results back to your application.\nThe Cmd Type linkCmd is a type that represents a side effect that needs to be performed. It’s used in conjunction with the update function to handle asynchronous actions.\ntype Msg = FetchData | ReceiveData String update : Msg -\u003e Model -\u003e (Model, Cmd Msg) update msg model = case msg of FetchData -\u003e (model, fetchDataCmd) ReceiveData data -\u003e ({ model | data = data }, Cmd.none) In this example, FetchData triggers an HTTP request, and ReceiveData updates the model with the received data.\n"
+            }
+        );
+    index.add(
+            {
+                id:  14 ,
                 href: "\/tutorials\/docs\/pandas\/pandas\/viewing_and_understanding_dataframes\/",
                 title: "2. Viewing and Understanding Dataframes",
                 description: "In this section, you will be learning more about Dataframes, how to load data into one and how to perform operations.",
@@ -2998,7 +3028,16 @@
         );
     index.add(
             {
-                id:  13 ,
+                id:  15 ,
+                href: "\/tutorials\/docs\/elm\/elm\/elm_architecture\/",
+                title: "3. Elm Architecture",
+                description: "Understanding The Elm Architecture for building robust web applications.",
+                content: "Elm Architecture linkUnderstanding The Elm Architecture (TEA) is crucial for building applications in Elm. TEA is a pattern for architecting web applications. It is simple yet powerful, helping you to build well-structured and easily maintainable applications.\nComponents of The Elm Architecture linkTEA revolves around three main concepts: Model, Update, and View. Together, these components create a unidirectional data flow that is easy to understand and debug.\nModel linkThe model represents the state of your application. It’s a data structure (like a record) that contains all the information needed to render your app.\ntype alias Model = { message : String } Update linkThe update function is where you define how your application responds to different messages (or actions). It takes a message and the current model, and returns an updated model.\ntype Msg = UpdateMessage String update : Msg -\u003e Model -\u003e Model update msg model = case msg of UpdateMessage newMessage -\u003e { model | message = newMessage } View linkThe view function takes the current model and returns HTML. Elm uses a virtual DOM, which makes updating the view very efficient.\nview : Model -\u003e Html Msg view model = Html.text model.message Simple Application Example linkLet’s put these concepts together in a simple Elm application. The application will display a message and update it when a button is clicked.\nmodule Main exposing (..) import Html exposing (Html, button, div, text) import Html.Events exposing (onClick) -- MODEL type alias Model = { message : String } initModel : Model initModel = { message = \"Hello, Elm!\" } -- UPDATE type Msg = UpdateMessage update : Msg -\u003e Model -\u003e Model update msg model = case msg of UpdateMessage -\u003e { model | message = \"Button clicked!\" } -- VIEW view : Model -\u003e Html Msg view model = div [] [ text model.message , button [ onClick UpdateMessage ] [ text \"Click me!\" ] ] -- MAIN main = Html.beginnerProgram { model = initModel , view = view , update = update } In this program, clicking the button triggers an UpdateMessage, which updates the model’s message. The view then reflects this change.\nAdvanced Topics in TEA linkAs you become more familiar with TEA, you can explore its advanced features, which include handling side effects, managing complex state, and integrating with JavaScript.\nHandling Side Effects linkIn Elm, side effects (like HTTP requests) are managed in a controlled way using commands (Cmd). The Elm Architecture handles these commands to perform side effects and then routes the results back to your application.\ntype Msg = FetchData | ReceiveData String update : Msg -\u003e Model -\u003e (Model, Cmd Msg) update msg model = case msg of FetchData -\u003e (model, fetchDataCmd) ReceiveData data -\u003e ({ model | data = data }, Cmd.none) Managing Complex State linkFor more complex applications, you can split your model and update logic into smaller parts. This approach helps in managing state more effectively and keeps your codebase organized.\nIntegrating with JavaScript linkElm allows you to integrate with JavaScript using ports. Ports enable communication between Elm and JavaScript, allowing you to leverage JavaScript libraries and functionality within your Elm application.\nport module Main exposing (..) port alert : String -\u003e Cmd msg update : Msg -\u003e Model -\u003e (Model, Cmd Msg) update msg model = case msg of AlertMessage -\u003e (model, alert \"This is an alert!\") Understanding and mastering The Elm Architecture will enable you to build robust, maintainable, and scalable web applications in Elm.\n"
+            }
+        );
+    index.add(
+            {
+                id:  16 ,
                 href: "\/tutorials\/docs\/pandas\/pandas\/cleaning_data_using_panda\/",
                 title: "3. How to Clean Data using Pandas",
                 description: "This section will focus on data cleaning, a pre-processing technique use in Machine Learning.",
@@ -3007,7 +3046,16 @@
         );
     index.add(
             {
-                id:  14 ,
+                id:  17 ,
+                href: "\/tutorials\/docs\/elm\/elm\/working_with_http_requests\/",
+                title: "4. Working with HTTP Requests",
+                description: "Handling HTTP requests and JSON data in Elm.",
+                content: "Working with HTTP Requests linkElm provides a smooth way to handle HTTP requests with the Http module.\nMaking a GET Request linkHere’s an example of how to make a GET request to fetch data:\nfetchDataCmd : Cmd Msg fetchDataCmd = Http.get { url = \"https://api.example.com/data\" , expect = Http.expectString ReceiveData } This function creates a command that, when executed, sends a GET request to the specified URL and expects a string response.\nHandling the Response linkTo handle the response from the GET request, you need to define a message and update function that processes the response:\ntype Msg = ReceiveData (Result Http.Error String) update : Msg -\u003e Model -\u003e (Model, Cmd Msg) update msg model = case msg of ReceiveData (Ok data) -\u003e ({ model | data = data }, Cmd.none) ReceiveData (Err error) -\u003e ({ model | error = Just error }, Cmd.none) JSON Decoding linkElm handles JSON data using decoders. A JSON decoder describes how to convert JSON data into Elm values.\nDecoding JSON linkHere’s an example of a JSON decoder:\ntype alias User = { id : Int , name : String } userDecoder : Decoder User userDecoder = Decode.map2 User (Decode.field \"id\" Decode.int) (Decode.field \"name\" Decode.string) This userDecoder can be used to decode a JSON object into a User record.\nUsing JSON Decoder in HTTP Request linkYou can use this decoder with the Http module to decode the response of an HTTP request:\nfetchUserCmd : Cmd Msg fetchUserCmd = Http.get { url = \"https://api.example.com/user\" , expect = Http.expectJson ReceiveUser userDecoder } In this example, when the data is received from the URL, it’s decoded using userDecoder.\nHandling JSON Response linkTo handle the JSON response, you need to define a message and update function that processes the decoded data:\ntype Msg = ReceiveUser (Result Http.Error User) update : Msg -\u003e Model -\u003e (Model, Cmd Msg) update msg model = case msg of ReceiveUser (Ok user) -\u003e ({ model | user = Just user }, Cmd.none) ReceiveUser (Err error) -\u003e ({ model | error = Just error }, Cmd.none) Complete Example linkCombining all the pieces, here’s a complete example of fetching and decoding JSON data in Elm:\nmodule Main exposing (..) import Browser import Html exposing (Html, div, text, button) import Html.Events exposing (onClick) import Http import Json.Decode exposing (Decoder, field, int, string, map2) -- MODEL type alias Model = { user : Maybe User , error : Maybe Http.Error } initModel : Model initModel = { user = Nothing , error = Nothing } type alias User = { id : Int , name : String } -- UPDATE type Msg = FetchUser | ReceiveUser (Result Http.Error User) update : Msg -\u003e Model -\u003e (Model, Cmd Msg) update msg model = case msg of FetchUser -\u003e (model, fetchUserCmd) ReceiveUser (Ok user) -\u003e ({ model | user = Just user, error = Nothing }, Cmd.none) ReceiveUser (Err error) -\u003e ({ model | error = Just error, user = Nothing }, Cmd.none) fetchUserCmd : Cmd Msg fetchUserCmd = Http.get { url = \"https://api.example.com/user\" , expect = Http.expectJson ReceiveUser userDecoder } userDecoder : Decoder User userDecoder = map2 User (field \"id\" int) (field \"name\" string) -- VIEW view : Model -\u003e Html Msg view model = div [] [ case model.user of Just user -\u003e div [] [ text (\"User: \" ++ user.name ++ \", ID: \" ++ String.fromInt user.id) ] Nothing -\u003e text \"No user data\" , case model.error of Just error -\u003e div [] [ text (\"Error: \" ++ Http.errorToString error) ] Nothing -\u003e text \"\" , button [ onClick FetchUser ] [ text \"Fetch User\" ] ] -- MAIN main = Browser.sandbox { init = initModel, update = update, view = view } In this complete example, clicking the “Fetch User” button triggers an HTTP GET request to fetch user data, decodes the JSON response, and updates the view accordingly.\n"
+            }
+        );
+    index.add(
+            {
+                id:  18 ,
                 href: "\/tutorials\/docs\/elixir\/elixir\/01_a_beginners_guide_to_elixir\/",
                 title: "A beginner's guide to the Elixir programming language",
                 description: "Elixir is a process-oriented, functional programming language that runs on the Erlang virtual machine (BEAM). The language was influenced by Ruby. This inspiration can be seen and felt in Elixir’s ecosystem and tooling options. Elixir is known to be easy to learn and widely applicable within the software development industry.",
@@ -3016,7 +3064,7 @@
         );
     index.add(
             {
-                id:  15 ,
+                id:  19 ,
                 href: "\/tutorials\/docs\/elixir\/elixir\/phoenix_elixix_framework\/",
                 title: "A Deep Dive into Pheonix Framework",
                 description: "Pheonix Lang description",
@@ -3025,7 +3073,7 @@
         );
     index.add(
             {
-                id:  16 ,
+                id:  20 ,
                 href: "\/tutorials\/docs\/ocaml\/ocaml\/advanced_ocaml_concepts\/",
                 title: "Advanced Concepts in OCaml",
                 description: "OCaml is a multi-paradigm programming language, an extension of the Caml language, and a member of the ML (Meta Language) family.",
@@ -3034,7 +3082,7 @@
         );
     index.add(
             {
-                id:  17 ,
+                id:  21 ,
                 href: "\/tutorials\/docs\/scala\/scala\/advanced_concepts_in_scala\/",
                 title: "Advanced Concepts in Scala",
                 description: "Scala Lang description",
@@ -3043,7 +3091,7 @@
         );
     index.add(
             {
-                id:  18 ,
+                id:  22 ,
                 href: "\/tutorials\/docs\/rust\/rust\/advanced_enums_pattern_matching_rust\/",
                 title: "Advanced Enums and Pattern Matching in Rust",
                 description: "Explore the powerful capabilities of enums and pattern matching in Rust, including how to define enums with variants, and effectively use match and if let constructs for clean and safe code. This in-depth guide is filled with technical explanations and practical examples aimed at proficient Rust programming",
@@ -3052,7 +3100,7 @@
         );
     index.add(
             {
-                id:  19 ,
+                id:  23 ,
                 href: "\/tutorials\/docs\/erlang\/erlang\/advanced_erlang_concepts\/",
                 title: "Advanced Erlang Concepts",
                 description: "Erlang Lang description",
@@ -3061,7 +3109,7 @@
         );
     index.add(
             {
-                id:  20 ,
+                id:  24 ,
                 href: "\/tutorials\/docs\/golang\/golang\/error-handling-and-panics-in-go\/",
                 title: "Advanced Error Handling in Go",
                 description: "Master the art of error handling in Go with this detailed guide. Learn about error handling techniques, how to create and use custom errors, and how to effectively use defer, panic, and recover in your applications.",
@@ -3070,7 +3118,7 @@
         );
     index.add(
             {
-                id:  21 ,
+                id:  25 ,
                 href: "\/tutorials\/docs\/huff\/huff\/advanced_features_using_huff\/",
                 title: "Advanced Features With Huff",
                 description: "Huff is a domain-specific, low-level programming language designed explicitly for writing smart contracts on the Ethereum blockchain.",
@@ -3079,7 +3127,7 @@
         );
     index.add(
             {
-                id:  22 ,
+                id:  26 ,
                 href: "\/tutorials\/docs\/julia\/julia\/advanced_features_in_julia\/",
                 title: "Advanced Features with Julia",
                 description: "Julia, a high-level, high-performance programming language, is designed for technical computing",
@@ -3088,7 +3136,7 @@
         );
     index.add(
             {
-                id:  23 ,
+                id:  27 ,
                 href: "\/tutorials\/docs\/htmx\/htmx\/ajax_in_htmx\/",
                 title: "AJAX in HTMX",
                 description: "Learn about what HTMX is and how you can use it.",
@@ -3097,7 +3145,7 @@
         );
     index.add(
             {
-                id:  24 ,
+                id:  28 ,
                 href: "\/tutorials\/docs\/nim\/nim\/nim\/",
                 title: "An Introduction to Nim",
                 description: "Nim Lang description",
@@ -3106,7 +3154,7 @@
         );
     index.add(
             {
-                id:  25 ,
+                id:  29 ,
                 href: "\/tutorials\/docs\/solidity\/solidity\/introduction_to_solidity.md\/",
                 title: "An Introduction To Solidity",
                 description: "Learn about Solidity, basics, language syntax and more.",
@@ -3115,7 +3163,7 @@
         );
     index.add(
             {
-                id:  26 ,
+                id:  30 ,
                 href: "\/tutorials\/docs\/julia\/julia\/basic_calculator_with_julia\/",
                 title: "Basic Calculator with Julia",
                 description: "Julia, a high-level, high-performance programming language, is designed for technical computing",
@@ -3124,7 +3172,7 @@
         );
     index.add(
             {
-                id:  27 ,
+                id:  31 ,
                 href: "\/tutorials\/docs\/rust\/rust\/basic_concepts_in_rust\/",
                 title: "Basic Concepts in Rust",
                 description: "Explore the foundational concepts of variables, data types, and the principles of mutability and immutability in Rust, complete with detailed examples.",
@@ -3133,7 +3181,7 @@
         );
     index.add(
             {
-                id:  28 ,
+                id:  32 ,
                 href: "\/tutorials\/docs\/nim\/nim\/basic_data_types\/",
                 title: "Basic data types in Nim",
                 description: "Learn about basic data types using the nim language.",
@@ -3142,7 +3190,7 @@
         );
     index.add(
             {
-                id:  29 ,
+                id:  33 ,
                 href: "\/tutorials\/docs\/elixir\/elixir\/build_a_chat_app_using_elixir\/",
                 title: "Build A Chat App using Elixir",
                 description: "In this section, we will build a simple chat app that takes advantage of phoenix’s easy uses of web sockets and evented programming",
@@ -3151,7 +3199,7 @@
         );
     index.add(
             {
-                id:  30 ,
+                id:  34 ,
                 href: "\/tutorials\/docs\/elixir\/elixir\/03_cli_tool_using_elixir\/",
                 title: "Build a CLI Todo List using Elixir",
                 description: "Learn how to build a simple cli todo tool using elixir",
@@ -3160,7 +3208,7 @@
         );
     index.add(
             {
-                id:  31 ,
+                id:  35 ,
                 href: "\/tutorials\/docs\/solidity\/solidity\/build_a_crowdfunding_contract\/",
                 title: "Build A Crowdfunding Contract with Solidity and ERC20 Tokens",
                 description: "In this section, you will build a simple crowdfunding contract using solidity and get to implement some of Solidity concepts like interfaces, struct and more.",
@@ -3169,7 +3217,7 @@
         );
     index.add(
             {
-                id:  32 ,
+                id:  36 ,
                 href: "\/tutorials\/docs\/solidity\/solidity\/building_a_remote_purchase_contract\/",
                 title: "Build a Remote Purchase Contract Using Solidity",
                 description: "Build a contract that will allow users to vote for anyone they choose.",
@@ -3178,7 +3226,7 @@
         );
     index.add(
             {
-                id:  33 ,
+                id:  37 ,
                 href: "\/tutorials\/docs\/solidity\/solidity\/build_a_voting_contract\/",
                 title: "Build a Voting Contract Using Solidity",
                 description: "Build a contract that will allow users to vote for anyone they choose.",
@@ -3187,7 +3235,7 @@
         );
     index.add(
             {
-                id:  34 ,
+                id:  38 ,
                 href: "\/tutorials\/docs\/golang\/golang\/building-real-world-application-go\/",
                 title: "Building a Real-World Application in Go",
                 description: "Learn how to plan, design, implement, test, and deploy a real-world application using Go. This guide covers practical tips for logging, configuration, and versioning to enhance your Go projects.",
@@ -3196,7 +3244,7 @@
         );
     index.add(
             {
-                id:  35 ,
+                id:  39 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/building-real-world-haskell-application\/",
                 title: "Building a Real-World Haskell Application",
                 description: "Learn how to design, implement, test, and deploy a real-world Haskell application. This comprehensive guide includes practical examples, complete code, and tips for incorporating CI/CD.",
@@ -3205,7 +3253,7 @@
         );
     index.add(
             {
-                id:  36 ,
+                id:  40 ,
                 href: "\/tutorials\/docs\/rust\/rust\/building_robust_cli_tool_rust\/",
                 title: "Building a Robust CLI Tool with Rust",
                 description: "Learn how to build a powerful and user-friendly CLI tool in Rust with this comprehensive guide. Dive into structuring a CLI project, parsing command-line arguments, and managing input effectively. This post is filled with technical insights, practical coding examples, and best practices to help you develop sophisticated CLI applications in Rust.",
@@ -3214,7 +3262,16 @@
         );
     index.add(
             {
-                id:  37 ,
+                id:  41 ,
+                href: "\/tutorials\/docs\/elm\/elm\/building_forms_and_handling_user_input\/",
+                title: "Building Forms and Handling User Input",
+                description: "Learn how to create interactive forms and handle user input in Elm.",
+                content: "Building Forms and Handling User Input linkElm makes it straightforward to build forms and handle user input, ensuring a smooth and type-safe experience.\nCreating a Simple Form linkLet’s start with a simple form that collects a user’s name and email address.\nmodule Main exposing (..) import Browser import Html exposing (Html, div, text, input, button, form) import Html.Attributes exposing (..) import Html.Events exposing (onInput, onSubmit) -- MODEL type alias Model = { name : String , email : String } initModel : Model initModel = { name = \"\" , email = \"\" } -- UPDATE type Msg = UpdateName String | UpdateEmail String | Submit update : Msg -\u003e Model -\u003e Model update msg model = case msg of UpdateName name -\u003e { model | name = name } UpdateEmail email -\u003e { model | email = email } Submit -\u003e model -- VIEW view : Model -\u003e Html Msg view model = form [ onSubmit (always Submit) ] [ div [] [ text \"Name: \" , input [ type_ \"text\", value model.name, onInput UpdateName ] [] ] , div [] [ text \"Email: \" , input [ type_ \"email\", value model.email, onInput UpdateEmail ] [] ] , button [ type_ \"submit\" ] [ text \"Submit\" ] ] -- MAIN main = Browser.sandbox { init = initModel, update = update, view = view } Handling Form Submission linkWhen the form is submitted, we can process the collected data. Here, we will just print the data to the console for simplicity.\n-- UPDATE type Msg = UpdateName String | UpdateEmail String | Submit | FormSubmitted update : Msg -\u003e Model -\u003e (Model, Cmd Msg) update msg model = case msg of UpdateName name -\u003e ({ model | name = name }, Cmd.none) UpdateEmail email -\u003e ({ model | email = email }, Cmd.none) Submit -\u003e (model, submitForm model) FormSubmitted -\u003e (model, Cmd.none) submitForm : Model -\u003e Cmd Msg submitForm model = let name = model.name email = model.email in Debug.log \"Form Submitted\" (name, email) |\u003e always FormSubmitted Adding Validation linkForm validation is crucial to ensure the user inputs correct data. Here is how you can add basic validation:\n-- MODEL type alias Model = { name : String , email : String , errors : List String } initModel : Model initModel = { name = \"\" , email = \"\" , errors = [] } -- UPDATE type Msg = UpdateName String | UpdateEmail String | Submit | FormSubmitted update : Msg -\u003e Model -\u003e (Model, Cmd Msg) update msg model = case msg of UpdateName name -\u003e ({ model | name = name }, Cmd.none) UpdateEmail email -\u003e ({ model | email = email }, Cmd.none) Submit -\u003e if validateForm model then (model, submitForm model) else ({ model | errors = [\"Invalid input\"] }, Cmd.none) FormSubmitted -\u003e (model, Cmd.none) validateForm : Model -\u003e Bool validateForm model = String.length model.name \u003e 0 \u0026\u0026 String.contains \"@\" model.email submitForm : Model -\u003e Cmd Msg submitForm model = let name = model.name email = model.email in Debug.log \"Form Submitted\" (name, email) |\u003e always FormSubmitted Displaying Validation Errors linkUpdate the view to display validation errors:\n-- VIEW view : Model -\u003e Html Msg view model = form [ onSubmit (always Submit) ] [ div [] [ text \"Name: \" , input [ type_ \"text\", value model.name, onInput UpdateName ] [] ] , div [] [ text \"Email: \" , input [ type_ \"email\", value model.email, onInput UpdateEmail ] [] ] , div [] (List.map (div [] \u003c\u003c text) model.errors) , button [ type_ \"submit\" ] [ text \"Submit\" ] ] In this topic, we covered creating a simple form, handling form submission, adding validation, and displaying validation errors. These fundamentals will help you build more complex and interactive forms in Elm applications.\n"
+            }
+        );
+    index.add(
+            {
+                id:  42 ,
                 href: "\/tutorials\/docs\/golang\/golang\/microservices-with-go\/",
                 title: "Building Microservices with Go",
                 description: "Explore how to design, deploy, and scale microservices using Go. This comprehensive guide covers the best practices for developing high-performance microservices architectures in Go.",
@@ -3223,7 +3280,7 @@
         );
     index.add(
             {
-                id:  38 ,
+                id:  43 ,
                 href: "\/tutorials\/docs\/cheatsheets\/",
                 title: "Cheatsheets",
                 description: "Making life easy...",
@@ -3232,7 +3289,7 @@
         );
     index.add(
             {
-                id:  39 ,
+                id:  44 ,
                 href: "\/tutorials\/docs\/technical-architecture\/technical-architecture\/",
                 title: "Client",
                 description: "Starting here link",
@@ -3241,7 +3298,7 @@
         );
     index.add(
             {
-                id:  40 ,
+                id:  45 ,
                 href: "\/tutorials\/docs\/python\/python\/python_testing\/",
                 title: "Comprehensive Guide to Testing in Python: Unit Tests and Mocking Techniques",
                 description: "Dive into Python testing methodologies with a thorough look at unit testing using the unittest framework and mocking objects with unittest.mock. Learn how to build robust tests and simulate complex scenarios to ensure your code performs reliably.",
@@ -3250,7 +3307,7 @@
         );
     index.add(
             {
-                id:  41 ,
+                id:  46 ,
                 href: "\/tutorials\/docs\/elixir\/elixir\/04_concurrency_in_elixir_with_otp\/",
                 title: "Concurrency in Elixir with OTP",
                 description: "Learn more about concurrency in Elixir with OTP",
@@ -3259,7 +3316,7 @@
         );
     index.add(
             {
-                id:  42 ,
+                id:  47 ,
                 href: "\/tutorials\/docs\/nim\/nim\/containers\/",
                 title: "Containers and Procedures in Nim",
                 description: "Nim Lang description",
@@ -3268,7 +3325,7 @@
         );
     index.add(
             {
-                id:  43 ,
+                id:  48 ,
                 href: "\/tutorials\/docs\/nim\/nim\/control_flow\/",
                 title: "Control flow in Nim",
                 description: "Part of our programs require control flow and we are going to be looking into that concept in this section.",
@@ -3277,7 +3334,7 @@
         );
     index.add(
             {
-                id:  44 ,
+                id:  49 ,
                 href: "\/tutorials\/docs\/rust\/rust\/control_flow_in_rust\/",
                 title: "Control Flow in Rust",
                 description: "Explore the essentials of Rust's control flow, including conditional statements, loops, and iterators, to master directing program execution and handling complex logic efficiently.",
@@ -3286,7 +3343,7 @@
         );
     index.add(
             {
-                id:  45 ,
+                id:  50 ,
                 href: "\/tutorials\/docs\/rust\/rust\/rust_ownership\/",
                 title: "Control Flow in Rust",
                 description: "Explore the fundamental principles of Rust's ownership model in this detailed post, covering the mechanics of ownership transfer, borrowing, and the crucial rules that ensure memory safety and efficient resource management.",
@@ -3295,16 +3352,7 @@
         );
     index.add(
             {
-                id:  46 ,
-                href: "\/tutorials\/docs\/elm\/elm\/core_concepts\/",
-                title: "Core Concepts in Elm",
-                description: "Elm Lang description",
-                content: "Elm is built on a set of core concepts that make it robust and functional. Understanding these concepts is key to becoming proficient in Elm. Let’s explore some of these fundamental ideas. Types and Type Annotations\nElm is a statically typed language, meaning the type of every variable and expression is known at compile time. This feature makes your code more reliable and easier to maintain.\nBasic Types\nElm has several basic types like Int, Float, String, Bool, and more.\nmyInt : Int myInt = 5 myString : String myString = \"Hello, Elm!\" Type Annotations Type annotations are used to explicitly declare the type of a function or variable. They are not mandatory but are a good practice.\nadd : Int -\u003e Int -\u003e Int add x y = x + y This function, add, takes two Int values and returns an Int.\nFunctions and Function Composition\nFunctions are the building blocks of Elm programs. Elm functions are pure, meaning they always produce the same output for the same input and have no side effects.\nDefining Functions\nFunctions are defined with a name, a list of parameters, an equals sign, and the function body.\ngreet : String -\u003e String greet name = \"Hello, \" ++ name Function Composition\nFunction composition is a way to combine simple functions to build more complex ones. Elm uses the » and « operators for composition.\nuppercase : String -\u003e String uppercase str = String.toUpper str exclaim : String -\u003e String exclaim str = str ++ \"!\" excitedGreet : String -\u003e String excitedGreet = greet \u003e\u003e uppercase \u003e\u003e exclaim -- excitedGreet \"Elm\" returns \"HELLO, ELM!\" Records and Modules linkRecords in Elm are similar to objects in JavaScript. They are used to store structured data. Records\ntype alias Person = { name : String, age : Int } bob : Person bob = { name = \"Bob\", age = 42 } Modules Elm uses modules to organize code. Modules can contain functions, type aliases, and type definitions. You can expose certain parts of a module to be used in other modules.\nmodule Math exposing (add, subtract)add : Int -\u003e Int -\u003e Int add a b = a + b subtract : Int -\u003e Int -\u003e Int subtract a b = a - b In this Math module, add and subtract functions are exposed.\nAdvanced Elm linkAs you get more comfortable with the basics of Elm, you can start exploring its advanced features. These include handling side effects, making HTTP requests, and decoding JSON. These concepts are essential for building complex and interactive web applications.\nHandling Side Effects In Elm, side effects (like HTTP requests) are managed in a controlled way using Cmd. The Elm Architecture handles these commands to perform side effects and then routes the results back to your application.\nThe Cmd Type\nCmd is a type that represents a side effect that needs to be performed. It’s used in conjunction with the update function to handle asynchronous actions.\ntype Msg = FetchData | ReceiveData String update : Msg -\u003e Model -\u003e (Model, Cmd Msg) update msg model = case msg of FetchData -\u003e (model, fetchDataCmd) ReceiveData data -\u003e ({ model | data = data }, Cmd.none) In this example, FetchData triggers an HTTP request, and ReceiveData updates the model with the received data.\n"
-            }
-        );
-    index.add(
-            {
-                id:  47 ,
+                id:  51 ,
                 href: "\/tutorials\/docs\/ocaml\/ocaml\/core_concepts_in_ocaml\/",
                 title: "Core Concepts in OCaml",
                 description: "OCaml is a multi-paradigm programming language, an extension of the Caml language, and a member of the ML (Meta Language) family.",
@@ -3313,7 +3361,7 @@
         );
     index.add(
             {
-                id:  48 ,
+                id:  52 ,
                 href: "\/tutorials\/docs\/elixir\/elixir\/02_creating_a_simple_web_server\/",
                 title: "Create A Simple Web Server using Elixir",
                 description: "We are going to be creating a simple web server using elixir and cowboy",
@@ -3322,7 +3370,7 @@
         );
     index.add(
             {
-                id:  49 ,
+                id:  53 ,
                 href: "\/tutorials\/docs\/huff\/huff\/creating_a_token_in_huff\/",
                 title: "Creating a Token With Huff",
                 description: "Huff is a domain-specific, low-level programming language designed explicitly for writing smart contracts on the Ethereum blockchain.",
@@ -3331,7 +3379,7 @@
         );
     index.add(
             {
-                id:  50 ,
+                id:  54 ,
                 href: "\/tutorials\/docs\/mojo\/mojo\/data_types_variables_operators\/",
                 title: "Data Types, Variables, and Operators in Mojo",
                 description: "Mojo Lang description",
@@ -3340,7 +3388,7 @@
         );
     index.add(
             {
-                id:  51 ,
+                id:  55 ,
                 href: "\/tutorials\/docs\/python\/python\/python_decorators\/",
                 title: "Demystifying Python Decorators: Enhancing Functionality with Decorators",
                 description: "Unlock the power of decorators in Python to modify and enhance the functionality of functions and methods dynamically. This guide delves into the principles of decorators and shows you how to create them with practical, real-world examples.",
@@ -3349,7 +3397,7 @@
         );
     index.add(
             {
-                id:  52 ,
+                id:  56 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/diving-deeper-into-haskell-functions\/",
                 title: "Diving Deeper into Haskell Functions",
                 description: "Explore the advanced functionalities of Haskell functions including pure functions, higher-order functions like map, filter, and fold, and the concepts of currying and partial application.",
@@ -3358,7 +3406,7 @@
         );
     index.add(
             {
-                id:  53 ,
+                id:  57 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/error-handling-in-haskell\/",
                 title: "Effective Error Handling in Haskell",
                 description: "Explore the sophisticated error handling techniques in Haskell, including the use of types like Either and monads for managing errors, and learn best practices for building robust Haskell applications.",
@@ -3367,7 +3415,7 @@
         );
     index.add(
             {
-                id:  54 ,
+                id:  58 ,
                 href: "\/tutorials\/docs\/python\/python\/python_error_handling\/",
                 title: "Effective Error Handling in Python: Try-Except Blocks and Finally Clause",
                 description: "Learn how to robustly handle errors in Python using try-except blocks and the finally clause. This guide explains the mechanisms behind Python's error handling, with detailed examples to help you write more reliable code.",
@@ -3376,7 +3424,7 @@
         );
     index.add(
             {
-                id:  55 ,
+                id:  59 ,
                 href: "\/tutorials\/docs\/solidity\/solidity\/effective_error_handling_in_solidity\/",
                 title: "Effective error handling in Solidity",
                 description: "Learn how to handle errors effectively in solidity using keywords like Require, Revert and Assert.",
@@ -3385,7 +3433,7 @@
         );
     index.add(
             {
-                id:  56 ,
+                id:  60 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/testing-and-debugging-in-haskell\/",
                 title: "Effective Testing and Debugging in Haskell",
                 description: "Master the art of testing and debugging Haskell code with this detailed guide. Learn how to write unit tests using HUnit and QuickCheck, debug effectively, and optimize performance.",
@@ -3394,7 +3442,7 @@
         );
     index.add(
             {
-                id:  57 ,
+                id:  61 ,
                 href: "\/tutorials\/docs\/rust\/rust\/effective_testing_strategies_rust\/",
                 title: "Effective Testing Strategies in Rust",
                 description: "Master the art of testing in Rust with this comprehensive guide on writing unit tests, managing integration tests, and organizing test suites. Packed with technical details, practical examples, and best practices, this post will help you ensure robustness and reliability in your Rust applications through effective testing methodologies.",
@@ -3403,7 +3451,7 @@
         );
     index.add(
             {
-                id:  58 ,
+                id:  62 ,
                 href: "\/tutorials\/docs\/python\/python\/python_file_handling\/",
                 title: "Efficient File Handling in Python: Reading, Writing, and Path Management",
                 description: "Master file handling techniques in Python with this detailed guide. Learn how to read from and write to files effectively and manage file paths to handle data smoothly in your applications.",
@@ -3412,7 +3460,7 @@
         );
     index.add(
             {
-                id:  59 ,
+                id:  63 ,
                 href: "\/tutorials\/docs\/golang\/golang\/packages-and-dependency-management-in-go\/",
                 title: "Efficient Go Programming",
                 description: "Learn how to organize your Go code with packages, manage dependencies with Go modules, and publish your own packages for the Go community.",
@@ -3421,7 +3469,7 @@
         );
     index.add(
             {
-                id:  60 ,
+                id:  64 ,
                 href: "\/tutorials\/docs\/elixir\/",
                 title: "Elixir",
                 description: "Elixir is a process-oriented, functional programming language that runs on the Erlang virtual machine (BEAM). The language was influenced by Ruby. This inspiration can be seen and felt in Elixir’s ecosystem and tooling options. Elixir is known to be easy to learn and widely applicable within the software development industry.",
@@ -3430,7 +3478,7 @@
         );
     index.add(
             {
-                id:  61 ,
+                id:  65 ,
                 href: "\/tutorials\/docs\/elm\/",
                 title: "Elm",
                 description: "Elm Lang description",
@@ -3439,16 +3487,7 @@
         );
     index.add(
             {
-                id:  62 ,
-                href: "\/tutorials\/docs\/elm\/elm\/elm_architecture\/",
-                title: "Elm Architecture",
-                description: "Elm Lang description",
-                content: "Elm Architecture linkUnderstanding The Elm Architecture (TEA) is crucial for building applications in Elm. TEA is a pattern for architecting web applications. It is simple yet powerful, helping you to build well-structured and easily maintainable applications.\nComponents of The Elm Architecture linkTEA revolves around three main concepts: Model, Update, and View. Together, these components create a unidirectional data flow that is easy to understand and debug. Model\nThe model represents the state of your application. It’s a data structure (like a record) that contains all the information needed to render your app.\ntype alias Model = { message : String } Update\nThe update function is where you define how your application responds to different messages (or actions). It takes a message and the current model, and returns an updated model.\ntype Msg = UpdateMessage String update : Msg -\u003e Model -\u003e Model update msg model = case msg of UpdateMessage newMessage -\u003e { model | message = newMessage } View The view function takes the current model and returns HTML. Elm uses a virtual DOM, which makes updating the view very efficient.\nview : Model -\u003e Html Msg view model = Html.text model.messageSimple Application Example Simple Application Example\nLet’s put these concepts together in a simple Elm application. The application will display a message and update it when a button is clicked.\nmodule Main exposing (..) import Html exposing (Html, button, div, text) import Html.Events exposing (onClick) -- MODEL type alias Model = { message : String } initModel : Model initModel = { message = \"Hello, Elm!\" } -- UPDATE type Msg = UpdateMessage update : Msg -\u003e Model -\u003e Model update msg model = case msg of UpdateMessage -\u003e { model | message = \"Button clicked!\" } -- VIEW view : Model -\u003e Html Msg view model = div [] [ text model.message , button [ onClick UpdateMessage ] [ text \"Click me!\" ] ] -- MAIN main = Html.beginnerProgram { model = initModel, view = view, update = update } In this program, clicking the button triggers an UpdateMessage, which updates the model’s message. The view then reflects this change.\n"
-            }
-        );
-    index.add(
-            {
-                id:  63 ,
+                id:  66 ,
                 href: "\/tutorials\/docs\/erlang\/",
                 title: "Erlang",
                 description: "Elm Lang description",
@@ -3457,7 +3496,7 @@
         );
     index.add(
             {
-                id:  64 ,
+                id:  67 ,
                 href: "\/tutorials\/docs\/solidity\/solidity\/essential_gas_optimization\/",
                 title: "Essential Gas Optimization Techniques in Solidity",
                 description: "Gas optimization is key in smart contract and will prevent your protocols from becoming very expensive to make requests since gas prices would be very high.",
@@ -3466,7 +3505,7 @@
         );
     index.add(
             {
-                id:  65 ,
+                id:  68 ,
                 href: "\/tutorials\/docs\/python\/python\/python_for_machine_learning\/",
                 title: "Essentials of Python for Machine Learning: Libraries, Concepts, and Model Building",
                 description: "Embark on your machine learning journey with Python. This guide covers key libraries like NumPy, Pandas, Matplotlib, and Scikit-Learn, introduces fundamental machine learning concepts, and walks you through building a basic model to kickstart your machine learning projects.",
@@ -3475,7 +3514,7 @@
         );
     index.add(
             {
-                id:  66 ,
+                id:  69 ,
                 href: "\/tutorials\/docs\/python\/python\/python_advanced_data_structures\/",
                 title: "Exploring Advanced Data Structures in Python: Collections and Priority Queues",
                 description: "Enhance your Python programming skills by mastering advanced data structures from the collections module and utilizing heapq for efficient priority queues. This guide provides detailed insights into these powerful tools with practical examples.",
@@ -3484,7 +3523,7 @@
         );
     index.add(
             {
-                id:  67 ,
+                id:  70 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/advanced-data-types-in-haskell\/",
                 title: "Exploring Advanced Data Types in Haskell",
                 description: "Dive deep into Haskell's advanced data types including Tuples, Maybe, Either types, Records, and Algebraic Data Types (ADTs). Learn how to leverage pattern matching and guards for more robust Haskell programming.",
@@ -3493,7 +3532,7 @@
         );
     index.add(
             {
-                id:  68 ,
+                id:  71 ,
                 href: "\/tutorials\/docs\/golang\/golang\/advanced-features-of-go\/",
                 title: "Exploring Advanced Features of Go",
                 description: "Dive deep into the advanced features of Go programming, including reflection, interfaces and type assertions, and sophisticated concurrency patterns to enhance your Go applications.",
@@ -3502,7 +3541,7 @@
         );
     index.add(
             {
-                id:  69 ,
+                id:  72 ,
                 href: "\/tutorials\/docs\/rust\/rust\/exploring_advanced_types_rust\/",
                 title: "Exploring Advanced Types in Rust: Structs and Enums",
                 description: "Enhance your Rust expertise by mastering advanced struct usage and exploring enums with data. This detailed guide provides an in-depth look at sophisticated patterns and techniques for struct and enum definitions, offering practical coding examples and best practices to maximize code efficiency and maintainability.",
@@ -3511,7 +3550,7 @@
         );
     index.add(
             {
-                id:  70 ,
+                id:  73 ,
                 href: "\/tutorials\/docs\/golang\/golang\/concurrency-in-go-channels\/",
                 title: "Exploring Channels in Go",
                 description: "Discover the power of channels in Go for synchronizing and communicating between goroutines. Learn the difference between buffered and unbuffered channels and how to use the select statement for efficient channel operations.",
@@ -3520,7 +3559,7 @@
         );
     index.add(
             {
-                id:  71 ,
+                id:  74 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/functional-design-patterns-in-haskell\/",
                 title: "Exploring Functional Design Patterns in Haskell",
                 description: "Delve into Haskell's functional design patterns, including recursion, functors, applicative functors, and monoids. Understand how these patterns can enhance your functional programming skills.",
@@ -3529,7 +3568,7 @@
         );
     index.add(
             {
-                id:  72 ,
+                id:  75 ,
                 href: "\/tutorials\/docs\/golang\/golang\/functions-in-go\/",
                 title: "Exploring Functions in Go",
                 description: "Delve into Go programming functions, including how to define and call them, manage parameters and multiple return values, and utilize anonymous functions and closures for advanced coding techniques.",
@@ -3538,7 +3577,7 @@
         );
     index.add(
             {
-                id:  73 ,
+                id:  76 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/exploring-haskell-syntax-basic-concepts\/",
                 title: "Exploring Haskell Syntax and Basic Concepts",
                 description: "Unravel the fundamentals of Haskell with a focus on expressions, types, type inference, and functions. This guide provides a clear introduction to Haskell’s syntax and basic programming concepts.",
@@ -3547,7 +3586,7 @@
         );
     index.add(
             {
-                id:  74 ,
+                id:  77 ,
                 href: "\/tutorials\/docs\/python\/python\/python_operators\/",
                 title: "Exploring Python Operators: Arithmetic, Comparison, and Logical Operations",
                 description: "Master the use of Python operators to manipulate values and control the flow of your programs. This comprehensive guide covers arithmetic, comparison, and logical operators with practical code examples.",
@@ -3556,7 +3595,7 @@
         );
     index.add(
             {
-                id:  75 ,
+                id:  78 ,
                 href: "\/tutorials\/docs\/full-stack-projects\/full-stack-projects\/",
                 title: "Full-Stack projects",
                 description: "How to install and use libraries",
@@ -3565,7 +3604,7 @@
         );
     index.add(
             {
-                id:  76 ,
+                id:  79 ,
                 href: "\/tutorials\/docs\/full-stack-projects\/",
                 title: "Full-Stack Projects",
                 description: "All full stack projects handout",
@@ -3574,7 +3613,7 @@
         );
     index.add(
             {
-                id:  77 ,
+                id:  80 ,
                 href: "\/tutorials\/docs\/scala\/scala\/functional_programming\/",
                 title: "Functional Programming in Scala",
                 description: "Scala Lang description",
@@ -3583,7 +3622,7 @@
         );
     index.add(
             {
-                id:  78 ,
+                id:  81 ,
                 href: "\/tutorials\/docs\/mojo\/mojo\/functions_in_mojo\/",
                 title: "Functions in Mojo",
                 description: "Mojo Lang description",
@@ -3592,16 +3631,7 @@
         );
     index.add(
             {
-                id:  79 ,
-                href: "\/tutorials\/docs\/elm\/elm\/getting_started_with_elm\/",
-                title: "Getting Started With Elm",
-                description: "Elm Lang description",
-                content: "Introduction to Elm linkElm is a delightful language for reliable web applications. It compiles to JavaScript, but it’s much more than just a language; it’s a framework for making web development more robust and pleasant. One of the most striking features of Elm is its emphasis on simplicity and quality tooling, making it an excellent choice for both beginners and experienced developers.\nWhy Elm? linkSimplicity and Safety\nElm’s syntax is clean and easy to understand, making it an ideal starting point for those new to programming. It avoids runtime errors in your application, thanks to its strong type system and compiler checks. This means fewer crashes and unexpected behavior in your applications.\nPerformance and Maintainability Elm applications are known for their performance. The language is designed for easy refactoring and maintainability, so your codebase remains manageable, even as it grows in complexity. Great Developer Experience\nElm provides a friendly compiler that not only catches errors but also suggests how to fix them. This feature, along with a strong set of tools and a helpful community, makes learning and developing with Elm a rewarding experience. In the following sections, we will delve into Elm’s setup, basic syntax, core concepts, and some advanced features, all accompanied by practical code examples. This journey will equip you with the foundational knowledge and skills to start building your own Elm applications.\nGetting Started with Elm linkElm provides a smooth entry point for beginners, and setting it up is straightforward. Here’s how you can get started with Elm and write your first Elm program.\nInstallation and Setup\nInstall Elm: Visit Elm’s official website and follow the instructions to install Elm for your operating system.2. Editor Setup: For a better experience, use an editor with Elm support, like Visual Studio Code. Install the Elm language support extensions for syntax highlighting and auto-completion. Create Your First Elm File: Create a new file with the extension .elm. For instance, HelloWorld.elm. Basic Syntax and Structure linkElm is a purely functional language, and its syntax reflects this. Here’s a quick overview: ● Comments: Single-line comments start with –, and multi-line comments are enclosed in {- and -}. ● Functions: Functions are central in Elm. A simple function to add two numbers looks like this:\nadd a b = a + b ● ● Variables: Elm uses immutable variables. Once a variable is declared, its value can’t change. Types: Types are explicit in Elm, ensuring code reliability.\n“Hello, World!” in Elm linkLet’s write the classic “Hello, World!” program. Create a file named HelloWorld.elm and write the following code:\nmodule HelloWorld exposing (..) import Html exposing (text) main = text \"Hello, World!\" This program uses the Html module to display text. The main function is the entry point of every Elm program. Here, it’s using text from the Html module to render “Hello, World!” on the screen. To run this program: ​ Open your terminal or command prompt. ​ Navigate to the directory containing your HelloWorld.elm file. ​ Run elm reactor. ​ Open your web browser and go to http://localhost:8000. ​ Click on HelloWorld.elm to see your program running.\n"
-            }
-        );
-    index.add(
-            {
-                id:  80 ,
+                id:  82 ,
                 href: "\/tutorials\/docs\/golang\/golang\/getting-started-with-go\/",
                 title: "Getting Started with Go",
                 description: "Dive into Go programming with this comprehensive guide on its philosophy, setting up your development environment, and writing your first Go program. Perfect for beginners!",
@@ -3610,7 +3640,7 @@
         );
     index.add(
             {
-                id:  81 ,
+                id:  83 ,
                 href: "\/tutorials\/docs\/huff\/huff\/introduction_to_huff\/",
                 title: "Getting Started With Huff",
                 description: "Huff is a domain-specific, low-level programming language designed explicitly for writing smart contracts on the Ethereum blockchain.",
@@ -3619,7 +3649,7 @@
         );
     index.add(
             {
-                id:  82 ,
+                id:  84 ,
                 href: "\/tutorials\/docs\/julia\/julia\/getting_started_with_julia\/",
                 title: "Getting Started with Julia",
                 description: "Julia, a high-level, high-performance programming language, is designed for technical computing",
@@ -3628,7 +3658,7 @@
         );
     index.add(
             {
-                id:  83 ,
+                id:  85 ,
                 href: "\/tutorials\/docs\/rust\/rust\/rust_introduction\/",
                 title: "Getting Started with Rust",
                 description: "A comprehensive introduction to Rust, detailing its advantages, installation, and initial setup with Cargo, Rust’s build system and package manager.",
@@ -3637,7 +3667,7 @@
         );
     index.add(
             {
-                id:  84 ,
+                id:  86 ,
                 href: "\/tutorials\/docs\/golang\/",
                 title: "Golang",
                 description: "Best Golang blogs out there.",
@@ -3646,7 +3676,7 @@
         );
     index.add(
             {
-                id:  85 ,
+                id:  87 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/concurrency-and-parallelism-in-haskell\/",
                 title: "Harnessing Concurrency and Parallelism in Haskell",
                 description: "Explore the essentials of concurrent and parallel programming in Haskell. Learn how to effectively use threads, asynchronous operations, and strategies for maximizing parallelism.",
@@ -3655,7 +3685,7 @@
         );
     index.add(
             {
-                id:  86 ,
+                id:  88 ,
                 href: "\/tutorials\/docs\/haskell\/",
                 title: "Haskell",
                 description: "Best Haskell blogs out there.",
@@ -3664,7 +3694,7 @@
         );
     index.add(
             {
-                id:  87 ,
+                id:  89 ,
                 href: "\/tutorials\/docs\/huff\/huff\/writing_your_first_huff_contract\/",
                 title: "Hello World using Huff",
                 description: "Huff is a domain-specific, low-level programming language designed explicitly for writing smart contracts on the Ethereum blockchain.",
@@ -3673,7 +3703,7 @@
         );
     index.add(
             {
-                id:  88 ,
+                id:  90 ,
                 href: "\/tutorials\/docs\/solidity\/solidity\/sending_and_recieving_ether\/",
                 title: "How to Send and Receive Ether in Solidity",
                 description: "A simple guide on how to send and receive ether in solidity.",
@@ -3682,7 +3712,7 @@
         );
     index.add(
             {
-                id:  89 ,
+                id:  91 ,
                 href: "\/tutorials\/docs\/htmx\/",
                 title: "HTMX",
                 description: "htmx Lang description",
@@ -3691,7 +3721,7 @@
         );
     index.add(
             {
-                id:  90 ,
+                id:  92 ,
                 href: "\/tutorials\/docs\/huff\/",
                 title: "huff",
                 description: "Huff Lang description",
@@ -3700,7 +3730,7 @@
         );
     index.add(
             {
-                id:  91 ,
+                id:  93 ,
                 href: "\/tutorials\/docs\/rust\/rust\/integrating_rust_ffi_safe_abstractions\/",
                 title: "Integrating Rust with Other Languages: FFI and Safe Abstractions",
                 description: "Explore the essentials of integrating Rust with other programming languages through the Foreign Function Interface (FFI). This comprehensive guide covers how to call C functions from Rust and how to build safe abstractions over inherently unsafe code, providing technical insights, practical coding examples, and best practices for interoperability and safety.",
@@ -3709,7 +3739,7 @@
         );
     index.add(
             {
-                id:  92 ,
+                id:  94 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/interfacing-with-databases-in-haskell\/",
                 title: "Interfacing Databases with Haskell",
                 description: "Learn how to connect Haskell applications to databases and perform CRUD operations using SQLite and PostgreSQL. This guide provides practical examples to enhance your database management skills in Haskell.",
@@ -3718,7 +3748,7 @@
         );
     index.add(
             {
-                id:  93 ,
+                id:  95 ,
                 href: "\/tutorials\/docs\/mojo\/mojo\/using_python_in_mojo\/",
                 title: "Interoperability with Python",
                 description: "Mojo Lang description",
@@ -3727,7 +3757,7 @@
         );
     index.add(
             {
-                id:  94 ,
+                id:  96 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/introduction-to-haskell\/",
                 title: "Introduction to Haskell",
                 description: "Begin your journey into Haskell and functional programming. Learn how to set up the Haskell environment with GHC and Stack and write your first Haskell program.",
@@ -3736,7 +3766,7 @@
         );
     index.add(
             {
-                id:  95 ,
+                id:  97 ,
                 href: "\/tutorials\/docs\/mojo\/mojo\/introduction_to_mojo\/",
                 title: "Introduction to Mojo",
                 description: "Mojo Lang description",
@@ -3745,7 +3775,7 @@
         );
     index.add(
             {
-                id:  96 ,
+                id:  98 ,
                 href: "\/tutorials\/docs\/ocaml\/ocaml\/introduction_to_ocaml\/",
                 title: "Introduction to Ocaml ",
                 description: "OCaml is a multi-paradigm programming language, an extension of the Caml language, and a member of the ML (Meta Language) family.",
@@ -3754,7 +3784,7 @@
         );
     index.add(
             {
-                id:  97 ,
+                id:  99 ,
                 href: "\/tutorials\/docs\/python\/python\/python_introduction\/",
                 title: "Introduction to Python",
                 description: "Explore the essentials of Python programming in this comprehensive introduction. Discover why Python is favored for its simplicity and versatility across many disciplines, learn how to install it on different operating systems, and write your first Python program.",
@@ -3763,7 +3793,7 @@
         );
     index.add(
             {
-                id:  98 ,
+                id:  100 ,
                 href: "\/tutorials\/docs\/scala\/scala\/introduction_to_scala\/",
                 title: "Introduction to Scala",
                 description: "Scala Lang description",
@@ -3772,7 +3802,7 @@
         );
     index.add(
             {
-                id:  99 ,
+                id:  101 ,
                 href: "\/tutorials\/docs\/julia\/",
                 title: "Julia",
                 description: "Julia Lang description",
@@ -3781,7 +3811,7 @@
         );
     index.add(
             {
-                id:  100 ,
+                id:  102 ,
                 href: "\/tutorials\/docs\/keras\/",
                 title: "keras",
                 description: "Best keras blogs out there.",
@@ -3790,7 +3820,7 @@
         );
     index.add(
             {
-                id:  101 ,
+                id:  103 ,
                 href: "\/tutorials\/docs\/keras\/keras\/",
                 title: "Keras",
                 description: "...",
@@ -3799,16 +3829,16 @@
         );
     index.add(
             {
-                id:  102 ,
+                id:  104 ,
                 href: "\/tutorials\/docs\/erlang\/erlang\/getting_started\/",
                 title: "Learn about Erlang",
-                description: "Erlang Lang description",
-                content: "Brief History of Erlang linkErlang was created by Ericsson’s Computer Science Lab in 1986 for handling large-scale telecommunications projects. Its development was driven by the need for a robust system capable of managing numerous concurrent activities, with high levels of fault tolerance. Over the years, Erlang has evolved significantly and is now used in various domains, including banking, e-commerce, and instant messaging.\nKey Features of Erlang linkErlang stands out due to its unique features, which include:\nConcurrency and Distributed Computing\nIt supports numerous lightweight processes and makes it easy to build distributed systems.\nFault Tolerance\nErlang’s ’let it crash’ philosophy and robust error-handling mechanisms ensure system reliability.\nFunctional Programming\nWith its roots in the functional programming paradigm, Erlang emphasizes immutability and side-effect-free functions.\nImportance in the Programming World linkErlang’s ability to handle high-availability systems makes it a critical tool in industries where uptime is crucial. Its impact is most notably seen in telecommunications but extends to other sectors like finance and social media, where scalable, fault-tolerant systems are essential.\nBasics of Erlang Programming linkErlang Syntax and Data Types linkErlang’s syntax is distinct and straightforward, focusing on readability and maintainability. Key points include:\nBasic Syntax Rules\nErlang is case-sensitive, with variables starting with uppercase letters and atoms (constants) with lowercase. Statements are terminated with a period (.).\nData Types\nNumbers: Supports both integers and floats. Atoms: Constants whose name is their value (e.g., true, error). Tuples: Fixed-size collections of values {Value1, Value2, …}. Lists: Variable-length collections [Element1, Element2, …]. Code Example: Basic Syntax and Data Types\n% Defining variables and using atoms MyNumber = 42. MyAtom = hello. MyTuple = {ok, MyNumber}. MyList = [1, 2, 3, MyAtom]. Control Structures linkErlang’s control structures allow for conditional and repetitive execution of code blocks:\nIf Statements\nUsed for conditional execution based on boolean expressions.\nCase Expressions\nSimilar to switch-case in other languages, allowing pattern matching.\nLoops\nErlang uses recursion instead of traditional loop constructs.\nCode Example: Control Structures\n% If statement if MyNumber \u003e 40 -\u003e io:format(\"Greater than 40~n\"); true -\u003e io:format(\"Not greater than 40~n\") end. % Case expression case MyList of [1, _, _] -\u003e io:format(\"List starts with 1~n\"); _ -\u003e io:format(\"Different list~n\") end. Functions in Erlang linkFunctions are crucial in Erlang:\nDefining Functions\nDefined within modules using fun keyword.\nFunction Overloading\nErlang supports function overloading based on the number of arguments.\nCode Example: Functions\n-module(example). -export([add/2]). % Function definition add(A, B) -\u003e A + B. Modules and Compilation linkModules are the primary way to organize code in Erlang:\nCreating Modules\nEach file typically contains one module, defined with -module(ModuleName).\nCompilation Process\nErlang code is compiled into bytecode. The erlc command is used for compilation.\nCode Example: Module and Compilation\n-module(hello_world). -export([hello/0]). hello() -\u003e io:format(\"Hello, World!~n\"). To compile: erlc hello_world.erl\n"
+                description: "Introduction to Erlang, its history, features, and basics of programming.",
+                content: "Brief History of Erlang linkErlang was created by Ericsson’s Computer Science Lab in 1986 for handling large-scale telecommunications projects. Its development was driven by the need for a robust system capable of managing numerous concurrent activities with high levels of fault tolerance. Over the years, Erlang has evolved significantly and is now used in various domains, including banking, e-commerce, and instant messaging.\nKey Features of Erlang linkErlang stands out due to its unique features, which include:\nConcurrency and Distributed Computing linkErlang supports numerous lightweight processes and makes it easy to build distributed systems. Each process in Erlang is isolated and communicates with others via message passing, enabling high levels of concurrency without the complexities associated with traditional threading models.\nFault Tolerance linkErlang’s “let it crash” philosophy and robust error-handling mechanisms ensure system reliability. This approach allows developers to write systems that can recover gracefully from unexpected errors, thus maintaining uptime and stability.\nFunctional Programming linkWith its roots in the functional programming paradigm, Erlang emphasizes immutability and side-effect-free functions. This leads to more predictable and maintainable code.\nImportance in the Programming World linkErlang’s ability to handle high-availability systems makes it a critical tool in industries where uptime is crucial. Its impact is most notably seen in telecommunications but extends to other sectors like finance and social media, where scalable, fault-tolerant systems are essential.\nBasics of Erlang Programming linkErlang Syntax and Data Types linkErlang’s syntax is distinct and straightforward, focusing on readability and maintainability. Key points include:\nBasic Syntax Rules linkErlang is case-sensitive, with variables starting with uppercase letters and atoms (constants) with lowercase. Statements are terminated with a period (.).\nData Types link Numbers: Supports both integers and floats. Atoms: Constants whose name is their value (e.g., true, error). Tuples: Fixed-size collections of values {Value1, Value2, ...}. Lists: Variable-length collections [Element1, Element2, ...]. Code Example: Basic Syntax and Data Types\n% Defining variables and using atoms MyNumber = 42. MyAtom = hello. MyTuple = {ok, MyNumber}. MyList = [1, 2, 3, MyAtom]. Control Structures linkErlang’s control structures allow for conditional and repetitive execution of code blocks:\nIf Statements linkUsed for conditional execution based on boolean expressions.\nCase Expressions linkSimilar to switch-case in other languages, allowing pattern matching.\nLoops linkErlang uses recursion instead of traditional loop constructs.\nCode Example: Control Structures\n% If statement if MyNumber \u003e 40 -\u003e io:format(\"Greater than 40~n\"); true -\u003e io:format(\"Not greater than 40~n\") end. % Case expression case MyList of [1, _, _] -\u003e io:format(\"List starts with 1~n\"); _ -\u003e io:format(\"Different list~n\") end. Functions in Erlang linkFunctions are crucial in Erlang:\nDefining Functions linkDefined within modules using the fun keyword.\nFunction Overloading linkErlang supports function overloading based on the number of arguments.\nCode Example: Functions\n-module(example). -export([add/2]). % Function definition add(A, B) -\u003e A + B. Modules and Compilation linkModules are the primary way to organize code in Erlang:\nCreating Modules linkEach file typically contains one module, defined with -module(ModuleName).\nCompilation Process linkErlang code is compiled into bytecode. The erlc command is used for compilation.\nCode Example: Module and Compilation\n-module(hello_world). -export([hello/0]). hello() -\u003e io:format(\"Hello, World!~n\"). To compile: erlc hello_world.erl\nAdvanced Topics linkConcurrency linkErlang’s concurrency model is based on the Actor model. Each process is isolated and communicates with others via message passing. This model simplifies concurrent programming and avoids many issues related to shared state and locking.\nCode Example: Spawning Processes\n-module(concurrency_example). -export([start/0, loop/0]). start() -\u003e Pid = spawn(concurrency_example, loop, []), Pid ! {self(), \"Hello, Process!\"}. loop() -\u003e receive {From, Message} -\u003e io:format(\"Received ~p from ~p~n\", [Message, From]), loop() end. Distributed Computing linkErlang’s distributed computing capabilities allow processes to communicate across different nodes seamlessly. This makes it easy to build scalable and fault-tolerant distributed systems.\nCode Example: Connecting Nodes\n% Start the Erlang shell with a name erl -name node1@hostname % In another shell erl -name node2@hostname -setcookie samecookie % From node1 net_adm:ping('node2@hostname'). Error Handling linkErlang’s approach to error handling is to let processes fail and restart them in a clean state. This is achieved using supervisors.\nCode Example: Supervisor\n-module(supervisor_example). -behaviour(supervisor). -export([start_link/0, init/1]). start_link() -\u003e supervisor:start_link({local, ?MODULE}, ?MODULE, []). init([]) -\u003e {ok, {{one_for_one, 5, 10}, [{child, {child_example, start_link, []}, permanent, 5000, worker, [child_example]}]}}. In summary, Erlang is a powerful language for building concurrent, distributed, and fault-tolerant systems. Its unique features and robust architecture make it a valuable tool in various industries, ensuring system reliability and scalability.\n"
             }
         );
     index.add(
             {
-                id:  103 ,
+                id:  105 ,
                 href: "\/tutorials\/docs\/solidity\/solidity\/reentrancy_attacks\/",
                 title: "Learn About Reentracny Attacks and how to Prevent them",
                 description: "Learn how blockchain reentrancy attacks work and how to protect your smart contracts from them.",
@@ -3817,7 +3847,7 @@
         );
     index.add(
             {
-                id:  104 ,
+                id:  106 ,
                 href: "\/tutorials\/docs\/solidity\/solidity\/testing_in_solidity\/",
                 title: "Learn How To Write Unit Tests In Solidity",
                 description: "Learn about Solidity, basics, language syntax and more.",
@@ -3826,7 +3856,7 @@
         );
     index.add(
             {
-                id:  105 ,
+                id:  107 ,
                 href: "\/tutorials\/docs\/htmx\/htmx\/getting_started_with_htmx\/",
                 title: "Learning More Abuot HTMX",
                 description: "Learn about what HTMX is and how you can use it.",
@@ -3835,7 +3865,7 @@
         );
     index.add(
             {
-                id:  106 ,
+                id:  108 ,
                 href: "\/tutorials\/docs\/htmx\/htmx\/some_examples_using_htmx\/",
                 title: "Learning More Abuot HTMX",
                 description: "Learn about what HTMX is and how you can use it.",
@@ -3844,7 +3874,7 @@
         );
     index.add(
             {
-                id:  107 ,
+                id:  109 ,
                 href: "\/tutorials\/docs\/htmx\/htmx\/some_hx_attributes\/",
                 title: "Learning More Abuot HTMX",
                 description: "Learn about what HTMX is and how you can use it.",
@@ -3853,7 +3883,7 @@
         );
     index.add(
             {
-                id:  108 ,
+                id:  110 ,
                 href: "\/tutorials\/docs\/rust\/rust\/leveraging_slices_rust\/",
                 title: "Leveraging the Power of Slices in Rust",
                 description: "Explore the versatile and efficient slice type in Rust, learning how to utilize string slices and other applications to manage data segments without ownership, featuring detailed technical insights and practical coding examples.",
@@ -3862,7 +3892,7 @@
         );
     index.add(
             {
-                id:  109 ,
+                id:  111 ,
                 href: "\/tutorials\/docs\/golang\/golang\/understanding-go-basics\/",
                 title: "Master the Basics of Go",
                 description: "Unlock the fundamentals of Go programming with an in-depth look at its data types, variables, constants, basic operators, and control structures including if, else, switch, and loops.",
@@ -3871,7 +3901,7 @@
         );
     index.add(
             {
-                id:  110 ,
+                id:  112 ,
                 href: "\/tutorials\/docs\/rust\/rust\/collections-rust\/",
                 title: "Mastering Collections in Rust: Vectors, HashMaps, and HashSets",
                 description: "Delve deep into Rust's collections framework in this comprehensive guide, exploring the intricacies of Vectors, HashMaps, and HashSets. Learn how to utilize these collections effectively to build more efficient and robust Rust applications. This post is packed with technical insights, practical coding examples, and best practices tailored for advanced Rust developers.",
@@ -3880,7 +3910,7 @@
         );
     index.add(
             {
-                id:  111 ,
+                id:  113 ,
                 href: "\/tutorials\/docs\/python\/python\/python_concurrency_and_parallelism\/",
                 title: "Mastering Concurrency and Parallelism in Python: Threading, Multiprocessing, and Asyncio",
                 description: "Explore the concepts of concurrency and parallelism in Python with an in-depth look at threading, multiprocessing, and the asyncio module. Learn how to effectively handle asynchronous and parallel tasks to optimize performance and efficiency in your applications.",
@@ -3889,7 +3919,7 @@
         );
     index.add(
             {
-                id:  112 ,
+                id:  114 ,
                 href: "\/tutorials\/docs\/golang\/golang\/concurrency-in-go-routines\/",
                 title: "Mastering Concurrency in Go with Goroutines",
                 description: "Unlock the power of asynchronous programming in Go with our comprehensive guide on goroutines. Learn best practices for managing concurrency effectively in your Go applications.",
@@ -3898,7 +3928,7 @@
         );
     index.add(
             {
-                id:  113 ,
+                id:  115 ,
                 href: "\/tutorials\/docs\/rust\/rust\/concurrency_rust\/",
                 title: "Mastering Concurrency in Rust",
                 description: "Unlock the power of safe concurrency in Rust with this in-depth exploration of threading, parallelism, and Rust's ownership-based approach to concurrency safety. This detailed guide provides technical insights, practical coding examples, and best practices to effectively utilize concurrency in Rust applications.",
@@ -3907,7 +3937,7 @@
         );
     index.add(
             {
-                id:  114 ,
+                id:  116 ,
                 href: "\/tutorials\/docs\/python\/python\/python_control_structures\/",
                 title: "Mastering Control Structures in Python: If Statements, Loops, and More",
                 description: "Unlock the power of Python's control structures to guide your program's decisions and repetitive tasks. This guide provides a deep dive into if statements, for loops, and while loops with practical examples.",
@@ -3916,7 +3946,7 @@
         );
     index.add(
             {
-                id:  115 ,
+                id:  117 ,
                 href: "\/tutorials\/docs\/python\/python\/python_dictionaries_and_sets\/",
                 title: "Mastering Dictionaries and Sets in Python: Comprehensive Guide to Data Handling",
                 description: "Enhance your Python skills by mastering dictionaries and sets. This guide covers everything from basic operations to advanced methods of dictionaries, along with a deep dive into the functionalities of sets.",
@@ -3925,7 +3955,7 @@
         );
     index.add(
             {
-                id:  116 ,
+                id:  118 ,
                 href: "\/tutorials\/docs\/rust\/rust\/mastering_generics_traits_rust\/",
                 title: "Mastering Generic Types and Traits in Rust",
                 description: "Unlock the full potential of Rust’s type system with an in-depth exploration of generic types and traits. This comprehensive guide delves into the creation and use of generics to write flexible and reusable code, and explains how traits and trait bounds are used to define shared behavior across types. Packed with technical insights and practical examples, this post is perfect for Rust programmers aiming to elevate their coding practices.",
@@ -3934,7 +3964,7 @@
         );
     index.add(
             {
-                id:  117 ,
+                id:  119 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/module-system-in-haskell\/",
                 title: "Mastering Haskell’s Module System for Efficient Code Organization",
                 description: "Learn how to effectively organize your Haskell projects with a comprehensive guide to Haskell’s module system, including how to import, export, and structure your code across multiple modules.",
@@ -3943,7 +3973,7 @@
         );
     index.add(
             {
-                id:  118 ,
+                id:  120 ,
                 href: "\/tutorials\/docs\/rust\/rust\/mastering_lifetime_management_rust\/",
                 title: "Mastering Lifetime Management in Rust",
                 description: "Explore the crucial concept of lifetimes in Rust, understanding how to define and use lifetime annotations to manage memory safely and efficiently. This comprehensive guide discusses the intricacies of lifetimes in Rust, providing technical insights, practical coding examples, and best practices for effective lifetime management in your Rust applications.",
@@ -3952,7 +3982,7 @@
         );
     index.add(
             {
-                id:  119 ,
+                id:  121 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/working-with-lists-in-haskell\/",
                 title: "Mastering List Operations in Haskell",
                 description: "Explore the essentials of working with lists in Haskell, including detailed list operations and the use of list comprehensions. Discover practical examples to enhance your Haskell programming skills.",
@@ -3961,7 +3991,7 @@
         );
     index.add(
             {
-                id:  120 ,
+                id:  122 ,
                 href: "\/tutorials\/docs\/rust\/rust\/macros-rust\/",
                 title: "Mastering Macros in Rust",
                 description: "Dive deep into the powerful macro system of Rust with this comprehensive guide on understanding and creating custom macros. This post provides a detailed exploration of macro syntax, practical examples of custom macros, and best practices for utilizing macros to write more concise and flexible Rust code.",
@@ -3970,7 +4000,7 @@
         );
     index.add(
             {
-                id:  121 ,
+                id:  123 ,
                 href: "\/tutorials\/docs\/python\/python\/python_object_oriented_programming\/",
                 title: "Mastering Object-Oriented Programming in Python: Classes, Inheritance, and Polymorphism",
                 description: "Unlock the full potential of object-oriented programming in Python with this extensive guide. Learn how to define classes, create objects, and utilize inheritance and polymorphism to design reusable and modular code.",
@@ -3979,7 +4009,7 @@
         );
     index.add(
             {
-                id:  122 ,
+                id:  124 ,
                 href: "\/tutorials\/docs\/rust\/rust\/mastering_references_borrowing_rust\/",
                 title: "Mastering References and Borrowing in Rust",
                 description: "Dive deep into the concepts of references and borrowing in Rust, exploring both immutable and mutable references, and how they interact with Rust's ownership rules to facilitate safe and efficient memory management.",
@@ -3988,7 +4018,7 @@
         );
     index.add(
             {
-                id:  123 ,
+                id:  125 ,
                 href: "\/tutorials\/docs\/python\/python\/python_string_manipulation\/",
                 title: "Mastering String Manipulation in Python: Operations, Methods, and Formatting",
                 description: "Explore the art of string manipulation in Python through this comprehensive guide. Learn basic operations, discover powerful string methods, and master the formatting techniques to enhance your data processing skills.",
@@ -3997,7 +4027,7 @@
         );
     index.add(
             {
-                id:  124 ,
+                id:  126 ,
                 href: "\/tutorials\/docs\/rust\/rust\/mastering_structs_rust\/",
                 title: "Mastering Structs in Rust: Definition, Methods, and Usage",
                 description: "Dive deep into the fundamentals and advanced uses of structs in Rust, covering their definition, the implementation of methods, and associated functions. This comprehensive guide includes practical examples and technical explanations to master struct-based designs in Rust programming.",
@@ -4006,7 +4036,7 @@
         );
     index.add(
             {
-                id:  125 ,
+                id:  127 ,
                 href: "\/tutorials\/docs\/golang\/golang\/testing-in-go\/",
                 title: "Mastering Testing in Go",
                 description: "Dive into the best practices of writing unit tests in Go, leveraging the built-in testing package, and utilizing benchmarks and profiling to optimize your Go applications.",
@@ -4015,7 +4045,7 @@
         );
     index.add(
             {
-                id:  126 ,
+                id:  128 ,
                 href: "\/tutorials\/docs\/python\/python\/basic_python_syntax\/",
                 title: "Mastering the Basics: Python Syntax, Indentation, and Comments",
                 description: "Unlock the fundamentals of Python programming with a detailed exploration of its syntax. Learn through practical examples, including building a Fibonacci sequence, understanding the crucial role of indentation, and effectively using comments for better code readability.",
@@ -4024,7 +4054,7 @@
         );
     index.add(
             {
-                id:  127 ,
+                id:  129 ,
                 href: "\/tutorials\/docs\/mojo\/mojo\/modules_and_packages\/",
                 title: "Modules and Packages in Mojo",
                 description: "Mojo Lang description",
@@ -4033,7 +4063,7 @@
         );
     index.add(
             {
-                id:  128 ,
+                id:  130 ,
                 href: "\/tutorials\/docs\/nim\/nim\/modules\/",
                 title: "Modules in Nim",
                 description: "Learn more about nim's module system",
@@ -4042,7 +4072,7 @@
         );
     index.add(
             {
-                id:  129 ,
+                id:  131 ,
                 href: "\/tutorials\/docs\/mojo\/",
                 title: "Mojo",
                 description: "Mojo Lang description",
@@ -4051,7 +4081,7 @@
         );
     index.add(
             {
-                id:  130 ,
+                id:  132 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/monad-magic-in-haskell\/",
                 title: "Monad Magic in Haskell",
                 description: "Unlock the mystery of monads in Haskell. Learn the fundamental concepts and theories of monads, and explore practical uses with the Maybe, IO, and List Monads.",
@@ -4060,7 +4090,7 @@
         );
     index.add(
             {
-                id:  131 ,
+                id:  133 ,
                 href: "\/tutorials\/docs\/nim\/",
                 title: "Nim",
                 description: "Nim Lang description",
@@ -4069,7 +4099,7 @@
         );
     index.add(
             {
-                id:  132 ,
+                id:  134 ,
                 href: "\/tutorials\/docs\/numpy\/",
                 title: "numpy",
                 description: "Best numpy blogs out there.",
@@ -4078,7 +4108,7 @@
         );
     index.add(
             {
-                id:  133 ,
+                id:  135 ,
                 href: "\/tutorials\/docs\/numpy\/numpy\/",
                 title: "Numpy",
                 description: "...",
@@ -4087,7 +4117,7 @@
         );
     index.add(
             {
-                id:  134 ,
+                id:  136 ,
                 href: "\/tutorials\/docs\/julia\/julia\/object_oriented_programming\/",
                 title: "Object Oriented Programming with Julia",
                 description: "Julia, a high-level, high-performance programming language, is designed for technical computing",
@@ -4096,7 +4126,7 @@
         );
     index.add(
             {
-                id:  135 ,
+                id:  137 ,
                 href: "\/tutorials\/docs\/mojo\/mojo\/oop\/",
                 title: "Object-Oriented Programming (OOP) Concepts in Mojo",
                 description: "Mojo Lang description",
@@ -4105,7 +4135,7 @@
         );
     index.add(
             {
-                id:  136 ,
+                id:  138 ,
                 href: "\/tutorials\/docs\/scala\/scala\/object_oriented_programming\/",
                 title: "Object-Oriented Programming in Scala",
                 description: "Scala Lang description",
@@ -4114,7 +4144,7 @@
         );
     index.add(
             {
-                id:  137 ,
+                id:  139 ,
                 href: "\/tutorials\/docs\/ocaml\/",
                 title: "Ocaml",
                 description: "Ocaml Lang description",
@@ -4123,7 +4153,7 @@
         );
     index.add(
             {
-                id:  138 ,
+                id:  140 ,
                 href: "\/tutorials\/docs\/opencv\/",
                 title: "OpenCV",
                 description: "Best OpenCV blogs out there.",
@@ -4132,7 +4162,7 @@
         );
     index.add(
             {
-                id:  139 ,
+                id:  141 ,
                 href: "\/tutorials\/docs\/opencv\/opencv\/",
                 title: "OpenCV",
                 description: "...",
@@ -4141,7 +4171,7 @@
         );
     index.add(
             {
-                id:  140 ,
+                id:  142 ,
                 href: "\/tutorials\/docs\/pandas\/",
                 title: "pandas",
                 description: "Best pandas blogs out there.",
@@ -4150,16 +4180,16 @@
         );
     index.add(
             {
-                id:  141 ,
+                id:  143 ,
                 href: "\/tutorials\/docs\/erlang\/erlang\/applications_and_best_practices\/",
                 title: "Practical Applications and Best Practices",
-                description: "Erlang Lang description",
-                content: "Practical Applications and Best Practices linkReal-World Applications of Erlang linkErlang’s unique features make it a preferred choice in several critical industries:\nCase Studies\nNotable examples include WhatsApp for instant messaging, Ericsson for telecommunications, and Klarna for online payments. These applications leverage Erlang’s ability to handle massive concurrency and maintain high availability.\nIndustry Use-Cases\nErlang is extensively used in sectors requiring scalable, fault-tolerant systems, such as banking, e-commerce, telecommunication, and cloud computing.\nBest Practices in Erlang Programming linkAdopting best practices is crucial for writing efficient, maintainable, and scalable Erlang code:\nCode Organization\nStructuring code into modules, following OTP design principles, and maintaining clear documentation.\nPerformance Optimization\nProfiling and optimizing code, efficiently handling memory and process management, and understanding the nuances of Erlang’s garbage collection.\nTesting and Documentation\nWriting comprehensive tests using tools like EUnit and ensuring thorough documentation for maintainability and ease of collaboration.\nCode Example: Code Organization and Documentation\n-module(my_module). -author(\"Your Name\"). %% @doc This function adds two numbers. %% @spec add(Number1, Number2) -\u003e Number when %% Number1, Number2, Number :: number(). add(Number1, Number2) -\u003e Number1 + Number2. "
+                description: "Explore real-world applications and best practices in Erlang programming.",
+                content: "Practical Applications and Best Practices linkReal-World Applications of Erlang linkErlang’s unique features make it a preferred choice in several critical industries:\nCase Studies linkWhatsApp: One of the most well-known examples, WhatsApp uses Erlang to handle its messaging infrastructure. Erlang’s ability to support massive concurrency and its fault tolerance ensures that millions of messages are delivered reliably every day.\nEricsson: As the creator of Erlang, Ericsson uses it extensively in its telecommunications infrastructure, benefiting from its robustness and ability to manage large-scale concurrent activities.\nKlarna: A leading online payment solution provider, Klarna leverages Erlang for its backend systems, ensuring high availability and reliability in processing financial transactions.\nIndustry Use-Cases linkErlang is extensively used in sectors requiring scalable, fault-tolerant systems, such as:\nBanking: For transaction processing systems that need high reliability. E-commerce: To handle large volumes of transactions and customer interactions. Telecommunications: For managing calls, messages, and data sessions. Cloud Computing: To build scalable and resilient cloud-based services. Best Practices in Erlang Programming linkAdopting best practices is crucial for writing efficient, maintainable, and scalable Erlang code:\nCode Organization link Modular Design: Organize your code into modules, each responsible for specific functionality. This improves readability and maintainability. OTP Design Principles: Follow the Open Telecom Platform (OTP) design principles, which provide a set of frameworks and libraries for building robust applications. Clear Documentation: Maintain clear and comprehensive documentation for your modules and functions to facilitate collaboration and maintenance. Performance Optimization link Profiling and Optimization: Use tools like fprof and eprof for profiling your code to identify and optimize performance bottlenecks. Efficient Memory Management: Be mindful of memory usage, especially with large data structures and processes. Garbage Collection: Understand how Erlang’s garbage collection works to optimize memory use and performance. Testing and Documentation link Comprehensive Testing: Write extensive tests using tools like EUnit and Common Test to ensure your code behaves as expected. Documentation: Provide thorough documentation for your codebase, including specifications, usage examples, and detailed explanations of complex logic. Code Example: Code Organization and Documentation link -module(my_module). -author(\"Your Name\"). %% @doc This function adds two numbers. %% @spec add(number(), number()) -\u003e number(). add(Number1, Number2) -\u003e Number1 + Number2. Example: Using OTP Design Principles linkSupervisor and Worker Example link -module(my_supervisor). -behaviour(supervisor). -export([start_link/0, init/1]). start_link() -\u003e supervisor:start_link({local, ?MODULE}, ?MODULE, []). init([]) -\u003e {ok, {{one_for_one, 5, 10}, [{my_worker, {my_worker, start_link, []}, permanent, 5000, worker, [my_worker]}]}}. -module(my_worker). -behaviour(gen_server). -export([start_link/0, init/1, handle_call/3, handle_cast/2, terminate/2, code_change/3]). start_link() -\u003e gen_server:start_link({local, ?MODULE}, ?MODULE, [], []). init([]) -\u003e {ok, #state{}}. handle_call(_Request, _From, State) -\u003e {reply, ok, State}. handle_cast(_Msg, State) -\u003e {noreply, State}. terminate(_Reason, _State) -\u003e ok. code_change(_OldVsn, State, _Extra) -\u003e {ok, State}. In this example, we define a supervisor (my_supervisor) and a worker (my_worker). The supervisor is responsible for starting and monitoring the worker processes, ensuring that they are restarted if they fail.\nConclusion linkUnderstanding and applying best practices in Erlang programming helps in building robust, scalable, and maintainable systems. By learning from real-world applications and adhering to recommended practices, developers can leverage Erlang’s full potential in creating high-availability systems.\n"
             }
         );
     index.add(
             {
-                id:  142 ,
+                id:  144 ,
                 href: "\/tutorials\/docs\/solidity\/solidity\/price_oracle_using_chainlink_and_solidity\/",
                 title: "Price Oracle Using Chainlink and Solidity",
                 description: "Get access to price feed ofchain using solidity and chainlink.",
@@ -4168,7 +4198,7 @@
         );
     index.add(
             {
-                id:  143 ,
+                id:  145 ,
                 href: "\/tutorials\/docs\/python\/",
                 title: "Python",
                 description: "Best Python blogs out there.",
@@ -4177,7 +4207,7 @@
         );
     index.add(
             {
-                id:  144 ,
+                id:  146 ,
                 href: "\/tutorials\/docs\/python\/python\/python_modules_and_packages\/",
                 title: "Python Modules and Packages: Importing Essentials and Exploring Standard Libraries",
                 description: "Deep dive into Python's modular approach with a focus on importing modules and leveraging the capabilities of standard libraries such as math and datetime. This guide offers detailed insights and examples to enhance your programming efficiency.",
@@ -4186,7 +4216,7 @@
         );
     index.add(
             {
-                id:  145 ,
+                id:  147 ,
                 href: "\/tutorials\/docs\/pytorch\/",
                 title: "pytorch",
                 description: "Best pytorch blogs out there.",
@@ -4195,7 +4225,7 @@
         );
     index.add(
             {
-                id:  146 ,
+                id:  148 ,
                 href: "\/tutorials\/docs\/pytorch\/pytorch\/",
                 title: "Pytorch",
                 description: "...",
@@ -4204,7 +4234,7 @@
         );
     index.add(
             {
-                id:  147 ,
+                id:  149 ,
                 href: "\/tutorials\/docs\/rust\/rust\/robust_error_handling_rust\/",
                 title: "Robust Error Handling in Rust: Using Result and Option",
                 description: "Dive deep into Rust’s error handling mechanisms, exploring the `Result` and `Option` types, and advanced error propagation techniques. This comprehensive guide is packed with technical insights, practical coding examples, and best practices aimed at mastering error management in Rust programming.",
@@ -4213,7 +4243,7 @@
         );
     index.add(
             {
-                id:  148 ,
+                id:  150 ,
                 href: "\/tutorials\/docs\/rust\/",
                 title: "Rust",
                 description: "Best Rust blogs out there.",
@@ -4222,7 +4252,7 @@
         );
     index.add(
             {
-                id:  149 ,
+                id:  151 ,
                 href: "\/tutorials\/docs\/scala\/",
                 title: "Scala",
                 description: "Scala Lang description",
@@ -4231,7 +4261,7 @@
         );
     index.add(
             {
-                id:  150 ,
+                id:  152 ,
                 href: "\/tutorials\/docs\/julia\/julia\/scientific_computing\/",
                 title: "Scientific Computing with Julia",
                 description: "Julia, a high-level, high-performance programming language, is designed for technical computing",
@@ -4240,7 +4270,7 @@
         );
     index.add(
             {
-                id:  151 ,
+                id:  153 ,
                 href: "\/tutorials\/docs\/rust\/rust\/smart_pointers_rust\/",
                 title: "Smart Pointers in Rust",
                 description: "Deep dive into the world of smart pointers in Rust with this comprehensive guide on `Box`, `Rc`, and `Arc`. Learn how to effectively utilize these tools to manage memory in complex applications, including technical explanations, practical examples, and best practices for when to use each type of smart pointer.",
@@ -4249,7 +4279,7 @@
         );
     index.add(
             {
-                id:  152 ,
+                id:  154 ,
                 href: "\/tutorials\/docs\/solidity\/",
                 title: "Solidity",
                 description: "Solidity is an object-oriented programming language. Learn more about the basics and applications of solidity",
@@ -4258,7 +4288,7 @@
         );
     index.add(
             {
-                id:  153 ,
+                id:  155 ,
                 href: "\/tutorials\/docs\/solidity\/solidity\/solidity_and_erc20_tokens\/",
                 title: "Solidity and ERC20 Tokens",
                 description: "Learn about ERC20 tokens and how to implement them",
@@ -4267,7 +4297,7 @@
         );
     index.add(
             {
-                id:  154 ,
+                id:  156 ,
                 href: "\/tutorials\/docs\/rust\/rust\/structuring_rust_projects_modules_crates\/",
                 title: "Structuring Rust Projects: Modules and Crates Explained",
                 description: "Deepen your understanding of Rust's module system and learn how to leverage external crates for project enhancement. This comprehensive guide covers the essentials of organizing code with modules and integrating functionality from external sources through crates. Perfect for Rust developers aiming to build scalable and maintainable applications.",
@@ -4276,7 +4306,7 @@
         );
     index.add(
             {
-                id:  155 ,
+                id:  157 ,
                 href: "\/tutorials\/docs\/system-design\/system-design\/",
                 title: "System design",
                 description: "If you are looking to grow in you tech career and understand system design indepth, this guide is for you.",
@@ -4285,7 +4315,7 @@
         );
     index.add(
             {
-                id:  156 ,
+                id:  158 ,
                 href: "\/tutorials\/docs\/system-design\/",
                 title: "System Design",
                 description: "If you are looking to grow in you tech career and understand system design indepth, this guide is for you.",
@@ -4294,7 +4324,7 @@
         );
     index.add(
             {
-                id:  157 ,
+                id:  159 ,
                 href: "\/tutorials\/docs\/technical-architecture\/",
                 title: "Technical Architecture",
                 description: "Best blogs out there.",
@@ -4303,7 +4333,7 @@
         );
     index.add(
             {
-                id:  158 ,
+                id:  160 ,
                 href: "\/tutorials\/docs\/solidity\/solidity\/understanding_application_binary_interface\/",
                 title: "Understandin Application Binary Interface (ABI) in Solidity",
                 description: "Learn about ABIs in solidity and their uses.",
@@ -4312,7 +4342,7 @@
         );
     index.add(
             {
-                id:  159 ,
+                id:  161 ,
                 href: "\/tutorials\/docs\/rust\/rust\/understanding_using_unsafe_rust\/",
                 title: "Understanding and Using Unsafe Rust",
                 description: "Delve into the realm of Unsafe Rust with this in-depth guide, exploring the principles of `unsafe` code, its usage, and best practices. Learn technical details and practical strategies for when and how to responsibly incorporate `unsafe` Rust into your projects to manipulate low-level system details safely and efficiently.",
@@ -4321,7 +4351,7 @@
         );
     index.add(
             {
-                id:  160 ,
+                id:  162 ,
                 href: "\/tutorials\/docs\/python\/python\/python_functions\/",
                 title: "Understanding Functions in Python: Definitions, Parameters, Returns, and Scope",
                 description: "Master the fundamentals of Python functions, from creation and parameter handling to understanding variable scope. This guide offers detailed explanations and code examples to enrich your programming knowledge.",
@@ -4330,7 +4360,7 @@
         );
     index.add(
             {
-                id:  161 ,
+                id:  163 ,
                 href: "\/tutorials\/docs\/huff\/huff\/understanding_huff_macros\/",
                 title: "Understanding Huff Macros",
                 description: "Huff is a domain-specific, low-level programming language designed explicitly for writing smart contracts on the Ethereum blockchain.",
@@ -4339,7 +4369,7 @@
         );
     index.add(
             {
-                id:  162 ,
+                id:  164 ,
                 href: "\/tutorials\/docs\/python\/python\/python_iterators_and_generators\/",
                 title: "Understanding Iterators and Generators in Python: Leveraging Yield for Efficient Code",
                 description: "Dive deep into the mechanics of iterators and generators in Python. Learn how to create custom iterators, design generator functions, and effectively use the yield keyword to optimize memory usage and code execution.",
@@ -4348,7 +4378,7 @@
         );
     index.add(
             {
-                id:  163 ,
+                id:  165 ,
                 href: "\/tutorials\/docs\/python\/python\/variables_and_data_types\/",
                 title: "Understanding Python Variables and Data Types: From Basics to Type Conversion",
                 description: "Delve into the fundamentals of Python variables and data types, covering numbers, strings, and booleans, along with essential type conversion techniques to manipulate and utilize data effectively.",
@@ -4357,7 +4387,7 @@
         );
     index.add(
             {
-                id:  164 ,
+                id:  166 ,
                 href: "\/tutorials\/docs\/golang\/golang\/structs-and-interfaces-in-go\/",
                 title: "Understanding Structs and Interfaces in Go",
                 description: "Explore the powerful concepts of structs and interfaces in Go programming. Learn how to define structs, implement methods on them, and utilize interfaces for flexible, scalable code.",
@@ -4366,7 +4396,7 @@
         );
     index.add(
             {
-                id:  165 ,
+                id:  167 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/type-classes-and-polymorphism-in-haskell\/",
                 title: "Understanding Type Classes and Polymorphism in Haskell",
                 description: "Explore the concepts of type classes and polymorphism in Haskell, including an introduction to foundational type classes like Eq, Ord, and Show, and how to implement custom type classes for sophisticated type handling.",
@@ -4375,7 +4405,7 @@
         );
     index.add(
             {
-                id:  166 ,
+                id:  168 ,
                 href: "\/tutorials\/docs\/rust\/rust\/async_programming_rust\/",
                 title: "Unlocking Asynchronous Programming in Rust",
                 description: "Explore the powerful asynchronous programming model in Rust with this in-depth guide on the async/await syntax and best practices for building scalable asynchronous applications. Packed with technical insights, practical coding examples, and advanced techniques, this post is essential for Rust developers looking to enhance the responsiveness and performance of their applications.",
@@ -4384,7 +4414,7 @@
         );
     index.add(
             {
-                id:  167 ,
+                id:  169 ,
                 href: "\/tutorials\/docs\/golang\/golang\/using-databases-in-go\/",
                 title: "Using Databases in Go",
                 description: "Learn how to connect to SQL and NoSQL databases from Go applications, perform CRUD operations, and utilize popular ORM tools to streamline your data handling.",
@@ -4393,7 +4423,7 @@
         );
     index.add(
             {
-                id:  168 ,
+                id:  170 ,
                 href: "\/tutorials\/docs\/golang\/golang\/working-with-collections-in-go\/",
                 title: "Working with Collections in Go",
                 description: "Learn how to efficiently manage collections in Go, including mastering arrays, slices, maps, and iterating over these collections using the range clause.",
@@ -4402,16 +4432,7 @@
         );
     index.add(
             {
-                id:  169 ,
-                href: "\/tutorials\/docs\/elm\/elm\/working_with_http_requests\/",
-                title: "Working with HTTP Requests",
-                description: "Elm Lang description",
-                content: "Working with HTTP Requests linkElm provides a smooth way to handle HTTP requests with the Http module.\nMaking a GET Request\nHere’s an example of how to make a GET request to fetch data:\nfetchDataCmd : Cmd Msg fetchDataCmd = Http.get { url = \"https://api.example.com/data\" , expect = Http.expectString ReceiveData } This function creates a command that, when executed, sends a GET request to the specified URL and expects a string response.\nJSON Decoding linkElm handles JSON data using decoders. A JSON decoder describes how to convert JSON data into Elm values.\nDecoding JSON Here’s an example of a JSON decoder:\ntype alias User = { id : Int, name : String } userDecoder : Decoder User userDecoder = Decode.map2 User (Decode.field \"id\" Decode.int) (Decode.field \"name\" Decode.string) This userDecoder can be used to decode a JSON object into a User record.\nUsing JSON Decoder in HTTP Request linkYou can use this decoder with the Http module to decode the response of an HTTP request:\nfetchUserCmd : Cmd Msg fetchUserCmd = Http.get{ url = \"https://api.example.com/user\" , expect = Http.expectJson ReceiveData userDecoder }``` In this example, when the data is received from the URL, it's decoded using userDecoder. "
-            }
-        );
-    index.add(
-            {
-                id:  170 ,
+                id:  171 ,
                 href: "\/tutorials\/docs\/python\/python\/python_lists_and_tuples\/",
                 title: "Working with Lists and Tuples in Python: Creation, Access, and More",
                 description: "Discover how to effectively use lists and tuples in Python. Learn to create and access these data structures, utilize list comprehensions for concise coding, and understand tuple operations with clear examples.",
@@ -4420,7 +4441,7 @@
         );
     index.add(
             {
-                id:  171 ,
+                id:  172 ,
                 href: "\/tutorials\/docs\/xgboost\/",
                 title: "XGboost",
                 description: "Best XGboost blogs out there.",
@@ -4429,7 +4450,7 @@
         );
     index.add(
             {
-                id:  172 ,
+                id:  173 ,
                 href: "\/tutorials\/docs\/xgboost\/xgboost\/",
                 title: "XGboost",
                 description: "...",
@@ -4438,7 +4459,7 @@
         );
     index.add(
             {
-                id:  173 ,
+                id:  174 ,
                 href: "\/tutorials\/docs\/rust\/rust\/first_rust_program\/",
                 title: "Your First Rust Program",
                 description: "Learn to write, compile, and run your first simple Rust program. Understand the basics of Rust compilation and execution.",
@@ -4447,7 +4468,7 @@
         );
     index.add(
             {
-                id:  174 ,
+                id:  175 ,
                 href: "\/tutorials\/docs\/zig\/",
                 title: "Zig",
                 description: "Zig Lang description",
@@ -4456,7 +4477,7 @@
         );
     index.add(
             {
-                id:  175 ,
+                id:  176 ,
                 href: "\/tutorials\/docs\/zig\/zig\/zig\/",
                 title: "Zig",
                 description: "Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.",

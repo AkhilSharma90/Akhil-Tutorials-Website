@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Julia"
+title: "A Getting Started Guide with Julia"
 description: "Julia, a high-level, high-performance programming language, is designed for technical computing"
 icon: "code"
 draft: false

@@ -78,11 +78,67 @@
       <description>Protocols - ether, fddi, ip, arp, rarp, decnet, lat, sca, moprc, mopdl, tcp and udp linkWireshark Capturing Modes link Promiscuous mode Sets interface to capture all packets on a network segment to which it is associated to Monitor mode setup the Wireless interface to capture all traffic it can receive (Unix/Linux only) Filter Types link Capture filter Filter packets during capture Display Filter Hide Packets from a capture display Capture Filter Syntax link Syntax protocol direction hosts value Logical operator Expressions Example tcp src 192.</description>
     </item>
     <item>
+      <title>1. Getting started guide with HTMX</title>
+      <link>http://localhost:1313/tutorials/docs/htmx/htmx/getting_started_with_htmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/getting_started_with_htmx/</guid>
+      <description>htmx in a Nutshell linkhtmx is a library that allows you to access modern browser features directly from HTML, rather than using javascript. To understand htmx, first let’s take a look at an anchor tag:&#xA;&amp;lt;a href=&amp;#34;/blog&amp;#34;&amp;gt;Blog&amp;lt;/a&amp;gt; This anchor tag tells a browser:&#xA;“When a user clicks on this link, issue an HTTP GET request to ‘/blog’ and load the response content into the browser window”.&#xA;With that in mind, consider the following bit of HTML:</description>
+    </item>
+    <item>
+      <title>1. Getting Started With Elm</title>
+      <link>http://localhost:1313/tutorials/docs/elm/elm/getting_started_with_elm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elm/elm/getting_started_with_elm/</guid>
+      <description>Introduction to Elm linkElm is a delightful language for reliable web applications. It compiles to JavaScript, but it&amp;rsquo;s much more than just a language; it&amp;rsquo;s a framework for making web development more robust and pleasant. One of the most striking features of Elm is its emphasis on simplicity and quality tooling, making it an excellent choice for both beginners and experienced developers.&#xA;Why Elm? linkSimplicity and Safety&#xA;Elm&amp;rsquo;s syntax is clean and easy to understand, making it an ideal starting point for those new to programming.</description>
+    </item>
+    <item>
+      <title>1. Getting Started With Huff</title>
+      <link>http://localhost:1313/tutorials/docs/huff/huff/introduction_to_huff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/huff/huff/introduction_to_huff/</guid>
+      <description>Introduction to Huff linkThe world of blockchain technology and Ethereum, in particular, has revolutionized how we think about digital transactions and smart contract programming. Ethereum, known for its robust and secure platform, allows developers to create decentralized applications (dApps) using smart contracts. These contracts are self-executing agreements with the terms of the agreement directly written into lines of code.&#xA;At the forefront of Ethereum&amp;rsquo;s smart contract development languages is Solidity, widely recognized and used for its accessibility and security features.</description>
+    </item>
+    <item>
+      <title>1. Introduction to keras</title>
+      <link>http://localhost:1313/tutorials/docs/keras/keras/introduction_to_keras/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/keras/keras/introduction_to_keras/</guid>
+      <description>Keras is an open source deep learning framework for python. It has been developed by an artificial intelligence researcher at Google named Francois Chollet. Leading organizations like Google, Square, Netflix, Huawei and Uber are currently using Keras. This tutorial walks through the installation of Keras, basics of deep learning, Keras models, Keras layers, Keras modules and finally conclude with some real-time applications.&#xA;Overview of Keras linkKeras runs on top of open source machine libraries like TensorFlow, Theano or Cognitive Toolkit (CNTK).</description>
+    </item>
+    <item>
       <title>1. Introduction to Pandas</title>
       <link>http://localhost:1313/tutorials/docs/pandas/pandas/intro_to_pandas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/pandas/pandas/intro_to_pandas/</guid>
       <description>pandas is arguably the most important Python package for data analysis. It is the de facto standard package for data manipulation and exploratory data analysis. Its ability to read from and write to an extensive list of formats makes it a versatile tool for data science practitioners. Its data manipulation functions make it a highly accessible and practical tool for aggregating, analyzing, and cleaning data.&#xA;In this introduction on how to learn pandas, we discussed the learning path you may take to master this package.</description>
+    </item>
+    <item>
+      <title>2. Core Concepts in Elm</title>
+      <link>http://localhost:1313/tutorials/docs/elm/elm/core_concepts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elm/elm/core_concepts/</guid>
+      <description>Elm is built on a set of core concepts that make it robust and functional. Understanding these concepts is key to becoming proficient in Elm. Let&amp;rsquo;s explore some of these fundamental ideas.&#xA;Types and Type Annotations linkElm is a statically typed language, meaning the type of every variable and expression is known at compile time. This feature makes your code more reliable and easier to maintain.&#xA;Basic Types linkElm has several basic types such as Int, Float, String, Bool, and more.</description>
+    </item>
+    <item>
+      <title>2. htmx usage with Django</title>
+      <link>http://localhost:1313/tutorials/docs/htmx/htmx/some_examples_using_htmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/some_examples_using_htmx/</guid>
+      <description>htmx usage with Django linkThere is an open-source Django/htmx project. The main aim is to show how htmx could be used in a modern, high-performance Django project. There is a lot of scope for optimization, and with Django being a highly optimized framework with a lot of built-in tools, it should be possible to produce high-quality applications without a lot of custom code. The project is based on the Django REST Framework, with a few extensions and libraries to make development easier.</description>
+    </item>
+    <item>
+      <title>2. Modules in keras</title>
+      <link>http://localhost:1313/tutorials/docs/keras/keras/modules_in_keras/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/keras/keras/modules_in_keras/</guid>
+      <description>Keras modules contains pre-defined classes, functions and variables which are useful for deep learning algorithm. Let us learn the modules provided by Keras in this chapter.&#xA;Available modules linkLet us first see the list of modules available in the Keras.&#xA;Initializers − Provides a list of initializers function. We can learn it in details in Keras layer chapter. during model creation phase of machine learning.&#xA;Regularizers − Provides a list of regularizers function.</description>
+    </item>
+    <item>
+      <title>2. Understanding Huff Macros</title>
+      <link>http://localhost:1313/tutorials/docs/huff/huff/understanding_huff_macros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/huff/huff/understanding_huff_macros/</guid>
+      <description>Understanding Huff Macros linkExplanation of Macros in Huff linkMacros in Huff are one of its most distinctive and powerful features. They allow you to define reusable code blocks that can be invoked within your contract. This feature helps in organizing complex logic, reducing redundancy, and making contracts more readable. Unlike functions in high-level languages, macros do not have their own execution context; they are essentially inlined wherever they are called.</description>
     </item>
     <item>
       <title>2. Viewing and Understanding Dataframes</title>
@@ -92,11 +148,102 @@
       <description>Viewing and Understanding DataFrames Using Pandas linkAfter reading tabular data as a DataFrame, you would need to have a glimpse of the data. You can either view a small sample of the dataset or a summary of the data in the form of summary statistics.&#xA;How to View Data Using .head() and .tail() linkYou can view the first few or last few rows of a DataFrame using the .head() or .</description>
     </item>
     <item>
+      <title>3. Advanced Features With Huff</title>
+      <link>http://localhost:1313/tutorials/docs/huff/huff/advanced_features_using_huff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/huff/huff/advanced_features_using_huff/</guid>
+      <description>Advanced Huff Features linkIn-Depth Look at Advanced Huff Features linkHuff allows for a range of advanced features that provide developers with extensive control and optimization capabilities. Some of these advanced features include:&#xA;1&#xA;. Inline Assembly: Huff permits inline assembly, giving developers the ability to embed raw EVM opcodes within their Huff code. 2. Conditional Execution: Huff supports conditional execution using EVM opcodes like JUMPI, allowing for complex logical flows. 3.</description>
+    </item>
+    <item>
+      <title>3. AJAX in HTMX</title>
+      <link>http://localhost:1313/tutorials/docs/htmx/htmx/ajax_in_htmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/ajax_in_htmx/</guid>
+      <description>AJAX linkThe core of htmx is a set of attributes that allow you to issue AJAX requests directly from HTML:&#xA;Attribute Description hx-get Issues a GET request to the given URL hx-post Issues a POST request to the given URL hx-put Issues a PUT request to the given URL hx-patch Issues a PATCH request to the given URL hx-delete Issues a DELETE request to the given URL Each of these attributes takes a URL to issue an AJAX request to.</description>
+    </item>
+    <item>
+      <title>3. Elm Architecture</title>
+      <link>http://localhost:1313/tutorials/docs/elm/elm/elm_architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elm/elm/elm_architecture/</guid>
+      <description>Elm Architecture linkUnderstanding The Elm Architecture (TEA) is crucial for building applications in Elm. TEA is a pattern for architecting web applications. It is simple yet powerful, helping you to build well-structured and easily maintainable applications.&#xA;Components of The Elm Architecture linkTEA revolves around three main concepts: Model, Update, and View. Together, these components create a unidirectional data flow that is easy to understand and debug.&#xA;Model linkThe model represents the state of your application.</description>
+    </item>
+    <item>
       <title>3. How to Clean Data using Pandas</title>
       <link>http://localhost:1313/tutorials/docs/pandas/pandas/cleaning_data_using_panda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/pandas/pandas/cleaning_data_using_panda/</guid>
       <description>Cleaning Data Using Pandas linkData cleaning is one of the most common tasks in data science. Pandas lets you preprocess data for various uses, including training machine learning and deep learning models. Let’s use the DataFrame df2 from earlier, having four missing values, to illustrate a few data cleaning use cases. As a reminder, here&amp;rsquo;s how you can see how many missing values are in a DataFrame.&#xA;df2.isnull().sum() Pregnancies 4 Glucose 0 BloodPressure 0 SkinThickness 0 Insulin 0 BMI 0 DiabetesPedigreeFunction 0 Age 0 Outcome 0 dtype: int64 Dealing with Missing Data Technique #1: Dropping Missing Values linkOne way to deal with missing data is to drop it.</description>
+    </item>
+    <item>
+      <title>3. Training models on arbitrary data sources</title>
+      <link>http://localhost:1313/tutorials/docs/keras/keras/training_models_on_arbitrary_data_sources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/keras/keras/training_models_on_arbitrary_data_sources/</guid>
+      <description>All Keras models can be trained and evaluated on a wide variety of data sources, independently of the backend you&amp;rsquo;re using. This includes:&#xA;NumPy arrays Pandas dataframes TensorFlow tf.data.Dataset objects PyTorch DataLoader objects Keras PyDataset objects They all work whether you&amp;rsquo;re using TensorFlow, JAX, or PyTorch as your Keras backend.&#xA;Let&amp;rsquo;s try it out with PyTorch DataLoaders:&#xA;import torch # Create a TensorDataset train_torch_dataset = torch.utils.data.TensorDataset( torch.from_numpy(x_train), torch.from_numpy(y_train) ) val_torch_dataset = torch.</description>
+    </item>
+    <item>
+      <title>4. Hello World using Huff</title>
+      <link>http://localhost:1313/tutorials/docs/huff/huff/writing_your_first_huff_contract/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/huff/huff/writing_your_first_huff_contract/</guid>
+      <description>Writing Your First Huff Contract linkStructure of a Huff Contract linkHuff contracts, at their core, are a series of EVM opcodes and macros. The structure is significantly more straightforward than a typical Solidity contract. A basic Huff contract typically contains:&#xA;Declarations: Declaring macros and data storage locations. Macros: Macros are reusable code blocks in Huff. Main Execution Logic: The primary logic of the contract, often written using a combination of EVM opcodes and macros.</description>
+    </item>
+    <item>
+      <title>4. Model evaludation and prediction in keras</title>
+      <link>http://localhost:1313/tutorials/docs/keras/keras/evaluation_and_prediction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/keras/keras/evaluation_and_prediction/</guid>
+      <description>This chapter deals with the model evaluation and model prediction in Keras.&#xA;Let us begin by understanding the model evaluation.&#xA;Model Evaluation linkEvaluation is a process during development of the model to check whether the model is best fit for the given problem and corresponding data. Keras model provides a function, evaluate which does the evaluation of the model. It has three main arguments,&#xA;Test data Test data label verbose - true or false Let us evaluate the model, which we created in the previous chapter using test data.</description>
+    </item>
+    <item>
+      <title>4. Other hx-Attributes</title>
+      <link>http://localhost:1313/tutorials/docs/htmx/htmx/some_hx_attributes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/some_hx_attributes/</guid>
+      <description>Other hx-Attributes linkIndicators linkYou can specify an element that should be shown or hidden when the request is in flight using the hx-indicator attribute.&#xA;Here is a div that hides itself and shows a spinner when it is loading:&#xA;&amp;lt;div hx-get=&amp;#34;/slow&amp;#34; hx-trigger=&amp;#34;click&amp;#34; hx-target=&amp;#34;#parent-div&amp;#34;&amp;gt; &amp;lt;span hx-indicator=&amp;#34;#spinner&amp;#34;&amp;gt;Load the slow content&amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;img id=&amp;#34;spinner&amp;#34; src=&amp;#34;/img/spinner.gif&amp;#34; style=&amp;#34;display:none;&amp;#34;&amp;gt; Indicators are shown when a request is initiated, and hidden when the request is finished.&#xA;Selecting Content to Swap linkYou can select a portion of the response to use for the swap, instead of using the entire response, using the hx-select attribute.</description>
+    </item>
+    <item>
+      <title>4. Working with HTTP Requests</title>
+      <link>http://localhost:1313/tutorials/docs/elm/elm/working_with_http_requests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elm/elm/working_with_http_requests/</guid>
+      <description>Working with HTTP Requests linkElm provides a smooth way to handle HTTP requests with the Http module.&#xA;Making a GET Request linkHere&amp;rsquo;s an example of how to make a GET request to fetch data:&#xA;fetchDataCmd : Cmd Msg fetchDataCmd = Http.get { url = &amp;#34;https://api.example.com/data&amp;#34; , expect = Http.expectString ReceiveData } This function creates a command that, when executed, sends a GET request to the specified URL and expects a string response.</description>
+    </item>
+    <item>
+      <title>5. Building Forms and Handling User Input</title>
+      <link>http://localhost:1313/tutorials/docs/elm/elm/building_forms_and_handling_user_input/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elm/elm/building_forms_and_handling_user_input/</guid>
+      <description>Building Forms and Handling User Input linkElm makes it straightforward to build forms and handle user input, ensuring a smooth and type-safe experience.&#xA;Creating a Simple Form linkLet&amp;rsquo;s start with a simple form that collects a user&amp;rsquo;s name and email address.&#xA;module Main exposing (..) import Browser import Html exposing (Html, div, text, input, button, form) import Html.Attributes exposing (..) import Html.Events exposing (onInput, onSubmit) -- MODEL type alias Model = { name : String , email : String } initModel : Model initModel = { name = &amp;#34;&amp;#34; , email = &amp;#34;&amp;#34; } -- UPDATE type Msg = UpdateName String | UpdateEmail String | Submit update : Msg -&amp;gt; Model -&amp;gt; Model update msg model = case msg of UpdateName name -&amp;gt; { model | name = name } UpdateEmail email -&amp;gt; { model | email = email } Submit -&amp;gt; model -- VIEW view : Model -&amp;gt; Html Msg view model = form [ onSubmit (always Submit) ] [ div [] [ text &amp;#34;Name: &amp;#34; , input [ type_ &amp;#34;text&amp;#34;, value model.</description>
+    </item>
+    <item>
+      <title>5. Creating a Token With Huff</title>
+      <link>http://localhost:1313/tutorials/docs/huff/huff/creating_a_token_in_huff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/huff/huff/creating_a_token_in_huff/</guid>
+      <description>Creating a Token in Huff linkCreating a token on the Ethereum network, especially adhering to popular standards like ERC20, is a common task in smart contract development. In this section, we&amp;rsquo;ll develop a basic ERC20 token using Huff. This example will demonstrate fundamental token functionalities such as transferring tokens and keeping track of balances.&#xA;Overview of ERC20 Token Standard linkThe ERC20 standard defines a set of rules that an Ethereum token contract must follow.</description>
+    </item>
+    <item>
+      <title>5. Writing cross-framework custom components</title>
+      <link>http://localhost:1313/tutorials/docs/keras/keras/writing_cross_framework_custom_components/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/keras/keras/writing_cross_framework_custom_components/</guid>
+      <description>Keras enables you to write custom Layers, Models, Metrics, Losses, and Optimizers that work across TensorFlow, JAX, and PyTorch with the same codebase. Let&amp;rsquo;s take a look at custom layers first.&#xA;The keras.ops namespace contains:&#xA;An implementation of the NumPy API, e.g. keras.ops.stack or keras.ops.matmul. A set of neural network specific ops that are absent from NumPy, such as keras.ops.conv or keras.ops.binary_crossentropy. Let&amp;rsquo;s make a custom Dense layer that works with all backends: class MyDense(keras.</description>
+    </item>
+    <item>
+      <title>6. Deploying Keras Models</title>
+      <link>http://localhost:1313/tutorials/docs/keras/keras/deploying_keras_models/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/keras/keras/deploying_keras_models/</guid>
+      <description>This tutorial covers the process of deploying Keras models, including exporting models, deploying on different platforms, and optimizing models for deployment.&#xA;Exporting Models linkExporting models is the first step towards deploying them. Keras models can be saved and loaded in different formats.&#xA;Saving Models linkKeras models can be saved in two formats: HDF5 and SavedModel.&#xA;HDF5 Format link model.save(&amp;#39;model.h5&amp;#39;) SavedModel Format link model.save(&amp;#39;saved_model/&amp;#39;) Loading Models linkModels saved in HDF5 or SavedModel format can be loaded back into Keras.</description>
+    </item>
+    <item>
+      <title>7. Advanced Model Tuning and Optimization Techniques in Keras</title>
+      <link>http://localhost:1313/tutorials/docs/keras/keras/advanced_model_tuning_andoptimization_techniques_in_keras/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/keras/keras/advanced_model_tuning_andoptimization_techniques_in_keras/</guid>
+      <description>This tutorial covers advanced techniques for tuning and optimizing models in Keras, including hyperparameter tuning, regularization methods, and learning rate schedulers.&#xA;Hyperparameter Tuning linkHyperparameter tuning is crucial for improving the performance of machine learning models. Keras provides several ways to perform hyperparameter tuning.&#xA;Grid Search linkGrid search exhaustively searches through a specified subset of hyperparameters. It is straightforward but can be computationally expensive.&#xA;from sklearn.model_selection import GridSearchCV from keras.wrappers.scikit_learn import KerasClassifier def create_model(optimizer=&amp;#39;adam&amp;#39;): model = Sequential() model.</description>
     </item>
     <item>
       <title>A beginner&#39;s guide to the Elixir programming language</title>
@@ -111,6 +258,27 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/elixir/elixir/phoenix_elixix_framework/</guid>
       <description>Introduction to Phoenix Framework linkOverview linkPhoenix Framework, crafted in Elixir, stands out in the realm of web development for its exceptional performance, reliability, and scalability. Rooted in the Erlang VM, Phoenix inherits characteristics ideal for building low-latency, distributed, and fault-tolerant systems. This makes it a top choice for applications demanding real-time features.&#xA;Advantages of Using Elixir and Erlang VM linkElixir, the language behind Phoenix, offers remarkable features like lightweight concurrency and fault tolerance, thanks to its Erlang foundation.</description>
+    </item>
+    <item>
+      <title>A Getting Started Guide to Mojo</title>
+      <link>http://localhost:1313/tutorials/docs/mojo/mojo/introduction_to_mojo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/mojo/mojo/introduction_to_mojo/</guid>
+      <description>Background link Common Perception: Python is often labeled as a slow and merely a scripting language. Frustration with Misconception: The belief that Python&amp;rsquo;s performance issues stem from the language itself, rather than how the code is written. Choosing Mojo: The Main Reason link Modular | Mojo as a Bridge: Mojo combines Python&amp;rsquo;s ease of use with advanced programming capabilities. It&amp;rsquo;s tailored for both research and production environments. Systems Programming Language: Designed for heterogeneous computing, Mojo excels in handling different processors like CPUs, GPUs, FPGAs, and NPUs.</description>
+    </item>
+    <item>
+      <title>A getting started guide to Zig</title>
+      <link>http://localhost:1313/tutorials/docs/zig/zig/zig/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/zig/zig/zig/</guid>
+      <description>Key Features of Zig: link Safety and Performance: Zig ensures memory safety and offers performance comparable to languages like C. Simplicity and Maintainability: Zig&amp;rsquo;s focus on avoiding hidden control flow and minimizing dependencies. Comptime: Fast compile-time execution and it sets Zig apart from other languages. Installation linkThis guide assumes Zig 0.11, which is the latest major release as of writing.&#xA;Download and extract a prebuilt master binary of Zig from: https://ziglang.</description>
+    </item>
+    <item>
+      <title>A Getting Started Guide with Julia</title>
+      <link>http://localhost:1313/tutorials/docs/julia/julia/getting_started_with_julia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/julia/julia/getting_started_with_julia/</guid>
+      <description>Introduction linkJulia, a high-level, high-performance programming language, is designed for technical computing. It combines the simplicity of Python with the power of languages like C or Fortran. Julia is known for its impressive speed and is widely used in scientific computing, machine learning, data mining, large-scale linear algebra, and more.&#xA;Getting Started with Julia linkInstalling Julia linkTo begin with Julia, the first step is installing the language. Julia can be downloaded from its official website, JuliaLang.</description>
     </item>
     <item>
       <title>Advanced Concepts in OCaml</title>
@@ -134,13 +302,6 @@
       <description>Introduction linkEnums and pattern matching are two of Rust’s most powerful features, enabling programmers to write flexible, expressive, and safe code. Enums allow you to define a type by enumerating its possible variants, and pattern matching provides a way to execute different code paths based on which variant an enum value is. This post delves deep into both concepts, demonstrating their utility and efficiency in real-world Rust applications.&#xA;Understanding Enums linkEnums in Rust are types that can encapsulate different kinds of data in each of its variants.</description>
     </item>
     <item>
-      <title>Advanced Erlang Concepts</title>
-      <link>http://localhost:1313/tutorials/docs/erlang/erlang/advanced_erlang_concepts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/erlang/erlang/advanced_erlang_concepts/</guid>
-      <description>Advanced Erlang Concepts linkConcurrent Programming in Erlang linkErlang is renowned for its excellent support for concurrent programming, which is fundamental in building scalable and reliable applications.&#xA;Processes in Erlang&#xA;Erlang handles concurrency through lightweight processes, which are isolated and run in parallel. These processes communicate via message passing, avoiding shared state and ensuring robustness.&#xA;Message Passing&#xA;Processes exchange information using asynchronous message passing, which is a safe and efficient way to handle inter-process communication.</description>
-    </item>
-    <item>
       <title>Advanced Error Handling in Go</title>
       <link>http://localhost:1313/tutorials/docs/golang/golang/error-handling-and-panics-in-go/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -148,25 +309,11 @@
       <description>Introduction:&#xA;Hello, Go developers! Error handling is a critical component of robust application development. Unlike many programming languages that use exceptions for error handling, Go uses a distinct approach that encourages explicit error checking, which can lead to more reliable and understandable code. In this blog, we&amp;rsquo;ll dive deep into Go&amp;rsquo;s error handling strategies, exploring how to handle errors effectively, create and use custom errors, and utilize Go&amp;rsquo;s defer, panic, and recover mechanisms to manage exceptional situations gracefully.</description>
     </item>
     <item>
-      <title>Advanced Features With Huff</title>
-      <link>http://localhost:1313/tutorials/docs/huff/huff/advanced_features_using_huff/</link>
+      <title>Advanced Number Concepts</title>
+      <link>http://localhost:1313/tutorials/docs/numpy/numpy/advanced_numpy_concepts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/huff/huff/advanced_features_using_huff/</guid>
-      <description>Advanced Huff Features linkIn-Depth Look at Advanced Huff Features linkHuff allows for a range of advanced features that provide developers with extensive control and optimization capabilities. Some of these advanced features include:&#xA;1&#xA;. Inline Assembly: Huff permits inline assembly, giving developers the ability to embed raw EVM opcodes within their Huff code. 2. Conditional Execution: Huff supports conditional execution using EVM opcodes like JUMPI, allowing for complex logical flows. 3.</description>
-    </item>
-    <item>
-      <title>Advanced Features with Julia</title>
-      <link>http://localhost:1313/tutorials/docs/julia/julia/advanced_features_in_julia/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/julia/julia/advanced_features_in_julia/</guid>
-      <description>Advanced Topics linkThis section delves into some of the more advanced features of Julia, including metaprogramming, concurrency, and parallel computing, as well as a look at Julia&amp;rsquo;s package ecosystem and error handling techniques.&#xA;Metaprogramming in Julia linkMetaprogramming refers to the creation of programs that can manipulate other programs as their data. Julia has powerful metaprogramming capabilities, allowing programs to generate, modify, and execute code dynamically.&#xA;Example of metaprogramming:&#xA;# Defining a macro in Julia macro sayhello(name) return :( println(&amp;#34;Hello, &amp;#34;, $name) ) end # Using the macro @sayhello(&amp;#34;World&amp;#34;) Concurrency and Parallel Computing linkJulia offers several constructs for concurrent and parallel programming.</description>
-    </item>
-    <item>
-      <title>AJAX in HTMX</title>
-      <link>http://localhost:1313/tutorials/docs/htmx/htmx/ajax_in_htmx/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/ajax_in_htmx/</guid>
-      <description>AJAX linkThe core of htmx is a set of attributes that allow you to issue AJAX requests directly from HTML:&#xA;Attribute Description hx-get Issues a GET request to the given URL hx-post Issues a POST request to the given URL hx-put Issues a PUT request to the given URL hx-patch Issues a PATCH request to the given URL hx-delete Issues a DELETE request to the given URL Each of these attributes takes a URL to issue an AJAX request to.</description>
+      <guid>http://localhost:1313/tutorials/docs/numpy/numpy/advanced_numpy_concepts/</guid>
+      <description>Advanced Concepts and Applications of NumPy linkOverview linkNumPy offers advanced features and capabilities beyond basic array manipulation and arithmetic operations. These advanced concepts include broadcasting, linear algebra operations, random number generation, memory management, and integration with other libraries. Understanding these concepts and their applications is essential for mastering NumPy and leveraging its full potential in scientific computing and data analysis.&#xA;1. Broadcasting linkBroadcasting is a powerful mechanism in NumPy that allows arrays of different shapes to be combined in arithmetic operations.</description>
     </item>
     <item>
       <title>An Introduction to Nim</title>
@@ -174,6 +321,27 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/nim/nim/nim/</guid>
       <description>Nim is a relatively new programming language which allows users to write easy-to-read high-performance code.&#xA;Installation • Nim has ready made distributions for all three major operating systems and there are several options when it comes to installing Nim.&#xA;• You can follow the official installation procedure to install the latest stable version.&#xA;• If you’re using Linux, there is a high probability that your distribution has Nim in the package manager.</description>
+    </item>
+    <item>
+      <title>An Introduction to OCaml: A Versatile Programming Language</title>
+      <link>http://localhost:1313/tutorials/docs/ocaml/ocaml/introduction_to_ocaml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/ocaml/ocaml/introduction_to_ocaml/</guid>
+      <description>Introduction to OCaml linkOCaml (originally Objective Caml) is a versatile, general-purpose, multi-paradigm programming language. It seamlessly blends functional, imperative, and object-oriented programming styles, empowering developers to choose the most suitable approach for different tasks. Developed in the mid-1990s by INRIA, the French National Institute for Research in Computer Science and Control, OCaml offers exceptional reliability and security, making it ideal for mission-critical systems.&#xA;Key Strengths of OCaml: link Robust Static Typing: OCaml enforces strong static typing, where types are explicitly declared or inferred by the compiler.</description>
+    </item>
+    <item>
+      <title>An Introduction to PyTorch</title>
+      <link>http://localhost:1313/tutorials/docs/pytorch/pytorch/introduction_to_pytorch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pytorch/pytorch/introduction_to_pytorch/</guid>
+      <description>Introduction to PyTorch linkPyTorch is a popular open-source machine learning library developed by Facebook&amp;rsquo;s AI Research lab (FAIR). Known for its flexibility, ease of use, and dynamic computational graphs, PyTorch has become a go-to framework for both research and production in the field of deep learning.&#xA;Key Features of PyTorch linkPyTorch stands out due to its unique features, which include:&#xA;Dynamic Computational Graphs&#xA;PyTorch uses dynamic computational graphs (also known as define-by-run), allowing the graph to be built on-the-fly as operations are performed.</description>
+    </item>
+    <item>
+      <title>An Introduction to Scala</title>
+      <link>http://localhost:1313/tutorials/docs/scala/scala/introduction_to_scala/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/scala/scala/introduction_to_scala/</guid>
+      <description>Scala, an acronym for &amp;ldquo;Scalable Language,&amp;rdquo; is a modern, multi-paradigm programming language designed to express common programming patterns in a concise, elegant, and type-safe way. It smoothly integrates features of object-oriented and functional languages.&#xA;Brief History and Purpose linkDeveloped by Martin Odersky and released in 2003, Scala was designed to address the shortcomings of Java, particularly in terms of scalability and functional programming support. Scala runs on the Java Virtual Machine (JVM), which allows it to be interoperable with Java and makes it an attractive choice for developers familiar with Java.</description>
     </item>
     <item>
       <title>An Introduction To Solidity</title>
@@ -202,13 +370,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/nim/nim/basic_data_types/</guid>
       <description>In this section, we will be learning more about basic data types in Nim.&#xA;Integers linkCreate a file called Integers.nim and have the following code:&#xA;let a = 11 b = 4 echo &amp;#34;a &amp;#43; b = &amp;#34;, a &amp;#43; b echo &amp;#34;a - b = &amp;#34;, a - b echo &amp;#34;a * b = &amp;#34;, a * b echo &amp;#34;a / b = &amp;#34;, a / b echo &amp;#34;a div b = &amp;#34;, a div b echo &amp;#34;a mod b = &amp;#34;, a mod b The echo command will print to the screen everything that follows it separated by commas.</description>
-    </item>
-    <item>
-      <title>Build A Chat App using Elixir</title>
-      <link>http://localhost:1313/tutorials/docs/elixir/elixir/build_a_chat_app_using_elixir/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/build_a_chat_app_using_elixir/</guid>
-      <description>Through this tutorial, we are going to gain a better understanding of web sockets and learn how to take advantage of Elixir&amp;rsquo;s Asynchronous programming model.&#xA;Creating a new project linkWe will create a new project named chat_app&#xA;mix phx.new chat_app # next cd chat_app mix ecto.create Once these are done, you should see something like</description>
     </item>
     <item>
       <title>Build a CLI Todo List using Elixir</title>
@@ -281,11 +442,25 @@
       <description>Introduction linkTesting is an essential aspect of software development that ensures your code behaves as expected and can handle various input scenarios without crashing. Python offers several built-in libraries for testing, with unittest being one of the most popular for unit testing.&#xA;Unit Testing with unittest linkunittest is a testing framework inspired by JUnit. It supports test automation, sharing of setup and shutdown code, aggregation of tests into collections, and independence of the tests from the reporting framework.</description>
     </item>
     <item>
+      <title>Concurrency and Process Management in Erlang</title>
+      <link>http://localhost:1313/tutorials/docs/erlang/erlang/advanced_erlang_concepts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/erlang/erlang/advanced_erlang_concepts/</guid>
+      <description>Concurrency and Process Management in Erlang linkErlang&amp;rsquo;s concurrency model is one of its most powerful features, making it ideal for building scalable and reliable systems. Understanding how Erlang handles concurrency and process management is crucial for leveraging its full potential.&#xA;The Actor Model linkErlang&amp;rsquo;s concurrency is based on the Actor model, where each actor is a process that communicates with others through message passing. This model simplifies concurrent programming by avoiding shared state and locks.</description>
+    </item>
+    <item>
       <title>Concurrency in Elixir with OTP</title>
       <link>http://localhost:1313/tutorials/docs/elixir/elixir/04_concurrency_in_elixir_with_otp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/elixir/elixir/04_concurrency_in_elixir_with_otp/</guid>
       <description>Concurrency is one of the core strengths of Elixir, and the language leverages the powerful capabilities of the Erlang VM to build highly concurrent and fault-tolerant systems. In this section, we will explore concurrency in Elixir using OTP (Open Telecom Platform), which is a set of libraries and design principles for building scalable and maintainable applications.&#xA;Introduction linkWhy Concurrency in Elixer? linkElixir, built on the Erlang VM, is designed for building concurrent, distributed, and fault-tolerant applications.</description>
+    </item>
+    <item>
+      <title>Concurrency in Zig</title>
+      <link>http://localhost:1313/tutorials/docs/zig/zig/concurrency_in_zig/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/zig/zig/concurrency_in_zig/</guid>
+      <description>Concurrency is a fundamental aspect of modern software development, enabling programs to execute multiple tasks concurrently for improved performance and responsiveness. Zig provides powerful concurrency primitives that make it easy to write concurrent programs while maintaining safety and performance. In this tutorial, we&amp;rsquo;ll explore Zig&amp;rsquo;s concurrency features, including async/await, channels, and message passing.&#xA;Async/Await linkZig&amp;rsquo;s async/await syntax allows you to write asynchronous code that is easy to read and reason about.</description>
     </item>
     <item>
       <title>Containers and Procedures in Nim</title>
@@ -316,13 +491,6 @@
       <description>Introduction linkOwnership is arguably the most distinctive feature of Rust. It enforces a set of rules that manages memory and other resources automatically and safely, without the overhead of a garbage collector. This blog will explore the intricate details of ownership, its significance, and the strict yet beneficial rules it imposes.&#xA;What is Ownership? linkOwnership in Rust is a memory management concept that ensures memory safety by enforcing three rules regarding the ownership, scope, and borrowing of values.</description>
     </item>
     <item>
-      <title>Core Concepts in Elm</title>
-      <link>http://localhost:1313/tutorials/docs/elm/elm/core_concepts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/elm/elm/core_concepts/</guid>
-      <description>Elm is built on a set of core concepts that make it robust and functional. Understanding these concepts is key to becoming proficient in Elm. Let&amp;rsquo;s explore some of these fundamental ideas. Types and Type Annotations&#xA;Elm is a statically typed language, meaning the type of every variable and expression is known at compile time. This feature makes your code more reliable and easier to maintain.&#xA;Basic Types&#xA;Elm has several basic types like Int, Float, String, Bool, and more.</description>
-    </item>
-    <item>
       <title>Core Concepts in OCaml</title>
       <link>http://localhost:1313/tutorials/docs/ocaml/ocaml/core_concepts_in_ocaml/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -337,18 +505,25 @@
       <description>In this lesson, we will build a simple HTTP server from scratch using the PlugCowboy Elixir library. Cowboy is a simple HTTP server for Erlang and Plug will provide us with a connection adapter for the web server.&#xA;Getting started linkAssuming you already have Elixir installed, we will start a simple project by running the command:&#xA;mix new server --sup cd server Note that server is the name of your project, and you can name it however you want.</description>
     </item>
     <item>
-      <title>Creating a Token With Huff</title>
-      <link>http://localhost:1313/tutorials/docs/huff/huff/creating_a_token_in_huff/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/huff/huff/creating_a_token_in_huff/</guid>
-      <description>Creating a Token in Huff linkCreating a token on the Ethereum network, especially adhering to popular standards like ERC20, is a common task in smart contract development. In this section, we&amp;rsquo;ll develop a basic ERC20 token using Huff. This example will demonstrate fundamental token functionalities such as transferring tokens and keeping track of balances.&#xA;Overview of ERC20 Token Standard linkThe ERC20 standard defines a set of rules that an Ethereum token contract must follow.</description>
-    </item>
-    <item>
       <title>Data Types, Variables, and Operators in Mojo</title>
       <link>http://localhost:1313/tutorials/docs/mojo/mojo/data_types_variables_operators/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/mojo/mojo/data_types_variables_operators/</guid>
       <description>Understanding Data in Mojo link Data is essential in any programming language, including Mojo. It can be anything from numbers and text to complex types like images and audio files. These data are stored in variables, data structures, or files for computation and generating outputs. Examples of Data Declaration in Mojo: link name = &amp;quot;Vibs&amp;quot; (Using an emoji as a variable) x = 1 movie = &amp;quot;Hackerman.mp4&amp;quot; addresses = [&amp;quot;Malibu&amp;quot;, &amp;quot;Brooklyn&amp;quot;] zipcode = (&amp;quot;90265&amp;quot;, &amp;quot;11203&amp;quot;) print(x) Variables and Data Structures: link a = 1 print(&amp;#34;type of var a:&amp;#34;, type(a)) b = 1.</description>
+    </item>
+    <item>
+      <title>Deep Dive into PyTorch: Autograd and Neural Networks</title>
+      <link>http://localhost:1313/tutorials/docs/pytorch/pytorch/pytorch_and_neural_networks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pytorch/pytorch/pytorch_and_neural_networks/</guid>
+      <description>Autograd: Automatic Differentiation in PyTorch linkPyTorch&amp;rsquo;s autograd is a powerful tool for automatically computing gradients of tensor operations. Understanding autograd is essential for training neural networks efficiently.&#xA;How Autograd Works linkAutograd works by automatically tracking operations performed on tensors and then using this information to compute gradients during backpropagation. When you perform operations on tensors with requires_grad=True, PyTorch builds a computational graph to track the operations. During the backward pass, gradients are computed using the chain rule of calculus and propagated back through the graph.</description>
+    </item>
+    <item>
+      <title>Deep Dive into Tensors</title>
+      <link>http://localhost:1313/tutorials/docs/pytorch/pytorch/tensors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pytorch/pytorch/tensors/</guid>
+      <description>Tensors are a specialized data structure that are very similar to arrays and matrices. In PyTorch, we use tensors to encode the inputs and outputs of a model, as well as the model’s parameters.&#xA;Tensors are similar to NumPy’s ndarrays, except that tensors can run on GPUs or other hardware accelerators. In fact, tensors and NumPy arrays can often share the same underlying memory, eliminating the need to copy data (see Bridge with NumPy).</description>
     </item>
     <item>
       <title>Demystifying Python Decorators: Enhancing Functionality with Decorators</title>
@@ -363,6 +538,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/haskell/haskell/diving-deeper-into-haskell-functions/</guid>
       <description>Introduction:&#xA;Welcome back to our exploration of Haskell, a language that shines brightly in the realm of functional programming due to its elegant handling of functions. In this session, we dive deeper into Haskell&amp;rsquo;s approach to functions, focusing on pure functions, higher-order functions, and the intriguing concepts of currying and partial application. These advanced features empower developers to write more concise, flexible, and maintainable code.&#xA;Pure Functions and Side Effects</description>
+    </item>
+    <item>
+      <title>DSA using Zig</title>
+      <link>http://localhost:1313/tutorials/docs/zig/zig/dsa_zig/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/zig/zig/dsa_zig/</guid>
+      <description>Using Zig for data structures and algorithms (DSA) can be a rewarding experience due to Zig&amp;rsquo;s focus on safety, performance, and simplicity. While Zig does not have built-in data structures and algorithms libraries like some other languages, you can implement your own or utilize existing libraries from other languages through Zig&amp;rsquo;s interoperability with C.&#xA;Here&amp;rsquo;s a basic overview of how you can use Zig for DSA:&#xA;Implementing Data Structures linkZig allows you to implement various data structures, such as arrays, linked lists, stacks, queues, trees, and graphs, from scratch.</description>
     </item>
     <item>
       <title>Effective Error Handling in Haskell</title>
@@ -414,11 +596,11 @@
       <description>Introduction:&#xA;Welcome back, Go enthusiasts! As you develop more complex applications or contribute to larger projects, understanding how to efficiently organize your Go code into packages and manage dependencies is essential. This blog will guide you through organizing your code with packages, using Go modules for dependency management, and publishing your own packages. These practices will help you maintain a clean codebase, manage dependencies easily, and share your work with the Go community.</description>
     </item>
     <item>
-      <title>Elm Architecture</title>
-      <link>http://localhost:1313/tutorials/docs/elm/elm/elm_architecture/</link>
+      <title>Error Handling in Zig</title>
+      <link>http://localhost:1313/tutorials/docs/zig/zig/error_handling_in_zig/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/elm/elm/elm_architecture/</guid>
-      <description>Elm Architecture linkUnderstanding The Elm Architecture (TEA) is crucial for building applications in Elm. TEA is a pattern for architecting web applications. It is simple yet powerful, helping you to build well-structured and easily maintainable applications.&#xA;Components of The Elm Architecture linkTEA revolves around three main concepts: Model, Update, and View. Together, these components create a unidirectional data flow that is easy to understand and debug. Model&#xA;The model represents the state of your application.</description>
+      <guid>http://localhost:1313/tutorials/docs/zig/zig/error_handling_in_zig/</guid>
+      <description>Error handling is an essential aspect of writing robust and reliable software. Zig provides a powerful and ergonomic error handling mechanism that ensures safety and correctness while dealing with errors. In this tutorial, we&amp;rsquo;ll explore Zig&amp;rsquo;s error handling features, including error sets, error unions, and error propagation patterns.&#xA;Error Sets linkAn error set in Zig is similar to an enum, where each error in the set is a value. Error sets allow you to define a set of named errors that a function can return.</description>
     </item>
     <item>
       <title>Essential Gas Optimization Techniques in Solidity</title>
@@ -498,6 +680,13 @@
       <description>Introduction linkOperators in Python are special symbols that carry out arithmetic or logical computation. The value that the operator operates on is called the operand. In this guide, we&amp;rsquo;ll explore three major types of operators: arithmetic, comparison, and logical.&#xA;Arithmetic Operators linkArithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication, and division.&#xA;Addition (+): Adds two operands. Subtraction (-): Subtracts right operand from the left. Multiplication (*): Multiplies two operands.</description>
     </item>
     <item>
+      <title>File Word Counter</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/word_count_tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/word_count_tool/</guid>
+      <description>This tool will read a text file and count the number of words in it. This project is straightforward and a great way to practice file handling and basic string manipulation in Elixir. You can further adjust this tool to your usecase, like creating your own editor that will have a word count.&#xA;Here&amp;rsquo;s an outline of what we&amp;rsquo;ll cover:&#xA;Overview linkWe&amp;rsquo;ll create a CLI tool named word_counter that reads a specified text file and counts the number of words in it.</description>
+    </item>
+    <item>
       <title>Full-Stack projects</title>
       <link>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -519,32 +708,11 @@
       <description>Function Declaration link In Mojo, functions can be declared using fn for strongly-typed, memory-safe behavior, or def for dynamic behavior similar to Python. However, Mojo&amp;rsquo;s support for keyword arguments is still a work in progress. Keyword Parameters Example: link fn foo[a: Int, b: Int = 42](): print(a, &amp;#34;&amp;#43;&amp;#34;, b) foo[a=5]() // prints &amp;#39;5 &amp;#43; 42&amp;#39; foo[a=7, b=13]() // prints &amp;#39;7 &amp;#43; 13&amp;#39; foo[b=20, a=6]() // prints &amp;#39;6 &amp;#43; 20&amp;#39; Struct with Keyword Parameters link struct KwParamStruct[a: Int, msg: String = &amp;#34;mojo&amp;#34;]: fn __init__(inout self): print(msg, a) fn use_kw_params(): KwParamStruct[a=42]() // prints &amp;#39;mojo 42&amp;#39; KwParamStruct[5, msg=&amp;#34;hello&amp;#34;]() // prints &amp;#39;hello 5&amp;#39; KwParamStruct[msg=&amp;#34;hello&amp;#34;, a=42]() // prints &amp;#39;hello 42&amp;#39; Memory Management with Pointers linkExample of a Struct in Mojo with Pointers: link struct HeapArray: var data: Pointer[Int] var size: Int fn __init__(inout self, size: Int, val: Int): self.</description>
     </item>
     <item>
-      <title>Getting Started With Elm</title>
-      <link>http://localhost:1313/tutorials/docs/elm/elm/getting_started_with_elm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/elm/elm/getting_started_with_elm/</guid>
-      <description>Introduction to Elm linkElm is a delightful language for reliable web applications. It compiles to JavaScript, but it&amp;rsquo;s much more than just a language; it&amp;rsquo;s a framework for making web development more robust and pleasant. One of the most striking features of Elm is its emphasis on simplicity and quality tooling, making it an excellent choice for both beginners and experienced developers.&#xA;Why Elm? linkSimplicity and Safety&#xA;Elm&amp;rsquo;s syntax is clean and easy to understand, making it an ideal starting point for those new to programming.</description>
-    </item>
-    <item>
       <title>Getting Started with Go</title>
       <link>http://localhost:1313/tutorials/docs/golang/golang/getting-started-with-go/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/golang/golang/getting-started-with-go/</guid>
       <description>Introduction:&#xA;Welcome to the world of Go programming! Go, or Golang as it&amp;rsquo;s commonly called, is a programming language created by Google in 2007 with efficiency and readability in mind. Developed by programming legends such as Ken Thompson and Rob Pike, Go combines simplicity in syntax with the performance of compiled languages like C++. It&amp;rsquo;s used by developers around the world for everything from simple command-line tools to large-scale network servers and distributed systems.</description>
-    </item>
-    <item>
-      <title>Getting Started With Huff</title>
-      <link>http://localhost:1313/tutorials/docs/huff/huff/introduction_to_huff/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/huff/huff/introduction_to_huff/</guid>
-      <description>Introduction to Huff linkThe world of blockchain technology and Ethereum, in particular, has revolutionized how we think about digital transactions and smart contract programming. Ethereum, known for its robust and secure platform, allows developers to create decentralized applications (dApps) using smart contracts. These contracts are self-executing agreements with the terms of the agreement directly written into lines of code.&#xA;At the forefront of Ethereum&amp;rsquo;s smart contract development languages is Solidity, widely recognized and used for its accessibility and security features.</description>
-    </item>
-    <item>
-      <title>Getting Started with Julia</title>
-      <link>http://localhost:1313/tutorials/docs/julia/julia/getting_started_with_julia/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/julia/julia/getting_started_with_julia/</guid>
-      <description>Introduction linkJulia, a high-level, high-performance programming language, is designed for technical computing. It combines the simplicity of Python with the power of languages like C or Fortran. Julia is known for its impressive speed and is widely used in scientific computing, machine learning, data mining, large-scale linear algebra, and more.&#xA;Getting Started with Julia linkInstalling Julia linkTo begin with Julia, the first step is installing the language. Julia can be downloaded from its official website, JuliaLang.</description>
     </item>
     <item>
       <title>Getting Started with Rust</title>
@@ -561,18 +729,18 @@
       <description>Introduction: linkWelcome back to our Haskell series, where today we&amp;rsquo;re diving into the world of concurrency and parallelism. Haskell offers robust support for concurrent and parallel programming, allowing developers to write high-performance applications that make full use of modern multicore processors. In this post, we’ll cover the basics of concurrent programming in Haskell, discuss how to use threads and asynchronous operations, and explore strategies for effective parallel programming. Understanding these concepts will enable you to design and implement applications that are not only fast but also scalable.</description>
     </item>
     <item>
-      <title>Hello World using Huff</title>
-      <link>http://localhost:1313/tutorials/docs/huff/huff/writing_your_first_huff_contract/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/huff/huff/writing_your_first_huff_contract/</guid>
-      <description>Writing Your First Huff Contract linkStructure of a Huff Contract linkHuff contracts, at their core, are a series of EVM opcodes and macros. The structure is significantly more straightforward than a typical Solidity contract. A basic Huff contract typically contains:&#xA;Declarations: Declaring macros and data storage locations. Macros: Macros are reusable code blocks in Huff. Main Execution Logic: The primary logic of the contract, often written using a combination of EVM opcodes and macros.</description>
-    </item>
-    <item>
       <title>How to Send and Receive Ether in Solidity</title>
       <link>http://localhost:1313/tutorials/docs/solidity/solidity/sending_and_recieving_ether/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/solidity/solidity/sending_and_recieving_ether/</guid>
       <description>Sending and receiving Ether in Solidity involves understanding the different methods available and their respective use cases. This guide will cover how to send Ether using transfer, send, and call, how to receive Ether, and which method to use for optimal security.&#xA;Sending Ether linktransfer linkThe transfer method sends 2300 gas and throws an error if the transfer fails.&#xA;function sendViaTransfer(address payable _to) public payable { // This function is no longer recommended for sending Ether.</description>
+    </item>
+    <item>
+      <title>Indexing and Slicing In Numpy</title>
+      <link>http://localhost:1313/tutorials/docs/numpy/numpy/indexing_and_slicing_in_numpy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/numpy/numpy/indexing_and_slicing_in_numpy/</guid>
+      <description>Indexing and Slicing in NumPy linkOverview linkIndexing and slicing are fundamental operations for accessing and manipulating elements in NumPy arrays. Understanding how to efficiently select and extract elements from arrays is essential for working with data effectively in NumPy.&#xA;Basic Indexing linkNumPy arrays support similar indexing syntax to Python lists. You can access individual elements of an array using square brackets and indices.&#xA;import numpy as np # Create an array arr = np.</description>
     </item>
     <item>
       <title>Integrating Rust with Other Languages: FFI and Safe Abstractions</title>
@@ -603,18 +771,11 @@
       <description>Introduction:&#xA;Welcome to the intriguing world of Haskell, a language that embodies the essence of functional programming with its emphasis on purity and immutability. If you&amp;rsquo;re drawn to Haskell, you&amp;rsquo;re likely intrigued by its elegance and robustness in tackling complex problems through simple, declarative code constructs. In this introductory guide, we will explore Haskell&amp;rsquo;s functional programming paradigm, set up the Haskell development environment, and write our very first program. Whether you&amp;rsquo;re a seasoned programmer or new to coding, Haskell offers a fresh perspective that can enhance your programming skills.</description>
     </item>
     <item>
-      <title>Introduction to Mojo</title>
-      <link>http://localhost:1313/tutorials/docs/mojo/mojo/introduction_to_mojo/</link>
+      <title>Introduction to NumPy</title>
+      <link>http://localhost:1313/tutorials/docs/numpy/numpy/introduction_to_numpy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/mojo/mojo/introduction_to_mojo/</guid>
-      <description>Background link Common Perception: Python is often labeled as a slow and merely a scripting language. Frustration with Misconception: The belief that Python&amp;rsquo;s performance issues stem from the language itself, rather than how the code is written. Choosing Mojo: The Main Reason link Modular | Mojo as a Bridge: Mojo combines Python&amp;rsquo;s ease of use with advanced programming capabilities. It&amp;rsquo;s tailored for both research and production environments. Systems Programming Language: Designed for heterogeneous computing, Mojo excels in handling different processors like CPUs, GPUs, FPGAs, and NPUs.</description>
-    </item>
-    <item>
-      <title>Introduction to Ocaml </title>
-      <link>http://localhost:1313/tutorials/docs/ocaml/ocaml/introduction_to_ocaml/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/ocaml/ocaml/introduction_to_ocaml/</guid>
-      <description>Introduction to OCaml linkOCaml is a multi-paradigm programming language, an extension of the Caml language, and a member of the ML (Meta Language) family. It emerged in the mid-1990s and was developed by INRIA, a French national research institution. Its design offers a functional, imperative, and object-oriented programming style.&#xA;Key Features of OCaml: link Strong static typing: Errors are caught at compile time, reducing runtime errors. Type inference: The compiler deduces types, simplifying the coding process.</description>
+      <guid>http://localhost:1313/tutorials/docs/numpy/numpy/introduction_to_numpy/</guid>
+      <description>NumPy, short for Numerical Python, is a fundamental package for scientific computing in Python. It provides support for large multidimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays. NumPy is the foundation upon which many other scientific Python libraries are built, making it an essential tool for data manipulation, numerical computing, and machine learning.&#xA;Key Features link1. Multidimensional Arrays linkAt the core of NumPy is its ndarray (n-dimensional array) object, which represents a multidimensional array of elements of the same type.</description>
     </item>
     <item>
       <title>Introduction to Python</title>
@@ -624,18 +785,18 @@
       <description>Python is a high-level, interpreted programming language known for its simplicity and readability, which has made it one of the most popular languages in the world. Developed by Guido van Rossum and first released in 1991, Python&amp;rsquo;s design philosophy emphasizes code readability with its notable use of significant whitespace.&#xA;Why Use Python? link Ease of Learning and Use: Python&amp;rsquo;s straightforward syntax closely mirrors the human language, which reduces the complexity of programming tasks and makes it accessible to beginners.</description>
     </item>
     <item>
-      <title>Introduction to Scala</title>
-      <link>http://localhost:1313/tutorials/docs/scala/scala/introduction_to_scala/</link>
+      <title>Learn About Advanced Features with Julia</title>
+      <link>http://localhost:1313/tutorials/docs/julia/julia/advanced_features_in_julia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/scala/scala/introduction_to_scala/</guid>
-      <description>Scala, an acronym for &amp;ldquo;Scalable Language,&amp;rdquo; is a modern, multi-paradigm programming language designed to express common programming patterns in a concise, elegant, and type-safe way. It smoothly integrates features of object-oriented and functional languages.&#xA;Brief History and Purpose linkDeveloped by Martin Odersky and released in 2003, Scala was designed to address the shortcomings of Java, particularly in terms of scalability and functional programming support. Scala runs on the Java Virtual Machine (JVM), which allows it to be interoperable with Java and makes it an attractive choice for developers familiar with Java.</description>
+      <guid>http://localhost:1313/tutorials/docs/julia/julia/advanced_features_in_julia/</guid>
+      <description>Advanced Topics linkThis section delves into some of the more advanced features of Julia, including metaprogramming, concurrency, and parallel computing, as well as a look at Julia&amp;rsquo;s package ecosystem and error handling techniques.&#xA;Metaprogramming in Julia linkMetaprogramming refers to the creation of programs that can manipulate other programs as their data. Julia has powerful metaprogramming capabilities, allowing programs to generate, modify, and execute code dynamically.&#xA;Example of metaprogramming:&#xA;# Defining a macro in Julia macro sayhello(name) return :( println(&amp;#34;Hello, &amp;#34;, $name) ) end # Using the macro @sayhello(&amp;#34;World&amp;#34;) Concurrency and Parallel Computing linkJulia offers several constructs for concurrent and parallel programming.</description>
     </item>
     <item>
       <title>Learn about Erlang</title>
       <link>http://localhost:1313/tutorials/docs/erlang/erlang/getting_started/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/erlang/erlang/getting_started/</guid>
-      <description>Brief History of Erlang linkErlang was created by Ericsson&amp;rsquo;s Computer Science Lab in 1986 for handling large-scale telecommunications projects. Its development was driven by the need for a robust system capable of managing numerous concurrent activities, with high levels of fault tolerance. Over the years, Erlang has evolved significantly and is now used in various domains, including banking, e-commerce, and instant messaging.&#xA;Key Features of Erlang linkErlang stands out due to its unique features, which include:</description>
+      <description>Brief History of Erlang linkErlang was created by Ericsson&amp;rsquo;s Computer Science Lab in 1986 for handling large-scale telecommunications projects. Its development was driven by the need for a robust system capable of managing numerous concurrent activities with high levels of fault tolerance. Over the years, Erlang has evolved significantly and is now used in various domains, including banking, e-commerce, and instant messaging.&#xA;Key Features of Erlang linkErlang stands out due to its unique features, which include:</description>
     </item>
     <item>
       <title>Learn About Reentracny Attacks and how to Prevent them</title>
@@ -650,27 +811,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/solidity/solidity/testing_in_solidity/</guid>
       <description>Unit testing is a critical part of the development process, ensuring that your smart contracts behave as expected. In this section, we will explore how to write unit tests in Solidity using the Forge testing framework. We will start by understanding the concept of AAA (Arrange, Act, Assert) and then dive into a practical example.&#xA;Understanding AAA (Arrange, Act, Assert) linkThe AAA pattern is a standard approach in unit testing that ensures tests are well-structured and easy to understand.</description>
-    </item>
-    <item>
-      <title>Learning More Abuot HTMX</title>
-      <link>http://localhost:1313/tutorials/docs/htmx/htmx/getting_started_with_htmx/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/getting_started_with_htmx/</guid>
-      <description>htmx in a Nutshell linkhtmx is a library that allows you to access modern browser features directly from HTML, rather than using javascript. To understand htmx, first let’s take a look at an anchor tag:&#xA;&amp;lt;a href=&amp;#34;/blog&amp;#34;&amp;gt;Blog&amp;lt;/a&amp;gt; This anchor tag tells a browser:&#xA;“When a user clicks on this link, issue an HTTP GET request to ‘/blog’ and load the response content into the browser window”.&#xA;With that in mind, consider the following bit of HTML:</description>
-    </item>
-    <item>
-      <title>Learning More Abuot HTMX</title>
-      <link>http://localhost:1313/tutorials/docs/htmx/htmx/some_examples_using_htmx/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/some_examples_using_htmx/</guid>
-      <description>htmx usage with Django linkThere is an open-source Django/htmx project. The main aim is to show how htmx could be used in a modern, high-performance Django project. There is a lot of scope for optimization, and with Django being a highly optimized framework with a lot of built-in tools, it should be possible to produce high-quality applications without a lot of custom code. The project is based on the Django REST Framework, with a few extensions and libraries to make development easier.</description>
-    </item>
-    <item>
-      <title>Learning More Abuot HTMX</title>
-      <link>http://localhost:1313/tutorials/docs/htmx/htmx/some_hx_attributes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/some_hx_attributes/</guid>
-      <description>Other hx-Attributes linkIndicators linkYou can specify an element that should be shown or hidden when the request is in flight using the hx-indicator attribute.&#xA;Here is a div that hides itself and shows a spinner when it is loading:&#xA;&amp;lt;div hx-get=&amp;#34;/slow&amp;#34; hx-trigger=&amp;#34;click&amp;#34; hx-target=&amp;#34;#parent-div&amp;#34;&amp;gt; &amp;lt;span hx-indicator=&amp;#34;#spinner&amp;#34;&amp;gt;Load the slow content&amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;img id=&amp;#34;spinner&amp;#34; src=&amp;#34;/img/spinner.gif&amp;#34; style=&amp;#34;display:none;&amp;#34;&amp;gt; Indicators are shown when a request is initiated, and hidden when the request is finished.&#xA;Selecting Content to Swap linkYou can select a portion of the response to use for the swap, instead of using the entire response, using the hx-select attribute.</description>
     </item>
     <item>
       <title>Leveraging the Power of Slices in Rust</title>
@@ -806,6 +946,13 @@
       <description>Introduction linkThe syntax of a programming language is a set of rules that defines how a program is written and interpreted. In Python, syntax is famously clean and often feels intuitive, making it an excellent choice for beginners. Yet, it possesses the depth required for advanced programming. This section explores Python syntax through various constructs and a practical example.&#xA;Fibonacci Series Example linkThe Fibonacci sequence is a classic example used to illustrate basic programming concepts in many languages.</description>
     </item>
     <item>
+      <title>Model Training and Evaluation</title>
+      <link>http://localhost:1313/tutorials/docs/pytorch/pytorch/model_training_and_evaluation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pytorch/pytorch/model_training_and_evaluation/</guid>
+      <description>Introduction to Model Training and Evaluation linkModel training and evaluation are critical steps in the machine learning workflow. PyTorch provides a flexible framework for training and evaluating deep learning models. In this tutorial, we&amp;rsquo;ll explore the process of training and evaluating models using PyTorch.&#xA;Define the Model Architecture linkThe first step in model training is defining the architecture of the neural network. PyTorch provides the torch.nn module for building neural network architectures.</description>
+    </item>
+    <item>
       <title>Modules and Packages in Mojo</title>
       <link>http://localhost:1313/tutorials/docs/mojo/mojo/modules_and_packages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -825,6 +972,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/haskell/haskell/monad-magic-in-haskell/</guid>
       <description>Introduction: linkWelcome to an intriguing exploration of one of Haskell’s most powerful and often mystifying features—monads. Monads play a crucial role in managing side effects and structuring functional programs in Haskell, providing a framework that helps maintain purity while performing IO, handling errors, or iterating over lists. This post will demystify the concept of monads, introduce you to the most commonly used monads like Maybe, IO, and List, and demonstrate how these can be leveraged for effective problem-solving in real-world applications.</description>
+    </item>
+    <item>
+      <title>NumPy Broadcasting</title>
+      <link>http://localhost:1313/tutorials/docs/numpy/numpy/broadcasting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/numpy/numpy/broadcasting/</guid>
+      <description>NumPy broadcasting is a powerful mechanism that allows arrays of different shapes to be combined in arithmetic operations. Broadcasting enables NumPy to perform element-wise operations on arrays with different shapes, making code more concise and efficient.&#xA;Broadcasting Rules linkNumPy follows a set of rules to determine how arrays with different shapes should be broadcasted:&#xA;Dimensions Compatibility: Arrays must have the same number of dimensions, or one of them must have fewer dimensions than the other.</description>
+    </item>
+    <item>
+      <title>NumPy Operations</title>
+      <link>http://localhost:1313/tutorials/docs/numpy/numpy/numpy_operations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/numpy/numpy/numpy_operations/</guid>
+      <description>Overview linkNumPy provides a wide range of mathematical and array operations that enable efficient manipulation and analysis of data. These operations include arithmetic, statistical, logical, aggregation, element-wise comparison, sorting, concatenation, splitting, broadcasting, vectorization, and Fourier transforms, among others. Understanding and leveraging these operations is essential for working effectively with NumPy arrays.&#xA;Arithmetic Operations linkNumPy supports standard arithmetic operations such as addition, subtraction, multiplication, and division, both element-wise and matrix-wise. These operations can be performed using NumPy&amp;rsquo;s array broadcasting and ufuncs.</description>
     </item>
     <item>
       <title>Object Oriented Programming with Julia</title>
@@ -852,7 +1013,7 @@
       <link>http://localhost:1313/tutorials/docs/erlang/erlang/applications_and_best_practices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/erlang/erlang/applications_and_best_practices/</guid>
-      <description>Practical Applications and Best Practices linkReal-World Applications of Erlang linkErlang&amp;rsquo;s unique features make it a preferred choice in several critical industries:&#xA;Case Studies&#xA;Notable examples include WhatsApp for instant messaging, Ericsson for telecommunications, and Klarna for online payments. These applications leverage Erlang&amp;rsquo;s ability to handle massive concurrency and maintain high availability.&#xA;Industry Use-Cases&#xA;Erlang is extensively used in sectors requiring scalable, fault-tolerant systems, such as banking, e-commerce, telecommunication, and cloud computing.</description>
+      <description>Practical Applications and Best Practices linkReal-World Applications of Erlang linkErlang&amp;rsquo;s unique features make it a preferred choice in several critical industries:&#xA;Case Studies linkWhatsApp: One of the most well-known examples, WhatsApp uses Erlang to handle its messaging infrastructure. Erlang&amp;rsquo;s ability to support massive concurrency and its fault tolerance ensures that millions of messages are delivered reliably every day.&#xA;Ericsson: As the creator of Erlang, Ericsson uses it extensively in its telecommunications infrastructure, benefiting from its robustness and ability to manage large-scale concurrent activities.</description>
     </item>
     <item>
       <title>Price Oracle Using Chainlink and Solidity</title>
@@ -867,6 +1028,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/python/python/python_modules_and_packages/</guid>
       <description>Introduction linkModules in Python are simply files containing Python code that can be imported into other Python scripts or modules. They are the building blocks of larger Python programs and make it easy to organize and reuse code across different projects. Packages are a way of structuring Python’s module namespace by using “dotted module names”.&#xA;Importing Modules linkImporting modules is fundamental in Python as it allows you to use functionalities that are not built into the core language but are vital for your programs.</description>
+    </item>
+    <item>
+      <title>PyTorch: Data Loading and Preprocessing</title>
+      <link>http://localhost:1313/tutorials/docs/pytorch/pytorch/data_loading_and_preprocessing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pytorch/pytorch/data_loading_and_preprocessing/</guid>
+      <description>Introduction to Data Loading and Preprocessing linkData loading and preprocessing are crucial steps in the machine learning pipeline. PyTorch provides tools and utilities to efficiently load and preprocess datasets for training, validation, and testing. In this tutorial, we&amp;rsquo;ll explore various techniques for data loading and preprocessing using PyTorch.&#xA;Dataset Classes in PyTorch linkPyTorch provides a torch.utils.data.Dataset class for representing datasets. To work with custom datasets, you can subclass Dataset and implement the __len__ and __getitem__ methods.</description>
     </item>
     <item>
       <title>Robust Error Handling in Rust: Using Result and Option</title>
@@ -911,6 +1079,20 @@
       <description>Starting here link</description>
     </item>
     <item>
+      <title>System Programming in Zig</title>
+      <link>http://localhost:1313/tutorials/docs/zig/zig/system_programming_using_zig/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/zig/zig/system_programming_using_zig/</guid>
+      <description>System programming with Zig involves tasks such as interacting with hardware, writing device drivers, and working with low-level APIs. Zig&amp;rsquo;s focus on safety, performance, and simplicity makes it well-suited for system programming tasks. In this tutorial, we&amp;rsquo;ll explore how Zig can be used for system programming, covering topics such as low-level memory management, interacting with hardware, and writing platform-specific code.&#xA;Low-Level Memory Management linkOne of the core aspects of system programming is managing memory efficiently.</description>
+    </item>
+    <item>
+      <title>Testing in Elixir with ExUnit</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/testing_with_elixir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/testing_with_elixir/</guid>
+      <description>Testing is a crucial aspect of software development that ensures code reliability and correctness. Elixir provides a powerful testing framework, ExUnit, which comes with a rich set of features for writing and running tests. This tutorial will cover the basics of ExUnit, writing test cases, using mocks and stubs, and property-based testing with StreamData.&#xA;Introduction to ExUnit linkExUnit is Elixir&amp;rsquo;s built-in test framework, providing a comprehensive suite of tools to write and execute tests.</description>
+    </item>
+    <item>
       <title>Understandin Application Binary Interface (ABI) in Solidity</title>
       <link>http://localhost:1313/tutorials/docs/solidity/solidity/understanding_application_binary_interface/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -925,18 +1107,18 @@
       <description>Introduction linkRust is renowned for its safety guarantees, but there are times when you might need to bypass these guarantees to directly interact with hardware or optimize performance. This post provides a comprehensive look at unsafe Rust, including what it entails, when it&amp;rsquo;s necessary, and how to use it without compromising the integrity of your applications.&#xA;Understanding Unsafe Code linkUnsafe Rust refers to operations that can potentially violate the memory safety guarantees that Rust usually enforces.</description>
     </item>
     <item>
+      <title>Understanding Erlang&#39;s OTP Framework</title>
+      <link>http://localhost:1313/tutorials/docs/erlang/erlang/erlangs_otp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/erlang/erlang/erlangs_otp/</guid>
+      <description>Understanding Erlang&amp;rsquo;s OTP Framework linkErlang&amp;rsquo;s Open Telecom Platform (OTP) framework is a set of libraries and design principles for building robust, fault-tolerant applications. OTP provides a solid foundation for building complex systems with high availability requirements, making it an essential tool for Erlang developers.&#xA;What is OTP? linkOTP stands for Open Telecom Platform, and it is a collection of middleware, libraries, and tools designed to help developers create large-scale, reliable applications.</description>
+    </item>
+    <item>
       <title>Understanding Functions in Python: Definitions, Parameters, Returns, and Scope</title>
       <link>http://localhost:1313/tutorials/docs/python/python/python_functions/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/python/python/python_functions/</guid>
       <description>Introduction linkFunctions are a cornerstone of organized, maintainable, and reusable code in Python. They allow you to execute specific blocks of code multiple times without needing to rewrite the code, enhancing the modularity and efficiency of your programs.&#xA;Defining Functions linkA function in Python is defined using the def keyword, followed by a function name, parentheses, and a colon. The code block within every function starts with an indentation.&#xA;Syntax and Explanation: link def function_name(parameters): # Function body return output Example: link def greet(name): &amp;#34;&amp;#34;&amp;#34;Returns a greeting.</description>
-    </item>
-    <item>
-      <title>Understanding Huff Macros</title>
-      <link>http://localhost:1313/tutorials/docs/huff/huff/understanding_huff_macros/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/huff/huff/understanding_huff_macros/</guid>
-      <description>Understanding Huff Macros linkExplanation of Macros in Huff linkMacros in Huff are one of its most distinctive and powerful features. They allow you to define reusable code blocks that can be invoked within your contract. This feature helps in organizing complex logic, reducing redundancy, and making contracts more readable. Unlike functions in high-level languages, macros do not have their own execution context; they are essentially inlined wherever they are called.</description>
     </item>
     <item>
       <title>Understanding Iterators and Generators in Python: Leveraging Yield for Efficient Code</title>
@@ -981,6 +1163,20 @@
       <description>Introduction:&#xA;Hello, Go developers! As applications grow increasingly complex and data-driven, efficiently managing database interactions becomes crucial. Go, known for its simplicity and performance, provides excellent support for interacting with both SQL and NoSQL databases. This guide will walk you through connecting to various databases, executing CRUD operations, and using ORM tools to streamline your database management tasks in Go.&#xA;1. Connecting to SQL and NoSQL Databases&#xA;a. SQL Databases:</description>
     </item>
     <item>
+      <title>Using Ecto for Database Interactions</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/password_generator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/password_generator/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Using Ecto for Database Interactions</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/using_ecto_for_database_interactions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/using_ecto_for_database_interactions/</guid>
+      <description>Ecto is a powerful database library and toolkit for Elixir, providing a domain-specific language for interacting with databases. This tutorial covers the essentials of using Ecto, from setting up and configuring your database to writing queries and handling data validation with changesets.&#xA;Introduction to Ecto linkEcto is an Elixir library for interacting with databases. It allows you to define schemas, run queries, manage database changes through migrations, and validate data. Ecto supports PostgreSQL, MySQL, SQLite, and other databases.</description>
+    </item>
+    <item>
       <title>Working with Collections in Go</title>
       <link>http://localhost:1313/tutorials/docs/golang/golang/working-with-collections-in-go/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -988,18 +1184,18 @@
       <description>Introduction:&#xA;Welcome, Go enthusiasts! When you’re developing in Go, you’ll often find yourself managing groups of data. Go provides several efficient ways to handle such collections, including arrays, slices, maps, and the powerful range clause for iteration. In this detailed blog, we&amp;rsquo;ll dissect each of these types, providing you with the knowledge to use these structures effectively in your Go programs.&#xA;1. Arrays and Slices&#xA;a. Arrays:&#xA;An array in Go is a numbered sequence of elements of a specific length and type.</description>
     </item>
     <item>
-      <title>Working with HTTP Requests</title>
-      <link>http://localhost:1313/tutorials/docs/elm/elm/working_with_http_requests/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/elm/elm/working_with_http_requests/</guid>
-      <description>Working with HTTP Requests linkElm provides a smooth way to handle HTTP requests with the Http module.&#xA;Making a GET Request&#xA;Here&amp;rsquo;s an example of how to make a GET request to fetch data:&#xA;fetchDataCmd : Cmd Msg fetchDataCmd = Http.get { url = &amp;#34;https://api.example.com/data&amp;#34; , expect = Http.expectString ReceiveData } This function creates a command that, when executed, sends a GET request to the specified URL and expects a string response.</description>
-    </item>
-    <item>
       <title>Working with Lists and Tuples in Python: Creation, Access, and More</title>
       <link>http://localhost:1313/tutorials/docs/python/python/python_lists_and_tuples/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/python/python/python_lists_and_tuples/</guid>
       <description>Introduction linkLists and tuples are fundamental Python data structures for storing collections of data. Lists are mutable, allowing modification after creation. Tuples, however, are immutable, meaning they cannot be changed once created. This section explores how to work with these structures.&#xA;Creating and Accessing Lists linkLists are versatile and can be used to store a collection of items (strings, numbers, or other lists).&#xA;Creating Lists linkYou can create a list by enclosing items in square brackets [], separated by commas.</description>
+    </item>
+    <item>
+      <title>Writing a training loop from scratch in PyTorch</title>
+      <link>http://localhost:1313/tutorials/docs/pytorch/pytorch/writing_a_training_loop_from_scratch_in_pytorch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pytorch/pytorch/writing_a_training_loop_from_scratch_in_pytorch/</guid>
+      <description>Introduction linkKeras provides default training and evaluation loops, fit() and evaluate().&#xA;If you want to customize the learning algorithm of your model while still leveraging the convenience of fit() (for instance, to train a GAN using fit()), you can subclass the Model class and implement your own train_step() method, which is called repeatedly during fit().&#xA;Now, if you want very low-level control over training &amp;amp; evaluation, you should write your own training &amp;amp; evaluation loops from scratch.</description>
     </item>
     <item>
       <title>XGboost</title>
@@ -1014,13 +1210,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/rust/rust/first_rust_program/</guid>
       <description>Welcome to your first adventure in Rust programming! In this post, we&amp;rsquo;ll take a detailed walk through the process of writing, compiling, and executing a simple Rust program. We&amp;rsquo;ll cover everything you need to know to get started, from setting up your project to understanding each line of code.&#xA;Getting Started with Rust linkBefore we dive into writing code, make sure you have Rust installed. If you haven&amp;rsquo;t installed Rust yet, refer to the previous post on Getting Started with Rust.</description>
-    </item>
-    <item>
-      <title>Zig</title>
-      <link>http://localhost:1313/tutorials/docs/zig/zig/zig/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/zig/zig/zig/</guid>
-      <description>Key Features of Zig: link Safety and Performance: Zig ensures memory safety and offers performance comparable to languages like C. Simplicity and Maintainability: Zig&amp;rsquo;s focus on avoiding hidden control flow and minimizing dependencies. Comptime: Fast compile-time execution and it sets Zig apart from other languages. Installation linkThis guide assumes Zig 0.11, which is the latest major release as of writing.&#xA;Download and extract a prebuilt master binary of Zig from: https://ziglang.</description>
     </item>
   </channel>
 </rss>

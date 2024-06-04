@@ -1,5 +1,5 @@
 ---
-title: "AJAX in HTMX"
+title: "3. AJAX in HTMX"
 description: "Learn about what HTMX is and how you can use it."
 icon: "code"
 draft: false

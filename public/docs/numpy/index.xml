@@ -8,11 +8,39 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/numpy/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Numpy</title>
-      <link>http://localhost:1313/tutorials/docs/numpy/numpy/</link>
+      <title>Advanced Number Concepts</title>
+      <link>http://localhost:1313/tutorials/docs/numpy/numpy/advanced_numpy_concepts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/numpy/numpy/</guid>
-      <description>Starting here link</description>
+      <guid>http://localhost:1313/tutorials/docs/numpy/numpy/advanced_numpy_concepts/</guid>
+      <description>Advanced Concepts and Applications of NumPy linkOverview linkNumPy offers advanced features and capabilities beyond basic array manipulation and arithmetic operations. These advanced concepts include broadcasting, linear algebra operations, random number generation, memory management, and integration with other libraries. Understanding these concepts and their applications is essential for mastering NumPy and leveraging its full potential in scientific computing and data analysis.&#xA;1. Broadcasting linkBroadcasting is a powerful mechanism in NumPy that allows arrays of different shapes to be combined in arithmetic operations.</description>
+    </item>
+    <item>
+      <title>Indexing and Slicing In Numpy</title>
+      <link>http://localhost:1313/tutorials/docs/numpy/numpy/indexing_and_slicing_in_numpy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/numpy/numpy/indexing_and_slicing_in_numpy/</guid>
+      <description>Indexing and Slicing in NumPy linkOverview linkIndexing and slicing are fundamental operations for accessing and manipulating elements in NumPy arrays. Understanding how to efficiently select and extract elements from arrays is essential for working with data effectively in NumPy.&#xA;Basic Indexing linkNumPy arrays support similar indexing syntax to Python lists. You can access individual elements of an array using square brackets and indices.&#xA;import numpy as np # Create an array arr = np.</description>
+    </item>
+    <item>
+      <title>Introduction to NumPy</title>
+      <link>http://localhost:1313/tutorials/docs/numpy/numpy/introduction_to_numpy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/numpy/numpy/introduction_to_numpy/</guid>
+      <description>NumPy, short for Numerical Python, is a fundamental package for scientific computing in Python. It provides support for large multidimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays. NumPy is the foundation upon which many other scientific Python libraries are built, making it an essential tool for data manipulation, numerical computing, and machine learning.&#xA;Key Features link1. Multidimensional Arrays linkAt the core of NumPy is its ndarray (n-dimensional array) object, which represents a multidimensional array of elements of the same type.</description>
+    </item>
+    <item>
+      <title>NumPy Broadcasting</title>
+      <link>http://localhost:1313/tutorials/docs/numpy/numpy/broadcasting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/numpy/numpy/broadcasting/</guid>
+      <description>NumPy broadcasting is a powerful mechanism that allows arrays of different shapes to be combined in arithmetic operations. Broadcasting enables NumPy to perform element-wise operations on arrays with different shapes, making code more concise and efficient.&#xA;Broadcasting Rules linkNumPy follows a set of rules to determine how arrays with different shapes should be broadcasted:&#xA;Dimensions Compatibility: Arrays must have the same number of dimensions, or one of them must have fewer dimensions than the other.</description>
+    </item>
+    <item>
+      <title>NumPy Operations</title>
+      <link>http://localhost:1313/tutorials/docs/numpy/numpy/numpy_operations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/numpy/numpy/numpy_operations/</guid>
+      <description>Overview linkNumPy provides a wide range of mathematical and array operations that enable efficient manipulation and analysis of data. These operations include arithmetic, statistical, logical, aggregation, element-wise comparison, sorting, concatenation, splitting, broadcasting, vectorization, and Fourier transforms, among others. Understanding and leveraging these operations is essential for working effectively with NumPy arrays.&#xA;Arithmetic Operations linkNumPy supports standard arithmetic operations such as addition, subtraction, multiplication, and division, both element-wise and matrix-wise. These operations can be performed using NumPy&amp;rsquo;s array broadcasting and ufuncs.</description>
     </item>
   </channel>
 </rss>
