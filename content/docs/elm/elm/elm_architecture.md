@@ -7,7 +7,11 @@ draft: false
 
 ## Elm Architecture
 
-Understanding The Elm Architecture (TEA) is crucial for building applications in Elm. TEA is a pattern for architecting web applications. It is simple yet powerful, helping you to build well-structured and easily maintainable applications.
+The Elm Architecture is a pattern for architecting interactive programs, like webapps and games.
+
+This architecture seems to emerge naturally in Elm. Rather than someone inventing it, early Elm programmers kept discovering the same basic patterns in their code. It was kind of spooky to see people ending up with well-architected code without planning ahead!
+
+So The Elm Architecture is easy in Elm, but it is useful in any front-end project. In fact, projects like Redux have been inspired by The Elm Architecture, so you may have already seen derivatives of this pattern. Point is, even if you ultimately cannot use Elm at work yet, you will get a lot out of using Elm and internalizing this pattern.
 
 ### Components of The Elm Architecture
 
@@ -54,6 +58,7 @@ Let's put these concepts together in a simple Elm application. The application w
 ```elm
 module Main exposing (..)
 
+import Browser
 import Html exposing (Html, button, div, text)
 import Html.Events exposing (onClick)
 
@@ -86,11 +91,12 @@ view model =
 
 -- MAIN
 main =
-    Html.beginnerProgram 
-        { model = initModel
+    Browser.sandbox 
+        { init = initModel
         , view = view
         , update = update 
         }
+
 ```
 
 In this program, clicking the button triggers an `UpdateMessage`, which updates the model's message. The view then reflects this change.

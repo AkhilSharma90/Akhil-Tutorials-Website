@@ -1,198 +1,200 @@
 ---
-title: "5. Building Forms and Handling User Input"
+title: "5. Create a Simple Registration Form"
 description: "Learn how to create interactive forms and handle user input in Elm."
 icon: "form"
 draft: false
 ---
 
-## Building Forms and Handling User Input
+In this tutorial, we will walk through building a basic user registration form using Elm. This form will allow users to input their name and password, and it will validate that the password and password confirmation match. By following this tutorial, you'll learn how to handle form inputs and state updates in Elm.
 
-Elm makes it straightforward to build forms and handle user input, ensuring a smooth and type-safe experience.
+## Introduction
 
-### Creating a Simple Form
+Elm is a functional language designed for building robust web applications. This tutorial will guide you through creating a simple registration form, demonstrating how to handle user input and perform validation. For more detailed information on handling forms in Elm, refer to the [official guide](https://guide.elm-lang.org/architecture/forms.html).
 
-Let's start with a simple form that collects a user's name and email address.
+## The Complete Code
+
+Here is the complete code for the registration form application. We will break it down into sections and explain each part.
 
 ```elm
-module Main exposing (..)
+-- Input a user name and password. Make sure the password matches.
+--
+-- Read how it works:
+--   https://guide.elm-lang.org/architecture/forms.html
+--
 
 import Browser
-import Html exposing (Html, div, text, input, button, form)
+import Html exposing (..)
 import Html.Attributes exposing (..)
-import Html.Events exposing (onInput, onSubmit)
+import Html.Events exposing (onInput)
+```
 
--- MODEL
+### Main Function
 
+The `main` function initializes the Elm application using `Browser.sandbox`. It sets up the `init`, `update`, and `view` functions.
+
+```elm
+main =
+  Browser.sandbox { init = init, update = update, view = view }
+```
+
+### Model
+
+The `Model` represents the state of our application. It includes three fields: `name`, `password`, and `passwordAgain`.
+
+```elm
 type alias Model =
-    { name : String
-    , email : String
-    }
+  { name : String
+  , password : String
+  , passwordAgain : String
+  }
 
-initModel : Model
-initModel =
-    { name = ""
-    , email = ""
-    }
+init : Model
+init =
+  Model "" "" ""
+```
 
--- UPDATE
+### Update
 
+The `update` function handles messages that update the model. We define three message types: `Name`, `Password`, and `PasswordAgain`.
+
+```elm
 type Msg
-    = UpdateName String
-    | UpdateEmail String
-    | Submit
+  = Name String
+  | Password String
+  | PasswordAgain String
 
 update : Msg -> Model -> Model
 update msg model =
-    case msg of
-        UpdateName name ->
-            { model | name = name }
+  case msg of
+    Name name ->
+      { model | name = name }
 
-        UpdateEmail email ->
-            { model | email = email }
+    Password password ->
+      { model | password = password }
 
-        Submit ->
-            model
+    PasswordAgain password ->
+      { model | passwordAgain = password }
+```
 
--- VIEW
+### View
 
+The `view` function renders the HTML based on the current model state. It uses helper functions `viewInput` to create input fields and `viewValidation` to display the validation message.
+
+```elm
 view : Model -> Html Msg
 view model =
-    form [ onSubmit (always Submit) ]
-        [ div []
-            [ text "Name: "
-            , input [ type_ "text", value model.name, onInput UpdateName ] []
-            ]
-        , div []
-            [ text "Email: "
-            , input [ type_ "email", value model.email, onInput UpdateEmail ] []
-            ]
-        , button [ type_ "submit" ] [ text "Submit" ]
-        ]
+  div []
+    [ viewInput "text" "Name" model.name Name
+    , viewInput "password" "Password" model.password Password
+    , viewInput "password" "Re-enter Password" model.passwordAgain PasswordAgain
+    , viewValidation model
+    ]
 
--- MAIN
+viewInput : String -> String -> String -> (String -> msg) -> Html msg
+viewInput t p v toMsg =
+  input [ type_ t, placeholder p, value v, onInput toMsg ] []
 
+viewValidation : Model -> Html msg
+viewValidation model =
+  if model.password == model.passwordAgain then
+    div [ style "color" "green" ] [ text "OK" ]
+  else
+    div [ style "color" "red" ] [ text "Passwords do not match!" ]
+```
+
+## Explanation
+
+### Main Function
+
+The `main` function initializes our Elm application in a sandbox environment, which is suitable for simple applications that do not require advanced features like HTTP requests or subscriptions. It specifies the `init`, `update`, and `view` functions to manage the application state and render the UI.
+
+```elm
 main =
-    Browser.sandbox { init = initModel, update = update, view = view }
+  Browser.sandbox { init = init, update = update, view = view }
 ```
 
-### Handling Form Submission
+### Model
 
-When the form is submitted, we can process the collected data. Here, we will just print the data to the console for simplicity.
-
-```elm
--- UPDATE
-
-type Msg
-    = UpdateName String
-    | UpdateEmail String
-    | Submit
-    | FormSubmitted
-
-update : Msg -> Model -> (Model, Cmd Msg)
-update msg model =
-    case msg of
-        UpdateName name ->
-            ({ model | name = name }, Cmd.none)
-
-        UpdateEmail email ->
-            ({ model | email = email }, Cmd.none)
-
-        Submit ->
-            (model, submitForm model)
-
-        FormSubmitted ->
-            (model, Cmd.none)
-
-submitForm : Model -> Cmd Msg
-submitForm model =
-    let
-        name = model.name
-        email = model.email
-    in
-    Debug.log "Form Submitted" (name, email) |> always FormSubmitted
-```
-
-### Adding Validation
-
-Form validation is crucial to ensure the user inputs correct data. Here is how you can add basic validation:
+The `Model` type alias defines the structure of our application state. It includes three fields: `name`, `password`, and `passwordAgain`, all of which are strings. The `init` function initializes these fields to empty strings.
 
 ```elm
--- MODEL
-
 type alias Model =
-    { name : String
-    , email : String
-    , errors : List String
-    }
+  { name : String
+  , password : String
+  , passwordAgain : String
+  }
 
-initModel : Model
-initModel =
-    { name = ""
-    , email = ""
-    , errors = []
-    }
-
--- UPDATE
-
-type Msg
-    = UpdateName String
-    | UpdateEmail String
-    | Submit
-    | FormSubmitted
-
-update : Msg -> Model -> (Model, Cmd Msg)
-update msg model =
-    case msg of
-        UpdateName name ->
-            ({ model | name = name }, Cmd.none)
-
-        UpdateEmail email ->
-            ({ model | email = email }, Cmd.none)
-
-        Submit ->
-            if validateForm model then
-                (model, submitForm model)
-            else
-                ({ model | errors = ["Invalid input"] }, Cmd.none)
-
-        FormSubmitted ->
-            (model, Cmd.none)
-
-validateForm : Model -> Bool
-validateForm model =
-    String.length model.name > 0 && String.contains "@" model.email
-
-submitForm : Model -> Cmd Msg
-submitForm model =
-    let
-        name = model.name
-        email = model.email
-    in
-    Debug.log "Form Submitted" (name, email) |> always FormSubmitted
+init : Model
+init =
+  Model "" "" ""
 ```
 
-### Displaying Validation Errors
+### Update
 
-Update the view to display validation errors:
+The `update` function takes a message and the current model, and returns an updated model. We define three message types: `Name`, `Password`, and `PasswordAgain`, each carrying a string payload. Depending on the message received, the function updates the corresponding field in the model.
 
 ```elm
--- VIEW
+type Msg
+  = Name String
+  | Password String
+  | PasswordAgain String
 
+update : Msg -> Model -> Model
+update msg model =
+  case msg of
+    Name name ->
+      { model | name = name }
+
+    Password password ->
+      { model | password = password }
+
+    PasswordAgain password ->
+      { model | passwordAgain = password }
+```
+
+### View
+
+The `view` function generates the HTML for our application. It uses the `viewInput` helper function to create input fields for the name, password, and password confirmation. It also uses the `viewValidation` function to display a validation message based on whether the passwords match.
+
+```elm
 view : Model -> Html Msg
 view model =
-    form [ onSubmit (always Submit) ]
-        [ div []
-            [ text "Name: "
-            , input [ type_ "text", value model.name, onInput UpdateName ] []
-            ]
-        , div []
-            [ text "Email: "
-            , input [ type_ "email", value model.email, onInput UpdateEmail ] []
-            ]
-        , div []
-            (List.map (div [] << text) model.errors)
-        , button [ type_ "submit" ] [ text "Submit" ]
-        ]
+  div []
+    [ viewInput "text" "Name" model.name Name
+    , viewInput "password" "Password" model.password Password
+    , viewInput "password" "Re-enter Password" model.passwordAgain PasswordAgain
+    , viewValidation model
+    ]
+
+viewInput : String -> String -> String -> (String -> msg) -> Html msg
+viewInput t p v toMsg =
+  input [ type_ t, placeholder p, value v, onInput toMsg ] []
+
+viewValidation : Model -> Html msg
+viewValidation model =
+  if model.password == model.passwordAgain then
+    div [ style "color" "green" ] [ text "OK" ]
+  else
+    div [ style "color" "red" ] [ text "Passwords do not match!" ]
 ```
 
-In this topic, we covered creating a simple form, handling form submission, adding validation, and displaying validation errors. These fundamentals will help you build more complex and interactive forms in Elm applications.
+### Helper Functions
+
+The `viewInput` function creates an input field with the specified type, placeholder, value, and message handler. The `viewValidation` function displays a validation message based on whether the password and password confirmation match.
+
+```elm
+viewInput : String -> String -> String -> (String -> msg) -> Html msg
+viewInput t p v toMsg =
+  input [ type_ t, placeholder p, value v, onInput toMsg ] []
+
+viewValidation : Model -> Html msg
+viewValidation model =
+  if model.password == model.passwordAgain then
+    div [ style "color" "green" ] [ text "OK" ]
+  else
+    div [ style "color" "red" ] [ text "Passwords do not match!" ]
+```
+
+## Conclusion
+
+This tutorial covered the essential parts of an Elm application for a simple user registration form. You learned how to handle user input, update the model, and perform validation. This example provides a solid foundation for creating more complex forms and applications in Elm.
