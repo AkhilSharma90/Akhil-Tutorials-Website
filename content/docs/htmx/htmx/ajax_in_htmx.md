@@ -57,9 +57,9 @@ A trigger can also have a few additional modifiers that change its behavior. For
 Other modifiers you can use for triggers are:
 
 - changed - only issue a request if the value of the element has changed
-- delay:<time interval> - wait the given amount of time (e.g. 1s) before issuing the request. If the event triggers again, the countdown is reset.
-- throttle:<time interval> - wait the given amount of time (e.g. 1s) before issuing the request. Unlike delay if a new event occurs before the time limit is hit the event will be discarded, so the request will trigger at the end of the time period.
-- from:<CSS Selector> - listen for the event on a different element. This can be used for things like keyboard shortcuts.
+- delay:`<time interval>` - wait the given amount of time (e.g. 1s) before issuing the request. If the event triggers again, the countdown is reset.
+- throttle:`<time interval>` - wait the given amount of time (e.g. 1s) before issuing the request. Unlike delay if a new event occurs before the time limit is hit the event will be discarded, so the request will trigger at the end of the time period.
+- from:`<CSS Selector>` - listen for the event on a different element. This can be used for things like keyboard shortcuts.
 
 You can use these attributes to implement many common UX patterns, such as Active Search:
 
@@ -93,8 +93,8 @@ htmx provides a few special events for use in hx-trigger:
 - load - fires once when the element is first loaded
 - revealed - fires once when an element first scrolls into the viewport
 - intersect - fires once when an element first intersects the viewport. This supports two additional options:
-    - root:<selector> - a CSS selector of the root element for intersection
-    - threshold:<float> - a floating point number between 0.0 and 1.0, indicating what amount of intersection to fire the event on
+    - root:`<selector>` - a CSS selector of the root element for intersection
+    - threshold:`<float>` - a floating point number between 0.0 and 1.0, indicating what amount of intersection to fire the event on
 You can also use custom events to trigger requests if you have an advanced use case.
 
 ### Polling

@@ -16,7 +16,7 @@ There is extensive documentation on XSS and how to prevent it on the excellent O
 
 The good news is that this is a very old and well understood topic, and the vast majority of server-side templating languages support automatic escaping of content to prevent just such an issue.
 
-That being said, there are times people choose to inject HTML more dangerously, often via some sort of raw() mechanism in their templating language. This can be done for good reasons, but if the content being injected is coming from a 3rd party then it must be scrubbed, including removing attributes starting with hx- and data-hx, as well as inline <script> tags, etc.
+That being said, there are times people choose to inject HTML more dangerously, often via some sort of raw() mechanism in their templating language. This can be done for good reasons, but if the content being injected is coming from a 3rd party then it must be scrubbed, including removing attributes starting with hx- and data-hx, as well as inline `<script>` tags, etc.
 
 If you are injecting raw HTML and doing your own escaping, a best practice is to whitelist the attributes and tags you allow, rather than to blacklist the ones you disallow.
 
@@ -42,7 +42,7 @@ Another security consideration is htmx history cache. You may have pages that ha
 htmx also provides configuration options related to security:
 
 - htmx.config.selfRequestsOnly - if set to true, only requests to the same domain as the current document will be allowed
-- htmx.config.allowScriptTags - htmx will process <script> tags found in new content it loads. If you wish to disable this behavior you can set this configuration variable to false
+- htmx.config.allowScriptTags - htmx will process `<script>` tags found in new content it loads. If you wish to disable this behavior you can set this configuration variable to false
 - htmx.config.historyCacheSize - can be set to 0 to avoid storing any HTML in the localStorage cache
 - htmx.config.allowEval - can be set to false to disable all features of htmx that rely on eval:
     - event filters
