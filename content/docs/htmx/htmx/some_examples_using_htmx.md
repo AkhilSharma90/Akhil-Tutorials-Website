@@ -1,12 +1,9 @@
 ---
-title: "2. htmx usage with Django"
+title: "htmx usage with Django"
 description: "Learn about what HTMX is and how you can use it."
 icon: "code"
 draft: false
 ---
-
-
-### htmx usage with Django
 
 There is an open-source Django/htmx project. The main aim is to show how htmx could be used in a modern, high-performance Django project. There is a lot of scope for optimization, and with Django being a highly optimized framework with a lot of built-in tools, it should be possible to produce high-quality applications without a lot of custom code. The project is based on the Django REST Framework, with a few extensions and libraries to make development easier.
 

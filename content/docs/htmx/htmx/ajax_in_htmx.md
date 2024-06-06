@@ -1,11 +1,9 @@
 ---
-title: "3. AJAX in HTMX"
+title: "AJAX in HTMX"
 description: "Learn about what HTMX is and how you can use it."
 icon: "code"
 draft: false
 ---
-
-## AJAX
 
 The core of htmx is a set of attributes that allow you to issue AJAX requests directly from HTML:
 
@@ -27,7 +25,7 @@ Each of these attributes takes a URL to issue an AJAX request to. The element wi
 
 This tells the browser:  
 When a user clicks on this div, issue a PUT request to the URL /messages and load the response into the div.
-
+## Triggers 
 ### Triggering Requests
 
 By default, AJAX requests are triggered by the “natural” event of an element:
@@ -76,6 +74,165 @@ You can use these attributes to implement many common UX patterns, such as Activ
 
 This input will issue a request 500 milliseconds after a key up event if the input has been changed and inserts the results into the div with the id search-results. Multiple triggers can be specified in the hx-trigger attribute, separated by commas.
 
+### Trigger Filters
+You may also apply trigger filters by using square brackets after the event name, enclosing a javascript expression that will be evaluated. If the expression evaluates to true the event will trigger, otherwise it will not.
+
+Here is an example that triggers only on a Control-Click of the element
+
+```html
+<div hx-get="/clicked" hx-trigger="click[ctrlKey]">
+    Control Click Me
+</div>
+```
+
+Properties like ctrlKey will be resolved against the triggering event first, then the global scope. The this symbol will be set to the current element.
+
+### Special Events
+htmx provides a few special events for use in hx-trigger:
+
+- load - fires once when the element is first loaded
+- revealed - fires once when an element first scrolls into the viewport
+- intersect - fires once when an element first intersects the viewport. This supports two additional options:
+    - root:<selector> - a CSS selector of the root element for intersection
+    - threshold:<float> - a floating point number between 0.0 and 1.0, indicating what amount of intersection to fire the event on
+You can also use custom events to trigger requests if you have an advanced use case.
+
+### Polling
+If you want an element to poll the given URL rather than wait for an event, you can use the every syntax with the hx-trigger attribute:
+```html
+<div hx-get="/news" hx-trigger="every 2s"></div>
+```
+
+This tells htmx
+
+Every 2 seconds, issue a GET to /news and load the response into the div
+
+If you want to stop polling from a server response you can respond with the HTTP response code 286 and the element will cancel the polling.
+
+### Load Polling
+Another technique that can be used to achieve polling in htmx is “load polling”, where an element specifies a load trigger along with a delay, and replaces itself with the response:
+
+```html
+<div hx-get="/messages"
+    hx-trigger="load delay:1s"
+    hx-swap="outerHTML"
+>
+</div>
+```
+
+If the /messages end point keeps returning a div set up this way, it will keep “polling” back to the URL every second.
+
+Load polling can be useful in situations where a poll has an end point at which point the polling terminates, such as when you are showing the user a progress bar.
+
+## Indicators
+###  Request Indicators
+When an AJAX request is issued it is often good to let the user know that something is happening since the browser will not give them any feedback. You can accomplish this in htmx by using htmx-indicator class.
+
+The htmx-indicator class is defined so that the opacity of any element with this class is 0 by default, making it invisible but present in the DOM.
+
+When htmx issues a request, it will put a htmx-request class onto an element (either the requesting element or another element, if specified). The htmx-request class will cause a child element with the htmx-indicator class on it to transition to an opacity of 1, showing the indicator.
+```html
+<button hx-get="/click">
+    Click Me!
+    <img class="htmx-indicator" src="/spinner.gif">
+</button>
+```
+
+Here we have a button. When it is clicked the htmx-request class will be added to it, which will reveal the spinner gif element. (I like SVG spinners these days.)
+
+While the htmx-indicator class uses opacity to hide and show the progress indicator, if you would prefer another mechanism you can create your own CSS transition like so:
+```html
+.htmx-indicator{
+    display:none;
+}
+.htmx-request .htmx-indicator{
+    display:inline;
+}
+.htmx-request.htmx-indicator{
+    display:inline;
+}
+```
+
+If you want the htmx-request class added to a different element, you can use the hx-indicator attribute with a CSS selector to do so:
+```html
+<div>
+    <button hx-get="/click" hx-indicator="#indicator">
+        Click Me!
+    </button>
+    <img id="indicator" class="htmx-indicator" src="/spinner.gif"/>
+</div>
+```
+
+Here we call out the indicator explicitly by id. Note that we could have placed the class on the parent div as well and had the same effect.
+
+You can also add the the disabled attribute to elements for the duration of a request by using the hx-disabled-elt attribute.
+
+## Targets
+If you want the response to be loaded into a different element other than the one that made the request, you can use the hx-target attribute, which takes a CSS selector. Looking back at our Live Search example:
+```html
+<input type="text" name="q"
+    hx-get="/trigger_delay"
+    hx-trigger="keyup delay:500ms changed"
+    hx-target="#search-results"
+    placeholder="Search..."
+>
+<div id="search-results"></div>
+```
+
+You can see that the results from the search are going to be loaded into div#search-results, rather than into the input tag.
+
+## Extended CSS Selectors
+hx-target, and most attributes that take a CSS selector, support an “extended” CSS syntax:
+
+- You can use the this keyword, which indicates that the element that the hx-target attribute is on is the target
+- The closest <CSS selector> syntax will find the closest ancestor element or itself, that matches the given CSS selector. (e.g. closest tr will target the closest table row to the element)
+- The next <CSS selector> syntax will find the next element in the DOM matching the given CSS selector.
+- The previous <CSS selector> syntax will find the previous element in the DOM the given CSS selector.
+- find <CSS selector> which will find the first child descendant element that matches the given CSS selector. (e.g find tr would target the first child descendant row to the element)
+In addition, a CSS selector may be wrapped in < and /> characters, mimicking the query literal syntax of hyperscript.
+
+Relative targets like this can be useful for creating flexible user interfaces without peppering your DOM with loads of id attributes.
+
+## Synchronization
+Often you want to coordinate the requests between two elements. For example, you may want a request from one element to supersede the request of another element, or to wait until the other element’s request has finished.
+
+htmx offers a hx-sync attribute to help you accomplish this.
+
+Consider a race condition between a form submission and an individual input’s validation request in this HTML:
+```html
+<form hx-post="/store">
+    <input id="title" name="title" type="text"
+        hx-post="/validate"
+        hx-trigger="change"
+    >
+    <button type="submit">Submit</button>
+</form>
+```
+Without using hx-sync, filling out the input and immediately submitting the form triggers two parallel requests to /validate and /store.
+
+Using hx-sync="closest form:abort" on the input will watch for requests on the form and abort the input’s request if a form request is present or starts while the input request is in flight:
+```html
+<form hx-post="/store">
+    <input id="title" name="title" type="text"
+        hx-post="/validate"
+        hx-trigger="change"
+        hx-sync="closest form:abort"
+    >
+    <button type="submit">Submit</button>
+</form>
+```
+This resolves the synchronization between the two elements in a declarative way.
+
+htmx also supports a programmatic way to cancel requests: you can send the htmx:abort event to an element to cancel any in-flight requests:
+
+```html
+<button id="request-button" hx-post="/example">
+    Issue Request
+</button>
+<button onclick="htmx.trigger('#request-button', 'htmx:abort')">
+    Cancel Request
+</button>
+```
 ### Click to Edit
 
 The click to edit pattern provides a way to offer inline editing of all or part of a record without a page refresh.

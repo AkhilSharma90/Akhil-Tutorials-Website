@@ -78,11 +78,11 @@
       <description>Protocols - ether, fddi, ip, arp, rarp, decnet, lat, sca, moprc, mopdl, tcp and udp linkWireshark Capturing Modes link Promiscuous mode Sets interface to capture all packets on a network segment to which it is associated to Monitor mode setup the Wireless interface to capture all traffic it can receive (Unix/Linux only) Filter Types link Capture filter Filter packets during capture Display Filter Hide Packets from a capture display Capture Filter Syntax link Syntax protocol direction hosts value Logical operator Expressions Example tcp src 192.</description>
     </item>
     <item>
-      <title>1. Getting started guide with HTMX</title>
-      <link>http://localhost:1313/tutorials/docs/htmx/htmx/getting_started_with_htmx/</link>
+      <title></title>
+      <link>http://localhost:1313/tutorials/docs/nim/nim/nims_oop/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/getting_started_with_htmx/</guid>
-      <description>htmx in a Nutshell linkhtmx is a library that allows you to access modern browser features directly from HTML, rather than using javascript. To understand htmx, first let’s take a look at an anchor tag:&#xA;&amp;lt;a href=&amp;#34;/blog&amp;#34;&amp;gt;Blog&amp;lt;/a&amp;gt; This anchor tag tells a browser:&#xA;“When a user clicks on this link, issue an HTTP GET request to ‘/blog’ and load the response content into the browser window”.&#xA;With that in mind, consider the following bit of HTML:</description>
+      <guid>http://localhost:1313/tutorials/docs/nim/nim/nims_oop/</guid>
+      <description></description>
     </item>
     <item>
       <title>1. Getting Started With Elm</title>
@@ -120,13 +120,6 @@
       <description>Elm is built on a set of core concepts that make it robust and functional. Understanding these concepts is key to becoming proficient in Elm. Let&amp;rsquo;s explore some of these fundamental ideas.&#xA;Types and Type Annotations linkElm is a statically typed language, meaning the type of every variable and expression is known at compile time. This feature makes your code more reliable and easier to maintain.&#xA;Basic Types linkElm has several basic types such as Int, Float, String, Bool, and more.</description>
     </item>
     <item>
-      <title>2. htmx usage with Django</title>
-      <link>http://localhost:1313/tutorials/docs/htmx/htmx/some_examples_using_htmx/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/some_examples_using_htmx/</guid>
-      <description>htmx usage with Django linkThere is an open-source Django/htmx project. The main aim is to show how htmx could be used in a modern, high-performance Django project. There is a lot of scope for optimization, and with Django being a highly optimized framework with a lot of built-in tools, it should be possible to produce high-quality applications without a lot of custom code. The project is based on the Django REST Framework, with a few extensions and libraries to make development easier.</description>
-    </item>
-    <item>
       <title>2. Modules in keras</title>
       <link>http://localhost:1313/tutorials/docs/keras/keras/modules_in_keras/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -155,18 +148,11 @@
       <description>Advanced Huff Features linkIn-Depth Look at Advanced Huff Features linkHuff allows for a range of advanced features that provide developers with extensive control and optimization capabilities. Some of these advanced features include:&#xA;1&#xA;. Inline Assembly: Huff permits inline assembly, giving developers the ability to embed raw EVM opcodes within their Huff code. 2. Conditional Execution: Huff supports conditional execution using EVM opcodes like JUMPI, allowing for complex logical flows. 3.</description>
     </item>
     <item>
-      <title>3. AJAX in HTMX</title>
-      <link>http://localhost:1313/tutorials/docs/htmx/htmx/ajax_in_htmx/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/ajax_in_htmx/</guid>
-      <description>AJAX linkThe core of htmx is a set of attributes that allow you to issue AJAX requests directly from HTML:&#xA;Attribute Description hx-get Issues a GET request to the given URL hx-post Issues a POST request to the given URL hx-put Issues a PUT request to the given URL hx-patch Issues a PATCH request to the given URL hx-delete Issues a DELETE request to the given URL Each of these attributes takes a URL to issue an AJAX request to.</description>
-    </item>
-    <item>
       <title>3. Elm Architecture</title>
       <link>http://localhost:1313/tutorials/docs/elm/elm/elm_architecture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/elm/elm/elm_architecture/</guid>
-      <description>Elm Architecture linkUnderstanding The Elm Architecture (TEA) is crucial for building applications in Elm. TEA is a pattern for architecting web applications. It is simple yet powerful, helping you to build well-structured and easily maintainable applications.&#xA;Components of The Elm Architecture linkTEA revolves around three main concepts: Model, Update, and View. Together, these components create a unidirectional data flow that is easy to understand and debug.&#xA;Model linkThe model represents the state of your application.</description>
+      <description>Elm Architecture linkThe Elm Architecture is a pattern for architecting interactive programs, like webapps and games.&#xA;This architecture seems to emerge naturally in Elm. Rather than someone inventing it, early Elm programmers kept discovering the same basic patterns in their code. It was kind of spooky to see people ending up with well-architected code without planning ahead!&#xA;So The Elm Architecture is easy in Elm, but it is useful in any front-end project.</description>
     </item>
     <item>
       <title>3. How to Clean Data using Pandas</title>
@@ -197,13 +183,6 @@
       <description>This chapter deals with the model evaluation and model prediction in Keras.&#xA;Let us begin by understanding the model evaluation.&#xA;Model Evaluation linkEvaluation is a process during development of the model to check whether the model is best fit for the given problem and corresponding data. Keras model provides a function, evaluate which does the evaluation of the model. It has three main arguments,&#xA;Test data Test data label verbose - true or false Let us evaluate the model, which we created in the previous chapter using test data.</description>
     </item>
     <item>
-      <title>4. Other hx-Attributes</title>
-      <link>http://localhost:1313/tutorials/docs/htmx/htmx/some_hx_attributes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/some_hx_attributes/</guid>
-      <description>Other hx-Attributes linkIndicators linkYou can specify an element that should be shown or hidden when the request is in flight using the hx-indicator attribute.&#xA;Here is a div that hides itself and shows a spinner when it is loading:&#xA;&amp;lt;div hx-get=&amp;#34;/slow&amp;#34; hx-trigger=&amp;#34;click&amp;#34; hx-target=&amp;#34;#parent-div&amp;#34;&amp;gt; &amp;lt;span hx-indicator=&amp;#34;#spinner&amp;#34;&amp;gt;Load the slow content&amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;img id=&amp;#34;spinner&amp;#34; src=&amp;#34;/img/spinner.gif&amp;#34; style=&amp;#34;display:none;&amp;#34;&amp;gt; Indicators are shown when a request is initiated, and hidden when the request is finished.&#xA;Selecting Content to Swap linkYou can select a portion of the response to use for the swap, instead of using the entire response, using the hx-select attribute.</description>
-    </item>
-    <item>
       <title>4. Working with HTTP Requests</title>
       <link>http://localhost:1313/tutorials/docs/elm/elm/working_with_http_requests/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -211,11 +190,11 @@
       <description>Working with HTTP Requests linkElm provides a smooth way to handle HTTP requests with the Http module.&#xA;Making a GET Request linkHere&amp;rsquo;s an example of how to make a GET request to fetch data:&#xA;fetchDataCmd : Cmd Msg fetchDataCmd = Http.get { url = &amp;#34;https://api.example.com/data&amp;#34; , expect = Http.expectString ReceiveData } This function creates a command that, when executed, sends a GET request to the specified URL and expects a string response.</description>
     </item>
     <item>
-      <title>5. Building Forms and Handling User Input</title>
+      <title>5. Create a Simple Registration Form</title>
       <link>http://localhost:1313/tutorials/docs/elm/elm/building_forms_and_handling_user_input/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/elm/elm/building_forms_and_handling_user_input/</guid>
-      <description>Building Forms and Handling User Input linkElm makes it straightforward to build forms and handle user input, ensuring a smooth and type-safe experience.&#xA;Creating a Simple Form linkLet&amp;rsquo;s start with a simple form that collects a user&amp;rsquo;s name and email address.&#xA;module Main exposing (..) import Browser import Html exposing (Html, div, text, input, button, form) import Html.Attributes exposing (..) import Html.Events exposing (onInput, onSubmit) -- MODEL type alias Model = { name : String , email : String } initModel : Model initModel = { name = &amp;#34;&amp;#34; , email = &amp;#34;&amp;#34; } -- UPDATE type Msg = UpdateName String | UpdateEmail String | Submit update : Msg -&amp;gt; Model -&amp;gt; Model update msg model = case msg of UpdateName name -&amp;gt; { model | name = name } UpdateEmail email -&amp;gt; { model | email = email } Submit -&amp;gt; model -- VIEW view : Model -&amp;gt; Html Msg view model = form [ onSubmit (always Submit) ] [ div [] [ text &amp;#34;Name: &amp;#34; , input [ type_ &amp;#34;text&amp;#34;, value model.</description>
+      <description>In this tutorial, we will walk through building a basic user registration form using Elm. This form will allow users to input their name and password, and it will validate that the password and password confirmation match. By following this tutorial, you&amp;rsquo;ll learn how to handle form inputs and state updates in Elm.&#xA;Introduction linkElm is a functional language designed for building robust web applications. This tutorial will guide you through creating a simple registration form, demonstrating how to handle user input and perform validation.</description>
     </item>
     <item>
       <title>5. Creating a Token With Huff</title>
@@ -274,6 +253,13 @@
       <description>Key Features of Zig: link Safety and Performance: Zig ensures memory safety and offers performance comparable to languages like C. Simplicity and Maintainability: Zig&amp;rsquo;s focus on avoiding hidden control flow and minimizing dependencies. Comptime: Fast compile-time execution and it sets Zig apart from other languages. Installation linkThis guide assumes Zig 0.11, which is the latest major release as of writing.&#xA;Download and extract a prebuilt master binary of Zig from: https://ziglang.</description>
     </item>
     <item>
+      <title>A Getting started guide with HTMX</title>
+      <link>http://localhost:1313/tutorials/docs/htmx/htmx/getting_started_with_htmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/getting_started_with_htmx/</guid>
+      <description>htmx in a Nutshell linkhtmx is a library that allows you to access modern browser features directly from HTML, rather than using javascript. To understand htmx, first let’s take a look at an anchor tag:&#xA;&amp;lt;a href=&amp;#34;/blog&amp;#34;&amp;gt;Blog&amp;lt;/a&amp;gt; This anchor tag tells a browser:&#xA;“When a user clicks on this link, issue an HTTP GET request to ‘/blog’ and load the response content into the browser window”.&#xA;With that in mind, consider the following bit of HTML:</description>
+    </item>
+    <item>
       <title>A Getting Started Guide with Julia</title>
       <link>http://localhost:1313/tutorials/docs/julia/julia/getting_started_with_julia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -316,6 +302,13 @@
       <description>Advanced Concepts and Applications of NumPy linkOverview linkNumPy offers advanced features and capabilities beyond basic array manipulation and arithmetic operations. These advanced concepts include broadcasting, linear algebra operations, random number generation, memory management, and integration with other libraries. Understanding these concepts and their applications is essential for mastering NumPy and leveraging its full potential in scientific computing and data analysis.&#xA;1. Broadcasting linkBroadcasting is a powerful mechanism in NumPy that allows arrays of different shapes to be combined in arithmetic operations.</description>
     </item>
     <item>
+      <title>AJAX in HTMX</title>
+      <link>http://localhost:1313/tutorials/docs/htmx/htmx/ajax_in_htmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/ajax_in_htmx/</guid>
+      <description>The core of htmx is a set of attributes that allow you to issue AJAX requests directly from HTML:&#xA;Attribute Description hx-get Issues a GET request to the given URL hx-post Issues a POST request to the given URL hx-put Issues a PUT request to the given URL hx-patch Issues a PATCH request to the given URL hx-delete Issues a DELETE request to the given URL Each of these attributes takes a URL to issue an AJAX request to.</description>
+    </item>
+    <item>
       <title>An Introduction to Nim</title>
       <link>http://localhost:1313/tutorials/docs/nim/nim/nim/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -349,6 +342,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/solidity/solidity/introduction_to_solidity.md/</guid>
       <description>What is Solidity? linkSolidity is an object-oriented programming language influenced by C++, JavaScript, and Python. It is designed to be compiled into bytecode that runs on the Ethereum Virtual Machine (EVM), which is the runtime environment for Solidity code, similar to how a browser runs JavaScript code.&#xA;In essence, you write smart contract code in Solidity, and the compiler converts it into bytecode. This bytecode is then deployed and stored on Ethereum (and other EVM-compatible blockchains).</description>
+    </item>
+    <item>
+      <title>Asynchronous Programming with Julia</title>
+      <link>http://localhost:1313/tutorials/docs/julia/julia/asynchronous_programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/julia/julia/asynchronous_programming/</guid>
+      <description>Asynchronous Programming linkWhen a program needs to interact with external systems, such as communicating with another machine over the internet, the sequence of operations may become unpredictable. For instance, if your program needs to download a file, you would initiate the download, perform other tasks while waiting for the download to complete, and then resume the code that requires the downloaded file once it&amp;rsquo;s available. This scenario is an example of asynchronous programming, also known as concurrent programming, as multiple operations appear to happen simultaneously.</description>
     </item>
     <item>
       <title>Basic Calculator with Julia</title>
@@ -428,6 +428,13 @@
       <description>Introduction:&#xA;Hello, Go developers! In the landscape of modern software architecture, microservices have become a cornerstone for building scalable, resilient, and manageable applications. With its excellent support for concurrency, robust standard library, and efficient execution, Go is an ideal language for developing microservices. This blog will guide you through designing, deploying, and scaling microservices with Go, highlighting best practices and essential strategies to maximize your application&amp;rsquo;s potential.&#xA;1. Designing Microservices in Go</description>
     </item>
     <item>
+      <title>Caching</title>
+      <link>http://localhost:1313/tutorials/docs/htmx/htmx/caching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/caching/</guid>
+      <description>htmx works with standard HTTP caching mechanisms out of the box.&#xA;If your server adds the Last-Modified HTTP response header to the response for a given URL, the browser will automatically add the If-Modified-Since request HTTP header to the next requests to the same URL. Be mindful that if your server can render different content for the same URL depending on some other headers, you need to use the Vary response HTTP header.</description>
+    </item>
+    <item>
       <title>Client</title>
       <link>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -503,6 +510,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/elixir/elixir/02_creating_a_simple_web_server/</guid>
       <description>In this lesson, we will build a simple HTTP server from scratch using the PlugCowboy Elixir library. Cowboy is a simple HTTP server for Erlang and Plug will provide us with a connection adapter for the web server.&#xA;Getting started linkAssuming you already have Elixir installed, we will start a simple project by running the command:&#xA;mix new server --sup cd server Note that server is the name of your project, and you can name it however you want.</description>
+    </item>
+    <item>
+      <title>Creating a Random Quotes App in Elm</title>
+      <link>http://localhost:1313/tutorials/docs/elm/elm/random_quote_generator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elm/elm/random_quote_generator/</guid>
+      <description>In this tutorial, we will walk through building a simple Elm application that fetches random quotes from an API. We will break down the code into logical sections and explain each part in detail. By the end of this tutorial, you will have a good understanding of how to make HTTP requests and handle the responses in Elm.&#xA;Introduction linkElm is a functional language for building reliable web applications. This tutorial will guide you through creating an application that fetches random quotes and displays them.</description>
     </item>
     <item>
       <title>Data Types, Variables, and Operators in Mojo</title>
@@ -736,6 +750,13 @@
       <description>Sending and receiving Ether in Solidity involves understanding the different methods available and their respective use cases. This guide will cover how to send Ether using transfer, send, and call, how to receive Ether, and which method to use for optimal security.&#xA;Sending Ether linktransfer linkThe transfer method sends 2300 gas and throws an error if the transfer fails.&#xA;function sendViaTransfer(address payable _to) public payable { // This function is no longer recommended for sending Ether.</description>
     </item>
     <item>
+      <title>htmx usage with Django</title>
+      <link>http://localhost:1313/tutorials/docs/htmx/htmx/some_examples_using_htmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/some_examples_using_htmx/</guid>
+      <description>There is an open-source Django/htmx project. The main aim is to show how htmx could be used in a modern, high-performance Django project. There is a lot of scope for optimization, and with Django being a highly optimized framework with a lot of built-in tools, it should be possible to produce high-quality applications without a lot of custom code. The project is based on the Django REST Framework, with a few extensions and libraries to make development easier.</description>
+    </item>
+    <item>
       <title>Indexing and Slicing In Numpy</title>
       <link>http://localhost:1313/tutorials/docs/numpy/numpy/indexing_and_slicing_in_numpy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -960,6 +981,13 @@
       <description>Overview linkModules and packages in Mojo, while having some similarities, differ significantly from Python&amp;rsquo;s approach. Understanding these differences is key to leveraging Mojo effectively, especially as the language continues to evolve and adopt a robust package management system.&#xA;Mojo Files and Main Function linkIn Mojo, like in many programming languages, a main function is essential for executing code. This is evident when creating and running Mojo files. Example of a Mojo File (hello.</description>
     </item>
     <item>
+      <title>Modules in Julia</title>
+      <link>http://localhost:1313/tutorials/docs/julia/julia/modules_in_julia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/julia/julia/modules_in_julia/</guid>
+      <description>Simplified Guide to Julia Modules linkModules in Julia help organize code into manageable sections, providing separate namespaces, precompilation capabilities, and detailed namespace management. Here&amp;rsquo;s a simplified guide to understanding and using modules in Julia:&#xA;Basic Structure of a Module linkA module in Julia is defined using the module ... end syntax. Inside, you can define functions, types, constants, and other variables. Modules create separate namespaces to avoid name conflicts and allow detailed management of which names (functions, variables, etc.</description>
+    </item>
+    <item>
       <title>Modules in Nim</title>
       <link>http://localhost:1313/tutorials/docs/nim/nim/modules/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -972,6 +1000,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/haskell/haskell/monad-magic-in-haskell/</guid>
       <description>Introduction: linkWelcome to an intriguing exploration of one of Haskell’s most powerful and often mystifying features—monads. Monads play a crucial role in managing side effects and structuring functional programs in Haskell, providing a framework that helps maintain purity while performing IO, handling errors, or iterating over lists. This post will demystify the concept of monads, introduce you to the most commonly used monads like Maybe, IO, and List, and demonstrate how these can be leveraged for effective problem-solving in real-world applications.</description>
+    </item>
+    <item>
+      <title>Multi-Thread Programming with Julia</title>
+      <link>http://localhost:1313/tutorials/docs/julia/julia/multi-thread/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/julia/julia/multi-thread/</guid>
+      <description>Visit this blog post for a presentation of Julia&amp;rsquo;s multi-threading features.&#xA;Starting Julia with Multiple Threads linkBy default, Julia starts with a single thread of execution. This can be verified with the command Threads.nthreads():&#xA;julia&amp;gt; Threads.nthreads() 1 The number of execution threads is controlled either by using the -t/--threads command line argument or by setting the JULIA_NUM_THREADS environment variable. If both are specified, -t/--threads takes precedence.&#xA;You can specify the number of threads either as an integer (--threads=4) or as auto (--threads=auto), where auto tries to infer a useful default number of threads (see Command-line Options for more details).</description>
+    </item>
+    <item>
+      <title>Nim Macros: A Comprehensive Tutorial</title>
+      <link>http://localhost:1313/tutorials/docs/nim/nim/nims_marco_system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/nim/nim/nims_marco_system/</guid>
+      <description>Macros in Nim are powerful tools that allow you to transform Nim&amp;rsquo;s abstract syntax tree (AST) at compile-time. This tutorial will guide you through the essential concepts and practical applications of Nim&amp;rsquo;s macro system.&#xA;What is a Macro? linkA macro in Nim is a function that executes at compile-time, transforming a Nim syntax tree into a different tree. This capability can be leveraged for various tasks, such as:&#xA;Enhanced Assertions: Implement an assert macro that prints both sides of a comparison if the assertion fails.</description>
     </item>
     <item>
       <title>NumPy Broadcasting</title>
@@ -1007,6 +1049,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/scala/scala/object_oriented_programming/</guid>
       <description>Object-Oriented Programming in Scala linkScala treats everything as objects and supports key object-oriented programming (OOP) concepts such as classes, objects, constructors, inheritance, and traits.&#xA;Classes and Objects&#xA;Classes: A class in Scala is a blueprint for creating objects. It can contain fields and methods.&#xA;class Person(var name: String, var age: Int) { def greet(): Unit = { println(s&amp;#34;Hello, my name is $name and I am $age years old.&amp;#34;) } } Objects: An instance of a class is known as an object.</description>
+    </item>
+    <item>
+      <title>Other hx-Attributes</title>
+      <link>http://localhost:1313/tutorials/docs/htmx/htmx/some_hx_attributes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/some_hx_attributes/</guid>
+      <description>Other hx-Attributes linkIndicators linkYou can specify an element that should be shown or hidden when the request is in flight using the hx-indicator attribute.&#xA;Here is a div that hides itself and shows a spinner when it is loading:&#xA;&amp;lt;div hx-get=&amp;#34;/slow&amp;#34; hx-trigger=&amp;#34;click&amp;#34; hx-target=&amp;#34;#parent-div&amp;#34;&amp;gt; &amp;lt;span hx-indicator=&amp;#34;#spinner&amp;#34;&amp;gt;Load the slow content&amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;img id=&amp;#34;spinner&amp;#34; src=&amp;#34;/img/spinner.gif&amp;#34; style=&amp;#34;display:none;&amp;#34;&amp;gt; Indicators are shown when a request is initiated, and hidden when the request is finished.&#xA;Selecting Content to Swap linkYou can select a portion of the response to use for the swap, instead of using the entire response, using the hx-select attribute.</description>
     </item>
     <item>
       <title>Practical Applications and Best Practices</title>
@@ -1049,6 +1098,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/julia/julia/scientific_computing/</guid>
       <description>Scientific Computing linkJulia is particularly well-suited for scientific computing due to its high performance and ease of writing complex mathematical operations. This section will introduce key aspects of scientific computing in Julia, including linear algebra operations and interfacing with other languages.&#xA;Julia in Scientific Computing linkJulia’s syntax is concise and readable, making it ideal for mathematical expressions. Its performance is comparable to traditional scientific computing languages like Fortran and C, thanks to its just-in-time (JIT) compilation.</description>
+    </item>
+    <item>
+      <title>Security in HTMX</title>
+      <link>http://localhost:1313/tutorials/docs/htmx/htmx/security_in_htmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/security_in_htmx/</guid>
+      <description>htmx allows you to define logic directly in your DOM. This has a number of advantages, the largest being Locality of Behavior, which makes your system easier to understand and maintain.&#xA;A concern with this approach, however, is security: since htmx increases the expressiveness of HTML, if a malicious user is able to inject HTML into your application, they can leverage this expressiveness of htmx to malicious ends.&#xA;Rule 1: Escape All User Content linkThe first rule of HTML-based web development has always been: do not trust input from the user.</description>
     </item>
     <item>
       <title>Smart Pointers in Rust</title>
@@ -1177,6 +1233,20 @@
       <description>Ecto is a powerful database library and toolkit for Elixir, providing a domain-specific language for interacting with databases. This tutorial covers the essentials of using Ecto, from setting up and configuring your database to writing queries and handling data validation with changesets.&#xA;Introduction to Ecto linkEcto is an Elixir library for interacting with databases. It allows you to define schemas, run queries, manage database changes through migrations, and validate data. Ecto supports PostgreSQL, MySQL, SQLite, and other databases.</description>
     </item>
     <item>
+      <title>Web Security Basics using HTMX</title>
+      <link>http://localhost:1313/tutorials/docs/htmx/htmx/web_security_basics_using_htmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/web_security_basics_using_htmx/</guid>
+      <description>As htmx has gotten more popular, it’s reached communities who have never written server-generated HTML before. Dynamic HTML templating was, and still is, the standard way to use many popular web frameworks—like Rails, Django, and Spring—but it is a novel concept for those coming from Single-Page Application (SPA) frameworks—like React and Svelte—where the prevalence of JSX means you never write HTML directly.&#xA;But have no fear! Writing web applications with HTML templates is a slightly different security model, but it’s no harder than securing a JSX-based application, and in some ways it’s a lot easier.</description>
+    </item>
+    <item>
+      <title>Web Socket and SSE</title>
+      <link>http://localhost:1313/tutorials/docs/htmx/htmx/web_socket_and_sse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/web_socket_and_sse/</guid>
+      <description>htmx has experimental support for declarative use of both WebSockets and Server Sent Events.&#xA;Note: In htmx 2.0, these features will be migrated to extensions. These new extensions are already available in htmx 1.7+ and, if you are writing new code, you are encouraged to use the extensions instead. All new feature work for both SSE and web sockets will be done in the extensions.&#xA;WebSockets linkIf you wish to establish a WebSocket connection in htmx, you use the hx-ws attribute:</description>
+    </item>
+    <item>
       <title>Working with Collections in Go</title>
       <link>http://localhost:1313/tutorials/docs/golang/golang/working-with-collections-in-go/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1196,13 +1266,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/pytorch/pytorch/writing_a_training_loop_from_scratch_in_pytorch/</guid>
       <description>Introduction linkKeras provides default training and evaluation loops, fit() and evaluate().&#xA;If you want to customize the learning algorithm of your model while still leveraging the convenience of fit() (for instance, to train a GAN using fit()), you can subclass the Model class and implement your own train_step() method, which is called repeatedly during fit().&#xA;Now, if you want very low-level control over training &amp;amp; evaluation, you should write your own training &amp;amp; evaluation loops from scratch.</description>
-    </item>
-    <item>
-      <title>XGboost</title>
-      <link>http://localhost:1313/tutorials/docs/xgboost/xgboost/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/xgboost/xgboost/</guid>
-      <description>Starting here link</description>
     </item>
     <item>
       <title>Your First Rust Program</title>

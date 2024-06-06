@@ -1,5 +1,5 @@
 ---
-title: "Advanced Number Concepts"
+title: "Applications and Advanced Numpy Concepts"
 description: "..."
 icon: "🎲"
 draft: false

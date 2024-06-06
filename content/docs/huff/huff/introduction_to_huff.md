@@ -46,11 +46,14 @@ Before diving into Huff development, it's essential to have the right tools and 
 
 ### Step-by-step Guide to Set Up a Huff Development Environment
 
-1. **Install Node.js and NPM**: Download and install Node.js from [nodejs.org](https://nodejs.org). NPM comes bundled with Node.js.
-2. **Set Up an Ethereum Node**: You can either set up a local Ethereum node using Geth or use a service like Infura for an easier setup.
-3. **Install the Huff Compiler**: Use NPM to install the Huff compiler globally with the command `npm install -g huffc`.
-4. **Install a Development Framework**: Choose either Truffle or Hardhat. Install it globally using NPM with `npm install -g truffle` or `npm install -g hardhat`.
-5. **Prepare Your Development Environment**: Set up a new project directory and initialize your development framework (Truffle or Hardhat) by following their respective documentation.
+First, install huffup, a version control manager for the Huff Compiler:
 
-After setting up the environment, you are now ready to start developing smart contracts with Huff. This setup provides the foundation upon which you can build, compile, test, and deploy your Huff contracts.
+```sh
+curl -L get.huff.sh | bash
+```
 
+**NOTE**: This installs the huffup binary, but does not guarantee it is added to your path. If you get an error like huffup: command not found, you will need to source your path by running source ~/.bashrc or source ~/.zshrc. Alternatively, you can open a new terminal window.
+
+Now, with huffup installed and in your path, you can simply run huffup to install the latest stable version of huffc (the huff compiler).
+
+To verify for yourself that it's installed, run huffc --help to view the help menu.

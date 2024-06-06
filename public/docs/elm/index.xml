@@ -26,7 +26,7 @@
       <link>http://localhost:1313/tutorials/docs/elm/elm/elm_architecture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/elm/elm/elm_architecture/</guid>
-      <description>Elm Architecture linkUnderstanding The Elm Architecture (TEA) is crucial for building applications in Elm. TEA is a pattern for architecting web applications. It is simple yet powerful, helping you to build well-structured and easily maintainable applications.&#xA;Components of The Elm Architecture linkTEA revolves around three main concepts: Model, Update, and View. Together, these components create a unidirectional data flow that is easy to understand and debug.&#xA;Model linkThe model represents the state of your application.</description>
+      <description>Elm Architecture linkThe Elm Architecture is a pattern for architecting interactive programs, like webapps and games.&#xA;This architecture seems to emerge naturally in Elm. Rather than someone inventing it, early Elm programmers kept discovering the same basic patterns in their code. It was kind of spooky to see people ending up with well-architected code without planning ahead!&#xA;So The Elm Architecture is easy in Elm, but it is useful in any front-end project.</description>
     </item>
     <item>
       <title>4. Working with HTTP Requests</title>
@@ -36,11 +36,18 @@
       <description>Working with HTTP Requests linkElm provides a smooth way to handle HTTP requests with the Http module.&#xA;Making a GET Request linkHere&amp;rsquo;s an example of how to make a GET request to fetch data:&#xA;fetchDataCmd : Cmd Msg fetchDataCmd = Http.get { url = &amp;#34;https://api.example.com/data&amp;#34; , expect = Http.expectString ReceiveData } This function creates a command that, when executed, sends a GET request to the specified URL and expects a string response.</description>
     </item>
     <item>
-      <title>5. Building Forms and Handling User Input</title>
+      <title>5. Create a Simple Registration Form</title>
       <link>http://localhost:1313/tutorials/docs/elm/elm/building_forms_and_handling_user_input/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/elm/elm/building_forms_and_handling_user_input/</guid>
-      <description>Building Forms and Handling User Input linkElm makes it straightforward to build forms and handle user input, ensuring a smooth and type-safe experience.&#xA;Creating a Simple Form linkLet&amp;rsquo;s start with a simple form that collects a user&amp;rsquo;s name and email address.&#xA;module Main exposing (..) import Browser import Html exposing (Html, div, text, input, button, form) import Html.Attributes exposing (..) import Html.Events exposing (onInput, onSubmit) -- MODEL type alias Model = { name : String , email : String } initModel : Model initModel = { name = &amp;#34;&amp;#34; , email = &amp;#34;&amp;#34; } -- UPDATE type Msg = UpdateName String | UpdateEmail String | Submit update : Msg -&amp;gt; Model -&amp;gt; Model update msg model = case msg of UpdateName name -&amp;gt; { model | name = name } UpdateEmail email -&amp;gt; { model | email = email } Submit -&amp;gt; model -- VIEW view : Model -&amp;gt; Html Msg view model = form [ onSubmit (always Submit) ] [ div [] [ text &amp;#34;Name: &amp;#34; , input [ type_ &amp;#34;text&amp;#34;, value model.</description>
+      <description>In this tutorial, we will walk through building a basic user registration form using Elm. This form will allow users to input their name and password, and it will validate that the password and password confirmation match. By following this tutorial, you&amp;rsquo;ll learn how to handle form inputs and state updates in Elm.&#xA;Introduction linkElm is a functional language designed for building robust web applications. This tutorial will guide you through creating a simple registration form, demonstrating how to handle user input and perform validation.</description>
+    </item>
+    <item>
+      <title>Creating a Random Quotes App in Elm</title>
+      <link>http://localhost:1313/tutorials/docs/elm/elm/random_quote_generator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elm/elm/random_quote_generator/</guid>
+      <description>In this tutorial, we will walk through building a simple Elm application that fetches random quotes from an API. We will break down the code into logical sections and explain each part in detail. By the end of this tutorial, you will have a good understanding of how to make HTTP requests and handle the responses in Elm.&#xA;Introduction linkElm is a functional language for building reliable web applications. This tutorial will guide you through creating an application that fetches random quotes and displays them.</description>
     </item>
   </channel>
 </rss>

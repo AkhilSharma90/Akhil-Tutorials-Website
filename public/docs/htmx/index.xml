@@ -16,6 +16,13 @@
     </item>
     <item>
       <title>2. htmx usage with Django</title>
+      <link>http://localhost:1313/tutorials/docs/htmx/htmx/security_in_htmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/security_in_htmx/</guid>
+      <description>htmx allows you to define logic directly in your DOM. This has a number of advantages, the largest being Locality of Behavior, which makes your system easier to understand and maintain.&#xA;A concern with this approach, however, is security: since htmx increases the expressiveness of HTML, if a malicious user is able to inject HTML into your application, they can leverage this expressiveness of htmx to malicious ends.&#xA;Rule 1: Escape All User Content linkThe first rule of HTML-based web development has always been: do not trust input from the user.</description>
+    </item>
+    <item>
+      <title>2. htmx usage with Django</title>
       <link>http://localhost:1313/tutorials/docs/htmx/htmx/some_examples_using_htmx/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/htmx/htmx/some_examples_using_htmx/</guid>
@@ -26,7 +33,7 @@
       <link>http://localhost:1313/tutorials/docs/htmx/htmx/ajax_in_htmx/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/htmx/htmx/ajax_in_htmx/</guid>
-      <description>AJAX linkThe core of htmx is a set of attributes that allow you to issue AJAX requests directly from HTML:&#xA;Attribute Description hx-get Issues a GET request to the given URL hx-post Issues a POST request to the given URL hx-put Issues a PUT request to the given URL hx-patch Issues a PATCH request to the given URL hx-delete Issues a DELETE request to the given URL Each of these attributes takes a URL to issue an AJAX request to.</description>
+      <description>The core of htmx is a set of attributes that allow you to issue AJAX requests directly from HTML:&#xA;Attribute Description hx-get Issues a GET request to the given URL hx-post Issues a POST request to the given URL hx-put Issues a PUT request to the given URL hx-patch Issues a PATCH request to the given URL hx-delete Issues a DELETE request to the given URL Each of these attributes takes a URL to issue an AJAX request to.</description>
     </item>
     <item>
       <title>4. Other hx-Attributes</title>
@@ -34,6 +41,27 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/htmx/htmx/some_hx_attributes/</guid>
       <description>Other hx-Attributes linkIndicators linkYou can specify an element that should be shown or hidden when the request is in flight using the hx-indicator attribute.&#xA;Here is a div that hides itself and shows a spinner when it is loading:&#xA;&amp;lt;div hx-get=&amp;#34;/slow&amp;#34; hx-trigger=&amp;#34;click&amp;#34; hx-target=&amp;#34;#parent-div&amp;#34;&amp;gt; &amp;lt;span hx-indicator=&amp;#34;#spinner&amp;#34;&amp;gt;Load the slow content&amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;img id=&amp;#34;spinner&amp;#34; src=&amp;#34;/img/spinner.gif&amp;#34; style=&amp;#34;display:none;&amp;#34;&amp;gt; Indicators are shown when a request is initiated, and hidden when the request is finished.&#xA;Selecting Content to Swap linkYou can select a portion of the response to use for the swap, instead of using the entire response, using the hx-select attribute.</description>
+    </item>
+    <item>
+      <title>Caching</title>
+      <link>http://localhost:1313/tutorials/docs/htmx/htmx/caching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/caching/</guid>
+      <description>htmx works with standard HTTP caching mechanisms out of the box.&#xA;If your server adds the Last-Modified HTTP response header to the response for a given URL, the browser will automatically add the If-Modified-Since request HTTP header to the next requests to the same URL. Be mindful that if your server can render different content for the same URL depending on some other headers, you need to use the Vary response HTTP header.</description>
+    </item>
+    <item>
+      <title>Web Security Basics using HTMX</title>
+      <link>http://localhost:1313/tutorials/docs/htmx/htmx/web_security_basics_using_htmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/web_security_basics_using_htmx/</guid>
+      <description>As htmx has gotten more popular, it’s reached communities who have never written server-generated HTML before. Dynamic HTML templating was, and still is, the standard way to use many popular web frameworks—like Rails, Django, and Spring—but it is a novel concept for those coming from Single-Page Application (SPA) frameworks—like React and Svelte—where the prevalence of JSX means you never write HTML directly.&#xA;But have no fear! Writing web applications with HTML templates is a slightly different security model, but it’s no harder than securing a JSX-based application, and in some ways it’s a lot easier.</description>
+    </item>
+    <item>
+      <title>Web Socket and SSE</title>
+      <link>http://localhost:1313/tutorials/docs/htmx/htmx/web_socket_and_sse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/web_socket_and_sse/</guid>
+      <description>htmx has experimental support for declarative use of both WebSockets and Server Sent Events.&#xA;Note: In htmx 2.0, these features will be migrated to extensions. These new extensions are already available in htmx 1.7+ and, if you are writing new code, you are encouraged to use the extensions instead. All new feature work for both SSE and web sockets will be done in the extensions.&#xA;WebSockets linkIf you wish to establish a WebSocket connection in htmx, you use the hx-ws attribute:</description>
     </item>
   </channel>
 </rss>

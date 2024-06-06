@@ -1,5 +1,5 @@
 ---
-title: "Introduction to NumPy"
+title: "An Introduction to NumPy"
 description: "..."
 icon: "🎲"
 draft: false
