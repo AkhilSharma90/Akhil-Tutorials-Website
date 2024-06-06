@@ -1,5 +1,5 @@
 ---
-title: "6. Deploying Keras Models"
+title: "Deploying Keras Models"
 description: "Deploying a model is key in ensuring that other people can use it"
 icon: "K"
 draft: false

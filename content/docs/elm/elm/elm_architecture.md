@@ -1,5 +1,5 @@
 ---
-title: "3. Elm Architecture"
+title: "The Elm Architecture"
 description: "Understanding The Elm Architecture for building robust web applications."
 icon: "code"
 draft: false

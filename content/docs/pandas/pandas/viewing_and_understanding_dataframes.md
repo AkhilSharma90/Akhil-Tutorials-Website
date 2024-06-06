@@ -1,5 +1,5 @@
 ---
-title: "2. Viewing and Understanding Dataframes"
+title: "Viewing and Understanding Dataframes"
 description: "In this section, you will be learning more about Dataframes, how to load data into one and how to perform operations."
 icon: "P"
 draft: false

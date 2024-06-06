@@ -1,5 +1,5 @@
 ---
-title: "5. Creating a Token With Huff"
+title: "Creating a Token With Huff"
 description: "Huff is a domain-specific, low-level programming language designed explicitly for writing smart contracts on the Ethereum blockchain."
 icon: "code"
 draft: false

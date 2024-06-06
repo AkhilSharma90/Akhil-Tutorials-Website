@@ -1,5 +1,5 @@
 ---
-title: "Learn about Erlang"
+title: "A Getting Started Guide with Erlang"
 description: "Introduction to Erlang, its history, features, and basics of programming."
 icon: "code"
 draft: false

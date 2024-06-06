@@ -22,6 +22,20 @@
       <description>In this section, we will be learning more about basic data types in Nim.&#xA;Integers linkCreate a file called Integers.nim and have the following code:&#xA;let a = 11 b = 4 echo &amp;#34;a &amp;#43; b = &amp;#34;, a &amp;#43; b echo &amp;#34;a - b = &amp;#34;, a - b echo &amp;#34;a * b = &amp;#34;, a * b echo &amp;#34;a / b = &amp;#34;, a / b echo &amp;#34;a div b = &amp;#34;, a div b echo &amp;#34;a mod b = &amp;#34;, a mod b The echo command will print to the screen everything that follows it separated by commas.</description>
     </item>
     <item>
+      <title>Channels in Nim</title>
+      <link>http://localhost:1313/tutorials/docs/nim/nim/channels_in_nim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/nim/nim/channels_in_nim/</guid>
+      <description>Nim provides channels as a mechanism for thread communication. Channels allow threads to send and receive messages in a synchronized manner. Here’s a guide on how to use channels in Nim for thread communication.&#xA;Example with Plain Threads linkFirst, let&amp;rsquo;s look at an example using plain threads. This involves creating and managing threads manually.&#xA;import std/os # for sleep var # create a channel to send/recv strings commChan: Channel[string] sender: Thread[void] recver: Thread[void] proc sendMsg() = sleep(500) # send a message in the channel commChan.</description>
+    </item>
+    <item>
+      <title>Concurrency in Nim</title>
+      <link>http://localhost:1313/tutorials/docs/nim/nim/concurrency_in_nim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/nim/nim/concurrency_in_nim/</guid>
+      <description>Nim provides concurrency using the async/await syntax, powered by the asyncdispatch module. This allows you to write asynchronous functions that can run concurrently on a single thread, making it especially useful for IO-intensive tasks.&#xA;Key Concepts link Concurrency vs. Parallelism: Concurrency involves managing multiple tasks at the same time, but not necessarily running them simultaneously. Parallelism, on the other hand, means running multiple tasks simultaneously. Nim&amp;rsquo;s async model is focused on concurrency.</description>
+    </item>
+    <item>
       <title>Containers and Procedures in Nim</title>
       <link>http://localhost:1313/tutorials/docs/nim/nim/containers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -41,6 +55,27 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/nim/nim/modules/</guid>
       <description>Modules linkSo far we have used the functionality which is available by default every time we start a new Nim file. This can be extended with modules, which give more functionality for some specific topics.&#xA;Some of the most used Nim modules are:&#xA;strutils: additional functionality when dealing with strings sequtils: additional functionality for sequences math: mathematical functions (logarithms, square roots, …), trigonometry (sin, cos, …) times: measure and deal with time But there are many more, both in what’s called the standard library and in the Nimble package manager.</description>
+    </item>
+    <item>
+      <title>Nim Macros: A Comprehensive Tutorial</title>
+      <link>http://localhost:1313/tutorials/docs/nim/nim/nims_marco_system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/nim/nim/nims_marco_system/</guid>
+      <description>Macros in Nim are powerful tools that allow you to transform Nim&amp;rsquo;s abstract syntax tree (AST) at compile-time. This tutorial will guide you through the essential concepts and practical applications of Nim&amp;rsquo;s macro system.&#xA;What is a Macro? linkA macro in Nim is a function that executes at compile-time, transforming a Nim syntax tree into a different tree. This capability can be leveraged for various tasks, such as:&#xA;Enhanced Assertions: Implement an assert macro that prints both sides of a comparison if the assertion fails.</description>
+    </item>
+    <item>
+      <title>Object-Oriented Programming in Nim</title>
+      <link>http://localhost:1313/tutorials/docs/nim/nim/nims_oop/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/nim/nim/nims_oop/</guid>
+      <description>Nim supports object-oriented programming (OOP) principles, including member functions (methods), inheritance, and polymorphism. This guide will help you understand how to use these features effectively.&#xA;Member Functions (Methods) linkMember functions, or methods, in Nim can be implemented using procedures (procs). Thanks to the Uniform Function Call Syntax (UFCS), you can call procs as if they were methods.&#xA;type Animal = object name: string age: int proc speak(self: Animal, msg: string) = echo self.</description>
+    </item>
+    <item>
+      <title>Parallelism in Nim</title>
+      <link>http://localhost:1313/tutorials/docs/nim/nim/parallelism_in_nim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/nim/nim/parallelism_in_nim/</guid>
+      <description>Parallelism in Nim allows you to execute multiple tasks concurrently, leveraging multiple threads. There are several ways to achieve parallelism, including using threads directly or utilizing higher-level abstractions like threadpool.&#xA;Enabling Threads linkBefore using parallelism features, you need to enable threads at compile time:&#xA;nim --threads:on c threads.nim Using Threads Directly link proc sayHi(num: int) {.thread.} = echo &amp;#34;Hi from &amp;#34; &amp;amp; $num var threads: array[10, Thread[int]] for i in threads.</description>
     </item>
   </channel>
 </rss>

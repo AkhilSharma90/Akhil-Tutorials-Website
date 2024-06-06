@@ -1,5 +1,5 @@
 ---
-title: "2. Modules in keras"
+title: "Modules in keras"
 description: "Learn more about modules in keras."
 icon: "K"
 draft: false

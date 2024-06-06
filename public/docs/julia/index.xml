@@ -15,6 +15,13 @@
       <description>Introduction linkJulia, a high-level, high-performance programming language, is designed for technical computing. It combines the simplicity of Python with the power of languages like C or Fortran. Julia is known for its impressive speed and is widely used in scientific computing, machine learning, data mining, large-scale linear algebra, and more.&#xA;Getting Started with Julia linkInstalling Julia linkTo begin with Julia, the first step is installing the language. Julia can be downloaded from its official website, JuliaLang.</description>
     </item>
     <item>
+      <title>Asynchronous Programming with Julia</title>
+      <link>http://localhost:1313/tutorials/docs/julia/julia/asynchronous_programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/julia/julia/asynchronous_programming/</guid>
+      <description>When a program needs to interact with external systems, such as communicating with another machine over the internet, the sequence of operations may become unpredictable. For instance, if your program needs to download a file, you would initiate the download, perform other tasks while waiting for the download to complete, and then resume the code that requires the downloaded file once it&amp;rsquo;s available. This scenario is an example of asynchronous programming, also known as concurrent programming, as multiple operations appear to happen simultaneously.</description>
+    </item>
+    <item>
       <title>Basic Calculator with Julia</title>
       <link>http://localhost:1313/tutorials/docs/julia/julia/basic_calculator_with_julia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -26,7 +33,21 @@
       <link>http://localhost:1313/tutorials/docs/julia/julia/advanced_features_in_julia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/julia/julia/advanced_features_in_julia/</guid>
-      <description>Advanced Topics linkThis section delves into some of the more advanced features of Julia, including metaprogramming, concurrency, and parallel computing, as well as a look at Julia&amp;rsquo;s package ecosystem and error handling techniques.&#xA;Metaprogramming in Julia linkMetaprogramming refers to the creation of programs that can manipulate other programs as their data. Julia has powerful metaprogramming capabilities, allowing programs to generate, modify, and execute code dynamically.&#xA;Example of metaprogramming:&#xA;# Defining a macro in Julia macro sayhello(name) return :( println(&amp;#34;Hello, &amp;#34;, $name) ) end # Using the macro @sayhello(&amp;#34;World&amp;#34;) Concurrency and Parallel Computing linkJulia offers several constructs for concurrent and parallel programming.</description>
+      <description>This section delves into some of the more advanced features of Julia, including metaprogramming, concurrency, and parallel computing, as well as a look at Julia&amp;rsquo;s package ecosystem and error handling techniques.&#xA;Metaprogramming in Julia linkMetaprogramming refers to the creation of programs that can manipulate other programs as their data. Julia has powerful metaprogramming capabilities, allowing programs to generate, modify, and execute code dynamically.&#xA;Example of metaprogramming:&#xA;# Defining a macro in Julia macro sayhello(name) return :( println(&amp;#34;Hello, &amp;#34;, $name) ) end # Using the macro @sayhello(&amp;#34;World&amp;#34;) Concurrency and Parallel Computing linkJulia offers several constructs for concurrent and parallel programming.</description>
+    </item>
+    <item>
+      <title>Modules in Julia</title>
+      <link>http://localhost:1313/tutorials/docs/julia/julia/modules_in_julia/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/julia/julia/modules_in_julia/</guid>
+      <description>Modules in Julia help organize code into manageable sections, providing separate namespaces, precompilation capabilities, and detailed namespace management. Here&amp;rsquo;s a simplified guide to understanding and using modules in Julia:&#xA;Basic Structure of a Module linkA module in Julia is defined using the module ... end syntax. Inside, you can define functions, types, constants, and other variables. Modules create separate namespaces to avoid name conflicts and allow detailed management of which names (functions, variables, etc.</description>
+    </item>
+    <item>
+      <title>Multi-Thread Programming with Julia</title>
+      <link>http://localhost:1313/tutorials/docs/julia/julia/multi-thread/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/julia/julia/multi-thread/</guid>
+      <description>Starting Julia with Multiple Threads linkBy default, Julia starts with a single thread of execution. This can be verified with the command Threads.nthreads():&#xA;julia&amp;gt; Threads.nthreads() 1 The number of execution threads is controlled either by using the -t/--threads command line argument or by setting the JULIA_NUM_THREADS environment variable. If both are specified, -t/--threads takes precedence.&#xA;You can specify the number of threads either as an integer (--threads=4) or as auto (--threads=auto), where auto tries to infer a useful default number of threads (see Command-line Options for more details).</description>
     </item>
     <item>
       <title>Object Oriented Programming with Julia</title>

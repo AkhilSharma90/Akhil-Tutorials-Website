@@ -1,5 +1,5 @@
 ---
-title: "4. Working with HTTP Requests"
+title: "Working with HTTP Requests"
 description: "Handling HTTP requests and JSON data in Elm."
 icon: "code"
 draft: false

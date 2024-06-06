@@ -8,39 +8,39 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/huff/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>1. Getting Started With Huff</title>
+      <title>An Introduction to Huff</title>
       <link>http://localhost:1313/tutorials/docs/huff/huff/introduction_to_huff/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/huff/huff/introduction_to_huff/</guid>
       <description>Introduction to Huff linkThe world of blockchain technology and Ethereum, in particular, has revolutionized how we think about digital transactions and smart contract programming. Ethereum, known for its robust and secure platform, allows developers to create decentralized applications (dApps) using smart contracts. These contracts are self-executing agreements with the terms of the agreement directly written into lines of code.&#xA;At the forefront of Ethereum&amp;rsquo;s smart contract development languages is Solidity, widely recognized and used for its accessibility and security features.</description>
     </item>
     <item>
-      <title>2. Understanding Huff Macros</title>
-      <link>http://localhost:1313/tutorials/docs/huff/huff/understanding_huff_macros/</link>
+      <title>Creating a Token With Huff</title>
+      <link>http://localhost:1313/tutorials/docs/huff/huff/creating_a_token_in_huff/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/huff/huff/understanding_huff_macros/</guid>
-      <description>Understanding Huff Macros linkExplanation of Macros in Huff linkMacros in Huff are one of its most distinctive and powerful features. They allow you to define reusable code blocks that can be invoked within your contract. This feature helps in organizing complex logic, reducing redundancy, and making contracts more readable. Unlike functions in high-level languages, macros do not have their own execution context; they are essentially inlined wherever they are called.</description>
+      <guid>http://localhost:1313/tutorials/docs/huff/huff/creating_a_token_in_huff/</guid>
+      <description>Creating a Token in Huff linkCreating a token on the Ethereum network, especially adhering to popular standards like ERC20, is a common task in smart contract development. In this section, we&amp;rsquo;ll develop a basic ERC20 token using Huff. This example will demonstrate fundamental token functionalities such as transferring tokens and keeping track of balances.&#xA;Overview of ERC20 Token Standard linkThe ERC20 standard defines a set of rules that an Ethereum token contract must follow.</description>
     </item>
     <item>
-      <title>3. Advanced Features With Huff</title>
-      <link>http://localhost:1313/tutorials/docs/huff/huff/advanced_features_using_huff/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/huff/huff/advanced_features_using_huff/</guid>
-      <description>Advanced Huff Features linkIn-Depth Look at Advanced Huff Features linkHuff allows for a range of advanced features that provide developers with extensive control and optimization capabilities. Some of these advanced features include:&#xA;1&#xA;. Inline Assembly: Huff permits inline assembly, giving developers the ability to embed raw EVM opcodes within their Huff code. 2. Conditional Execution: Huff supports conditional execution using EVM opcodes like JUMPI, allowing for complex logical flows. 3.</description>
-    </item>
-    <item>
-      <title>4. Hello World using Huff</title>
+      <title>Hello World using Huff</title>
       <link>http://localhost:1313/tutorials/docs/huff/huff/writing_your_first_huff_contract/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/huff/huff/writing_your_first_huff_contract/</guid>
       <description>Writing Your First Huff Contract linkStructure of a Huff Contract linkHuff contracts, at their core, are a series of EVM opcodes and macros. The structure is significantly more straightforward than a typical Solidity contract. A basic Huff contract typically contains:&#xA;Declarations: Declaring macros and data storage locations. Macros: Macros are reusable code blocks in Huff. Main Execution Logic: The primary logic of the contract, often written using a combination of EVM opcodes and macros.</description>
     </item>
     <item>
-      <title>5. Creating a Token With Huff</title>
-      <link>http://localhost:1313/tutorials/docs/huff/huff/creating_a_token_in_huff/</link>
+      <title>Some Advanced Features With Huff</title>
+      <link>http://localhost:1313/tutorials/docs/huff/huff/advanced_features_using_huff/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/huff/huff/creating_a_token_in_huff/</guid>
-      <description>Creating a Token in Huff linkCreating a token on the Ethereum network, especially adhering to popular standards like ERC20, is a common task in smart contract development. In this section, we&amp;rsquo;ll develop a basic ERC20 token using Huff. This example will demonstrate fundamental token functionalities such as transferring tokens and keeping track of balances.&#xA;Overview of ERC20 Token Standard linkThe ERC20 standard defines a set of rules that an Ethereum token contract must follow.</description>
+      <guid>http://localhost:1313/tutorials/docs/huff/huff/advanced_features_using_huff/</guid>
+      <description>Advanced Huff Features linkIn-Depth Look at Advanced Huff Features linkHuff allows for a range of advanced features that provide developers with extensive control and optimization capabilities. Some of these advanced features include:&#xA;1&#xA;. Inline Assembly: Huff permits inline assembly, giving developers the ability to embed raw EVM opcodes within their Huff code. 2. Conditional Execution: Huff supports conditional execution using EVM opcodes like JUMPI, allowing for complex logical flows. 3.</description>
+    </item>
+    <item>
+      <title>Understanding Huff Macros</title>
+      <link>http://localhost:1313/tutorials/docs/huff/huff/understanding_huff_macros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/huff/huff/understanding_huff_macros/</guid>
+      <description>Understanding Huff Macros linkExplanation of Macros in Huff linkMacros in Huff are one of its most distinctive and powerful features. They allow you to define reusable code blocks that can be invoked within your contract. This feature helps in organizing complex logic, reducing redundancy, and making contracts more readable. Unlike functions in high-level languages, macros do not have their own execution context; they are essentially inlined wherever they are called.</description>
     </item>
   </channel>
 </rss>

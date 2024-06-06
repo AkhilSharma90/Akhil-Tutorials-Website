@@ -5,8 +5,6 @@ icon: "code"
 draft: false
 ---
 
-### Simplified Guide to Julia Modules
-
 Modules in Julia help organize code into manageable sections, providing separate namespaces, precompilation capabilities, and detailed namespace management. Here's a simplified guide to understanding and using modules in Julia:
 
 #### Basic Structure of a Module

@@ -1,5 +1,5 @@
 ---
-title: "1. Introduction to keras"
+title: "An Introduction to keras"
 description: "..."
 icon: "K"
 draft: false

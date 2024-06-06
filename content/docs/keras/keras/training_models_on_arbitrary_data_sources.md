@@ -1,5 +1,5 @@
 ---
-title: "3. Training models on arbitrary data sources"
+title: "Training models on arbitrary data sources"
 description: "All Keras models can be trained and evaluated on a wide variety of data sources, independently of the backend you're using."
 icon: "K"
 draft: false

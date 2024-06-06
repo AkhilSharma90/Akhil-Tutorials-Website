@@ -8,18 +8,18 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/erlang/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Concurrency and Process Management in Erlang</title>
-      <link>http://localhost:1313/tutorials/docs/erlang/erlang/advanced_erlang_concepts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/erlang/erlang/advanced_erlang_concepts/</guid>
-      <description>Concurrency and Process Management in Erlang linkErlang&amp;rsquo;s concurrency model is one of its most powerful features, making it ideal for building scalable and reliable systems. Understanding how Erlang handles concurrency and process management is crucial for leveraging its full potential.&#xA;The Actor Model linkErlang&amp;rsquo;s concurrency is based on the Actor model, where each actor is a process that communicates with others through message passing. This model simplifies concurrent programming by avoiding shared state and locks.</description>
-    </item>
-    <item>
-      <title>Learn about Erlang</title>
+      <title>A Getting Started Guide with Erlang</title>
       <link>http://localhost:1313/tutorials/docs/erlang/erlang/getting_started/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/erlang/erlang/getting_started/</guid>
       <description>Brief History of Erlang linkErlang was created by Ericsson&amp;rsquo;s Computer Science Lab in 1986 for handling large-scale telecommunications projects. Its development was driven by the need for a robust system capable of managing numerous concurrent activities with high levels of fault tolerance. Over the years, Erlang has evolved significantly and is now used in various domains, including banking, e-commerce, and instant messaging.&#xA;Key Features of Erlang linkErlang stands out due to its unique features, which include:</description>
+    </item>
+    <item>
+      <title>Concurrency and Process Management in Erlang</title>
+      <link>http://localhost:1313/tutorials/docs/erlang/erlang/concurrency_and_process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/erlang/erlang/concurrency_and_process/</guid>
+      <description>Concurrency and Process Management in Erlang linkErlang&amp;rsquo;s concurrency model is one of its most powerful features, making it ideal for building scalable and reliable systems. Understanding how Erlang handles concurrency and process management is crucial for leveraging its full potential.&#xA;The Actor Model linkErlang&amp;rsquo;s concurrency is based on the Actor model, where each actor is a process that communicates with others through message passing. This model simplifies concurrent programming by avoiding shared state and locks.</description>
     </item>
     <item>
       <title>Practical Applications and Best Practices</title>

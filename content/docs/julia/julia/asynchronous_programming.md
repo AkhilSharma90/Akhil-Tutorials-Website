@@ -5,7 +5,6 @@ icon: "code"
 draft: false
 ---
 
-### Asynchronous Programming
 When a program needs to interact with external systems, such as communicating with another machine over the internet, the sequence of operations may become unpredictable. For instance, if your program needs to download a file, you would initiate the download, perform other tasks while waiting for the download to complete, and then resume the code that requires the downloaded file once it's available. This scenario is an example of asynchronous programming, also known as concurrent programming, as multiple operations appear to happen simultaneously.
 
 To handle these situations, Julia provides Tasks (also referred to as symmetric coroutines, lightweight threads, cooperative multitasking, or one-shot continuations). Designating a piece of work (typically, executing a particular function) as a Task allows it to be interrupted and switched to another Task. The original Task can later be resumed from where it was paused. While this may resemble a function call, there are two crucial differences. First, task switching doesn't use up stack space, allowing numerous task switches without affecting the call stack. Second, tasks can switch in any order, unlike function calls, where the called function must complete before control returns to the caller.

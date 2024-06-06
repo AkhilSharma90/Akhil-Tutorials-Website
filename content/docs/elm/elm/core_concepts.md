@@ -1,5 +1,5 @@
 ---
-title: "2. Core Concepts in Elm"
+title: "Core Concepts in Elm"
 description: "Understanding the foundational concepts that make Elm robust and functional."
 icon: "code"
 draft: false

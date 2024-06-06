@@ -1,5 +1,5 @@
 ---
-title: "5. Writing cross-framework custom components"
+title: "Writing cross-framework custom components"
 description: "..."
 icon: "K"
 draft: false

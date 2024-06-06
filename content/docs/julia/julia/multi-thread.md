@@ -5,8 +5,6 @@ icon: "code"
 draft: false
 ---
 
-Visit this blog post for a presentation of Julia's multi-threading features.
-
 #### Starting Julia with Multiple Threads
 
 By default, Julia starts with a single thread of execution. This can be verified with the command `Threads.nthreads()`:

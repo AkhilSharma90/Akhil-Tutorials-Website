@@ -8,35 +8,21 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/elm/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>1. Getting Started With Elm</title>
+      <title>A Getting Started Guide With Elm</title>
       <link>http://localhost:1313/tutorials/docs/elm/elm/getting_started_with_elm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/elm/elm/getting_started_with_elm/</guid>
       <description>Introduction to Elm linkElm is a delightful language for reliable web applications. It compiles to JavaScript, but it&amp;rsquo;s much more than just a language; it&amp;rsquo;s a framework for making web development more robust and pleasant. One of the most striking features of Elm is its emphasis on simplicity and quality tooling, making it an excellent choice for both beginners and experienced developers.&#xA;Why Elm? linkSimplicity and Safety&#xA;Elm&amp;rsquo;s syntax is clean and easy to understand, making it an ideal starting point for those new to programming.</description>
     </item>
     <item>
-      <title>2. Core Concepts in Elm</title>
+      <title>Core Concepts in Elm</title>
       <link>http://localhost:1313/tutorials/docs/elm/elm/core_concepts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/elm/elm/core_concepts/</guid>
       <description>Elm is built on a set of core concepts that make it robust and functional. Understanding these concepts is key to becoming proficient in Elm. Let&amp;rsquo;s explore some of these fundamental ideas.&#xA;Types and Type Annotations linkElm is a statically typed language, meaning the type of every variable and expression is known at compile time. This feature makes your code more reliable and easier to maintain.&#xA;Basic Types linkElm has several basic types such as Int, Float, String, Bool, and more.</description>
     </item>
     <item>
-      <title>3. Elm Architecture</title>
-      <link>http://localhost:1313/tutorials/docs/elm/elm/elm_architecture/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/elm/elm/elm_architecture/</guid>
-      <description>Elm Architecture linkThe Elm Architecture is a pattern for architecting interactive programs, like webapps and games.&#xA;This architecture seems to emerge naturally in Elm. Rather than someone inventing it, early Elm programmers kept discovering the same basic patterns in their code. It was kind of spooky to see people ending up with well-architected code without planning ahead!&#xA;So The Elm Architecture is easy in Elm, but it is useful in any front-end project.</description>
-    </item>
-    <item>
-      <title>4. Working with HTTP Requests</title>
-      <link>http://localhost:1313/tutorials/docs/elm/elm/working_with_http_requests/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/elm/elm/working_with_http_requests/</guid>
-      <description>Working with HTTP Requests linkElm provides a smooth way to handle HTTP requests with the Http module.&#xA;Making a GET Request linkHere&amp;rsquo;s an example of how to make a GET request to fetch data:&#xA;fetchDataCmd : Cmd Msg fetchDataCmd = Http.get { url = &amp;#34;https://api.example.com/data&amp;#34; , expect = Http.expectString ReceiveData } This function creates a command that, when executed, sends a GET request to the specified URL and expects a string response.</description>
-    </item>
-    <item>
-      <title>5. Create a Simple Registration Form</title>
+      <title>Create a Simple Registration Form</title>
       <link>http://localhost:1313/tutorials/docs/elm/elm/building_forms_and_handling_user_input/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/elm/elm/building_forms_and_handling_user_input/</guid>
@@ -48,6 +34,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/elm/elm/random_quote_generator/</guid>
       <description>In this tutorial, we will walk through building a simple Elm application that fetches random quotes from an API. We will break down the code into logical sections and explain each part in detail. By the end of this tutorial, you will have a good understanding of how to make HTTP requests and handle the responses in Elm.&#xA;Introduction linkElm is a functional language for building reliable web applications. This tutorial will guide you through creating an application that fetches random quotes and displays them.</description>
+    </item>
+    <item>
+      <title>The Elm Architecture</title>
+      <link>http://localhost:1313/tutorials/docs/elm/elm/elm_architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elm/elm/elm_architecture/</guid>
+      <description>Elm Architecture linkThe Elm Architecture is a pattern for architecting interactive programs, like webapps and games.&#xA;This architecture seems to emerge naturally in Elm. Rather than someone inventing it, early Elm programmers kept discovering the same basic patterns in their code. It was kind of spooky to see people ending up with well-architected code without planning ahead!&#xA;So The Elm Architecture is easy in Elm, but it is useful in any front-end project.</description>
+    </item>
+    <item>
+      <title>Working with HTTP Requests</title>
+      <link>http://localhost:1313/tutorials/docs/elm/elm/working_with_http_requests/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elm/elm/working_with_http_requests/</guid>
+      <description>Working with HTTP Requests linkElm provides a smooth way to handle HTTP requests with the Http module.&#xA;Making a GET Request linkHere&amp;rsquo;s an example of how to make a GET request to fetch data:&#xA;fetchDataCmd : Cmd Msg fetchDataCmd = Http.get { url = &amp;#34;https://api.example.com/data&amp;#34; , expect = Http.expectString ReceiveData } This function creates a command that, when executed, sends a GET request to the specified URL and expects a string response.</description>
     </item>
   </channel>
 </rss>

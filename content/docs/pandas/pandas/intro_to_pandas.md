@@ -1,5 +1,5 @@
 ---
-title: "1. Introduction to Pandas"
+title: "An Introduction to Pandas"
 description: "This is an introduction to pandas, a python package for data analysis."
 icon: "P"
 draft: false

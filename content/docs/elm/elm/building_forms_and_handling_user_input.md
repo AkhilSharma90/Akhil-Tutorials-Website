@@ -1,5 +1,5 @@
 ---
-title: "5. Create a Simple Registration Form"
+title: "Create a Simple Registration Form"
 description: "Learn how to create interactive forms and handle user input in Elm."
 icon: "form"
 draft: false

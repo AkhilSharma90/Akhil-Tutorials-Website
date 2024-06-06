@@ -1,5 +1,5 @@
 ---
-title: "1. Getting Started With Elm"
+title: "A Getting Started Guide With Elm"
 description: "Get started and learn the introduction of elm"
 icon: "code"
 draft: false

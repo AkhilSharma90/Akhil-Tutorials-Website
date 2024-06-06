@@ -1,5 +1,5 @@
 ---
-title: "4. Hello World using Huff"
+title: "Hello World using Huff"
 description: "Huff is a domain-specific, low-level programming language designed explicitly for writing smart contracts on the Ethereum blockchain."
 icon: "code"
 draft: false

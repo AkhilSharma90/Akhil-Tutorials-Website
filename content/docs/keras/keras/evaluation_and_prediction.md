@@ -1,5 +1,5 @@
 ---
-title: "4. Model evaludation and prediction in keras"
+title: "Model evaludation and prediction in keras(Advanced)"
 description: "Learn about model evaluation and prediction in keras."
 icon: "K"
 draft: false

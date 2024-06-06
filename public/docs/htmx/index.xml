@@ -8,39 +8,18 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/htmx/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>1. Getting started guide with HTMX</title>
+      <title>A Getting started guide with HTMX</title>
       <link>http://localhost:1313/tutorials/docs/htmx/htmx/getting_started_with_htmx/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/htmx/htmx/getting_started_with_htmx/</guid>
       <description>htmx in a Nutshell linkhtmx is a library that allows you to access modern browser features directly from HTML, rather than using javascript. To understand htmx, first let’s take a look at an anchor tag:&#xA;&amp;lt;a href=&amp;#34;/blog&amp;#34;&amp;gt;Blog&amp;lt;/a&amp;gt; This anchor tag tells a browser:&#xA;“When a user clicks on this link, issue an HTTP GET request to ‘/blog’ and load the response content into the browser window”.&#xA;With that in mind, consider the following bit of HTML:</description>
     </item>
     <item>
-      <title>2. htmx usage with Django</title>
-      <link>http://localhost:1313/tutorials/docs/htmx/htmx/security_in_htmx/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/security_in_htmx/</guid>
-      <description>htmx allows you to define logic directly in your DOM. This has a number of advantages, the largest being Locality of Behavior, which makes your system easier to understand and maintain.&#xA;A concern with this approach, however, is security: since htmx increases the expressiveness of HTML, if a malicious user is able to inject HTML into your application, they can leverage this expressiveness of htmx to malicious ends.&#xA;Rule 1: Escape All User Content linkThe first rule of HTML-based web development has always been: do not trust input from the user.</description>
-    </item>
-    <item>
-      <title>2. htmx usage with Django</title>
-      <link>http://localhost:1313/tutorials/docs/htmx/htmx/some_examples_using_htmx/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/some_examples_using_htmx/</guid>
-      <description>htmx usage with Django linkThere is an open-source Django/htmx project. The main aim is to show how htmx could be used in a modern, high-performance Django project. There is a lot of scope for optimization, and with Django being a highly optimized framework with a lot of built-in tools, it should be possible to produce high-quality applications without a lot of custom code. The project is based on the Django REST Framework, with a few extensions and libraries to make development easier.</description>
-    </item>
-    <item>
-      <title>3. AJAX in HTMX</title>
+      <title>AJAX in HTMX</title>
       <link>http://localhost:1313/tutorials/docs/htmx/htmx/ajax_in_htmx/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/htmx/htmx/ajax_in_htmx/</guid>
       <description>The core of htmx is a set of attributes that allow you to issue AJAX requests directly from HTML:&#xA;Attribute Description hx-get Issues a GET request to the given URL hx-post Issues a POST request to the given URL hx-put Issues a PUT request to the given URL hx-patch Issues a PATCH request to the given URL hx-delete Issues a DELETE request to the given URL Each of these attributes takes a URL to issue an AJAX request to.</description>
-    </item>
-    <item>
-      <title>4. Other hx-Attributes</title>
-      <link>http://localhost:1313/tutorials/docs/htmx/htmx/some_hx_attributes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/some_hx_attributes/</guid>
-      <description>Other hx-Attributes linkIndicators linkYou can specify an element that should be shown or hidden when the request is in flight using the hx-indicator attribute.&#xA;Here is a div that hides itself and shows a spinner when it is loading:&#xA;&amp;lt;div hx-get=&amp;#34;/slow&amp;#34; hx-trigger=&amp;#34;click&amp;#34; hx-target=&amp;#34;#parent-div&amp;#34;&amp;gt; &amp;lt;span hx-indicator=&amp;#34;#spinner&amp;#34;&amp;gt;Load the slow content&amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;img id=&amp;#34;spinner&amp;#34; src=&amp;#34;/img/spinner.gif&amp;#34; style=&amp;#34;display:none;&amp;#34;&amp;gt; Indicators are shown when a request is initiated, and hidden when the request is finished.&#xA;Selecting Content to Swap linkYou can select a portion of the response to use for the swap, instead of using the entire response, using the hx-select attribute.</description>
     </item>
     <item>
       <title>Caching</title>
@@ -48,6 +27,27 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/htmx/htmx/caching/</guid>
       <description>htmx works with standard HTTP caching mechanisms out of the box.&#xA;If your server adds the Last-Modified HTTP response header to the response for a given URL, the browser will automatically add the If-Modified-Since request HTTP header to the next requests to the same URL. Be mindful that if your server can render different content for the same URL depending on some other headers, you need to use the Vary response HTTP header.</description>
+    </item>
+    <item>
+      <title>htmx usage with Django</title>
+      <link>http://localhost:1313/tutorials/docs/htmx/htmx/some_examples_using_htmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/some_examples_using_htmx/</guid>
+      <description>There is an open-source Django/htmx project. The main aim is to show how htmx could be used in a modern, high-performance Django project. There is a lot of scope for optimization, and with Django being a highly optimized framework with a lot of built-in tools, it should be possible to produce high-quality applications without a lot of custom code. The project is based on the Django REST Framework, with a few extensions and libraries to make development easier.</description>
+    </item>
+    <item>
+      <title>Other hx-Attributes</title>
+      <link>http://localhost:1313/tutorials/docs/htmx/htmx/some_hx_attributes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/some_hx_attributes/</guid>
+      <description>Other hx-Attributes linkIndicators linkYou can specify an element that should be shown or hidden when the request is in flight using the hx-indicator attribute.&#xA;Here is a div that hides itself and shows a spinner when it is loading:&#xA;&amp;lt;div hx-get=&amp;#34;/slow&amp;#34; hx-trigger=&amp;#34;click&amp;#34; hx-target=&amp;#34;#parent-div&amp;#34;&amp;gt; &amp;lt;span hx-indicator=&amp;#34;#spinner&amp;#34;&amp;gt;Load the slow content&amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;img id=&amp;#34;spinner&amp;#34; src=&amp;#34;/img/spinner.gif&amp;#34; style=&amp;#34;display:none;&amp;#34;&amp;gt; Indicators are shown when a request is initiated, and hidden when the request is finished.&#xA;Selecting Content to Swap linkYou can select a portion of the response to use for the swap, instead of using the entire response, using the hx-select attribute.</description>
+    </item>
+    <item>
+      <title>Security in HTMX</title>
+      <link>http://localhost:1313/tutorials/docs/htmx/htmx/security_in_htmx/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/htmx/htmx/security_in_htmx/</guid>
+      <description>htmx allows you to define logic directly in your DOM. This has a number of advantages, the largest being Locality of Behavior, which makes your system easier to understand and maintain.&#xA;A concern with this approach, however, is security: since htmx increases the expressiveness of HTML, if a malicious user is able to inject HTML into your application, they can leverage this expressiveness of htmx to malicious ends.&#xA;Rule 1: Escape All User Content linkThe first rule of HTML-based web development has always been: do not trust input from the user.</description>
     </item>
     <item>
       <title>Web Security Basics using HTMX</title>

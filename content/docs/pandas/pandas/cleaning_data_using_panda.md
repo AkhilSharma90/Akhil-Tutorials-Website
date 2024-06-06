@@ -1,5 +1,5 @@
 ---
-title: "3. How to Clean Data using Pandas"
+title: "How to Clean Data using Pandas"
 description: "This section will focus on data cleaning, a pre-processing technique use in Machine Learning."
 icon: "P"
 draft: false

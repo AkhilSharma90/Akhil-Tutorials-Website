@@ -1,24 +1,10 @@
 ---
-title: "7. Advanced Model Tuning and Optimization Techniques in Keras"
+title: "Model Tuning and Optimization Techniques in Keras "
 description: ""
 icon: "K"
 draft: false
 ---
 This tutorial covers advanced techniques for tuning and optimizing models in Keras, including hyperparameter tuning, regularization methods, and learning rate schedulers.
-
-<!-- ## Table of Contents
-1. [Hyperparameter Tuning](#hyperparameter-tuning)
-    - [Grid Search](#grid-search)
-    - [Random Search](#random-search)
-    - [Bayesian Optimization](#bayesian-optimization)
-2. [Regularization Techniques](#regularization-techniques)
-    - [L1 and L2 Regularization](#l1-and-l2-regularization)
-    - [Dropout](#dropout)
-    - [Batch Normalization](#batch-normalization)
-3. [Learning Rate Schedulers](#learning-rate-schedulers)
-    - [Step Decay](#step-decay)
-    - [Exponential Decay](#exponential-decay)
-    - [LearningRateScheduler Callback](#learningratescheduler-callback) -->
 
 ## Hyperparameter Tuning
 
