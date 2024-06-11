@@ -1,5 +1,5 @@
 ---
-title: "Creating a Random Quotes App in Elm"
+title: "huCreating a Random Quotes App in Elm"
 description: "Handling HTTP requests and JSON data in Elm."
 icon: "code"
 draft: false

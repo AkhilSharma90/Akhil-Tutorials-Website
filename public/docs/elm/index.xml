@@ -29,7 +29,7 @@
       <description>In this tutorial, we will walk through building a basic user registration form using Elm. This form will allow users to input their name and password, and it will validate that the password and password confirmation match. By following this tutorial, you&amp;rsquo;ll learn how to handle form inputs and state updates in Elm.&#xA;Introduction linkElm is a functional language designed for building robust web applications. This tutorial will guide you through creating a simple registration form, demonstrating how to handle user input and perform validation.</description>
     </item>
     <item>
-      <title>Creating a Random Quotes App in Elm</title>
+      <title>huCreating a Random Quotes App in Elm</title>
       <link>http://localhost:1313/tutorials/docs/elm/elm/random_quote_generator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/elm/elm/random_quote_generator/</guid>

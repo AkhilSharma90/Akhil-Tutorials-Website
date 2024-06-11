@@ -23,10 +23,17 @@
     </item>
     <item>
       <title>Deep Dive into Tensors</title>
-      <link>http://localhost:1313/tutorials/docs/pytorch/pytorch/tensors/</link>
+      <link>http://localhost:1313/tutorials/docs/pytorch/pytorch/tensors_in_pytorch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/pytorch/pytorch/tensors/</guid>
+      <guid>http://localhost:1313/tutorials/docs/pytorch/pytorch/tensors_in_pytorch/</guid>
       <description>Tensors are a specialized data structure that are very similar to arrays and matrices. In PyTorch, we use tensors to encode the inputs and outputs of a model, as well as the model’s parameters.&#xA;Tensors are similar to NumPy’s ndarrays, except that tensors can run on GPUs or other hardware accelerators. In fact, tensors and NumPy arrays can often share the same underlying memory, eliminating the need to copy data (see Bridge with NumPy).</description>
+    </item>
+    <item>
+      <title>Deploying PyTorch in Python via a REST API with Flask</title>
+      <link>http://localhost:1313/tutorials/docs/pytorch/pytorch/deploying_pytorch_in_python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pytorch/pytorch/deploying_pytorch_in_python/</guid>
+      <description>In this tutorial, we will deploy a PyTorch model using Flask and expose a REST API for model inference. In particular, we will deploy a pretrained DenseNet 121 model which detects the image.&#xA;API Definition linkWe will first define our API endpoints, the request and response types. Our API endpoint will be at /predict which takes HTTP POST requests with a file parameter which contains the image. The response will be of JSON response containing the prediction:</description>
     </item>
     <item>
       <title>Model Training and Evaluation</title>
@@ -41,6 +48,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/pytorch/pytorch/data_loading_and_preprocessing/</guid>
       <description>Introduction to Data Loading and Preprocessing linkData loading and preprocessing are crucial steps in the machine learning pipeline. PyTorch provides tools and utilities to efficiently load and preprocess datasets for training, validation, and testing. In this tutorial, we&amp;rsquo;ll explore various techniques for data loading and preprocessing using PyTorch.&#xA;Dataset Classes in PyTorch linkPyTorch provides a torch.utils.data.Dataset class for representing datasets. To work with custom datasets, you can subclass Dataset and implement the __len__ and __getitem__ methods.</description>
+    </item>
+    <item>
+      <title>Transferr Learning in Pytorch</title>
+      <link>http://localhost:1313/tutorials/docs/pytorch/pytorch/transfer_learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pytorch/pytorch/transfer_learning/</guid>
+      <description>Transfer Learning with PyTorch: Enhancing Your Classification Model linkWhat is Transfer Learning? linkTransfer learning allows us to leverage pre-trained models, using the patterns and knowledge they have acquired from large datasets to solve new, but related, problems. This technique is highly valuable in scenarios where acquiring a massive dataset or training a model from scratch is impractical.&#xA;Why Use Transfer Learning? link Leverage Existing Models: Use neural network architectures that are already proven to work on similar problems.</description>
     </item>
     <item>
       <title>Writing a training loop from scratch in PyTorch</title>

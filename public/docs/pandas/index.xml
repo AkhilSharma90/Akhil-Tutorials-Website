@@ -8,6 +8,13 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/pandas/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Advanced Data Aggregation and Grouping in Pandas</title>
+      <link>http://localhost:1313/tutorials/docs/pandas/pandas/advanced_data_aggregation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pandas/pandas/advanced_data_aggregation/</guid>
+      <description>Data aggregation and grouping are essential techniques for data analysis, allowing you to summarize and transform your data in various ways. This tutorial covers:&#xA;Grouping data Applying aggregation functions Performing custom aggregations Handling missing values Multi-level grouping and aggregation Creating a Sample DataFrame linkWe&amp;rsquo;ll start by creating a sample DataFrame to demonstrate these concepts.&#xA;import pandas as pd # Create sample DataFrame data = { &amp;#39;Region&amp;#39;: [&amp;#39;East&amp;#39;, &amp;#39;West&amp;#39;, &amp;#39;East&amp;#39;, &amp;#39;West&amp;#39;, &amp;#39;East&amp;#39;, &amp;#39;West&amp;#39;], &amp;#39;Category&amp;#39;: [&amp;#39;Electronics&amp;#39;, &amp;#39;Electronics&amp;#39;, &amp;#39;Clothing&amp;#39;, &amp;#39;Clothing&amp;#39;, &amp;#39;Electronics&amp;#39;, &amp;#39;Clothing&amp;#39;], &amp;#39;Sales&amp;#39;: [1000, 1500, 1200, 800, 900, 1100], &amp;#39;Price&amp;#39;: [500, 600, 300, 400, 450, 350], &amp;#39;Quantity&amp;#39;: [2, 3, 4, 2, 3, 4] } df = pd.</description>
+    </item>
+    <item>
       <title>An Introduction to Pandas</title>
       <link>http://localhost:1313/tutorials/docs/pandas/pandas/intro_to_pandas/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -20,6 +27,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/pandas/pandas/cleaning_data_using_panda/</guid>
       <description>Cleaning Data Using Pandas linkData cleaning is one of the most common tasks in data science. Pandas lets you preprocess data for various uses, including training machine learning and deep learning models. Let’s use the DataFrame df2 from earlier, having four missing values, to illustrate a few data cleaning use cases. As a reminder, here&amp;rsquo;s how you can see how many missing values are in a DataFrame.&#xA;df2.isnull().sum() Pregnancies 4 Glucose 0 BloodPressure 0 SkinThickness 0 Insulin 0 BMI 0 DiabetesPedigreeFunction 0 Age 0 Outcome 0 dtype: int64 Dealing with Missing Data Technique #1: Dropping Missing Values linkOne way to deal with missing data is to drop it.</description>
+    </item>
+    <item>
+      <title>Time Series Analysis with Pandas</title>
+      <link>http://localhost:1313/tutorials/docs/pandas/pandas/introduction_to_time_series/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pandas/pandas/introduction_to_time_series/</guid>
+      <description>Time Series Analysis with Pandas linkTime series data is ubiquitous in many fields, such as finance, economics, environmental science, and engineering. Pandas provides powerful tools to handle, analyze, and visualize time series data effectively. This tutorial will cover:&#xA;Creating and manipulating time series data Resampling and frequency conversion Time-based indexing and slicing Rolling and expanding windows Time series visualization Creating Time Series Data linkWe&amp;rsquo;ll start by creating a sample time series DataFrame to demonstrate these concepts.</description>
     </item>
     <item>
       <title>Viewing and Understanding Dataframes</title>

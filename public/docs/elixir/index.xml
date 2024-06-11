@@ -29,6 +29,13 @@
       <description>This section will guide you throguh creating a basic command-line TODO application. We will explore key conteps and syntac along the way, makin git perfect for people who just started using the language.&#xA;Getting started linkFirst, we should create a new project by running the command&#xA;mix new todo_cli --sup We have already gone through the meaning of --sup in the first tutorial we had.&#xA;Our proejct will consist of four main modules:</description>
     </item>
     <item>
+      <title>Client-server communication with GenServer</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/client_server_communication_with_gen_server/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/client_server_communication_with_gen_server/</guid>
+      <description>In simple state management tutorial, we used agents to represent our buckets. In the introduction to mix, we specified we would like to name each bucket so we can do the following:&#xA;CREATE shopping OK PUT shopping milk 1 OK GET shopping milk 1 OK In the session above we interacted with the &amp;ldquo;shopping&amp;rdquo; bucket.&#xA;Since agents are processes, each bucket has a process identifier (PID), but buckets do not have a name.</description>
+    </item>
+    <item>
       <title>Concurrency in Elixir with OTP</title>
       <link>http://localhost:1313/tutorials/docs/elixir/elixir/04_concurrency_in_elixir_with_otp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -50,11 +57,25 @@
       <description>This tool will read a text file and count the number of words in it. This project is straightforward and a great way to practice file handling and basic string manipulation in Elixir. You can further adjust this tool to your usecase, like creating your own editor that will have a word count.&#xA;Here&amp;rsquo;s an outline of what we&amp;rsquo;ll cover:&#xA;Overview linkWe&amp;rsquo;ll create a CLI tool named word_counter that reads a specified text file and counts the number of words in it.</description>
     </item>
     <item>
+      <title>Simple state management with agents</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/simple_state_management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/simple_state_management/</guid>
+      <description>In this guide, we will learn how to keep and share state between multiple entities. If you have previous programming experience, you may think of globally shared variables, but the model we will learn here is quite different. The next chapters will generalize the concepts introduced here.&#xA;The trouble with (mutable) state linkElixir is an immutable language where nothing is shared by default. If we want to share information, which can be read and modified from multiple places, we have two main options in Elixir:</description>
+    </item>
+    <item>
       <title>Testing in Elixir with ExUnit</title>
       <link>http://localhost:1313/tutorials/docs/elixir/elixir/testing_with_elixir/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/elixir/elixir/testing_with_elixir/</guid>
       <description>Testing is a crucial aspect of software development that ensures code reliability and correctness. Elixir provides a powerful testing framework, ExUnit, which comes with a rich set of features for writing and running tests. This tutorial will cover the basics of ExUnit, writing test cases, using mocks and stubs, and property-based testing with StreamData.&#xA;Introduction to ExUnit linkExUnit is Elixir&amp;rsquo;s built-in test framework, providing a comprehensive suite of tools to write and execute tests.</description>
+    </item>
+    <item>
+      <title>Using Docker and Elixir</title>
+      <link>http://localhost:1313/tutorials/docs/elixir/elixir/dockerising_elixir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elixir/elixir/dockerising_elixir/</guid>
+      <description>Introduction linkPhoenix is known for its ability to facilitate rapid development of Elixir web services. The Mix tool further enhances productivity by automating repetitive tasks such as compiling code and running tests. Containerization adds another layer of efficiency, especially when deploying applications with supporting infrastructure.&#xA;In this tutorial, we will explore how to run a Phoenix application using Docker and Docker Compose, and create a custom Mix task to integrate containerization into the Elixir workflow seamlessly.</description>
     </item>
     <item>
       <title>Using Ecto for Database Interactions</title>

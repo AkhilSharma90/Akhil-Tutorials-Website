@@ -8,6 +8,13 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/numpy/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Advanced Array Manipulation with NumPy</title>
+      <link>http://localhost:1313/tutorials/docs/numpy/numpy/advanced_array_manipulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/numpy/numpy/advanced_array_manipulation/</guid>
+      <description>Introduction linkNumPy is a powerful library for numerical computing in Python. While basic array operations are straightforward, advanced array manipulations can significantly optimize your code and enhance performance. This tutorial covers advanced techniques for manipulating arrays, including reshaping, stacking, splitting, broadcasting, vectorization, and using advanced indexing.&#xA;1. Reshaping Arrays link1.1 Changing the Shape of an Array&#xA;import numpy as np # Creating a 1D array arr = np.arange(12) print(&amp;#34;Original array:\n&amp;#34;, arr) # Reshaping to a 3x4 array reshaped_arr = arr.</description>
+    </item>
+    <item>
       <title>An Introduction to NumPy</title>
       <link>http://localhost:1313/tutorials/docs/numpy/numpy/introduction_to_numpy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -29,6 +36,13 @@
       <description>Indexing and Slicing in NumPy linkOverview linkIndexing and slicing are fundamental operations for accessing and manipulating elements in NumPy arrays. Understanding how to efficiently select and extract elements from arrays is essential for working with data effectively in NumPy.&#xA;Basic Indexing linkNumPy arrays support similar indexing syntax to Python lists. You can access individual elements of an array using square brackets and indices.&#xA;import numpy as np # Create an array arr = np.</description>
     </item>
     <item>
+      <title>Linear Algebra with NumPy</title>
+      <link>http://localhost:1313/tutorials/docs/numpy/numpy/linear_algebra/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/numpy/numpy/linear_algebra/</guid>
+      <description>Introduction link Importance of Linear Algebra: Linear algebra is fundamental in various fields such as data science, machine learning, computer graphics, and more. NumPy provides efficient tools for performing linear algebra operations. Overview of NumPy&amp;rsquo;s Capabilities: NumPy&amp;rsquo;s linalg module offers a wide range of functions to perform operations like matrix multiplication, solving linear systems, calculating determinants, eigenvalues, and more. 1. Matrix Creation link1.1 Creating Matrices&#xA;import numpy as np # Creating a 2x2 matrix A = np.</description>
+    </item>
+    <item>
       <title>NumPy Broadcasting</title>
       <link>http://localhost:1313/tutorials/docs/numpy/numpy/broadcasting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -41,6 +55,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/numpy/numpy/numpy_operations/</guid>
       <description>Overview linkNumPy provides a wide range of mathematical and array operations that enable efficient manipulation and analysis of data. These operations include arithmetic, statistical, logical, aggregation, element-wise comparison, sorting, concatenation, splitting, broadcasting, vectorization, and Fourier transforms, among others. Understanding and leveraging these operations is essential for working effectively with NumPy arrays.&#xA;Arithmetic Operations linkNumPy supports standard arithmetic operations such as addition, subtraction, multiplication, and division, both element-wise and matrix-wise. These operations can be performed using NumPy&amp;rsquo;s array broadcasting and ufuncs.</description>
+    </item>
+    <item>
+      <title>Random Number Generation and Sampling with NumPy</title>
+      <link>http://localhost:1313/tutorials/docs/numpy/numpy/random_number_generation_and_sampling/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/numpy/numpy/random_number_generation_and_sampling/</guid>
+      <description>Introduction linkRandom number generation and sampling are essential tasks in various scientific and computational applications. NumPy provides a powerful suite of functions for generating random numbers and sampling from different probability distributions. In this tutorial, we&amp;rsquo;ll explore how to generate random numbers, create random arrays, and sample from different distributions using NumPy.&#xA;1. Generating Random Numbers link1.1 Generating a Single Random Number&#xA;import numpy as np # Generate a single random number between 0 and 1 random_number = np.</description>
     </item>
   </channel>
 </rss>
