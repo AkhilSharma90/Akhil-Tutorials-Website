@@ -15,11 +15,53 @@
       <description>Brief History of Erlang linkErlang was created by Ericsson&amp;rsquo;s Computer Science Lab in 1986 for handling large-scale telecommunications projects. Its development was driven by the need for a robust system capable of managing numerous concurrent activities with high levels of fault tolerance. Over the years, Erlang has evolved significantly and is now used in various domains, including banking, e-commerce, and instant messaging.&#xA;Key Features of Erlang linkErlang stands out due to its unique features, which include:</description>
     </item>
     <item>
+      <title>Binaries in Erlang Programming Language</title>
+      <link>http://localhost:1313/tutorials/docs/erlang/erlang/erlangs_binaries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/erlang/erlang/erlangs_binaries/</guid>
+      <description>Erlang provides a data structure called a binary to store large quantities of raw data efficiently. Binaries are more space-efficient compared to lists or tuples, and the Erlang runtime system is optimized for efficient input and output operations involving binaries.&#xA;What are Binaries? linkBinaries in Erlang are written and printed as sequences of integers or strings, enclosed in double less than and greater than brackets (&amp;lt;&amp;lt; &amp;gt;&amp;gt;). They are used for handling raw data efficiently.</description>
+    </item>
+    <item>
       <title>Concurrency and Process Management in Erlang</title>
       <link>http://localhost:1313/tutorials/docs/erlang/erlang/concurrency_and_process/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/erlang/erlang/concurrency_and_process/</guid>
       <description>Concurrency and Process Management in Erlang linkErlang&amp;rsquo;s concurrency model is one of its most powerful features, making it ideal for building scalable and reliable systems. Understanding how Erlang handles concurrency and process management is crucial for leveraging its full potential.&#xA;The Actor Model linkErlang&amp;rsquo;s concurrency is based on the Actor model, where each actor is a process that communicates with others through message passing. This model simplifies concurrent programming by avoiding shared state and locks.</description>
+    </item>
+    <item>
+      <title>Connecting to SQL Databases Using Erlang&#39;s ODBC Library</title>
+      <link>http://localhost:1313/tutorials/docs/erlang/erlang/databases_in_erlang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/erlang/erlang/databases_in_erlang/</guid>
+      <description>Prerequisites linkBefore connecting to a Microsoft SQL Server database, ensure the following:&#xA;You have created a database TESTDB. You have created a table EMPLOYEE in TESTDB with fields FIRST_NAME, LAST_NAME, AGE, SEX, and INCOME. User ID testuser and password test123 are set to access TESTDB. An ODBC DSN named usersqlserver has been created, which connects to the database. Establishing a Database Connection linkTo establish a connection to the database, use the following code example:</description>
+    </item>
+    <item>
+      <title>Distributed Programming</title>
+      <link>http://localhost:1313/tutorials/docs/erlang/erlang/distributed_programming_in_erlang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/erlang/erlang/distributed_programming_in_erlang/</guid>
+      <description>Distributed programming involves writing programs designed to run on networks of computers, coordinating their activities through message passing. Erlang is well-suited for distributed programming due to its built-in support for creating and managing distributed systems.&#xA;Why Write Distributed Applications? linkThere are several reasons to write distributed applications:&#xA;Performance linkBy running different parts of a program in parallel on different machines, we can significantly improve performance.&#xA;Reliability linkWe can achieve fault tolerance by distributing the system across multiple machines.</description>
+    </item>
+    <item>
+      <title>Macros in Erlang Programming Language</title>
+      <link>http://localhost:1313/tutorials/docs/erlang/erlang/macros_in_erlang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/erlang/erlang/macros_in_erlang/</guid>
+      <description>Macros in Erlang provide a powerful way to define constants and reusable code snippets that can be expanded inline during compilation. This tutorial will guide you through understanding, defining, and using macros in Erlang, along with some best practices to keep your code clean and maintainable.&#xA;Introduction to Macros linkMacros in Erlang are a form of syntactic sugar that allows developers to define constants or code snippets that can be substituted during the pre-processing phase of compilation.</description>
+    </item>
+    <item>
+      <title>Modules in Erlang Programming Language</title>
+      <link>http://localhost:1313/tutorials/docs/erlang/erlang/modules_in_erlang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/erlang/erlang/modules_in_erlang/</guid>
+      <description>Modules in Erlang are collections of functions grouped within a single file under a unified name. In Erlang, all functions must be defined within modules.&#xA;Many fundamental functionalities, such as arithmetic, logic, and Boolean operations, are readily available as default modules loaded upon program execution. However, any other function defined within a module must be invoked in the format: Module:Function(Arguments).&#xA;Defining a Module linkModules can declare two primary entities: functions and attributes.</description>
+    </item>
+    <item>
+      <title>Pattern Matching in Erlang</title>
+      <link>http://localhost:1313/tutorials/docs/erlang/erlang/pattern_matching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/erlang/erlang/pattern_matching/</guid>
+      <description>Pattern matching is a fundamental concept in Erlang that allows you to destructure data structures, bind variables, and control the flow of your program. This tutorial will guide you through the basics of pattern matching, including how to use it with different data types and the rules governing pattern matching success and failure.&#xA;Introduction to Pattern Matching linkIn Erlang, patterns look similar to terms. They can be simple literals like atoms and numbers, or compound structures like tuples and lists.</description>
     </item>
     <item>
       <title>Practical Applications and Best Practices</title>
@@ -34,6 +76,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/erlang/erlang/erlangs_otp/</guid>
       <description>Understanding Erlang&amp;rsquo;s OTP Framework linkErlang&amp;rsquo;s Open Telecom Platform (OTP) framework is a set of libraries and design principles for building robust, fault-tolerant applications. OTP provides a solid foundation for building complex systems with high availability requirements, making it an essential tool for Erlang developers.&#xA;What is OTP? linkOTP stands for Open Telecom Platform, and it is a collection of middleware, libraries, and tools designed to help developers create large-scale, reliable applications.</description>
+    </item>
+    <item>
+      <title>Web Programming in Erlang</title>
+      <link>http://localhost:1313/tutorials/docs/erlang/erlang/web_development_in_erlang/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/erlang/erlang/web_development_in_erlang/</guid>
+      <description>In Erlang, the inets library provides the functionality to build web servers, known as httpd, to handle HTTP requests. This tutorial will guide you through setting up a basic web server in Erlang and implementing a &amp;ldquo;Hello, World!&amp;rdquo; web application.&#xA;Features of Erlang HTTP Server linkThe Erlang HTTP server (httpd) supports several features:&#xA;Secure Sockets Layer (SSL) Erlang Scripting Interface (ESI) Common Gateway Interface (CGI) User Authentication (using Mnesia, Dets, or plain text database) Common Logfile Format (with or without disk_log support) URL Aliasing Action Mappings Directory Listings Setting Up the Web Server linkStarting the Web Library linkFirst, start the inets library:</description>
     </item>
   </channel>
 </rss>

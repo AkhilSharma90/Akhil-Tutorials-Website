@@ -29,11 +29,25 @@
       <description>Functional Programming in Scala linkScala&amp;rsquo;s support for functional programming (FP) emphasizes writing software by composing pure functions, avoiding shared state, mutable data, and side-effects.&#xA;Understanding Functional Programming&#xA;Functional programming treats computation as the evaluation of mathematical functions. It emphasizes the use of immutable data and functions as first-class citizens.&#xA;Immutable Collections: Scala provides a rich set of immutable collections, making code safer and easier to understand. Higher-Order Functions: Higher-order functions can take functions as parameters or return functions, and they are critical in FP.</description>
     </item>
     <item>
+      <title>Future and Promises in Scala</title>
+      <link>http://localhost:1313/tutorials/docs/scala/scala/future_and_promises/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/scala/scala/future_and_promises/</guid>
+      <description>A Future is a placeholder object for a value that may not yet exist. Generally, the value of the Future is supplied concurrently and can subsequently be used. Composing concurrent tasks in this way tends to result in faster, asynchronous, non-blocking parallel code.&#xA;By default, futures and promises are non-blocking, making use of callbacks instead of typical blocking operations. To simplify the use of callbacks both syntactically and conceptually, Scala provides combinators such as flatMap, foreach, and filter used to compose futures in a non-blocking way.</description>
+    </item>
+    <item>
       <title>Object-Oriented Programming in Scala</title>
       <link>http://localhost:1313/tutorials/docs/scala/scala/object_oriented_programming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/scala/scala/object_oriented_programming/</guid>
       <description>Object-Oriented Programming in Scala linkScala treats everything as objects and supports key object-oriented programming (OOP) concepts such as classes, objects, constructors, inheritance, and traits.&#xA;Classes and Objects&#xA;Classes: A class in Scala is a blueprint for creating objects. It can contain fields and methods.&#xA;class Person(var name: String, var age: Int) { def greet(): Unit = { println(s&amp;#34;Hello, my name is $name and I am $age years old.&amp;#34;) } } Objects: An instance of a class is known as an object.</description>
+    </item>
+    <item>
+      <title>String Interpolation in Scala</title>
+      <link>http://localhost:1313/tutorials/docs/scala/scala/string_interpolation_in_scala/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/scala/scala/string_interpolation_in_scala/</guid>
+      <description>String interpolation is a powerful feature in Scala that enables the seamless integration of variables and expressions within strings. Understanding and mastering string interpolation can significantly improve the readability and expressiveness of your Scala code. In this comprehensive guide, we&amp;rsquo;ll explore the basics of string interpolation, delve into its various interpolators, and even discuss how to create your own custom interpolators.&#xA;Understanding String Interpolation linkString interpolation provides a straightforward way to embed variables and expressions directly within strings.</description>
     </item>
   </channel>
 </rss>

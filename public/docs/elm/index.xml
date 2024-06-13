@@ -29,11 +29,25 @@
       <description>In this tutorial, we will walk through building a basic user registration form using Elm. This form will allow users to input their name and password, and it will validate that the password and password confirmation match. By following this tutorial, you&amp;rsquo;ll learn how to handle form inputs and state updates in Elm.&#xA;Introduction linkElm is a functional language designed for building robust web applications. This tutorial will guide you through creating a simple registration form, demonstrating how to handle user input and perform validation.</description>
     </item>
     <item>
+      <title>Error Handling in Elm</title>
+      <link>http://localhost:1313/tutorials/docs/elm/elm/error_handling_in_elm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elm/elm/error_handling_in_elm/</guid>
+      <description>An error is any unexpected condition in a program. Errors can occur at either compile-time or runtime. Compile time errors occur during the compilation of a program (For example, error in the program&amp;rsquo;s syntax) while runtime errors occur during the program&amp;rsquo;s execution. Unlike other programming languages, Elm does not throw runtime errors.&#xA;Consider an application that accepts the age of a user. The application should throw an error if the age is zero or negative.</description>
+    </item>
+    <item>
       <title>huCreating a Random Quotes App in Elm</title>
       <link>http://localhost:1313/tutorials/docs/elm/elm/random_quote_generator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/elm/elm/random_quote_generator/</guid>
       <description>In this tutorial, we will walk through building a simple Elm application that fetches random quotes from an API. We will break down the code into logical sections and explain each part in detail. By the end of this tutorial, you will have a good understanding of how to make HTTP requests and handle the responses in Elm.&#xA;Introduction linkElm is a functional language for building reliable web applications. This tutorial will guide you through creating an application that fetches random quotes and displays them.</description>
+    </item>
+    <item>
+      <title>Package Manager in Elm</title>
+      <link>http://localhost:1313/tutorials/docs/elm/elm/elms_package_manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/elm/elm/elms_package_manager/</guid>
+      <description>A package manager is a command-line tool that automates the process of installing, upgrading, configuring, and removing packages in your application.&#xA;Just like JavaScript has a package manager called npm, elm has a package manager called elm-package.&#xA;The package manager performs the following three tasks −&#xA;Installs all dependencies that an elm application need Publishes custom packages Determines the version of your package when you are ready to publish and update.</description>
     </item>
     <item>
       <title>The Elm Architecture</title>
