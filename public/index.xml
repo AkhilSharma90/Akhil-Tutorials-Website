@@ -78,13 +78,6 @@
       <description>Protocols - ether, fddi, ip, arp, rarp, decnet, lat, sca, moprc, mopdl, tcp and udp linkWireshark Capturing Modes link Promiscuous mode Sets interface to capture all packets on a network segment to which it is associated to Monitor mode setup the Wireless interface to capture all traffic it can receive (Unix/Linux only) Filter Types link Capture filter Filter packets during capture Display Filter Hide Packets from a capture display Capture Filter Syntax link Syntax protocol direction hosts value Logical operator Expressions Example tcp src 192.</description>
     </item>
     <item>
-      <title></title>
-      <link>http://localhost:1313/tutorials/docs/huff/huff/testing_and_deploying_huff_contracts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/huff/huff/testing_and_deploying_huff_contracts/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>A beginner&#39;s guide to the Elixir programming language</title>
       <link>http://localhost:1313/tutorials/docs/elixir/elixir/01_a_beginners_guide_to_elixir/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -139,6 +132,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/julia/julia/getting_started_with_julia/</guid>
       <description>Introduction linkJulia, a high-level, high-performance programming language, is designed for technical computing. It combines the simplicity of Python with the power of languages like C or Fortran. Julia is known for its impressive speed and is widely used in scientific computing, machine learning, data mining, large-scale linear algebra, and more.&#xA;Getting Started with Julia linkInstalling Julia linkTo begin with Julia, the first step is installing the language. Julia can be downloaded from its official website, JuliaLang.</description>
+    </item>
+    <item>
+      <title>A simple Huff Program to Determine Even Number</title>
+      <link>http://localhost:1313/tutorials/docs/huff/huff/simple_huff_program_to_determine_even_numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/huff/huff/simple_huff_program_to_determine_even_numbers/</guid>
+      <description>In this tutorial, we are writing a Huff smart contract that checks whether a given number is even or odd. The contract should return 1 if the number is even and 0 if the number is odd.&#xA;Note: For those unfamiliar with calldata, it is a type of input data sent with a transaction. Calldata is stored outside the EVM&amp;rsquo;s storage and memory, making it cheaper to use.&#xA;Basic Solution linkHere’s a basic Huff contract to solve this problem:</description>
     </item>
     <item>
       <title>Advanced Array Manipulation with NumPy</title>
@@ -477,6 +477,13 @@
       <description>In this lesson, we will build a simple HTTP server from scratch using the PlugCowboy Elixir library. Cowboy is a simple HTTP server for Erlang and Plug will provide us with a connection adapter for the web server.&#xA;Getting started linkAssuming you already have Elixir installed, we will start a simple project by running the command:&#xA;mix new server --sup cd server Note that server is the name of your project, and you can name it however you want.</description>
     </item>
     <item>
+      <title>Creating a Huff Contract for Signature Verification</title>
+      <link>http://localhost:1313/tutorials/docs/huff/huff/signature_verification_huff_contract/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/huff/huff/signature_verification_huff_contract/</guid>
+      <description>Overview linkIn this section, we aim to create a Huff smart contract that takes a signature as input from the calldata, verifies if the message was signed by the sender of the transaction, and returns true if it was. If the message wasn&amp;rsquo;t signed by the sender or if the calldata doesn&amp;rsquo;t adhere to the expected structure, the contract will cause the transaction to run out of gas.&#xA;Solution linkHere’s the optimized solution for quick reference:</description>
+    </item>
+    <item>
       <title>Creating a Token With Huff</title>
       <link>http://localhost:1313/tutorials/docs/huff/huff/creating_a_token_in_huff/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -603,6 +610,13 @@
       <description>An error is any unexpected condition in a program. Errors can occur at either compile-time or runtime. Compile time errors occur during the compilation of a program (For example, error in the program&amp;rsquo;s syntax) while runtime errors occur during the program&amp;rsquo;s execution. Unlike other programming languages, Elm does not throw runtime errors.&#xA;Consider an application that accepts the age of a user. The application should throw an error if the age is zero or negative.</description>
     </item>
     <item>
+      <title>Error Handling in OCaml</title>
+      <link>http://localhost:1313/tutorials/docs/ocaml/ocaml/error_handling_in_ocaml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/ocaml/ocaml/error_handling_in_ocaml/</guid>
+      <description>Error handling is a critical aspect of any programming language, ensuring that your program can gracefully handle unexpected situations. This guide covers the various techniques for error handling in OCaml, including using exceptions, the result type, and custom error types.&#xA;Introduction to Error Handling in OCaml linkOCaml provides several mechanisms for error handling. The primary methods are:&#xA;Exceptions: A traditional way to handle errors. Result Type: A functional approach to handle errors and results.</description>
+    </item>
+    <item>
       <title>Error Handling in Zig</title>
       <link>http://localhost:1313/tutorials/docs/zig/zig/error_handling_in_zig/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -652,6 +666,13 @@
       <description>Introduction linkAdvanced type definitions in Rust, including sophisticated struct patterns and enums with data, allow for more expressive and efficient code. This post explores these advanced types, demonstrating how to leverage them to build complex and type-safe Rust applications.&#xA;Advanced Struct Usage linkStructs in Rust are not just simple collections of data fields; they can also include functionality and be used in complex patterns.&#xA;Using Derive Attributes:&#xA;Rust allows structs to automatically implement traits like Debug, Clone, Copy, and Default using derive attributes.</description>
     </item>
     <item>
+      <title>Exploring Arrays in Scala</title>
+      <link>http://localhost:1313/tutorials/docs/scala/scala/arrays_in_scala/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/scala/scala/arrays_in_scala/</guid>
+      <description>In the realm of Scala programming, arrays serve as fundamental data structures for storing collections of elements in a contiguous memory block. They provide efficient random access to elements and support various operations crucial for manipulating data. In this blog post, we will delve into the world of arrays in Scala, covering their creation, manipulation, common operations, and best practices for leveraging them effectively in your code.&#xA;What is an Array in Scala?</description>
+    </item>
+    <item>
       <title>Exploring Channels in Go</title>
       <link>http://localhost:1313/tutorials/docs/golang/golang/concurrency-in-go-channels/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -685,6 +706,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/python/python/python_operators/</guid>
       <description>Introduction linkOperators in Python are special symbols that carry out arithmetic or logical computation. The value that the operator operates on is called the operand. In this guide, we&amp;rsquo;ll explore three major types of operators: arithmetic, comparison, and logical.&#xA;Arithmetic Operators linkArithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication, and division.&#xA;Addition (+): Adds two operands. Subtraction (-): Subtracts right operand from the left. Multiplication (*): Multiplies two operands.</description>
+    </item>
+    <item>
+      <title>Extending Pandas with PyArrow: Enhanced Functionality and Performance</title>
+      <link>http://localhost:1313/tutorials/docs/pandas/pandas/pandas_with_pyarrow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pandas/pandas/pandas_with_pyarrow/</guid>
+      <description>Pandas, the go-to data manipulation library in Python, can further extend its capabilities and improve performance by leveraging PyArrow. PyArrow provides a robust interface for working with Apache Arrow, a columnar in-memory data format optimized for analytics. In this blog, we&amp;rsquo;ll explore how Pandas integrates with PyArrow to offer more extensive data types, improved support for missing data, performant IO operations, and interoperability with other data frame libraries.&#xA;PyArrow Functionality in Pandas linkPyArrow enhances Pandas&amp;rsquo; functionality in several key areas:</description>
     </item>
     <item>
       <title>File Manipulation in OCaml</title>
@@ -729,6 +757,13 @@
       <description>A Future is a placeholder object for a value that may not yet exist. Generally, the value of the Future is supplied concurrently and can subsequently be used. Composing concurrent tasks in this way tends to result in faster, asynchronous, non-blocking parallel code.&#xA;By default, futures and promises are non-blocking, making use of callbacks instead of typical blocking operations. To simplify the use of callbacks both syntactically and conceptually, Scala provides combinators such as flatMap, foreach, and filter used to compose futures in a non-blocking way.</description>
     </item>
     <item>
+      <title>Generics in Zig</title>
+      <link>http://localhost:1313/tutorials/docs/zig/zig/generics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/zig/zig/generics/</guid>
+      <description>Generics Enter generics, the goal of which is to abstract algorithms and data structures from specific types.&#xA;Many languages implement generics with special syntax and generic-specific rules. With Zig, generics are less of a specific feature and more of an expression of what the language is capable of. Specifically, generics leverage Zig&amp;rsquo;s powerful compile-time metaprogramming.&#xA;We&amp;rsquo;ll begin by looking at a silly example, just to get our bearings:&#xA;const std = @import(&amp;#34;std&amp;#34;); pub fn main() !</description>
+    </item>
+    <item>
       <title>Getting Started with Go</title>
       <link>http://localhost:1313/tutorials/docs/golang/golang/getting-started-with-go/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -741,6 +776,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/rust/rust/rust_introduction/</guid>
       <description>Introduction to Rust linkRust is a systems programming language focused on three goals: safety, speed, and concurrency. It achieves these goals without having a garbage collector, making it a useful language for a number of use cases other languages aren’t as well suited for, such as embedding in other languages, programs with specific space and time requirements, and writing low-level code, like device drivers and operating systems.&#xA;Why Rust? linkChoosing Rust for your next project or learning it can provide numerous benefits:</description>
+    </item>
+    <item>
+      <title>Handling Command-Line Arguments in OCaml</title>
+      <link>http://localhost:1313/tutorials/docs/ocaml/ocaml/handling_command_arguments_in_ocaml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/ocaml/ocaml/handling_command_arguments_in_ocaml/</guid>
+      <description>In this tutorial, we will learn how to read command-line arguments directly using OCaml&amp;rsquo;s Sys.argv array and then how to simplify the process using the standard library&amp;rsquo;s Arg module.&#xA;Using Sys.argv linkLike in C and many other languages, the arguments passed to a program on the command line are stored in an array named argv. This array is found in the Sys module of the standard library and is referred to as Sys.</description>
     </item>
     <item>
       <title>Harnessing Concurrency and Parallelism in Haskell</title>
@@ -785,6 +827,13 @@
       <description>In this tutorial, we will walk through building a simple Elm application that fetches random quotes from an API. We will break down the code into logical sections and explain each part in detail. By the end of this tutorial, you will have a good understanding of how to make HTTP requests and handle the responses in Elm.&#xA;Introduction linkElm is a functional language for building reliable web applications. This tutorial will guide you through creating an application that fetches random quotes and displays them.</description>
     </item>
     <item>
+      <title>Indexing and Selection of Data in Pandas</title>
+      <link>http://localhost:1313/tutorials/docs/pandas/pandas/indexing_and_selection_of_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pandas/pandas/indexing_and_selection_of_data/</guid>
+      <description>Efficiently selecting and manipulating data is a core aspect of data analysis. Pandas provides a powerful suite of indexing and selection tools to facilitate this. Let&amp;rsquo;s explore these capabilities in depth, focusing on the Series and DataFrame data structures.&#xA;Indexing and Selection in Series linkA Series in Pandas is a one-dimensional array with labels, which can be used for efficient indexing and selection.&#xA;Basic Indexing linkYou can access elements in a Series using integer-based and label-based indexing.</description>
+    </item>
+    <item>
       <title>Indexing and Slicing In Numpy</title>
       <link>http://localhost:1313/tutorials/docs/numpy/numpy/indexing_and_slicing_in_numpy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -811,6 +860,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/mojo/mojo/using_python_in_mojo/</guid>
       <description>Importing Python Modules in Mojo link Mojo&amp;rsquo;s ability to import and use Python modules is a significant advantage, especially for leveraging existing Python code. It utilizes the CPython interpreter, allowing seamless integration with Python modules. Example: Using NumPy in Mojo link from python import Python let np = Python.import_module(&amp;#34;numpy&amp;#34;) ar = np.arange(15).reshape(3, 5) print(ar.shape) Note: NumPy must be installed in your Python environment. Limitations link While Mojo can import Python modules, it is not yet a feature-complete superset of Python.</description>
+    </item>
+    <item>
+      <title>Introduction to Data Structures in Pandas</title>
+      <link>http://localhost:1313/tutorials/docs/pandas/pandas/introduction_to_data_types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pandas/pandas/introduction_to_data_types/</guid>
+      <description>linkPandas is a powerful and widely-used data manipulation library in Python, providing versatile data structures and functions designed to make data analysis and manipulation simple and efficient. This blog will introduce you to two primary data structures in Pandas: Series and DataFrame. Understanding these data structures is fundamental to harnessing the full potential of Pandas for data analysis.&#xA;Series linkA Series is a one-dimensional labeled array capable of holding any data type (integers, strings, floating point numbers, Python objects, etc.</description>
     </item>
     <item>
       <title>Introduction to Haskell</title>
@@ -1142,6 +1198,13 @@
       <description>Pattern matching is a fundamental concept in Erlang that allows you to destructure data structures, bind variables, and control the flow of your program. This tutorial will guide you through the basics of pattern matching, including how to use it with different data types and the rules governing pattern matching success and failure.&#xA;Introduction to Pattern Matching linkIn Erlang, patterns look similar to terms. They can be simple literals like atoms and numbers, or compound structures like tuples and lists.</description>
     </item>
     <item>
+      <title>Pointers in Zig</title>
+      <link>http://localhost:1313/tutorials/docs/zig/zig/pointers_in_zig/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/zig/zig/pointers_in_zig/</guid>
+      <description>Pointers linkZig doesn&amp;rsquo;t include a garbage collector. The burden of managing memory is on you, the developer. It&amp;rsquo;s a big responsibility as it has a direct impact on the performance, stability and security of your application.&#xA;We&amp;rsquo;ll begin by talking about pointers, which is an important topic to discuss in and of itself, but also to start training ourselves to see our program&amp;rsquo;s data from a memory-oriented point of view. If you&amp;rsquo;re already comfortable with pointers, heap allocations and dangling pointers, feel free to skip ahead a couple of parts to heap memory &amp;amp; allocators, which is more Zig-specific.</description>
+    </item>
+    <item>
       <title>Practical Applications and Best Practices</title>
       <link>http://localhost:1313/tutorials/docs/erlang/erlang/applications_and_best_practices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1175,6 +1238,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/numpy/numpy/random_number_generation_and_sampling/</guid>
       <description>Introduction linkRandom number generation and sampling are essential tasks in various scientific and computational applications. NumPy provides a powerful suite of functions for generating random numbers and sampling from different probability distributions. In this tutorial, we&amp;rsquo;ll explore how to generate random numbers, create random arrays, and sample from different distributions using NumPy.&#xA;1. Generating Random Numbers link1.1 Generating a Single Random Number&#xA;import numpy as np # Generate a single random number between 0 and 1 random_number = np.</description>
+    </item>
+    <item>
+      <title>Reversing Calldata with Huff: A Step-by-Step Tutorial</title>
+      <link>http://localhost:1313/tutorials/docs/huff/huff/reverse_calldata_with_huff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/huff/huff/reverse_calldata_with_huff/</guid>
+      <description>Introduction linkIn this tutorial, we&amp;rsquo;ll explore the process of writing a Huff smart contract that reverses the calldata it receives. Calldata is a type of input data sent along with a transaction, stored outside the EVM&amp;rsquo;s storage and memory, making it cheaper to use.&#xA;Our goal is to create a contract that, upon receiving data, returns the same data in reverse order.&#xA;The task is to write a Huff smart contract that reverses the calldata it receives.</description>
     </item>
     <item>
       <title>Robust Error Handling in Rust: Using Result and Option</title>
@@ -1223,7 +1293,14 @@
       <link>http://localhost:1313/tutorials/docs/huff/huff/advanced_features_using_huff/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/huff/huff/advanced_features_using_huff/</guid>
-      <description>Advanced Huff Features linkIn-Depth Look at Advanced Huff Features linkHuff allows for a range of advanced features that provide developers with extensive control and optimization capabilities. Some of these advanced features include:&#xA;1&#xA;. Inline Assembly: Huff permits inline assembly, giving developers the ability to embed raw EVM opcodes within their Huff code. 2. Conditional Execution: Huff supports conditional execution using EVM opcodes like JUMPI, allowing for complex logical flows. 3.</description>
+      <description>Advanced Huff Features linkIn-Depth Look at Advanced Huff Features linkHuff allows for a range of advanced features that provide developers with extensive control and optimization capabilities. Some of these advanced features include:&#xA;Inline Assembly: Huff permits inline assembly, giving developers the ability to embed raw EVM opcodes within their Huff code. Conditional Execution: Huff supports conditional execution using EVM opcodes like JUMPI, allowing for complex logical flows. Gas Optimization Techniques: Advanced Huff programmers can optimize their contracts for gas efficiency by directly manipulating the stack and using opcodes efficiently.</description>
+    </item>
+    <item>
+      <title>Stack Memory in Zig</title>
+      <link>http://localhost:1313/tutorials/docs/zig/zig/stack_memory_in_zig/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/zig/zig/stack_memory_in_zig/</guid>
+      <description>Diving into pointers provided insight into the relationship between variables, data and memory. So we&amp;rsquo;re getting a sense of what the memory looks like, but we&amp;rsquo;ve yet to talk about how data and, by extension, memory is managed. For short lived and simple scripts, this likely doesn&amp;rsquo;t matter. In an age of 32GB laptop, you can start your program, use a few hundred megabytes of RAM reading a file and parsing an HTTP response, do something amazing, and exit.</description>
     </item>
     <item>
       <title>String Interpolation in Scala</title>
@@ -1254,6 +1331,13 @@
       <description>System programming with Zig involves tasks such as interacting with hardware, writing device drivers, and working with low-level APIs. Zig&amp;rsquo;s focus on safety, performance, and simplicity makes it well-suited for system programming tasks. In this tutorial, we&amp;rsquo;ll explore how Zig can be used for system programming, covering topics such as low-level memory management, interacting with hardware, and writing platform-specific code.&#xA;Low-Level Memory Management linkOne of the core aspects of system programming is managing memory efficiently.</description>
     </item>
     <item>
+      <title>Testing and Deploying Huff Contracts</title>
+      <link>http://localhost:1313/tutorials/docs/huff/huff/testing_and_deploying_huff_contracts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/huff/huff/testing_and_deploying_huff_contracts/</guid>
+      <description>In this tutorial, we will delve into the steps involved in testing and deploying a smart contract written using the Huff programming language.&#xA;Introduction to Huff linkFor those unfamiliar with Huff, it is a low-level programming language designed for developing highly optimized smart contracts that run on the Ethereum Virtual Machine (EVM). Huff exposes the inner workings of the EVM, allowing developers to manually manipulate its programming stack.&#xA;The Aztec Protocol team originally created Huff to write Weierstrudel, an on-chain elliptical curve arithmetic library requiring incredibly optimized code that neither Solidity nor Yul could provide.</description>
+    </item>
+    <item>
       <title>Testing in Elixir with ExUnit</title>
       <link>http://localhost:1313/tutorials/docs/elixir/elixir/testing_with_elixir/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1266,6 +1350,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/elm/elm/elm_architecture/</guid>
       <description>Elm Architecture linkThe Elm Architecture is a pattern for architecting interactive programs, like webapps and games.&#xA;This architecture seems to emerge naturally in Elm. Rather than someone inventing it, early Elm programmers kept discovering the same basic patterns in their code. It was kind of spooky to see people ending up with well-architected code without planning ahead!&#xA;So The Elm Architecture is easy in Elm, but it is useful in any front-end project.</description>
+    </item>
+    <item>
+      <title>Third Party Dependencies in Zig</title>
+      <link>http://localhost:1313/tutorials/docs/zig/zig/using_external_packages_with_zig/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/zig/zig/using_external_packages_with_zig/</guid>
+      <description>Zig&amp;rsquo;s built-in package manager is relatively new and, as a consequence, has a number of rough edges. While there is room for improvements, it&amp;rsquo;s usable as is. There are two parts we need to look at: creating a package and using packages. We&amp;rsquo;ll go through this in full.&#xA;First, create a new folder named calc and create three files. The first is add.zig, with the following content:&#xA;// Oh, a hidden lesson, look at the type of b // and the return type!</description>
     </item>
     <item>
       <title>Time Series Analysis with Pandas</title>
@@ -1321,7 +1412,7 @@
       <link>http://localhost:1313/tutorials/docs/huff/huff/understanding_huff_macros/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/huff/huff/understanding_huff_macros/</guid>
-      <description>Understanding Huff Macros linkExplanation of Macros in Huff linkMacros in Huff are one of its most distinctive and powerful features. They allow you to define reusable code blocks that can be invoked within your contract. This feature helps in organizing complex logic, reducing redundancy, and making contracts more readable. Unlike functions in high-level languages, macros do not have their own execution context; they are essentially inlined wherever they are called.</description>
+      <description>Explanation of Macros in Huff linkMacros in Huff are one of its most distinctive and powerful features. They allow you to define reusable code blocks that can be invoked within your contract. This feature helps in organizing complex logic, reducing redundancy, and making contracts more readable. Unlike functions in high-level languages, macros do not have their own execution context; they are essentially inlined wherever they are called.&#xA;How to Create and Use Macros Effectively linkCreating a macro in Huff involves a few key steps:</description>
     </item>
     <item>
       <title>Understanding Iterators and Generators in Python: Leveraging Yield for Efficient Code</title>
@@ -1329,6 +1420,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/python/python/python_iterators_and_generators/</guid>
       <description>Introduction linkIterators and generators are fundamental constructs in Python that allow for efficient looping and data processing, particularly when dealing with large datasets or complex computation scenarios. They help in managing memory efficiently and can make your code faster and more scalable.&#xA;Creating Iterators linkIn Python, iterators are objects that implement the __iter__() and __next__() methods, which collectively allow you to iterate over sequential data.&#xA;Defining an Iterator link class Count: &amp;#34;&amp;#34;&amp;#34;Iterator that counts upward forever.</description>
+    </item>
+    <item>
+      <title>Understanding Maps in Scala</title>
+      <link>http://localhost:1313/tutorials/docs/scala/scala/understand_maps_in_scala/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/scala/scala/understand_maps_in_scala/</guid>
+      <description>Understanding Maps in Scala: A Comprehensive Overview linkMaps are fundamental data structures in programming, facilitating key-value pair associations crucial for various applications. In Scala, maps provide powerful functionalities and are extensively used for efficient data management and lookup operations. This blog post explores the intricacies of maps in Scala, covering their usage, operations, and practical examples.&#xA;What is a Map in Scala? linkA map in Scala is an iterable collection of key-value pairs, where each key is unique within the map.</description>
     </item>
     <item>
       <title>Understanding Python Variables and Data Types: From Basics to Type Conversion</title>
@@ -1415,6 +1513,13 @@
       <description>htmx has experimental support for declarative use of both WebSockets and Server Sent Events.&#xA;Note: In htmx 2.0, these features will be migrated to extensions. These new extensions are already available in htmx 1.7+ and, if you are writing new code, you are encouraged to use the extensions instead. All new feature work for both SSE and web sockets will be done in the extensions.&#xA;WebSockets linkIf you wish to establish a WebSocket connection in htmx, you use the hx-ws attribute:</description>
     </item>
     <item>
+      <title>Windowing Operations in Pandas</title>
+      <link>http://localhost:1313/tutorials/docs/pandas/pandas/windowing_operations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pandas/pandas/windowing_operations/</guid>
+      <description>Windowing operations in Pandas are essential for performing calculations over a sliding window of data. These operations are particularly useful for time series data analysis, where you might want to compute rolling averages, cumulative sums, or other statistics over a specified window. Pandas provides several methods for windowing operations, including rolling, expanding, and ewm (exponentially weighted windows).&#xA;Rolling Window linkThe rolling method in Pandas allows you to perform operations over a fixed-size sliding window.</description>
+    </item>
+    <item>
       <title>Working with Collections in Go</title>
       <link>http://localhost:1313/tutorials/docs/golang/golang/working-with-collections-in-go/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1434,6 +1539,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/python/python/python_lists_and_tuples/</guid>
       <description>Introduction linkLists and tuples are fundamental Python data structures for storing collections of data. Lists are mutable, allowing modification after creation. Tuples, however, are immutable, meaning they cannot be changed once created. This section explores how to work with these structures.&#xA;Creating and Accessing Lists linkLists are versatile and can be used to store a collection of items (strings, numbers, or other lists).&#xA;Creating Lists linkYou can create a list by enclosing items in square brackets [], separated by commas.</description>
+    </item>
+    <item>
+      <title>Working with Missing Data in Pandas</title>
+      <link>http://localhost:1313/tutorials/docs/pandas/pandas/working_with_missing_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pandas/pandas/working_with_missing_data/</guid>
+      <description>Handling missing data is a crucial part of data cleaning and preprocessing. Missing values can cause errors in analysis and skew results. Pandas provides several methods to detect, handle, and clean missing data efficiently.&#xA;Detecting Missing Data linkPandas uses the NaN (Not a Number) value to represent missing data. You can detect missing data using the following methods:&#xA;Checking for Missing Data linkUse isna() or isnull() to detect missing values in a DataFrame or Series.</description>
+    </item>
+    <item>
+      <title>Working with the Garbage Collector in OCaml</title>
+      <link>http://localhost:1313/tutorials/docs/ocaml/ocaml/garbage_collector_using_ocaml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/ocaml/ocaml/garbage_collector_using_ocaml/</guid>
+      <description>Introduction linkIn this tutorial, we will explore how to use OCaml&amp;rsquo;s Gc module to interact with the garbage collector and how to write your own finalizers. We will also provide exercises to help you develop a better understanding.&#xA;The Gc Module linkThe Gc module contains useful functions for querying and controlling the garbage collector from OCaml programs.&#xA;Example: Running GC and Printing Statistics linkThe following program runs and then prints out GC statistics before quitting:</description>
     </item>
     <item>
       <title>Writing a training loop from scratch in PyTorch</title>

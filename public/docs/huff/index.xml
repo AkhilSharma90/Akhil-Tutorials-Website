@@ -8,11 +8,25 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/huff/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>A simple Huff Program to Determine Even Number</title>
+      <link>http://localhost:1313/tutorials/docs/huff/huff/simple_huff_program_to_determine_even_numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/huff/huff/simple_huff_program_to_determine_even_numbers/</guid>
+      <description>In this tutorial, we are writing a Huff smart contract that checks whether a given number is even or odd. The contract should return 1 if the number is even and 0 if the number is odd.&#xA;Note: For those unfamiliar with calldata, it is a type of input data sent with a transaction. Calldata is stored outside the EVM&amp;rsquo;s storage and memory, making it cheaper to use.&#xA;Basic Solution linkHere’s a basic Huff contract to solve this problem:</description>
+    </item>
+    <item>
       <title>An Introduction to Huff</title>
       <link>http://localhost:1313/tutorials/docs/huff/huff/introduction_to_huff/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/huff/huff/introduction_to_huff/</guid>
       <description>Introduction to Huff linkThe world of blockchain technology and Ethereum, in particular, has revolutionized how we think about digital transactions and smart contract programming. Ethereum, known for its robust and secure platform, allows developers to create decentralized applications (dApps) using smart contracts. These contracts are self-executing agreements with the terms of the agreement directly written into lines of code.&#xA;At the forefront of Ethereum&amp;rsquo;s smart contract development languages is Solidity, widely recognized and used for its accessibility and security features.</description>
+    </item>
+    <item>
+      <title>Creating a Huff Contract for Signature Verification</title>
+      <link>http://localhost:1313/tutorials/docs/huff/huff/signature_verification_huff_contract/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/huff/huff/signature_verification_huff_contract/</guid>
+      <description>Overview linkIn this section, we aim to create a Huff smart contract that takes a signature as input from the calldata, verifies if the message was signed by the sender of the transaction, and returns true if it was. If the message wasn&amp;rsquo;t signed by the sender or if the calldata doesn&amp;rsquo;t adhere to the expected structure, the contract will cause the transaction to run out of gas.&#xA;Solution linkHere’s the optimized solution for quick reference:</description>
     </item>
     <item>
       <title>Creating a Token With Huff</title>
@@ -29,18 +43,32 @@
       <description>Writing Your First Huff Contract linkStructure of a Huff Contract linkHuff contracts, at their core, are a series of EVM opcodes and macros. The structure is significantly more straightforward than a typical Solidity contract. A basic Huff contract typically contains:&#xA;Declarations: Declaring macros and data storage locations. Macros: Macros are reusable code blocks in Huff. Main Execution Logic: The primary logic of the contract, often written using a combination of EVM opcodes and macros.</description>
     </item>
     <item>
+      <title>Reversing Calldata with Huff: A Step-by-Step Tutorial</title>
+      <link>http://localhost:1313/tutorials/docs/huff/huff/reverse_calldata_with_huff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/huff/huff/reverse_calldata_with_huff/</guid>
+      <description>Introduction linkIn this tutorial, we&amp;rsquo;ll explore the process of writing a Huff smart contract that reverses the calldata it receives. Calldata is a type of input data sent along with a transaction, stored outside the EVM&amp;rsquo;s storage and memory, making it cheaper to use.&#xA;Our goal is to create a contract that, upon receiving data, returns the same data in reverse order.&#xA;The task is to write a Huff smart contract that reverses the calldata it receives.</description>
+    </item>
+    <item>
       <title>Some Advanced Features With Huff</title>
       <link>http://localhost:1313/tutorials/docs/huff/huff/advanced_features_using_huff/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/huff/huff/advanced_features_using_huff/</guid>
-      <description>Advanced Huff Features linkIn-Depth Look at Advanced Huff Features linkHuff allows for a range of advanced features that provide developers with extensive control and optimization capabilities. Some of these advanced features include:&#xA;1&#xA;. Inline Assembly: Huff permits inline assembly, giving developers the ability to embed raw EVM opcodes within their Huff code. 2. Conditional Execution: Huff supports conditional execution using EVM opcodes like JUMPI, allowing for complex logical flows. 3.</description>
+      <description>Advanced Huff Features linkIn-Depth Look at Advanced Huff Features linkHuff allows for a range of advanced features that provide developers with extensive control and optimization capabilities. Some of these advanced features include:&#xA;Inline Assembly: Huff permits inline assembly, giving developers the ability to embed raw EVM opcodes within their Huff code. Conditional Execution: Huff supports conditional execution using EVM opcodes like JUMPI, allowing for complex logical flows. Gas Optimization Techniques: Advanced Huff programmers can optimize their contracts for gas efficiency by directly manipulating the stack and using opcodes efficiently.</description>
+    </item>
+    <item>
+      <title>Testing and Deploying Huff Contracts</title>
+      <link>http://localhost:1313/tutorials/docs/huff/huff/testing_and_deploying_huff_contracts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/huff/huff/testing_and_deploying_huff_contracts/</guid>
+      <description>In this tutorial, we will delve into the steps involved in testing and deploying a smart contract written using the Huff programming language.&#xA;Introduction to Huff linkFor those unfamiliar with Huff, it is a low-level programming language designed for developing highly optimized smart contracts that run on the Ethereum Virtual Machine (EVM). Huff exposes the inner workings of the EVM, allowing developers to manually manipulate its programming stack.&#xA;The Aztec Protocol team originally created Huff to write Weierstrudel, an on-chain elliptical curve arithmetic library requiring incredibly optimized code that neither Solidity nor Yul could provide.</description>
     </item>
     <item>
       <title>Understanding Huff Macros</title>
       <link>http://localhost:1313/tutorials/docs/huff/huff/understanding_huff_macros/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/huff/huff/understanding_huff_macros/</guid>
-      <description>Understanding Huff Macros linkExplanation of Macros in Huff linkMacros in Huff are one of its most distinctive and powerful features. They allow you to define reusable code blocks that can be invoked within your contract. This feature helps in organizing complex logic, reducing redundancy, and making contracts more readable. Unlike functions in high-level languages, macros do not have their own execution context; they are essentially inlined wherever they are called.</description>
+      <description>Explanation of Macros in Huff linkMacros in Huff are one of its most distinctive and powerful features. They allow you to define reusable code blocks that can be invoked within your contract. This feature helps in organizing complex logic, reducing redundancy, and making contracts more readable. Unlike functions in high-level languages, macros do not have their own execution context; they are essentially inlined wherever they are called.&#xA;How to Create and Use Macros Effectively linkCreating a macro in Huff involves a few key steps:</description>
     </item>
   </channel>
 </rss>

@@ -12,9 +12,7 @@ draft: false
 
 Huff allows for a range of advanced features that provide developers with extensive control and optimization capabilities. Some of these advanced features include:
 
-1
-
-. **Inline Assembly**: Huff permits inline assembly, giving developers the ability to embed raw EVM opcodes within their Huff code.
+1. **Inline Assembly**: Huff permits inline assembly, giving developers the ability to embed raw EVM opcodes within their Huff code.
 2. **Conditional Execution**: Huff supports conditional execution using EVM opcodes like `JUMPI`, allowing for complex logical flows.
 3. **Gas Optimization Techniques**: Advanced Huff programmers can optimize their contracts for gas efficiency by directly manipulating the stack and using opcodes efficiently.
 4. **Direct Memory Access**: Huff provides direct access to Ethereum's memory model, enabling fine-tuned memory management.

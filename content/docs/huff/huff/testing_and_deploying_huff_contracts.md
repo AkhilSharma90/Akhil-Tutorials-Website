@@ -117,15 +117,13 @@ contract MathTest is Test {
 }
 ```
 
-You can view all the Foundry tests [here in the repo](https://github.com/your-repo-link).
-
 ### Huff Tests
 
 Testing Huff contracts using Foundry is the most commonly used method. However, we can also write simpler (and faster) unit tests using Huff itself. The Huff compiler (`huffc`) has a `test` command, which takes the filename containing the tests as an argument. We can use the `TestHelpers` utility created by Maddiaa for basic operations like `ASSERT`, etc.
 
 A sample Huff test contract looks like this:
 
-```huff
+```solidity
 // ./test/huff/Math.t.huff
 
 /* Imports */
@@ -147,18 +145,11 @@ A sample Huff test contract looks like this:
     ASSERT_EQ()         // [10e18 == SUM]     
 }
 ```
-
-Complete test file [here](https://github.com/your-repo-link).
-
 We can run the tests using the command:
 
 ```bash
 $ huffc ./test/Math.t.huff test
 ```
-
-The output will be something similar to the below image:
-
-![Huff Test Result](https://example.com/test-result-image)
 
 ## Deploying Huff Contracts
 
@@ -190,10 +181,6 @@ $ source .env && forge script scripts/DeployMath.s.sol:DeployMath --fork-url $RP
 
 You need to configure the `RPC_URL` of the network and `PRIVATE_KEY` of the deployer in the `.env` file.
 
-If everything works as intended, you’ll see an output similar to this:
-
-![Deployment Result](https://example.com/deployment-result-image)
-
-To validate the deployment, you can either add assertions in the script’s `run()` method or implement fork tests with the deployed contract address, similar to [this one](https://github.com/your-repo-link). If you want to deploy contracts with arguments, you can look into my [Huffbound deployment script](https://github.com/your-repo-link).
+To validate the deployment, you can either add assertions in the script’s `run()` method or implement fork tests with the deployed contract address.
 
 We have successfully tested and deployed our simple `Math.huff` contract. You can follow the same process to test and deploy more complex Huff contracts as well.

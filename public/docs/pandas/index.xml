@@ -22,11 +22,32 @@
       <description>pandas is arguably the most important Python package for data analysis. It is the de facto standard package for data manipulation and exploratory data analysis. Its ability to read from and write to an extensive list of formats makes it a versatile tool for data science practitioners. Its data manipulation functions make it a highly accessible and practical tool for aggregating, analyzing, and cleaning data.&#xA;In this introduction on how to learn pandas, we discussed the learning path you may take to master this package.</description>
     </item>
     <item>
+      <title>Extending Pandas with PyArrow: Enhanced Functionality and Performance</title>
+      <link>http://localhost:1313/tutorials/docs/pandas/pandas/pandas_with_pyarrow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pandas/pandas/pandas_with_pyarrow/</guid>
+      <description>Pandas, the go-to data manipulation library in Python, can further extend its capabilities and improve performance by leveraging PyArrow. PyArrow provides a robust interface for working with Apache Arrow, a columnar in-memory data format optimized for analytics. In this blog, we&amp;rsquo;ll explore how Pandas integrates with PyArrow to offer more extensive data types, improved support for missing data, performant IO operations, and interoperability with other data frame libraries.&#xA;PyArrow Functionality in Pandas linkPyArrow enhances Pandas&amp;rsquo; functionality in several key areas:</description>
+    </item>
+    <item>
       <title>How to Clean Data using Pandas</title>
       <link>http://localhost:1313/tutorials/docs/pandas/pandas/cleaning_data_using_panda/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/pandas/pandas/cleaning_data_using_panda/</guid>
       <description>Cleaning Data Using Pandas linkData cleaning is one of the most common tasks in data science. Pandas lets you preprocess data for various uses, including training machine learning and deep learning models. Let’s use the DataFrame df2 from earlier, having four missing values, to illustrate a few data cleaning use cases. As a reminder, here&amp;rsquo;s how you can see how many missing values are in a DataFrame.&#xA;df2.isnull().sum() Pregnancies 4 Glucose 0 BloodPressure 0 SkinThickness 0 Insulin 0 BMI 0 DiabetesPedigreeFunction 0 Age 0 Outcome 0 dtype: int64 Dealing with Missing Data Technique #1: Dropping Missing Values linkOne way to deal with missing data is to drop it.</description>
+    </item>
+    <item>
+      <title>Indexing and Selection of Data in Pandas</title>
+      <link>http://localhost:1313/tutorials/docs/pandas/pandas/indexing_and_selection_of_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pandas/pandas/indexing_and_selection_of_data/</guid>
+      <description>Efficiently selecting and manipulating data is a core aspect of data analysis. Pandas provides a powerful suite of indexing and selection tools to facilitate this. Let&amp;rsquo;s explore these capabilities in depth, focusing on the Series and DataFrame data structures.&#xA;Indexing and Selection in Series linkA Series in Pandas is a one-dimensional array with labels, which can be used for efficient indexing and selection.&#xA;Basic Indexing linkYou can access elements in a Series using integer-based and label-based indexing.</description>
+    </item>
+    <item>
+      <title>Introduction to Data Structures in Pandas</title>
+      <link>http://localhost:1313/tutorials/docs/pandas/pandas/introduction_to_data_types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pandas/pandas/introduction_to_data_types/</guid>
+      <description>linkPandas is a powerful and widely-used data manipulation library in Python, providing versatile data structures and functions designed to make data analysis and manipulation simple and efficient. This blog will introduce you to two primary data structures in Pandas: Series and DataFrame. Understanding these data structures is fundamental to harnessing the full potential of Pandas for data analysis.&#xA;Series linkA Series is a one-dimensional labeled array capable of holding any data type (integers, strings, floating point numbers, Python objects, etc.</description>
     </item>
     <item>
       <title>Time Series Analysis with Pandas</title>
@@ -41,6 +62,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/pandas/pandas/viewing_and_understanding_dataframes/</guid>
       <description>Viewing and Understanding DataFrames Using Pandas linkAfter reading tabular data as a DataFrame, you would need to have a glimpse of the data. You can either view a small sample of the dataset or a summary of the data in the form of summary statistics.&#xA;How to View Data Using .head() and .tail() linkYou can view the first few or last few rows of a DataFrame using the .head() or .</description>
+    </item>
+    <item>
+      <title>Windowing Operations in Pandas</title>
+      <link>http://localhost:1313/tutorials/docs/pandas/pandas/windowing_operations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pandas/pandas/windowing_operations/</guid>
+      <description>Windowing operations in Pandas are essential for performing calculations over a sliding window of data. These operations are particularly useful for time series data analysis, where you might want to compute rolling averages, cumulative sums, or other statistics over a specified window. Pandas provides several methods for windowing operations, including rolling, expanding, and ewm (exponentially weighted windows).&#xA;Rolling Window linkThe rolling method in Pandas allows you to perform operations over a fixed-size sliding window.</description>
+    </item>
+    <item>
+      <title>Working with Missing Data in Pandas</title>
+      <link>http://localhost:1313/tutorials/docs/pandas/pandas/working_with_missing_data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/pandas/pandas/working_with_missing_data/</guid>
+      <description>Handling missing data is a crucial part of data cleaning and preprocessing. Missing values can cause errors in analysis and skew results. Pandas provides several methods to detect, handle, and clean missing data efficiently.&#xA;Detecting Missing Data linkPandas uses the NaN (Not a Number) value to represent missing data. You can detect missing data using the following methods:&#xA;Checking for Missing Data linkUse isna() or isnull() to detect missing values in a DataFrame or Series.</description>
     </item>
   </channel>
 </rss>

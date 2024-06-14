@@ -29,11 +29,32 @@
       <description>Core Concepts in OCaml linkData Types and Variables linkOCaml supports several basic data types:&#xA;Integers: let a = 5 Floating-point numbers: let b = 5.0 Strings: let c = &amp;quot;Hello&amp;quot; Booleans: let d = true Variable declaration in OCaml is immutable by default, which means once a value is assigned to a variable, it cannot be changed.&#xA;Control Structures linkOCaml includes several control structures for decision-making and looping:&#xA;If-Else Statements:</description>
     </item>
     <item>
+      <title>Error Handling in OCaml</title>
+      <link>http://localhost:1313/tutorials/docs/ocaml/ocaml/error_handling_in_ocaml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/ocaml/ocaml/error_handling_in_ocaml/</guid>
+      <description>Error handling is a critical aspect of any programming language, ensuring that your program can gracefully handle unexpected situations. This guide covers the various techniques for error handling in OCaml, including using exceptions, the result type, and custom error types.&#xA;Introduction to Error Handling in OCaml linkOCaml provides several mechanisms for error handling. The primary methods are:&#xA;Exceptions: A traditional way to handle errors. Result Type: A functional approach to handle errors and results.</description>
+    </item>
+    <item>
       <title>File Manipulation in OCaml</title>
       <link>http://localhost:1313/tutorials/docs/ocaml/ocaml/file_manipulation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/ocaml/ocaml/file_manipulation/</guid>
       <description>File manipulation in OCaml revolves around the concept of channels, which are used for both reading from and writing to files. Here&amp;rsquo;s a breakdown of the basic file manipulation operations:&#xA;Writing to a File linkTo write data into a file:&#xA;Open the File: Use functions like open_out or open_out_bin to obtain an output channel (out_channel). Write to the Channel: Use functions like Printf.fprintf to write data into the channel. Flush the Channel: If you want to ensure immediate writing to the physical device, call flush on the channel.</description>
+    </item>
+    <item>
+      <title>Handling Command-Line Arguments in OCaml</title>
+      <link>http://localhost:1313/tutorials/docs/ocaml/ocaml/handling_command_arguments_in_ocaml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/ocaml/ocaml/handling_command_arguments_in_ocaml/</guid>
+      <description>In this tutorial, we will learn how to read command-line arguments directly using OCaml&amp;rsquo;s Sys.argv array and then how to simplify the process using the standard library&amp;rsquo;s Arg module.&#xA;Using Sys.argv linkLike in C and many other languages, the arguments passed to a program on the command line are stored in an array named argv. This array is found in the Sys module of the standard library and is referred to as Sys.</description>
+    </item>
+    <item>
+      <title>Working with the Garbage Collector in OCaml</title>
+      <link>http://localhost:1313/tutorials/docs/ocaml/ocaml/garbage_collector_using_ocaml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/ocaml/ocaml/garbage_collector_using_ocaml/</guid>
+      <description>Introduction linkIn this tutorial, we will explore how to use OCaml&amp;rsquo;s Gc module to interact with the garbage collector and how to write your own finalizers. We will also provide exercises to help you develop a better understanding.&#xA;The Gc Module linkThe Gc module contains useful functions for querying and controlling the garbage collector from OCaml programs.&#xA;Example: Running GC and Printing Statistics linkThe following program runs and then prints out GC statistics before quitting:</description>
     </item>
   </channel>
 </rss>

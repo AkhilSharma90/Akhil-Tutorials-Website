@@ -36,11 +36,39 @@
       <description>Error handling is an essential aspect of writing robust and reliable software. Zig provides a powerful and ergonomic error handling mechanism that ensures safety and correctness while dealing with errors. In this tutorial, we&amp;rsquo;ll explore Zig&amp;rsquo;s error handling features, including error sets, error unions, and error propagation patterns.&#xA;Error Sets linkAn error set in Zig is similar to an enum, where each error in the set is a value. Error sets allow you to define a set of named errors that a function can return.</description>
     </item>
     <item>
+      <title>Generics in Zig</title>
+      <link>http://localhost:1313/tutorials/docs/zig/zig/generics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/zig/zig/generics/</guid>
+      <description>Generics Enter generics, the goal of which is to abstract algorithms and data structures from specific types.&#xA;Many languages implement generics with special syntax and generic-specific rules. With Zig, generics are less of a specific feature and more of an expression of what the language is capable of. Specifically, generics leverage Zig&amp;rsquo;s powerful compile-time metaprogramming.&#xA;We&amp;rsquo;ll begin by looking at a silly example, just to get our bearings:&#xA;const std = @import(&amp;#34;std&amp;#34;); pub fn main() !</description>
+    </item>
+    <item>
+      <title>Pointers in Zig</title>
+      <link>http://localhost:1313/tutorials/docs/zig/zig/pointers_in_zig/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/zig/zig/pointers_in_zig/</guid>
+      <description>Pointers linkZig doesn&amp;rsquo;t include a garbage collector. The burden of managing memory is on you, the developer. It&amp;rsquo;s a big responsibility as it has a direct impact on the performance, stability and security of your application.&#xA;We&amp;rsquo;ll begin by talking about pointers, which is an important topic to discuss in and of itself, but also to start training ourselves to see our program&amp;rsquo;s data from a memory-oriented point of view. If you&amp;rsquo;re already comfortable with pointers, heap allocations and dangling pointers, feel free to skip ahead a couple of parts to heap memory &amp;amp; allocators, which is more Zig-specific.</description>
+    </item>
+    <item>
+      <title>Stack Memory in Zig</title>
+      <link>http://localhost:1313/tutorials/docs/zig/zig/stack_memory_in_zig/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/zig/zig/stack_memory_in_zig/</guid>
+      <description>Diving into pointers provided insight into the relationship between variables, data and memory. So we&amp;rsquo;re getting a sense of what the memory looks like, but we&amp;rsquo;ve yet to talk about how data and, by extension, memory is managed. For short lived and simple scripts, this likely doesn&amp;rsquo;t matter. In an age of 32GB laptop, you can start your program, use a few hundred megabytes of RAM reading a file and parsing an HTTP response, do something amazing, and exit.</description>
+    </item>
+    <item>
       <title>System Programming in Zig</title>
       <link>http://localhost:1313/tutorials/docs/zig/zig/system_programming_using_zig/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/zig/zig/system_programming_using_zig/</guid>
       <description>System programming with Zig involves tasks such as interacting with hardware, writing device drivers, and working with low-level APIs. Zig&amp;rsquo;s focus on safety, performance, and simplicity makes it well-suited for system programming tasks. In this tutorial, we&amp;rsquo;ll explore how Zig can be used for system programming, covering topics such as low-level memory management, interacting with hardware, and writing platform-specific code.&#xA;Low-Level Memory Management linkOne of the core aspects of system programming is managing memory efficiently.</description>
+    </item>
+    <item>
+      <title>Third Party Dependencies in Zig</title>
+      <link>http://localhost:1313/tutorials/docs/zig/zig/using_external_packages_with_zig/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/zig/zig/using_external_packages_with_zig/</guid>
+      <description>Zig&amp;rsquo;s built-in package manager is relatively new and, as a consequence, has a number of rough edges. While there is room for improvements, it&amp;rsquo;s usable as is. There are two parts we need to look at: creating a package and using packages. We&amp;rsquo;ll go through this in full.&#xA;First, create a new folder named calc and create three files. The first is add.zig, with the following content:&#xA;// Oh, a hidden lesson, look at the type of b // and the return type!</description>
     </item>
   </channel>
 </rss>

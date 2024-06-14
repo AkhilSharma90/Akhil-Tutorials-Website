@@ -7,7 +7,7 @@ draft: false
 
 In this tutorial, we are writing a Huff smart contract that checks whether a given number is even or odd. The contract should return 1 if the number is even and 0 if the number is odd.
 
-> **Note:** For those unfamiliar with calldata, it is a type of input data sent with a transaction. Calldata is stored outside the EVM's storage and memory, making it cheaper to use.
+**Note:** For those unfamiliar with calldata, it is a type of input data sent with a transaction. Calldata is stored outside the EVM's storage and memory, making it cheaper to use.
 
 ### Basic Solution
 

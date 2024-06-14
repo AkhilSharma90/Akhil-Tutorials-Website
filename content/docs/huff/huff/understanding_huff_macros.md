@@ -4,8 +4,6 @@ description: "Huff is a domain-specific, low-level programming language designed
 icon: "code"
 draft: false
 ---
-## Understanding Huff Macros
-
 ### Explanation of Macros in Huff
 
 Macros in Huff are one of its most distinctive and powerful features. They allow you to define reusable code blocks that can be invoked within your contract. This feature helps in organizing complex logic, reducing redundancy, and making contracts more readable. Unlike functions in high-level languages, macros do not have their own execution context; they are essentially inlined wherever they are called.
