@@ -9,7 +9,6 @@ draft: false
 
 The Domain Name System (DNS) acts as the Internet's phonebook. Humans access information online using domain names like nytimes.com or espn.com, but web browsers communicate through Internet Protocol (IP) addresses. DNS translates these domain names into IP addresses, allowing browsers to load the correct internet resources. This eliminates the need for users to memorize complex IP addresses, such as 192.168.1.1 for IPv4 or 2400:cb00:2048:1::c629:d7a2 for IPv6.
 
-![DNS](https://via.placeholder.com/800x400)
 
 ## How Does DNS Work?
 
@@ -35,8 +34,6 @@ The top-level domain (TLD) nameserver can be compared to a specific rack of book
 
 The authoritative nameserver is the final stop in the DNS query chain. It can be thought of as a dictionary on a library rack, translating a specific name into its definition. If the authoritative nameserver has the requested record, it returns the IP address to the DNS recursor, completing the query.
 
-![DNS Query Process](https://via.placeholder.com/800x400)
-
 ## Difference Between Authoritative DNS Server and Recursive DNS Resolver
 
 ### Recursive DNS Resolver
@@ -61,8 +58,6 @@ An authoritative DNS server holds and is responsible for DNS resource records. I
 8. **Response**: The domain’s nameserver returns the IP address to the resolver.
 
 Once the DNS lookup returns the IP address, the browser makes an HTTP request to the IP address, and the server returns the webpage to be rendered in the browser.
-
-![DNS Lookup Process](https://via.placeholder.com/800x400)
 
 ## What is a DNS Resolver?
 
