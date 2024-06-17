@@ -35,13 +35,13 @@
     <loc>http://localhost:1313/tutorials/docs/</loc>
     <lastmod>2024-05-29T13:20:12+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tutorials/docs/system-design/system-design/reverse_proxies/</loc>
-  </url><url>
     <loc>http://localhost:1313/tutorials/docs/elixir/elixir/01_a_beginners_guide_to_elixir/</loc>
     <lastmod>2024-05-30T11:21:18+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/elixir/elixir/phoenix_elixix_framework/</loc>
     <lastmod>2024-06-03T01:31:16+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/event_driven_architecture/</loc>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/mojo/mojo/introduction_to_mojo/</loc>
     <lastmod>2024-06-05T00:58:05+02:00</lastmod>
@@ -80,7 +80,7 @@
     <lastmod>2024-05-06T04:29:03+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/golang/golang/error-handling-and-panics-in-go/</loc>
-    <lastmod>2024-05-08T00:37:43+00:00</lastmod>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/htmx/htmx/ajax_in_htmx/</loc>
     <lastmod>2024-06-06T02:54:52+02:00</lastmod>
@@ -113,8 +113,10 @@
     <lastmod>2024-06-03T01:31:16+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/system-design/system-design/introduction_to_system_design/</loc>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/system-design/system-design/api_architecture/</loc>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/numpy/numpy/advanced_numpy_concepts/</loc>
     <lastmod>2024-06-06T02:49:11+02:00</lastmod>
@@ -143,12 +145,14 @@
     <loc>http://localhost:1313/tutorials/docs/solidity/solidity/building_a_remote_purchase_contract/</loc>
     <lastmod>2024-06-03T01:31:16+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/task_manager_using_react/</loc>
-  </url><url>
     <loc>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/text_summarizer/</loc>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/solidity/solidity/build_a_voting_contract/</loc>
     <lastmod>2024-05-30T23:55:46+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/note_taking_application_using_rust_and_react/</loc>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/golang/golang/building-real-world-application-go/</loc>
     <lastmod>2024-05-08T00:37:43+00:00</lastmod>
@@ -159,8 +163,11 @@
     <loc>http://localhost:1313/tutorials/docs/rust/rust/building_robust_cli_tool_rust/</loc>
     <lastmod>2024-05-06T04:29:03+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/expense_tracker_using_rust_react/</loc>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tutorials/docs/golang/golang/microservices-with-go/</loc>
-    <lastmod>2024-05-08T00:37:43+00:00</lastmod>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/htmx/htmx/caching/</loc>
     <lastmod>2024-06-06T02:49:11+02:00</lastmod>
@@ -173,8 +180,7 @@
     <loc>http://localhost:1313/tutorials/docs/cheatsheets/</loc>
     <lastmod>2024-04-26T15:18:15+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/</loc>
-    <lastmod>2024-04-16T21:18:00+05:30</lastmod>
+    <loc>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/choosing_the_right_tech_stack/</loc>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/elixir/elixir/client_server_communication_with_gen_server/</loc>
     <lastmod>2024-06-07T10:05:35+02:00</lastmod>
@@ -224,13 +230,20 @@
     <loc>http://localhost:1313/tutorials/docs/huff/huff/signature_verification_huff_contract/</loc>
     <lastmod>2024-06-13T22:42:55+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/calorie_tracker_using_go_react/</loc>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/chat_application_using_react_and_go/</loc>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/huff/huff/creating_a_token_in_huff/</loc>
     <lastmod>2024-06-06T03:14:33+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/mojo/mojo/data_types_variables_operators/</loc>
     <lastmod>2024-06-03T13:56:01+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/docs/system-design/system-design/database_sharding/</loc>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/pytorch/pytorch/pytorch_and_neural_networks/</loc>
     <lastmod>2024-06-05T00:58:05+02:00</lastmod>
@@ -239,6 +252,7 @@
     <lastmod>2024-06-07T10:05:35+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/system-design/system-design/web_sockets/</loc>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/python/python/python_decorators/</loc>
     <lastmod>2024-05-04T04:36:58+00:00</lastmod>
@@ -277,13 +291,15 @@
     <lastmod>2024-05-04T04:36:58+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/golang/golang/packages-and-dependency-management-in-go/</loc>
-    <lastmod>2024-05-08T00:37:43+00:00</lastmod>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/elixir/</loc>
     <lastmod>2024-06-03T16:28:25+05:30</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/elm/</loc>
     <lastmod>2024-06-05T00:58:05+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/ensuring_security_in_your_architecture/</loc>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/erlang/</loc>
     <lastmod>2024-06-05T00:58:05+02:00</lastmod>
@@ -310,7 +326,7 @@
     <lastmod>2024-05-10T04:53:59+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/golang/golang/advanced-features-of-go/</loc>
-    <lastmod>2024-05-08T00:37:43+00:00</lastmod>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/rust/rust/exploring_advanced_types_rust/</loc>
     <lastmod>2024-05-06T04:29:03+00:00</lastmod>
@@ -319,13 +335,13 @@
     <lastmod>2024-06-14T03:48:12+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/golang/golang/concurrency-in-go-channels/</loc>
-    <lastmod>2024-05-08T00:37:43+00:00</lastmod>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/haskell/haskell/functional-design-patterns-in-haskell/</loc>
     <lastmod>2024-05-10T04:53:59+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/golang/golang/functions-in-go/</loc>
-    <lastmod>2024-05-08T00:37:43+00:00</lastmod>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/haskell/haskell/exploring-haskell-syntax-basic-concepts/</loc>
     <lastmod>2024-05-10T04:53:59+00:00</lastmod>
@@ -358,7 +374,7 @@
     <lastmod>2024-06-14T03:48:12+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/golang/golang/getting-started-with-go/</loc>
-    <lastmod>2024-05-08T00:37:43+00:00</lastmod>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/rust/rust/rust_introduction/</loc>
     <lastmod>2024-05-04T04:58:13+00:00</lastmod>
@@ -396,6 +412,8 @@
     <loc>http://localhost:1313/tutorials/docs/huff/</loc>
     <lastmod>2024-06-05T00:58:05+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/ci_cd/</loc>
+  </url><url>
     <loc>http://localhost:1313/tutorials/docs/pandas/pandas/indexing_and_selection_of_data/</loc>
     <lastmod>2024-06-14T03:48:12+02:00</lastmod>
   </url><url>
@@ -420,7 +438,10 @@
     <loc>http://localhost:1313/tutorials/docs/python/python/python_introduction/</loc>
     <lastmod>2024-05-04T04:36:58+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/introduction_to_technical_arch/</loc>
+  </url><url>
     <loc>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/creating_a_job_summarizer_using_streamlit_and_open_ai/</loc>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/julia/</loc>
     <lastmod>2024-06-05T00:58:05+02:00</lastmod>
@@ -447,7 +468,7 @@
     <lastmod>2024-06-11T10:40:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/golang/golang/understanding-go-basics/</loc>
-    <lastmod>2024-05-08T00:37:43+00:00</lastmod>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/rust/rust/collections-rust/</loc>
     <lastmod>2024-05-06T04:29:03+00:00</lastmod>
@@ -456,7 +477,7 @@
     <lastmod>2024-05-04T04:36:58+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/golang/golang/concurrency-in-go-routines/</loc>
-    <lastmod>2024-05-08T00:37:43+00:00</lastmod>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/rust/rust/concurrency_rust/</loc>
     <lastmod>2024-05-06T04:29:03+00:00</lastmod>
@@ -495,10 +516,12 @@
     <lastmod>2024-05-06T04:29:03+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/golang/golang/testing-in-go/</loc>
-    <lastmod>2024-05-08T00:37:43+00:00</lastmod>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/python/python/basic_python_syntax/</loc>
     <lastmod>2024-05-04T04:36:58+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/microservice_vs_monolith/</loc>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/keras/keras/evaluation_and_prediction/</loc>
     <lastmod>2024-06-06T03:14:33+02:00</lastmod>
@@ -540,6 +563,7 @@
     <lastmod>2024-06-06T02:49:11+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/system-design/system-design/nosql_vs_sql/</loc>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/numpy/</loc>
     <lastmod>2024-06-05T00:58:05+02:00</lastmod>
@@ -589,6 +613,9 @@
     <loc>http://localhost:1313/tutorials/docs/solidity/solidity/price_oracle_using_chainlink_and_solidity/</loc>
     <lastmod>2024-05-30T23:55:46+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/progres_checker/</loc>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tutorials/docs/python/</loc>
     <lastmod>2024-06-05T00:58:05+02:00</lastmod>
   </url><url>
@@ -623,6 +650,7 @@
     <lastmod>2024-06-06T02:54:52+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/password_validator/</loc>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/elixir/elixir/simple_state_management/</loc>
     <lastmod>2024-06-07T10:05:35+02:00</lastmod>
@@ -656,6 +684,9 @@
   </url><url>
     <loc>http://localhost:1313/tutorials/tags/</loc>
   </url><url>
+    <loc>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/task_manager_using_react/</loc>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tutorials/docs/technical-architecture/</loc>
     <lastmod>2024-04-16T21:18:00+05:30</lastmod>
   </url><url>
@@ -665,10 +696,16 @@
     <loc>http://localhost:1313/tutorials/docs/elixir/elixir/testing_with_elixir/</loc>
     <lastmod>2024-06-05T00:58:05+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tutorials/docs/system-design/system-design/tcp_vs_udp/</loc>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tutorials/docs/system-design/system-design/domain_name_system/</loc>
+    <lastmod>2024-06-17T02:39:43+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/elm/elm/elm_architecture/</loc>
     <lastmod>2024-06-06T03:14:33+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/the_role_of_cloud_services/</loc>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/zig/zig/using_external_packages_with_zig/</loc>
     <lastmod>2024-06-14T03:48:12+02:00</lastmod>
@@ -683,12 +720,16 @@
     <lastmod>2024-06-07T10:05:35+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/</loc>
-    <lastmod>2024-06-14T03:48:12+02:00</lastmod>
+    <lastmod>2024-06-17T02:39:43+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/solidity/solidity/understanding_application_binary_interface/</loc>
     <lastmod>2024-05-30T23:55:46+02:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tutorials/docs/system-design/system-design/reverse_proxies/</loc>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/tutorials/docs/system-design/system-design/acid_transactions/</loc>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/rust/rust/understanding_using_unsafe_rust/</loc>
     <lastmod>2024-05-06T04:29:03+00:00</lastmod>
@@ -712,9 +753,10 @@
     <lastmod>2024-05-04T04:36:58+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/golang/golang/structs-and-interfaces-in-go/</loc>
-    <lastmod>2024-05-08T00:37:43+00:00</lastmod>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/system-design/system-design/throughput_vs_latency/</loc>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/haskell/haskell/type-classes-and-polymorphism-in-haskell/</loc>
     <lastmod>2024-05-10T04:53:59+00:00</lastmod>
@@ -723,9 +765,10 @@
     <lastmod>2024-05-06T04:29:03+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/system-design/system-design/database_indexes/</loc>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/golang/golang/using-databases-in-go/</loc>
-    <lastmod>2024-05-08T00:37:43+00:00</lastmod>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/elixir/elixir/dockerising_elixir/</loc>
     <lastmod>2024-06-07T10:05:35+02:00</lastmod>
@@ -749,16 +792,19 @@
     <lastmod>2024-06-06T02:49:11+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/system-design/system-design/api_gateway/</loc>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/system-design/system-design/caching/</loc>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/system-design/system-design/load_balancing/</loc>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/pandas/pandas/windowing_operations/</loc>
     <lastmod>2024-06-14T03:48:12+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/golang/golang/working-with-collections-in-go/</loc>
-    <lastmod>2024-05-08T00:37:43+00:00</lastmod>
+    <lastmod>2024-06-17T02:31:59+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tutorials/docs/elm/elm/working_with_http_requests/</loc>
     <lastmod>2024-06-06T03:14:33+02:00</lastmod>

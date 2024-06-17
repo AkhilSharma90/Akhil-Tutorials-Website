@@ -8,13 +8,6 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/system-design/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title> Understanding a Reverse Proxy??</title>
-      <link>http://localhost:1313/tutorials/docs/system-design/system-design/reverse_proxies/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/reverse_proxies/</guid>
-      <description>A reverse proxy is a server that sits in front of web servers and forwards client requests to those web servers. Unlike a forward proxy, which sits in front of client machines and forwards client requests to the web servers, a reverse proxy serves as an intermediary for requests from clients seeking resources from one or more servers. It helps enhance security, performance, and reliability of the web services it supports.</description>
-    </item>
-    <item>
       <title>An Introduction to System Design</title>
       <link>http://localhost:1313/tutorials/docs/system-design/system-design/introduction_to_system_design/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -27,6 +20,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/system-design/system-design/api_architecture/</guid>
       <description>Web services have existed as long as the HTTP protocol itself. However, with the advent of cloud computing, they have become the ubiquitous method for enabling client interaction with services and data.&#xA;As a developer, I’ve had the opportunity to work with various SOAP services. However, my primary focus has been on REST, a resource-based architectural style for developing APIs and web services. Throughout my career, I’ve been involved in numerous projects where I’ve built, designed, and utilized APIs.</description>
+    </item>
+    <item>
+      <title>Database Sharding: Concepts and Examples</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/database_sharding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/database_sharding/</guid>
+      <description>Your application is growing. It has more active users, more features, and generates more data every day. Your database is now becoming a bottleneck for the rest of your application. Database sharding could be the solution to your problems, but many do not have a clear understanding of what it is and, especially, when to use it. In this article, we’ll cover the basics of database sharding, its best use cases, and the different ways you can implement it.</description>
     </item>
     <item>
       <title>Deep Dive into WebSockets</title>
@@ -43,11 +43,25 @@
       <description>TL;DR linkNoSQL databases, developed in the late 2000s, focus on scalability, fast queries, ease of application changes, and simpler programming for developers. In contrast, SQL databases, originating in the 1970s, aim to reduce data duplication and typically require expensive vertical scaling. SQL databases have rigid, complex schemas, while NoSQL databases offer flexible, schema-less structures.&#xA;If you’re not familiar with NoSQL databases or the different types, start here.&#xA;Overview linkThis article covers:</description>
     </item>
     <item>
+      <title>The Difference Between TCP and UDP</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/tcp_vs_udp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/tcp_vs_udp/</guid>
+      <description>The internet is a vast network of data transfers happening all the time. These transfers are governed by two main protocols: TCP and UDP. Each one has its strengths and weaknesses, making them suitable for different situations.&#xA;What are Protocols?&#xA;Protocols are basically the rules that dictate how data is formatted and sent over a network. TCP and UDP are two different ways to achieve the same goal: transferring data online.</description>
+    </item>
+    <item>
       <title>The Domain Name System</title>
       <link>http://localhost:1313/tutorials/docs/system-design/system-design/domain_name_system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/system-design/system-design/domain_name_system/</guid>
       <description>What is DNS? linkThe Domain Name System (DNS) acts as the Internet&amp;rsquo;s phonebook. Humans access information online using domain names like nytimes.com or espn.com, but web browsers communicate through Internet Protocol (IP) addresses. DNS translates these domain names into IP addresses, allowing browsers to load the correct internet resources. This eliminates the need for users to memorize complex IP addresses, such as 192.168.1.1 for IPv4 or 2400:cb00:2048:1::c629:d7a2 for IPv6.&#xA;How Does DNS Work?</description>
+    </item>
+    <item>
+      <title>Understanding a Reverse Proxy??</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/reverse_proxies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/reverse_proxies/</guid>
+      <description>A reverse proxy is a server that sits in front of web servers and forwards client requests to those web servers. Unlike a forward proxy, which sits in front of client machines and forwards client requests to the web servers, a reverse proxy serves as an intermediary for requests from clients seeking resources from one or more servers. It helps enhance security, performance, and reliability of the web services it supports.</description>
     </item>
     <item>
       <title>Understanding ACID Transactions in Database Systems</title>

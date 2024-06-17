@@ -9,17 +9,31 @@
     <atom:link href="http://localhost:1313/tutorials/docs/full-stack-projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Build a Text Summarizer using MERN</title>
-      <link>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/task_manager_using_react/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/task_manager_using_react/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Build a Text Summarizer using MERN</title>
       <link>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/text_summarizer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/text_summarizer/</guid>
       <description>The MERN stack, comprising MongoDB, Express, React, and Node.js, is a powerful combination for building full-stack web applications. In this article, we’ll walk you through the process of creating a Summarizer Website using the MERN stack.&#xA;1. Pre-requisites linkBefore we begin, ensure you have the following knowledge and tools:&#xA;Basic knowledge of JavaScript. Familiarity with the MERN Stack basics. Basic knowledge of API integration. Understanding of how to set up and use MongoDB with Mongoose.</description>
+    </item>
+    <item>
+      <title>Building a Note-Taking Application with Rust and React</title>
+      <link>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/note_taking_application_using_rust_and_react/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/note_taking_application_using_rust_and_react/</guid>
+      <description>In this tutorial, we&amp;rsquo;ll build a simple note-taking application using Rust for the backend and React for the frontend. Our Rust backend will handle note data and provide a RESTful API for the React frontend to interact with.&#xA;Prerequisites linkBefore we start, make sure you have the following installed:&#xA;Rust Node.js Cargo SQLite Create React App Backend: Rust with Actix-web and SQLite linkStep 1: Create a new Rust project linkOpen your terminal and create a new Rust project:</description>
+    </item>
+    <item>
+      <title>Building an Expense Tracker with Rust and React</title>
+      <link>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/expense_tracker_using_rust_react/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/expense_tracker_using_rust_react/</guid>
+      <description>In this tutorial, we&amp;rsquo;ll walk through creating a simple expense tracker application using Rust for the backend and React for the frontend. Our Rust backend will handle expense data and provide an API for the React frontend to interact with.&#xA;Prerequisites linkBefore we start, make sure you have the following installed:&#xA;Rust Node.js Cargo Create React App Backend: Rust with Actix-web linkFirst, let&amp;rsquo;s set up our Rust backend using Actix-web.</description>
+    </item>
+    <item>
+      <title>Creating a Simple Chat Application using Go and React</title>
+      <link>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/calorie_tracker_using_go_react/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/calorie_tracker_using_go_react/</guid>
+      <description>Sure! Let&amp;rsquo;s break down the provided Go code into a structured explanation for the backend of our calorie tracker application.&#xA;Backend: Go with Gin and MongoDB linkWe&amp;rsquo;ll use the Go programming language with the Gin framework for our backend. MongoDB will serve as our database to store calorie entries.&#xA;Step 1: Models linkThe models package defines the structure of our calorie entry data.&#xA;package models import ( &amp;#34;go.mongodb.org/mongo-driver/bson/primitive&amp;#34; ) // Entry represents a calorie entry in the database type Entry struct { ID primitive.</description>
     </item>
     <item>
       <title>Creating a Simple Chat Application using Go and React</title>
@@ -36,11 +50,25 @@
       <description>In this tutorial, we&amp;rsquo;ll build a web application that summarizes job descriptions using AI. We&amp;rsquo;ll use Streamlit for the frontend and OpenAI&amp;rsquo;s GPT model for generating the summaries. The application will take a job description as input and output a summarized version, highlighting the job title, responsibilities, and requirements.&#xA;1. Introduction linkWe&amp;rsquo;ll create a web application that uses OpenAI&amp;rsquo;s GPT model to summarize job descriptions. The summarizer will extract and categorize important information from the job description, such as the job title, responsibilities, and requirements, and provide insights on how to highlight these skills in a resume.</description>
     </item>
     <item>
+      <title>Progress Tracker using React and Local Storage</title>
+      <link>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/progres_checker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/progres_checker/</guid>
+      <description>Overview linkA Progress Tracker is a basic web application that lists tasks to be completed. Users can mark tasks as completed, and their progress is stored using the browser&amp;rsquo;s local storage. The application includes a progress bar to display overall progress.&#xA;Preview of Final Output link Technologies Used / Prerequisites link ReactJs Tailwind CSS JSX Functional Components in React React Hooks Local Storage Approach link Containers: Stateful React components (class-based). Components: Stateless React Components (function-based).</description>
+    </item>
+    <item>
       <title>Simple Password Validator using React &#43; Go</title>
       <link>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/password_validator/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/password_validator/</guid>
       <description>Building a Password Validation Tool with Go and React linkIn this blog post, we&amp;rsquo;ll walk you through creating a simple yet powerful password validation tool using Go for the backend and React for the frontend. This tutorial will cover everything from setting up the server, implementing password validation logic, and building a responsive client interface to test the password strength.&#xA;Table of Contents link Introduction Setting Up the Server Installing Dependencies Writing the main.</description>
+    </item>
+    <item>
+      <title>Task Manager using Django and React</title>
+      <link>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/task_manager_using_react/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/task_manager_using_react/</guid>
+      <description>In this tutorial, we will learn the process of communicating between the Django Backend and React js frontend using the Django REST Framework. For the sake of a better understanding of the concept, we will be building a Simple Task Manager and go through the primary concepts for this type of integration between React js and Django.&#xA;Project overview linkThis task manager application is a sort of to-do list. Here we will have three buttons as “Completed”, “Incomplete” and a button to add the task named “Add task”</description>
     </item>
   </channel>
 </rss>

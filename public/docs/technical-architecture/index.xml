@@ -8,11 +8,53 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/technical-architecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Client</title>
-      <link>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/</link>
+      <title>A Detailed Guide to Event-Driven Architecture</title>
+      <link>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/event_driven_architecture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/</guid>
-      <description>Starting here link</description>
+      <guid>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/event_driven_architecture/</guid>
+      <description>Event-Driven Architecture (EDA) has emerged as a powerful paradigm for building scalable, resilient, and responsive systems. This guide provides an in-depth look at EDA, its core concepts, benefits, and challenges, and offers practical advice for implementing it in your projects.&#xA;What is Event-Driven Architecture? linkEvent-Driven Architecture (EDA) is a design paradigm in which the flow of the program is determined by events such as user actions, sensor outputs, or messages from other programs.</description>
+    </item>
+    <item>
+      <title>Choosing the Right Technology Stack for Your Project</title>
+      <link>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/choosing_the_right_tech_stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/choosing_the_right_tech_stack/</guid>
+      <description>Selecting the appropriate technology stack is a crucial decision that can significantly impact the success and sustainability of a project. A technology stack is a combination of programming languages, frameworks, libraries, and tools used to develop and run an application. This post will guide you through the process of choosing the right technology stack by evaluating project requirements, exploring the pros and cons of popular technology stacks, and providing tips for making informed decisions.</description>
+    </item>
+    <item>
+      <title>Ensuring Security in Your Technical Architecture</title>
+      <link>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/ensuring_security_in_your_architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/ensuring_security_in_your_architecture/</guid>
+      <description>In today&amp;rsquo;s digital landscape, security is paramount when designing and implementing technical architectures. As technology advances, so do the threats and vulnerabilities that can compromise systems. This blog post aims to provide a comprehensive guide to incorporating robust security measures into your technical architecture. We will explore common threats, best practices for secure coding, and essential tools and frameworks to bolster your system&amp;rsquo;s defenses.&#xA;Common Security Threats link SQL Injection (SQLi):</description>
+    </item>
+    <item>
+      <title>Implementing CI/CD Pipelines for Seamless Deployment</title>
+      <link>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/ci_cd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/ci_cd/</guid>
+      <description>Continuous Integration and Continuous Deployment (CI/CD) are pivotal practices in modern software development, enabling teams to deliver code changes more frequently and reliably. CI/CD pipelines automate the process of code integration, testing, and deployment, fostering a culture of continuous improvement and rapid delivery. This post will discuss the importance of CI/CD in technical architecture and provide a step-by-step guide to setting up and maintaining CI/CD pipelines.&#xA;Benefits of CI/CD link1. Accelerated Development linkCI/CD pipelines enable developers to integrate and deploy code changes quickly and efficiently.</description>
+    </item>
+    <item>
+      <title>Introduction to Technical Architecture: Principles and Best Practices</title>
+      <link>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/introduction_to_technical_arch/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/introduction_to_technical_arch/</guid>
+      <description>In the rapidly evolving landscape of technology, having a robust technical architecture is crucial for the success of any software project. Technical architecture lays the foundation for how a system will be built, deployed, and maintained. This blog post aims to provide an overview of technical architecture, its significance, and the fundamental principles guiding effective architectural practices. We will also explore best practices and common pitfalls to avoid, ensuring that your projects are built on a solid architectural foundation.</description>
+    </item>
+    <item>
+      <title>Microservices vs. Monolithic Architecture: Which One to Choose?</title>
+      <link>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/microservice_vs_monolith/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/microservice_vs_monolith/</guid>
+      <description>Understanding the Differences Between Monolithic and Microservices Architecture linkIn today&amp;rsquo;s dynamic software development landscape, choosing the right architectural approach is crucial for creating scalable, maintainable, and efficient applications. Two prominent architectural styles are Monolithic and Microservices architecture. This post will delve into the key differences between these two approaches, examining their benefits, drawbacks, and ideal use cases.&#xA;Monolithic Architecture linkDefinition and Characteristics linkA monolithic architecture is a traditional software development model where all components of the application are interconnected and managed as a single unit.</description>
+    </item>
+    <item>
+      <title>The Role of Cloud Services in Modern Technical Architecture</title>
+      <link>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/the_role_of_cloud_services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/the_role_of_cloud_services/</guid>
+      <description>Cloud services have become a cornerstone of modern technical architecture. They provide the flexibility, scalability, and cost-efficiency that businesses need to stay competitive. This post will explore how cloud services can be integrated into technical architecture, the benefits they offer, and an overview of the major cloud providers.&#xA;Benefits of Cloud Computing link1. Flexibility and Agility linkCloud services offer unparalleled flexibility, allowing businesses to quickly adapt to changing demands. Whether it&amp;rsquo;s scaling resources up or down, deploying new applications, or experimenting with new technologies, the cloud provides the agility needed to respond to market dynamics efficiently.</description>
     </item>
   </channel>
 </rss>
