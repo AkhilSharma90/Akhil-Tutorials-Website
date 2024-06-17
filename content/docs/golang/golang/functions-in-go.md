@@ -112,6 +112,9 @@ In this example, `helloWorld` becomes a closure that contains both the function 
 
 Functions are a critical part of Go programming, providing you the ability to write modular, reusable, and maintainable code. Whether you are defining regular functions with clear names and purposes, handling multiple return types, or leveraging the power of anonymous functions and closures for flexibility and expressiveness, Go's functions are designed to meet your programming needs efficiently. As you continue to experiment with and explore functions, you'll find that they are indispensable tools in your Go programming toolkit.
 
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://app.gumroad.com/d/c8e54ac9bed47ffc6b46e5fe2786f99d)
+
 **Frequently Asked Questions:**
 
 **Q: What is the difference between parameters and arguments?**

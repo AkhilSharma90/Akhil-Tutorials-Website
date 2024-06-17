@@ -8,11 +8,39 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/full-stack-projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Full-Stack projects</title>
-      <link>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/</link>
+      <title>Build a Text Summarizer using MERN</title>
+      <link>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/task_manager_using_react/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/</guid>
-      <description>Starting here link</description>
+      <guid>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/task_manager_using_react/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Build a Text Summarizer using MERN</title>
+      <link>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/text_summarizer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/text_summarizer/</guid>
+      <description>The MERN stack, comprising MongoDB, Express, React, and Node.js, is a powerful combination for building full-stack web applications. In this article, we’ll walk you through the process of creating a Summarizer Website using the MERN stack.&#xA;1. Pre-requisites linkBefore we begin, ensure you have the following knowledge and tools:&#xA;Basic knowledge of JavaScript. Familiarity with the MERN Stack basics. Basic knowledge of API integration. Understanding of how to set up and use MongoDB with Mongoose.</description>
+    </item>
+    <item>
+      <title>Creating a Simple Chat Application using Go and React</title>
+      <link>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/chat_application_using_react_and_go/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/chat_application_using_react_and_go/</guid>
+      <description>Creating a Simple Chat Application with Go (Backend) linkIn this tutorial, we&amp;rsquo;ll walk through the process of building a simple chat application backend using Go. The backend will leverage WebSockets to allow real-time communication between clients. Here&amp;rsquo;s a detailed explanation of the provided code, covering the main components and concepts used.&#xA;Table of Contents link WebSocket Client Client Struct Message Struct Read Method WebSocket Pool Pool Struct NewPool Function Start Method WebSocket Upgrade Upgrade Function Main Application serveWS Function setupRoutes Function main Function 1.</description>
+    </item>
+    <item>
+      <title>Job Description Summarizer with Streamlit and OpenAI</title>
+      <link>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/creating_a_job_summarizer_using_streamlit_and_open_ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/creating_a_job_summarizer_using_streamlit_and_open_ai/</guid>
+      <description>In this tutorial, we&amp;rsquo;ll build a web application that summarizes job descriptions using AI. We&amp;rsquo;ll use Streamlit for the frontend and OpenAI&amp;rsquo;s GPT model for generating the summaries. The application will take a job description as input and output a summarized version, highlighting the job title, responsibilities, and requirements.&#xA;1. Introduction linkWe&amp;rsquo;ll create a web application that uses OpenAI&amp;rsquo;s GPT model to summarize job descriptions. The summarizer will extract and categorize important information from the job description, such as the job title, responsibilities, and requirements, and provide insights on how to highlight these skills in a resume.</description>
+    </item>
+    <item>
+      <title>Simple Password Validator using React &#43; Go</title>
+      <link>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/password_validator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/password_validator/</guid>
+      <description>Building a Password Validation Tool with Go and React linkIn this blog post, we&amp;rsquo;ll walk you through creating a simple yet powerful password validation tool using Go for the backend and React for the frontend. This tutorial will cover everything from setting up the server, implementing password validation logic, and building a responsive client interface to test the password strength.&#xA;Table of Contents link Introduction Setting Up the Server Installing Dependencies Writing the main.</description>
     </item>
   </channel>
 </rss>

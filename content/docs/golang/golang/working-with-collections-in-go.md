@@ -100,6 +100,9 @@ for index, runeValue := range "Go Lang" {
 
 Understanding how to work with collections in Go is crucial for effective programming, especially when dealing with large datasets or systems where performance and memory efficiency are critical. Arrays and slices provide you with options for ordered collections, while maps offer a powerful mechanism for associating keys with values. The `range` clause further enhances your ability to manage and manipulate these collections with ease and elegance.
 
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://app.gumroad.com/d/c8e54ac9bed47ffc6b46e5fe2786f99d)
+
 **Frequently Asked Questions:**
 
 **Q: How do I delete an element from a map?**

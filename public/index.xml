@@ -253,6 +253,20 @@
       <description>What is Solidity? linkSolidity is an object-oriented programming language influenced by C++, JavaScript, and Python. It is designed to be compiled into bytecode that runs on the Ethereum Virtual Machine (EVM), which is the runtime environment for Solidity code, similar to how a browser runs JavaScript code.&#xA;In essence, you write smart contract code in Solidity, and the compiler converts it into bytecode. This bytecode is then deployed and stored on Ethereum (and other EVM-compatible blockchains).</description>
     </item>
     <item>
+      <title>An Introduction to System Design</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/introduction_to_system_design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/introduction_to_system_design/</guid>
+      <description>What is Systems Design? linkSystems Design is the process of defining the architecture, components, modules, interfaces, and data for a system to satisfy specified requirements. It involves translating user requirements into a detailed blueprint that guides the implementation phase. The goal is to create a well-organized and efficient structure that meets the intended purpose while considering factors like scalability, maintainability, and performance.&#xA;Mastering Systems Design is crucial for anyone looking to build robust and scalable systems.</description>
+    </item>
+    <item>
+      <title>API Architecture: Design Best Practices for REST APIs</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/api_architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/api_architecture/</guid>
+      <description>Web services have existed as long as the HTTP protocol itself. However, with the advent of cloud computing, they have become the ubiquitous method for enabling client interaction with services and data.&#xA;As a developer, I’ve had the opportunity to work with various SOAP services. However, my primary focus has been on REST, a resource-based architectural style for developing APIs and web services. Throughout my career, I’ve been involved in numerous projects where I’ve built, designed, and utilized APIs.</description>
+    </item>
+    <item>
       <title>Applications and Advanced Numpy Concepts</title>
       <link>http://localhost:1313/tutorials/docs/numpy/numpy/advanced_numpy_concepts/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -316,11 +330,25 @@
       <description>Purchasing goods remotely currently requires multiple parties that need to trust each other. The simplest configuration involves a seller and a buyer. The buyer would like to receive an item from the seller, and the seller would like to get some compensation, e.g., Ether, in return. The problematic part is the shipment: There is no way to determine for sure that the item arrived at the buyer.&#xA;There are multiple ways to solve this problem, but all fall short in one way or another.</description>
     </item>
     <item>
+      <title>Build a Text Summarizer using MERN</title>
+      <link>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/text_summarizer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/text_summarizer/</guid>
+      <description>The MERN stack, comprising MongoDB, Express, React, and Node.js, is a powerful combination for building full-stack web applications. In this article, we’ll walk you through the process of creating a Summarizer Website using the MERN stack.&#xA;1. Pre-requisites linkBefore we begin, ensure you have the following knowledge and tools:&#xA;Basic knowledge of JavaScript. Familiarity with the MERN Stack basics. Basic knowledge of API integration. Understanding of how to set up and use MongoDB with Mongoose.</description>
+    </item>
+    <item>
       <title>Build a Voting Contract Using Solidity</title>
       <link>http://localhost:1313/tutorials/docs/solidity/solidity/build_a_voting_contract/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/solidity/solidity/build_a_voting_contract/</guid>
       <description>In this section, we&amp;rsquo;ll walk you through the process of building a smart contract for conducting secure and transparent voting on the Ethereum blockchain. We&amp;rsquo;ll explain each section of the code step-by-step to help you understand how it works. Note, this is not a full implementation and you can customize of for whatever usecase you want.&#xA;Introduction linkThis contract implements a voting contract. Of course, the main problems of electronic voting is how to assign voting rights to the correct persons and how to prevent manipulation.</description>
+    </item>
+    <item>
+      <title>Building a Note-Taking Application with Rust and React</title>
+      <link>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/note_taking_application_using_rust_and_react/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/note_taking_application_using_rust_and_react/</guid>
+      <description>In this tutorial, we&amp;rsquo;ll build a simple note-taking application using Rust for the backend and React for the frontend. Our Rust backend will handle note data and provide a RESTful API for the React frontend to interact with.&#xA;Prerequisites linkBefore we start, make sure you have the following installed:&#xA;Rust Node.js Cargo SQLite Create React App Backend: Rust with Actix-web and SQLite linkStep 1: Create a new Rust project linkOpen your terminal and create a new Rust project:</description>
     </item>
     <item>
       <title>Building a Real-World Application in Go</title>
@@ -342,6 +370,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/rust/rust/building_robust_cli_tool_rust/</guid>
       <description>Introduction linkCommand-line tools are vital for automation, system tasks, and quick data manipulation. Rust, with its focus on safety and performance, provides a compelling platform for building reliable and efficient CLI tools. This guide delves into the nuances of Rust CLI application development, offering insights into effective project structuring, advanced argument parsing, and robust error handling.&#xA;Structuring a CLI Project in Rust linkEffective project structure is crucial for maintainability and scalability.</description>
+    </item>
+    <item>
+      <title>Building an Expense Tracker with Rust and React</title>
+      <link>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/expense_tracker_using_rust_react/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/expense_tracker_using_rust_react/</guid>
+      <description>In this tutorial, we&amp;rsquo;ll walk through creating a simple expense tracker application using Rust for the backend and React for the frontend. Our Rust backend will handle expense data and provide an API for the React frontend to interact with.&#xA;Prerequisites linkBefore we start, make sure you have the following installed:&#xA;Rust Node.js Cargo Create React App Backend: Rust with Actix-web linkFirst, let&amp;rsquo;s set up our Rust backend using Actix-web.</description>
     </item>
     <item>
       <title>Building Microservices with Go</title>
@@ -484,6 +519,20 @@
       <description>Overview linkIn this section, we aim to create a Huff smart contract that takes a signature as input from the calldata, verifies if the message was signed by the sender of the transaction, and returns true if it was. If the message wasn&amp;rsquo;t signed by the sender or if the calldata doesn&amp;rsquo;t adhere to the expected structure, the contract will cause the transaction to run out of gas.&#xA;Solution linkHere’s the optimized solution for quick reference:</description>
     </item>
     <item>
+      <title>Creating a Simple Chat Application using Go and React</title>
+      <link>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/calorie_tracker_using_go_react/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/calorie_tracker_using_go_react/</guid>
+      <description>Sure! Let&amp;rsquo;s break down the provided Go code into a structured explanation for the backend of our calorie tracker application.&#xA;Backend: Go with Gin and MongoDB linkWe&amp;rsquo;ll use the Go programming language with the Gin framework for our backend. MongoDB will serve as our database to store calorie entries.&#xA;Step 1: Models linkThe models package defines the structure of our calorie entry data.&#xA;package models import ( &amp;#34;go.mongodb.org/mongo-driver/bson/primitive&amp;#34; ) // Entry represents a calorie entry in the database type Entry struct { ID primitive.</description>
+    </item>
+    <item>
+      <title>Creating a Simple Chat Application using Go and React</title>
+      <link>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/chat_application_using_react_and_go/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/chat_application_using_react_and_go/</guid>
+      <description>Creating a Simple Chat Application with Go (Backend) linkIn this tutorial, we&amp;rsquo;ll walk through the process of building a simple chat application backend using Go. The backend will leverage WebSockets to allow real-time communication between clients. Here&amp;rsquo;s a detailed explanation of the provided code, covering the main components and concepts used.&#xA;Table of Contents link WebSocket Client Client Struct Message Struct Read Method WebSocket Pool Pool Struct NewPool Function Start Method WebSocket Upgrade Upgrade Function Main Application serveWS Function setupRoutes Function main Function 1.</description>
+    </item>
+    <item>
       <title>Creating a Token With Huff</title>
       <link>http://localhost:1313/tutorials/docs/huff/huff/creating_a_token_in_huff/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -498,6 +547,13 @@
       <description>Understanding Data in Mojo link Data is essential in any programming language, including Mojo. It can be anything from numbers and text to complex types like images and audio files. These data are stored in variables, data structures, or files for computation and generating outputs. Examples of Data Declaration in Mojo: link name = &amp;quot;Vibs&amp;quot; (Using an emoji as a variable) x = 1 movie = &amp;quot;Hackerman.mp4&amp;quot; addresses = [&amp;quot;Malibu&amp;quot;, &amp;quot;Brooklyn&amp;quot;] zipcode = (&amp;quot;90265&amp;quot;, &amp;quot;11203&amp;quot;) print(x) Variables and Data Structures: link a = 1 print(&amp;#34;type of var a:&amp;#34;, type(a)) b = 1.</description>
     </item>
     <item>
+      <title>Database Sharding: Concepts and Examples</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/database_sharding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/database_sharding/</guid>
+      <description>Your application is growing. It has more active users, more features, and generates more data every day. Your database is now becoming a bottleneck for the rest of your application. Database sharding could be the solution to your problems, but many do not have a clear understanding of what it is and, especially, when to use it. In this article, we’ll cover the basics of database sharding, its best use cases, and the different ways you can implement it.</description>
+    </item>
+    <item>
       <title>Deep Dive into PyTorch: Autograd and Neural Networks</title>
       <link>http://localhost:1313/tutorials/docs/pytorch/pytorch/pytorch_and_neural_networks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -510,6 +566,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/pytorch/pytorch/tensors_in_pytorch/</guid>
       <description>Tensors are a specialized data structure that are very similar to arrays and matrices. In PyTorch, we use tensors to encode the inputs and outputs of a model, as well as the model’s parameters.&#xA;Tensors are similar to NumPy’s ndarrays, except that tensors can run on GPUs or other hardware accelerators. In fact, tensors and NumPy arrays can often share the same underlying memory, eliminating the need to copy data (see Bridge with NumPy).</description>
+    </item>
+    <item>
+      <title>Deep Dive into WebSockets</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/web_sockets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/web_sockets/</guid>
+      <description>WebSockets are a communication protocol that provides full-duplex communication channels over a single TCP connection, enabling real-time, event-driven communication between a client and a server. Unlike traditional HTTP, which follows a request-response model, WebSockets allow bi-directional communication. This means both the client and the server can send data to each other at any time without continuous polling.&#xA;Uses of WebSockets linkWebSockets are ideal for applications requiring instant updates, such as:</description>
     </item>
     <item>
       <title>Demystifying Python Decorators: Enhancing Functionality with Decorators</title>
@@ -729,13 +792,6 @@
       <description>This tool will read a text file and count the number of words in it. This project is straightforward and a great way to practice file handling and basic string manipulation in Elixir. You can further adjust this tool to your usecase, like creating your own editor that will have a word count.&#xA;Here&amp;rsquo;s an outline of what we&amp;rsquo;ll cover:&#xA;Overview linkWe&amp;rsquo;ll create a CLI tool named word_counter that reads a specified text file and counts the number of words in it.</description>
     </item>
     <item>
-      <title>Full-Stack projects</title>
-      <link>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/</guid>
-      <description>Starting here link</description>
-    </item>
-    <item>
       <title>Functional Programming in Scala</title>
       <link>http://localhost:1313/tutorials/docs/scala/scala/functional_programming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -881,6 +937,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/python/python/python_introduction/</guid>
       <description>Python is a high-level, interpreted programming language known for its simplicity and readability, which has made it one of the most popular languages in the world. Developed by Guido van Rossum and first released in 1991, Python&amp;rsquo;s design philosophy emphasizes code readability with its notable use of significant whitespace.&#xA;Why Use Python? link Ease of Learning and Use: Python&amp;rsquo;s straightforward syntax closely mirrors the human language, which reduces the complexity of programming tasks and makes it accessible to beginners.</description>
+    </item>
+    <item>
+      <title>Job Description Summarizer with Streamlit and OpenAI</title>
+      <link>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/creating_a_job_summarizer_using_streamlit_and_open_ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/creating_a_job_summarizer_using_streamlit_and_open_ai/</guid>
+      <description>In this tutorial, we&amp;rsquo;ll build a web application that summarizes job descriptions using AI. We&amp;rsquo;ll use Streamlit for the frontend and OpenAI&amp;rsquo;s GPT model for generating the summaries. The application will take a job description as input and output a summarized version, highlighting the job title, responsibilities, and requirements.&#xA;1. Introduction linkWe&amp;rsquo;ll create a web application that uses OpenAI&amp;rsquo;s GPT model to summarize job descriptions. The summarizer will extract and categorize important information from the job description, such as the job title, responsibilities, and requirements, and provide insights on how to highlight these skills in a resume.</description>
     </item>
     <item>
       <title>Learn About Advanced Features with Julia</title>
@@ -1128,6 +1191,13 @@
       <description>Macros in Nim are powerful tools that allow you to transform Nim&amp;rsquo;s abstract syntax tree (AST) at compile-time. This tutorial will guide you through the essential concepts and practical applications of Nim&amp;rsquo;s macro system.&#xA;What is a Macro? linkA macro in Nim is a function that executes at compile-time, transforming a Nim syntax tree into a different tree. This capability can be leveraged for various tasks, such as:&#xA;Enhanced Assertions: Implement an assert macro that prints both sides of a comparison if the assertion fails.</description>
     </item>
     <item>
+      <title>NoSQL vs. SQL Databases: A Comprehensive Overview</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/nosql_vs_sql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/nosql_vs_sql/</guid>
+      <description>TL;DR linkNoSQL databases, developed in the late 2000s, focus on scalability, fast queries, ease of application changes, and simpler programming for developers. In contrast, SQL databases, originating in the 1970s, aim to reduce data duplication and typically require expensive vertical scaling. SQL databases have rigid, complex schemas, while NoSQL databases offer flexible, schema-less structures.&#xA;If you’re not familiar with NoSQL databases or the different types, start here.&#xA;Overview linkThis article covers:</description>
+    </item>
+    <item>
       <title>NumPy Broadcasting</title>
       <link>http://localhost:1313/tutorials/docs/numpy/numpy/broadcasting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1219,6 +1289,13 @@
       <description>One application of Solidity is in decentralized finance (DeFi) and obtaining accurate and reliable price data is crucial for various operations such as asset valuation, trading, and lending. Chainlink, a decentralized oracle network, provides a solution to this problem by offering decentralized price oracles. In this section, we&amp;rsquo;ll explore a Solidity contract that interacts with a Chainlink price oracle to fetch the latest ETH/USD price.&#xA;Chainlink price oracles are decentralized services that provide tamper-resistant price data to smart contracts on the blockchain.</description>
     </item>
     <item>
+      <title>Progress Tracker using React and Local Storage</title>
+      <link>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/progres_checker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/progres_checker/</guid>
+      <description>Overview linkA Progress Tracker is a basic web application that lists tasks to be completed. Users can mark tasks as completed, and their progress is stored using the browser&amp;rsquo;s local storage. The application includes a progress bar to display overall progress.&#xA;Preview of Final Output link Technologies Used / Prerequisites link ReactJs Tailwind CSS JSX Functional Components in React React Hooks Local Storage Approach link Containers: Stateful React components (class-based). Components: Stateless React Components (function-based).</description>
+    </item>
+    <item>
       <title>Python Modules and Packages: Importing Essentials and Exploring Standard Libraries</title>
       <link>http://localhost:1313/tutorials/docs/python/python/python_modules_and_packages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1266,6 +1343,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/htmx/htmx/security_in_htmx/</guid>
       <description>htmx allows you to define logic directly in your DOM. This has a number of advantages, the largest being Locality of Behavior, which makes your system easier to understand and maintain.&#xA;A concern with this approach, however, is security: since htmx increases the expressiveness of HTML, if a malicious user is able to inject HTML into your application, they can leverage this expressiveness of htmx to malicious ends.&#xA;Rule 1: Escape All User Content linkThe first rule of HTML-based web development has always been: do not trust input from the user.</description>
+    </item>
+    <item>
+      <title>Simple Password Validator using React &#43; Go</title>
+      <link>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/password_validator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/password_validator/</guid>
+      <description>Building a Password Validation Tool with Go and React linkIn this blog post, we&amp;rsquo;ll walk you through creating a simple yet powerful password validation tool using Go for the backend and React for the frontend. This tutorial will cover everything from setting up the server, implementing password validation logic, and building a responsive client interface to test the password strength.&#xA;Table of Contents link Introduction Setting Up the Server Installing Dependencies Writing the main.</description>
     </item>
     <item>
       <title>Simple state management with agents</title>
@@ -1317,18 +1401,18 @@
       <description>Introduction linkRust&amp;rsquo;s module system and its ecosystem of crates are instrumental in managing large codebases and reusing code effectively. This post explores how to structure Rust projects using modules and how to enhance functionality by utilizing external crates.&#xA;Organizing Code with Modules linkModules in Rust are a powerful feature for organizing code within a library or application. They help in encapsulating functionality, improving readability, managing scope, and facilitating code reuse.</description>
     </item>
     <item>
-      <title>System design</title>
-      <link>http://localhost:1313/tutorials/docs/system-design/system-design/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/</guid>
-      <description>Starting here link</description>
-    </item>
-    <item>
       <title>System Programming in Zig</title>
       <link>http://localhost:1313/tutorials/docs/zig/zig/system_programming_using_zig/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/zig/zig/system_programming_using_zig/</guid>
       <description>System programming with Zig involves tasks such as interacting with hardware, writing device drivers, and working with low-level APIs. Zig&amp;rsquo;s focus on safety, performance, and simplicity makes it well-suited for system programming tasks. In this tutorial, we&amp;rsquo;ll explore how Zig can be used for system programming, covering topics such as low-level memory management, interacting with hardware, and writing platform-specific code.&#xA;Low-Level Memory Management linkOne of the core aspects of system programming is managing memory efficiently.</description>
+    </item>
+    <item>
+      <title>Task Manager using Django and React</title>
+      <link>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/task_manager_using_react/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/full-stack-projects/full-stack-projects/task_manager_using_react/</guid>
+      <description>In this tutorial, we will learn the process of communicating between the Django Backend and React js frontend using the Django REST Framework. For the sake of a better understanding of the concept, we will be building a Simple Task Manager and go through the primary concepts for this type of integration between React js and Django.&#xA;Project overview linkThis task manager application is a sort of to-do list. Here we will have three buttons as “Completed”, “Incomplete” and a button to add the task named “Add task”</description>
     </item>
     <item>
       <title>Testing and Deploying Huff Contracts</title>
@@ -1343,6 +1427,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/elixir/elixir/testing_with_elixir/</guid>
       <description>Testing is a crucial aspect of software development that ensures code reliability and correctness. Elixir provides a powerful testing framework, ExUnit, which comes with a rich set of features for writing and running tests. This tutorial will cover the basics of ExUnit, writing test cases, using mocks and stubs, and property-based testing with StreamData.&#xA;Introduction to ExUnit linkExUnit is Elixir&amp;rsquo;s built-in test framework, providing a comprehensive suite of tools to write and execute tests.</description>
+    </item>
+    <item>
+      <title>The Difference Between TCP and UDP</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/tcp_vs_udp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/tcp_vs_udp/</guid>
+      <description>The internet is a vast network of data transfers happening all the time. These transfers are governed by two main protocols: TCP and UDP. Each one has its strengths and weaknesses, making them suitable for different situations.&#xA;What are Protocols?&#xA;Protocols are basically the rules that dictate how data is formatted and sent over a network. TCP and UDP are two different ways to achieve the same goal: transferring data online.</description>
+    </item>
+    <item>
+      <title>The Domain Name System</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/domain_name_system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/domain_name_system/</guid>
+      <description>What is DNS? linkThe Domain Name System (DNS) acts as the Internet&amp;rsquo;s phonebook. Humans access information online using domain names like nytimes.com or espn.com, but web browsers communicate through Internet Protocol (IP) addresses. DNS translates these domain names into IP addresses, allowing browsers to load the correct internet resources. This eliminates the need for users to memorize complex IP addresses, such as 192.168.1.1 for IPv4 or 2400:cb00:2048:1::c629:d7a2 for IPv6.&#xA;How Does DNS Work?</description>
     </item>
     <item>
       <title>The Elm Architecture</title>
@@ -1385,6 +1483,20 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/solidity/solidity/understanding_application_binary_interface/</guid>
       <description>What is a Smart Contract ABI linkThe ABI, or “Application Binary Interface,” of a smart contract defines the standard way to interact with contracts in the Ethereum ecosystem. It allows both humans and machines to interact with contracts on the blockchain, facilitating both user-to-contract and contract-to-contract interactions.&#xA;In this section, you&amp;rsquo;ll learn what a smart contract ABI is and how to obtain it for interaction purposes.&#xA;What does an ABI look like?</description>
+    </item>
+    <item>
+      <title>Understanding a Reverse Proxy??</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/reverse_proxies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/reverse_proxies/</guid>
+      <description>A reverse proxy is a server that sits in front of web servers and forwards client requests to those web servers. Unlike a forward proxy, which sits in front of client machines and forwards client requests to the web servers, a reverse proxy serves as an intermediary for requests from clients seeking resources from one or more servers. It helps enhance security, performance, and reliability of the web services it supports.</description>
+    </item>
+    <item>
+      <title>Understanding ACID Transactions in Database Systems</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/acid_transactions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/acid_transactions/</guid>
+      <description>In the realm of databases and data management, transactions play a pivotal role in ensuring data integrity and reliability. Whether you&amp;rsquo;re withdrawing money from a bank account or updating customer records in an e-commerce platform, transactions ensure that operations are executed in a dependable and secure manner. Central to the concept of transactions are the ACID properties — Atomicity, Consistency, Isolation, and Durability.&#xA;What is a Transaction? linkA transaction refers to a sequence of operations performed as a single logical unit of work.</description>
     </item>
     <item>
       <title>Understanding and Using Unsafe Rust</title>
@@ -1443,6 +1555,13 @@
       <description>Introduction:&#xA;Welcome to another insightful dive into Go programming! Today, we&amp;rsquo;re focusing on two crucial components of Go that provide the foundation for building well-structured and scalable applications: structs and interfaces. Structs allow you to create data types that group related data, making your programs more organized and manageable. Interfaces, on the other hand, define sets of methods that specify behavior, fostering flexible and modular coding practices. Let’s delve into the advanced usage of these features and explore how they can be applied to elevate your Go projects.</description>
     </item>
     <item>
+      <title>Understanding the Difference Between Throughput and Latency in Network Performance</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/throughput_vs_latency/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/throughput_vs_latency/</guid>
+      <description>Latency and throughput are two crucial metrics that measure the performance of a computer network. Both are essential for determining how well a network can handle data transfer and user requests, but they focus on different aspects of network performance.&#xA;What is Latency? linkLatency refers to the delay in network communication. It measures the time it takes for data to travel from the source to the destination across the network. Networks with longer delays or lag have high latency, while those with faster response times have lower latency.</description>
+    </item>
+    <item>
       <title>Understanding Type Classes and Polymorphism in Haskell</title>
       <link>http://localhost:1313/tutorials/docs/haskell/haskell/type-classes-and-polymorphism-in-haskell/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1455,6 +1574,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/rust/rust/async_programming_rust/</guid>
       <description>Introduction linkAsynchronous programming is a paradigm that allows programs to perform non-blocking operations, thereby improving throughput and responsiveness. Rust&amp;rsquo;s support for asynchronous programming is robust, using the async/await syntax alongside powerful features of its type system to ensure safe and efficient execution. This post explores these features, providing a comprehensive guide to mastering asynchronous programming in Rust.&#xA;Async/Await Syntax linkRust&amp;rsquo;s async/await syntax provides a convenient way to write asynchronous code that is both easy to read and maintain.</description>
+    </item>
+    <item>
+      <title>Using Database Indexes for Improved Performance</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/database_indexes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/database_indexes/</guid>
+      <description>In database management, optimizing performance is often a critical concern. One powerful tool at your disposal is the use of indexes. Indexes are database structures that significantly enhance the speed and efficiency of data retrieval operations by providing quick access paths to data. Let&amp;rsquo;s delve deeper into how indexes work, their types, best practices for usage, and considerations for optimal performance.&#xA;Understanding Indexes linkAn index in a database is akin to the index of a book, allowing the database engine to quickly locate specific data without scanning the entire table.</description>
     </item>
     <item>
       <title>Using Databases in Go</title>
@@ -1511,6 +1637,27 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/htmx/htmx/web_socket_and_sse/</guid>
       <description>htmx has experimental support for declarative use of both WebSockets and Server Sent Events.&#xA;Note: In htmx 2.0, these features will be migrated to extensions. These new extensions are already available in htmx 1.7+ and, if you are writing new code, you are encouraged to use the extensions instead. All new feature work for both SSE and web sockets will be done in the extensions.&#xA;WebSockets linkIf you wish to establish a WebSocket connection in htmx, you use the hx-ws attribute:</description>
+    </item>
+    <item>
+      <title>What Is an API Gateway?</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/api_gateway/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/api_gateway/</guid>
+      <description>An API gateway is a server that acts as an intermediary between clients and a collection of backend services. It accepts API requests from a client, processes them based on defined policies, routes them to the appropriate services, and aggregates the responses to provide a simplified user experience. An API gateway typically handles requests by invoking multiple microservices and combining their results. It can also translate between protocols in legacy deployments, making it versatile in various architectural setups.</description>
+    </item>
+    <item>
+      <title>What is Caching?</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/caching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/caching/</guid>
+      <description>Caching is a high-speed data storage layer that stores a subset of data, typically transient in nature, to serve future requests for that data more quickly than accessing the primary storage location. This allows for efficient reuse of previously retrieved or computed data, significantly enhancing data retrieval performance.&#xA;How Does Caching Work? linkData in a cache is generally stored in fast-access hardware such as Random-access memory (RAM) and may also work in conjunction with software components.</description>
+    </item>
+    <item>
+      <title>What is Load Balancing?</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/load_balancing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/load_balancing/</guid>
+      <description>Load balancing is a method used to distribute network traffic across multiple servers, ensuring that no single server bears too much demand. This technique is crucial for modern applications that must handle millions of users simultaneously, delivering text, videos, images, and other data reliably and swiftly. Load balancers act as intermediaries, distributing incoming traffic evenly among servers to optimize resource use and enhance performance.&#xA;Benefits of Load Balancing linkLoad balancing offers several key benefits, improving application availability, scalability, security, and performance.</description>
     </item>
     <item>
       <title>Windowing Operations in Pandas</title>

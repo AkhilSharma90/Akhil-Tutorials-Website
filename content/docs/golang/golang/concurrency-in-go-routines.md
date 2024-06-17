@@ -84,6 +84,9 @@ fmt.Println(<-ch)
 
 Goroutines are a cornerstone of concurrent programming in Go, allowing developers to create applications that are highly responsive and efficient. By understanding how to properly manage and synchronize goroutines, you can take full advantage of their potential to improve the performance of your Go applications. Remember, concurrency is not just about making things faster; it's about designing smarter, more robust applications.
 
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://app.gumroad.com/d/c8e54ac9bed47ffc6b46e5fe2786f99d)
+
 **Frequently Asked Questions:**
 
 **Q: How many goroutines can I start?**

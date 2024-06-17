@@ -69,6 +69,9 @@ Congratulations! You’ve just set up your Go development environment and writte
 
 Stay tuned for more tutorials that will help you advance your Go programming skills and tackle more complex projects!
 
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://app.gumroad.com/d/c8e54ac9bed47ffc6b46e5fe2786f99d)
+
 **Frequently Asked Questions:**
 
 **Q: How do I manage Go packages?**

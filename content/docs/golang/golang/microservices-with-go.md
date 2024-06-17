@@ -69,6 +69,9 @@ Implement robust monitoring and logging to track the health and performance of y
 
 Building microservices with Go offers a powerful way to construct reliable, efficient, and independently scalable software components. By following the guidelines outlined in this blog—from design and deployment to scaling and monitoring—you can harness the full potential of Go to develop superior microservices that stand the test of scale and complexity.
 
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://app.gumroad.com/d/c8e54ac9bed47ffc6b46e5fe2786f99d)
+
 **Frequently Asked Questions:**
 
 **Q: How many microservices should a Go application have?**

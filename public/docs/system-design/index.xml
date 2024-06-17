@@ -8,11 +8,88 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/system-design/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>System design</title>
-      <link>http://localhost:1313/tutorials/docs/system-design/system-design/</link>
+      <title> Understanding a Reverse Proxy??</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/reverse_proxies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/</guid>
-      <description>Starting here link</description>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/reverse_proxies/</guid>
+      <description>A reverse proxy is a server that sits in front of web servers and forwards client requests to those web servers. Unlike a forward proxy, which sits in front of client machines and forwards client requests to the web servers, a reverse proxy serves as an intermediary for requests from clients seeking resources from one or more servers. It helps enhance security, performance, and reliability of the web services it supports.</description>
+    </item>
+    <item>
+      <title>An Introduction to System Design</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/introduction_to_system_design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/introduction_to_system_design/</guid>
+      <description>What is Systems Design? linkSystems Design is the process of defining the architecture, components, modules, interfaces, and data for a system to satisfy specified requirements. It involves translating user requirements into a detailed blueprint that guides the implementation phase. The goal is to create a well-organized and efficient structure that meets the intended purpose while considering factors like scalability, maintainability, and performance.&#xA;Mastering Systems Design is crucial for anyone looking to build robust and scalable systems.</description>
+    </item>
+    <item>
+      <title>API Architecture: Design Best Practices for REST APIs</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/api_architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/api_architecture/</guid>
+      <description>Web services have existed as long as the HTTP protocol itself. However, with the advent of cloud computing, they have become the ubiquitous method for enabling client interaction with services and data.&#xA;As a developer, I’ve had the opportunity to work with various SOAP services. However, my primary focus has been on REST, a resource-based architectural style for developing APIs and web services. Throughout my career, I’ve been involved in numerous projects where I’ve built, designed, and utilized APIs.</description>
+    </item>
+    <item>
+      <title>Deep Dive into WebSockets</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/web_sockets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/web_sockets/</guid>
+      <description>WebSockets are a communication protocol that provides full-duplex communication channels over a single TCP connection, enabling real-time, event-driven communication between a client and a server. Unlike traditional HTTP, which follows a request-response model, WebSockets allow bi-directional communication. This means both the client and the server can send data to each other at any time without continuous polling.&#xA;Uses of WebSockets linkWebSockets are ideal for applications requiring instant updates, such as:</description>
+    </item>
+    <item>
+      <title>NoSQL vs. SQL Databases: A Comprehensive Overview</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/nosql_vs_sql/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/nosql_vs_sql/</guid>
+      <description>TL;DR linkNoSQL databases, developed in the late 2000s, focus on scalability, fast queries, ease of application changes, and simpler programming for developers. In contrast, SQL databases, originating in the 1970s, aim to reduce data duplication and typically require expensive vertical scaling. SQL databases have rigid, complex schemas, while NoSQL databases offer flexible, schema-less structures.&#xA;If you’re not familiar with NoSQL databases or the different types, start here.&#xA;Overview linkThis article covers:</description>
+    </item>
+    <item>
+      <title>The Domain Name System</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/domain_name_system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/domain_name_system/</guid>
+      <description>What is DNS? linkThe Domain Name System (DNS) acts as the Internet&amp;rsquo;s phonebook. Humans access information online using domain names like nytimes.com or espn.com, but web browsers communicate through Internet Protocol (IP) addresses. DNS translates these domain names into IP addresses, allowing browsers to load the correct internet resources. This eliminates the need for users to memorize complex IP addresses, such as 192.168.1.1 for IPv4 or 2400:cb00:2048:1::c629:d7a2 for IPv6.&#xA;How Does DNS Work?</description>
+    </item>
+    <item>
+      <title>Understanding ACID Transactions in Database Systems</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/acid_transactions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/acid_transactions/</guid>
+      <description>In the realm of databases and data management, transactions play a pivotal role in ensuring data integrity and reliability. Whether you&amp;rsquo;re withdrawing money from a bank account or updating customer records in an e-commerce platform, transactions ensure that operations are executed in a dependable and secure manner. Central to the concept of transactions are the ACID properties — Atomicity, Consistency, Isolation, and Durability.&#xA;What is a Transaction? linkA transaction refers to a sequence of operations performed as a single logical unit of work.</description>
+    </item>
+    <item>
+      <title>Understanding the Difference Between Throughput and Latency in Network Performance</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/throughput_vs_latency/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/throughput_vs_latency/</guid>
+      <description>Latency and throughput are two crucial metrics that measure the performance of a computer network. Both are essential for determining how well a network can handle data transfer and user requests, but they focus on different aspects of network performance.&#xA;What is Latency? linkLatency refers to the delay in network communication. It measures the time it takes for data to travel from the source to the destination across the network. Networks with longer delays or lag have high latency, while those with faster response times have lower latency.</description>
+    </item>
+    <item>
+      <title>Using Database Indexes for Improved Performance</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/database_indexes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/database_indexes/</guid>
+      <description>In database management, optimizing performance is often a critical concern. One powerful tool at your disposal is the use of indexes. Indexes are database structures that significantly enhance the speed and efficiency of data retrieval operations by providing quick access paths to data. Let&amp;rsquo;s delve deeper into how indexes work, their types, best practices for usage, and considerations for optimal performance.&#xA;Understanding Indexes linkAn index in a database is akin to the index of a book, allowing the database engine to quickly locate specific data without scanning the entire table.</description>
+    </item>
+    <item>
+      <title>What Is an API Gateway?</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/api_gateway/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/api_gateway/</guid>
+      <description>An API gateway is a server that acts as an intermediary between clients and a collection of backend services. It accepts API requests from a client, processes them based on defined policies, routes them to the appropriate services, and aggregates the responses to provide a simplified user experience. An API gateway typically handles requests by invoking multiple microservices and combining their results. It can also translate between protocols in legacy deployments, making it versatile in various architectural setups.</description>
+    </item>
+    <item>
+      <title>What is Caching?</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/caching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/caching/</guid>
+      <description>Caching is a high-speed data storage layer that stores a subset of data, typically transient in nature, to serve future requests for that data more quickly than accessing the primary storage location. This allows for efficient reuse of previously retrieved or computed data, significantly enhancing data retrieval performance.&#xA;How Does Caching Work? linkData in a cache is generally stored in fast-access hardware such as Random-access memory (RAM) and may also work in conjunction with software components.</description>
+    </item>
+    <item>
+      <title>What is Load Balancing?</title>
+      <link>http://localhost:1313/tutorials/docs/system-design/system-design/load_balancing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/system-design/system-design/load_balancing/</guid>
+      <description>Load balancing is a method used to distribute network traffic across multiple servers, ensuring that no single server bears too much demand. This technique is crucial for modern applications that must handle millions of users simultaneously, delivering text, videos, images, and other data reliably and swiftly. Load balancers act as intermediaries, distributing incoming traffic evenly among servers to optimize resource use and enhance performance.&#xA;Benefits of Load Balancing linkLoad balancing offers several key benefits, improving application availability, scalability, security, and performance.</description>
     </item>
   </channel>
 </rss>
