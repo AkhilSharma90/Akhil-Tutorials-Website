@@ -429,11 +429,6 @@
                                     
                                         
                                         
-                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/tutorials/docs/golang/golang/building-real-world-application-go/">Building a Real-World Application in Go</a></li>
-                                        
-                                    
-                                        
-                                        
                                             <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/tutorials/docs/golang/golang/microservices-with-go/">Building Microservices with Go</a></li>
                                         
                                     
@@ -1604,7 +1599,7 @@
                                     
                                         
                                         
-                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/event_driven_architecture/">A Detailed Guide to Event-Driven Architecture</a></li>
+                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/introduction_to_technical_arch/">A Getting Started guide to Technical Architecture: Principles and Best Practices</a></li>
                                         
                                     
                                         
@@ -1619,12 +1614,12 @@
                                     
                                         
                                         
-                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/ci_cd/">Implementing CI/CD Pipelines for Seamless Deployment</a></li>
+                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/event_driven_architecture/">Event-Driven Architecture</a></li>
                                         
                                     
                                         
                                         
-                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/introduction_to_technical_arch/">Introduction to Technical Architecture: Principles and Best Practices</a></li>
+                                            <li class=" "><a class="sidebar-nested-link" href="http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/ci_cd/">Implementing CI/CD Pipelines for Seamless Deployment</a></li>
                                         
                                     
                                         
@@ -4172,13 +4167,6 @@ impl Drop for CResourceHandle {
     
     
     
-    
-    
-    
-    
-    
-    
-    
 
 
     
@@ -4305,19 +4293,19 @@ impl Drop for CResourceHandle {
     index.add(
             {
                 id:  13 ,
-                href: "\/tutorials\/docs\/technical-architecture\/technical-architecture\/event_driven_architecture\/",
-                title: "A Detailed Guide to Event-Driven Architecture",
-                description: "Event-Driven Architecture (EDA) has emerged as a powerful paradigm for building scalable, resilient, and responsive systems. This guide provides an in-depth look at EDA, its core concepts, benefits, and challenges, and offers practical advice for implementing it in your projects.\nWhat is Event-Driven Architecture? linkEvent-Driven Architecture (EDA) is a design paradigm in which the flow of the program is determined by events such as user actions, sensor outputs, or messages from other programs.",
-                content: "Event-Driven Architecture (EDA) has emerged as a powerful paradigm for building scalable, resilient, and responsive systems. This guide provides an in-depth look at EDA, its core concepts, benefits, and challenges, and offers practical advice for implementing it in your projects.\nWhat is Event-Driven Architecture? linkEvent-Driven Architecture (EDA) is a design paradigm in which the flow of the program is determined by events such as user actions, sensor outputs, or messages from other programs. An event can be defined as any significant change in state. EDA decouples event producers from event consumers, which allows for more flexible and scalable system designs.\nCore Components of EDA link Events: Signals that a significant action or change has occurred. Event Producers: Components that generate events. Event Consumers: Components that react to events. Event Channel: The medium through which events are transmitted from producers to consumers. Event Broker: A system component that routes events from producers to the appropriate consumers. Event Types link Simple Events: Indicate a change in state without additional context. Complex Events: Combine multiple events or add context to provide more comprehensive information. Benefits of Event-Driven Architecture link1. Scalability linkEDA supports horizontal scaling by decoupling services, allowing each component to scale independently based on demand. This is especially beneficial in systems with varying load patterns.\n2. Resilience linkDecoupling services reduces the risk of a single point of failure. If one component fails, others can continue to operate, enhancing the overall system resilience.\n3. Responsiveness linkEDA enables real-time processing and immediate reactions to events, making systems more responsive to user actions and external triggers.\n4. Flexibility linkComponents in an event-driven system can be developed, deployed, and maintained independently. This flexibility supports continuous integration and continuous deployment (CI/CD) practices.\n5. Easier Integration linkEDA facilitates the integration of heterogeneous systems and technologies, allowing for easier expansion and modification of the system.\nChallenges of Event-Driven Architecture link1. Complexity linkDesigning and managing an event-driven system can be complex. Developers need to handle event routing, ordering, and potential event loss.\n2. Debugging and Monitoring linkDebugging event-driven systems is more challenging compared to traditional architectures due to the asynchronous nature of events. Monitoring tools are essential for tracking event flows and diagnosing issues.\n3. Consistency linkMaintaining data consistency across distributed components can be difficult. Developers must implement strategies for eventual consistency and handle conflicts gracefully.\n4. Latency linkThe time taken for an event to travel from the producer to the consumer can introduce latency. Optimizing event routing and processing is critical to minimize delays.\nKey Concepts in Event-Driven Architecture link1. Event Streaming linkEvent streaming involves continuously capturing and storing events as they occur, enabling real-time data processing and analytics. Technologies like Apache Kafka and Amazon Kinesis are popular choices for event streaming.\n2. Event Sourcing linkEvent sourcing is a design pattern where state changes are logged as a series of events. This approach provides a complete audit trail and allows for the reconstruction of past states by replaying events.\n3. Command Query Responsibility Segregation (CQRS) linkCQRS separates the read and write operations of a system. Commands change the state and are handled asynchronously, while queries read the state. This separation optimizes performance and scalability.\n4. Publish-Subscribe Pattern linkIn a publish-subscribe (pub/sub) model, event producers (publishers) send events to an intermediary (event broker), which then routes the events to the appropriate consumers (subscribers). This pattern decouples producers and consumers, enhancing scalability and flexibility.\nImplementing Event-Driven Architecture linkStep 1: Define Events linkIdentify the key events that your system needs to respond to. Clearly define the structure and payload of each event.\nStep 2: Choose an Event Broker linkSelect an event broker that suits your system’s needs. Popular choices include:\nApache Kafka: Ideal for high-throughput and low-latency event streaming. RabbitMQ: Suitable for reliable message queuing and routing. Amazon SNS/SQS: Managed services that simplify event-driven architectures in the cloud. Step 3: Design Event Producers and Consumers linkDevelop components that generate and handle events. Ensure that each component is loosely coupled and can operate independently.\nStep 4: Implement Event Channels linkEstablish reliable channels for transmitting events. Ensure that the channels can handle the expected load and provide necessary guarantees (e.g., at-least-once delivery).\nStep 5: Handle Event Processing linkDesign your event consumers to process events efficiently. Consider using frameworks like Apache Flink or AWS Lambda for real-time event processing.\nStep 6: Ensure Data Consistency linkImplement strategies for maintaining data consistency. This may involve using distributed transactions, eventual consistency models, or compensating actions.\nStep 7: Monitor and Debug linkDeploy monitoring and logging tools to track event flows and diagnose issues. Tools like ELK Stack (Elasticsearch, Logstash, Kibana), Prometheus, and Grafana can provide valuable insights.\nStep 8: Test Thoroughly linkPerform extensive testing to ensure that your event-driven system behaves as expected. Simulate different load patterns and failure scenarios to identify potential issues.\nUse Cases and Examples linkReal-Time Analytics linkEDA is well-suited for real-time analytics applications, such as monitoring social media feeds, tracking user behavior on websites, and analyzing sensor data from IoT devices.\nE-commerce Systems linkIn e-commerce, EDA can handle events like order placements, inventory updates, and payment processing. This enables real-time updates and improves the responsiveness of the system.\nMicroservices Architectures linkEDA complements microservices by providing a robust mechanism for inter-service communication. Each microservice can publish and subscribe to events, facilitating a decoupled and scalable architecture.\nFinancial Services linkFinancial institutions use EDA for real-time fraud detection, transaction processing, and market data analysis. Events are processed in real-time to identify and respond to suspicious activities.\nConclusion linkEvent-Driven Architecture offers a powerful approach to building scalable, resilient, and responsive systems. By decoupling components and leveraging real-time event processing, EDA enables organizations to build flexible and adaptable software solutions. While implementing EDA comes with its own set of challenges, careful planning, and the right tools can help you harness its full potential. Whether you are building a real-time analytics platform, an e-commerce system, or a microservices-based application, EDA provides the foundation for creating robust and scalable architectures.\n"
+                href: "\/tutorials\/docs\/mojo\/mojo\/introduction_to_mojo\/",
+                title: "A Getting Started Guide to Mojo",
+                description: "Mojo Lang description",
+                content: "Background link Common Perception: Python is often labeled as a slow and merely a scripting language. Frustration with Misconception: The belief that Python’s performance issues stem from the language itself, rather than how the code is written. Choosing Mojo: The Main Reason link Modular | Mojo as a Bridge: Mojo combines Python’s ease of use with advanced programming capabilities. It’s tailored for both research and production environments. Systems Programming Language: Designed for heterogeneous computing, Mojo excels in handling different processors like CPUs, GPUs, FPGAs, and NPUs. Versatility and Control: As an AI Application Research Engineer, the author values complete control over the entire process - from research to deployment, without needing extensive hardware knowledge or multiple tools. Key Takeaway link Mojo is not just about enhancing speed; it’s about offering a comprehensive solution that balances ease of use with sophisticated programming capabilities for diverse computing environments. Getting Started linkInitial Setup link Download Mojo SDK: Essential for running Mojo code. Includes the “Mojo CLI” (Command Line Interface), a versatile tool for executing Mojo code and other tasks. Provides a REPL (Read-Eval-Print Loop) environment for interactive coding. Learning and Development Environment link Using REPL: Ideal for beginners, similar to a basic calculator, great for practicing small code snippets. Advancing with Mojo: Organize code into Mojo files, modules, and packages. Use Visual Studio Code (VSCode) for a more structured coding environment. Leverage a Mojo extension for VSCode offering features like auto-completion and quick fixes. Installation on Different Operating Systems link Compatibility: Currently, Mojo SDK is only compatible with Ubuntu \u0026 MacOS. Windows users can utilize WSL (Windows Subsystem for Linux) container. Installation Steps: For Linux or MacOS: curl https://get.modular.com | MODULAR_AUTH=mut_e982ece66e6949d593f64xxxx sh - modular install mojo Setting Environment Variables: Add MODULAR_HOME and PATH to .bashrc or .zsh files as suggested during installation. Updating Mojo SDK link Run the following commands: sudo apt-get update sudo apt-get install modular modular clean modular install mojo Visual Studio Code Extension link Download the VSCode extension for an enhanced Mojo coding experience. Mojo Playground link Access the Mojo environment in a browser via the Mojo playground link. Running Mojo Code linkUsing REPL link Start REPL by typing mojo. Example: mojo # Type your code here Mojo Source File link Create a file (e.g., hello.mojo) and write your Mojo code. Example: fn main(): print(\"Hello, world!\") Executing Code link Run a Mojo file: mojo hello.mojo Build an executable: mojo build hello.mojo Run the executable: ./hello Mojo CLI Usage link Basic Commands: Check version: mojo --version or mojo -v Get help: mojo --help or mojo -h Run a file: mojo run ./hello.mojo Build a file: mojo build ./hello.mojo Launch REPL: mojo repl Other commands include debug, package, format, doc, and demangle. "
             }
         );
     index.add(
             {
                 id:  14 ,
-                href: "\/tutorials\/docs\/mojo\/mojo\/introduction_to_mojo\/",
-                title: "A Getting Started Guide to Mojo",
-                description: "Mojo Lang description",
-                content: "Background link Common Perception: Python is often labeled as a slow and merely a scripting language. Frustration with Misconception: The belief that Python’s performance issues stem from the language itself, rather than how the code is written. Choosing Mojo: The Main Reason link Modular | Mojo as a Bridge: Mojo combines Python’s ease of use with advanced programming capabilities. It’s tailored for both research and production environments. Systems Programming Language: Designed for heterogeneous computing, Mojo excels in handling different processors like CPUs, GPUs, FPGAs, and NPUs. Versatility and Control: As an AI Application Research Engineer, the author values complete control over the entire process - from research to deployment, without needing extensive hardware knowledge or multiple tools. Key Takeaway link Mojo is not just about enhancing speed; it’s about offering a comprehensive solution that balances ease of use with sophisticated programming capabilities for diverse computing environments. Getting Started linkInitial Setup link Download Mojo SDK: Essential for running Mojo code. Includes the “Mojo CLI” (Command Line Interface), a versatile tool for executing Mojo code and other tasks. Provides a REPL (Read-Eval-Print Loop) environment for interactive coding. Learning and Development Environment link Using REPL: Ideal for beginners, similar to a basic calculator, great for practicing small code snippets. Advancing with Mojo: Organize code into Mojo files, modules, and packages. Use Visual Studio Code (VSCode) for a more structured coding environment. Leverage a Mojo extension for VSCode offering features like auto-completion and quick fixes. Installation on Different Operating Systems link Compatibility: Currently, Mojo SDK is only compatible with Ubuntu \u0026 MacOS. Windows users can utilize WSL (Windows Subsystem for Linux) container. Installation Steps: For Linux or MacOS: curl https://get.modular.com | MODULAR_AUTH=mut_e982ece66e6949d593f64xxxx sh - modular install mojo Setting Environment Variables: Add MODULAR_HOME and PATH to .bashrc or .zsh files as suggested during installation. Updating Mojo SDK link Run the following commands: sudo apt-get update sudo apt-get install modular modular clean modular install mojo Visual Studio Code Extension link Download the VSCode extension for an enhanced Mojo coding experience. Mojo Playground link Access the Mojo environment in a browser via the Mojo playground link. Running Mojo Code linkUsing REPL link Start REPL by typing mojo. Example: mojo # Type your code here Mojo Source File link Create a file (e.g., hello.mojo) and write your Mojo code. Example: fn main(): print(\"Hello, world!\") Executing Code link Run a Mojo file: mojo hello.mojo Build an executable: mojo build hello.mojo Run the executable: ./hello Mojo CLI Usage link Basic Commands: Check version: mojo --version or mojo -v Get help: mojo --help or mojo -h Run a file: mojo run ./hello.mojo Build a file: mojo build ./hello.mojo Launch REPL: mojo repl Other commands include debug, package, format, doc, and demangle. "
+                href: "\/tutorials\/docs\/technical-architecture\/technical-architecture\/introduction_to_technical_arch\/",
+                title: "A Getting Started guide to Technical Architecture: Principles and Best Practices",
+                description: "In the rapidly evolving landscape of technology, having a robust technical architecture is crucial for the success of any software project. Technical architecture lays the foundation for how a system will be built, deployed, and maintained. This blog post aims to provide an overview of technical architecture, its significance, and the fundamental principles guiding effective architectural practices. We will also explore best practices and common pitfalls to avoid, ensuring that your projects are built on a solid architectural foundation.",
+                content: "In the rapidly evolving landscape of technology, having a robust technical architecture is crucial for the success of any software project. Technical architecture lays the foundation for how a system will be built, deployed, and maintained. This blog post aims to provide an overview of technical architecture, its significance, and the fundamental principles guiding effective architectural practices. We will also explore best practices and common pitfalls to avoid, ensuring that your projects are built on a solid architectural foundation.\nDefinition and Scope of Technical Architecture linkWhat is Technical Architecture? linkTechnical architecture refers to the structured framework used to conceptualize, design, and manage the components of a system. It encompasses the hardware, software, data, and networking components that interact to fulfill the system’s objectives. Technical architecture serves as a blueprint that guides the development, deployment, and maintenance of technology solutions.\nScope of Technical Architecture linkThe scope of technical architecture includes:\nHardware and Infrastructure: Physical servers, cloud services, and networking equipment. Software Components: Operating systems, middleware, applications, and utilities. Data Management: Databases, data warehouses, and data lakes. Networking: Protocols, topologies, and communication mechanisms. Security: Measures to protect data and systems from threats and vulnerabilities. Core Principles of Technical Architecture linkTo build effective and resilient systems, certain core principles must be adhered to. These principles ensure that the architecture can meet current and future needs.\n1. Scalability linkScalability refers to the system’s ability to handle growth, whether in terms of users, data volume, or transaction load. A scalable architecture can expand efficiently without compromising performance or stability.\nKey Practices:\nModular Design: Break down the system into manageable, independent modules. Load Balancing: Distribute workloads evenly across multiple servers. Elasticity: Utilize cloud services that can automatically scale resources up or down. 2. Performance linkPerformance is critical for user satisfaction and operational efficiency. It involves optimizing the system to ensure fast response times and minimal downtime.\nKey Practices:\nCaching: Store frequently accessed data in fast-access storage. Efficient Algorithms: Implement algorithms and data structures that minimize processing time. Resource Optimization: Ensure optimal use of CPU, memory, and storage. 3. Security linkSecurity involves protecting the system from unauthorized access and ensuring data integrity and confidentiality.\nKey Practices:\nAuthentication and Authorization: Implement strong user authentication and access control mechanisms. Encryption: Encrypt data in transit and at rest. Regular Audits: Conduct security audits and vulnerability assessments. 4. Maintainability linkMaintainability ensures that the system can be easily updated, fixed, and improved over time without excessive cost or effort.\nKey Practices:\nClear Documentation: Maintain comprehensive and up-to-date documentation. Modular Code: Write modular, clean, and well-commented code. Automated Testing: Implement continuous integration and automated testing to detect issues early. Best Practices in Technical Architecture linkAdopting a Layered Architecture linkLayered architecture divides the system into distinct layers, each responsible for specific aspects of the application. Common layers include presentation, business logic, data access, and infrastructure.\nUsing Design Patterns linkDesign patterns are proven solutions to common problems in software design. Patterns like Model-View-Controller (MVC), Singleton, and Factory can help create robust and maintainable systems.\nEmphasizing Documentation linkComprehensive documentation is vital for knowledge transfer and future maintenance. It should cover system design, data flow, interfaces, and dependencies.\nRegular Code Reviews linkConducting regular code reviews helps maintain code quality, ensures adherence to standards, and fosters knowledge sharing among team members.\nImplementing Continuous Integration and Continuous Deployment (CI/CD) linkCI/CD pipelines automate the process of testing, building, and deploying applications, leading to faster and more reliable releases.\nCommon Pitfalls to Avoid linkOver-Engineering linkAvoid the temptation to over-engineer solutions. Complex architectures can become difficult to manage and maintain. Strive for simplicity and only introduce complexity when absolutely necessary.\nIgnoring Non-Functional Requirements linkNon-functional requirements like performance, security, and maintainability are just as important as functional requirements. Neglecting them can lead to systems that are difficult to scale, insecure, or costly to maintain.\nLack of Proper Testing linkInadequate testing can result in undetected bugs and vulnerabilities. Implement a robust testing strategy that includes unit tests, integration tests, and end-to-end tests.\nPoor Documentation linkFailing to document the architecture can lead to misunderstandings and difficulties in future maintenance. Ensure that all aspects of the system are well-documented and accessible.\nConclusion linkTechnical architecture is the backbone of any successful software system. By adhering to core principles like scalability, performance, security, and maintainability, and by following best practices, you can design architectures that are robust, efficient, and easy to maintain. Avoiding common pitfalls and continuously refining your approach will ensure that your systems can meet both current and future demands.\nInvesting time and effort into creating a solid technical architecture upfront will pay off in the long run, resulting in systems that are resilient, scalable, and aligned with business objectives.\n"
             }
         );
     index.add(
@@ -4647,15 +4635,6 @@ impl Drop for CResourceHandle {
     index.add(
             {
                 id:  51 ,
-                href: "\/tutorials\/docs\/golang\/golang\/building-real-world-application-go\/",
-                title: "Building a Real-World Application in Go",
-                description: "Learn how to plan, design, implement, test, and deploy a real-world application using Go. This guide covers practical tips for logging, configuration, and versioning to enhance your Go projects.",
-                content: ""
-            }
-        );
-    index.add(
-            {
-                id:  52 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/building-real-world-haskell-application\/",
                 title: "Building a Real-World Haskell Application",
                 description: "Learn how to design, implement, test, and deploy a real-world Haskell application. This comprehensive guide includes practical examples, complete code, and tips for incorporating CI/CD.",
@@ -4664,7 +4643,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  53 ,
+                id:  52 ,
                 href: "\/tutorials\/docs\/rust\/rust\/building_robust_cli_tool_rust\/",
                 title: "Building a Robust CLI Tool with Rust",
                 description: "Learn how to build a powerful and user-friendly CLI tool in Rust with this comprehensive guide. Dive into structuring a CLI project, parsing command-line arguments, and managing input effectively. This post is filled with technical insights, practical coding examples, and best practices to help you develop sophisticated CLI applications in Rust.",
@@ -4673,7 +4652,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  54 ,
+                id:  53 ,
                 href: "\/tutorials\/docs\/full-stack-projects\/full-stack-projects\/expense_tracker_using_rust_react\/",
                 title: "Building an Expense Tracker with Rust and React",
                 description: "How to install and use libraries",
@@ -4682,7 +4661,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  55 ,
+                id:  54 ,
                 href: "\/tutorials\/docs\/golang\/golang\/microservices-with-go\/",
                 title: "Building Microservices with Go",
                 description: "Explore how to design, deploy, and scale microservices using Go. This comprehensive guide covers the best practices for developing high-performance microservices architectures in Go.",
@@ -4691,7 +4670,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  56 ,
+                id:  55 ,
                 href: "\/tutorials\/docs\/htmx\/htmx\/caching\/",
                 title: "Caching",
                 description: "Learn about what HTMX is and how you can use it.",
@@ -4700,7 +4679,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  57 ,
+                id:  56 ,
                 href: "\/tutorials\/docs\/nim\/nim\/channels_in_nim\/",
                 title: "Channels in Nim",
                 description: "Nim Lang description",
@@ -4709,7 +4688,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  58 ,
+                id:  57 ,
                 href: "\/tutorials\/docs\/cheatsheets\/",
                 title: "Cheatsheets",
                 description: "Making life easy...",
@@ -4718,7 +4697,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  59 ,
+                id:  58 ,
                 href: "\/tutorials\/docs\/technical-architecture\/technical-architecture\/choosing_the_right_tech_stack\/",
                 title: "Choosing the Right Technology Stack for Your Project",
                 description: "Selecting the appropriate technology stack is a crucial decision that can significantly impact the success and sustainability of a project. A technology stack is a combination of programming languages, frameworks, libraries, and tools used to develop and run an application. This post will guide you through the process of choosing the right technology stack by evaluating project requirements, exploring the pros and cons of popular technology stacks, and providing tips for making informed decisions.",
@@ -4727,7 +4706,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  60 ,
+                id:  59 ,
                 href: "\/tutorials\/docs\/elixir\/elixir\/client_server_communication_with_gen_server\/",
                 title: "Client-server communication with GenServer",
                 description: "In simple state management tutorial, we used agents to represent our buckets. In the introduction to mix, we specified we would like to name each bucket so we can do the following:\nCREATE shopping OK PUT shopping milk 1 OK GET shopping milk 1 OK In the session above we interacted with the “shopping” bucket.\nSince agents are processes, each bucket has a process identifier (PID), but buckets do not have a name.",
@@ -4736,7 +4715,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  61 ,
+                id:  60 ,
                 href: "\/tutorials\/docs\/python\/python\/python_testing\/",
                 title: "Comprehensive Guide to Testing in Python: Unit Tests and Mocking Techniques",
                 description: "Dive into Python testing methodologies with a thorough look at unit testing using the unittest framework and mocking objects with unittest.mock. Learn how to build robust tests and simulate complex scenarios to ensure your code performs reliably.",
@@ -4745,7 +4724,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  62 ,
+                id:  61 ,
                 href: "\/tutorials\/docs\/erlang\/erlang\/concurrency_and_process\/",
                 title: "Concurrency and Process Management in Erlang",
                 description: "An in-depth look at how Erlang handles concurrency and process management.",
@@ -4754,7 +4733,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  63 ,
+                id:  62 ,
                 href: "\/tutorials\/docs\/elixir\/elixir\/04_concurrency_in_elixir_with_otp\/",
                 title: "Concurrency in Elixir with OTP",
                 description: "Learn more about concurrency in Elixir with OTP",
@@ -4763,7 +4742,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  64 ,
+                id:  63 ,
                 href: "\/tutorials\/docs\/nim\/nim\/concurrency_in_nim\/",
                 title: "Concurrency in Nim",
                 description: "Nim Lang description",
@@ -4772,7 +4751,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  65 ,
+                id:  64 ,
                 href: "\/tutorials\/docs\/zig\/zig\/concurrency_in_zig\/",
                 title: "Concurrency in Zig",
                 description: "Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.",
@@ -4781,7 +4760,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  66 ,
+                id:  65 ,
                 href: "\/tutorials\/docs\/erlang\/erlang\/databases_in_erlang\/",
                 title: "Connecting to SQL Databases Using Erlang's ODBC Library",
                 description: "Prerequisites linkBefore connecting to a Microsoft SQL Server database, ensure the following:\nYou have created a database TESTDB. You have created a table EMPLOYEE in TESTDB with fields FIRST_NAME, LAST_NAME, AGE, SEX, and INCOME. User ID testuser and password test123 are set to access TESTDB. An ODBC DSN named usersqlserver has been created, which connects to the database. Establishing a Database Connection linkTo establish a connection to the database, use the following code example:",
@@ -4790,7 +4769,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  67 ,
+                id:  66 ,
                 href: "\/tutorials\/docs\/nim\/nim\/containers\/",
                 title: "Containers and Procedures in Nim",
                 description: "Nim Lang description",
@@ -4799,7 +4778,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  68 ,
+                id:  67 ,
                 href: "\/tutorials\/docs\/nim\/nim\/control_flow\/",
                 title: "Control flow in Nim",
                 description: "Part of our programs require control flow and we are going to be looking into that concept in this section.",
@@ -4808,7 +4787,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  69 ,
+                id:  68 ,
                 href: "\/tutorials\/docs\/rust\/rust\/control_flow_in_rust\/",
                 title: "Control Flow in Rust",
                 description: "Explore the essentials of Rust's control flow, including conditional statements, loops, and iterators, to master directing program execution and handling complex logic efficiently.",
@@ -4817,7 +4796,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  70 ,
+                id:  69 ,
                 href: "\/tutorials\/docs\/rust\/rust\/rust_ownership\/",
                 title: "Control Flow in Rust",
                 description: "Explore the fundamental principles of Rust's ownership model in this detailed post, covering the mechanics of ownership transfer, borrowing, and the crucial rules that ensure memory safety and efficient resource management.",
@@ -4826,7 +4805,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  71 ,
+                id:  70 ,
                 href: "\/tutorials\/docs\/elm\/elm\/core_concepts\/",
                 title: "Core Concepts in Elm",
                 description: "Understanding the foundational concepts that make Elm robust and functional.",
@@ -4835,7 +4814,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  72 ,
+                id:  71 ,
                 href: "\/tutorials\/docs\/ocaml\/ocaml\/core_concepts_in_ocaml\/",
                 title: "Core Concepts in OCaml",
                 description: "OCaml is a multi-paradigm programming language, an extension of the Caml language, and a member of the ML (Meta Language) family.",
@@ -4844,7 +4823,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  73 ,
+                id:  72 ,
                 href: "\/tutorials\/docs\/elm\/elm\/building_forms_and_handling_user_input\/",
                 title: "Create a Simple Registration Form",
                 description: "Learn how to create interactive forms and handle user input in Elm.",
@@ -4853,7 +4832,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  74 ,
+                id:  73 ,
                 href: "\/tutorials\/docs\/elixir\/elixir\/02_creating_a_simple_web_server\/",
                 title: "Create A Simple Web Server using Elixir",
                 description: "We are going to be creating a simple web server using elixir and cowboy",
@@ -4862,7 +4841,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  75 ,
+                id:  74 ,
                 href: "\/tutorials\/docs\/huff\/huff\/signature_verification_huff_contract\/",
                 title: "Creating a Huff Contract for Signature Verification",
                 description: "Huff is a domain-specific, low-level programming language designed explicitly for writing smart contracts on the Ethereum blockchain.",
@@ -4871,7 +4850,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  76 ,
+                id:  75 ,
                 href: "\/tutorials\/docs\/full-stack-projects\/full-stack-projects\/calorie_tracker_using_go_react\/",
                 title: "Creating a Simple Chat Application using Go and React",
                 description: "How to install and use libraries",
@@ -4880,7 +4859,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  77 ,
+                id:  76 ,
                 href: "\/tutorials\/docs\/full-stack-projects\/full-stack-projects\/chat_application_using_react_and_go\/",
                 title: "Creating a Simple Chat Application using Go and React",
                 description: "How to install and use libraries",
@@ -4889,7 +4868,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  78 ,
+                id:  77 ,
                 href: "\/tutorials\/docs\/huff\/huff\/creating_a_token_in_huff\/",
                 title: "Creating a Token With Huff",
                 description: "Huff is a domain-specific, low-level programming language designed explicitly for writing smart contracts on the Ethereum blockchain.",
@@ -4898,7 +4877,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  79 ,
+                id:  78 ,
                 href: "\/tutorials\/docs\/mojo\/mojo\/data_types_variables_operators\/",
                 title: "Data Types, Variables, and Operators in Mojo",
                 description: "Mojo Lang description",
@@ -4907,7 +4886,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  80 ,
+                id:  79 ,
                 href: "\/tutorials\/docs\/system-design\/system-design\/database_sharding\/",
                 title: "Database Sharding: Concepts and Examples",
                 description: "If you are looking to grow in you tech career and understand system design indepth, this guide is for you.",
@@ -4916,7 +4895,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  81 ,
+                id:  80 ,
                 href: "\/tutorials\/docs\/pytorch\/pytorch\/pytorch_and_neural_networks\/",
                 title: "Deep Dive into PyTorch: Autograd and Neural Networks",
                 description: "Exploring Autograd and Neural Networks in PyTorch.",
@@ -4925,7 +4904,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  82 ,
+                id:  81 ,
                 href: "\/tutorials\/docs\/pytorch\/pytorch\/tensors_in_pytorch\/",
                 title: "Deep Dive into Tensors",
                 description: "A comprehensive introduction to PyTorch for deep learning.",
@@ -4934,7 +4913,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  83 ,
+                id:  82 ,
                 href: "\/tutorials\/docs\/system-design\/system-design\/web_sockets\/",
                 title: "Deep Dive into WebSockets",
                 description: "If you are looking to grow in you tech career and understand system design indepth, this guide is for you.",
@@ -4943,7 +4922,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  84 ,
+                id:  83 ,
                 href: "\/tutorials\/docs\/python\/python\/python_decorators\/",
                 title: "Demystifying Python Decorators: Enhancing Functionality with Decorators",
                 description: "Unlock the power of decorators in Python to modify and enhance the functionality of functions and methods dynamically. This guide delves into the principles of decorators and shows you how to create them with practical, real-world examples.",
@@ -4952,7 +4931,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  85 ,
+                id:  84 ,
                 href: "\/tutorials\/docs\/keras\/keras\/deploying_keras_models\/",
                 title: "Deploying Keras Models",
                 description: "Deploying a model is key in ensuring that other people can use it",
@@ -4961,7 +4940,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  86 ,
+                id:  85 ,
                 href: "\/tutorials\/docs\/pytorch\/pytorch\/deploying_pytorch_in_python\/",
                 title: "Deploying PyTorch in Python via a REST API with Flask",
                 description: "A comprehensive introduction to PyTorch for deep learning.",
@@ -4970,7 +4949,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  87 ,
+                id:  86 ,
                 href: "\/tutorials\/docs\/erlang\/erlang\/distributed_programming_in_erlang\/",
                 title: "Distributed Programming",
                 description: "Distributed programming involves writing programs designed to run on networks of computers, coordinating their activities through message passing. Erlang is well-suited for distributed programming due to its built-in support for creating and managing distributed systems.\nWhy Write Distributed Applications? linkThere are several reasons to write distributed applications:\nPerformance linkBy running different parts of a program in parallel on different machines, we can significantly improve performance.\nReliability linkWe can achieve fault tolerance by distributing the system across multiple machines.",
@@ -4979,7 +4958,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  88 ,
+                id:  87 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/diving-deeper-into-haskell-functions\/",
                 title: "Diving Deeper into Haskell Functions",
                 description: "Explore the advanced functionalities of Haskell functions including pure functions, higher-order functions like map, filter, and fold, and the concepts of currying and partial application.",
@@ -4988,7 +4967,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  89 ,
+                id:  88 ,
                 href: "\/tutorials\/docs\/zig\/zig\/dsa_zig\/",
                 title: "DSA using Zig",
                 description: "Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.",
@@ -4997,7 +4976,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  90 ,
+                id:  89 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/error-handling-in-haskell\/",
                 title: "Effective Error Handling in Haskell",
                 description: "Explore the sophisticated error handling techniques in Haskell, including the use of types like Either and monads for managing errors, and learn best practices for building robust Haskell applications.",
@@ -5006,7 +4985,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  91 ,
+                id:  90 ,
                 href: "\/tutorials\/docs\/python\/python\/python_error_handling\/",
                 title: "Effective Error Handling in Python: Try-Except Blocks and Finally Clause",
                 description: "Learn how to robustly handle errors in Python using try-except blocks and the finally clause. This guide explains the mechanisms behind Python's error handling, with detailed examples to help you write more reliable code.",
@@ -5015,7 +4994,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  92 ,
+                id:  91 ,
                 href: "\/tutorials\/docs\/solidity\/solidity\/effective_error_handling_in_solidity\/",
                 title: "Effective error handling in Solidity",
                 description: "Learn how to handle errors effectively in solidity using keywords like Require, Revert and Assert.",
@@ -5024,7 +5003,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  93 ,
+                id:  92 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/testing-and-debugging-in-haskell\/",
                 title: "Effective Testing and Debugging in Haskell",
                 description: "Master the art of testing and debugging Haskell code with this detailed guide. Learn how to write unit tests using HUnit and QuickCheck, debug effectively, and optimize performance.",
@@ -5033,7 +5012,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  94 ,
+                id:  93 ,
                 href: "\/tutorials\/docs\/rust\/rust\/effective_testing_strategies_rust\/",
                 title: "Effective Testing Strategies in Rust",
                 description: "Master the art of testing in Rust with this comprehensive guide on writing unit tests, managing integration tests, and organizing test suites. Packed with technical details, practical examples, and best practices, this post will help you ensure robustness and reliability in your Rust applications through effective testing methodologies.",
@@ -5042,7 +5021,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  95 ,
+                id:  94 ,
                 href: "\/tutorials\/docs\/python\/python\/python_file_handling\/",
                 title: "Efficient File Handling in Python: Reading, Writing, and Path Management",
                 description: "Master file handling techniques in Python with this detailed guide. Learn how to read from and write to files effectively and manage file paths to handle data smoothly in your applications.",
@@ -5051,7 +5030,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  96 ,
+                id:  95 ,
                 href: "\/tutorials\/docs\/golang\/golang\/packages-and-dependency-management-in-go\/",
                 title: "Efficient Go Programming",
                 description: "Learn how to organize your Go code with packages, manage dependencies with Go modules, and publish your own packages for the Go community.",
@@ -5060,7 +5039,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  97 ,
+                id:  96 ,
                 href: "\/tutorials\/docs\/elixir\/",
                 title: "Elixir",
                 description: "Elixir is a process-oriented, functional programming language that runs on the Erlang virtual machine (BEAM). The language was influenced by Ruby. This inspiration can be seen and felt in Elixir’s ecosystem and tooling options. Elixir is known to be easy to learn and widely applicable within the software development industry.",
@@ -5069,7 +5048,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  98 ,
+                id:  97 ,
                 href: "\/tutorials\/docs\/elm\/",
                 title: "Elm",
                 description: "Elm is a delightful language for reliable web applications. It compiles to JavaScript, but it's much more than just a language; it's a framework for making web development more robust and pleasant.",
@@ -5078,7 +5057,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  99 ,
+                id:  98 ,
                 href: "\/tutorials\/docs\/technical-architecture\/technical-architecture\/ensuring_security_in_your_architecture\/",
                 title: "Ensuring Security in Your Technical Architecture",
                 description: "In today’s digital landscape, security is paramount when designing and implementing technical architectures. As technology advances, so do the threats and vulnerabilities that can compromise systems. This blog post aims to provide a comprehensive guide to incorporating robust security measures into your technical architecture. We will explore common threats, best practices for secure coding, and essential tools and frameworks to bolster your system’s defenses.\nCommon Security Threats link SQL Injection (SQLi):",
@@ -5087,7 +5066,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  100 ,
+                id:  99 ,
                 href: "\/tutorials\/docs\/erlang\/",
                 title: "Erlang",
                 description: "Erlang was created by Ericsson's Computer Science Lab in 1986 for handling large-scale telecommunications projects. Its development was driven by the need for a robust system capable of managing numerous concurrent activities with high levels of fault tolerance.",
@@ -5096,7 +5075,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  101 ,
+                id:  100 ,
                 href: "\/tutorials\/docs\/elm\/elm\/error_handling_in_elm\/",
                 title: "Error Handling in Elm",
                 description: "Handling HTTP requests and JSON data in Elm.",
@@ -5105,7 +5084,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  102 ,
+                id:  101 ,
                 href: "\/tutorials\/docs\/ocaml\/ocaml\/error_handling_in_ocaml\/",
                 title: "Error Handling in OCaml",
                 description: "OCaml is a multi-paradigm programming language, an extension of the Caml language, and a member of the ML (Meta Language) family.",
@@ -5114,7 +5093,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  103 ,
+                id:  102 ,
                 href: "\/tutorials\/docs\/zig\/zig\/error_handling_in_zig\/",
                 title: "Error Handling in Zig",
                 description: "Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.",
@@ -5123,7 +5102,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  104 ,
+                id:  103 ,
                 href: "\/tutorials\/docs\/solidity\/solidity\/essential_gas_optimization\/",
                 title: "Essential Gas Optimization Techniques in Solidity",
                 description: "Gas optimization is key in smart contract and will prevent your protocols from becoming very expensive to make requests since gas prices would be very high.",
@@ -5132,11 +5111,20 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  105 ,
+                id:  104 ,
                 href: "\/tutorials\/docs\/python\/python\/python_for_machine_learning\/",
                 title: "Essentials of Python for Machine Learning: Libraries, Concepts, and Model Building",
                 description: "Embark on your machine learning journey with Python. This guide covers key libraries like NumPy, Pandas, Matplotlib, and Scikit-Learn, introduces fundamental machine learning concepts, and walks you through building a basic model to kickstart your machine learning projects.",
                 content: "Introduction linkPython, with its rich ecosystem and accessible syntax, has become the go-to language for many machine learning practitioners. This section will provide an in-depth exploration of Python’s most important machine learning libraries, introduce fundamental concepts, and demonstrate model implementation.\nIn-Depth Libraries Overview linkNumPy linkNumPy is essential for numerical computing in Python. It provides efficient storage and operations for large n-dimensional arrays, which are the backbone of data manipulation and scientific computing in Python.\nimport numpy as np # Create an array with NumPy data = np.array([[1, 2], [3, 4], [5, 6]]) print(\"Original Array:\\n\", data) # Basic operations data_transposed = data.T print(\"Transposed Array:\\n\", data_transposed) # Matrix multiplication data_product = np.dot(data, data_transposed) print(\"Matrix Product:\\n\", data_product) NumPy arrays provide significantly more efficient storage and data operations than Python lists, especially as data grows.\nPandas linkPandas is built on NumPy and makes manipulating tabular data easy. It introduces two key data structures: DataFrame and Series, which allow for robust data manipulation and analysis.\nimport pandas as pd # Creating a DataFrame from a dictionary df = pd.DataFrame({ 'A': range(1, 5), 'B': pd.Timestamp('20230101'), 'C': pd.Series(1, index=list(range(4)), dtype='float32'), 'D': np.array([3] * 4, dtype='int32'), 'E': pd.Categorical([\"test\", \"train\", \"test\", \"train\"]), 'F': 'foo' }) print(\"DataFrame:\\n\", df) # Data selection and filtering print(\"Select column A:\\n\", df['A']) print(\"Filter rows where D \u003e 2:\\n\", df[df['D'] \u003e 2]) Pandas is particularly useful for data cleaning, transformation, and analysis.\nMatplotlib linkMatplotlib is the primary plotting library in Python. It provides tools for making static, interactive, and animated visualizations in Python.\nimport matplotlib.pyplot as plt import numpy as np # Data for plotting t = np.arange(0.0, 2.0, 0.01) s = 1 + np.sin(2 * np.pi * t) fig, ax = plt.subplots() ax.plot(t, s) ax.set(xlabel='time (s)', ylabel='voltage (mV)', title='Simple Plot') ax.grid() plt.show() Effective visualization with Matplotlib helps in understanding data and in conveying precise insights about the data.\nScikit-Learn linkScikit-Learn simplifies machine learning with Python. It includes support for numerous algorithms and utilities for creating and assessing models.\nfrom sklearn import datasets from sklearn.model_selection import train_test_split from sklearn.linear_model import LinearRegression from sklearn.metrics import mean_squared_error # Load the diabetes dataset diabetes = datasets.load_diabetes() # Split data into training and test sets X_train, X_test, y_train, y_test = train_test_split(diabetes.data, diabetes.target, test_size=0.2) # Create linear regression object regr = LinearRegression() # Train the model regr.fit(X_train, y_train) # Make predictions diabetes_y_pred = regr.predict(X_test) # The mean squared error print('Mean squared error: %.2f' % mean_squared_error(y_test, diabetes_y_pred)) Scikit-Learn’s functionality covers a wide range of machine learning tasks from preprocessing data to evaluating models.\nFundamental Machine Learning Concepts linkMachine learning can be broadly categorized into several types:\nSupervised Learning: Models predict outputs based on input data. Example tasks include regression and classification. Unsupervised Learning: Models identify structure from input data, like clustering and association. Reinforcement Learning: Models make sequences of decisions by learning policies based on observed rewards. Building a Machine Learning Model linkHere’s a\nstep-by-step guide to building a logistic regression model using Scikit-Learn, a common model for binary classification.\nfrom sklearn.model_selection import train_test_split from sklearn.datasets import load_iris from sklearn.linear_model import LogisticRegression from sklearn.metrics import accuracy_score # Load data iris = load_iris() X, y = iris.data, iris.target # Split the data into training and testing sets X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42) # Initialize the model model = LogisticRegression(max_iter=200) # Train the model model.fit(X_train, y_train) # Make predictions predictions = model.predict(X_test) # Evaluate the model print(\"Model Accuracy:\", accuracy_score(y_test, predictions)) This example illustrates how to train and evaluate a logistic regression model, which is commonly used for predicting categorical outcomes.\nConclusion linkThis extensive guide has covered essential Python libraries for machine learning, fundamental machine learning concepts, and a detailed walkthrough of building a logistic regression model. These components provide a solid foundation for diving into more advanced machine learning techniques and applications in Python.\n"
+            }
+        );
+    index.add(
+            {
+                id:  105 ,
+                href: "\/tutorials\/docs\/technical-architecture\/technical-architecture\/event_driven_architecture\/",
+                title: "Event-Driven Architecture",
+                description: "Event-Driven Architecture (EDA) has emerged as a powerful paradigm for building scalable, resilient, and responsive systems. This guide provides an in-depth look at EDA, its core concepts, benefits, and challenges, and offers practical advice for implementing it in your projects.\nWhat is Event-Driven Architecture? linkEvent-Driven Architecture (EDA) is a design paradigm in which the flow of the program is determined by events such as user actions, sensor outputs, or messages from other programs.",
+                content: "Event-Driven Architecture (EDA) has emerged as a powerful paradigm for building scalable, resilient, and responsive systems. This guide provides an in-depth look at EDA, its core concepts, benefits, and challenges, and offers practical advice for implementing it in your projects.\nWhat is Event-Driven Architecture? linkEvent-Driven Architecture (EDA) is a design paradigm in which the flow of the program is determined by events such as user actions, sensor outputs, or messages from other programs. An event can be defined as any significant change in state. EDA decouples event producers from event consumers, which allows for more flexible and scalable system designs.\nCore Components of EDA link Events: Signals that a significant action or change has occurred. Event Producers: Components that generate events. Event Consumers: Components that react to events. Event Channel: The medium through which events are transmitted from producers to consumers. Event Broker: A system component that routes events from producers to the appropriate consumers. Event Types link Simple Events: Indicate a change in state without additional context. Complex Events: Combine multiple events or add context to provide more comprehensive information. Benefits of Event-Driven Architecture link1. Scalability linkEDA supports horizontal scaling by decoupling services, allowing each component to scale independently based on demand. This is especially beneficial in systems with varying load patterns.\n2. Resilience linkDecoupling services reduces the risk of a single point of failure. If one component fails, others can continue to operate, enhancing the overall system resilience.\n3. Responsiveness linkEDA enables real-time processing and immediate reactions to events, making systems more responsive to user actions and external triggers.\n4. Flexibility linkComponents in an event-driven system can be developed, deployed, and maintained independently. This flexibility supports continuous integration and continuous deployment (CI/CD) practices.\n5. Easier Integration linkEDA facilitates the integration of heterogeneous systems and technologies, allowing for easier expansion and modification of the system.\nChallenges of Event-Driven Architecture link1. Complexity linkDesigning and managing an event-driven system can be complex. Developers need to handle event routing, ordering, and potential event loss.\n2. Debugging and Monitoring linkDebugging event-driven systems is more challenging compared to traditional architectures due to the asynchronous nature of events. Monitoring tools are essential for tracking event flows and diagnosing issues.\n3. Consistency linkMaintaining data consistency across distributed components can be difficult. Developers must implement strategies for eventual consistency and handle conflicts gracefully.\n4. Latency linkThe time taken for an event to travel from the producer to the consumer can introduce latency. Optimizing event routing and processing is critical to minimize delays.\nKey Concepts in Event-Driven Architecture link1. Event Streaming linkEvent streaming involves continuously capturing and storing events as they occur, enabling real-time data processing and analytics. Technologies like Apache Kafka and Amazon Kinesis are popular choices for event streaming.\n2. Event Sourcing linkEvent sourcing is a design pattern where state changes are logged as a series of events. This approach provides a complete audit trail and allows for the reconstruction of past states by replaying events.\n3. Command Query Responsibility Segregation (CQRS) linkCQRS separates the read and write operations of a system. Commands change the state and are handled asynchronously, while queries read the state. This separation optimizes performance and scalability.\n4. Publish-Subscribe Pattern linkIn a publish-subscribe (pub/sub) model, event producers (publishers) send events to an intermediary (event broker), which then routes the events to the appropriate consumers (subscribers). This pattern decouples producers and consumers, enhancing scalability and flexibility.\nImplementing Event-Driven Architecture linkStep 1: Define Events linkIdentify the key events that your system needs to respond to. Clearly define the structure and payload of each event.\nStep 2: Choose an Event Broker linkSelect an event broker that suits your system’s needs. Popular choices include:\nApache Kafka: Ideal for high-throughput and low-latency event streaming. RabbitMQ: Suitable for reliable message queuing and routing. Amazon SNS/SQS: Managed services that simplify event-driven architectures in the cloud. Step 3: Design Event Producers and Consumers linkDevelop components that generate and handle events. Ensure that each component is loosely coupled and can operate independently.\nStep 4: Implement Event Channels linkEstablish reliable channels for transmitting events. Ensure that the channels can handle the expected load and provide necessary guarantees (e.g., at-least-once delivery).\nStep 5: Handle Event Processing linkDesign your event consumers to process events efficiently. Consider using frameworks like Apache Flink or AWS Lambda for real-time event processing.\nStep 6: Ensure Data Consistency linkImplement strategies for maintaining data consistency. This may involve using distributed transactions, eventual consistency models, or compensating actions.\nStep 7: Monitor and Debug linkDeploy monitoring and logging tools to track event flows and diagnose issues. Tools like ELK Stack (Elasticsearch, Logstash, Kibana), Prometheus, and Grafana can provide valuable insights.\nStep 8: Test Thoroughly linkPerform extensive testing to ensure that your event-driven system behaves as expected. Simulate different load patterns and failure scenarios to identify potential issues.\nUse Cases and Examples linkReal-Time Analytics linkEDA is well-suited for real-time analytics applications, such as monitoring social media feeds, tracking user behavior on websites, and analyzing sensor data from IoT devices.\nE-commerce Systems linkIn e-commerce, EDA can handle events like order placements, inventory updates, and payment processing. This enables real-time updates and improves the responsiveness of the system.\nMicroservices Architectures linkEDA complements microservices by providing a robust mechanism for inter-service communication. Each microservice can publish and subscribe to events, facilitating a decoupled and scalable architecture.\nFinancial Services linkFinancial institutions use EDA for real-time fraud detection, transaction processing, and market data analysis. Events are processed in real-time to identify and respond to suspicious activities.\nConclusion linkEvent-Driven Architecture offers a powerful approach to building scalable, resilient, and responsive systems. By decoupling components and leveraging real-time event processing, EDA enables organizations to build flexible and adaptable software solutions. While implementing EDA comes with its own set of challenges, careful planning, and the right tools can help you harness its full potential. Whether you are building a real-time analytics platform, an e-commerce system, or a microservices-based application, EDA provides the foundation for creating robust and scalable architectures.\n"
             }
         );
     index.add(
@@ -5502,15 +5490,6 @@ impl Drop for CResourceHandle {
     index.add(
             {
                 id:  146 ,
-                href: "\/tutorials\/docs\/technical-architecture\/technical-architecture\/introduction_to_technical_arch\/",
-                title: "Introduction to Technical Architecture: Principles and Best Practices",
-                description: "In the rapidly evolving landscape of technology, having a robust technical architecture is crucial for the success of any software project. Technical architecture lays the foundation for how a system will be built, deployed, and maintained. This blog post aims to provide an overview of technical architecture, its significance, and the fundamental principles guiding effective architectural practices. We will also explore best practices and common pitfalls to avoid, ensuring that your projects are built on a solid architectural foundation.",
-                content: "In the rapidly evolving landscape of technology, having a robust technical architecture is crucial for the success of any software project. Technical architecture lays the foundation for how a system will be built, deployed, and maintained. This blog post aims to provide an overview of technical architecture, its significance, and the fundamental principles guiding effective architectural practices. We will also explore best practices and common pitfalls to avoid, ensuring that your projects are built on a solid architectural foundation.\nDefinition and Scope of Technical Architecture linkWhat is Technical Architecture? linkTechnical architecture refers to the structured framework used to conceptualize, design, and manage the components of a system. It encompasses the hardware, software, data, and networking components that interact to fulfill the system’s objectives. Technical architecture serves as a blueprint that guides the development, deployment, and maintenance of technology solutions.\nScope of Technical Architecture linkThe scope of technical architecture includes:\nHardware and Infrastructure: Physical servers, cloud services, and networking equipment. Software Components: Operating systems, middleware, applications, and utilities. Data Management: Databases, data warehouses, and data lakes. Networking: Protocols, topologies, and communication mechanisms. Security: Measures to protect data and systems from threats and vulnerabilities. Core Principles of Technical Architecture linkTo build effective and resilient systems, certain core principles must be adhered to. These principles ensure that the architecture can meet current and future needs.\n1. Scalability linkScalability refers to the system’s ability to handle growth, whether in terms of users, data volume, or transaction load. A scalable architecture can expand efficiently without compromising performance or stability.\nKey Practices:\nModular Design: Break down the system into manageable, independent modules. Load Balancing: Distribute workloads evenly across multiple servers. Elasticity: Utilize cloud services that can automatically scale resources up or down. 2. Performance linkPerformance is critical for user satisfaction and operational efficiency. It involves optimizing the system to ensure fast response times and minimal downtime.\nKey Practices:\nCaching: Store frequently accessed data in fast-access storage. Efficient Algorithms: Implement algorithms and data structures that minimize processing time. Resource Optimization: Ensure optimal use of CPU, memory, and storage. 3. Security linkSecurity involves protecting the system from unauthorized access and ensuring data integrity and confidentiality.\nKey Practices:\nAuthentication and Authorization: Implement strong user authentication and access control mechanisms. Encryption: Encrypt data in transit and at rest. Regular Audits: Conduct security audits and vulnerability assessments. 4. Maintainability linkMaintainability ensures that the system can be easily updated, fixed, and improved over time without excessive cost or effort.\nKey Practices:\nClear Documentation: Maintain comprehensive and up-to-date documentation. Modular Code: Write modular, clean, and well-commented code. Automated Testing: Implement continuous integration and automated testing to detect issues early. Best Practices in Technical Architecture linkAdopting a Layered Architecture linkLayered architecture divides the system into distinct layers, each responsible for specific aspects of the application. Common layers include presentation, business logic, data access, and infrastructure.\nUsing Design Patterns linkDesign patterns are proven solutions to common problems in software design. Patterns like Model-View-Controller (MVC), Singleton, and Factory can help create robust and maintainable systems.\nEmphasizing Documentation linkComprehensive documentation is vital for knowledge transfer and future maintenance. It should cover system design, data flow, interfaces, and dependencies.\nRegular Code Reviews linkConducting regular code reviews helps maintain code quality, ensures adherence to standards, and fosters knowledge sharing among team members.\nImplementing Continuous Integration and Continuous Deployment (CI/CD) linkCI/CD pipelines automate the process of testing, building, and deploying applications, leading to faster and more reliable releases.\nCommon Pitfalls to Avoid linkOver-Engineering linkAvoid the temptation to over-engineer solutions. Complex architectures can become difficult to manage and maintain. Strive for simplicity and only introduce complexity when absolutely necessary.\nIgnoring Non-Functional Requirements linkNon-functional requirements like performance, security, and maintainability are just as important as functional requirements. Neglecting them can lead to systems that are difficult to scale, insecure, or costly to maintain.\nLack of Proper Testing linkInadequate testing can result in undetected bugs and vulnerabilities. Implement a robust testing strategy that includes unit tests, integration tests, and end-to-end tests.\nPoor Documentation linkFailing to document the architecture can lead to misunderstandings and difficulties in future maintenance. Ensure that all aspects of the system are well-documented and accessible.\nConclusion linkTechnical architecture is the backbone of any successful software system. By adhering to core principles like scalability, performance, security, and maintainability, and by following best practices, you can design architectures that are robust, efficient, and easy to maintain. Avoiding common pitfalls and continuously refining your approach will ensure that your systems can meet both current and future demands.\nInvesting time and effort into creating a solid technical architecture upfront will pay off in the long run, resulting in systems that are resilient, scalable, and aligned with business objectives.\n"
-            }
-        );
-    index.add(
-            {
-                id:  147 ,
                 href: "\/tutorials\/docs\/full-stack-projects\/full-stack-projects\/creating_a_job_summarizer_using_streamlit_and_open_ai\/",
                 title: "Job Description Summarizer with Streamlit and OpenAI",
                 description: "How to install and use libraries",
@@ -5519,7 +5498,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  148 ,
+                id:  147 ,
                 href: "\/tutorials\/docs\/julia\/",
                 title: "Julia",
                 description: "Julia, a high-level, high-performance programming language, is designed for technical computing. It combines the simplicity of Python with the power of languages like C or Fortran. Julia is known for its impressive speed and is widely used in scientific computing, machine learning, data mining, large-scale linear algebra, and more.",
@@ -5528,7 +5507,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  149 ,
+                id:  148 ,
                 href: "\/tutorials\/docs\/keras\/",
                 title: "keras",
                 description: "Keras is an open source deep learning framework for python. It has been developed by an artificial intelligence researcher at Google named Francois Chollet. Leading organizations like Google, Square, Netflix, Huawei and Uber are currently using Keras. This tutorial walks through the installation of Keras, basics of deep learning, Keras models, Keras layers, Keras modules and finally conclude with some real-time applications.",
@@ -5537,7 +5516,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  150 ,
+                id:  149 ,
                 href: "\/tutorials\/docs\/julia\/julia\/advanced_features_in_julia\/",
                 title: "Learn About Advanced Features with Julia",
                 description: "Julia, a high-level, high-performance programming language, is designed for technical computing",
@@ -5546,7 +5525,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  151 ,
+                id:  150 ,
                 href: "\/tutorials\/docs\/solidity\/solidity\/reentrancy_attacks\/",
                 title: "Learn About Reentracny Attacks and how to Prevent them",
                 description: "Learn how blockchain reentrancy attacks work and how to protect your smart contracts from them.",
@@ -5555,7 +5534,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  152 ,
+                id:  151 ,
                 href: "\/tutorials\/docs\/solidity\/solidity\/testing_in_solidity\/",
                 title: "Learn How To Write Unit Tests In Solidity",
                 description: "Learn about Solidity, basics, language syntax and more.",
@@ -5564,7 +5543,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  153 ,
+                id:  152 ,
                 href: "\/tutorials\/docs\/rust\/rust\/leveraging_slices_rust\/",
                 title: "Leveraging the Power of Slices in Rust",
                 description: "Explore the versatile and efficient slice type in Rust, learning how to utilize string slices and other applications to manage data segments without ownership, featuring detailed technical insights and practical coding examples.",
@@ -5573,7 +5552,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  154 ,
+                id:  153 ,
                 href: "\/tutorials\/docs\/numpy\/numpy\/linear_algebra\/",
                 title: "Linear Algebra with NumPy",
                 description: "...",
@@ -5582,7 +5561,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  155 ,
+                id:  154 ,
                 href: "\/tutorials\/docs\/erlang\/erlang\/macros_in_erlang\/",
                 title: "Macros in Erlang Programming Language",
                 description: "Macros in Erlang provide a powerful way to define constants and reusable code snippets that can be expanded inline during compilation. This tutorial will guide you through understanding, defining, and using macros in Erlang, along with some best practices to keep your code clean and maintainable.\nIntroduction to Macros linkMacros in Erlang are a form of syntactic sugar that allows developers to define constants or code snippets that can be substituted during the pre-processing phase of compilation.",
@@ -5591,7 +5570,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  156 ,
+                id:  155 ,
                 href: "\/tutorials\/docs\/golang\/golang\/understanding-go-basics\/",
                 title: "Master the Basics of Go",
                 description: "Unlock the fundamentals of Go programming with an in-depth look at its data types, variables, constants, basic operators, and control structures including if, else, switch, and loops.",
@@ -5600,7 +5579,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  157 ,
+                id:  156 ,
                 href: "\/tutorials\/docs\/rust\/rust\/collections-rust\/",
                 title: "Mastering Collections in Rust: Vectors, HashMaps, and HashSets",
                 description: "Delve deep into Rust's collections framework in this comprehensive guide, exploring the intricacies of Vectors, HashMaps, and HashSets. Learn how to utilize these collections effectively to build more efficient and robust Rust applications. This post is packed with technical insights, practical coding examples, and best practices tailored for advanced Rust developers.",
@@ -5609,7 +5588,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  158 ,
+                id:  157 ,
                 href: "\/tutorials\/docs\/python\/python\/python_concurrency_and_parallelism\/",
                 title: "Mastering Concurrency and Parallelism in Python: Threading, Multiprocessing, and Asyncio",
                 description: "Explore the concepts of concurrency and parallelism in Python with an in-depth look at threading, multiprocessing, and the asyncio module. Learn how to effectively handle asynchronous and parallel tasks to optimize performance and efficiency in your applications.",
@@ -5618,7 +5597,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  159 ,
+                id:  158 ,
                 href: "\/tutorials\/docs\/golang\/golang\/concurrency-in-go-routines\/",
                 title: "Mastering Concurrency in Go with Goroutines",
                 description: "Unlock the power of asynchronous programming in Go with our comprehensive guide on goroutines. Learn best practices for managing concurrency effectively in your Go applications.",
@@ -5627,7 +5606,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  160 ,
+                id:  159 ,
                 href: "\/tutorials\/docs\/rust\/rust\/concurrency_rust\/",
                 title: "Mastering Concurrency in Rust",
                 description: "Unlock the power of safe concurrency in Rust with this in-depth exploration of threading, parallelism, and Rust's ownership-based approach to concurrency safety. This detailed guide provides technical insights, practical coding examples, and best practices to effectively utilize concurrency in Rust applications.",
@@ -5636,7 +5615,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  161 ,
+                id:  160 ,
                 href: "\/tutorials\/docs\/python\/python\/python_control_structures\/",
                 title: "Mastering Control Structures in Python: If Statements, Loops, and More",
                 description: "Unlock the power of Python's control structures to guide your program's decisions and repetitive tasks. This guide provides a deep dive into if statements, for loops, and while loops with practical examples.",
@@ -5645,7 +5624,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  162 ,
+                id:  161 ,
                 href: "\/tutorials\/docs\/python\/python\/python_dictionaries_and_sets\/",
                 title: "Mastering Dictionaries and Sets in Python: Comprehensive Guide to Data Handling",
                 description: "Enhance your Python skills by mastering dictionaries and sets. This guide covers everything from basic operations to advanced methods of dictionaries, along with a deep dive into the functionalities of sets.",
@@ -5654,7 +5633,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  163 ,
+                id:  162 ,
                 href: "\/tutorials\/docs\/rust\/rust\/mastering_generics_traits_rust\/",
                 title: "Mastering Generic Types and Traits in Rust",
                 description: "Unlock the full potential of Rust’s type system with an in-depth exploration of generic types and traits. This comprehensive guide delves into the creation and use of generics to write flexible and reusable code, and explains how traits and trait bounds are used to define shared behavior across types. Packed with technical insights and practical examples, this post is perfect for Rust programmers aiming to elevate their coding practices.",
@@ -5663,7 +5642,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  164 ,
+                id:  163 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/module-system-in-haskell\/",
                 title: "Mastering Haskell’s Module System for Efficient Code Organization",
                 description: "Learn how to effectively organize your Haskell projects with a comprehensive guide to Haskell’s module system, including how to import, export, and structure your code across multiple modules.",
@@ -5672,7 +5651,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  165 ,
+                id:  164 ,
                 href: "\/tutorials\/docs\/rust\/rust\/mastering_lifetime_management_rust\/",
                 title: "Mastering Lifetime Management in Rust",
                 description: "Explore the crucial concept of lifetimes in Rust, understanding how to define and use lifetime annotations to manage memory safely and efficiently. This comprehensive guide discusses the intricacies of lifetimes in Rust, providing technical insights, practical coding examples, and best practices for effective lifetime management in your Rust applications.",
@@ -5681,7 +5660,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  166 ,
+                id:  165 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/working-with-lists-in-haskell\/",
                 title: "Mastering List Operations in Haskell",
                 description: "Explore the essentials of working with lists in Haskell, including detailed list operations and the use of list comprehensions. Discover practical examples to enhance your Haskell programming skills.",
@@ -5690,7 +5669,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  167 ,
+                id:  166 ,
                 href: "\/tutorials\/docs\/rust\/rust\/macros-rust\/",
                 title: "Mastering Macros in Rust",
                 description: "Dive deep into the powerful macro system of Rust with this comprehensive guide on understanding and creating custom macros. This post provides a detailed exploration of macro syntax, practical examples of custom macros, and best practices for utilizing macros to write more concise and flexible Rust code.",
@@ -5699,7 +5678,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  168 ,
+                id:  167 ,
                 href: "\/tutorials\/docs\/python\/python\/python_object_oriented_programming\/",
                 title: "Mastering Object-Oriented Programming in Python: Classes, Inheritance, and Polymorphism",
                 description: "Unlock the full potential of object-oriented programming in Python with this extensive guide. Learn how to define classes, create objects, and utilize inheritance and polymorphism to design reusable and modular code.",
@@ -5708,7 +5687,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  169 ,
+                id:  168 ,
                 href: "\/tutorials\/docs\/rust\/rust\/mastering_references_borrowing_rust\/",
                 title: "Mastering References and Borrowing in Rust",
                 description: "Dive deep into the concepts of references and borrowing in Rust, exploring both immutable and mutable references, and how they interact with Rust's ownership rules to facilitate safe and efficient memory management.",
@@ -5717,7 +5696,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  170 ,
+                id:  169 ,
                 href: "\/tutorials\/docs\/python\/python\/python_string_manipulation\/",
                 title: "Mastering String Manipulation in Python: Operations, Methods, and Formatting",
                 description: "Explore the art of string manipulation in Python through this comprehensive guide. Learn basic operations, discover powerful string methods, and master the formatting techniques to enhance your data processing skills.",
@@ -5726,7 +5705,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  171 ,
+                id:  170 ,
                 href: "\/tutorials\/docs\/rust\/rust\/mastering_structs_rust\/",
                 title: "Mastering Structs in Rust: Definition, Methods, and Usage",
                 description: "Dive deep into the fundamentals and advanced uses of structs in Rust, covering their definition, the implementation of methods, and associated functions. This comprehensive guide includes practical examples and technical explanations to master struct-based designs in Rust programming.",
@@ -5735,7 +5714,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  172 ,
+                id:  171 ,
                 href: "\/tutorials\/docs\/golang\/golang\/testing-in-go\/",
                 title: "Mastering Testing in Go",
                 description: "Dive into the best practices of writing unit tests in Go, leveraging the built-in testing package, and utilizing benchmarks and profiling to optimize your Go applications.",
@@ -5744,7 +5723,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  173 ,
+                id:  172 ,
                 href: "\/tutorials\/docs\/python\/python\/basic_python_syntax\/",
                 title: "Mastering the Basics: Python Syntax, Indentation, and Comments",
                 description: "Unlock the fundamentals of Python programming with a detailed exploration of its syntax. Learn through practical examples, including building a Fibonacci sequence, understanding the crucial role of indentation, and effectively using comments for better code readability.",
@@ -5753,7 +5732,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  174 ,
+                id:  173 ,
                 href: "\/tutorials\/docs\/technical-architecture\/technical-architecture\/microservice_vs_monolith\/",
                 title: "Microservices vs. Monolithic Architecture: Which One to Choose?",
                 description: "Understanding the Differences Between Monolithic and Microservices Architecture linkIn today’s dynamic software development landscape, choosing the right architectural approach is crucial for creating scalable, maintainable, and efficient applications. Two prominent architectural styles are Monolithic and Microservices architecture. This post will delve into the key differences between these two approaches, examining their benefits, drawbacks, and ideal use cases.\nMonolithic Architecture linkDefinition and Characteristics linkA monolithic architecture is a traditional software development model where all components of the application are interconnected and managed as a single unit.",
@@ -5762,7 +5741,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  175 ,
+                id:  174 ,
                 href: "\/tutorials\/docs\/keras\/keras\/evaluation_and_prediction\/",
                 title: "Model evaludation and prediction in keras(Advanced)",
                 description: "Learn about model evaluation and prediction in keras.",
@@ -5771,7 +5750,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  176 ,
+                id:  175 ,
                 href: "\/tutorials\/docs\/pytorch\/pytorch\/model_training_and_evaluation\/",
                 title: "Model Training and Evaluation",
                 description: "Understanding Model Training and Evaluation in PyTorch.",
@@ -5780,7 +5759,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  177 ,
+                id:  176 ,
                 href: "\/tutorials\/docs\/keras\/keras\/advanced_model_tuning_andoptimization_techniques_in_keras\/",
                 title: "Model Tuning and Optimization Techniques in Keras ",
                 description: "This tutorial covers advanced techniques for tuning and optimizing models in Keras, including hyperparameter tuning, regularization methods, and learning rate schedulers.\nHyperparameter Tuning linkHyperparameter tuning is crucial for improving the performance of machine learning models. Keras provides several ways to perform hyperparameter tuning.\nGrid Search linkGrid search exhaustively searches through a specified subset of hyperparameters. It is straightforward but can be computationally expensive.\nfrom sklearn.model_selection import GridSearchCV from keras.wrappers.scikit_learn import KerasClassifier def create_model(optimizer='adam'): model = Sequential() model.",
@@ -5789,7 +5768,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  178 ,
+                id:  177 ,
                 href: "\/tutorials\/docs\/mojo\/mojo\/modules_and_packages\/",
                 title: "Modules and Packages in Mojo",
                 description: "Mojo Lang description",
@@ -5798,7 +5777,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  179 ,
+                id:  178 ,
                 href: "\/tutorials\/docs\/erlang\/erlang\/modules_in_erlang\/",
                 title: "Modules in Erlang Programming Language",
                 description: "Modules in Erlang are collections of functions grouped within a single file under a unified name. In Erlang, all functions must be defined within modules.\nMany fundamental functionalities, such as arithmetic, logic, and Boolean operations, are readily available as default modules loaded upon program execution. However, any other function defined within a module must be invoked in the format: Module:Function(Arguments).\nDefining a Module linkModules can declare two primary entities: functions and attributes.",
@@ -5807,7 +5786,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  180 ,
+                id:  179 ,
                 href: "\/tutorials\/docs\/julia\/julia\/modules_in_julia\/",
                 title: "Modules in Julia",
                 description: "Julia, a high-level, high-performance programming language, is designed for technical computing",
@@ -5816,7 +5795,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  181 ,
+                id:  180 ,
                 href: "\/tutorials\/docs\/keras\/keras\/modules_in_keras\/",
                 title: "Modules in keras",
                 description: "Learn more about modules in keras.",
@@ -5825,7 +5804,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  182 ,
+                id:  181 ,
                 href: "\/tutorials\/docs\/nim\/nim\/modules\/",
                 title: "Modules in Nim",
                 description: "Learn more about nim's module system",
@@ -5834,7 +5813,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  183 ,
+                id:  182 ,
                 href: "\/tutorials\/docs\/mojo\/",
                 title: "Mojo",
                 description: "Mojo combines Python's ease of use with advanced programming capabilities. It's tailored for both research and production environments.",
@@ -5843,7 +5822,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  184 ,
+                id:  183 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/monad-magic-in-haskell\/",
                 title: "Monad Magic in Haskell",
                 description: "Unlock the mystery of monads in Haskell. Learn the fundamental concepts and theories of monads, and explore practical uses with the Maybe, IO, and List Monads.",
@@ -5852,7 +5831,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  185 ,
+                id:  184 ,
                 href: "\/tutorials\/docs\/julia\/julia\/multi-thread\/",
                 title: "Multi-Thread Programming with Julia",
                 description: "Julia, a high-level, high-performance programming language, is designed for technical computing",
@@ -5861,7 +5840,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  186 ,
+                id:  185 ,
                 href: "\/tutorials\/docs\/nim\/",
                 title: "Nim",
                 description: "Nim is a relatively new programming language which allows users to write easy-to-read high-performance code.",
@@ -5870,7 +5849,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  187 ,
+                id:  186 ,
                 href: "\/tutorials\/docs\/nim\/nim\/nims_marco_system\/",
                 title: "Nim Macros: A Comprehensive Tutorial",
                 description: "Nim Lang description",
@@ -5879,7 +5858,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  188 ,
+                id:  187 ,
                 href: "\/tutorials\/docs\/system-design\/system-design\/nosql_vs_sql\/",
                 title: "NoSQL vs. SQL Databases: A Comprehensive Overview",
                 description: "If you are looking to grow in you tech career and understand system design indepth, this guide is for you.",
@@ -5888,7 +5867,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  189 ,
+                id:  188 ,
                 href: "\/tutorials\/docs\/numpy\/",
                 title: "numpy",
                 description: "NumPy, short for Numerical Python, is a fundamental package for scientific computing in Python. It provides support for large multidimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays. NumPy is the foundation upon which many other scientific Python libraries are built, making it an essential tool for data manipulation, numerical computing, and machine learning.",
@@ -5897,7 +5876,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  190 ,
+                id:  189 ,
                 href: "\/tutorials\/docs\/numpy\/numpy\/broadcasting\/",
                 title: "NumPy Broadcasting",
                 description: "...",
@@ -5906,7 +5885,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  191 ,
+                id:  190 ,
                 href: "\/tutorials\/docs\/numpy\/numpy\/numpy_operations\/",
                 title: "NumPy Operations",
                 description: "...",
@@ -5915,7 +5894,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  192 ,
+                id:  191 ,
                 href: "\/tutorials\/docs\/julia\/julia\/object_oriented_programming\/",
                 title: "Object Oriented Programming with Julia",
                 description: "Julia, a high-level, high-performance programming language, is designed for technical computing",
@@ -5924,7 +5903,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  193 ,
+                id:  192 ,
                 href: "\/tutorials\/docs\/mojo\/mojo\/oop\/",
                 title: "Object-Oriented Programming (OOP) Concepts in Mojo",
                 description: "Mojo Lang description",
@@ -5933,7 +5912,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  194 ,
+                id:  193 ,
                 href: "\/tutorials\/docs\/nim\/nim\/nims_oop\/",
                 title: "Object-Oriented Programming in Nim",
                 description: "Nim Lang description",
@@ -5942,7 +5921,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  195 ,
+                id:  194 ,
                 href: "\/tutorials\/docs\/scala\/scala\/object_oriented_programming\/",
                 title: "Object-Oriented Programming in Scala",
                 description: "Scala Lang description",
@@ -5951,7 +5930,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  196 ,
+                id:  195 ,
                 href: "\/tutorials\/docs\/ocaml\/",
                 title: "Ocaml",
                 description: "OCaml (originally Objective Caml) is a versatile, general-purpose, multi-paradigm programming language. It seamlessly blends functional, imperative, and object-oriented programming styles, empowering developers to choose the most suitable approach for different tasks. Developed in the mid-1990s by INRIA, the French National Institute for Research in Computer Science and Control, OCaml offers exceptional reliability and security, making it ideal for mission-critical systems.",
@@ -5960,7 +5939,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  197 ,
+                id:  196 ,
                 href: "\/tutorials\/docs\/htmx\/htmx\/some_hx_attributes\/",
                 title: "Other hx-Attributes",
                 description: "Learn about what HTMX is and how you can use it.",
@@ -5969,7 +5948,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  198 ,
+                id:  197 ,
                 href: "\/tutorials\/docs\/elm\/elm\/elms_package_manager\/",
                 title: "Package Manager in Elm",
                 description: "Handling HTTP requests and JSON data in Elm.",
@@ -5978,7 +5957,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  199 ,
+                id:  198 ,
                 href: "\/tutorials\/docs\/pandas\/",
                 title: "pandas",
                 description: "`pandas` is arguably the most important Python package for data analysis. It is the de facto standard package for data manipulation and exploratory data analysis. Its ability to read from and write to an extensive list of formats makes it a versatile tool for data science practitioners. Its data manipulation functions make it a highly accessible and practical tool for aggregating, analyzing, and cleaning data.",
@@ -5987,7 +5966,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  200 ,
+                id:  199 ,
                 href: "\/tutorials\/docs\/nim\/nim\/parallelism_in_nim\/",
                 title: "Parallelism in Nim",
                 description: "Nim Lang description",
@@ -5996,7 +5975,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  201 ,
+                id:  200 ,
                 href: "\/tutorials\/docs\/erlang\/erlang\/pattern_matching\/",
                 title: "Pattern Matching in Erlang",
                 description: "Pattern matching is a fundamental concept in Erlang that allows you to destructure data structures, bind variables, and control the flow of your program. This tutorial will guide you through the basics of pattern matching, including how to use it with different data types and the rules governing pattern matching success and failure.\nIntroduction to Pattern Matching linkIn Erlang, patterns look similar to terms. They can be simple literals like atoms and numbers, or compound structures like tuples and lists.",
@@ -6005,7 +5984,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  202 ,
+                id:  201 ,
                 href: "\/tutorials\/docs\/zig\/zig\/pointers_in_zig\/",
                 title: "Pointers in Zig",
                 description: "Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.",
@@ -6014,7 +5993,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  203 ,
+                id:  202 ,
                 href: "\/tutorials\/docs\/erlang\/erlang\/applications_and_best_practices\/",
                 title: "Practical Applications and Best Practices",
                 description: "Explore real-world applications and best practices in Erlang programming.",
@@ -6023,7 +6002,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  204 ,
+                id:  203 ,
                 href: "\/tutorials\/docs\/solidity\/solidity\/price_oracle_using_chainlink_and_solidity\/",
                 title: "Price Oracle Using Chainlink and Solidity",
                 description: "Get access to price feed ofchain using solidity and chainlink.",
@@ -6032,7 +6011,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  205 ,
+                id:  204 ,
                 href: "\/tutorials\/docs\/full-stack-projects\/full-stack-projects\/progres_checker\/",
                 title: "Progress Tracker using React and Local Storage",
                 description: "How to install and use libraries",
@@ -6041,7 +6020,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  206 ,
+                id:  205 ,
                 href: "\/tutorials\/docs\/python\/",
                 title: "Python",
                 description: "The syntax of a programming language is a set of rules that defines how a program is written and interpreted. In Python, syntax is famously clean and often feels intuitive, making it an excellent choice for beginners. Yet, it possesses the depth required for advanced programming. This section explores Python syntax through various constructs and a practical example.",
@@ -6050,7 +6029,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  207 ,
+                id:  206 ,
                 href: "\/tutorials\/docs\/python\/python\/python_modules_and_packages\/",
                 title: "Python Modules and Packages: Importing Essentials and Exploring Standard Libraries",
                 description: "Deep dive into Python's modular approach with a focus on importing modules and leveraging the capabilities of standard libraries such as math and datetime. This guide offers detailed insights and examples to enhance your programming efficiency.",
@@ -6059,7 +6038,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  208 ,
+                id:  207 ,
                 href: "\/tutorials\/docs\/pytorch\/",
                 title: "pytorch",
                 description: "PyTorch is a popular open-source machine learning library developed by Facebook's AI Research lab (FAIR). Known for its flexibility, ease of use, and dynamic computational graphs, PyTorch has become a go-to framework for both research and production in the field of deep learning.",
@@ -6068,7 +6047,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  209 ,
+                id:  208 ,
                 href: "\/tutorials\/docs\/pytorch\/pytorch\/data_loading_and_preprocessing\/",
                 title: "PyTorch: Data Loading and Preprocessing",
                 description: "Understanding Data Loading and Preprocessing in PyTorch.",
@@ -6077,7 +6056,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  210 ,
+                id:  209 ,
                 href: "\/tutorials\/docs\/numpy\/numpy\/random_number_generation_and_sampling\/",
                 title: "Random Number Generation and Sampling with NumPy",
                 description: "...",
@@ -6086,7 +6065,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  211 ,
+                id:  210 ,
                 href: "\/tutorials\/docs\/huff\/huff\/reverse_calldata_with_huff\/",
                 title: "Reversing Calldata with Huff: A Step-by-Step Tutorial",
                 description: "Huff is a domain-specific, low-level programming language designed explicitly for writing smart contracts on the Ethereum blockchain.",
@@ -6095,7 +6074,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  212 ,
+                id:  211 ,
                 href: "\/tutorials\/docs\/rust\/rust\/robust_error_handling_rust\/",
                 title: "Robust Error Handling in Rust: Using Result and Option",
                 description: "Dive deep into Rust’s error handling mechanisms, exploring the `Result` and `Option` types, and advanced error propagation techniques. This comprehensive guide is packed with technical insights, practical coding examples, and best practices aimed at mastering error management in Rust programming.",
@@ -6104,7 +6083,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  213 ,
+                id:  212 ,
                 href: "\/tutorials\/docs\/rust\/",
                 title: "Rust",
                 description: "Best Rust blogs out there.",
@@ -6113,7 +6092,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  214 ,
+                id:  213 ,
                 href: "\/tutorials\/docs\/scala\/",
                 title: "Scala",
                 description: "Scala, an acronym for Scalable Language, is a modern, multi-paradigm programming language designed to express common programming patterns in a concise, elegant, and type-safe way. It smoothly integrates features of object-oriented and functional languages.",
@@ -6122,7 +6101,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  215 ,
+                id:  214 ,
                 href: "\/tutorials\/docs\/julia\/julia\/scientific_computing\/",
                 title: "Scientific Computing with Julia",
                 description: "Julia, a high-level, high-performance programming language, is designed for technical computing",
@@ -6131,7 +6110,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  216 ,
+                id:  215 ,
                 href: "\/tutorials\/docs\/htmx\/htmx\/security_in_htmx\/",
                 title: "Security in HTMX",
                 description: "Learn about what HTMX is and how you can use it.",
@@ -6140,7 +6119,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  217 ,
+                id:  216 ,
                 href: "\/tutorials\/docs\/full-stack-projects\/full-stack-projects\/password_validator\/",
                 title: "Simple Password Validator using React + Go",
                 description: "How to install and use libraries",
@@ -6149,7 +6128,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  218 ,
+                id:  217 ,
                 href: "\/tutorials\/docs\/elixir\/elixir\/simple_state_management\/",
                 title: "Simple state management with agents",
                 description: "In this guide, we will learn how to keep and share state between multiple entities. If you have previous programming experience, you may think of globally shared variables, but the model we will learn here is quite different. The next chapters will generalize the concepts introduced here.\nThe trouble with (mutable) state linkElixir is an immutable language where nothing is shared by default. If we want to share information, which can be read and modified from multiple places, we have two main options in Elixir:",
@@ -6158,7 +6137,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  219 ,
+                id:  218 ,
                 href: "\/tutorials\/docs\/rust\/rust\/smart_pointers_rust\/",
                 title: "Smart Pointers in Rust",
                 description: "Deep dive into the world of smart pointers in Rust with this comprehensive guide on `Box`, `Rc`, and `Arc`. Learn how to effectively utilize these tools to manage memory in complex applications, including technical explanations, practical examples, and best practices for when to use each type of smart pointer.",
@@ -6167,7 +6146,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  220 ,
+                id:  219 ,
                 href: "\/tutorials\/docs\/solidity\/",
                 title: "Solidity",
                 description: "Solidity is an object-oriented programming language. Learn more about the basics and applications of solidity",
@@ -6176,7 +6155,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  221 ,
+                id:  220 ,
                 href: "\/tutorials\/docs\/solidity\/solidity\/solidity_and_erc20_tokens\/",
                 title: "Solidity and ERC20 Tokens",
                 description: "Learn about ERC20 tokens and how to implement them",
@@ -6185,7 +6164,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  222 ,
+                id:  221 ,
                 href: "\/tutorials\/docs\/huff\/huff\/advanced_features_using_huff\/",
                 title: "Some Advanced Features With Huff",
                 description: "Huff is a domain-specific, low-level programming language designed explicitly for writing smart contracts on the Ethereum blockchain.",
@@ -6194,7 +6173,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  223 ,
+                id:  222 ,
                 href: "\/tutorials\/docs\/zig\/zig\/stack_memory_in_zig\/",
                 title: "Stack Memory in Zig",
                 description: "Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.",
@@ -6203,7 +6182,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  224 ,
+                id:  223 ,
                 href: "\/tutorials\/docs\/scala\/scala\/string_interpolation_in_scala\/",
                 title: "String Interpolation in Scala",
                 description: "Scala Lang description",
@@ -6212,7 +6191,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  225 ,
+                id:  224 ,
                 href: "\/tutorials\/docs\/rust\/rust\/structuring_rust_projects_modules_crates\/",
                 title: "Structuring Rust Projects: Modules and Crates Explained",
                 description: "Deepen your understanding of Rust's module system and learn how to leverage external crates for project enhancement. This comprehensive guide covers the essentials of organizing code with modules and integrating functionality from external sources through crates. Perfect for Rust developers aiming to build scalable and maintainable applications.",
@@ -6221,7 +6200,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  226 ,
+                id:  225 ,
                 href: "\/tutorials\/docs\/system-design\/",
                 title: "System Design",
                 description: "If you are looking to grow in you tech career and understand system design indepth, this guide is for you.",
@@ -6230,7 +6209,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  227 ,
+                id:  226 ,
                 href: "\/tutorials\/docs\/zig\/zig\/system_programming_using_zig\/",
                 title: "System Programming in Zig",
                 description: "Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.",
@@ -6239,7 +6218,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  228 ,
+                id:  227 ,
                 href: "\/tutorials\/docs\/full-stack-projects\/full-stack-projects\/task_manager_using_react\/",
                 title: "Task Manager using Django and React",
                 description: "How to install and use libraries",
@@ -6248,7 +6227,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  229 ,
+                id:  228 ,
                 href: "\/tutorials\/docs\/technical-architecture\/",
                 title: "Technical Architecture",
                 description: "Best blogs out there.",
@@ -6257,7 +6236,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  230 ,
+                id:  229 ,
                 href: "\/tutorials\/docs\/huff\/huff\/testing_and_deploying_huff_contracts\/",
                 title: "Testing and Deploying Huff Contracts",
                 description: "Huff is a domain-specific, low-level programming language designed explicitly for writing smart contracts on the Ethereum blockchain.",
@@ -6266,7 +6245,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  231 ,
+                id:  230 ,
                 href: "\/tutorials\/docs\/elixir\/elixir\/testing_with_elixir\/",
                 title: "Testing in Elixir with ExUnit",
                 description: "Testing is a crucial aspect of software development that ensures code reliability and correctness. Elixir provides a powerful testing framework, ExUnit, which comes with a rich set of features for writing and running tests. This tutorial will cover the basics of ExUnit, writing test cases, using mocks and stubs, and property-based testing with StreamData.\nIntroduction to ExUnit linkExUnit is Elixir’s built-in test framework, providing a comprehensive suite of tools to write and execute tests.",
@@ -6275,7 +6254,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  232 ,
+                id:  231 ,
                 href: "\/tutorials\/docs\/system-design\/system-design\/tcp_vs_udp\/",
                 title: "The Difference Between TCP and UDP",
                 description: "If you are looking to grow in you tech career and understand system design indepth, this guide is for you.",
@@ -6284,7 +6263,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  233 ,
+                id:  232 ,
                 href: "\/tutorials\/docs\/system-design\/system-design\/domain_name_system\/",
                 title: "The Domain Name System",
                 description: "If you are looking to grow in you tech career and understand system design indepth, this guide is for you.",
@@ -6293,7 +6272,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  234 ,
+                id:  233 ,
                 href: "\/tutorials\/docs\/elm\/elm\/elm_architecture\/",
                 title: "The Elm Architecture",
                 description: "Understanding The Elm Architecture for building robust web applications.",
@@ -6302,7 +6281,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  235 ,
+                id:  234 ,
                 href: "\/tutorials\/docs\/technical-architecture\/technical-architecture\/the_role_of_cloud_services\/",
                 title: "The Role of Cloud Services in Modern Technical Architecture",
                 description: "Cloud services have become a cornerstone of modern technical architecture. They provide the flexibility, scalability, and cost-efficiency that businesses need to stay competitive. This post will explore how cloud services can be integrated into technical architecture, the benefits they offer, and an overview of the major cloud providers.\nBenefits of Cloud Computing link1. Flexibility and Agility linkCloud services offer unparalleled flexibility, allowing businesses to quickly adapt to changing demands. Whether it’s scaling resources up or down, deploying new applications, or experimenting with new technologies, the cloud provides the agility needed to respond to market dynamics efficiently.",
@@ -6311,7 +6290,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  236 ,
+                id:  235 ,
                 href: "\/tutorials\/docs\/zig\/zig\/using_external_packages_with_zig\/",
                 title: "Third Party Dependencies in Zig",
                 description: "Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.",
@@ -6320,7 +6299,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  237 ,
+                id:  236 ,
                 href: "\/tutorials\/docs\/pandas\/pandas\/introduction_to_time_series\/",
                 title: "Time Series Analysis with Pandas",
                 description: "In this section, you will be learning more about Dataframes, how to load data into one and how to perform operations.",
@@ -6329,7 +6308,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  238 ,
+                id:  237 ,
                 href: "\/tutorials\/docs\/keras\/keras\/training_models_on_arbitrary_data_sources\/",
                 title: "Training models on arbitrary data sources",
                 description: "All Keras models can be trained and evaluated on a wide variety of data sources, independently of the backend you're using.",
@@ -6338,7 +6317,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  239 ,
+                id:  238 ,
                 href: "\/tutorials\/docs\/pytorch\/pytorch\/transfer_learning\/",
                 title: "Transferr Learning in Pytorch",
                 description: "A comprehensive introduction to PyTorch for deep learning.",
@@ -6347,7 +6326,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  240 ,
+                id:  239 ,
                 href: "\/tutorials\/docs\/solidity\/solidity\/understanding_application_binary_interface\/",
                 title: "Understandin Application Binary Interface (ABI) in Solidity",
                 description: "Learn about ABIs in solidity and their uses.",
@@ -6356,7 +6335,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  241 ,
+                id:  240 ,
                 href: "\/tutorials\/docs\/system-design\/system-design\/reverse_proxies\/",
                 title: "Understanding a Reverse Proxy??",
                 description: "If you are looking to grow in you tech career and understand system design indepth, this guide is for you.",
@@ -6365,7 +6344,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  242 ,
+                id:  241 ,
                 href: "\/tutorials\/docs\/system-design\/system-design\/acid_transactions\/",
                 title: "Understanding ACID Transactions in Database Systems",
                 description: "If you are looking to grow in you tech career and understand system design indepth, this guide is for you.",
@@ -6374,7 +6353,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  243 ,
+                id:  242 ,
                 href: "\/tutorials\/docs\/rust\/rust\/understanding_using_unsafe_rust\/",
                 title: "Understanding and Using Unsafe Rust",
                 description: "Delve into the realm of Unsafe Rust with this in-depth guide, exploring the principles of `unsafe` code, its usage, and best practices. Learn technical details and practical strategies for when and how to responsibly incorporate `unsafe` Rust into your projects to manipulate low-level system details safely and efficiently.",
@@ -6383,7 +6362,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  244 ,
+                id:  243 ,
                 href: "\/tutorials\/docs\/erlang\/erlang\/erlangs_otp\/",
                 title: "Understanding Erlang's OTP Framework",
                 description: "An in-depth guide to Erlang's Open Telecom Platform (OTP) framework.",
@@ -6392,7 +6371,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  245 ,
+                id:  244 ,
                 href: "\/tutorials\/docs\/python\/python\/python_functions\/",
                 title: "Understanding Functions in Python: Definitions, Parameters, Returns, and Scope",
                 description: "Master the fundamentals of Python functions, from creation and parameter handling to understanding variable scope. This guide offers detailed explanations and code examples to enrich your programming knowledge.",
@@ -6401,7 +6380,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  246 ,
+                id:  245 ,
                 href: "\/tutorials\/docs\/huff\/huff\/understanding_huff_macros\/",
                 title: "Understanding Huff Macros",
                 description: "Huff is a domain-specific, low-level programming language designed explicitly for writing smart contracts on the Ethereum blockchain.",
@@ -6410,7 +6389,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  247 ,
+                id:  246 ,
                 href: "\/tutorials\/docs\/python\/python\/python_iterators_and_generators\/",
                 title: "Understanding Iterators and Generators in Python: Leveraging Yield for Efficient Code",
                 description: "Dive deep into the mechanics of iterators and generators in Python. Learn how to create custom iterators, design generator functions, and effectively use the yield keyword to optimize memory usage and code execution.",
@@ -6419,7 +6398,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  248 ,
+                id:  247 ,
                 href: "\/tutorials\/docs\/scala\/scala\/understand_maps_in_scala\/",
                 title: "Understanding Maps in Scala",
                 description: "Learn more about maps in scala",
@@ -6428,7 +6407,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  249 ,
+                id:  248 ,
                 href: "\/tutorials\/docs\/python\/python\/variables_and_data_types\/",
                 title: "Understanding Python Variables and Data Types: From Basics to Type Conversion",
                 description: "Delve into the fundamentals of Python variables and data types, covering numbers, strings, and booleans, along with essential type conversion techniques to manipulate and utilize data effectively.",
@@ -6437,7 +6416,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  250 ,
+                id:  249 ,
                 href: "\/tutorials\/docs\/golang\/golang\/structs-and-interfaces-in-go\/",
                 title: "Understanding Structs and Interfaces in Go",
                 description: "Explore the powerful concepts of structs and interfaces in Go programming. Learn how to define structs, implement methods on them, and utilize interfaces for flexible, scalable code.",
@@ -6446,7 +6425,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  251 ,
+                id:  250 ,
                 href: "\/tutorials\/docs\/system-design\/system-design\/throughput_vs_latency\/",
                 title: "Understanding the Difference Between Throughput and Latency in Network Performance",
                 description: "If you are looking to grow in you tech career and understand system design indepth, this guide is for you.",
@@ -6455,7 +6434,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  252 ,
+                id:  251 ,
                 href: "\/tutorials\/docs\/haskell\/haskell\/type-classes-and-polymorphism-in-haskell\/",
                 title: "Understanding Type Classes and Polymorphism in Haskell",
                 description: "Explore the concepts of type classes and polymorphism in Haskell, including an introduction to foundational type classes like Eq, Ord, and Show, and how to implement custom type classes for sophisticated type handling.",
@@ -6464,7 +6443,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  253 ,
+                id:  252 ,
                 href: "\/tutorials\/docs\/rust\/rust\/async_programming_rust\/",
                 title: "Unlocking Asynchronous Programming in Rust",
                 description: "Explore the powerful asynchronous programming model in Rust with this in-depth guide on the async/await syntax and best practices for building scalable asynchronous applications. Packed with technical insights, practical coding examples, and advanced techniques, this post is essential for Rust developers looking to enhance the responsiveness and performance of their applications.",
@@ -6473,7 +6452,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  254 ,
+                id:  253 ,
                 href: "\/tutorials\/docs\/system-design\/system-design\/database_indexes\/",
                 title: "Using Database Indexes for Improved Performance",
                 description: "If you are looking to grow in you tech career and understand system design indepth, this guide is for you.",
@@ -6482,7 +6461,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  255 ,
+                id:  254 ,
                 href: "\/tutorials\/docs\/golang\/golang\/using-databases-in-go\/",
                 title: "Using Databases in Go",
                 description: "Learn how to connect to SQL and NoSQL databases from Go applications, perform CRUD operations, and utilize popular ORM tools to streamline your data handling.",
@@ -6491,7 +6470,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  256 ,
+                id:  255 ,
                 href: "\/tutorials\/docs\/elixir\/elixir\/dockerising_elixir\/",
                 title: "Using Docker and Elixir",
                 description: "Learn how to build a simple cli todo tool using elixir",
@@ -6500,7 +6479,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  257 ,
+                id:  256 ,
                 href: "\/tutorials\/docs\/elixir\/elixir\/password_generator\/",
                 title: "Using Ecto for Database Interactions",
                 description: "Elixir is a process-oriented, functional programming language that runs on the Erlang virtual machine (BEAM). The language was influenced by Ruby. This inspiration can be seen and felt in Elixir’s ecosystem and tooling options. Elixir is known to be easy to learn and widely applicable within the software development industry.",
@@ -6509,7 +6488,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  258 ,
+                id:  257 ,
                 href: "\/tutorials\/docs\/elixir\/elixir\/using_ecto_for_database_interactions\/",
                 title: "Using Ecto for Database Interactions",
                 description: "Elixir is a process-oriented, functional programming language that runs on the Erlang virtual machine (BEAM). The language was influenced by Ruby. This inspiration can be seen and felt in Elixir’s ecosystem and tooling options. Elixir is known to be easy to learn and widely applicable within the software development industry.",
@@ -6518,7 +6497,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  259 ,
+                id:  258 ,
                 href: "\/tutorials\/docs\/pandas\/pandas\/viewing_and_understanding_dataframes\/",
                 title: "Viewing and Understanding Dataframes",
                 description: "In this section, you will be learning more about Dataframes, how to load data into one and how to perform operations.",
@@ -6527,7 +6506,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  260 ,
+                id:  259 ,
                 href: "\/tutorials\/docs\/erlang\/erlang\/web_development_in_erlang\/",
                 title: "Web Programming in Erlang",
                 description: "In Erlang, the inets library provides the functionality to build web servers, known as httpd, to handle HTTP requests. This tutorial will guide you through setting up a basic web server in Erlang and implementing a “Hello, World!” web application.\nFeatures of Erlang HTTP Server linkThe Erlang HTTP server (httpd) supports several features:\nSecure Sockets Layer (SSL) Erlang Scripting Interface (ESI) Common Gateway Interface (CGI) User Authentication (using Mnesia, Dets, or plain text database) Common Logfile Format (with or without disk_log support) URL Aliasing Action Mappings Directory Listings Setting Up the Web Server linkStarting the Web Library linkFirst, start the inets library:",
@@ -6536,7 +6515,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  261 ,
+                id:  260 ,
                 href: "\/tutorials\/docs\/htmx\/htmx\/web_security_basics_using_htmx\/",
                 title: "Web Security Basics using HTMX",
                 description: "Learn about what HTMX is and how you can use it.",
@@ -6545,7 +6524,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  262 ,
+                id:  261 ,
                 href: "\/tutorials\/docs\/htmx\/htmx\/web_socket_and_sse\/",
                 title: "Web Socket and SSE",
                 description: "htmx is a library that allows you to access modern browser features directly from HTML, rather than using javascript.",
@@ -6554,7 +6533,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  263 ,
+                id:  262 ,
                 href: "\/tutorials\/docs\/system-design\/system-design\/api_gateway\/",
                 title: "What Is an API Gateway?",
                 description: "If you are looking to grow in you tech career and understand system design indepth, this guide is for you.",
@@ -6563,7 +6542,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  264 ,
+                id:  263 ,
                 href: "\/tutorials\/docs\/system-design\/system-design\/caching\/",
                 title: "What is Caching?",
                 description: "If you are looking to grow in you tech career and understand system design indepth, this guide is for you.",
@@ -6572,7 +6551,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  265 ,
+                id:  264 ,
                 href: "\/tutorials\/docs\/system-design\/system-design\/load_balancing\/",
                 title: "What is Load Balancing?",
                 description: "If you are looking to grow in you tech career and understand system design indepth, this guide is for you.",
@@ -6581,7 +6560,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  266 ,
+                id:  265 ,
                 href: "\/tutorials\/docs\/pandas\/pandas\/windowing_operations\/",
                 title: "Windowing Operations in Pandas",
                 description: "In this section, you will be learning more about Dataframes, how to load data into one and how to perform operations.",
@@ -6590,7 +6569,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  267 ,
+                id:  266 ,
                 href: "\/tutorials\/docs\/golang\/golang\/working-with-collections-in-go\/",
                 title: "Working with Collections in Go",
                 description: "Learn how to efficiently manage collections in Go, including mastering arrays, slices, maps, and iterating over these collections using the range clause.",
@@ -6599,7 +6578,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  268 ,
+                id:  267 ,
                 href: "\/tutorials\/docs\/elm\/elm\/working_with_http_requests\/",
                 title: "Working with HTTP Requests",
                 description: "Handling HTTP requests and JSON data in Elm.",
@@ -6608,7 +6587,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  269 ,
+                id:  268 ,
                 href: "\/tutorials\/docs\/python\/python\/python_lists_and_tuples\/",
                 title: "Working with Lists and Tuples in Python: Creation, Access, and More",
                 description: "Discover how to effectively use lists and tuples in Python. Learn to create and access these data structures, utilize list comprehensions for concise coding, and understand tuple operations with clear examples.",
@@ -6617,7 +6596,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  270 ,
+                id:  269 ,
                 href: "\/tutorials\/docs\/pandas\/pandas\/working_with_missing_data\/",
                 title: "Working with Missing Data in Pandas",
                 description: "In this section, you will be learning more about Dataframes, how to load data into one and how to perform operations.",
@@ -6626,7 +6605,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  271 ,
+                id:  270 ,
                 href: "\/tutorials\/docs\/ocaml\/ocaml\/garbage_collector_using_ocaml\/",
                 title: "Working with the Garbage Collector in OCaml",
                 description: "Learn how to handle command line arguments in ocaml",
@@ -6635,7 +6614,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  272 ,
+                id:  271 ,
                 href: "\/tutorials\/docs\/pytorch\/pytorch\/writing_a_training_loop_from_scratch_in_pytorch\/",
                 title: "Writing a training loop from scratch in PyTorch",
                 description: "A comprehensive introduction to PyTorch for deep learning.",
@@ -6644,7 +6623,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  273 ,
+                id:  272 ,
                 href: "\/tutorials\/docs\/keras\/keras\/writing_cross_framework_custom_components\/",
                 title: "Writing cross-framework custom components",
                 description: "...",
@@ -6653,7 +6632,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  274 ,
+                id:  273 ,
                 href: "\/tutorials\/docs\/rust\/rust\/first_rust_program\/",
                 title: "Your First Rust Program",
                 description: "Learn to write, compile, and run your first simple Rust program. Understand the basics of Rust compilation and execution.",
@@ -6662,7 +6641,7 @@ impl Drop for CResourceHandle {
         );
     index.add(
             {
-                id:  275 ,
+                id:  274 ,
                 href: "\/tutorials\/docs\/zig\/",
                 title: "Zig",
                 description: "Zig is a general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software.",

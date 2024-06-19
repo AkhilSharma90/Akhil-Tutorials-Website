@@ -112,3 +112,7 @@ This command will start a local Streamlit server and open the application in you
 ### Conclusion
 
 In this tutorial, we created a web application that summarizes job descriptions using AI. We used Streamlit for the frontend and OpenAI's GPT model for generating the summaries. This application can be extended further to include more advanced features like user authentication, saving summaries, and more. This project demonstrates the power of combining Streamlit and OpenAI to create useful AI-powered tools.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

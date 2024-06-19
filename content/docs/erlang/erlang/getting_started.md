@@ -195,3 +195,7 @@ init([]) ->
 ```
 
 In summary, Erlang is a powerful language for building concurrent, distributed, and fault-tolerant systems. Its unique features and robust architecture make it a valuable tool in various industries, ensuring system reliability and scalability.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

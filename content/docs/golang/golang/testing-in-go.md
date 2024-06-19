@@ -109,7 +109,7 @@ You can then access profiling data by visiting `http://localhost:6060/debug/ppro
 Mastering testing in Go can significantly improve the quality and performance of your applications. By integrating unit tests, leveraging the power of table-driven tests, and utilizing benchmarks and profiling, you can ensure your code is not only functional but also efficient. Take the time to integrate these practices into your development process, and you'll see substantial benefits in the stability and performance of your software.
 
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://app.gumroad.com/d/c8e54ac9bed47ffc6b46e5fe2786f99d)
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq)
 
 **Frequently Asked Questions:**
 

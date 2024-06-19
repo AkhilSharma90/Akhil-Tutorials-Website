@@ -187,3 +187,7 @@ The first one, Secure, ensures that the browser will not send the cookie over an
 The second option, HttpOnly, means that the browser will not expose the cookie to JavaScript, ever (i.e. it won’t be in document.cookie). Even if someone is able to insert a malicious script, like in the evilwebsite.com example above, that malicious script cannot access the user’s cookie or send it to evilwebsite.com. The browser will only attach the cookie when the request is made to the website the cookie came from.
 
 Finally, SameSite=Lax locks down an avenue for Cross-Site Request Forgery (CSRF) attacks, which is where an attacker tries to get the client’s browser to make a malicious request to the yourdomain.com server—like a POST request. The SameSite=Lax setting tells the browser not to send the yourdomain.com cookie if the site that made the request isn’t yourdomain.com—unless it’s a straightforward `<a>` link navigating to your page. This is mostly browser default behavior now, but it’s important to still set it directly.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

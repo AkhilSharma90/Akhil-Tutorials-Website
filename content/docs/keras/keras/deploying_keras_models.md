@@ -225,3 +225,7 @@ model.fit(x_train, y_train, epochs=2)
 ```
 
 By following these steps, you can effectively deploy and optimize your Keras models for various platforms and applications.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

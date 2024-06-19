@@ -100,3 +100,7 @@ Understanding and using Haskell's advanced data types can significantly enhance 
 
 **Q: How can I improve my understanding of pattern matching and guards?**
 **A: Experiment with different data structures and scenarios. Writing more code that uses these features will deepen your understanding and proficiency.**
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

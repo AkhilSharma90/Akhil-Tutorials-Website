@@ -456,3 +456,7 @@ julia> fetch(@spawnat 2 take!(r))
 In this example, the remote channel `r` is created on worker 2 with a buffer size of 10, and values are asynchronously placed and fetched.
 
 Explore these threading and task capabilities to harness the full power of Julia's concurrency model for efficient, parallelized applications.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

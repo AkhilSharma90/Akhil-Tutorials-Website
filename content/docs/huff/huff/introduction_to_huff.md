@@ -57,3 +57,7 @@ curl -L get.huff.sh | bash
 Now, with huffup installed and in your path, you can simply run huffup to install the latest stable version of huffc (the huff compiler).
 
 To verify for yourself that it's installed, run huffc --help to view the help menu.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

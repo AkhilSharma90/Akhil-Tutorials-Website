@@ -252,3 +252,7 @@ Your React application should now be running on `http://localhost:3000` and will
 ## Conclusion
 
 In this tutorial, we created a simple note-taking application with a Rust backend using Actix-web and SQLite for data storage, and a React frontend. This setup can be expanded with additional features like authentication, search functionality, and more to create a fully-featured note-taking application. Happy coding!
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

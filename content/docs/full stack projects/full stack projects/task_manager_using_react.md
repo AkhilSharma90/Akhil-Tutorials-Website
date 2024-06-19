@@ -800,6 +800,10 @@ ReactDOM.render(
 ### API Connection:
 For us to make requests to the API endpoints on the backend server of Django, we will need to install Axios. Use the following command inside the frontend folder to install Axios:
 
-npm install axios
+`npm install axios`
 
 Congratulation!!. At this point, you have successfully build a Fullstack Django-React app and Used the Django REST framework to establish communication between the frontend and backend.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

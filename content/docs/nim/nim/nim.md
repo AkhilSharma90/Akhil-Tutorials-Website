@@ -101,3 +101,7 @@ let l = k + 7
 
 In practice, you will see/use let more frequently than const.
 While you could use var for everything, your default choice should be let. Use var only for the variables which will be modified.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

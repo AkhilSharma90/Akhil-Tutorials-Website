@@ -122,3 +122,7 @@ mix run --no-halt
 Using your browser or postman, you can enter the request `localhost:4000/` and you should see the `Hello World` message.
 
 You have just learnt how to set up and configure a server for your elixir project. You can add more route definitions and try it out unti you get it. Remember, repitition is key.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

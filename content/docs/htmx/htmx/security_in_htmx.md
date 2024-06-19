@@ -76,3 +76,7 @@ Here is an example CSP in a meta tag:
 This tells the browser “Only allow connections to the original (source) domain”. This would be redundant with the htmx.config.selfRequestsOnly, but a layered approach to security is warranted and, in fact, ideal, when dealing with application security.
 
 A full discussion of CSPs is beyond the scope of this document, but the MDN Article provide a good jumping off point for exploring this topic.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

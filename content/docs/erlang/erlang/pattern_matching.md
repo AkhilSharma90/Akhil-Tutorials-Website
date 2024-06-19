@@ -88,3 +88,7 @@ In this example, attempting to divide by zero is caught and handled, returning a
 ## Conclusion
 
 Pattern matching in Erlang is a powerful feature that simplifies working with complex data structures and controlling the flow of your program. By understanding how to use pattern matching effectively, you can write more concise and readable code. Remember to handle pattern matching failures gracefully to build robust applications.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -158,3 +158,7 @@ stop(_State) ->
 ### Conclusion
 
 Erlang's OTP framework provides a powerful set of tools and design principles for building robust, fault-tolerant applications. By leveraging supervision trees, generic servers, finite state machines, event handlers, and applications, developers can create scalable and maintainable systems that meet the demands of high-availability environments. Understanding and mastering OTP is crucial for any Erlang developer aiming to build production-quality systems.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

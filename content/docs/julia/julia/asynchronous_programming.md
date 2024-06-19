@@ -215,3 +215,7 @@ The primary function for waiting for an event is `wait`. Several objects impleme
 In all these cases, `wait` operates on a `Condition` object, responsible for queueing and restarting tasks. When a task calls `wait` on a `Condition`, the task is marked as non-runnable, added to the condition's queue, and switches to the scheduler. The scheduler then picks another task to run or blocks waiting for external events. When the event occurs, an event handler calls `notify` on the condition, making the tasks waiting on that condition runnable again.
 
 A task explicitly created by calling `Task` is initially unknown to the scheduler. This allows for manual task management using `yieldto` if desired. However, when such a task waits for an event, it will still be automatically restarted when the event occurs, as expected.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -141,3 +141,8 @@ Building a real-world Haskell application involves careful planning
 
 **Q: How can I monitor the performance of my Haskell application in production?**
 **A: Use monitoring tools such as Prometheus with Haskell libraries that support metrics collection to keep track of application performance and health.**
+
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

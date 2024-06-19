@@ -276,3 +276,7 @@ export function findOverallProgress(dsalist) {
 
 ## Conclusion
 This guide provides a step-by-step approach to building a progress tracker using React and local storage. By following the steps and utilizing the provided code snippets, you can create a functional and visually appealing progress tracker for any task or project.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -61,3 +61,7 @@ sync()
 - **Error Handling**: Implement proper error handling for parallel code to manage exceptions and ensure graceful termination.
 
 Parallelism in Nim offers flexibility and scalability, allowing you to efficiently utilize multiple threads to execute tasks concurrently.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

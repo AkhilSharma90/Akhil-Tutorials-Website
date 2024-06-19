@@ -117,3 +117,7 @@ if not chan.trySend(42):
 - **Thread Management**: Use plain threads with `createThread` or higher-level abstractions with `spawn`.
 
 Channels in Nim offer a powerful way to handle thread communication, allowing both blocking and non-blocking operations, and can be easily integrated with Nim's threading model.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

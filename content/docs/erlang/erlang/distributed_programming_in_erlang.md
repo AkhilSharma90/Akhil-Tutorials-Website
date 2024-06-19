@@ -125,3 +125,7 @@ true
 ## Conclusion
 
 Erlang's built-in support for distributed programming makes it a powerful tool for creating scalable, reliable, and high-performance applications. By understanding the key methods and concepts, you can leverage Erlang to build robust distributed systems.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

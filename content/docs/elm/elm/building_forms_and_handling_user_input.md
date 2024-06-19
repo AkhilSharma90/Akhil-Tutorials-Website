@@ -198,3 +198,7 @@ viewValidation model =
 ## Conclusion
 
 This tutorial covered the essential parts of an Elm application for a simple user registration form. You learned how to handle user input, update the model, and perform validation. This example provides a solid foundation for creating more complex forms and applications in Elm.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

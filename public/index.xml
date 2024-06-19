@@ -358,13 +358,6 @@
       <description>In this tutorial, we&amp;rsquo;ll build a simple note-taking application using Rust for the backend and React for the frontend. Our Rust backend will handle note data and provide a RESTful API for the React frontend to interact with.&#xA;Prerequisites linkBefore we start, make sure you have the following installed:&#xA;Rust Node.js Cargo SQLite Create React App Backend: Rust with Actix-web and SQLite linkStep 1: Create a new Rust project linkOpen your terminal and create a new Rust project:</description>
     </item>
     <item>
-      <title>Building a Real-World Application in Go</title>
-      <link>http://localhost:1313/tutorials/docs/golang/golang/building-real-world-application-go/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/golang/golang/building-real-world-application-go/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Building a Real-World Haskell Application</title>
       <link>http://localhost:1313/tutorials/docs/haskell/haskell/building-real-world-haskell-application/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -8,11 +8,11 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/technical-architecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>A Detailed Guide to Event-Driven Architecture</title>
-      <link>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/event_driven_architecture/</link>
+      <title>A Getting Started guide to Technical Architecture: Principles and Best Practices</title>
+      <link>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/introduction_to_technical_arch/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/event_driven_architecture/</guid>
-      <description>Event-Driven Architecture (EDA) has emerged as a powerful paradigm for building scalable, resilient, and responsive systems. This guide provides an in-depth look at EDA, its core concepts, benefits, and challenges, and offers practical advice for implementing it in your projects.&#xA;What is Event-Driven Architecture? linkEvent-Driven Architecture (EDA) is a design paradigm in which the flow of the program is determined by events such as user actions, sensor outputs, or messages from other programs.</description>
+      <guid>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/introduction_to_technical_arch/</guid>
+      <description>In the rapidly evolving landscape of technology, having a robust technical architecture is crucial for the success of any software project. Technical architecture lays the foundation for how a system will be built, deployed, and maintained. This blog post aims to provide an overview of technical architecture, its significance, and the fundamental principles guiding effective architectural practices. We will also explore best practices and common pitfalls to avoid, ensuring that your projects are built on a solid architectural foundation.</description>
     </item>
     <item>
       <title>Choosing the Right Technology Stack for Your Project</title>
@@ -29,18 +29,18 @@
       <description>In today&amp;rsquo;s digital landscape, security is paramount when designing and implementing technical architectures. As technology advances, so do the threats and vulnerabilities that can compromise systems. This blog post aims to provide a comprehensive guide to incorporating robust security measures into your technical architecture. We will explore common threats, best practices for secure coding, and essential tools and frameworks to bolster your system&amp;rsquo;s defenses.&#xA;Common Security Threats link SQL Injection (SQLi):</description>
     </item>
     <item>
+      <title>Event-Driven Architecture</title>
+      <link>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/event_driven_architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/event_driven_architecture/</guid>
+      <description>Event-Driven Architecture (EDA) has emerged as a powerful paradigm for building scalable, resilient, and responsive systems. This guide provides an in-depth look at EDA, its core concepts, benefits, and challenges, and offers practical advice for implementing it in your projects.&#xA;What is Event-Driven Architecture? linkEvent-Driven Architecture (EDA) is a design paradigm in which the flow of the program is determined by events such as user actions, sensor outputs, or messages from other programs.</description>
+    </item>
+    <item>
       <title>Implementing CI/CD Pipelines for Seamless Deployment</title>
       <link>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/ci_cd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/ci_cd/</guid>
       <description>Continuous Integration and Continuous Deployment (CI/CD) are pivotal practices in modern software development, enabling teams to deliver code changes more frequently and reliably. CI/CD pipelines automate the process of code integration, testing, and deployment, fostering a culture of continuous improvement and rapid delivery. This post will discuss the importance of CI/CD in technical architecture and provide a step-by-step guide to setting up and maintaining CI/CD pipelines.&#xA;Benefits of CI/CD link1. Accelerated Development linkCI/CD pipelines enable developers to integrate and deploy code changes quickly and efficiently.</description>
-    </item>
-    <item>
-      <title>Introduction to Technical Architecture: Principles and Best Practices</title>
-      <link>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/introduction_to_technical_arch/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/technical-architecture/technical-architecture/introduction_to_technical_arch/</guid>
-      <description>In the rapidly evolving landscape of technology, having a robust technical architecture is crucial for the success of any software project. Technical architecture lays the foundation for how a system will be built, deployed, and maintained. This blog post aims to provide an overview of technical architecture, its significance, and the fundamental principles guiding effective architectural practices. We will also explore best practices and common pitfalls to avoid, ensuring that your projects are built on a solid architectural foundation.</description>
     </item>
     <item>
       <title>Microservices vs. Monolithic Architecture: Which One to Choose?</title>

@@ -138,3 +138,7 @@ echo(animals[0] of Animal) # true
 - **Inheritance**: Use `of` keyword for creating subtypes and overriding methods.
 
 By following these guidelines, you can leverage Nim's OOP features to write clean, efficient, and maintainable code.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

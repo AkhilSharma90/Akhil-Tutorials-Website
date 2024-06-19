@@ -159,3 +159,7 @@ model.fit(X_train, y_train, epochs=100, callbacks=[lr_scheduler])
 ```
 
 By applying these advanced tuning and optimization techniques, you can significantly improve the performance and efficiency of your Keras models.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -89,3 +89,8 @@ Error handling is a critical component of any software application, and Haskell 
 
 **Q: Can I mix exceptions and type-based error handling in my Haskell applications?**
 **A: Yes, but it should be done cautiously. Reserve exceptions for unpredictable errors that occur at the IO level or in other side-effectful interactions, and use type-based methods for predictable, domain-specific errors.**
+
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -107,3 +107,7 @@ In this example, we define a supervisor (`my_supervisor`) and a worker (`my_work
 ### Conclusion
 
 Understanding and applying best practices in Erlang programming helps in building robust, scalable, and maintainable systems. By learning from real-world applications and adhering to recommended practices, developers can leverage Erlang's full potential in creating high-availability systems.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

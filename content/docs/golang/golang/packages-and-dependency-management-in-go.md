@@ -91,7 +91,7 @@ Sharing your code with other developers can be rewarding and beneficial for the 
 Mastering packages and dependency management in Go will elevate your development skills and improve the quality of your projects. By effectively organizing your code into packages, managing dependencies with Go modules, and sharing your work, you contribute to a vibrant ecosystem and reap the benefits of collaborative development.
 
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://app.gumroad.com/d/c8e54ac9bed47ffc6b46e5fe2786f99d)
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq)
 
 **Frequently Asked Questions:**
 

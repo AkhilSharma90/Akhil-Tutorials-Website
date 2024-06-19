@@ -163,3 +163,7 @@ In this tutorial, we have:
 - Created a custom Mix task to manage Docker tasks.
 
 This setup simplifies development and deployment workflows, making it easier to manage your Phoenix applications in a containerized environment.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

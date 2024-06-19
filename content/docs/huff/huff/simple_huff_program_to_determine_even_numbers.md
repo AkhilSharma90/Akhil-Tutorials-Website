@@ -146,3 +146,7 @@ By replacing `0x00` with `RETURNDATASIZE` in three places, we save 3 gas, equiva
 ## Conclusion
 
 This optimized Huff contract efficiently determines whether a given number is even or odd. By leveraging the `RETURNDATASIZE` opcode, we reduce the gas consumption, making the contract more efficient.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

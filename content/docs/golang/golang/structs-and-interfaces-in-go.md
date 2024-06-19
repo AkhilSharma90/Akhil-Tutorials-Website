@@ -110,7 +110,7 @@ Structs and interfaces are pivotal in Go for building structured and maintainabl
 By mastering structs and interfaces, you elevate your Go programming capabilities, enabling you to tackle more complex projects with confidence and precision.
 
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://app.gumroad.com/d/c8e54ac9bed47ffc6b46e5fe2786f99d)
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq)
 
 **Frequently Asked Questions:**
 

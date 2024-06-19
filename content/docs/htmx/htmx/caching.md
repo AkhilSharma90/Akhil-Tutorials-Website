@@ -12,3 +12,7 @@ If your server adds the Last-Modified HTTP response header to the response for a
 If you are unable (or unwilling) to use the Vary header, you can alternatively set the configuration parameter getCacheBusterParam to true. If this configuration variable is set, htmx will include a cache-busting parameter in GET requests that it makes, which will prevent browsers from caching htmx-based and non-htmx based responses in the same cache slot.
 
 htmx also works with ETag as expected. Be mindful that if your server can render different content for the same URL (for example, depending on the value of the HX-Request header), the server needs to generate a different ETag for each content.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

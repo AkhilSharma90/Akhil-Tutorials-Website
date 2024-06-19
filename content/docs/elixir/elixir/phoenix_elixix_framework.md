@@ -351,3 +351,7 @@ channel.join()
   .receive("error", resp => { console.log("Unable to join", resp) })
 ```
 This JavaScript code connects to the "updates:all" channel and logs the status of the connection.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

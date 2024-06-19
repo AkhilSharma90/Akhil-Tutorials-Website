@@ -83,3 +83,7 @@ Concurrency and parallelism are powerful tools in Haskell's arsenal, enabling de
 
 **Q: Are there any common pitfalls in parallel programming in Haskell?**
 **A: Common pitfalls include overusing parallelism, leading to contention and reduced performance, and incorrect assumptions about the independence of tasks, which can result in subtle bugs or incorrect results.**
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

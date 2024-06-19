@@ -15,13 +15,6 @@
       <description>Introduction:&#xA;Hello, Go developers! Error handling is a critical component of robust application development. Unlike many programming languages that use exceptions for error handling, Go uses a distinct approach that encourages explicit error checking, which can lead to more reliable and understandable code. In this blog, we&amp;rsquo;ll dive deep into Go&amp;rsquo;s error handling strategies, exploring how to handle errors effectively, create and use custom errors, and utilize Go&amp;rsquo;s defer, panic, and recover mechanisms to manage exceptional situations gracefully.</description>
     </item>
     <item>
-      <title>Building a Real-World Application in Go</title>
-      <link>http://localhost:1313/tutorials/docs/golang/golang/building-real-world-application-go/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tutorials/docs/golang/golang/building-real-world-application-go/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Building Microservices with Go</title>
       <link>http://localhost:1313/tutorials/docs/golang/golang/microservices-with-go/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

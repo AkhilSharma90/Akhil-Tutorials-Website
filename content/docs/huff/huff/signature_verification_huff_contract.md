@@ -189,3 +189,7 @@ mstore
 ## Conclusion
 
 This optimized Huff contract verifies if a message was signed by the sender of the transaction. By carefully structuring the calldata and using efficient opcodes, we ensure that the contract performs its task effectively. If any part of the validation fails, the contract will cause the transaction to run out of gas.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

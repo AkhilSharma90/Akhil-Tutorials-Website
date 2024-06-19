@@ -90,3 +90,7 @@ Monads are a cornerstone of functional programming in Haskell, providing essenti
 **Q: Are there other monads beyond Maybe, IO, and List?**
 **A: Yes, Haskell has several other monads like `Reader`, `Writer`, and `State`, each designed to handle specific types of computations and side effects effectively.**
 
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

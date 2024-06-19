@@ -145,7 +145,7 @@ func main() {
 Mastering database interactions in Go can elevate your backend development, allowing you to build more dynamic and data-intensive applications efficiently. Whether you choose direct SQL interactions or prefer the simplicity of an ORM, Go provides the tools necessary to handle your data needs effectively. As you continue to develop with Go, consider these practices to ensure your applications are robust, maintainable, and performant.
 
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://app.gumroad.com/d/c8e54ac9bed47ffc6b46e5fe2786f99d)
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq)
 
 **Frequently Asked Questions:**
 

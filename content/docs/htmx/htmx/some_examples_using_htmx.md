@@ -66,3 +66,8 @@ htmx comes with a few built-in extensions that add additional behavior. Here are
 ### Conclusion
 
 htmx is a powerful library that enables a new way of thinking about web applications, leveraging the power of hypertext to build rich, interactive user interfaces without the complexity of modern JavaScript frameworks. By using htmx, you can create applications that are simpler, more maintainable, and more performant.
+
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

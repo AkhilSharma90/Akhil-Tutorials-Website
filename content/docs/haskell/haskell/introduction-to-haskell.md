@@ -82,3 +82,7 @@ Congratulations! You've just set up your Haskell development environment and wri
 
 **Q: What are some common uses for Haskell?**
 **A:** Haskell is often used in academia for teaching programming concepts, in industries for data analysis, and anywhere robustness and correctness are paramount, such as in financial services.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

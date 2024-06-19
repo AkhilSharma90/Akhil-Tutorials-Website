@@ -118,7 +118,7 @@ for j < 10 {
 Now that you've got a solid foundation in Go's data types, variables, constants, operators, and control structures, you’re well on your way to becoming proficient in Go programming. These basic elements are the building blocks of any Go program, and mastering them will greatly enhance your ability to write robust and maintainable code. Keep practicing what you've learned here, and stay tuned for more advanced Go tutorials!
 
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://app.gumroad.com/d/c8e54ac9bed47ffc6b46e5fe2786f99d)
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq)
 
 **Frequently Asked Questions:**
 

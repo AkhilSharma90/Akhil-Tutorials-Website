@@ -255,3 +255,7 @@ Open your browser and navigate to `http://localhost:5173`. Enter some text into 
 ### 6. Conclusion
 
 In this tutorial, we built a Summarizer Website using the MERN stack. We covered how to set up the React frontend, the Express backend, and how to integrate the OpenAI API to generate text summaries. This project demonstrates the power of the MERN stack in building full-stack applications and how you can leverage external APIs to add powerful features to your apps.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

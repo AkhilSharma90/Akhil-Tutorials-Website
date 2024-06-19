@@ -595,3 +595,7 @@ We'll create three main components: `App`, `Entries`, and `Entry`.
 Your React application should now be running on `http://localhost:3000`, and it will interact with the backend running on `http://localhost:8000`.
 
 This setup provides a fully functional calorie tracker application with a Go backend and a React frontend. The backend handles CRUD operations for calorie entries stored in MongoDB, and the frontend allows users to interact with these entries through a web interface.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

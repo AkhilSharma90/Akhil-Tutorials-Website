@@ -45,3 +45,7 @@ mine.dump() // This will print: 2 4
 - Method Invocation: When calling methods like `dump()`, the `self` argument is implicitly passed as the current instance.
 - Static Nature: Mojo structs are static, meaning their structure is fixed at compile time and cannot be altered during runtime.
 - Future Development: Mojo plans to support classes in future releases, which may introduce more dynamic OOP features.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

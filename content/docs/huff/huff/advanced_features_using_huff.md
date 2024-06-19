@@ -56,3 +56,6 @@ Let's look at a more complex Huff contract example that demonstrates conditional
 
 In this example, the `CHECK_VALUE` macro performs a comparison and jumps to different locations based on the result, showcasing Huff's ability to handle complex logic flows.
 
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

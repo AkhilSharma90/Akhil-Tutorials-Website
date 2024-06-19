@@ -148,3 +148,7 @@ use_ptr(p) # borrowing function call
 take_ptr(p^) # passing ownership
 # use_ptr(p) # ERROR: p is no longer valid here!
 ```
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

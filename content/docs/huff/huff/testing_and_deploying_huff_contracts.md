@@ -184,3 +184,7 @@ You need to configure the `RPC_URL` of the network and `PRIVATE_KEY` of the depl
 To validate the deployment, you can either add assertions in the script’s `run()` method or implement fork tests with the deployed contract address.
 
 We have successfully tested and deployed our simple `Math.huff` contract. You can follow the same process to test and deploy more complex Huff contracts as well.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

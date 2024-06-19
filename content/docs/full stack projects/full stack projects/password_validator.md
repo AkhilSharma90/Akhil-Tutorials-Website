@@ -214,3 +214,7 @@ Open your browser and navigate to `http://localhost:3000`. Enter a password and 
 ### 6. Conclusion
 
 In this tutorial, we built a simple password validation tool using Go and React. This tool can be extended with additional validation rules or integrated into a larger application to enhance security. Understanding how to validate passwords and provide feedback to users is an essential skill for any developer working on user authentication and security.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
