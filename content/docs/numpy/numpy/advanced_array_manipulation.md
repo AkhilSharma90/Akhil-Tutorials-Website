@@ -177,3 +177,5 @@ print("Array after multiple conditional selection:\n", selected_arr)
 In this tutorial, we've explored advanced array manipulation techniques using NumPy, including reshaping, stacking, splitting, broadcasting, vectorization, and advanced indexing. These tools and techniques are essential for efficient numerical computing and can greatly enhance the performance and readability of your code.
 
 This comprehensive tutorial should provide a solid understanding of advanced array manipulation techniques in NumPy, making your numerical computing tasks more efficient and effective.
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

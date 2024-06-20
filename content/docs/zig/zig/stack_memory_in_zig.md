@@ -145,3 +145,7 @@ The simple way to solve our initial bug is to change init so that it returns a U
 
 Before diving into the heap, know that we'll see one final example of dangling pointers before the end of this guide. At that point, we'll have covered enough of the language to give a sightly less convoluted example. I want to revisit this topic because, for developers coming from garbage collected languages, this is likely to cause bugs and frustration. It is something you will get a handle on. It comes down to being aware of where and when data exists.
 
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

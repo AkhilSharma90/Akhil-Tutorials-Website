@@ -71,3 +71,7 @@ Choosing the right type of smart pointer depends on your specific needs:
 #### Conclusion
 
 Smart pointers in Rust provide powerful tools for managing memory and data across different use cases, from single-threaded applications to complex multi-threaded systems. Understanding when and how to use each type of smart pointer will help you write more efficient and safe Rust applications.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -106,6 +106,6 @@ pub fn main() !void {
 
 Zig's concurrency features, including async/await, channels, and the select statement, empower developers to write efficient and expressive concurrent programs. By leveraging these primitives, you can build highly responsive and scalable applications while ensuring safety and correctness.
 
----
+### Learn How To Build AI Projects
 
-This tutorial covers the basics of concurrency in Zig, providing you with a solid foundation to explore more advanced topics and build sophisticated concurrent applications. Happy coding!
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

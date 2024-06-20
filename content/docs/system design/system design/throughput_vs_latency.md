@@ -81,3 +81,7 @@ Implementing QoS strategies can optimize network performance by prioritizing lat
 | **Impacting factors**    | Bandwidth, processing power, packet loss, network topology. | Geographical distance, network congestion, protocol efficiency, network infrastructure. |
 
 Understanding and optimizing both latency and throughput are vital for achieving high network performance, ensuring that data transfer is both fast and efficient, and meeting the demands of modern applications and users.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

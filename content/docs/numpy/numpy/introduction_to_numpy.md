@@ -87,3 +87,5 @@ In this example, we create NumPy arrays `time` and `speed` to represent the time
 ## Conclusion
 
 NumPy is an essential library for numerical computing in Python, offering powerful tools for working with large datasets, performing mathematical operations, and conducting scientific research. Its efficiency, flexibility, and ease of use make it the go-to choice for scientists, engineers, and data analysts alike. Whether you're performing simple calculations or tackling complex computational tasks, NumPy provides the tools you need to get the job done efficiently and effectively.
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

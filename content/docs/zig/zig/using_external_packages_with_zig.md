@@ -189,3 +189,6 @@ It sounds like a lot, and I hope things get streamlined. But it's mostly somethi
 
 A word of warning, I've found Zig's caching of dependencies to be on the aggressive side. If you try to update a dependency but Zig doesn't seem to detect the change...well, I nuke the project's zig-cache folder as well as ~/.cache/zig.
 
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -181,3 +181,7 @@ $ ocamlc unix.cma objcache.ml -o objcache
 ## Conclusion
 
 In this tutorial, we learned how to use the `Gc` module to interact with the garbage collector and how to write finalizers using the `Weak` module. We also implemented an in-memory object database cache as a practical example. By understanding and utilizing these concepts, you can manage memory more effectively in OCaml programs.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

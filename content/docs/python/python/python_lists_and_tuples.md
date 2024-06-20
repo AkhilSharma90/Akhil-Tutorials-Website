@@ -84,3 +84,7 @@ print(repeated_tuple)
 ### Conclusion
 
 Lists and tuples are integral to data handling in Python. Lists offer flexibility and a wide array of methods for manipulation, making them suitable for applications where the collection of items might change. Tuples, being immutable, are perfect for fixed data sets and can serve as keys in dictionaries. This guide has explored how to create, access, and manipulate these structures with practical examples.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

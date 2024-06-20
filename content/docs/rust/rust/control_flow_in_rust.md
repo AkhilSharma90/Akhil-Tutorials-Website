@@ -105,3 +105,7 @@ This code counts down from 3 to 1.
 Understanding and using control flow constructs is fundamental in Rust as they allow you to handle more complex logic and data operations effectively. Conditional statements and loops provide the basic mechanisms to control the flow of execution, while iterators offer a powerful, Rust-idiomatic way to handle sequences and collections.
 
 In our next post, we'll explore Rust's ownership model, which plays a crucial role in how data is handled and manipulated in a safe, efficient manner. Stay tuned to deepen your understanding of Rust and continue building your programming skills!
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

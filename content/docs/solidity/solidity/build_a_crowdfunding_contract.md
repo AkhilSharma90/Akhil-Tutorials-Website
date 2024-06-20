@@ -209,3 +209,7 @@ function refund(uint256 _id) external {
 ### Conclusion
 
 Each block of the contract code represents a specific functionality of the crowdfunding contract, from campaign creation to fund claiming and refunding. Understanding each block's purpose and logic is essential for building and interacting with the contract effectively.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

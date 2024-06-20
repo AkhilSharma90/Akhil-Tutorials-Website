@@ -80,3 +80,7 @@ This wrapper safely manages a C resource, providing methods that maintain Rust's
 #### Conclusion
 
 Integrating Rust with other languages via FFI opens up a vast array of possibilities but requires careful management to maintain Rust’s safety guarantees. By understanding how to call C functions and abstracting unsafe interactions behind safe APIs, Rust developers can safely leverage existing C codebases or system libraries.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

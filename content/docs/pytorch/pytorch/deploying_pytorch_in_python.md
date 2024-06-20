@@ -218,3 +218,7 @@ The server we wrote is quite trivial and may not do everything you need for your
 - In this tutorial, we only showed how to build a service that could return predictions for a single image at a time. We could modify our service to be able to return predictions for multiple images at once. In addition, the service-streamer library automatically queues requests to your service and samples them into mini-batches that can be fed into your model. You can check out this tutorial.
 - Finally, we encourage you to check out our other tutorials on deploying PyTorch models linked-to at the top of the page.
 - 
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

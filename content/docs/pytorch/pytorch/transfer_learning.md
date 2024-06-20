@@ -133,3 +133,7 @@ engine.train(model=model, train_dataloader=train_dataloader, test_dataloader=tes
 
 ### Conclusion
 By following these steps, you can effectively utilize transfer learning to boost your model's performance with minimal data and effort. This technique not only saves time and resources but also leverages the power of pre-trained models to achieve superior results on custom tasks.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

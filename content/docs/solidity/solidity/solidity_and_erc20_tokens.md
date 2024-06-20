@@ -144,3 +144,7 @@ mapping(address => mapping(address => uint256)) allowances;
 ### Summary
 
 The ERC-20 token standard provides a robust framework for creating fungible tokens on the Ethereum blockchain. By adhering to the mandatory functions and understanding the optional extensions, developers can create tokens that are easily integratable into the existing Ethereum ecosystem. The standardization introduced by ERC-20 has significantly streamlined token development and interaction, benefiting the broader crypto community.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

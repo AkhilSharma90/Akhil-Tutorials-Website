@@ -92,3 +92,7 @@ Choose frameworks specifically designed for REST APIs to ensure best practices a
 ## Conclusion
 
 Striving to design APIs that are a pleasure to use benefits both consumers and developers. The principles of good semantics, simplicity, and common sense are at the heart of effective REST API design. REST API design is more of an art than a science—the more you practice, the better you get. If you have alternative approaches to the tips shared above, I would love to hear them. In the meantime, keep building and improving those APIs!
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

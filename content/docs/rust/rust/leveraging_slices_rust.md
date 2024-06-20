@@ -71,3 +71,7 @@ This correctly slices the first two Cyrillic characters, respecting UTF-8 encodi
 #### Conclusion
 
 Slices in Rust are a versatile tool for managing data efficiently. They allow programs to handle partial data without the cost of duplication, reinforcing Rust’s principles of safety and efficiency. As we've seen, they are particularly useful in string manipulation, which is a common requirement in many programs.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

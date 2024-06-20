@@ -255,3 +255,8 @@ _Subplots for line plots with pandas_
 #### Bar Plots in Pandas
 
 For discrete columns, you can use a bar plot over the category counts to visualize their distribution. The
+
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

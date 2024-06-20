@@ -66,3 +66,7 @@ Hello, World!
 Congratulations! You've just written, compiled, and run your first Rust program. This simple example has introduced you to the basics of Rust projects, the structure of a Rust program, and how to use Cargo to manage and run Rust code.
 
 In our next post, we'll explore more about Rust's variable bindings, types, and operations, which will help you write more complex programs. Stay tuned and happy coding!
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

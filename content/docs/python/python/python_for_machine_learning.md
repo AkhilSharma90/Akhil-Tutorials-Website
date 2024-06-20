@@ -149,3 +149,7 @@ This example illustrates how to train and evaluate a logistic regression model, 
 ### Conclusion
 
 This extensive guide has covered essential Python libraries for machine learning, fundamental machine learning concepts, and a detailed walkthrough of building a logistic regression model. These components provide a solid foundation for diving into more advanced machine learning techniques and applications in Python.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -83,3 +83,7 @@ Docstrings are a valuable tool for any developer and can be accessed through the
 ### Conclusion
 
 Understanding and applying Python’s basic syntax, proper indentation, and commenting practices are foundational skills for programming in Python. This blog has aimed to fortify these basics while providing practical examples to illustrate their application.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

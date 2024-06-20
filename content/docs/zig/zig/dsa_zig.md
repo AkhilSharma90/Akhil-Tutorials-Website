@@ -95,3 +95,7 @@ fn partition(arr: []u32, left: usize, right: usize) usize {
 ## Conclusion
 
 While Zig may not have pre-built DSA libraries like other languages, its capabilities for low-level programming, interoperability with C, and emphasis on safety and performance make it a great choice for implementing data structures and algorithms from scratch or utilizing existing libraries. With Zig, you have the flexibility to tailor your DSA implementations to your specific needs while ensuring reliability and efficiency.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -111,3 +111,7 @@ Crates are Rust's units of code reuse, comprising either binary or library proje
 #### Conclusion
 
 Rust’s module system and its robust handling of external crates provide a structured way to organize code and extend functionality with minimal effort. Mastering these tools is crucial for any Rust programmer looking to build scalable and maintainable applications. 
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

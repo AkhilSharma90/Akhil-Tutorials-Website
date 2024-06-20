@@ -73,3 +73,7 @@ This `timer` decorator measures the time it takes to execute the function `long_
 ### Conclusion
 
 Decorators are a valuable feature in Python, offering an elegant and expressive way to modify functions' behavior dynamically. Understanding and utilizing decorators can lead to cleaner, more efficient, and more maintainable code, especially in large-scale applications. This guide has introduced the concept of decorators, shown how to apply them, and demonstrated how to create a practical decorator for measuring execution time.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

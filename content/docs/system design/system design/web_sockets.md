@@ -108,3 +108,7 @@ Several libraries facilitate WebSocket implementation across different programmi
 - **Open-Source Resources**: Numerous open-source libraries and tutorials are available.
 
 By leveraging WebSockets, developers can build more interactive, efficient, and responsive applications, providing a superior user experience in real-time scenarios.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

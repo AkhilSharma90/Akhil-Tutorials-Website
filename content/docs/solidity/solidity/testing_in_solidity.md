@@ -114,3 +114,7 @@ Forge will execute the tests and provide feedback on whether they pass or fail.
 ## Conclusion
 
 Unit testing in Solidity is crucial for developing reliable smart contracts. Using the AAA pattern helps in structuring tests clearly and effectively. In this blog, we demonstrated how to write unit tests for a simple `Counter` contract using Forge. By following the AAA pattern, you can create well-structured and maintainable tests for your smart contracts.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

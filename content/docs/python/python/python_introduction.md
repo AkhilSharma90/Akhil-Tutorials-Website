@@ -63,3 +63,7 @@ A "Hello World" program is a simple script that outputs "Hello, world!" to the c
 ### Conclusion
 
 This introduction to Python provides the groundwork for starting your programming journey. Upcoming sections will delve into Python syntax, programming constructs, and eventually more complex concepts such as object-oriented programming and web development with Python.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

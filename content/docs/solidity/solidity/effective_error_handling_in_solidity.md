@@ -70,3 +70,7 @@ In the example, the first `revert()` call uses a custom error `ThrowMe_BadInput`
 - **`revert()`**: Use for complex error handling and throwing custom-defined errors. It reverts the transaction and can provide detailed error information.
 
 By understanding and using these error-handling mechanisms appropriately, you can ensure that your Solidity smart contracts are robust, secure, and maintainable.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -134,3 +134,7 @@ plt.show()
 ```
 
 This tutorial provides a comprehensive introduction to time series analysis using Pandas, demonstrating how to create, manipulate, and visualize time series data effectively. By mastering these techniques, you can leverage the power of Pandas to perform advanced time series analysis and gain valuable insights from your data.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -100,3 +100,7 @@ Enums in Rust can carry data along with variant labels, enabling pattern matchin
 #### Conclusion
 
 Advanced structs and enums are powerful tools in the Rust programmer’s toolkit, offering flexibility, safety, and expressive power. By mastering these types, you can create robust applications that take full advantage of Rust's type system.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

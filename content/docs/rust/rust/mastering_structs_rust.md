@@ -108,3 +108,7 @@ This `Color` tuple struct represents a color using RGB values.
 #### Conclusion
 
 Structs are a powerful feature in Rust that enable the creation of custom data types tailored to the specific requirements of your software, promoting cleaner, more organized, and safer code. Understanding how to effectively use structs, along with their methods and associated functions, is essential for any Rust developer aiming to build scalable and efficient applications.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

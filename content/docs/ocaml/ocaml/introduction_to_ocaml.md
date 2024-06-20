@@ -56,3 +56,7 @@ Following best practices empowers you to write clean, maintainable, and performa
 - **Meaningful Naming:** Employ descriptive names for variables, functions, and modules to enhance code readability and maintainability.
 - **Strategic Use of Comments:** Add comments to explain complex logic or non-obvious sections of code. However, avoid over-commenting well-structured code.
 - **Performance Optimization:** Be mindful of recursive function calls and leverage tail recursion to prevent stack overflows
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

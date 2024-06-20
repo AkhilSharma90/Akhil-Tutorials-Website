@@ -97,3 +97,7 @@ This provides flexibility in handling different outcomes of the `divide` functio
 #### Conclusion
 
 Understanding and effectively utilizing the `Result` and `Option` types are foundational to robust error handling in Rust. By embracing these constructs and using the appropriate error propagation techniques, you can enhance the reliability and maintainability of your Rust applications. In subsequent posts, we will explore more advanced error handling patterns and practices to further refine your Rust programming skills.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

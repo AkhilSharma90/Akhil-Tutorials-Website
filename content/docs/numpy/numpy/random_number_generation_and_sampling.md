@@ -78,6 +78,4 @@ print("Random array with seed 42:\n", random_array)
 ### Conclusion
 Random number generation and sampling are crucial components of many computational tasks. NumPy's random module provides a wide range of functions for generating random numbers and sampling from various probability distributions. By understanding these functions and their parameters, you can generate random data tailored to your specific needs, enabling you to perform statistical simulations, model testing, and more with ease.
 
----
-
-This tutorial should give you a solid foundation in random number generation and sampling using NumPy, empowering you to incorporate randomness into your computational tasks effectively.
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

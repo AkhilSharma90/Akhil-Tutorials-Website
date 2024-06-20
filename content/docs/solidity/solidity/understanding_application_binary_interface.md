@@ -188,3 +188,7 @@ By using the ABI, `ethers.js` converts the human-readable function call `setNumb
 ### Summary: What is a Smart Contract ABI
 
 The ABI, or “Application Binary Interface,” is a crucial component that allows humans and machines to encode and decode data for interacting with smart contracts. It simplifies the process of translating human-readable code into machine-readable bytecode and vice versa, making it easier to develop and interact with complex Ethereum-based applications.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

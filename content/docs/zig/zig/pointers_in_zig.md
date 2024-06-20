@@ -424,3 +424,7 @@ pub const User = struct {
 You might never need a recursive structure, but this isn't about data modeling. It's about understanding pointers and memory models and better understanding what the compiler is up to.
 
 A lot of developers struggle with pointers, there can be something elusive about them. They don't feel concrete like an integer, or string or User. None of this has to be crystal clear for you to move forward. But it is worth mastering, and not just for Zig. These details might be hidden in languages like Ruby, Python and JavaScript, and to a lesser extent C#, Java and Go, but they're still there, impacting how you write code and how that code runs. So take your time, play with examples, add debug print statements to look at variables and their address. The more you explore, the clearer it will get.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

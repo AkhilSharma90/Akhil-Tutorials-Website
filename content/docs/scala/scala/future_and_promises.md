@@ -237,3 +237,7 @@ In the event that some callbacks throw an exception, the other callbacks are exe
 In the event that some callbacks never complete (e.g. the callback contains an infinite loop), the other callbacks may not be executed at all. In these cases, a potentially blocking callback must use the blocking construct (see below).
 
 Once executed, the callbacks are removed from the future object, thus being eligible for GC.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

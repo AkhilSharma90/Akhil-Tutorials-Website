@@ -86,3 +86,7 @@ This function signature with lifetime annotations `'a` ensures that the return v
 By mastering references and borrowing, you unlock powerful tools in Rust that support writing robust, efficient, and safe code. Understanding these concepts deeply is crucial for any Rust programmer looking to leverage the full potential of Rust's memory safety guarantees.
 
 As you continue your journey with Rust, remember that these tools are designed to help you manage resources effectively, without the overhead typically associated with safe memory management.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

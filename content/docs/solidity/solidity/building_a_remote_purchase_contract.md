@@ -149,3 +149,7 @@ contract Purchase {
 ## Conclusion
 
 This smart contract example demonstrates a way to create a trustless escrow system using Ethereum. Both parties must put up collateral, incentivizing them to complete the transaction honestly. Although this solution doesn't solve all potential issues with remote purchases, it provides a foundation for using state machines within smart contracts.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

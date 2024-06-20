@@ -86,3 +86,7 @@ Custom macros can dramatically reduce the amount of code you need to write and m
 #### Conclusion
 
 Macros in Rust offer a potent tool for code generation, allowing for more abstract and less repetitive code bases. They are especially useful for tasks that require patterns or code that cannot be easily expressed in functions. With careful use, macros can significantly enhance the power and expressiveness of your Rust applications.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

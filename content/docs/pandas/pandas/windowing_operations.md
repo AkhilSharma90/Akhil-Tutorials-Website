@@ -215,3 +215,7 @@ Freq: D, Name: A, dtype: float64
 ### Conclusion
 
 Windowing operations in Pandas provide powerful tools for calculating statistics over a sliding or expanding window of data. Whether you need rolling windows, expanding windows, or exponentially weighted windows, Pandas offers flexible and efficient methods to perform these operations. By mastering these techniques, you can enhance your data analysis capabilities and gain deeper insights from your data.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

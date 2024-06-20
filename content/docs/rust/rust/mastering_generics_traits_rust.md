@@ -89,3 +89,7 @@ This `Iterator` trait defines an associated type `Item`, which will be the type 
 #### Conclusion
 
 Generics and traits are crucial for writing highly reusable and maintainable Rust code. They enable programmers to write flexible functions and types while maintaining type safety and minimizing code duplication. As you continue to explore Rust, understanding and utilizing generics and traits will allow you to take full advantage of Rust’s powerful type system to write more efficient and effective code.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

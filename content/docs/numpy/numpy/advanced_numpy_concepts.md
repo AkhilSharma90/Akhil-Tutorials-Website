@@ -100,6 +100,4 @@ NumPy's advanced concepts and applications extend its capabilities beyond basic 
 
 For more information, refer to the [NumPy documentation](https://numpy.org/doc/stable/).
 
----
-
-Feel free to adjust or expand upon this exploration of advanced concepts and applications of NumPy as needed! Let me know if there's anything else you'd like to cover.
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

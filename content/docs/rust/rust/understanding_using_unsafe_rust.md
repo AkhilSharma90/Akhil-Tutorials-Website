@@ -71,3 +71,7 @@ In this example, the `buffer` method is marked as `unsafe` because it returns a 
 #### Conclusion
 
 `Unsafe` Rust allows you to perform low-level system programming tasks that are not possible under Rust's strict safety constraints. By understanding when and how to use `unsafe` responsibly, you can extend the functionality of your Rust applications without sacrificing their integrity and security.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -90,3 +90,7 @@ dataset = ImageFolder(root='data/', transform=transform)
 ### Conclusion
 
 Data loading and preprocessing are essential steps in building machine learning models. PyTorch provides powerful tools and utilities for efficiently loading and preprocessing data, enabling you to focus on developing and training your models effectively.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

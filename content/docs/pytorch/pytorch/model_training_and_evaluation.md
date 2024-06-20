@@ -82,5 +82,7 @@ Hyperparameters such as learning rate, batch size, and number of epochs signific
 ### Conclusion
 
 Model training and evaluation are essential steps in developing machine learning models. PyTorch provides a flexible and efficient framework for training and evaluating deep learning models, enabling you to build and deploy state-of-the-art machine learning systems effectively.
-```
-This markdown provides a comprehensive overview of model training and evaluation in PyTorch, covering model architecture definition, training process, evaluation metrics, and hyperparameter tuning.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

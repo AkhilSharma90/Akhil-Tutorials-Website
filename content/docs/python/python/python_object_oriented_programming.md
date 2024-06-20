@@ -96,3 +96,7 @@ print(jim.speak())  # Jim says Woof
 ### Conclusion
 
 Object-oriented programming in Python provides a powerful model for organizing and reusing code through classes and objects. Understanding classes, inheritance, and polymorphism is crucial for any Python programmer looking to build scalable and efficient applications. This guide has aimed to provide a comprehensive understanding of Python's OOP features.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

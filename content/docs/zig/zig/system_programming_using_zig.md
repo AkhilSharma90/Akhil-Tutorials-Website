@@ -92,6 +92,7 @@ pub fn main() void {
 
 Zig's focus on safety, performance, and simplicity makes it an excellent choice for system programming tasks. Whether you're working on low-level memory management, interacting with hardware, writing device drivers, or writing platform-specific code, Zig provides the tools and capabilities you need to build reliable and efficient system software.
 
----
 
-This tutorial provides an overview of how Zig can be used for system programming, demonstrating its capabilities for working with hardware, managing memory, writing device drivers, and handling platform-specific code.
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -104,3 +104,7 @@ interface AggregatorV3Interface {
 ### Conclusion
 
 The `ChainlinkPriceOracle` contract demonstrates how to integrate Chainlink's decentralized price oracles into Solidity smart contracts. By utilizing Chainlink's trusted price data, developers can build DeFi applications that rely on accurate and reliable price feeds for their operations. This contract serves as a foundational piece in the ecosystem of decentralized finance, enabling secure and transparent financial transactions on the blockchain.
+
+### Learn How To Build AI Projects
+
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
