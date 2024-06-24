@@ -30,7 +30,12 @@ Here's a table summarizing the key differences between TCP and UDP:
 The best protocol depends on what you're doing online and the type of data being transferred.
 
 * **Use TCP for:** Reliable data transfer where order and accuracy are crucial. Examples include emails, file transfers, and web browsing.
+
+![alt text](https://i.imgur.com/ANKW1ui.png)
+
 * **Use UDP for:** Real-time data where speed is more important than perfect delivery. Examples include online gaming, live streaming, and video chat.
+
+![alt text](https://i.imgur.com/PSWSInH.png)
 
 **Advantages and Disadvantages**
 

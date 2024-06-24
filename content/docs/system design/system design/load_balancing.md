@@ -7,7 +7,11 @@ draft: false
 
 Load balancing is a method used to distribute network traffic across multiple servers, ensuring that no single server bears too much demand. This technique is crucial for modern applications that must handle millions of users simultaneously, delivering text, videos, images, and other data reliably and swiftly. Load balancers act as intermediaries, distributing incoming traffic evenly among servers to optimize resource use and enhance performance.
 
+![alt text](https://i.imgur.com/PmSmt0a.png)
+
 ## Benefits of Load Balancing
+
+![alt text](https://i.imgur.com/ANx7zOF.png)
 
 Load balancing offers several key benefits, improving application availability, scalability, security, and performance.
 

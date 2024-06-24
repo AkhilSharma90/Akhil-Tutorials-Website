@@ -12,6 +12,8 @@ The Domain Name System (DNS) acts as the Internet's phonebook. Humans access inf
 
 ## How Does DNS Work?
 
+![dns](https://i.imgur.com/OMNo2HX.png)
+
 DNS resolution converts a hostname (e.g., www.example.com) into a computer-friendly IP address (e.g., 192.168.1.1). Each device on the Internet has a unique IP address, which functions like a street address, guiding data to the correct destination. When a user wants to load a webpage, a translation must occur between the domain name typed into the browser and the IP address of the server hosting the website.
 
 ### Components Involved in DNS Resolution

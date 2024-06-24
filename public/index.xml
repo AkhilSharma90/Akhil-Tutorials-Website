@@ -1685,7 +1685,7 @@
       <link>http://localhost:1313/tutorials/docs/system-design/system-design/load_balancing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/system-design/system-design/load_balancing/</guid>
-      <description>Load balancing is a method used to distribute network traffic across multiple servers, ensuring that no single server bears too much demand. This technique is crucial for modern applications that must handle millions of users simultaneously, delivering text, videos, images, and other data reliably and swiftly. Load balancers act as intermediaries, distributing incoming traffic evenly among servers to optimize resource use and enhance performance.&#xA;Benefits of Load Balancing linkLoad balancing offers several key benefits, improving application availability, scalability, security, and performance.</description>
+      <description>Load balancing is a method used to distribute network traffic across multiple servers, ensuring that no single server bears too much demand. This technique is crucial for modern applications that must handle millions of users simultaneously, delivering text, videos, images, and other data reliably and swiftly. Load balancers act as intermediaries, distributing incoming traffic evenly among servers to optimize resource use and enhance performance.&#xA;Benefits of Load Balancing link Load balancing offers several key benefits, improving application availability, scalability, security, and performance.</description>
     </item>
     <item>
       <title>Windowing Operations in Pandas</title>

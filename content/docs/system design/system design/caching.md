@@ -7,6 +7,8 @@ draft: false
 
 Caching is a high-speed data storage layer that stores a subset of data, typically transient in nature, to serve future requests for that data more quickly than accessing the primary storage location. This allows for efficient reuse of previously retrieved or computed data, significantly enhancing data retrieval performance.
 
+![cache](https://i.imgur.com/eqiMXvk.png)
+
 ## How Does Caching Work?
 
 Data in a cache is generally stored in fast-access hardware such as Random-access memory (RAM) and may also work in conjunction with software components. The primary purpose of caching is to increase data retrieval performance by reducing the need to access the slower underlying storage layer.

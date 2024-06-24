@@ -7,6 +7,8 @@ draft: false
 
 An API gateway is a server that acts as an intermediary between clients and a collection of backend services. It accepts API requests from a client, processes them based on defined policies, routes them to the appropriate services, and aggregates the responses to provide a simplified user experience. An API gateway typically handles requests by invoking multiple microservices and combining their results. It can also translate between protocols in legacy deployments, making it versatile in various architectural setups.
 
+![img](https://i.imgur.com/RcyH1PB.png)
+
 ## API Gateway Capabilities
 
 API gateways implement several key capabilities:

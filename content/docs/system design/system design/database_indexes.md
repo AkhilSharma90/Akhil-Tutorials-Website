@@ -7,6 +7,8 @@ draft: false
 
 In database management, optimizing performance is often a critical concern. One powerful tool at your disposal is the use of indexes. Indexes are database structures that significantly enhance the speed and efficiency of data retrieval operations by providing quick access paths to data. Let's delve deeper into how indexes work, their types, best practices for usage, and considerations for optimal performance.
 
+![index](https://i.imgur.com/zRULc1Y.png)
+
 ### Understanding Indexes
 
 An index in a database is akin to the index of a book, allowing the database engine to quickly locate specific data without scanning the entire table. It is defined on one or more fields of a table and maintains a sorted order of values along with pointers to the actual rows in the table. This organization facilitates rapid retrieval of data based on the indexed columns.
