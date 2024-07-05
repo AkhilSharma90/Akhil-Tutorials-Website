@@ -85,7 +85,7 @@ For structured learning, [MongoDB University](https://university.mongodb.com) pr
 
 Once ready to interact with MongoDB using your preferred programming language, check out the [Quick Start Tutorials](https://www.mongodb.com/quick-start). These tutorials will help you get up and running quickly.
 
-By understanding and leveraging the benefits of NoSQL databases, you can build scalable, efficient, and developer-friendly applications.
+By understanding and leveraging the benefits of NoSQL databases, you can build scalable, efficient, and developer friendly applications.
 
 ### Learn How To Build AI Projects
 
