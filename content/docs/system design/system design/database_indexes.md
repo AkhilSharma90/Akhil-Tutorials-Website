@@ -7,7 +7,8 @@ draft: false
 
 In database management, optimizing performance is often a critical concern. One powerful tool at your disposal is the use of indexes. Indexes are database structures that significantly enhance the speed and efficiency of data retrieval operations by providing quick access paths to data. Let's delve deeper into how indexes work, their types, best practices for usage, and considerations for optimal performance.
 
-![index](https://i.imgur.com/zRULc1Y.png)
+<!-- ![index](https://i.imgur.com/zRULc1Y.png) -->
+<blockquote class="imgur-embed-pub" lang="en" data-id="zRULc1Y" data-context="false" ><a href="//imgur.com/zRULc1Y"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 ### Understanding Indexes
 

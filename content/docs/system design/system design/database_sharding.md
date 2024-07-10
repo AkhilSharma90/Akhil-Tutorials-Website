@@ -14,7 +14,8 @@ Similarly, by distributing the data across multiple machines, a sharded database
 
 Sharding is a form of scaling known as horizontal scaling or scale-out, as additional nodes are brought on to share the load. Horizontal scaling allows for near-limitless scalability to handle big data and intense workloads. In contrast, vertical scaling refers to increasing the power of a single machine or single server through a more powerful CPU, increased RAM, or increased storage capacity.
 
-![alt text](https://i.imgur.com/j3LNAVL.png)
+<!-- ![alt text](https://i.imgur.com/j3LNAVL.png) -->
+<blockquote class="imgur-embed-pub" lang="en" data-id="j3LNAVL" data-context="false" ><a href="//imgur.com/j3LNAVL"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 ### Do you need database sharding?
 Database sharding, as with any distributed architecture, does not come for free. There is overhead and complexity in setting up shards, maintaining the data on each shard, and properly routing requests across those shards. Before you begin sharding, consider if one of the following alternative solutions will work for you.

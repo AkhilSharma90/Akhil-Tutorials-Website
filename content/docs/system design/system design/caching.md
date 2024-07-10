@@ -7,7 +7,8 @@ draft: false
 
 Caching is a high-speed data storage layer that stores a subset of data, typically transient in nature, to serve future requests for that data more quickly than accessing the primary storage location. This allows for efficient reuse of previously retrieved or computed data, significantly enhancing data retrieval performance.
 
-![cache](https://i.imgur.com/eqiMXvk.png)
+<!-- ![cache](https://i.imgur.com/eqiMXvk.png) -->
+<blockquote class="imgur-embed-pub" lang="en" data-id="eqiMXvk" data-context="false" ><a href="//imgur.com/eqiMXvk"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 ## How Does Caching Work?
 

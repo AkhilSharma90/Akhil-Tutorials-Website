@@ -13,7 +13,8 @@ A forward proxy, often simply called a proxy, is a server that acts as an interm
 
 ### Example Scenario for Forward Proxy:
 
-![alt text](https://i.imgur.com/SOub4UD.png)
+<!-- ![alt text](https://i.imgur.com/SOub4UD.png) -->
+<blockquote class="imgur-embed-pub" lang="en" data-id="SOub4UD" data-context="false" ><a href="//imgur.com/SOub4UD"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 1. **Computer A (Client)**: A user's home computer.
 2. **Computer B (Forward Proxy Server)**: The proxy server that intercepts and forwards requests.
@@ -34,7 +35,8 @@ In a typical forward proxy setup, the communication flow is:
 
 ## How is a Reverse Proxy Different?
 
-![alt text](https://i.imgur.com/xObLN9Q.png)
+<!-- ![alt text](https://i.imgur.com/xObLN9Q.png) -->
+<blockquote class="imgur-embed-pub" lang="en" data-id="xObLN9Q" data-context="false" ><a href="//imgur.com/xObLN9Q"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 A reverse proxy sits in front of one or more web servers, intercepting requests from clients. Unlike a forward proxy, which handles requests from clients and forwards them to servers, a reverse proxy handles requests from clients on behalf of the servers, making it seem like the proxy server is the actual web server.
 

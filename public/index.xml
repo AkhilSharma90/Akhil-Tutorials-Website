@@ -1223,7 +1223,7 @@
       <link>http://localhost:1313/tutorials/docs/system-design/system-design/nosql_vs_sql/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/system-design/system-design/nosql_vs_sql/</guid>
-      <description>TL;DR linkNoSQL databases, developed in the late 2000s, focus on scalability, fast queries, ease of application changes, and simpler programming for developers. In contrast, SQL databases, originating in the 1970s, aim to reduce data duplication and typically require expensive vertical scaling. SQL databases have rigid, complex schemas, while NoSQL databases offer flexible, schema-less structures.&#xA;If you’re not familiar with NoSQL databases or the different types, start here.&#xA;Overview linkThis article covers:</description>
+      <description>TL;DR linkNoSQL databases, developed in the late 2000s, focus on scalability, fast queries, ease of application changes, and simpler programming for developers. In contrast, SQL databases, originating in the 1970s, aim to reduce data duplication and typically require expensive vertical scaling. SQL databases have rigid, complex schemas, while NoSQL databases offer flexible, schema-less structures.&#xA;Overview linkThis article covers:&#xA;Differences between SQL and NoSQL databases Benefits of NoSQL databases Drawbacks of NoSQL databases How to try a NoSQL database Differences Between SQL and NoSQL linkThe table below summarizes the main differences between SQL and NoSQL databases.</description>
     </item>
     <item>
       <title>NumPy Broadcasting</title>

@@ -9,8 +9,6 @@ draft: false
 
 NoSQL databases, developed in the late 2000s, focus on scalability, fast queries, ease of application changes, and simpler programming for developers. In contrast, SQL databases, originating in the 1970s, aim to reduce data duplication and typically require expensive vertical scaling. SQL databases have rigid, complex schemas, while NoSQL databases offer flexible, schema-less structures.
 
-If you’re not familiar with NoSQL databases or the different types, [start here](#).
-
 ## Overview
 
 This article covers:

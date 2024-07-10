@@ -31,11 +31,13 @@ The best protocol depends on what you're doing online and the type of data being
 
 * **Use TCP for:** Reliable data transfer where order and accuracy are crucial. Examples include emails, file transfers, and web browsing.
 
-![alt text](https://i.imgur.com/ANKW1ui.png)
+<!-- ![alt text](https://i.imgur.com/ANKW1ui.png) -->
+<blockquote class="imgur-embed-pub" lang="en" data-id="ANKW1ui" data-context="false" ><a href="//imgur.com/ANKW1ui"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 * **Use UDP for:** Real-time data where speed is more important than perfect delivery. Examples include online gaming, live streaming, and video chat.
 
-![alt text](https://i.imgur.com/PSWSInH.png)
+<!-- ![alt text](https://i.imgur.com/PSWSInH.png) -->
+<blockquote class="imgur-embed-pub" lang="en" data-id="PSWSInH" data-context="false" ><a href="//imgur.com/PSWSInH"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 **Advantages and Disadvantages**
 
