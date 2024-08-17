@@ -62,4 +62,4 @@ In this example, the scalar value `10` is broadcasted to match the shape of `arr
 
 NumPy broadcasting is a powerful feature that simplifies array operations by automatically aligning arrays with different shapes. By following broadcasting rules, NumPy can efficiently perform element-wise operations, reducing the need for explicit looping and making code more concise and readable. Understanding how broadcasting works is essential for writing efficient and expressive NumPy code in scientific computing, data analysis, and machine learning applications.
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

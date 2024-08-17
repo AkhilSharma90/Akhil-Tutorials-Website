@@ -4,6 +4,7 @@ description: "Dive deep into Rust’s error handling mechanisms, exploring the `
 icon: "code"
 draft: false
 ---
+
 #### Introduction
 
 Error handling is a critical aspect of software development, and Rust provides robust tools to manage errors in a safe and efficient manner. Unlike many programming languages that use exceptions, Rust uses the `Result` and `Option` types to handle potential errors and the absence of values explicitly. This post explores these types, along with sophisticated error propagation techniques, to help you write reliable and maintainable Rust code.
@@ -13,15 +14,18 @@ Error handling is a critical aspect of software development, and Rust provides r
 The `Result` and `Option` types are enums defined by the Rust standard library, and they are fundamental to error handling in Rust applications.
 
 **`Option` Type:**
+
 ```rust
 enum Option<T> {
     Some(T),
     None,
 }
 ```
+
 The `Option` type is used when a value may or may not be present. `Some(T)` wraps a value `T` when it exists, and `None` indicates the absence of a value.
 
 **Example of Using `Option`:**
+
 ```rust
 fn find_divisor(number: i32) -> Option<i32> {
     for i in 2..number {
@@ -32,18 +36,22 @@ fn find_divisor(number: i32) -> Option<i32> {
     None // No divisor found.
 }
 ```
+
 This function returns an `Option` indicating whether a divisor was found for the given number.
 
 **`Result` Type:**
+
 ```rust
 enum Result<T, E> {
     Ok(T),
     Err(E),
 }
 ```
+
 The `Result` type is utilized for operations that can result in an error. It returns `Ok(T)` if the operation is successful and `Err(E)` if it fails, where `E` is the error type.
 
 **Example of Using `Result`:**
+
 ```rust
 fn divide(numerator: f64, denominator: f64) -> Result<f64, String> {
     if denominator == 0.0 {
@@ -53,6 +61,7 @@ fn divide(numerator: f64, denominator: f64) -> Result<f64, String> {
     }
 }
 ```
+
 This function attempts to perform division and uses `Result` to indicate success or an error.
 
 #### Error Propagation Techniques
@@ -70,6 +79,7 @@ fn perform_division() -> Result<f64, String> {
     Ok(result)
 }
 ```
+
 Here, the `?` operator automatically handles the error, returning early if `divide` results in an `Err`.
 
 **Combining `match` and `Result`:**
@@ -81,6 +91,7 @@ match divide(10.0, 2.0) {
     Err(e) => println!("Error: {}", e),
 }
 ```
+
 This provides flexibility in handling different outcomes of the `divide` function.
 
 #### Best Practices in Error Handling
@@ -100,4 +111,4 @@ Understanding and effectively utilizing the `Result` and `Option` types are foun
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

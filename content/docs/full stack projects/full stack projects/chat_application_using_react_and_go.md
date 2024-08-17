@@ -12,19 +12,19 @@ In this tutorial, we'll walk through the process of building a simple chat appli
 #### Table of Contents
 
 1. WebSocket Client
-    - Client Struct
-    - Message Struct
-    - Read Method
+   - Client Struct
+   - Message Struct
+   - Read Method
 2. WebSocket Pool
-    - Pool Struct
-    - NewPool Function
-    - Start Method
+   - Pool Struct
+   - NewPool Function
+   - Start Method
 3. WebSocket Upgrade
-    - Upgrade Function
+   - Upgrade Function
 4. Main Application
-    - serveWS Function
-    - setupRoutes Function
-    - main Function
+   - serveWS Function
+   - setupRoutes Function
+   - main Function
 
 ### 1. WebSocket Client
 
@@ -266,7 +266,6 @@ func main() {
 
 The `main` function starts the HTTP server on port 9000 and sets up the routes.
 
-
 ### Building a Simple Chat Application with Go and React (Frontend)
 
 Continuing from where we left off with the backend setup using Go, we now focus on creating the frontend using React. This frontend will communicate with our Go WebSocket server to send and receive messages in real-time.
@@ -274,17 +273,17 @@ Continuing from where we left off with the backend setup using Go, we now focus 
 ### Table of Contents
 
 1. Setting Up WebSocket Connection
-    - `src/api/index.js`
+   - `src/api/index.js`
 2. Chat History Component
-    - `src/components/ChatHistory.jsx`
+   - `src/components/ChatHistory.jsx`
 3. Chat Input Component
-    - `src/components/ChatInput.jsx`
+   - `src/components/ChatInput.jsx`
 4. Header Component
-    - `src/components/Header.jsx`
+   - `src/components/Header.jsx`
 5. Message Component
-    - `src/components/Message.jsx`
+   - `src/components/Message.jsx`
 6. Main Application Component
-    - `src/App.jsx`
+   - `src/App.jsx`
 
 ---
 
@@ -294,27 +293,27 @@ Continuing from where we left off with the backend setup using Go, we now focus 
 
 ```javascript
 // api/index.js
-var socket = new WebSocket('ws://localhost:9000/ws');
+var socket = new WebSocket("ws://localhost:9000/ws");
 
 let connect = (cb) => {
-  console.log("connecting")
+  console.log("connecting");
 
   socket.onopen = () => {
     console.log("Successfully Connected");
-  }
-  
+  };
+
   socket.onmessage = (msg) => {
     console.log("Message from WebSocket: ", msg);
     cb(msg);
-  }
+  };
 
   socket.onclose = (event) => {
-    console.log("Socket Closed Connection: ", event)
-  }
+    console.log("Socket Closed Connection: ", event);
+  };
 
   socket.onerror = (error) => {
-    console.log("Socket Error: ", error)
-  }
+    console.log("Socket Error: ", error);
+  };
 };
 
 let sendMsg = (msg) => {
@@ -335,22 +334,24 @@ This module sets up a WebSocket connection to the backend server and provides fu
 #### `src/components/ChatHistory.jsx`
 
 ```javascript
-import React, { Component } from 'react';
-import './ChatHistory.scss';
-import Message from '../Message/Message';
+import React, { Component } from "react";
+import "./ChatHistory.scss";
+import Message from "../Message/Message";
 
 class ChatHistory extends Component {
   render() {
     console.log(this.props.chatHistory);
-    const messages = this.props.chatHistory.map(msg => <Message key={msg.timeStamp} message={msg.data} />);
+    const messages = this.props.chatHistory.map((msg) => (
+      <Message key={msg.timeStamp} message={msg.data} />
+    ));
 
     return (
-      <div className='ChatHistory'>
+      <div className="ChatHistory">
         <h2>Chat History</h2>
         {messages}
       </div>
     );
-  };
+  }
 }
 
 export default ChatHistory;
@@ -366,17 +367,20 @@ The `ChatHistory` component displays the chat history. It maps through the `chat
 #### `src/components/ChatInput.jsx`
 
 ```javascript
-import React, { Component } from 'react';
-import './ChatInput.scss';
+import React, { Component } from "react";
+import "./ChatInput.scss";
 
 class ChatInput extends Component {
   render() {
     return (
-      <div className='ChatInput'>
-        <input onKeyDown={this.props.send} placeholder="Type a message... Hit Enter to Send"/>
+      <div className="ChatInput">
+        <input
+          onKeyDown={this.props.send}
+          placeholder="Type a message... Hit Enter to Send"
+        />
       </div>
     );
-  };
+  }
 }
 
 export default ChatInput;
@@ -391,11 +395,11 @@ The `ChatInput` component renders an input field where users can type their mess
 #### `src/components/Header.jsx`
 
 ```javascript
-import React from 'react';
-import './Header.scss';
+import React from "react";
+import "./Header.scss";
 
 const Header = () => (
-  <div className='header'>
+  <div className="header">
     <h2>Go + React Socket Chat</h2>
   </div>
 );
@@ -410,25 +414,21 @@ The `Header` component displays a static header for the chat application.
 #### `src/components/Message.jsx`
 
 ```javascript
-import React, { Component } from 'react';
-import './Message.scss';
+import React, { Component } from "react";
+import "./Message.scss";
 
 class Message extends Component {
   constructor(props) {
     super(props);
     let temp = JSON.parse(this.props.message);
     this.state = {
-      message: temp
-    }
+      message: temp,
+    };
   }
-  
+
   render() {
-    return (
-      <div className='Message'>
-        {this.state.message.body}
-      </div>
-    );
-  };
+    return <div className="Message">{this.state.message.body}</div>;
+  }
 }
 
 export default Message;
@@ -444,26 +444,26 @@ The `Message` component renders a single chat message. It parses the `message` p
 Finally, you need a main component to bring everything together. Create `src/App.jsx`:
 
 ```javascript
-import React, { Component } from 'react';
-import { connect, sendMsg } from './api';
-import Header from './components/Header';
-import ChatHistory from './components/ChatHistory';
-import ChatInput from './components/ChatInput';
-import './App.scss';
+import React, { Component } from "react";
+import { connect, sendMsg } from "./api";
+import Header from "./components/Header";
+import ChatHistory from "./components/ChatHistory";
+import ChatInput from "./components/ChatInput";
+import "./App.scss";
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      chatHistory: []
+      chatHistory: [],
     };
   }
 
   componentDidMount() {
     connect((msg) => {
       console.log("New Message");
-      this.setState(prevState => ({
-        chatHistory: [...prevState.chatHistory, msg]
+      this.setState((prevState) => ({
+        chatHistory: [...prevState.chatHistory, msg],
       }));
       console.log(this.state);
     });
@@ -472,7 +472,7 @@ class App extends Component {
   send(event) {
     if (event.keyCode === 13) {
       sendMsg(event.target.value);
-      event.target.value = '';
+      event.target.value = "";
     }
   }
 
@@ -503,4 +503,4 @@ We have successfully built a simple chat application using Go for the backend an
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

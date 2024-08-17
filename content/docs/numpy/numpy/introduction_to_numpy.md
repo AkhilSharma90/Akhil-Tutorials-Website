@@ -52,9 +52,10 @@ import numpy as np
 This statement imports the NumPy library and assigns it the alias `np`, which is a common convention used by the Python community.
 
 ## List of useful NumPy functions
+
 NumPy has numerous useful functions. You can see the full list of functions in the NumPy docs. As an overview, here are some of the most popular and useful ones to give you a sense of what NumPy can do. We will cover many of them in this tutorial.
 
-- Array Creation: arange, array, copy, empty, empty_like, eye, fromfile, fromfunction, identity, linspace, logspace, mgrid, ogrid, ones, ones_like, r_, zeros, zeros_like
+- Array Creation: arange, array, copy, empty, empty*like, eye, fromfile, fromfunction, identity, linspace, logspace, mgrid, ogrid, ones, ones_like, r*, zeros, zeros_like
 - Conversions: ndarray.astype, atleast_1d, atleast_2d, atleast_3d, mat
 - Manipulations: array_split, column_stack, concatenate, diagonal, dsplit, dstack, hsplit, hstack, ndarray.item, newaxis, ravel, repeat, reshape, resize, squeeze, swapaxes, take, transpose, vsplit, vstack
 - Questions: all, any, nonzero, where
@@ -88,4 +89,4 @@ In this example, we create NumPy arrays `time` and `speed` to represent the time
 
 NumPy is an essential library for numerical computing in Python, offering powerful tools for working with large datasets, performing mathematical operations, and conducting scientific research. Its efficiency, flexibility, and ease of use make it the go-to choice for scientists, engineers, and data analysts alike. Whether you're performing simple calculations or tackling complex computational tasks, NumPy provides the tools you need to get the job done efficiently and effectively.
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

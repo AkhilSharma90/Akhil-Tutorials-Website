@@ -61,7 +61,8 @@ struct HeapArray:
 ```
 
 ## Copying Objects
-Implementing a copy constructor (__copyinit__) allows for object copying without errors.
+
+Implementing a copy constructor (**copyinit**) allows for object copying without errors.
 
 ```mojo
 struct HeapArray:
@@ -78,6 +79,7 @@ b.dump() # [1, 1, 1]
 ```
 
 ## Working with Structs and Methods
+
 ```mojo
 struct SomethingBig:
 var id_number: Int
@@ -98,7 +100,9 @@ use_something_big(a, b)
 ```
 
 ## Operator Overloading
-Mojo supports operator overloading with methods like __add__ and __iadd__.
+
+Mojo supports operator overloading with methods like **add** and **iadd**.
+
 ```mojo
 struct MyInt:
 var value: Int
@@ -112,6 +116,7 @@ print(x.value) # prints 43
 ```
 
 ## Function Parameters and Mutability
+
 Demonstrating the use of inout for mutable parameters and function overloading.
 
 ```mojo
@@ -126,6 +131,7 @@ print(x, y) # Prints 12, 42
 ```
 
 ## Unique Pointers and Ownership
+
 Modeling unique pointer behavior in Mojo for advanced memory management.
 
 ```mojo
@@ -151,4 +157,4 @@ take_ptr(p^) # passing ownership
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

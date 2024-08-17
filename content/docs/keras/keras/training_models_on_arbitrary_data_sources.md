@@ -46,6 +46,7 @@ model.compile(
 )
 model.fit(train_dataloader, epochs=1, validation_data=val_dataloader)
 ```
+
 ```bash
  469/469 ━━━━━━━━━━━━━━━━━━━━ 81s 172ms/step - acc: 0.5502 - loss: 1.2550 - val_acc: 0.9419 - val_loss: 0.1972
 
@@ -78,6 +79,7 @@ model.compile(
 )
 model.fit(train_dataset, epochs=1, validation_data=test_dataset)
 ```
+
 ```bash
  469/469 ━━━━━━━━━━━━━━━━━━━━ 81s 172ms/step - acc: 0.5771 - loss: 1.1948 - val_acc: 0.9229 - val_loss: 0.2502
 
@@ -86,4 +88,4 @@ model.fit(train_dataset, epochs=1, validation_data=test_dataset)
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

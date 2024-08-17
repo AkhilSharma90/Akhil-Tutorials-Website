@@ -23,36 +23,42 @@ An index in a database is akin to the index of a book, allowing the database eng
 ### Benefits of Using Indexes
 
 - **Improved Query Performance**: Queries that utilize indexed columns can perform significantly faster as the database engine can quickly narrow down the relevant rows.
-  
 - **Enhanced Sorting and Grouping**: Indexes also benefit operations that involve sorting or grouping data, minimizing the need for expensive sorting operations.
 
 - **Optimized Joins**: When joining multiple tables, indexes on join columns accelerate data retrieval by reducing the number of rows that need to be compared.
 
 ### Considerations and Best Practices
 
-#### 1. **Choosing Index Fields**: 
-   - Index fields should align with frequently queried columns and the types of queries performed. Avoid indexing columns with low selectivity (columns with few distinct values) as they offer less benefit.
+#### 1. **Choosing Index Fields**:
 
-#### 2. **Impact on Data Modification Operations**: 
-   - While indexes improve read performance, they can slightly slow down data modification operations (inserts, updates, deletes) as the database engine must update both the table and the index. Therefore, strike a balance by not over-indexing tables unnecessarily.
+- Index fields should align with frequently queried columns and the types of queries performed. Avoid indexing columns with low selectivity (columns with few distinct values) as they offer less benefit.
 
-#### 3. **Indexing Expressions**: 
-   - Some databases support indexes on expressions (e.g., `UPPER(LAST_NAME)`). These are useful when queries consistently use such expressions for filtering or sorting.
+#### 2. **Impact on Data Modification Operations**:
 
-#### 4. **Avoiding Over-Indexing**: 
-   - Excessive indexes consume additional storage space and may degrade performance for data modification operations. Regularly review and remove unused or redundant indexes.
+- While indexes improve read performance, they can slightly slow down data modification operations (inserts, updates, deletes) as the database engine must update both the table and the index. Therefore, strike a balance by not over-indexing tables unnecessarily.
 
-#### 5. **Monitoring and Maintenance**: 
-   - Monitor index usage and performance regularly. Rebuild or reorganize indexes periodically to ensure optimal performance, especially after significant data modifications.
+#### 3. **Indexing Expressions**:
+
+- Some databases support indexes on expressions (e.g., `UPPER(LAST_NAME)`). These are useful when queries consistently use such expressions for filtering or sorting.
+
+#### 4. **Avoiding Over-Indexing**:
+
+- Excessive indexes consume additional storage space and may degrade performance for data modification operations. Regularly review and remove unused or redundant indexes.
+
+#### 5. **Monitoring and Maintenance**:
+
+- Monitor index usage and performance regularly. Rebuild or reorganize indexes periodically to ensure optimal performance, especially after significant data modifications.
 
 ### Practical Examples
 
 #### Example 1: Basic Single-Column Index
+
 ```sql
 CREATE INDEX idx_emp_id ON emp (EMP_ID);
 ```
 
 #### Example 2: Composite Index
+
 ```sql
 CREATE INDEX idx_name ON emp (LAST_NAME, FIRST_NAME);
 ```
@@ -63,4 +69,4 @@ In conclusion, leveraging indexes effectively can lead to substantial performanc
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

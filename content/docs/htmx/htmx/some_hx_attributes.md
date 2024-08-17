@@ -15,9 +15,9 @@ Here is a div that hides itself and shows a spinner when it is loading:
 
 ```html
 <div hx-get="/slow" hx-trigger="click" hx-target="#parent-div">
-    <span hx-indicator="#spinner">Load the slow content</span>
+  <span hx-indicator="#spinner">Load the slow content</span>
 </div>
-<img id="spinner" src="/img/spinner.gif" style="display:none;">
+<img id="spinner" src="/img/spinner.gif" style="display:none;" />
 ```
 
 Indicators are shown when a request is initiated, and hidden when the request is finished.
@@ -27,22 +27,27 @@ Indicators are shown when a request is initiated, and hidden when the request is
 You can select a portion of the response to use for the swap, instead of using the entire response, using the hx-select attribute. The value of this attribute is a CSS selector that will be run against the response. If the selector matches more than one element, they will all be swapped into the target. Here is a div that will use only the #sub-content from the response, rather than the entire response:
 
 ```html
-<div hx-get="/slow" hx-select="#sub-content" hx-trigger="click" hx-target="#parent-div">
-    Click Me!
+<div
+  hx-get="/slow"
+  hx-select="#sub-content"
+  hx-trigger="click"
+  hx-target="#parent-div"
+>
+  Click Me!
 </div>
 ```
 
 Here is an example of HTML you might get back from /slow:
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>My Title</title>
-    </head>
-    <body>
-        <div id="sub-content">This content was slow!</div>
-    </body>
+  <head>
+    <title>My Title</title>
+  </head>
+  <body>
+    <div id="sub-content">This content was slow!</div>
+  </body>
 </html>
 ```
 
@@ -52,9 +57,9 @@ Sometimes you want to refer to the value of an input in a URL. You can do this w
 
 ```html
 <div hx-get="/search?page={page}" hx-vals='{"page": "input[name=page]"}'>
-    Click Me!
+  Click Me!
 </div>
-<input type="hidden" name="page" value="2">
+<input type="hidden" name="page" value="2" />
 ```
 
 ### Pushing States
@@ -62,9 +67,7 @@ Sometimes you want to refer to the value of an input in a URL. You can do this w
 htmx supports the HTML5 History API via the hx-push-url attribute. When this attribute is present, the URL of the page will be updated whenever a request is made. Here is a div that will update the URL to /foo when clicked:
 
 ```html
-<div hx-get="/foo" hx-push-url="true">
-    Click Me!
-</div>
+<div hx-get="/foo" hx-push-url="true">Click Me!</div>
 ```
 
 When clicked, the div will load the content from /foo into the div, and the URL will be updated to /foo. This allows you to easily create single-page applications with htmx.
@@ -74,16 +77,14 @@ When clicked, the div will load the content from /foo into the div, and the URL 
 htmx supports the hx-headers attribute, which allows you to set custom headers on the request. Here is a div that will set the X-My-Header header to “My Value”:
 
 ```html
-<div hx-get="/foo" hx-headers='{"X-My-Header": "My Value"}'>
-    Click Me!
-</div>
+<div hx-get="/foo" hx-headers='{"X-My-Header": "My Value"}'>Click Me!</div>
 ```
 
 htmx also supports the hx-trigger-headers attribute, which allows you to set custom headers on the request based on the triggering event. Here is a div that will set the X-My-Header header to “My Value” when clicked:
 
 ```html
 <div hx-get="/foo" hx-trigger-headers='{"click": {"X-My-Header": "My Value"}}'>
-    Click Me!
+  Click Me!
 </div>
 ```
 
@@ -132,25 +133,21 @@ HX-Redirect: /foo
 htmx supports polling via the hx-trigger attribute. Here is a div that will poll the /clock endpoint every second:
 
 ```html
-<div hx-get="/clock" hx-trigger="every 1s">
-    Loading...
-</div>
+<div hx-get="/clock" hx-trigger="every 1s">Loading...</div>
 ```
 
 Polling can be stopped by removing the hx-trigger attribute. Here is a button that will stop the polling:
 
 ```html
 <button hx-swap-oob="true" hx-trigger="click" hx-get="/stop_polling">
-    Stop Polling
+  Stop Polling
 </button>
 ```
 
 Here is the /stop_polling endpoint that will stop the polling:
 
 ```html
-<div hx-trigger="none">
-    Polling Stopped
-</div>
+<div hx-trigger="none">Polling Stopped</div>
 ```
 
 ### Progress Indicator
@@ -158,10 +155,8 @@ Here is the /stop_polling endpoint that will stop the polling:
 htmx supports progress indicators via the hx-indicator attribute. Here is a div that will show a spinner while the request is in flight:
 
 ```html
-<div hx-get="/slow" hx-indicator="#spinner">
-    Click Me!
-</div>
-<img id="spinner" src="/img/spinner.gif" style="display:none;">
+<div hx-get="/slow" hx-indicator="#spinner">Click Me!</div>
+<img id="spinner" src="/img/spinner.gif" style="display:none;" />
 ```
 
 The indicator will be shown when the request is initiated, and hidden when the request is finished.
@@ -172,18 +167,16 @@ htmx supports WebSockets via the hx-ws attribute. Here is a div that will connec
 
 ```html
 <div hx-ws="connect:/ws">
-    <div hx-swap-oob="true">
-        <span hx-ws-send="click:hello">Click Me!</span>
-    </div>
+  <div hx-swap-oob="true">
+    <span hx-ws-send="click:hello">Click Me!</span>
+  </div>
 </div>
 ```
 
 The hx-ws attribute can also be used to receive messages from a WebSocket. Here is a div that will receive messages from a WebSocket and update itself:
 
 ```html
-<div hx-ws="connect:/ws receive:update">
-    Waiting for update...
-</div>
+<div hx-ws="connect:/ws receive:update">Waiting for update...</div>
 ```
 
 ### SSE
@@ -191,17 +184,13 @@ The hx-ws attribute can also be used to receive messages from a WebSocket. Here 
 htmx supports Server-Sent Events via the hx-sse attribute. Here is a div that will connect to an SSE endpoint and update itself with the received message:
 
 ```html
-<div hx-sse="connect:/sse">
-    Waiting for update...
-</div>
+<div hx-sse="connect:/sse">Waiting for update...</div>
 ```
 
 The hx-sse attribute can also be used to send messages to an SSE endpoint. Here is a div that will send a message to an SSE endpoint when clicked:
 
 ```html
-<div hx-sse="connect:/sse send:hello">
-    Click Me!
-</div>
+<div hx-sse="connect:/sse send:hello">Click Me!</div>
 ```
 
 ### Client Side Events
@@ -209,19 +198,15 @@ The hx-sse attribute can also be used to send messages to an SSE endpoint. Here 
 htmx supports client side events via the hx-on attribute. Here is a div that will trigger the foo event on the body when clicked:
 
 ```html
-<div hx-on="click:foo">
-    Click Me!
-</div>
+<div hx-on="click:foo">Click Me!</div>
 ```
 
 The hx-on attribute can also be used to listen for events. Here is a div that will listen for the foo event and update itself:
 
 ```html
-<div hx-on="foo:update">
-    Waiting for foo...
-</div>
+<div hx-on="foo:update">Waiting for foo...</div>
 ```
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

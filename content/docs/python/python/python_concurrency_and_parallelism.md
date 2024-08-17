@@ -13,6 +13,7 @@ Concurrency and parallelism are key concepts for developing high-performance app
 Threading is a technique for achieving concurrency. In Python, threads allow you to run multiple operations concurrently in the same process space.
 
 #### Basic Threading
+
 ```python
 import threading
 
@@ -38,6 +39,7 @@ t2.join()
 
 print("Done!")
 ```
+
 In this example, two threads `t1` and `t2` run concurrently, which allows `print_square` and `print_cube` to execute simultaneously.
 
 ### Multiprocessing
@@ -45,6 +47,7 @@ In this example, two threads `t1` and `t2` run concurrently, which allows `print
 Multiprocessing is used for spreading tasks over multiple processors, aiming to achieve parallelism (simultaneous execution).
 
 #### Basic Multiprocessing
+
 ```python
 from multiprocessing import Process, current_process
 
@@ -66,6 +69,7 @@ if __name__ == '__main__':
 
     print("Processing complete!")
 ```
+
 This example shows how to create and run multiple processes. By using the `Process` class from `multiprocessing`, we can execute the function `worker` concurrently on multiple CPUs.
 
 ### Asyncio Module
@@ -73,6 +77,7 @@ This example shows how to create and run multiple processes. By using the `Proce
 `asyncio` is used for writing concurrent code using the async/await syntax.
 
 #### Using Asyncio
+
 ```python
 import asyncio
 
@@ -88,6 +93,7 @@ async def main():
 # Running the coroutine
 asyncio.run(main())
 ```
+
 Here, `count_to_ten` is an asynchronous function that counts from 1 to 10, pausing for a second between numbers using `await asyncio.sleep(1)`, which mimics a blocking I/O operation. `asyncio.run(main())` is used to run the main coroutine that drives the `count_to_ten` coroutine.
 
 ### Conclusion
@@ -96,4 +102,4 @@ Concurrency and parallelism are powerful strategies for optimizing performance i
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

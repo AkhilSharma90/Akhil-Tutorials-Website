@@ -13,6 +13,7 @@ Decorators in Python are a very powerful and useful tool, allowing programmers t
 A decorator in Python is essentially a function that takes another function and extends its functionality, often doing some processing before or after the execution of the original function.
 
 #### Basic Concept of a Decorator
+
 ```python
 def decorator(func):
     def wrapper():
@@ -28,6 +29,7 @@ def say_hello():
 say_hello = decorator(say_hello)
 say_hello()
 ```
+
 In this example, `decorator` is a function that takes another function `func` as an argument. The `wrapper` function is defined inside the decorator and wraps the functionality of the `func` function by adding some code before and after its call.
 
 ### Using the `@` Syntax for Decorators
@@ -35,6 +37,7 @@ In this example, `decorator` is a function that takes another function `func` as
 Python provides a simpler way to apply decorators using the `@` symbol, which is placed above the definition of the function to be decorated.
 
 #### Example Using `@`
+
 ```python
 @decorator
 def say_goodbye():
@@ -42,6 +45,7 @@ def say_goodbye():
 
 say_goodbye()
 ```
+
 The `@decorator` syntax is just a shorthand for `say_goodbye = decorator(say_goodbye)`, making the code cleaner and more readable.
 
 ### Building a Simple Decorator
@@ -49,6 +53,7 @@ The `@decorator` syntax is just a shorthand for `say_goodbye = decorator(say_goo
 Let’s create a simple decorator that logs the execution time of any function it decorates.
 
 #### Execution Time Decorator
+
 ```python
 import time
 
@@ -68,6 +73,7 @@ def long_running_task():
 
 long_running_task()
 ```
+
 This `timer` decorator measures the time it takes to execute the function `long_running_task`. The `wrapper` function uses `*args` and `**kwargs` to handle any number of arguments passed to the function. It calculates the start time and end time around the function call, and then prints the duration.
 
 ### Conclusion
@@ -76,4 +82,4 @@ Decorators are a valuable feature in Python, offering an elegant and expressive 
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

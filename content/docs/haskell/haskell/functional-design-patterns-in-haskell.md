@@ -4,7 +4,9 @@ description: "Delve into Haskell's functional design patterns, including recursi
 icon: "code"
 draft: false
 ---
+
 ### Introduction:
+
 Welcome back to our deep dive into Haskell's capabilities. In this installment, we explore functional design patterns that are essential for effective Haskell programming. Functional programming patterns like recursion, functors, applicative functors, and monoids not only streamline code but also elevate its expressiveness and efficiency. This post will guide you through these patterns, showcasing how to leverage them for solving complex programming problems with elegance and clarity.
 
 ### Recursion and Recursive Data Structures
@@ -14,6 +16,7 @@ Welcome back to our deep dive into Haskell's capabilities. In this installment, 
 Recursion is a fundamental concept in functional programming, where functions are defined in terms of themselves. Haskell excels in recursive definitions due to its pure functional nature, allowing for powerful and concise recursive functions and data structures.
 
 - **Simple Recursion Example:**
+
   ```haskell
   factorial :: Integer -> Integer
   factorial 0 = 1
@@ -33,6 +36,7 @@ Recursion is a fundamental concept in functional programming, where functions ar
 A functor is a type class that encapsulates types that can be mapped over. In Haskell, the `Functor` type class is primarily used with containers and computational contexts.
 
 - **Functor Definition:**
+
   ```haskell
   class Functor f where
       fmap :: (a -> b) -> f a -> f b
@@ -50,6 +54,7 @@ A functor is a type class that encapsulates types that can be mapped over. In Ha
 Applicative functors build on functors by allowing functions wrapped in a context (such as a container) to be applied to values in a similar context.
 
 - **Applicative Functor Definition:**
+
   ```haskell
   class Functor f => Applicative f where
       pure :: a -> f a
@@ -57,11 +62,12 @@ Applicative functors build on functors by allowing functions wrapped in a contex
   ```
 
 - **Example Using `Maybe`:**
+
   ```haskell
   safeDivide :: Double -> Double -> Maybe Double
   safeDivide _ 0 = Nothing
   safeDivide x y = Just (x / y)
-  
+
   result = pure safeDivide <*> Just 10 <*> Just 2  -- Just 5.0
   ```
 
@@ -72,6 +78,7 @@ Applicative functors build on functors by allowing functions wrapped in a contex
 A monoid is an algebraic structure with a binary associative operation and an identity element. Monoids are useful in a wide range of scenarios from combining lists to aggregating data.
 
 - **Monoid Type Class:**
+
   ```haskell
   class Monoid m where
       mempty :: m
@@ -92,13 +99,13 @@ Functional design patterns in Haskell provide a robust toolkit for solving progr
 **Frequently Asked Questions:**
 
 **Q: How can I choose the right functional pattern for a problem?**
-**A: Analyze the problem
+\*\*A: Analyze the problem
 
- to determine if it involves operations best described by one of the patterns—like recursion for repetitive tasks, functors for transformations, applicatives for operations in context, or monoids for aggregation.**
+to determine if it involves operations best described by one of the patterns—like recursion for repetitive tasks, functors for transformations, applicatives for operations in context, or monoids for aggregation.\*\*
 
 **Q: Can these patterns be combined?**
 **A: Yes, in practical Haskell programming, these patterns often interact. For example, you might use recursion with monoids to aggregate results from a tree structure.**
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

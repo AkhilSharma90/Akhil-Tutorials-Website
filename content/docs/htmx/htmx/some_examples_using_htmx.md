@@ -25,21 +25,19 @@ Each app has its own URLs, and the main URLs for the project are defined in the 
 htmx allows you to write custom extension to add behavior that isn't natively supported in the library. You can do this using the `htmx.defineExtension` method. Here's an example of a simple extension that will log all htmx requests to the console:
 
 ```js
-htmx.defineExtension('logger', {
-    onEvent: function(name, evt) {
-        if (name === 'htmx:beforeRequest') {
-            console.log('Requesting URL: ', evt.detail.path);
-        }
+htmx.defineExtension("logger", {
+  onEvent: function (name, evt) {
+    if (name === "htmx:beforeRequest") {
+      console.log("Requesting URL: ", evt.detail.path);
     }
+  },
 });
 ```
 
 You can then enable this extension using the `hx-ext` attribute:
 
 ```html
-<div hx-get="/foo" hx-ext="logger">
-    Click Me!
-</div>
+<div hx-get="/foo" hx-ext="logger">Click Me!</div>
 ```
 
 This will log the URL of every request made by htmx.
@@ -67,7 +65,6 @@ htmx comes with a few built-in extensions that add additional behavior. Here are
 
 htmx is a powerful library that enables a new way of thinking about web applications, leveraging the power of hypertext to build rich, interactive user interfaces without the complexity of modern JavaScript frameworks. By using htmx, you can create applications that are simpler, more maintainable, and more performant.
 
-
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

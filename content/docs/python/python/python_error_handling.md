@@ -13,6 +13,7 @@ Handling errors properly in a Python program is crucial to ensure that the progr
 Try-except blocks are used to catch and handle exceptions. An exception is an event, which occurs during the execution of a program that disrupts the normal flow of the program's instructions.
 
 #### Syntax and Explanation:
+
 ```python
 try:
     # Code that might cause an exception
@@ -21,6 +22,7 @@ except ExceptionType:
 ```
 
 #### Example:
+
 ```python
 try:
     # Potential error code
@@ -29,6 +31,7 @@ except ZeroDivisionError:
     # Handling the specific error
     print("You can't divide by zero!")
 ```
+
 This example tries to perform division by zero, which raises a `ZeroDivisionError`. The except block catches this specific error and prints a custom error message.
 
 ### Extending Try-Except Blocks
@@ -36,6 +39,7 @@ This example tries to perform division by zero, which raises a `ZeroDivisionErro
 You can also catch multiple exceptions in a single try-except block, and use else and finally clauses for additional functionality.
 
 #### Example:
+
 ```python
 try:
     num = int(input("Enter a number: "))
@@ -49,7 +53,9 @@ else:
 finally:
     print("This block always executes, regardless of any exceptions.")
 ```
+
 In this detailed example:
+
 - The `ValueError` is caught if the input is not a valid integer.
 - The `ZeroDivisionError` is caught if the number is zero.
 - The `else` block runs if no exceptions are raised.
@@ -60,6 +66,7 @@ In this detailed example:
 The finally clause is an optional block that, if specified, will execute as the last task before the try statement completes. The finally block runs whether or not an exception is caught.
 
 #### Example:
+
 ```python
 try:
     f = open('file.txt')
@@ -71,6 +78,7 @@ finally:
     f.close()
     print("File closed.")
 ```
+
 This example attempts to open and read a file. If the file does not exist, a `FileNotFoundError` is raised and handled. The `finally` block ensures that the file is closed after attempting to read it, whether the file was successfully opened or not.
 
 ### Conclusion
@@ -79,4 +87,4 @@ Proper error handling is an essential aspect of developing robust Python applica
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

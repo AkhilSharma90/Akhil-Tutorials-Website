@@ -13,6 +13,7 @@ Testing is an essential aspect of software development that ensures your code be
 `unittest` is a testing framework inspired by JUnit. It supports test automation, sharing of setup and shutdown code, aggregation of tests into collections, and independence of the tests from the reporting framework.
 
 #### Basic Structure of a Unit Test
+
 ```python
 import unittest
 
@@ -35,6 +36,7 @@ class TestStringMethods(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 ```
+
 In this example, `TestStringMethods` is a test case class that inherits from `unittest.TestCase`. It includes several test methods to check string operations. `assertEqual` checks for expected results; `assertTrue` and `assertFalse` verify conditions; `assertRaises` checks that an error is raised when expected.
 
 ### Mocking Objects with `unittest.mock`
@@ -42,6 +44,7 @@ In this example, `TestStringMethods` is a test case class that inherits from `un
 Mocking is crucial for isolating tests by replacing the parts of the system that are outside of the test's control with objects that simulate the behavior of the real ones. The `unittest.mock` module provides a core `Mock` class removing the need for stubs and fakes, and making it easy to configure return values and test behavior.
 
 #### Using Mocks to Simulate Behaviors
+
 ```python
 from unittest.mock import MagicMock
 
@@ -64,6 +67,7 @@ class TestMyDatabase(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 ```
+
 Here, `MyDatabase` has a `process` method simulated in the test by replacing it with a `MagicMock` object. `MagicMock` can be configured to return a specific value when called, allowing for controlled and predictable testing environments.
 
 ### Conclusion
@@ -72,4 +76,4 @@ Testing in Python, especially using the `unittest` framework and mocking techniq
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

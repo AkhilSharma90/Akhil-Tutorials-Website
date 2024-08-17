@@ -16,17 +16,19 @@ The package manager performs the following three tasks −
 - Determines the version of your package when you are ready to publish and update.
 
 ## Elm Package Manager Commands
+
 The following table lists down the various Elm package manager commands −
 
-Sr. No.	Command	Syntax	Description
-1.	install, elm-package install	Installs packages to use locally
+Sr. No. Command Syntax Description
 
-2.	publish	elm-package publish	Publishes your package to the central catalog
+1. install, elm-package install Installs packages to use locally
 
-3.	bump	elm-package bump	Bumps version numbers based on API changes
+2. publish elm-package publish Publishes your package to the central catalog
 
-4.	diff	elm-package diff	Gets differences between two APIs
-In order to publish your package, you need to host source code on GitHub and have the version properly labeled with a git tag. Following illustration shows how to use elm-package manager to pull an external dependency.
+3. bump elm-package bump Bumps version numbers based on API changes
+
+4. diff elm-package diff Gets differences between two APIs
+   In order to publish your package, you need to host source code on GitHub and have the version properly labeled with a git tag. Following illustration shows how to use elm-package manager to pull an external dependency.
 
 Illustration - Installing svg package
 In this example, we will see how to integrate Scalable Vector Graphics(SVG) into an elm application.
@@ -68,4 +70,4 @@ Step 4 − Now build the project using elm make .\SvgDemo.elm. This will generat
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

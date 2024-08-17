@@ -4,6 +4,7 @@ description: "Learn how to build a powerful and user-friendly CLI tool in Rust w
 icon: "code"
 draft: false
 ---
+
 ### Introduction
 
 Command-line tools are vital for automation, system tasks, and quick data manipulation. Rust, with its focus on safety and performance, provides a compelling platform for building reliable and efficient CLI tools. This guide delves into the nuances of Rust CLI application development, offering insights into effective project structuring, advanced argument parsing, and robust error handling.
@@ -20,6 +21,7 @@ Effective project structure is crucial for maintainability and scalability. Rust
 - **config.rs**: Manages configurations, which might come from command-line options, environment variables, or configuration files.
 
 **Example Project Layout:**
+
 ```plaintext
 your_cli_app/
 ├── Cargo.toml
@@ -35,10 +37,12 @@ your_cli_app/
 `clap` is a versatile library for parsing command-line arguments and options in Rust, offering extensive functionality for even the most complex CLI applications.
 
 **Implementing `clap` for Robust Argument Handling:**
+
 - Define your CLI's structure using `clap`'s builders for commands, arguments, and subcommands, enabling detailed help messages, version management, and validation rules.
 - Utilize `clap`'s ability to derive settings from structs, which can be particularly clean and maintainable for complex configurations.
 
 **Example of Using `clap` with Struct Derivation:**
+
 ```rust
 use clap::Clap;
 
@@ -66,6 +70,7 @@ fn main() {
 Integrating external APIs or handling data streams efficiently in a CLI tool often requires asynchronous processing. Rust’s async/await syntax, combined with powerful async libraries like `tokio` or `async-std`, allows for non-blocking I/O operations.
 
 **Example of Asynchronous Data Handling:**
+
 ```rust
 use tokio::io::{self, AsyncReadExt};
 
@@ -95,4 +100,4 @@ Building command-line tools in Rust involves understanding not only Rust's synta
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -5,18 +5,20 @@ icon: "P"
 draft: false
 ---
 
-`pandas` is arguably the most important Python package for data analysis. It is the de facto standard package for data manipulation and exploratory data analysis. Its ability to read from and write to an extensive list of formats makes it a versatile tool for data science practitioners. Its data manipulation functions make it a highly accessible and practical tool for aggregating, analyzing, and cleaning data. 
+`pandas` is arguably the most important Python package for data analysis. It is the de facto standard package for data manipulation and exploratory data analysis. Its ability to read from and write to an extensive list of formats makes it a versatile tool for data science practitioners. Its data manipulation functions make it a highly accessible and practical tool for aggregating, analyzing, and cleaning data.
 
-In this introduction on how to learn pandas, we discussed the learning path you may take to master this package. This beginner-friendly tutorial will cover all the basic concepts and illustrate pandas' different functions. You can also check out our course on pandas Foundations for further details. 
+In this introduction on how to learn pandas, we discussed the learning path you may take to master this package. This beginner-friendly tutorial will cover all the basic concepts and illustrate pandas' different functions. You can also check out our course on pandas Foundations for further details.
 
 This article is aimed at beginners with basic knowledge of Python and no prior experience with pandas to help you get started.
 
 ## What is pandas?
-pandas is a data manipulation package in Python for tabular data. That is, data in the form of rows and columns, also known as DataFrames. Intuitively, you can think of a DataFrame as an Excel sheet. 
+
+pandas is a data manipulation package in Python for tabular data. That is, data in the form of rows and columns, also known as DataFrames. Intuitively, you can think of a DataFrame as an Excel sheet.
 
 pandas’ functionality includes data transformations, like sorting rows and taking subsets, to calculating summary statistics such as the mean, reshaping DataFrames, and joining DataFrames together.
 
 ## Uses for pandas
+
 pandas is used throughout the data analysis workflow. With pandas, you can:
 
 - Import datasets from databases, spreadsheets, comma-separated values (CSV) files, and more.
@@ -26,16 +28,19 @@ pandas is used throughout the data analysis workflow. With pandas, you can:
 - Visualize datasets and uncover insights.
 
 ## Key benefits of the pandas package
+
 Undoubtedly, pandas is a powerful data manipulation tool packaged with several benefits, including:
 
 - Made for Python: Python is the world's most popular language for machine learning and data science.
-- Less verbose per unit operations: Code written in pandas is less verbose, requiring fewer lines of code to get the desired output. 
+- Less verbose per unit operations: Code written in pandas is less verbose, requiring fewer lines of code to get the desired output.
 - Intuitive view of data: pandas offers exceptionally intuitive data representation that facilitates easier data understanding and analysis.
 - Extensive feature set: It supports an extensive set of operations from exploratory data analysis, dealing with missing values, calculating statistics, visualizing univariate and bivariate data, and much more.
 - Works with large data: pandas handles large data sets with ease. It offers speed and efficiency while working with datasets of the order of millions of records and hundreds of columns, depending on the machine.
 
 ## Installations
+
 Installing pandas is clear: we are going to be using `pip` to install pandas, either on your terminal, notebook or google colab.
+
 ```bash
 pip install pandas
 ```
@@ -44,6 +49,7 @@ pip install pandas
 
 **Importing data in pandas**
 Firstly import the pandas Python package as shown below. When importing pandas, the most common alias for pandas is pd:
+
 ```python
 import pandas as pd
 ```
@@ -53,10 +59,10 @@ Use `read_csv()` with the path to the CSV file to read a comma-separated values 
 
 ```python
 import pandas as pd
-df = pd.read_csv("movies.csv") 
+df = pd.read_csv("movies.csv")
 ```
 
-**Importing Text Files** 
+**Importing Text Files**
 
 Reading text files is similar to reading CSV files. The only nuance is that you need to specify a separator with the `sep` argument, as shown below. The `sep` argument refers to the symbol used to separate rows in a DataFrame. Common separators include comma (`sep=","`), whitespace (`sep="\s"`), tab (`sep="\t"`), and colon (`sep=":"`). Here, `\s` represents a single whitespace character.
 
@@ -94,7 +100,8 @@ df = pd.read_json("movies.json")
 ```
 
 If you want to learn more about importing data with pandas, check out this cheat sheet on importing various file types with Python.
-```
+
+````
 
 ```markdown
 ### Outputting Data in Pandas
@@ -106,9 +113,10 @@ A pandas DataFrame (here we are using `df`) is saved as a CSV file using the `.t
 
 ```python
 df.to_csv("movies_out.csv", index=False)
-```
+````
 
 #### Outputting a DataFrame into a JSON File
+
 Export a DataFrame object into a JSON file by calling the `.to_json()` method.
 
 ```python
@@ -118,6 +126,7 @@ df.to_json("movies_out.json")
 **Note:** A JSON file stores a tabular object like a DataFrame as a key-value pair. Thus, you would observe repeating column headers in a JSON file.
 
 #### Outputting a DataFrame into a Text File
+
 As with writing DataFrames to CSV files, you can call `.to_csv()`. The only differences are that the output file format is `.txt`, and you need to specify a separator using the `sep` argument.
 
 ```python
@@ -125,6 +134,7 @@ df.to_csv('movies_out.txt', header=df.columns, index=None, sep=' ')
 ```
 
 #### Outputting a DataFrame into an Excel File
+
 Call `.to_excel()` from the DataFrame object to save it as a “.xls” or “.xlsx” file.
 
 ```python
@@ -133,4 +143,4 @@ df.to_excel("movies_out.xlsx", index=False)
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

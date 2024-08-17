@@ -4,7 +4,9 @@ description: "Learn how to design, implement, test, and deploy a real-world Hask
 icon: "code"
 draft: false
 ---
+
 ### Introduction:
+
 Embarking on building a real-world application in Haskell is an exciting challenge that combines Haskell’s powerful features with software engineering best practices. In this guide, we’ll walk through the process of designing, implementing, testing, and deploying a Haskell application, complete with continuous integration and deployment. Our example project will be a simple web API for managing tasks, utilizing libraries like Scotty for web routing and Persistent for database operations.
 
 ### Designing a Haskell Project from Scratch
@@ -13,6 +15,7 @@ Embarking on building a real-world application in Haskell is an exciting challen
 
 1. **Define the Project Structure:**
    Organize your project into logical modules. For a web application, typical modules might include:
+
    - `Main.hs` for the application entry point.
    - `Config.hs` for configuration settings.
    - `Database.hs` for database interactions.
@@ -31,6 +34,7 @@ Embarking on building a real-world application in Haskell is an exciting challen
 **Developing the Web API:**
 
 - **Setting up Routes with Scotty:**
+
   ```haskell
   {-# LANGUAGE OverloadedStrings #-}
   import Web.Scotty
@@ -49,6 +53,7 @@ Embarking on building a real-world application in Haskell is an exciting challen
   ```
 
 - **Handling Database Operations:**
+
   ```haskell
   {-# LANGUAGE GADTs, TypeFamilies, TemplateHaskell, QuasiQuotes, GeneralizedNewtypeDeriving, MultiParamTypeClasses, OverloadedStrings #-}
   import Database.Persist
@@ -73,6 +78,7 @@ Embarking on building a real-world application in Haskell is an exciting challen
 **Unit Testing with HUnit and QuickCheck:**
 
 - **Writing Unit Tests:**
+
   ```haskell
   import Test.HUnit
   import Test.QuickCheck
@@ -107,6 +113,7 @@ Embarking on building a real-world application in Haskell is an exciting challen
 **Setting Up CI/CD with GitHub Actions:**
 
 - Create a `.github/workflows/haskell.yml` file:
+
   ```yaml
   name: Haskell CI
 
@@ -117,15 +124,15 @@ Embarking on building a real-world application in Haskell is an exciting challen
       runs-on: ubuntu-latest
 
       steps:
-      - uses: actions/checkout@v2
-      - name: Setup Stack
-        uses: actions/setup-haskell@v1.1
-        with:
-          ghc-version: '8.8'  # Set the GHC version
-      - name: Build
-        run: stack build
-      - name: Test
-        run: stack test
+        - uses: actions/checkout@v2
+        - name: Setup Stack
+          uses: actions/setup-haskell@v1.1
+          with:
+            ghc-version: "8.8" # Set the GHC version
+        - name: Build
+          run: stack build
+        - name: Test
+          run: stack test
   ```
 
 **Conclusion:**
@@ -142,7 +149,6 @@ Building a real-world Haskell application involves careful planning
 **Q: How can I monitor the performance of my Haskell application in production?**
 **A: Use monitoring tools such as Prometheus with Haskell libraries that support metrics collection to keep track of application performance and health.**
 
-
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

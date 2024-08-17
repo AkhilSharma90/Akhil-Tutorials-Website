@@ -8,6 +8,7 @@ draft: false
 Modules in Julia help organize code into manageable sections, providing separate namespaces, precompilation capabilities, and detailed namespace management. Here's a simplified guide to understanding and using modules in Julia:
 
 #### Basic Structure of a Module
+
 A module in Julia is defined using the `module ... end` syntax. Inside, you can define functions, types, constants, and other variables. Modules create separate namespaces to avoid name conflicts and allow detailed management of which names (functions, variables, etc.) are available to other modules.
 
 ```julia
@@ -20,6 +21,7 @@ end
 ```
 
 #### Using Modules
+
 To use a module, you can load it with the `using` or `import` statements. `using` brings the module and its exported names into the current scope, while `import` only brings the module itself, requiring you to qualify the names with the module name.
 
 ```julia
@@ -29,6 +31,7 @@ import MyModule  # Use MyModule.myFunction and MyModule.MY_CONSTANT
 ```
 
 #### Exporting Names
+
 Use the `export` keyword inside a module to specify which names should be available to other modules when `using` is applied.
 
 ```julia
@@ -43,6 +46,7 @@ using ExampleModule  # Only myExportedFunction is available
 ```
 
 #### Qualified Names
+
 Names in the global scope of a module can be referred to outside their parent module by prefixing them with the module name.
 
 ```julia
@@ -50,6 +54,7 @@ ExampleModule.myExportedFunction()  # Using the qualified name
 ```
 
 #### Importing Specific Names
+
 To import specific names from a module, use `using ModuleName: name1, name2` or `import ModuleName: name1, name2`.
 
 ```julia
@@ -59,6 +64,7 @@ import ExampleModule: myExportedFunction
 ```
 
 #### Handling Name Conflicts
+
 If two modules export the same name, you must qualify the name with the module to avoid conflicts.
 
 ```julia
@@ -79,6 +85,7 @@ B.f()  # Refers to f from module B
 ```
 
 #### Renaming Imports
+
 You can rename imported names to avoid conflicts or for convenience.
 
 ```julia
@@ -88,6 +95,7 @@ csv_read("file.csv")
 ```
 
 #### Submodules and Relative Paths
+
 Modules can contain submodules, which help organize code further. Use relative paths with `using` or `import` to refer to parent or sibling modules.
 
 ```julia
@@ -103,6 +111,7 @@ using .ParentModule.SubModule1: subFunction
 ```
 
 #### Module Initialization and Precompilation
+
 Modules can be precompiled for faster loading. Use the `__init__()` function for runtime initialization tasks that cannot be done during precompilation.
 
 ```julia
@@ -122,4 +131,4 @@ This guide covers the basics of using modules in Julia, helping you organize cod
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

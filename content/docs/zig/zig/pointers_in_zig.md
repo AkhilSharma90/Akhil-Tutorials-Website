@@ -6,6 +6,7 @@ draft: false
 ---
 
 ## Pointers
+
 Zig doesn't include a garbage collector. The burden of managing memory is on you, the developer. It's a big responsibility as it has a direct impact on the performance, stability and security of your application.
 
 We'll begin by talking about pointers, which is an important topic to discuss in and of itself, but also to start training ourselves to see our program's data from a memory-oriented point of view. If you're already comfortable with pointers, heap allocations and dangling pointers, feel free to skip ahead a couple of parts to heap memory & allocators, which is more Zig-specific.
@@ -176,14 +177,16 @@ pub const User = struct {
 };
 ```
 
-We had to make two changes. The first is calling levelUp with the address of user, i.e. &user, instead of user. This means that our function no longer receives a User. Instead, it receives a *User, which was our second change.
+We had to make two changes. The first is calling levelUp with the address of user, i.e. &user, instead of user. This means that our function no longer receives a User. Instead, it receives a \*User, which was our second change.
 
 We no longer need that ugly hack of forcing user to be mutated via user.power += 0;. Initially, we failed to get the code to compile because user was a var; the compiler told us it was never mutated. We thought maybe the compiler was wrong and "tricked" it by forcing a mutation. But, as we now know, the user being mutated in levelUp was a different; the compiler was right.
 
 The code now works as intended. There are still many subtleties with function parameters and our memory model in general, but we're making progress. Now might be a good time to mention that, aside from the specific syntax, none of this is unique to Zig. The model that we're exploring here is the most common, some languages might just hide many of the details, and thus flexibility, from developers.
 
 ## Methods
+
 More than likely, you'd have written levelUp as a method of the User structure:
+
 ```zig
 pub const User = struct {
 	id: u64,
@@ -194,11 +197,13 @@ pub const User = struct {
 	}
 };
 ```
+
 This begs the question: how do we call a method with a pointer receiver? Maybe we have to do something like: &user.levelUp()? Actually, you just call it normally, i.e. user.levelUp(). Zig knows that the method expects a pointer and passes the value correctly (by reference).
 
 I initially chose a function because it's explicit and thus easier to learn from.
 
 ## Constant Function Parameters
+
 I more than implied that, by default, Zig will pass a copy of a value (called "pass by value"). Shortly we'll see that the reality is a bit more subtle (hint: what about complex values with nested objects?)
 
 Even sticking with simple types, the truth is that Zig can pass parameters however it wants, so long as it can guarantee that the intent of the code is preserved. In our original levelUp, where the parameter was a User, Zig could have passed a copy of the user or a reference to main.user, as long as it could guarantee that the function would not mutate it. (I know we ultimately did want it mutated, but by making the type User, we were telling the compiler that we didn't).
@@ -228,7 +233,7 @@ user -> -------------  (*User)            |
         -------------
 ```
 
-Within levelUp, user is a pointer to a User. Its value is an address. Not just any address, of course, but the address of main.user. It's worth being explicit that the user variable in levelUp represents a concrete value. This value happens to be an address. And, it's not just an address, it's also a type, a *User. It's all very consistent, it doesn't matter if we're talking about pointers or not: variables associate type information with an address. The only special thing about pointers is that, when we use the dot syntax, e.g. user.power, Zig, knowing that user is a pointer, will automatically follow the address.
+Within levelUp, user is a pointer to a User. Its value is an address. Not just any address, of course, but the address of main.user. It's worth being explicit that the user variable in levelUp represents a concrete value. This value happens to be an address. And, it's not just an address, it's also a type, a \*User. It's all very consistent, it doesn't matter if we're talking about pointers or not: variables associate type information with an address. The only special thing about pointers is that, when we use the dot syntax, e.g. user.power, Zig, knowing that user is a pointer, will automatically follow the address.
 
 Some languages require a different symbol when accessing a field through a pointer.
 What's important to understand is that the user variable in levelUp itself exists in memory at some address. Just like we did before, we can see this for ourselves:
@@ -242,11 +247,12 @@ fn levelUp(user: *User) void {
 
 The above prints the address the user variable references as well as its value, which is the address of the user in main.
 
-If user is a *User, then what is &user? It's a **User, or a pointer to a pointer to a User. I can do this until one of us runs out of memory!
+If user is a \*User, then what is &user? It's a \*\*User, or a pointer to a pointer to a User. I can do this until one of us runs out of memory!
 
 There are use-cases for multiple levels of indirection, but is isn't anything we need right now. The purpose of this section is to show that pointers aren't special, they're just a value, which is an address, and a type.
 
 ## Nested Pointers
+
 Up until now, our User has been simple, containing two integers. It's easy to visualize its memory and, when we talk about "copying", there isn't any ambiguity. But what happens when User becomes more complex and contains a pointer?
 
 ```zig
@@ -358,6 +364,7 @@ The above code prints "Go!u". We had to change name's type from []const u8 to []
 Some languages have a different implementation, but many languages work exactly like this (or very close). While all of this might seem esoteric, it's fundamental to day to day programming. The good news is that you can master this using simple examples and snippets; it doesn't get more complicated as other parts of the system grow in complexity.
 
 ## Recursive Structures
+
 Sometimes you need a structure to be recursive. Keeping our existing code, let's add an optional manager of type ?User to our User. While we're at it, we'll create two Users and assign one as the manager to another:
 
 ```zig
@@ -393,6 +400,7 @@ We didn't run into this problem when we added name even though names can be diff
 You might think this is going to be a problem with any optional or union. But for both optionals and unions, the largest possible size is known and Zig can use that. A recursive structure has no such upper-bound, the structure could recurse once, twice or millions of times. That number would vary from User to User and would not be known at compile time.
 
 We saw the answer with name: use a pointer. Pointers always take usize bytes. On a 64-bit platform, that's 8 bytes. Just like the actual name "Goku" wasn't stored with/along our user, using a pointer means our manager is no longer tied to the user's memory layout.
+
 ```zig
 const std = @import("std");
 
@@ -427,4 +435,4 @@ A lot of developers struggle with pointers, there can be something elusive about
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

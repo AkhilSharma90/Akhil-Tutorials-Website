@@ -4,6 +4,7 @@ description: "Delve deep into Rust's collections framework in this comprehensive
 icon: "code"
 draft: false
 ---
+
 #### Introduction
 
 Collections are fundamental for storing and managing groups of data. Rust provides several powerful collections including Vectors, HashMaps, and HashSets, each designed for different use cases and efficiency considerations. This post explores these collections in-depth, providing insights into their mechanisms and demonstrating effective ways to use them in Rust programming.
@@ -11,6 +12,7 @@ Collections are fundamental for storing and managing groups of data. Rust provid
 #### Understanding Common Collections
 
 1. **Vector (Vec<T>)**
+
    - Vectors in Rust are resizable arrays. Like arrays, vectors store their contents in contiguous memory, but can dynamically grow and shrink as elements are added or removed.
    - **Creating and Using a Vector:**
      ```rust
@@ -23,6 +25,7 @@ Collections are fundamental for storing and managing groups of data. Rust provid
    - Vectors are ideal for scenarios where you need to dynamically store a list of items, and you frequently access elements by index or iterate over the elements.
 
 2. **HashMap<K, V>**
+
    - HashMaps store data based on key-value pairs and provide fast retrieval of data by using a hash function to compute an index from the keys.
    - **Creating and Using a HashMap:**
      ```rust
@@ -49,15 +52,18 @@ Collections are fundamental for storing and managing groups of data. Rust provid
 #### Using Collections Effectively
 
 - **Choosing the Right Collection:**
+
   - Use `Vec<T>` when you need a dynamic list or buffer, and you are interested in pushing and popping items frequently.
   - Use `HashMap<K, V>` for key-value pair based data storage and when quick lookup and insertion are necessary.
   - Use `HashSet<T>` when you need to ensure that all elements are unique and you require fast membership testing.
 
 - **Performance Considerations:**
+
   - Vectors provide efficient access to elements by index and have good locality of reference, which is beneficial for performance.
   - HashMaps and HashSets can be slower for small datasets due to hashing overhead, but they are extremely efficient for large datasets where direct indexing is impractical.
 
 - **Memory Usage:**
+
   - Understand the memory overhead of each collection. For example, HashMaps and HashSets typically consume more memory than Vectors because of the hashing mechanism.
 
 - **Iterating Over Collections:**
@@ -69,4 +75,4 @@ Understanding and using Rust's collections effectively is crucial for developing
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

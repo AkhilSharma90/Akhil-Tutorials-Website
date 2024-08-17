@@ -4,6 +4,7 @@ description: "Explore the essentials of integrating Rust with other programming 
 icon: "code"
 draft: false
 ---
+
 #### Introduction
 
 Interfacing Rust with other languages is a powerful feature that enables developers to reuse existing libraries and perform tasks that might be cumbersome or impossible in pure Rust. This post focuses on Rust's capabilities to interact with C using FFI and discusses strategies for maintaining safety despite the inherent risks of working with unsafe code.
@@ -13,7 +14,9 @@ Interfacing Rust with other languages is a powerful feature that enables develop
 Rust’s FFI is a way to interface with the C language. It allows Rust code to call C libraries and functions, which is useful for leveraging existing C codebases or using system libraries that are only accessible via C.
 
 **How to Call C from Rust:**
+
 - **Defining External Functions:**
+
   ```rust
   extern "C" {
       fn c_function(arg1: i32) -> i32;
@@ -26,6 +29,7 @@ Rust’s FFI is a way to interface with the C language. It allows Rust code to c
       }
   }
   ```
+
   This snippet demonstrates defining and calling a simple C function from Rust. The `extern "C"` block declares that the linked functions follow C's calling convention.
 
 - **Linking to C Libraries:**
@@ -33,6 +37,7 @@ Rust’s FFI is a way to interface with the C language. It allows Rust code to c
   - For dynamic linking, make sure the C library is available on your system path or specify its location manually.
 
 **Example `build.rs` for Linking:**
+
 ```rust
 fn main() {
     println!("cargo:rustc-link-lib=c_library_name");
@@ -44,11 +49,13 @@ fn main() {
 While FFI allows Rust to call C code, such interactions are inherently unsafe. To mitigate this, Rust developers often wrap unsafe C interactions in safe Rust abstractions.
 
 **Guidelines for Safe Abstractions:**
+
 - **Encapsulate Unsafe Code:** Encapsulate all unsafe interactions with C within a dedicated module or API. Provide safe interfaces that external code can use without directly dealing with unsafe blocks.
 - **Error Handling:** Convert C error patterns into Rust `Result` types, handling null pointers and error codes according to Rust's safety guarantees.
 - **Resource Management:** Use Rust's ownership and borrowing rules to manage resources obtained from C. For example, wrapping a C resource in a Rust struct and implementing the `Drop` trait ensures proper resource cleanup.
 
 **Example of a Safe Wrapper:**
+
 ```rust
 struct CResourceHandle(*mut c_void);
 
@@ -75,6 +82,7 @@ impl Drop for CResourceHandle {
     }
 }
 ```
+
 This wrapper safely manages a C resource, providing methods that maintain Rust's safety guarantees and ensuring proper cleanup through the `Drop` trait.
 
 #### Conclusion
@@ -83,4 +91,4 @@ Integrating Rust with other languages via FFI opens up a vast array of possibili
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

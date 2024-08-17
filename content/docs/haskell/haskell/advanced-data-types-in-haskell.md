@@ -4,7 +4,9 @@ description: "Dive deep into Haskell's advanced data types including Tuples, May
 icon: "code"
 draft: false
 ---
+
 ### Introduction:
+
 Welcome back to our in-depth Haskell series! Today, we're exploring some of Haskell's most powerful features—its advanced data types. Haskell offers a variety of sophisticated data structures that help manage complex data more efficiently and safely. In this guide, we will cover Tuples, Maybe and Either types, Records, and Algebraic Data Types (ADTs). Additionally, we'll delve into the powerful concepts of pattern matching and guards, essential tools that complement these data types perfectly. By understanding these elements, you can take full advantage of Haskell's type system to write clearer, more maintainable code.
 
 ### Tuples, Maybe, and Either Types
@@ -103,4 +105,4 @@ Understanding and using Haskell's advanced data types can significantly enhance 
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

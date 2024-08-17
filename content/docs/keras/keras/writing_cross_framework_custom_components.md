@@ -11,7 +11,7 @@ The `keras.ops` namespace contains:
 
 - An implementation of the NumPy API, e.g. keras.ops.stack or keras.ops.matmul.
 - A set of neural network specific ops that are absent from NumPy, such as keras.ops.conv or keras.ops.binary_crossentropy.
-Let's make a custom `Dense` layer that works with all backends:
+  Let's make a custom `Dense` layer that works with all backends:
 
 ```python
 class MyDense(keras.layers.Layer):
@@ -106,6 +106,7 @@ model.fit(
     validation_split=0.15,
 )
 ```
+
 ```bash
  399/399 ━━━━━━━━━━━━━━━━━━━━ 70s 174ms/step - acc: 0.5104 - loss: 1.3473 - val_acc: 0.9256 - val_loss: 0.2484
 
@@ -114,4 +115,4 @@ model.fit(
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

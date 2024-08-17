@@ -4,6 +4,7 @@ description: "Unravel the fundamentals of Haskell with a focus on expressions, t
 icon: "code"
 draft: false
 ---
+
 **Introduction:**
 
 Welcome back to the fascinating world of Haskell, a language that redefines the boundaries of programming through its pure functional nature and strong static type system. In this post, we delve deeper into the syntax and foundational concepts of Haskell. This language's focus on immutability, type safety, and function-driven solutions offers a distinct approach to solving programming challenges efficiently and effectively. By understanding Haskell's expressions, variables, basic data types, and functions, you'll be equipped to tackle more complex programming tasks with confidence.
@@ -80,7 +81,6 @@ This exploration of Haskell’s syntax and basic concepts provides a solid found
 **Q: Can Haskell be used for scripting?**
 **A: Yes, Haskell can be used for scripting tasks. Scripts can be written to automate tasks just like in any scripting language, leveraging Haskell's strong type system and functional nature for robust script development.**
 
-
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -5,7 +5,6 @@ icon: "code"
 draft: false
 ---
 
-
 Using Zig for data structures and algorithms (DSA) can be a rewarding experience due to Zig's focus on safety, performance, and simplicity. While Zig does not have built-in data structures and algorithms libraries like some other languages, you can implement your own or utilize existing libraries from other languages through Zig's interoperability with C.
 
 Here's a basic overview of how you can use Zig for DSA:
@@ -98,4 +97,4 @@ While Zig may not have pre-built DSA libraries like other languages, its capabil
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

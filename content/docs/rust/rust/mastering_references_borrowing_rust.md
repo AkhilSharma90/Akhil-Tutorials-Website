@@ -14,11 +14,13 @@ References and borrowing are pivotal concepts in Rust that complement the owners
 References in Rust allow you to access values without taking ownership, enabling multiple parts of your code to access data without costly copying or violating ownership rules.
 
 **Creating and Using References:**
+
 ```rust
 let s1 = String::from("Hello, Rust!");
 let ref_to_s1 = &s1; // Create an immutable reference
 println!("Using reference: {}", ref_to_s1);
 ```
+
 Here, `ref_to_s1` does not own the string; it merely has a reference to it, which allows for safe, read-only access.
 
 #### Immutable References
@@ -26,6 +28,7 @@ Here, `ref_to_s1` does not own the string; it merely has a reference to it, whic
 Immutable references (`&T`) are the default in Rust and allow multiple parts of your program to read data without risk of modification, enforcing thread safety and data consistency.
 
 **Detailed Exploration of Immutable References:**
+
 ```rust
 let s1 = String::from("Hello");
 let ref1 = &s1;
@@ -33,6 +36,7 @@ let ref2 = &s1;
 
 println!("ref1: {}, ref2: {}", ref1, ref2); // Multiple immutable references are allowed
 ```
+
 The above example highlights how Rust permits any number of immutable references because they ensure that the data will not be changed unexpectedly.
 
 #### Mutable References
@@ -40,6 +44,7 @@ The above example highlights how Rust permits any number of immutable references
 Mutable references (`&mut T`) allow you to modify the data they reference. Rust’s strict regulation of mutable references ensures that mutable references do not lead to data races or other unsafe memory behavior.
 
 **Exploring Rules and Use Cases of Mutable References:**
+
 ```rust
 let mut s1 = String::from("Hello");
 {
@@ -48,6 +53,7 @@ let mut s1 = String::from("Hello");
 } // s2 goes out of scope here, allowing for other references afterwards
 println!("{}", s1);
 ```
+
 This example demonstrates Rust's scoping rules for mutable references, where `s2` must go out of scope before another reference can be made.
 
 #### Practical Implications and Best Practices
@@ -59,12 +65,14 @@ By enforcing that either multiple immutable references or one mutable reference 
 
 **Advanced Pattern - Shadowing:**
 Shadowing in Rust allows reusing variable names. It can be combined with references for clearer and safer code:
+
 ```rust
 let x = 5;
 let x = &x;
 
 println!("The value of x is: {}", x);
 ```
+
 Shadowing here allows reusing `x` as a reference to the original `x`, simplifying code without sacrificing safety.
 
 **Lifetime Annotations:**
@@ -79,6 +87,7 @@ fn longest<'a>(x: &'a str, y: &'a str) -> &'a str {
     }
 }
 ```
+
 This function signature with lifetime annotations `'a` ensures that the return value lives as long as the shortest of the inputs.
 
 #### Conclusion
@@ -89,4 +98,4 @@ As you continue your journey with Rust, remember that these tools are designed t
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

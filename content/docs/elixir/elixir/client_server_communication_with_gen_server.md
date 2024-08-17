@@ -5,7 +5,6 @@ icon: "code"
 draft: false
 ---
 
-
 In simple state management tutorial, we used agents to represent our buckets. In the introduction to mix, we specified we would like to name each bucket so we can do the following:
 
 ```elixir
@@ -32,6 +31,7 @@ KV.Bucket.put(:shopping, "milk", 1)
 KV.Bucket.get(:shopping, "milk")
 1
 ```
+
 However, naming dynamic processes with atoms is a terrible idea! If we use atoms, we would need to convert the bucket name (often received from an external client) to atoms, and we should never convert user input to atoms. This is because atoms are not garbage collected. Once an atom is created, it is never reclaimed. Generating atoms from user input would mean the user can inject enough different names to exhaust our system memory!
 
 In practice, it is more likely you will reach the Erlang VM limit for the maximum number of atoms before you run out of memory, which will bring your system down regardless.
@@ -45,10 +45,11 @@ We will use a GenServer to create a registry process that can monitor the bucket
 Please read the GenServer module documentation for an overview if you haven't yet. Once you do so, we are ready to proceed.
 
 ### GenServer callbacks
+
 A GenServer is a process that invokes a limited set of functions under specific conditions. When we used a Agent, we would keep both the client code and the server code side by side, like this:
 
 def put(bucket, key, value) do
-  Agent.update(bucket, &Map.put(&1, key, value))
+Agent.update(bucket, &Map.put(&1, key, value))
 end
 
 Let's break that code apart a bit:
@@ -67,6 +68,7 @@ end
 In the code above, we have a process, which we call "the client" sending a request to an agent, "the server". The request contains an anonymous function, which must be executed by the server.
 
 In a GenServer, the code above would be two separate functions, roughly like this:
+
 ```elixir
 def put(bucket, key, value) do
   # Send the server a :put "instruction"
@@ -136,9 +138,11 @@ You may also have noticed that we have added @impl true before each callback. Th
 This is all good and well, but we still want to offer our users an API that allows us to hide our implementation details.
 
 ### The Client API
+
 A GenServer is implemented in two parts: the client API and the server callbacks. You can either combine both parts into a single module or you can separate them into a client module and a server module. The client is any process that invokes the client function. The server is always the process identifier or process name that we will explicitly pass as argument to the client API. Here we'll use a single module for both the server callbacks and the client API.
 
 Edit the file at lib/kv/registry.ex, filling in the blanks for the client API:
+
 ```elixir
   ## Client API
 
@@ -168,7 +172,7 @@ Edit the file at lib/kv/registry.ex, filling in the blanks for the client API:
 
 The first function is start_link/1, which starts a new GenServer passing a list of options. start_link/1 calls out to GenServer.start_link/3, which takes three arguments:
 
-The module where the server callbacks are implemented, in this case __MODULE__ (meaning the current module)
+The module where the server callbacks are implemented, in this case **MODULE** (meaning the current module)
 
 The initialization arguments, in this case the atom :ok
 
@@ -180,7 +184,7 @@ That's it for the client API. On the server side, we can implement a variety of 
 
 The first is the init/1 callback, that receives the second argument given to GenServer.start_link/3 and returns {:ok, state}, where state is a new map. We can already notice how the GenServer API makes the client/server segregation more apparent. start_link/3 happens in the client, while init/1 is the respective callback that runs on the server.
 
-For call/2 requests, we implement a handle_call/3 callback that receives the request, the process from which we received the request (_from), and the current server state (names). The handle_call/3 callback returns a tuple in the format {:reply, reply, new_state}. The first element of the tuple, :reply, indicates that the server should send a reply back to the client. The second element, reply, is what will be sent to the client while the third, new_state is the new server state.
+For call/2 requests, we implement a handle_call/3 callback that receives the request, the process from which we received the request (\_from), and the current server state (names). The handle_call/3 callback returns a tuple in the format {:reply, reply, new_state}. The first element of the tuple, :reply, indicates that the server should send a reply back to the client. The second element, reply, is what will be sent to the client while the third, new_state is the new server state.
 
 For cast/2 requests, we implement a handle_cast/2 callback that receives the request and the current server state (names). The handle_cast/2 callback returns a tuple in the format {:noreply, new_state}. Note that in a real application we would have probably implemented the callback for :create with a synchronous call instead of an asynchronous cast. We are doing it this way to illustrate how to implement a cast callback.
 
@@ -189,6 +193,7 @@ There are other tuple formats both handle_call/3 and handle_cast/2 callbacks may
 For now, let's write some tests to guarantee our GenServer works as expected.
 
 ### Testing a GenServer
+
 Testing a GenServer is not much different from testing an agent. We will spawn the server on a setup callback and use it throughout our tests. Create a file at test/kv/registry_test.exs with the following:
 
 ```elixir
@@ -223,6 +228,7 @@ When starting processes during your tests, we should always prefer to use start_
 Run the tests and they should all pass!
 
 ### The need for monitoring
+
 Everything we have done so far could have been implemented with a Agent. In this section, we will see one of many things that we can achieve with a GenServer that is not possible with an Agent.
 
 Let's start with a test that describes how we want the registry to behave if a bucket stops or crashes:
@@ -241,6 +247,7 @@ The test above will fail on the last assertion as the bucket name remains in the
 In order to fix this bug, we need the registry to monitor every bucket it spawns. Once we set up a monitor, the registry will receive a notification every time a bucket process exits, allowing us to clean the registry up.
 
 Let's first play with monitors by starting a new console with iex -S mix:
+
 ```elixir
 {:ok, pid} = KV.Bucket.start_link([])
 {:ok, #PID<0.66.0>}
@@ -305,6 +312,7 @@ Observe that we were able to considerably change the server implementation witho
 Finally, different from the other callbacks, we have defined a "catch-all" clause for handle_info/2 that discards and logs any unknown message. To understand why, let's move on to the next section.
 
 ### call, cast or info?
+
 So far we have used three callbacks: handle_call/3, handle_cast/2 and handle_info/2. Here is what we should consider when deciding when to use each:
 
 - handle_call/3 must be used for synchronous requests. This should be the default choice as waiting for the server reply is a useful back-pressure mechanism.
@@ -316,6 +324,7 @@ Since any message, including the ones sent via send/2, go to handle_info/2, ther
 To help developers remember the differences between call, cast and info, the supported return values and more, we have a tiny GenServer cheat sheet.
 
 ## Monitors or links?
+
 We have previously learned about links in the Process chapter. Now, with the registry complete, you may be wondering: when should we use monitors and when should we use links?
 
 Links are bi-directional. If you link two processes and one of them crashes, the other side will crash too (unless it is trapping exits). A monitor is uni-directional: only the monitoring process will receive notifications about the monitored one. In other words: use links when you want linked crashes, and monitors when you just want to be informed of crashes, exits, and so on.
@@ -329,4 +338,4 @@ This is a bad idea, as we don't want the registry to crash when a bucket crashes
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

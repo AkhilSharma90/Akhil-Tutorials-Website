@@ -13,6 +13,7 @@ Advanced data structures are crucial for creating efficient algorithms and appli
 The `collections` module provides alternatives to Python’s general purpose built-in containers. We will focus on `Counter`, `deque`, and `OrderedDict`.
 
 #### Counter
+
 `Counter` is a subclass of `dict` that is used to count objects. It simplifies counting and frequency analysis tasks.
 
 ```python
@@ -26,9 +27,11 @@ print(word_counts)  # Counter({'apple': 3, 'banana': 2, 'orange': 1})
 # Most common elements
 print(word_counts.most_common(2))  # [('apple', 3), ('banana', 2)]
 ```
+
 `Counter` automatically counts the frequency of each element in the list, providing a dictionary-like object where elements are keys and counts are values. The `most_common()` method returns the most frequent elements.
 
 #### deque
+
 `deque`, pronounced "deck", is a list-optimized container that provides fast appends and pops from both ends.
 
 ```python
@@ -47,9 +50,11 @@ d.pop()  # Remove from the right
 d.popleft()  # Remove from the left
 print("Deque after deletions:", list(d))
 ```
+
 `deque` supports thread-safe, memory-efficient appends and pops from either side of the deque with approximately the same O(1) performance in either direction.
 
 #### OrderedDict
+
 `OrderedDict` maintains the order of keys as they were initially inserted. This was particularly useful before Python 3.7 introduced regular dicts that preserve order. However, `OrderedDict` still has its uses, such as when reordering dict items is needed.
 
 ```python
@@ -69,6 +74,7 @@ print("OrderedDict after moving 'red' to the end:", ordered_dict)
 The `heapq` module provides an implementation of the heap queue algorithm, also known as the priority queue algorithm.
 
 #### Using heapq
+
 ```python
 import heapq
 
@@ -84,6 +90,7 @@ smallest = heapq.heappop(numbers)  # Pop the smallest item
 print("Smallest element:", smallest)
 print("Heap after popping the smallest element:", numbers)
 ```
+
 `heapq` transforms a regular list into a heap where the smallest element is always at the index 0. This is useful for tasks where you continually need to access and remove the smallest element without performing a full sort.
 
 ### Conclusion
@@ -92,4 +99,4 @@ Understanding and utilizing advanced data structures like those in the `collecti
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

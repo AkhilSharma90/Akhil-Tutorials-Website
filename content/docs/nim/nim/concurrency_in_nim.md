@@ -8,6 +8,7 @@ draft: false
 Nim provides concurrency using the `async`/`await` syntax, powered by the `asyncdispatch` module. This allows you to write asynchronous functions that can run concurrently on a single thread, making it especially useful for IO-intensive tasks.
 
 #### Key Concepts
+
 - **Concurrency vs. Parallelism**: Concurrency involves managing multiple tasks at the same time, but not necessarily running them simultaneously. Parallelism, on the other hand, means running multiple tasks simultaneously. Nim's async model is focused on concurrency.
 - **Async Functions**: Functions that use the `async`/`await` syntax are marked with the `{.async.}` pragma.
 - **Await Keyword**: Used to wait for an asynchronous procedure to complete.
@@ -33,11 +34,13 @@ waitFor ma and mb
 ```
 
 **Explanation**:
+
 1. **Async Function**: The `ioManager` function is marked as `{.async.}` and can now use `await`.
 2. **Await**: Inside the loop, `await sleepAsync(10)` pauses the execution of `ioManager` for 10 milliseconds without blocking the entire program.
 3. **Running Functions**: `waitFor ma and mb` ensures the program waits until both `ma` and `mb` complete.
 
 **Expected Output**:
+
 ```
 a - run: 1
 b - run: 1
@@ -95,6 +98,7 @@ runForever()
 ```
 
 **Explanation**:
+
 1. **handleClient**: Receives data from the client, sends a response, and then closes the connection.
 2. **startServer**: Sets up a server that listens on port 9000 and accepts incoming connections.
 3. **asyncCheck**: Ensures `startServer` runs asynchronously.
@@ -111,4 +115,4 @@ Nim's async/await syntax and related modules provide a powerful and flexible way
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

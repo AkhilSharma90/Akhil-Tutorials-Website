@@ -168,7 +168,7 @@ fn List(comptime T: type) type {
 }
 ```
 
-Our init function returns a List(T), and our deinit and add functions take a List(T) and *List(T). In our simple class, that's fine, but for large data structures, writing the full generic name can become a little tedious, especially if we have multiple type parameters (e.g. a hash map that takes a separate type for its key and value). The @This() builtin function returns the innermost type from where it's called. Most likely, our List(T) would be written as:
+Our init function returns a List(T), and our deinit and add functions take a List(T) and \*List(T). In our simple class, that's fine, but for large data structures, writing the full generic name can become a little tedious, especially if we have multiple type parameters (e.g. a hash map that takes a separate type for its key and value). The @This() builtin function returns the innermost type from where it's called. Most likely, our List(T) would be written as:
 
 ```zig
 fn List(comptime T: type) type {
@@ -194,10 +194,11 @@ fn List(comptime T: type) type {
 	};
 }
 ```
+
 Self isn't a special name, it's just a variable, and it's PascalCase because its value is a type. We can use Self where we had previously used List(T).
 
 We could create more complex examples, with multiple type parameters and more advanced algorithms. But, in the end, the core generic code would be no different than the simple examples above. In the next part we'll touch on generics again when we look at the standard library's ArrayList(T) and StringHashMap(V).
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

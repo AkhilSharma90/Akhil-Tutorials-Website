@@ -26,14 +26,17 @@ Go was designed to address some of the common frustrations developers face with 
 To start coding in Go, you first need to set up your development environment. Here’s how you can get started:
 
 **a. Download and Install Go:**
+
 - Visit the [official Go website](https://golang.org/dl/) and download the Go installer for your operating system.
 - Follow the installation instructions specific to your OS. This typically involves running the downloaded installer.
 
 **b. Verify the Installation:**
+
 - Open a terminal or command prompt.
 - Type `go version` and press enter. If Go is installed correctly, you should see the installed version of Go displayed in the terminal.
 
 **c. Set Up Your Workspace:**
+
 - Create a workspace directory where you will keep all your Go projects. For example, `~/go` on Unix-like systems or `C:\go` on Windows.
 - Inside your workspace, create a directory called `src` where you will store the source files.
 
@@ -42,10 +45,12 @@ To start coding in Go, you first need to set up your development environment. He
 Now that you have your environment set up, let’s write a simple program to get a feel for Go.
 
 **Create a File:**
+
 - Go to the `src` directory in your workspace.
 - Create a new file named `hello.go`.
 
 **Write the Program:**
+
 - Open `hello.go` in a text editor and type the following code:
 
 ```go
@@ -59,6 +64,7 @@ func main() {
 ```
 
 **Run Your Program:**
+
 - Open your terminal or command prompt.
 - Navigate to the directory containing your `hello.go` file.
 - Type `go run hello.go` and press enter. You should see “Hello, world!” printed in the console.
@@ -69,8 +75,7 @@ Congratulations! You’ve just set up your Go development environment and writte
 
 Stay tuned for more tutorials that will help you advance your Go programming skills and tackle more complex projects!
 
-
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq)
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq)
 
 **Frequently Asked Questions:**
 

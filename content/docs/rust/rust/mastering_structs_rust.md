@@ -14,6 +14,7 @@ Structs are fundamental to organizing structured data in Rust, serving as custom
 Structs in Rust allow you to create custom data types that group related variables within one logical unit. This not only helps in managing data more efficiently but also improves the clarity and scalability of the code.
 
 **Basic Definition of a Struct:**
+
 ```rust
 struct User {
     username: String,
@@ -22,9 +23,11 @@ struct User {
     active: bool,
 }
 ```
+
 This `User` struct represents a typical user profile, encapsulating attributes related to a user in one cohesive unit.
 
 **Instantiating Structs:**
+
 ```rust
 let user1 = User {
     email: String::from("user@example.com"),
@@ -33,6 +36,7 @@ let user1 = User {
     sign_in_count: 1,
 };
 ```
+
 Creating an instance of a struct involves specifying concrete values for each field, following the order declared in the struct.
 
 **Updating Structs:**
@@ -45,6 +49,7 @@ let user2 = User {
     ..user1
 };
 ```
+
 This snippet creates a new `User` instance by changing the email and username from `user1` but keeping the other fields.
 
 #### Struct Methods and Associated Functions
@@ -52,6 +57,7 @@ This snippet creates a new `User` instance by changing the email and username fr
 Methods in Rust are functions defined within the context of a struct (or an enum or a trait object), and their first parameter is always `self`, which represents the instance of the struct the method is called on.
 
 **Defining Methods:**
+
 ```rust
 impl User {
     fn email(&self) -> &String {
@@ -59,6 +65,7 @@ impl User {
     }
 }
 ```
+
 This method `email` allows you to access the email of a `User` instance in an encapsulated manner, ensuring that the method operations can only interact with the data through well-defined interfaces.
 
 **Associated Functions:**
@@ -76,6 +83,7 @@ impl User {
     }
 }
 ```
+
 `new_user` acts as a constructor, providing a clean interface to create a `User`.
 
 #### Advanced Usage of Structs
@@ -83,6 +91,7 @@ impl User {
 Structs can also define more complex relationships like nested structs or use different types like tuples to simplify code and enhance readability.
 
 **Example of Nested Structs:**
+
 ```rust
 struct Rectangle {
     width: u32,
@@ -94,6 +103,7 @@ struct Profile {
     display_area: Rectangle,
 }
 ```
+
 Here, `Profile` includes a `Rectangle` struct within it, demonstrating how structs can be nested to represent more complex data relationships effectively.
 
 **Tuple Structs:**
@@ -103,6 +113,7 @@ Tuple structs are essentially named tuples. They are useful when you want to giv
 struct Color(i32, i32, i32);
 let black = Color(0, 0, 0);
 ```
+
 This `Color` tuple struct represents a color using RGB values.
 
 #### Conclusion
@@ -111,4 +122,4 @@ Structs are a powerful feature in Rust that enable the creation of custom data t
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

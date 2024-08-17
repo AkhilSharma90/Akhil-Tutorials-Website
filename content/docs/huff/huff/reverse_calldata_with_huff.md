@@ -27,7 +27,7 @@ There are multiple valid solutions to this challenge.
 #define macro MAIN() = takes(0) returns(0) {
   calldatasize not_empty jumpi
   returndatasize returndatasize return
-  
+
   not_empty:
   calldatasize
   returndatasize
@@ -43,7 +43,7 @@ There are multiple valid solutions to this challenge.
     swap1 mstore8            // [j, i]
     swap1 0x1 add            // [i', j' + 1]
     dup2 dup2                // [i', j' + 1, i', j' + 1]
-    lt 
+    lt
     copy_bytes_iter jumpi
 
   calldatasize returndatasize return
@@ -124,7 +124,7 @@ In the second block, the swapping of the bytes takes place. The contract swaps `
 ```huff
 swap1 0x1 add            // [i', j' + 1]
 dup2 dup2                // [i', j' + 1, i', j' + 1]
-lt 
+lt
 copy_bytes_iter jumpi
 ```
 
@@ -148,4 +148,4 @@ In this tutorial, we've seen how to write a Huff smart contract that reverses ca
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

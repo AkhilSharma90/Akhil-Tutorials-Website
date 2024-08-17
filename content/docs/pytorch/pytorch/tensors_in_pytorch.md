@@ -15,6 +15,7 @@ import numpy as np
 ```
 
 ## Initializing a Tensor
+
 Tensors can be initialized in various ways. Take a look at the following examples:
 
 **Directly from data**
@@ -45,6 +46,7 @@ print(f"Ones Tensor: \n {x_ones} \n")
 x_rand = torch.rand_like(x_data, dtype=torch.float) # overrides the datatype of x_data
 print(f"Random Tensor: \n {x_rand} \n")
 ```
+
 ```bash
 Ones Tensor:
  tensor([[1, 1],
@@ -69,6 +71,7 @@ print(f"Random Tensor: \n {rand_tensor} \n")
 print(f"Ones Tensor: \n {ones_tensor} \n")
 print(f"Zeros Tensor: \n {zeros_tensor}")
 ```
+
 ```bash
 Random Tensor:
  tensor([[0.3904, 0.6009, 0.2566],
@@ -84,6 +87,7 @@ Zeros Tensor:
 ```
 
 ## Attributes of a Tensor
+
 Tensor attributes describe their shape, datatype, and the device on which they are stored.
 
 ```python
@@ -93,6 +97,7 @@ print(f"Shape of tensor: {tensor.shape}")
 print(f"Datatype of tensor: {tensor.dtype}")
 print(f"Device tensor is stored on: {tensor.device}")
 ```
+
 ```bash
 Shape of tensor: torch.Size([3, 4])
 Datatype of tensor: torch.float32
@@ -100,6 +105,7 @@ Device tensor is stored on: cpu
 ```
 
 ## Operations on Tensors
+
 Over 100 tensor operations, including arithmetic, linear algebra, matrix manipulation (transposing, indexing, slicing), sampling and more are comprehensively described here.
 
 Each of these operations can be run on the GPU (at typically higher speeds than on a CPU). If you’re using Colab, allocate a GPU by going to Runtime > Change runtime type > GPU.
@@ -115,6 +121,7 @@ if torch.cuda.is_available():
 Try out some of the operations from the list. If you’re familiar with the NumPy API, you’ll find the Tensor API a breeze to use.
 
 **Standard numpy-like indexing and slicing:**
+
 ```python
 tensor = torch.ones(4, 4)
 print(f"First row: {tensor[0]}")
@@ -123,6 +130,7 @@ print(f"Last column: {tensor[..., -1]}")
 tensor[:,1] = 0
 print(tensor)
 ```
+
 ```bash
 First row: tensor([1., 1., 1., 1.])
 First column: tensor([1., 1., 1., 1.])
@@ -139,6 +147,7 @@ tensor([[1., 0., 1., 1.],
 t1 = torch.cat([tensor, tensor, tensor], dim=1)
 print(t1)
 ```
+
 ```bash
 tensor([[1., 0., 1., 1., 1., 0., 1., 1., 1., 0., 1., 1.],
         [1., 0., 1., 1., 1., 0., 1., 1., 1., 0., 1., 1.],
@@ -165,6 +174,7 @@ z2 = tensor.mul(tensor)
 z3 = torch.rand_like(tensor)
 torch.mul(tensor, tensor, out=z3)
 ```
+
 ```bash
 tensor([[1., 0., 1., 1.],
         [1., 0., 1., 1.],
@@ -179,17 +189,19 @@ agg = tensor.sum()
 agg_item = agg.item()
 print(agg_item, type(agg_item))
 ```
+
 ```bash
 12.0 <class 'float'>
 ```
 
-**In-place operations** Operations that store the result into the operand are called in-place. They are denoted by a _ suffix. For example: x.copy_(y), x.t_(), will change x.
+**In-place operations** Operations that store the result into the operand are called in-place. They are denoted by a _ suffix. For example: x.copy_(y), x.t\_(), will change x.
 
 ```python
 print(f"{tensor} \n")
 tensor.add_(5)
 print(tensor)
 ```
+
 ```bash
 tensor([[1., 0., 1., 1.],
         [1., 0., 1., 1.],
@@ -204,4 +216,4 @@ tensor([[6., 5., 6., 6.],
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

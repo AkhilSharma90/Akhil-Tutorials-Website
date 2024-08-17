@@ -4,6 +4,7 @@ description: "Master the art of error handling in Go with this detailed guide. L
 icon: "code"
 draft: false
 ---
+
 **Introduction:**
 
 Hello, Go developers! Error handling is a critical component of robust application development. Unlike many programming languages that use exceptions for error handling, Go uses a distinct approach that encourages explicit error checking, which can lead to more reliable and understandable code. In this blog, we'll dive deep into Go's error handling strategies, exploring how to handle errors effectively, create and use custom errors, and utilize Go's `defer`, `panic`, and `recover` mechanisms to manage exceptional situations gracefully.
@@ -123,8 +124,7 @@ func main() {
 
 Error handling in Go is built to be clear and explicit, minimizing hidden control flows and making it easier to reason about error handling paths. By leveraging custom errors and the `defer`, `panic`, and `recover` mechanisms, you can write safer, more predictable Go applications that are easier to maintain. Embrace these practices and continue refining your Go error handling strategies to enhance application reliability and maintainability.
 
-
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq)
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq)
 
 **Frequently Asked Questions:**
 

@@ -14,6 +14,7 @@ Ownership is arguably the most distinctive feature of Rust. It enforces a set of
 Ownership in Rust is a memory management concept that ensures memory safety by enforcing three rules regarding the ownership, scope, and borrowing of values. Each value in Rust has a variable that’s its owner, and there is exactly one owner at any given time. When the owner goes out of scope, Rust will automatically deallocate the memory, thus preventing leaks.
 
 **Core Principles of Ownership:**
+
 - **Scoped Resource Management (RAII):** Rust leverages the Resource Acquisition Is Initialization (RAII) paradigm. The moment a variable takes ownership of a resource (like memory), it is also responsible for releasing it once the variable goes out of scope.
 - **Move Semantics:** Unlike many other languages that default to shallow copying of values, Rust uses move semantics by default. When a value is transferred from one variable to another, the original variable is invalidated, and no longer accessible.
 - **Borrowing:** Ownership can be temporarily shared through borrowing. Rust allows creating references to a value which can either be immutable or mutable, enforced at compile time.
@@ -23,12 +24,15 @@ Ownership in Rust is a memory management concept that ensures memory safety by e
 Ownership in Rust is designed around three fundamental rules to ensure memory safety and efficient management:
 
 1. **Each Value Has a Single Owner:**
+
    - This rule helps Rust manage and deallocate memory correctly. Once a variable that owns a heap value goes out of scope, Rust automatically calls the `drop` function to free the memory.
 
 2. **Ownership Can Be Transferred (Moving):**
+
    - When ownership is transferred from one variable to another, it’s known as a _move_. After a move, Rust ensures that the original variable can no longer be used, thus avoiding double free errors.
-   
+
    **Example of Move Semantics:**
+
    ```rust
    let s1 = String::from("Hello");
    let s2 = s1;
@@ -38,9 +42,11 @@ Ownership in Rust is designed around three fundamental rules to ensure memory sa
    ```
 
 3. **Ownership Can Be Borrowed Temporarily:**
+
    - Borrowing is particularly powerful for function parameter passing. Rust differentiates between mutable and immutable references, allowing safe concurrent or mutable access controlled at compile time.
-   
+
    **Example of Immutable Borrowing:**
+
    ```rust
    let s1 = String::from("Hello");
    let s2 = &s1;
@@ -49,6 +55,7 @@ Ownership in Rust is designed around three fundamental rules to ensure memory sa
    ```
 
    **Example of Mutable Borrowing:**
+
    ```rust
    let mut s1 = String::from("Hello");
    let s2 = &mut s1;
@@ -67,4 +74,4 @@ The ownership model in Rust is a revolutionary approach to managing memory in sy
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

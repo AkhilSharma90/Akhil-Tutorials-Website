@@ -14,12 +14,14 @@ An API gateway is a server that acts as an intermediary between clients and a co
 API gateways implement several key capabilities:
 
 1. **Security Policy**:
+
    - **Authentication**: Verifying the identity of the user or service making the request.
    - **Authorization**: Ensuring the requester has permission to access the requested resource.
    - **Access Control**: Restricting access to certain resources based on policies.
    - **Encryption**: Protecting data in transit between clients and services.
 
 2. **Routing Policy**:
+
    - **Routing**: Directing requests to the appropriate backend services.
    - **Rate Limiting**: Controlling the number of requests a client can make in a given timeframe.
    - **Request/Response Manipulation**: Modifying requests before they reach the service and responses before they return to the client.
@@ -100,4 +102,4 @@ By carefully evaluating these factors, you can choose an API gateway that meets 
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

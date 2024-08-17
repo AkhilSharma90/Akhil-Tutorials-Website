@@ -4,7 +4,7 @@
     <title>HTMX on Tutorials</title>
     <link>http://localhost:1313/tutorials/docs/htmx/</link>
     <description>Recent content in HTMX on Tutorials</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/htmx/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -40,7 +40,7 @@
       <link>http://localhost:1313/tutorials/docs/htmx/htmx/some_hx_attributes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/tutorials/docs/htmx/htmx/some_hx_attributes/</guid>
-      <description>Other hx-Attributes linkIndicators linkYou can specify an element that should be shown or hidden when the request is in flight using the hx-indicator attribute.&#xA;Here is a div that hides itself and shows a spinner when it is loading:&#xA;&amp;lt;div hx-get=&amp;#34;/slow&amp;#34; hx-trigger=&amp;#34;click&amp;#34; hx-target=&amp;#34;#parent-div&amp;#34;&amp;gt; &amp;lt;span hx-indicator=&amp;#34;#spinner&amp;#34;&amp;gt;Load the slow content&amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;img id=&amp;#34;spinner&amp;#34; src=&amp;#34;/img/spinner.gif&amp;#34; style=&amp;#34;display:none;&amp;#34;&amp;gt; Indicators are shown when a request is initiated, and hidden when the request is finished.&#xA;Selecting Content to Swap linkYou can select a portion of the response to use for the swap, instead of using the entire response, using the hx-select attribute.</description>
+      <description>Other hx-Attributes linkIndicators linkYou can specify an element that should be shown or hidden when the request is in flight using the hx-indicator attribute.&#xA;Here is a div that hides itself and shows a spinner when it is loading:&#xA;&amp;lt;div hx-get=&amp;#34;/slow&amp;#34; hx-trigger=&amp;#34;click&amp;#34; hx-target=&amp;#34;#parent-div&amp;#34;&amp;gt; &amp;lt;span hx-indicator=&amp;#34;#spinner&amp;#34;&amp;gt;Load the slow content&amp;lt;/span&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;img id=&amp;#34;spinner&amp;#34; src=&amp;#34;/img/spinner.gif&amp;#34; style=&amp;#34;display:none;&amp;#34; /&amp;gt; Indicators are shown when a request is initiated, and hidden when the request is finished.&#xA;Selecting Content to Swap linkYou can select a portion of the response to use for the swap, instead of using the entire response, using the hx-select attribute.</description>
     </item>
     <item>
       <title>Security in HTMX</title>

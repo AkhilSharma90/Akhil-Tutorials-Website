@@ -5,8 +5,6 @@ icon: "code"
 draft: false
 ---
 
-
-
 ## Advanced OCaml Concepts
 
 As we delve deeper into OCaml, we encounter advanced features that provide powerful tools for software development. These include modules, error handling, and object-oriented features.
@@ -41,7 +39,7 @@ exception DivideByZero;;
 let divide a b =
   if b = 0 then raise DivideByZero
   else a / b;;
-  
+
 try
   let result = divide 10 0 in
   print_endline (string_of_int result)
@@ -93,4 +91,4 @@ read_file "test.txt";;
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

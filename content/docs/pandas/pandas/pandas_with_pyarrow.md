@@ -40,6 +40,7 @@ print(ser)
 ```
 
 Output:
+
 ```
 0    -1.5
 1     0.2
@@ -55,6 +56,7 @@ print(idx)
 ```
 
 Output:
+
 ```
 Index([True, <NA>], dtype='bool[pyarrow]')
 ```
@@ -67,6 +69,7 @@ print(df)
 ```
 
 Output:
+
 ```
    0  1
 0  1  2
@@ -93,6 +96,7 @@ print(ser_ad.str.contains("a"))
 ```
 
 Output:
+
 ```
 False
 0     True
@@ -118,6 +122,7 @@ print(ser)
 ```
 
 Output:
+
 ```
 0    ['hello']
 1    ['there']
@@ -143,6 +148,7 @@ print(df)
 ```
 
 Output:
+
 ```
 Index([12:30:00, <NA>], dtype='time64[us][pyarrow]')
       0      1
@@ -163,6 +169,7 @@ print(ser)
 ```
 
 Output:
+
 ```
 0      [('1', '2')]
 1    [('10', '20')]
@@ -185,6 +192,7 @@ print(pa.array(idx))
 ```
 
 Output:
+
 ```
 <pyarrow.lib.UInt8Array object at 0x7ff2a2968400>
 [
@@ -214,6 +222,7 @@ print(df.dtypes)
 ```
 
 Output:
+
 ```
    a
 0  1
@@ -254,6 +263,7 @@ print(ser_str.str.startswith("a"))
 ```
 
 Output:
+
 ```
 0     True
 1    False
@@ -272,6 +282,7 @@ print(ser_dt.dt.strftime("%Y-%m"))
 ```
 
 Output:
+
 ```
 0    2022-01
 1       <NA>
@@ -296,6 +307,7 @@ print(df)
 ```
 
 Output:
+
 ```
    a    b      c
 0  1  2.5   True
@@ -320,6 +332,7 @@ print(df_pyarrow.dtypes)
 ```
 
 Output:
+
 ```
 a     int64[pyarrow]
 b    double[pyarrow]
@@ -339,4 +352,4 @@ Integrating PyArrow with Pandas extends the library's functionality, improves pe
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -8,16 +8,20 @@ draft: false
 ## Transfer Learning with PyTorch: Enhancing Your Classification Model
 
 ### What is Transfer Learning?
+
 Transfer learning allows us to leverage pre-trained models, using the patterns and knowledge they have acquired from large datasets to solve new, but related, problems. This technique is highly valuable in scenarios where acquiring a massive dataset or training a model from scratch is impractical.
 
 ### Why Use Transfer Learning?
+
 1. **Leverage Existing Models**: Use neural network architectures that are already proven to work on similar problems.
 2. **Efficiency**: Achieve better results with less data and computational resources by building on models that have already learned useful patterns.
 
 ### Setting Up Transfer Learning with PyTorch
+
 Let's dive into the practical steps to set up a transfer learning workflow using PyTorch, focusing on an image classification task with FoodVision Mini (pizza, steak, sushi).
 
 #### 0. Setup
+
 Ensure you have the necessary libraries and modules. We'll also download required scripts and data.
 
 ```python
@@ -47,6 +51,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 ```
 
 #### 1. Get Data
+
 Download and prepare the dataset.
 
 ```python
@@ -73,6 +78,7 @@ test_dir = image_path / "test"
 ```
 
 #### 2. Create Datasets and DataLoaders
+
 We need to prepare our data loaders with appropriate transformations.
 
 ```python
@@ -93,6 +99,7 @@ train_dataloader, test_dataloader, class_names = data_setup.create_dataloaders(
 ```
 
 #### 3. Load a Pretrained Model
+
 Choose a pretrained model and customize it for our dataset.
 
 ```python
@@ -105,6 +112,7 @@ summary(model, input_size=(32, 3, 224, 224), col_names=["input_size", "output_si
 ```
 
 #### 4. Customize the Model
+
 Freeze the base layers and adjust the output layer for our specific task.
 
 ```python
@@ -120,6 +128,7 @@ summary(model, input_size=(32, 3, 224, 224), col_names=["input_size", "output_si
 ```
 
 #### 5. Train the Model
+
 Use a suitable optimizer and loss function, then train the model.
 
 ```python
@@ -132,8 +141,9 @@ engine.train(model=model, train_dataloader=train_dataloader, test_dataloader=tes
 ```
 
 ### Conclusion
+
 By following these steps, you can effectively utilize transfer learning to boost your model's performance with minimal data and effort. This technique not only saves time and resources but also leverages the power of pre-trained models to achieve superior results on custom tasks.
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

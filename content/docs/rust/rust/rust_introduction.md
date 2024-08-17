@@ -4,6 +4,7 @@ description: "A comprehensive introduction to Rust, detailing its advantages, in
 icon: "code"
 draft: false
 ---
+
 ## Introduction to Rust
 
 Rust is a systems programming language focused on three goals: safety, speed, and concurrency. It achieves these goals without having a garbage collector, making it a useful language for a number of use cases other languages aren’t as well suited for, such as embedding in other languages, programs with specific space and time requirements, and writing low-level code, like device drivers and operating systems.
@@ -50,10 +51,12 @@ Cargo is Rust’s build system and package manager. Most Rustaceans use Cargo be
 #### Creating a New Project
 
 To create a new project with Cargo, run:
+
 ```bash
 cargo new my_project
 cd my_project
 ```
+
 This will create a new folder called `my_project` with a basic project structure:
 
 - `Cargo.toml` — the manifest file where you specify your dependencies and other project settings.
@@ -62,10 +65,12 @@ This will create a new folder called `my_project` with a basic project structure
 #### Building and Running a Project
 
 Within your new project, you can build and run your project using:
+
 ```bash
 cargo build
 cargo run
 ```
+
 `cargo build` compiles your project, and `cargo run` builds and runs the compiled executable.
 
 ## Conclusion
@@ -74,4 +79,4 @@ You're now equipped with the basic knowledge to begin your journey into Rust pro
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

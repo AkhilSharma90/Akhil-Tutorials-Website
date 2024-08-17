@@ -117,15 +117,14 @@ for j < 10 {
 
 Now that you've got a solid foundation in Go's data types, variables, constants, operators, and control structures, you’re well on your way to becoming proficient in Go programming. These basic elements are the building blocks of any Go program, and mastering them will greatly enhance your ability to write robust and maintainable code. Keep practicing what you've learned here, and stay tuned for more advanced Go tutorials!
 
-
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq)
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq)
 
 **Frequently Asked Questions:**
 
 **Q: Why does Go not have a `while` loop?**
 **A:** Go simplifies the looping constructs by only having
 
- a `for` loop, which can be used in several ways to achieve the same functionality as a `while` loop, thereby keeping the language specification simpler.
+a `for` loop, which can be used in several ways to achieve the same functionality as a `while` loop, thereby keeping the language specification simpler.
 
 **Q: Can constants be declared using the `:=` syntax in Go?**
 **A:** No, constants in Go must be declared using the `const` keyword. The `:=` syntax is reserved for declaring variables.

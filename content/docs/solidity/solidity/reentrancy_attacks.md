@@ -96,7 +96,6 @@ contract ReentracyProtected is ReentrancyGuard {
 
 **Curve Finance:** On July 30th, 2023, Curve Finance, a decentralized finance (DeFi) protocol, was attacked due to a Vyper compiler bug, leading to a loss of nearly $70 million.
 
-
 ### Reentrancy Example
 
 A vulnerability is found in the `HypercertMinter::splitValue` function, which calls `_mintBatch()` before updating the storage. This violates the Checks-Effects-Interactions pattern, making it vulnerable to a reentrancy attack.
@@ -129,4 +128,4 @@ By understanding and implementing these strategies, developers can secure their 
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

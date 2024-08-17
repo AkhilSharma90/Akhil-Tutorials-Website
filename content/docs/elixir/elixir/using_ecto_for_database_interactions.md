@@ -16,42 +16,46 @@ Ecto is an Elixir library for interacting with databases. It allows you to defin
 To start using Ecto in your project, follow these steps:
 
 1. Add Ecto and a database adapter (e.g., PostgreSQL) to your `mix.exs` dependencies:
-    ```elixir
-    defp deps do
-      [
-        {:ecto_sql, "~> 3.7"},
-        {:postgrex, ">= 0.0.0"}
-      ]
-    end
-    ```
+
+   ```elixir
+   defp deps do
+     [
+       {:ecto_sql, "~> 3.7"},
+       {:postgrex, ">= 0.0.0"}
+     ]
+   end
+   ```
 
 2. Fetch the dependencies:
-    ```sh
-    mix deps.get
-    ```
+
+   ```sh
+   mix deps.get
+   ```
 
 3. Generate the Ecto repository:
-    ```sh
-    mix ecto.gen.repo -r MyApp.Repo
-    ```
+
+   ```sh
+   mix ecto.gen.repo -r MyApp.Repo
+   ```
 
 4. Configure the repository in `config/config.exs`:
-    ```elixir
-    config :my_app, MyApp.Repo,
-      username: "postgres",
-      password: "postgres",
-      database: "my_app_dev",
-      hostname: "localhost",
-      show_sensitive_data_on_connection_error: true,
-      pool_size: 10
 
-    config :my_app, ecto_repos: [MyApp.Repo]
-    ```
+   ```elixir
+   config :my_app, MyApp.Repo,
+     username: "postgres",
+     password: "postgres",
+     database: "my_app_dev",
+     hostname: "localhost",
+     show_sensitive_data_on_connection_error: true,
+     pool_size: 10
+
+   config :my_app, ecto_repos: [MyApp.Repo]
+   ```
 
 5. Create the repository:
-    ```sh
-    mix ecto.create
-    ```
+   ```sh
+   mix ecto.create
+   ```
 
 ## Defining Schemas
 
@@ -60,123 +64,131 @@ Schemas define the structure of your data and how it maps to database tables. Cr
 Example of a manually created schema for a `User`:
 
 1. Create a file `lib/my_app/user.ex`:
-    ```elixir
-    defmodule MyApp.User do
-      use Ecto.Schema
-      import Ecto.Changeset
 
-      schema "users" do
-        field :name, :string
-        field :email, :string
-        field :age, :integer
-        timestamps()
-      end
+   ```elixir
+   defmodule MyApp.User do
+     use Ecto.Schema
+     import Ecto.Changeset
 
-      def changeset(user, attrs) do
-        user
-        |> cast(attrs, [:name, :email, :age])
-        |> validate_required([:name, :email, :age])
-      end
-    end
-    ```
+     schema "users" do
+       field :name, :string
+       field :email, :string
+       field :age, :integer
+       timestamps()
+     end
+
+     def changeset(user, attrs) do
+       user
+       |> cast(attrs, [:name, :email, :age])
+       |> validate_required([:name, :email, :age])
+     end
+   end
+   ```
 
 ## Database Migrations
 
 Migrations are used to modify the database schema over time. Generate a migration file using the `mix ecto.gen.migration` task.
 
 1. Generate a migration:
-    ```sh
-    mix ecto.gen.migration create_users
-    ```
+
+   ```sh
+   mix ecto.gen.migration create_users
+   ```
 
 2. Edit the generated file in `priv/repo/migrations/`:
-    ```elixir
-    defmodule MyApp.Repo.Migrations.CreateUsers do
-      use Ecto.Migration
 
-      def change do
-        create table(:users) do
-          add :name, :string
-          add :email, :string
-          add :age, :integer
-          timestamps()
-        end
+   ```elixir
+   defmodule MyApp.Repo.Migrations.CreateUsers do
+     use Ecto.Migration
 
-        create unique_index(:users, [:email])
-      end
-    end
-    ```
+     def change do
+       create table(:users) do
+         add :name, :string
+         add :email, :string
+         add :age, :integer
+         timestamps()
+       end
+
+       create unique_index(:users, [:email])
+     end
+   end
+   ```
 
 3. Run the migration:
-    ```sh
-    mix ecto.migrate
-    ```
+   ```sh
+   mix ecto.migrate
+   ```
 
 ## Writing Queries
 
 Ecto provides a powerful query DSL to interact with your database. You can write queries using the `Ecto.Query` module.
 
 1. Basic query example:
-    ```elixir
-    import Ecto.Query
-    alias MyApp.Repo
-    alias MyApp.User
 
-    # Fetch all users
-    users = Repo.all(User)
+   ```elixir
+   import Ecto.Query
+   alias MyApp.Repo
+   alias MyApp.User
 
-    # Fetch a user by ID
-    user = Repo.get(User, 1)
+   # Fetch all users
+   users = Repo.all(User)
 
-    # Fetch users with specific criteria
-    query = from u in User, where: u.age > 30
-    users_above_30 = Repo.all(query)
-    ```
+   # Fetch a user by ID
+   user = Repo.get(User, 1)
+
+   # Fetch users with specific criteria
+   query = from u in User, where: u.age > 30
+   users_above_30 = Repo.all(query)
+   ```
 
 2. Inserting data:
-    ```elixir
-    %User{name: "John", email: "john@example.com", age: 25}
-    |> Repo.insert()
-    ```
+
+   ```elixir
+   %User{name: "John", email: "john@example.com", age: 25}
+   |> Repo.insert()
+   ```
 
 3. Updating data:
-    ```elixir
-    user = Repo.get(User, 1)
-    changeset = User.changeset(user, %{age: 26})
-    Repo.update(changeset)
-    ```
+
+   ```elixir
+   user = Repo.get(User, 1)
+   changeset = User.changeset(user, %{age: 26})
+   Repo.update(changeset)
+   ```
 
 4. Deleting data:
-    ```elixir
-    user = Repo.get(User, 1)
-    Repo.delete(user)
-    ```
+   ```elixir
+   user = Repo.get(User, 1)
+   Repo.delete(user)
+   ```
 
 ## Changesets and Data Validation
 
 Changesets allow you to cast and validate data before performing database operations. They are essential for ensuring data integrity.
 
 1. Creating a changeset:
-    ```elixir
-    def changeset(user, attrs) do
-      user
-      |> cast(attrs, [:name, :email, :age])
-      |> validate_required([:name, :email, :age])
-      |> validate_format(:email, ~r/@/)
-      |> validate_number(:age, greater_than: 0)
-    end
-    ```
+
+   ```elixir
+   def changeset(user, attrs) do
+     user
+     |> cast(attrs, [:name, :email, :age])
+     |> validate_required([:name, :email, :age])
+     |> validate_format(:email, ~r/@/)
+     |> validate_number(:age, greater_than: 0)
+   end
+   ```
 
 2. Using a changeset for insertion:
-    ```elixir
-    attrs = %{name: "Jane", email: "jane@example.com", age: 28}
-    changeset = User.changeset(%User{}, attrs)
 
-    case Repo.insert(changeset) do
-      {:ok, user} -> IO.puts("User created: #{user.name}")
-      {:error, changeset} -> IO.inspect(changeset.errors)
-    end
-    ```
+   ```elixir
+   attrs = %{name: "Jane", email: "jane@example.com", age: 28}
+   changeset = User.changeset(%User{}, attrs)
+
+   case Repo.insert(changeset) do
+     {:ok, user} -> IO.puts("User created: #{user.name}")
+     {:error, changeset} -> IO.inspect(changeset.errors)
+   end
+   ```
 
 ## Conclusion
 
@@ -190,4 +202,4 @@ This guide should provide a solid foundation for using Ecto in your Elixir proje
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

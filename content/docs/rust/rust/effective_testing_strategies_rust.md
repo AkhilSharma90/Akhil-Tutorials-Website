@@ -4,6 +4,7 @@ description: "Master the art of testing in Rust with this comprehensive guide on
 icon: "code"
 draft: false
 ---
+
 #### Introduction
 
 Testing is a critical component of software development, ensuring that code behaves as expected and helping maintain code quality. Rust provides first-class support for writing automated tests, including unit tests, integration tests, and more. This post delves into the testing features Rust offers, how to utilize them effectively, and best practices for organizing tests in your Rust projects.
@@ -13,7 +14,9 @@ Testing is a critical component of software development, ensuring that code beha
 Unit tests are small, fast tests that verify functionality at a specific level of granularity, typically at the function or module level. In Rust, unit tests are conventionally written in the same file as the code they test, using modules.
 
 **Basic Structure of Unit Tests:**
+
 - **Creating a Tests Module:**
+
   ```rust
   #[cfg(test)]
   mod tests {
@@ -23,6 +26,7 @@ Unit tests are small, fast tests that verify functionality at a specific level o
       }
   }
   ```
+
   Here, `#[cfg(test)]` configures the enclosed module to only compile when running tests, not in the production build. `#[test]` flags a function as a test case.
 
 - **Using Assertions:**
@@ -31,6 +35,7 @@ Unit tests are small, fast tests that verify functionality at a specific level o
   - `assert_ne!(left, right)`: Asserts that two expressions are not equal.
 
 **Best Practices for Unit Testing:**
+
 - **Test One Thing at a Time:** Each test should verify a single aspect of a function.
 - **Use Descriptive Test Names:** Function names should convey what they test.
 - **Setup and Teardown:** Use setup code to prepare the environment for tests, and if necessary, use teardown code to clean up afterwards.
@@ -40,15 +45,19 @@ Unit tests are small, fast tests that verify functionality at a specific level o
 Integration tests in Rust are typically written in separate files in a tests directory. They allow you to test multiple parts of your library together to ensure they work correctly in conjunction.
 
 **Setting Up Integration Tests:**
+
 - **Directory Structure:**
+
   ```plaintext
   src/
   tests/
       integration_test.rs
   ```
+
   The `tests` directory is the conventional place to put integration test files, where each file in the directory is compiled as a separate crate.
 
 - **Example of an Integration Test:**
+
   ```rust
   // in tests/integration_test.rs
   extern crate your_crate;
@@ -60,6 +69,7 @@ Integration tests in Rust are typically written in separate files in a tests dir
   ```
 
 **Organizing Tests:**
+
 - **Submodules in Integration Tests:** Use submodules within test files to group related tests.
 - **Common Setup Code:** For shared setup code across multiple tests, use a common module, typically by creating a `mod common;` in the `tests` directory, which can be used by multiple test files.
 
@@ -74,4 +84,4 @@ Effective testing is essential for developing reliable and maintainable software
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

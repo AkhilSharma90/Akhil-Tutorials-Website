@@ -14,7 +14,7 @@ OCaml (originally Objective Caml) is a versatile, general-purpose, multi-paradig
 - **Robust Static Typing:** OCaml enforces strong static typing, where types are explicitly declared or inferred by the compiler. This rigorous approach catches errors at compile time, significantly reducing runtime issues and enhancing code maintainability.
 - **Effortless Type Inference:** OCaml's type inference capability automatically deduces types based on variable assignments and function expressions. This reduces boilerplate code and simplifies development.
 - **Functional Programming Paradigm:** OCaml excels in functional programming, which emphasizes immutability and pure functions. This style promotes cleaner code, easier reasoning about program behavior, and improved testability.
-- **Imperative Features for Flexibility:**  While OCaml prioritizes functional programming, it also accommodates imperative programming constructs like loops and mutable state when necessary. This flexibility provides developers with a broader range of tools for various programming tasks.
+- **Imperative Features for Flexibility:** While OCaml prioritizes functional programming, it also accommodates imperative programming constructs like loops and mutable state when necessary. This flexibility provides developers with a broader range of tools for various programming tasks.
 - **Extensive Standard Library and Community Support:** OCaml boasts a rich standard library brimming with modules for common operations like file I/O, networking, and string manipulation. It also benefits from a thriving community that contributes a wealth of third-party libraries, expanding its capabilities.
 
 ## Getting Started with OCaml Development
@@ -59,4 +59,4 @@ Following best practices empowers you to write clean, maintainable, and performa
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

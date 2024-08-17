@@ -5,10 +5,10 @@ icon: "code"
 draft: false
 ---
 
-
 In this guide, we will learn how to keep and share state between multiple entities. If you have previous programming experience, you may think of globally shared variables, but the model we will learn here is quite different. The next chapters will generalize the concepts introduced here.
 
 ### The trouble with (mutable) state
+
 Elixir is an immutable language where nothing is shared by default. If we want to share information, which can be read and modified from multiple places, we have two main options in Elixir:
 
 - Using processes and message passing
@@ -25,6 +25,7 @@ We will explore most of these abstractions in this guide. Keep in mind that they
 Here, we will use agents, and create a module named KV.Bucket, responsible for storing our key-value entries in a way that allows them to be read and modified by other processes.
 
 ### Agents
+
 Agents are simple wrappers around state. If all you want from a process is to keep state, agents are a great fit. Let's start a iex session inside the project with:
 
 ```elixir
@@ -160,6 +161,7 @@ end
 You can read more about ExUnit cases in the ExUnit.Case module documentation and more about callbacks in ExUnit.Callbacks.
 
 ### Other agent actions
+
 Besides getting a value and updating the agent state, agents allow us to get a value and update the agent state in one function call via Agent.get_and_update/2. Let's implement a KV.Bucket.delete/2 function that deletes a key from the bucket, returning its current value:
 
 ```elixir
@@ -176,6 +178,7 @@ end
 Now it is your turn to write a test for the functionality above! Also, be sure to explore the documentation for the Agent module to learn more about them.
 
 ### Client/server in agents
+
 Before we move on to the next chapter, let's discuss the client/server dichotomy in agents. Let's expand the delete/2 function we have just implemented:
 
 ```elixir
@@ -204,4 +207,4 @@ When a long action is performed on the server, all other requests to that partic
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -8,11 +8,13 @@ draft: false
 Keras is an open source deep learning framework for python. It has been developed by an artificial intelligence researcher at Google named Francois Chollet. Leading organizations like Google, Square, Netflix, Huawei and Uber are currently using Keras. This tutorial walks through the installation of Keras, basics of deep learning, Keras models, Keras layers, Keras modules and finally conclude with some real-time applications.
 
 ## Overview of Keras
+
 Keras runs on top of open source machine libraries like TensorFlow, Theano or Cognitive Toolkit (CNTK). Theano is a python library used for fast numerical computation tasks. TensorFlow is the most famous symbolic math library used for creating neural networks and deep learning models. TensorFlow is very flexible and the primary benefit is distributed computing. CNTK is deep learning framework developed by Microsoft. It uses libraries such as Python, C#, C++ or standalone machine learning toolkits. Theano and TensorFlow are very powerful libraries but difficult to understand for creating neural networks.
 
 Keras is based on minimal structure that provides a clean and easy way to create deep learning models based on TensorFlow or Theano. Keras is designed to quickly define deep learning models. Well, Keras is an optimal choice for deep learning applications.
 
 ## Features
+
 Keras leverages various optimization techniques to make high level neural network API easier and more performant. It supports the following features −
 
 - Consistent, simple and extensible API.
@@ -22,6 +24,7 @@ Keras leverages various optimization techniques to make high level neural networ
 - Highly scalability of computation.
 
 ## Benefits
+
 Keras is highly powerful and dynamic framework and comes up with the following advantages −
 
 - Larger community support.
@@ -51,6 +54,7 @@ import keras
 Let's start with the Hello World of ML: training a convnet to classify MNIST digits.
 
 Here's the data:
+
 ```python
 # Load the data and split it between train and test sets
 (x_train, y_train), (x_test, y_test) = keras.datasets.mnist.load_data()
@@ -68,6 +72,7 @@ print(x_test.shape[0], "test samples")
 ```
 
 Output:
+
 ```bash
 x_train shape: (60000, 28, 28, 1)
 y_train shape: (60000,)
@@ -77,9 +82,11 @@ y_train shape: (60000,)
 
 Here is our model:
 Different model-building options that Keras offers include:
+
 - The Sequential API
 - The Funcitonal API
 - Writing your own models via subclassing
+
 ```python
 # Model parameters
 num_classes = 10
@@ -135,12 +142,14 @@ score = model.evaluate(x_test, y_test, verbose=0)
 ```
 
 During training, we were saving a model at the end of each epoch. You can also save the model in its latest state and reload it like this:
+
 ```python
 model.save("final_model.keras)
 model = keras.saving.load_model("final_model.keras")
 ```
 
 Next, you can query predictions of class probabilities with `predict()`:
+
 ```python
 predictions = model.predict(x_test)
 ```
@@ -149,4 +158,4 @@ That's the basics for now.
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

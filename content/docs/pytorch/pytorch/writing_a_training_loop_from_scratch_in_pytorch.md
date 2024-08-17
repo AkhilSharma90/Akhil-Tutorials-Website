@@ -14,17 +14,18 @@ If you want to customize the learning algorithm of your model while still levera
 Now, if you want very low-level control over training & evaluation, you should write your own training & evaluation loops from scratch. This is what this guide is about.
 
 ### Example
+
 To write a custom training loop, we need the following ingredients:
 
 - A model to train, of course.
 - An optimizer. You could either use a keras.optimizers optimizer, or a native PyTorch optimizer from torch.optim.
 - A loss function. You could either use a keras.losses loss, or a native PyTorch loss from torch.nn.
 - A dataset. You could use any format: a tf.data.Dataset, a PyTorch DataLoader, a Python generator, etc.
-Let's line them up. We'll use torch-native objects in each case – except, of course, for the Keras model.
+  Let's line them up. We'll use torch-native objects in each case – except, of course, for the Keras model.
 
 First, let's get the model and the MNIST dataset:
 
-```python 
+```python
 # Let's consider a simple MNIST model
 def get_model():
     inputs = keras.Input(shape=(784,), name="digits")
@@ -155,6 +156,7 @@ for epoch in range(epochs):
 ```
 
 ## Low-level handling of metrics
+
 Let's add metrics monitoring to this basic training loop.
 
 You can readily reuse built-in Keras metrics (or custom ones you wrote) in such training loops written from scratch. Here's the flow:
@@ -181,6 +183,7 @@ val_acc_metric = keras.metrics.CategoricalAccuracy()
 ```
 
 Here's our training & evaluation loop:
+
 ```python
 for epoch in range(epochs):
     print(f"\nStart of epoch {epoch}")
@@ -230,6 +233,7 @@ for epoch in range(epochs):
 ```
 
 ## Low-level handling of losses tracked by the model
+
 Layers & models recursively track any losses created during the forward pass by layers that call `self.add_loss(value)`. The resulting list of scalar loss values are available via the property `model.losses` at the end of the forward pass.
 
 If you want to be using these loss components, you should sum them and add them to the main loss in your training step.
@@ -323,4 +327,4 @@ for epoch in range(epochs):
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

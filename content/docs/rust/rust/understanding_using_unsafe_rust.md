@@ -4,6 +4,7 @@ description: "Delve into the realm of Unsafe Rust with this in-depth guide, expl
 icon: "code"
 draft: false
 ---
+
 #### Introduction
 
 Rust is renowned for its safety guarantees, but there are times when you might need to bypass these guarantees to directly interact with hardware or optimize performance. This post provides a comprehensive look at `unsafe` Rust, including what it entails, when it's necessary, and how to use it without compromising the integrity of your applications.
@@ -13,6 +14,7 @@ Rust is renowned for its safety guarantees, but there are times when you might n
 `Unsafe` Rust refers to operations that can potentially violate the memory safety guarantees that Rust usually enforces. These operations are not checked by the Rust compiler's borrow checker.
 
 **Common Uses of `Unsafe` Code:**
+
 - **Dereferencing Raw Pointers:** Unlike regular references, raw pointers can be null or dangling.
 - **Calling Unsafe Functions:** This includes functions from C libraries or Rust functions marked as `unsafe`.
 - **Accessing or Modifying Mutable Static Variables:** Global variables in Rust can be mutable and accessed from multiple threads.
@@ -27,6 +29,7 @@ fn main() {
     }
 }
 ```
+
 This example demonstrates a simple `unsafe` function called within an `unsafe` block. The function does nothing in this case, but in real scenarios, it might perform operations that could lead to undefined behavior if misused.
 
 #### When and How to Use `Unsafe`
@@ -34,12 +37,14 @@ This example demonstrates a simple `unsafe` function called within an `unsafe` b
 Using `unsafe` code is justified in several scenarios, primarily when interfacing with low-level system components, optimizing critical performance bottlenecks, or using externally maintained libraries written in other languages.
 
 **Guidelines for Using `Unsafe` Code:**
+
 - **Minimize the Use of `Unsafe` Blocks:** Keep the unsafe code contained in small blocks to limit the potential for mistakes.
 - **Isolate Unsafe Code:** Encapsulate unsafe code within safe abstractions whenever possible. Provide safe APIs to interact with the underlying unsafe operations.
 - **Document the Invariants:** Clearly document the safety invariants that callers must adhere to for the unsafe operations to be safe.
 - **Audit and Review:** Unsafe code should be reviewed more rigorously than safe code. Peer reviews can help catch subtle errors that might lead to security vulnerabilities.
 
 **Example of Encapsulating Unsafe Code:**
+
 ```rust
 mod sound {
     pub struct Waveform {
@@ -66,6 +71,7 @@ fn main() {
     }
 }
 ```
+
 In this example, the `buffer` method is marked as `unsafe` because it returns a raw pointer to its internal data, which could lead to undefined behavior if mishandled. The unsafe behavior is encapsulated within a safe API (`Waveform::new`), and the unsafe method is clearly documented.
 
 #### Conclusion
@@ -74,4 +80,4 @@ In this example, the `buffer` method is marked as `unsafe` because it returns a 
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

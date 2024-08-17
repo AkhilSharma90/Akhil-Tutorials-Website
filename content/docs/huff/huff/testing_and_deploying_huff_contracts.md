@@ -20,39 +20,39 @@ We will use a simple Huff contract that performs basic math operations like addi
 ```huff
 #define macro ADD_NUMBERS() = takes (2) returns (1) {
     // Input stack:      // [num2, num1]
-    add                  // [num2 + num1]         
+    add                  // [num2 + num1]
 }
 
 #define macro SUB_NUMBERS() = takes (2) returns (1) {
     // Input stack:      // [num2, num1]
     swap1                // [num1, num2]
-    sub                  // [num1 - num2]         
+    sub                  // [num1 - num2]
 }
 
 #define macro MULTIPLY_NUMBERS() = takes (2) returns (1) {
     // Input stack:      // [num2, num1]
-    mul                  // [num2 * num1]         
+    mul                  // [num2 * num1]
 }
 
 #define macro DIVIDE_NUMBERS() = takes (2) returns (1) {
     // Input stack:      // [num2, num1]
     swap1                // [num1, num2]
-    div                  // [num1 / num2]         
+    div                  // [num1 / num2]
 }
 
 #define macro ABS() = takes (2) returns (1) {
     // Input stack:     // [num2, num1]
     dup1
     dup3
-    lt 
+    lt
     iszero swapAndSubtract jumpi
-    sub                      
-    complete jump  
+    sub
+    complete jump
 
     swapAndSubtract:
         swap1
         sub
-    
+
     complete:
 }
 ```
@@ -137,14 +137,15 @@ A sample Huff test contract looks like this:
     ADD_NUMBERS()       // [sum]
     0x03                // [3,sum]
     ASSERT_EQ()         // [3 == sum]
-    
-    0x4563918244f40000  // [5e18]            
-    0x4563918244f40000  // [5e18, 5e18]            
-    ADD_NUMBERS()       // [SUM]    
-    0x8ac7230489e80000  // [10e18, SUM]             
-    ASSERT_EQ()         // [10e18 == SUM]     
+
+    0x4563918244f40000  // [5e18]
+    0x4563918244f40000  // [5e18, 5e18]
+    ADD_NUMBERS()       // [SUM]
+    0x8ac7230489e80000  // [10e18, SUM]
+    ASSERT_EQ()         // [10e18 == SUM]
 }
 ```
+
 We can run the tests using the command:
 
 ```bash
@@ -187,4 +188,4 @@ We have successfully tested and deployed our simple `Math.huff` contract. You ca
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

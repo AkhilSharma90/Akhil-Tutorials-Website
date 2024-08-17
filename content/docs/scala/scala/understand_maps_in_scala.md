@@ -4,6 +4,7 @@ description: "Learn more about maps in scala"
 icon: "code"
 draft: false
 ---
+
 ### Understanding Maps in Scala: A Comprehensive Overview
 
 Maps are fundamental data structures in programming, facilitating key-value pair associations crucial for various applications. In Scala, maps provide powerful functionalities and are extensively used for efficient data management and lookup operations. This blog post explores the intricacies of maps in Scala, covering their usage, operations, and practical examples.
@@ -17,6 +18,7 @@ A map in Scala is an iterable collection of key-value pairs, where each key is u
 In Scala, you can create maps using several methods:
 
 - **Using `Map` Object:**
+
   ```scala
   // Immutable map creation
   val numbersMap: Map[String, Int] = Map("one" -> 1, "two" -> 2, "three" -> 3)
@@ -35,6 +37,7 @@ In Scala, you can create maps using several methods:
 Maps in Scala support a variety of operations categorized into lookup, addition/update, removal, subcollection producers, transformations, and more:
 
 - **Lookup Operations:**
+
   ```scala
   val value = numbersMap.get("two") // Returns Some(2) or None if key not found
   val valueOrDefault = numbersMap.getOrElse("four", 0) // Returns 0 if key "four" not found
@@ -42,18 +45,21 @@ Maps in Scala support a variety of operations categorized into lookup, addition/
   ```
 
 - **Addition and Update Operations:**
+
   ```scala
   val updatedMap = numbersMap + ("four" -> 4) // Adds a new key-value pair to the map
   mutableMap("c") = 3 // Updates value for key "c" in mutable map
   ```
 
 - **Removal Operations:**
+
   ```scala
   val removedMap = numbersMap - "three" // Removes key "three" from the map
   mutableMap -= "b" // Removes key "b" from mutable map
   ```
 
 - **Subcollection Producers:**
+
   ```scala
   val keysIterable = numbersMap.keys // Returns an iterable of all keys
   val valuesIterable = numbersMap.values // Returns an iterable of all values
@@ -100,4 +106,4 @@ In summary, mastering maps in Scala empowers you to handle complex data relation
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

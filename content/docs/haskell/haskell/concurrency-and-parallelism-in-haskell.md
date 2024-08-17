@@ -4,7 +4,9 @@ description: "Explore the essentials of concurrent and parallel programming in H
 icon: "code"
 draft: false
 ---
+
 ### Introduction:
+
 Welcome back to our Haskell series, where today we're diving into the world of concurrency and parallelism. Haskell offers robust support for concurrent and parallel programming, allowing developers to write high-performance applications that make full use of modern multicore processors. In this post, we’ll cover the basics of concurrent programming in Haskell, discuss how to use threads and asynchronous operations, and explore strategies for effective parallel programming. Understanding these concepts will enable you to design and implement applications that are not only fast but also scalable.
 
 ### Basics of Concurrent Programming in Haskell
@@ -32,6 +34,7 @@ Concurrency in Haskell is primarily about dealing with multiple computations tha
 Asynchronous operations are crucial for performing non-blocking tasks, such as I/O operations or inter-thread communication. Haskell’s `async` package provides a high-level interface for asynchronous actions.
 
 - **Using Async for Concurrency:**
+
   ```haskell
   import Control.Concurrent.Async
 
@@ -86,4 +89,4 @@ Concurrency and parallelism are powerful tools in Haskell's arsenal, enabling de
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

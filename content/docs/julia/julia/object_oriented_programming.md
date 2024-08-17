@@ -4,11 +4,13 @@ description: "Julia, a high-level, high-performance programming language, is des
 icon: "code"
 draft: false
 ---
+
 ## Object-Oriented Programming in Julia
 
 ### Understanding Types and Methods
 
 Julia, while not an object-oriented language in the traditional sense, supports composite types (similar to classes in other languages) and methods.
+
 - **Types**: Used to define a new data structure.
 - **Methods**: Functions specialized for certain types.
 
@@ -92,4 +94,4 @@ This section provides a basic understanding of how to work with composite types 
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

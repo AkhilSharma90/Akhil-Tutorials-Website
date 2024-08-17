@@ -29,6 +29,7 @@ joinThreads(threads)
 ```
 
 **Explanation**:
+
 - `sayHi`: A procedure marked with `{.thread.}` to run in parallel.
 - `threads`: An array of thread objects.
 - `createThread`: Creates a new thread for each iteration, executing `sayHi`.
@@ -48,6 +49,7 @@ sync()
 ```
 
 **Explanation**:
+
 - `spawn`: Creates a new thread to execute `sayHi` for each iteration.
 - `sync()`: Waits for all spawned threads to complete.
 
@@ -57,6 +59,7 @@ sync()
 - **Returning Data from `spawn` Calls**: It's possible to return data from `spawn` calls using channels or other synchronization mechanisms.
 
 #### Considerations
+
 - **Performance**: Choose the approach that best fits your use case and consider the performance implications of each method.
 - **Error Handling**: Implement proper error handling for parallel code to manage exceptions and ensure graceful termination.
 
@@ -64,4 +67,4 @@ Parallelism in Nim offers flexibility and scalability, allowing you to efficient
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

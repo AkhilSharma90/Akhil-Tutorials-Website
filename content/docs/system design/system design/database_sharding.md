@@ -8,6 +8,7 @@ draft: false
 Your application is growing. It has more active users, more features, and generates more data every day. Your database is now becoming a bottleneck for the rest of your application. Database sharding could be the solution to your problems, but many do not have a clear understanding of what it is and, especially, when to use it. In this article, we’ll cover the basics of database sharding, its best use cases, and the different ways you can implement it.
 
 ### What is database sharding?
+
 Sharding is a method for distributing a single dataset across multiple databases, which can then be stored on multiple machines. This allows for larger datasets to be split into smaller chunks and stored in multiple data nodes, increasing the total storage capacity of the system.
 
 Similarly, by distributing the data across multiple machines, a sharded database can handle more requests than a single machine can.
@@ -18,20 +19,25 @@ Sharding is a form of scaling known as horizontal scaling or scale-out, as addit
 <blockquote class="imgur-embed-pub" lang="en" data-id="j3LNAVL" data-context="false" ><a href="//imgur.com/j3LNAVL"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 ### Do you need database sharding?
+
 Database sharding, as with any distributed architecture, does not come for free. There is overhead and complexity in setting up shards, maintaining the data on each shard, and properly routing requests across those shards. Before you begin sharding, consider if one of the following alternative solutions will work for you.
 
 ### Vertical scaling
+
 By simply upgrading your machine, you can scale vertically without the complexity of sharding. Adding RAM, upgrading your computer (CPU), or increasing the storage available to your database are simple solutions that do not require you to change the design of either your database architecture or your application. visualization of vertical scaling in sharding
 
 ### Specialized services or databases
+
 Depending on your use case, it may make more sense to simply shift a subset of the burden onto other providers or even a separate database. For example, blob or file storage can be moved directly to a cloud provider such as Amazon S3. Analytics or full-text search can be handled by specialized services or a data warehouse. Offloading this particular functionality can make more sense than trying to shard your entire database.
 
 ### Replication
+
 If your data workload is primarily read-focused, replication increases availability and read performance while avoiding some of the complexity of database sharding. By simply spinning up additional copies of the database, read performance can be increased either through load balancing or through geo-located query routing. However, replication introduces complexity on write-focused workloads, as each write must be copied to every replicated node. visualization of replication in sharding
 
 On the other hand, if your core application database contains large amounts of data, requires high read and high write volume, and/or you have specific availability requirements, a sharded database may be the way forward. Let’s look at the advantages and disadvantages of sharding.
 
 ### Advantages of sharding
+
 Sharding allows you to scale your database to handle increased load to a nearly unlimited degree by providing increased read/write throughput, storage capacity, and high availability. Let’s look at each of those in a little more detail.
 
 - **Increased read/write throughput** — By distributing the dataset across multiple shards, both read and write operation capacity is increased as long as read and write operations are confined to a single shard.
@@ -39,14 +45,16 @@ Sharding allows you to scale your database to handle increased load to a nearly 
 - **High availability** — Finally, shards provide high availability in two ways. First, since each shard is a replica set, every piece of data is replicated. Second, even if an entire shard becomes unavailable since the data is distributed, the database as a whole still remains partially functional, with part of the schema on different shards.
 
 ### Disadvantages of sharding
+
 Sharding does come with several drawbacks, namely overhead in query result compilation, complexity of administration, and increased infrastructure costs.
 
 - **Query overhead** — Each sharded database must have a separate machine or service which understands how to route a querying operation to the appropriate shard. This introduces additional latency on every operation. Furthermore, if the data required for the query is horizontally partitioned across multiple shards, the router must then query each shard and merge the result together. This can make an otherwise simple operation quite expensive and slow down response times.
 - **Complexity of administration** - With a single unsharded database, only the database server itself requires upkeep and maintenance. With every sharded database, on top of managing the shards themselves, there are additional service nodes to maintain. Plus, in cases where replication is being used, any data updates must be mirrored across each replicated node. Overall, a sharded database is a more complex system which requires more administration.
 - **Increased infrastructure costs** — Sharding by its nature requires additional machines and compute power over a single database server. While this allows your database to grow beyond the limits of a single machine, each additional shard comes with higher costs. The cost of a distributed database system, especially if it is missing the proper optimization, can be significant.
-Having considered the pros and cons, let’s move forward and discuss implementation.
+  Having considered the pros and cons, let’s move forward and discuss implementation.
 
 ### How does sharding work?
+
 In order to shard a database, we must answer several fundamental questions. The answers will determine your implementation.
 
 First, how will the data be distributed across shards? This is the fundamental question behind any sharded database. The answer to this question will have effects on both performance and maintenance. More detail on this can be found in the “Sharding Architectures and Types” section.
@@ -58,6 +66,7 @@ Finally, how will these shards be maintained? Once you have sharded a database, 
 With these questions in mind, let’s consider some sharding architectures.
 
 ### Sharding architectures and types
+
 While there are many different sharding methods, we will consider four main kinds: ranged/dynamic sharding, algorithmic/hashed sharding, entity/relationship-based sharding, and geography-based sharding.
 
 **Ranged/dynamic sharding**
@@ -101,8 +110,9 @@ Geography-based sharding, or geosharding, also keeps related data together on a 
 For example, consider a dataset where each record contains a “country” field. In this case, we can both increase overall performance and decrease system latency by creating a shard for each country or region, and storing the appropriate data on that shard. This is a simple example, and there are many other ways to allocate your geoshards which are beyond the scope of this article.
 
 ### Summary
+
 We’ve defined what sharding is, discussed when to use it, and explored different sharding architectures. Sharding is a great solution for applications with large data requirements and high-volume read/write workloads, but it does come with additional complexity. Consider whether the benefits outweigh the costs or whether there is a simpler solution before you begin implementation.
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

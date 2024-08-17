@@ -6,12 +6,12 @@ draft: false
 
 ## Introduction
 
-
 Python, with its rich ecosystem and accessible syntax, has become the go-to language for many machine learning practitioners. This section will provide an in-depth exploration of Python's most important machine learning libraries, introduce fundamental concepts, and demonstrate model implementation.
 
 ### In-Depth Libraries Overview
 
 #### NumPy
+
 **NumPy** is essential for numerical computing in Python. It provides efficient storage and operations for large n-dimensional arrays, which are the backbone of data manipulation and scientific computing in Python.
 
 ```python
@@ -29,9 +29,11 @@ print("Transposed Array:\n", data_transposed)
 data_product = np.dot(data, data_transposed)
 print("Matrix Product:\n", data_product)
 ```
+
 NumPy arrays provide significantly more efficient storage and data operations than Python lists, especially as data grows.
 
 #### Pandas
+
 **Pandas** is built on NumPy and makes manipulating tabular data easy. It introduces two key data structures: `DataFrame` and `Series`, which allow for robust data manipulation and analysis.
 
 ```python
@@ -52,9 +54,11 @@ print("DataFrame:\n", df)
 print("Select column A:\n", df['A'])
 print("Filter rows where D > 2:\n", df[df['D'] > 2])
 ```
+
 Pandas is particularly useful for data cleaning, transformation, and analysis.
 
 #### Matplotlib
+
 **Matplotlib** is the primary plotting library in Python. It provides tools for making static, interactive, and animated visualizations in Python.
 
 ```python
@@ -74,9 +78,11 @@ ax.grid()
 
 plt.show()
 ```
+
 Effective visualization with Matplotlib helps in understanding data and in conveying precise insights about the data.
 
 #### Scikit-Learn
+
 **Scikit-Learn** simplifies machine learning with Python. It includes support for numerous algorithms and utilities for creating and assessing models.
 
 ```python
@@ -103,6 +109,7 @@ diabetes_y_pred = regr.predict(X_test)
 # The mean squared error
 print('Mean squared error: %.2f' % mean_squared_error(y_test, diabetes_y_pred))
 ```
+
 Scikit-Learn's functionality covers a wide range of machine learning tasks from preprocessing data to evaluating models.
 
 ### Fundamental Machine Learning Concepts
@@ -117,7 +124,7 @@ Machine learning can be broadly categorized into several types:
 
 Here's a
 
- step-by-step guide to building a logistic regression model using Scikit-Learn, a common model for binary classification.
+step-by-step guide to building a logistic regression model using Scikit-Learn, a common model for binary classification.
 
 ```python
 from sklearn.model_selection import train_test_split
@@ -144,6 +151,7 @@ predictions = model.predict(X_test)
 # Evaluate the model
 print("Model Accuracy:", accuracy_score(y_test, predictions))
 ```
+
 This example illustrates how to train and evaluate a logistic regression model, which is commonly used for predicting categorical outcomes.
 
 ### Conclusion
@@ -152,4 +160,4 @@ This extensive guide has covered essential Python libraries for machine learning
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

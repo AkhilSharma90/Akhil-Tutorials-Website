@@ -10,6 +10,7 @@ Macros in Erlang provide a powerful way to define constants and reusable code sn
 ## Introduction to Macros
 
 Macros in Erlang are a form of syntactic sugar that allows developers to define constants or code snippets that can be substituted during the pre-processing phase of compilation. Macros can be particularly useful for defining:
+
 - Constants
 - Reusable code blocks
 - Conditional compilation directives
@@ -21,11 +22,13 @@ Macros are defined using the `-define` directive and can be referenced using the
 Macros in Erlang are defined using the `-define` directive. Here are the steps to define a simple macro:
 
 ### Syntax
+
 ```erlang
 -define(MACRO_NAME, ReplacementValue).
 ```
 
 ### Example
+
 ```erlang
 -define(PI, 3.14159).
 -define(MESSAGE, "Hello, Erlang!").
@@ -38,6 +41,7 @@ In this example, `PI` and `MESSAGE` are macros that will be replaced with `3.141
 Once defined, macros can be used in the code by prefixing their names with a question mark (`?`).
 
 ### Example
+
 ```erlang
 -module(example).
 -export([area_of_circle/1, greet/0]).
@@ -59,11 +63,13 @@ In this example, the `area_of_circle/1` function uses the `?PI` macro to calcula
 Erlang also supports parameterized macros, which allow macros to accept arguments.
 
 ### Syntax
+
 ```erlang
 -define(MACRO_NAME(Arg1, Arg2), ReplacementValue).
 ```
 
 ### Example
+
 ```erlang
 -define(SQUARE(X), (X) * (X)).
 ```
@@ -71,6 +77,7 @@ Erlang also supports parameterized macros, which allow macros to accept argument
 This macro `SQUARE` takes one argument `X` and returns its square.
 
 ### Usage
+
 ```erlang
 -module(parameterized_example).
 -export([square_of_5/0]).
@@ -88,6 +95,7 @@ The `square_of_5/0` function uses the `?SQUARE` macro to calculate the square of
 Erlang macros can also be used for conditional compilation, enabling or disabling parts of the code based on certain conditions.
 
 ### Syntax
+
 ```erlang
 -if(CONDITION).
     % Code to include if CONDITION is true
@@ -97,6 +105,7 @@ Erlang macros can also be used for conditional compilation, enabling or disablin
 ```
 
 ### Example
+
 ```erlang
 -module(conditional_example).
 -export([log/1]).
@@ -117,6 +126,7 @@ In this example, the `log/1` function will print debug messages if the `DEBUG` m
 ## Best Practices
 
 When using macros, consider the following best practices:
+
 1. **Naming Conventions**: Use uppercase names for macros to distinguish them from regular variables.
 2. **Documentation**: Document macros clearly, especially if they are parameterized or used for conditional compilation.
 3. **Scope**: Keep the scope of macros limited to the module where they are defined to avoid naming conflicts and improve code readability.
@@ -171,4 +181,4 @@ Macros in Erlang are a powerful tool for defining constants, reusable code snipp
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -4,6 +4,7 @@ description: "Dive into the best practices of writing unit tests in Go, leveragi
 icon: "code"
 draft: false
 ---
+
 **Introduction:**
 
 Hello, Go developers! Effective testing is the backbone of any robust software development process, ensuring your applications perform as expected under various conditions and are free from critical bugs. Go provides a powerful built-in `testing` package that not only supports unit tests but also offers tools for benchmarks and profiling. This blog will walk you through the comprehensive testing capabilities in Go, from writing unit tests to conducting performance analysis through benchmarks and profiling.
@@ -108,17 +109,16 @@ You can then access profiling data by visiting `http://localhost:6060/debug/ppro
 
 Mastering testing in Go can significantly improve the quality and performance of your applications. By integrating unit tests, leveraging the power of table-driven tests, and utilizing benchmarks and profiling, you can ensure your code is not only functional but also efficient. Take the time to integrate these practices into your development process, and you'll see substantial benefits in the stability and performance of your software.
 
-
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq)
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq)
 
 **Frequently Asked Questions:**
 
 **Q: How can I see more detailed output when running tests?**
 **A:** Use `go test -v` for a verbose output, which includes detailed logging for each test.
 
-**Q: Can I run a specific test or benchmark?
+\*\*Q: Can I run a specific test or benchmark?
 
-**
+\*\*
 **A:** Yes, use `go test -run TestName` or `go test -bench BenchmarkName` to run specific tests or benchmarks.
 
 **Q: Are there any third-party tools or libraries recommended for Go testing?**

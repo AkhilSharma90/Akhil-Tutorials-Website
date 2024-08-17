@@ -19,12 +19,14 @@ Python is a high-level, interpreted programming language known for its simplicit
 Python can be installed on any operating system: Windows, macOS, and Linux. Here’s how you can install Python across different platforms:
 
 #### Windows:
+
 1. Visit the official Python website at [python.org](https://www.python.org/downloads/).
 2. Download the latest version for Windows.
 3. Run the downloaded executable file. Ensure that you check the box that says “Add Python 3.x to PATH” at the beginning of the installation process.
 4. Click “Install Now” and follow the on-screen instructions to complete the installation.
 
 #### macOS:
+
 1. Install Homebrew, a package manager for macOS, if it's not already installed. Open the Terminal and run:
    ```bash
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -36,6 +38,7 @@ Python can be installed on any operating system: Windows, macOS, and Linux. Here
 3. This command installs Python and pip, making it easy to manage packages.
 
 #### Linux (Ubuntu):
+
 1. Python is usually pre-installed on Ubuntu. You can verify the installation and check the version by typing:
    ```bash
    python3 --version
@@ -66,4 +69,4 @@ This introduction to Python provides the groundwork for starting your programmin
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

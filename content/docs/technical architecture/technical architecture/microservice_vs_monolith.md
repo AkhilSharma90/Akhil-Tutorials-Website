@@ -4,6 +4,7 @@ description: ""
 icon: "code"
 draft: false
 ---
+
 # Understanding the Differences Between Monolithic and Microservices Architecture
 
 In today's dynamic software development landscape, choosing the right architectural approach is crucial for creating scalable, maintainable, and efficient applications. Two prominent architectural styles are Monolithic and Microservices architecture. This post will delve into the key differences between these two approaches, examining their benefits, drawbacks, and ideal use cases.
@@ -15,6 +16,7 @@ In today's dynamic software development landscape, choosing the right architectu
 A monolithic architecture is a traditional software development model where all components of the application are interconnected and managed as a single unit. This means the entire application is built, tested, and deployed as one cohesive codebase.
 
 **Characteristics**:
+
 - **Single Codebase**: The entire application is managed within a single codebase.
 - **Tightly Coupled**: All components are interdependent and communicate within the same environment.
 - **Unified Deployment**: The application is deployed as a single entity, typically on one server or environment.
@@ -38,6 +40,7 @@ A monolithic architecture is a traditional software development model where all 
 Microservices architecture breaks down an application into smaller, independent services that each handle specific business functions. These services communicate through well-defined APIs and can be developed, deployed, and scaled independently.
 
 **Characteristics**:
+
 - **Independent Services**: Each service performs a single function and has its own codebase.
 - **Loosely Coupled**: Services communicate through APIs, reducing interdependencies.
 - **Independent Deployment**: Each service can be deployed independently, often using containers.
@@ -117,4 +120,4 @@ Choosing between monolithic and microservices architecture depends on your proje
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -14,10 +14,12 @@ Slices are a powerful feature in Rust that provide a way to reference a contiguo
 A slice is a two-word object, the first word is a pointer to the data, and the second word is the length of the slice. Slices let you reference a contiguous sequence of elements in a collection without taking ownership of them, which allows for efficient access and manipulation of subsets of data.
 
 **Basic Example of a Slice:**
+
 ```rust
 let arr = [1, 2, 3, 4, 5];
 let slice_of_arr = &arr[1..4]; // This slice includes elements at indices 1, 2, and 3.
 ```
+
 This slice `slice_of_arr` now refers to a portion of `arr` without owning it. The original array remains unchanged and unowned by the slice.
 
 #### Applications of Slices
@@ -25,6 +27,7 @@ This slice `slice_of_arr` now refers to a portion of `arr` without owning it. Th
 Slices are particularly useful when you want to pass parts of a collection to functions without copying the entire collection. They are used extensively in handling strings, arrays, and other collections.
 
 **Using Slices in Functions:**
+
 ```rust
 fn analyze_slice(slice: &[i32]) {
     println!("The first element of the slice: {}", slice[0]);
@@ -34,6 +37,7 @@ fn analyze_slice(slice: &[i32]) {
 let arr = [1, 2, 3, 4, 5];
 analyze_slice(&arr[1..4]); // Passing a slice of arr to the function
 ```
+
 This function `analyze_slice` takes a slice of an array and can perform operations without ever owning the entire array.
 
 #### Working with String Slices
@@ -41,6 +45,7 @@ This function `analyze_slice` takes a slice of an array and can perform operatio
 String slices are a specific type of slice that reference a portion of a `String`. They are extremely useful for reading parts of strings without needing to clone or copy the entire string.
 
 **Example of String Slices:**
+
 ```rust
 let s = String::from("Hello world");
 let hello = &s[0..5];
@@ -48,6 +53,7 @@ let world = &s[6..11];
 
 println!("{} {}", hello, world); // Outputs: Hello world
 ```
+
 This example demonstrates how to create slices from a `String`, allowing for efficient access to subsections of the string.
 
 #### Technical Insights into String Slices
@@ -55,6 +61,7 @@ This example demonstrates how to create slices from a `String`, allowing for eff
 String slices are critical in Rust because they enforce memory safety and data integrity by preventing modifications and ensuring that the slice does not outlive the string it references.
 
 **Safety with String Slices:**
+
 - You cannot have a mutable reference to a `String` and an immutable string slice at the same time.
 - Rust's borrow checker ensures that string slices do not outlive the string they reference, thus avoiding dangling references.
 
@@ -66,6 +73,7 @@ let s = String::from("Здравствуйте");
 let slice = &s[0..4]; // Correct: 'Зд' is a valid UTF-8 sequence
 println!("Slice: {}", slice);
 ```
+
 This correctly slices the first two Cyrillic characters, respecting UTF-8 encoding rules.
 
 #### Conclusion
@@ -74,4 +82,4 @@ Slices in Rust are a versatile tool for managing data efficiently. They allow pr
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

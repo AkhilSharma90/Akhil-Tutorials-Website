@@ -10,6 +10,7 @@ Error handling is a critical aspect of any programming language, ensuring that y
 ## Introduction to Error Handling in OCaml
 
 OCaml provides several mechanisms for error handling. The primary methods are:
+
 1. **Exceptions**: A traditional way to handle errors.
 2. **Result Type**: A functional approach to handle errors and results.
 3. **Custom Error Types**: Define your own error types for more control and readability.
@@ -127,4 +128,4 @@ Error handling in OCaml is flexible and can be adapted to suit different needs, 
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

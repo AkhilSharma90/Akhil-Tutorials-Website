@@ -12,12 +12,15 @@ Distributed programming involves writing programs designed to run on networks of
 There are several reasons to write distributed applications:
 
 ### Performance
+
 By running different parts of a program in parallel on different machines, we can significantly improve performance.
 
 ### Reliability
+
 We can achieve fault tolerance by distributing the system across multiple machines. If one machine fails, the system can continue running on another machine.
 
 ### Scalability
+
 As applications grow, they may outgrow the capabilities of a single machine. By adding more machines, we can increase the capacity of the system without major changes to the application architecture.
 
 ## Central Concept: The Node
@@ -30,16 +33,12 @@ Here are some essential methods for distributed programming in Erlang:
 
 1. **spawn**
    - Used to create a new process and initialize it.
-   
 2. **node**
    - Used to determine the value of the node on which the process is running.
-   
 3. **spawn on Node**
    - Used to create a new process on a specific node.
-   
 4. **is_alive**
    - Returns `true` if the local node is alive and can be part of a distributed system.
-   
 5. **spawnlink**
    - Used to create a new process link on a node.
 
@@ -128,4 +127,4 @@ Erlang's built-in support for distributed programming makes it a powerful tool f
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

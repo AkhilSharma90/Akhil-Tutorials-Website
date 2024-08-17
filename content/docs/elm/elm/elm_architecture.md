@@ -22,8 +22,8 @@ TEA revolves around three main concepts: Model, Update, and View. Together, thes
 The model represents the state of your application. It's a data structure (like a record) that contains all the information needed to render your app.
 
 ```elm
-type alias Model = 
-    { message : String 
+type alias Model =
+    { message : String
     }
 ```
 
@@ -63,13 +63,13 @@ import Html exposing (Html, button, div, text)
 import Html.Events exposing (onClick)
 
 -- MODEL
-type alias Model = 
-    { message : String 
+type alias Model =
+    { message : String
     }
 
 initModel : Model
-initModel = 
-    { message = "Hello, Elm!" 
+initModel =
+    { message = "Hello, Elm!"
     }
 
 -- UPDATE
@@ -91,10 +91,10 @@ view model =
 
 -- MAIN
 main =
-    Browser.sandbox 
+    Browser.sandbox
         { init = initModel
         , view = view
-        , update = update 
+        , update = update
         }
 
 ```
@@ -145,4 +145,4 @@ Understanding and mastering The Elm Architecture will enable you to build robust
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

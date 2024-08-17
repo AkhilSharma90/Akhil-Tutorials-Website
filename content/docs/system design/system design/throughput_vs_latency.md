@@ -73,15 +73,15 @@ Implementing QoS strategies can optimize network performance by prioritizing lat
 
 ## Summary of Differences: Throughput vs. Latency
 
-| **Aspect**               | **Throughput**                                              | **Latency**                                      |
-|--------------------------|-------------------------------------------------------------|--------------------------------------------------|
-| **What it measures**     | Volume of data passing through a network over time.         | Time delay in sending data across the network.   |
-| **How to measure**       | Manually by file transfer or using network testing tools.   | Using ping times to calculate round-trip time.   |
-| **Unit of measurement**  | Megabytes per second (MBps).                                | Milliseconds (ms).                               |
-| **Impacting factors**    | Bandwidth, processing power, packet loss, network topology. | Geographical distance, network congestion, protocol efficiency, network infrastructure. |
+| **Aspect**              | **Throughput**                                              | **Latency**                                                                             |
+| ----------------------- | ----------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| **What it measures**    | Volume of data passing through a network over time.         | Time delay in sending data across the network.                                          |
+| **How to measure**      | Manually by file transfer or using network testing tools.   | Using ping times to calculate round-trip time.                                          |
+| **Unit of measurement** | Megabytes per second (MBps).                                | Milliseconds (ms).                                                                      |
+| **Impacting factors**   | Bandwidth, processing power, packet loss, network topology. | Geographical distance, network congestion, protocol efficiency, network infrastructure. |
 
 Understanding and optimizing both latency and throughput are vital for achieving high network performance, ensuring that data transfer is both fast and efficient, and meeting the demands of modern applications and users.
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

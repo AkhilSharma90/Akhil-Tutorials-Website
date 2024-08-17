@@ -13,6 +13,7 @@ Iterators and generators are fundamental constructs in Python that allow for eff
 In Python, iterators are objects that implement the `__iter__()` and `__next__()` methods, which collectively allow you to iterate over sequential data.
 
 #### Defining an Iterator
+
 ```python
 class Count:
     """Iterator that counts upward forever."""
@@ -33,6 +34,7 @@ print(next(counter))  # 5
 print(next(counter))  # 6
 print(next(counter))  # 7
 ```
+
 This `Count` class is an iterator that starts counting from a number and goes on indefinitely. The `__iter__()` method returns the iterator object itself, and the `__next__()` method returns the next value in the sequence.
 
 ### Generator Functions
@@ -40,6 +42,7 @@ This `Count` class is an iterator that starts counting from a number and goes on
 Generator functions are a simpler way to create iterators using the `yield` statement. They are written like regular functions but use `yield` to return data one piece at a time, suspending and resuming their state between each call.
 
 #### Creating a Generator Function
+
 ```python
 def fibonacci(limit):
     """Generate a Fibonacci sequence up to the limit."""
@@ -52,6 +55,7 @@ def fibonacci(limit):
 for number in fibonacci(10):
     print(number)  # 0, 1, 1, 2, 3, 5, 8
 ```
+
 This generator yields the Fibonacci sequence up to a specified limit. The state of the function is maintained between yields, making it memory-efficient and capable of handling complex sequences.
 
 ### The Yield Keyword
@@ -59,6 +63,7 @@ This generator yields the Fibonacci sequence up to a specified limit. The state 
 The `yield` keyword is used in generator functions and is what differentiates them from regular functions. It allows the function to return an intermediate result to the caller and pause its execution, waiting to be resumed later.
 
 #### Understanding Yield
+
 ```python
 def countdown(num):
     """Generator for counting down to zero."""
@@ -70,6 +75,7 @@ def countdown(num):
 for count in countdown(5):
     print(count)  # 5, 4, 3, 2, 1
 ```
+
 In this countdown generator, `yield` is used to return the current count on each iteration. The function execution pauses at each yield and resumes from that point the next time the generator is called.
 
 ### Conclusion
@@ -78,4 +84,4 @@ Iterators and generators are powerful tools in Python that provide a way to iter
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

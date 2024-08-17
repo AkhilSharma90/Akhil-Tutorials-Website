@@ -4,7 +4,9 @@ description: "Learn how to connect Haskell applications to databases and perform
 icon: "code"
 draft: false
 ---
+
 ### Introduction:
+
 In this installment of our Haskell series, we delve into interfacing Haskell applications with databases—a critical skill for developing dynamic, data-driven applications. Haskell’s strong type system and functional programming paradigm provide unique advantages in database operations, ensuring safety and efficiency. We will explore how to connect to databases, perform CRUD (Create, Read, Update, Delete) operations, and provide practical examples using popular databases like SQLite and PostgreSQL.
 
 ### Connecting Haskell Applications to Databases
@@ -105,7 +107,6 @@ Interfacing with databases is a vital skill for any Haskell developer working on
 **Q: How can I ensure my Haskell database code is performant?**
 **A: Optimize your Haskell database interactions by using prepared statements, transaction control, and appropriate indexing in your database. Additionally, profiling tools can help identify bottlenecks.**
 
-
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

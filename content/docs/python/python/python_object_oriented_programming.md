@@ -13,6 +13,7 @@ Object-oriented programming is a programming paradigm that uses "objects" — da
 In Python, classes provide a means of bundling data and functionality together. Creating a new class creates a new type of object, allowing new instances of that type to be made.
 
 #### Defining a Class and Creating Objects
+
 ```python
 class Dog:
     # Class Attribute
@@ -28,6 +29,7 @@ miles = Dog("Miles", 4)
 
 print(f"{buddy.name} is {buddy.age} years old.")
 ```
+
 Here, `Dog` is a class with two instance attributes (`name` and `age`) and a class attribute (`species`). `buddy` and `miles` are instances of this class.
 
 ### Attributes and Methods
@@ -35,6 +37,7 @@ Here, `Dog` is a class with two instance attributes (`name` and `age`) and a cla
 Attributes are data stored inside a class or instance, and methods are functions that are defined inside a class.
 
 #### Instance Methods
+
 ```python
 class Dog:
     def __init__(self, name, age):
@@ -52,6 +55,7 @@ miles = Dog("Miles", 4)
 print(miles.description())  # Miles is 4 years old
 print(miles.speak("Woof Woof"))  # Miles says Woof Woof
 ```
+
 `description` and `speak` are instance methods which act on data attributes of the class.
 
 ### Inheritance and Polymorphism
@@ -59,6 +63,7 @@ print(miles.speak("Woof Woof"))  # Miles says Woof Woof
 Inheritance allows one class to inherit the attributes and methods of another, while polymorphism allows for the use of a unified interface for different data types.
 
 #### Inheritance
+
 ```python
 # Base class
 class Dog:
@@ -78,9 +83,11 @@ class JackRussellTerrier(Dog):
 jack = JackRussellTerrier("Jack", 3)
 print(jack.speak())  # Jack says Arf
 ```
+
 `JackRussellTerrier` inherits from `Dog` but overrides the `speak` method (demonstrating polymorphism).
 
 #### Polymorphism
+
 Polymorphism allows methods to be implemented in different ways between classes.
 
 ```python
@@ -99,4 +106,4 @@ Object-oriented programming in Python provides a powerful model for organizing a
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

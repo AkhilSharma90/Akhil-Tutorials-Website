@@ -32,6 +32,7 @@ This line of code outputs "Hello, World!" to the console, a simple demonstration
 ## Basic Syntax Overview
 
 Julia's syntax is user-friendly and similar to other popular programming languages. Here are a few basic syntax rules:
+
 - **Comments**: Single-line comments start with `#`, and multi-line comments are enclosed within `#= ... =#`.
 - **Variables**: Declaring variables doesn't require explicit types. For example, `x = 10` or `name = "Julia"`.
 - **Math Operations**: Standard operators like `+`, `-`, `*`, `/` are used for mathematical operations.
@@ -69,6 +70,7 @@ name = "Julia" # A string
 ### Control Structures
 
 Control structures in Julia are used for decision-making and looping, similar to other languages.
+
 - **If Statement**: Used for conditional execution.
 - **For Loop**: Iterates over a range or collection.
 - **While Loop**: Executes as long as a condition is true.
@@ -102,4 +104,4 @@ println(greet("Kanye"))
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -6,39 +6,44 @@ draft: false
 ---
 
 ## Key Features of Zig:
+
 - Safety and Performance: Zig ensures memory safety and offers performance comparable to languages like C.
 - Simplicity and Maintainability: Zig's focus on avoiding hidden control flow and minimizing dependencies.
 - Comptime: Fast compile-time execution and it sets Zig apart from other languages.
 
 ## Installation
+
 This guide assumes Zig 0.11, which is the latest major release as of writing.
+
 1. Download and extract a prebuilt master binary of Zig from: [https://ziglang.org/download/](https://ziglang.org/download/)
-   
 2. Add Zig to your path
-    - **linux, macos, bsd**
-    Add the location of your Zig binary to your PATH environment variable. For an installation, add `export PATH=$PATH:~/zig` or similar to your `/etc/profile` (system-wide) or `$HOME/.profile`. If these changes do not apply immediately, run the line from your shell.
-    
-    - **windows**
-        a) System wide (admin powershell)
-        ```powershell
-        [Environment]::SetEnvironmentVariable(
-            "Path",
-            [Environment]::GetEnvironmentVariable("Path", "Machine") + ";C:\your-path\zig-windows-x86_64-your-version",
-            "Machine"
-        )
-        ```
 
-        b) User level (powershell)
-        ```powershell
-        [Environment]::SetEnvironmentVariable(
-            "Path",
-            [Environment]::GetEnvironmentVariable("Path", "User") + ";C:\your-path\zig-windows-x86_64-your-version",
-            "User"
-        )
-        ```
+   - **linux, macos, bsd**
+     Add the location of your Zig binary to your PATH environment variable. For an installation, add `export PATH=$PATH:~/zig` or similar to your `/etc/profile` (system-wide) or `$HOME/.profile`. If these changes do not apply immediately, run the line from your shell.
 
-    Close your terminal and create a new one.
-    
+   - **windows**
+     a) System wide (admin powershell)
+
+     ```powershell
+     [Environment]::SetEnvironmentVariable(
+         "Path",
+         [Environment]::GetEnvironmentVariable("Path", "Machine") + ";C:\your-path\zig-windows-x86_64-your-version",
+         "Machine"
+     )
+     ```
+
+     b) User level (powershell)
+
+     ```powershell
+     [Environment]::SetEnvironmentVariable(
+         "Path",
+         [Environment]::GetEnvironmentVariable("Path", "User") + ";C:\your-path\zig-windows-x86_64-your-version",
+         "User"
+     )
+     ```
+
+   Close your terminal and create a new one.
+
 3. Verify your installation with `zig version`. The output should look like this:
    ```
    $ zig version
@@ -46,6 +51,7 @@ This guide assumes Zig 0.11, which is the latest major release as of writing.
    ```
 
 ## Hello World
+
 Create a file called `main.zig`, with the following contents:
 
 ```zig
@@ -59,38 +65,50 @@ pub fn main() void {
 Use `zig run main.zig` to build and run it. In this example, `Hello, World!` will be written to stderr, and is assumed to never fail.
 
 ## Assignment
+
 Value assignment has the following syntax: `(const|var) identifier[: type] = value`.
+
 - `const` indicates that `identifier` is a constant that stores an immutable value.
 - `var` indicates that `identifier` is a variable that stores a mutable value.
 - `: type` is a type annotation for `identifier`, and may be omitted if the data type of `value` can be inferred.
+
 ```zig
 const constant: i32 = 5;  // signed 32-bit constant
 var variable: u32 = 5000; // unsigned 32-bit variable
 const inferred_constant = @as(i32, 5);
 var inferred_variable = @as(u32, 5000);
 ```
+
 Constants and variables must have a value. If no known value can be given, the undefined value, which coerces to any type, may be used as long as a type annotation is provided.
+
 ```zig
 const a: i32 = undefined;
 var b: u32 = undefined;
 ```
+
 Where possible, const values are preferred over var values.
 
 ## Arrays
+
 Arrays are denoted by `[N]T`, where `N` is the number of elements in the array and `T` is the type of those elements (i.e., the array’s child type). For array literals, `N` may be replaced by `_` to infer the size of the array.
+
 ```zig
 const a = [5]u8{ 'h', 'e', 'l', 'l', 'o' };
 const b = [_]u8{ 'w', 'o', 'r', 'l', 'd' };
 ```
+
 To get the size of an array, simply access the array’s `len` field.
+
 ```zig
 const array = [_]u8{ 'h', 'e', 'l', 'l', 'o' };
 const length = array.len; // 5
 ```
 
 ## If
+
 Zig’s if statements only accept bool values (i.e. true or false). There is no concept of truthy or falsy values.
 Here, we will introduce testing. Save the below code and compile + run it with `zig test file-name.zig`. We will be using the `expect` function from the standard library, which will cause the test to fail if it’s given the value `false`. When a test fails, the error and stack trace will be shown.
+
 ```zig
 const expect = @import("std").testing.expect;
 
@@ -118,7 +136,9 @@ test "if statement expression" {
 ```
 
 ## While
+
 Zig’s while loop has three parts - a condition, a block, and a continue expression. Without a continue expression.
+
 ```zig
 test "while" {
     var i: u8 = 2;
@@ -129,7 +149,9 @@ test "while" {
     try expect(i == 128);
 }
 ```
+
 With a continue expression.
+
 ```zig
 test "while with continue expression" {
     var sum: u8 = 0;
@@ -142,7 +164,9 @@ test "while with continue expression" {
     try expect(sum == 55);
 }
 ```
+
 With a continue.
+
 ```zig
 test "while with continue" {
     var sum: u8 = 0;
@@ -156,7 +180,9 @@ test "while with continue" {
     try expect(sum == 4);
 }
 ```
+
 With a break.
+
 ```zig
 test "while with break" {
     var sum: u8 = 0;
@@ -172,7 +198,9 @@ test "while with break" {
 ```
 
 ## For
-For loops are used to iterate over arrays. For loops follow this syntax. Like while, for loops can use break and continue. Here, we’ve had to assign values to _, as Zig does not allow us to have unused values.
+
+For loops are used to iterate over arrays. For loops follow this syntax. Like while, for loops can use break and continue. Here, we’ve had to assign values to \_, as Zig does not allow us to have unused values.
+
 ```zig
 test "for" {
    //character literals are equivalent to integer literals
@@ -196,7 +224,9 @@ test "for" {
 ```
 
 ## Functions
+
 All function arguments are immutable - if a copy is desired the user must explicitly make one. Unlike variables, which are snake_case, functions are camelCase. Here’s an example of declaring and calling a simple function.
+
 ```zig
 fn addFive(x: u32) u32 {
    return x + 5;
@@ -208,7 +238,9 @@ test "function" {
    try expect(y == 5);
 }
 ```
+
 Recursion is allowed:
+
 ```zig
 fn fibonacci(n: u16) u16 {
    if (n == 0 or n == 1) return n;
@@ -220,14 +252,19 @@ test "function recursion" {
    try expect(x == 55);
 }
 ```
+
 ## Values Ignoring
+
 Values can be ignored using `_` instead of a variable or const declaration. This does not work at the global scope (i.e., it only works inside functions and blocks) and is useful for ignoring the values returned from functions if you do not need them.
+
 ```zig
 _ = 10;
 ```
 
 ## Defer
+
 Defer is used to execute a statement while exiting the current block.
+
 ```zig
 test "defer" {
    var x: i16 = 5;
@@ -238,7 +275,9 @@ test "defer" {
    try expect(x == 7);
 }
 ```
+
 When there are multiple defers in a single block, they are executed in reverse order.
+
 ```zig
 test "multi defer" {
    var x: f32 = 5;
@@ -251,7 +290,9 @@ test "multi defer" {
 ```
 
 ## Errors
+
 An error set is like an enum, where each error in the set is a value. There are no exceptions in Zig; errors are values.
+
 ```zig
 const FileOpenError = error{
    AccessDenied,
@@ -261,7 +302,9 @@ const FileOpenError = error{
 ```
 
 ## Switch
+
 Zig’s switch works as both a statement and an expression. The types of all branches must coerce to the type which is being switched upon. All possible values must have an associated branch - values cannot be left out. Cases cannot fall through to other branches.
+
 ```zig
 test "switch statement" {
    var x: i8 = 10;
@@ -281,7 +324,9 @@ test "switch statement" {
    try expect(x == 1);
 }
 ```
+
 Here is the former, but as a switch expression.
+
 ```zig
 test "switch expression" {
    var x: i8 = 10;
@@ -294,8 +339,11 @@ test "switch expression" {
    try expect(x == 1);
 }
 ```
+
 ## Slices
+
 Slices can be thought of as a pair of [*]T (the pointer to the data) and a usize (the element count). Their syntax is []T, with T being the child type.
+
 ```zig
 fn total(values: []const u8) usize {
    var sum: usize = 0;
@@ -311,13 +359,17 @@ test "slices" {
 ```
 
 ## Enums
+
 Zig’s enums allow you to define types with a restricted set of named values.
+
 ```zig
 const Direction = enum { north, south, east, west };
 ```
 
 ## Structs
+
 Structs are Zig’s most common kind of composite data type, allowing you to define types that can store a fixed set of named fields.
+
 ```zig
 const Vec3 = struct { x: f32, y: f32, z: f32 };
 
@@ -331,8 +383,11 @@ test "struct usage" {
    _ = my_vector;
 }
 ```
+
 ## ArrayList
+
 The std.ArrayList is commonly used throughout Zig, serving as a buffer that can change in size. std.ArrayList(T) is similar to C++’s std::vector<T> and Rust’s Vec<T>.
+
 ```zig
 const eql = std.mem.eql;
 const ArrayList = std.ArrayList;
@@ -353,7 +408,9 @@ test "arraylist" {
 ```
 
 ## Filesystem
+
 Creating, opening, writing to, and reading from a file in the current working directory.
+
 ```zig
 test "createFile, write, seekTo, read" {
    const file = try std.fs.cwd().createFile(
@@ -375,7 +432,9 @@ test "createFile, write, seekTo, read" {
 ```
 
 ## Threads
+
 Using std.Thread for utilizing OS threads.
+
 ```zig
 fn ticker(step: u8) void {
    while (true) {
@@ -396,7 +455,9 @@ test "threading" {
 ```
 
 ## Sorting
+
 The standard library provides utilities for in-place sorting slices.
+
 ```zig
 test "sorting" {
    var data = [_]u8{ 10, 240, 0, 0, 10, 5 };
@@ -409,7 +470,9 @@ test "sorting" {
 ```
 
 ## Async
+
 Zig’s async functions allow for asynchronous execution without the need for OS threads.
+
 ```zig
 const expect = @import("std").testing.expect;
 
@@ -442,7 +505,9 @@ fn func2() void {
 ```
 
 ## Async / Await
+
 Async functions in Zig can be invoked with the `await` keyword to wait for their completion and retrieve their return value asynchronously.
+
 ```zig
 fn func3() u32 {
    return 5;
@@ -455,6 +520,7 @@ test "async / await" {
 ```
 
 Using `await` on an async function from another async function allows for chaining asynchronous operations.
+
 ```zig
 fn asyncOperation() u32 {
    return 10;
@@ -473,4 +539,4 @@ test "chaining async operations" {
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

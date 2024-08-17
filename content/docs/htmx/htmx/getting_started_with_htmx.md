@@ -19,11 +19,13 @@ This anchor tag tells a browser:
 With that in mind, consider the following bit of HTML:
 
 ```html
-<button hx-post="/clicked"
-        hx-trigger="click"
-        hx-target="#parent-div"
-        hx-swap="outerHTML">
-    Click Me!
+<button
+  hx-post="/clicked"
+  hx-trigger="click"
+  hx-target="#parent-div"
+  hx-swap="outerHTML"
+>
+  Click Me!
 </button>
 ```
 
@@ -54,8 +56,11 @@ Htmx is a dependency-free, browser-oriented javascript library. This means that 
 The fastest way to get going with htmx is to load it via a CDN. You can simply add this to your head tag and get going:
 
 ```html
-<script src="https://unpkg.com/htmx.org@1.9.10"
-        integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" crossorigin="anonymous"></script>
+<script
+  src="https://unpkg.com/htmx.org@1.9.10"
+  integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC"
+  crossorigin="anonymous"
+></script>
 ```
 
 ### Download a copy
@@ -86,7 +91,7 @@ If you are using webpack to manage your javascript:
 - Add the import to your index.js
 
 ```js
-import 'htmx.org';
+import "htmx.org";
 ```
 
 If you want to use the global htmx variable (recommended), you need to inject it to the window scope:
@@ -95,17 +100,17 @@ If you want to use the global htmx variable (recommended), you need to inject it
 - Import this file to your index.js (below the import from step 2)
 
 ```js
-import 'path/to/my_custom.js';
+import "path/to/my_custom.js";
 ```
 
 Then add this code to the file:
 
 ```js
-window.htmx = require('htmx.org');
+window.htmx = require("htmx.org");
 ```
 
 Finally, rebuild your bundle.
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

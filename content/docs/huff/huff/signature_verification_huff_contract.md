@@ -16,12 +16,12 @@ Here’s the optimized solution for quick reference:
 ```huff
 #define macro MAIN() = takes (0) returns (0) {
     /// Check if calldatasize is 97 bytes (MessageHash=32, Signature=65)
-    calldatasize 
-    0x61 eq 
+    calldatasize
+    0x61 eq
     extractParamsAndStore jumpi
 
     oog jump
-        
+
     extractParamsAndStore:
     /// Store the message hash
     0x00 calldataload
@@ -33,18 +33,18 @@ Here’s the optimized solution for quick reference:
 
     /// Store 'r'
     0x20 calldataload
-    0x40 mstore 
-    
+    0x40 mstore
+
     /// Store 's'
     0x40 calldataload
-    0x60 mstore 
-    
-    /// Prepare stack for 'ecrecover' staticcall 
-    0x20 
-    0x00 
-    0x80 
-    0x00 
-    chainid 
+    0x60 mstore
+
+    /// Prepare stack for 'ecrecover' staticcall
+    0x20
+    0x00
+    0x80
+    0x00
+    chainid
     gas
     staticcall validate jumpi
 
@@ -52,23 +52,23 @@ Here’s the optimized solution for quick reference:
 
     /// Check if caller==retdata (signer address)
     validate:
-    0x00 mload 
+    0x00 mload
     dup1
-    caller 
+    caller
     eq valid jumpi
 
     oog jump
 
     // Return true
-    valid: 
-    chainid 
+    valid:
+    chainid
     0x00 mstore
     0x20 0x00 return
 
     // out-of-gas
     oog:
-    0x01 
-    0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff 
+    0x01
+    0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
     mstore
 }
 ```
@@ -80,8 +80,8 @@ Here’s the optimized solution for quick reference:
 The first part of the contract ensures that the calldata size is 97 bytes, which is the combined size of a 32-byte message hash and a 65-byte signature (v, r, s).
 
 ```huff
-calldatasize 
-0x61 eq 
+calldatasize
+0x61 eq
 extractParamsAndStore jumpi
 
 oog jump
@@ -108,11 +108,11 @@ extractParamsAndStore:
 
 /// Store 'r'
 0x20 calldataload
-0x40 mstore 
+0x40 mstore
 
 /// Store 's'
 0x40 calldataload
-0x60 mstore 
+0x60 mstore
 ```
 
 - `calldataload`: Loads data from calldata at specified offset.
@@ -123,11 +123,11 @@ extractParamsAndStore:
 We prepare the stack with parameters for the `ecrecover` static call.
 
 ```huff
-0x20 
-0x00 
-0x80 
-0x00 
-chainid 
+0x20
+0x00
+0x80
+0x00
+chainid
 gas
 staticcall validate jumpi
 
@@ -163,8 +163,8 @@ oog jump            // if not equal, jump to out-of-gas block
 If the signature is valid, we return true.
 
 ```huff
-valid: 
-chainid 
+valid:
+chainid
 0x00 mstore
 0x20 0x00 return
 ```
@@ -179,8 +179,8 @@ If any check fails, we run out of gas.
 
 ```huff
 oog:
-0x01 
-0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff 
+0x01
+0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 mstore
 ```
 
@@ -192,4 +192,4 @@ This optimized Huff contract verifies if a message was signed by the sender of t
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

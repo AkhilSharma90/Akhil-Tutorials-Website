@@ -197,7 +197,7 @@ df = df.set_index(['level_0', 'level_1'])
 print(df)
 # Output:
 #            Value
-# level_0 level_1      
+# level_0 level_1
 # A       1        10
 #         2        20
 # B       1        30
@@ -210,4 +210,4 @@ Pandas offers a comprehensive set of tools for indexing and selecting data, allo
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

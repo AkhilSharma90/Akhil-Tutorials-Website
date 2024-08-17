@@ -10,15 +10,19 @@ Concurrency is one of the core strengths of Elixir, and the language leverages t
 ### Introduction
 
 #### Why Concurrency in Elixer?
+
 Elixir, built on the Erlang VM, is designed for building concurrent, distributed, and fault-tolerant applications. The actor model, used by Elixir, provides a robust way to manage concurrency by treating each process as an independent entity that communicates with other processes via message passing.
 
 #### What is OTP?
+
 OTP stands for Open Telecom Platform. It is a collection of middleware, libraries, and tools used to design and implement concurrent, scalable, and fault-tolerant systems. OTP provides several abstractions like GenServer, Supervisor, and Application, which simplify building and maintaining complex applications.
 
 ### Processes in Elixir
 
 ##### Creating Processes
+
 In Elixir, processes are lightweight and run in isolation. They are created using the spawn function:
+
 ```elixir
 defmodule SimpleProcess do
   def greet do
@@ -28,9 +32,11 @@ end
 
 pid = spawn(SimpleProcess, :greet, [])
 ```
+
 Here, spawn/3 creates a new process that executes the greet function
 
 ##### Sending and Receiving Messages
+
 Processes communicate via message passing. You can send a message to a process using the send function and receive messages using the receive block:
 
 ```elixir
@@ -53,10 +59,13 @@ end
 ```
 
 ### GenServer
+
 GenServer is a generic server implementation that abstracts the common patterns of working with processes. It simplifies the implementation of servers in Elixir by providing a standard way to define and handle state, callbacks, and message passing.
 
 ##### Creating a GenServer
+
 To create a GenServer, you need to define a module that uses GenServer and implement the required callbacks:
+
 ```elixir
 defmodule MyGenServer do
   use GenServer
@@ -91,8 +100,11 @@ defmodule MyGenServer do
   end
 end
 ```
+
 ##### Using the GenServer
-You can start and interact with the GenServer using the client API functions: 
+
+You can start and interact with the GenServer using the client API functions:
+
 ```elixir
 {:ok, _pid} = MyGenServer.start_link(%{count: 0})
 IO.inspect(MyGenServer.get_state())  # Output: %{count: 0}
@@ -105,7 +117,9 @@ IO.inspect(MyGenServer.get_state())  # Output: %{count: 42}
 Supervisors are a core part of OTP that provide fault tolerance by monitoring processes and restarting them if they fail. Supervisors are designed to manage process lifecycles, making it easier to build resilient systems.
 
 ##### Creating a Supervisor
+
 To create a supervisor, define a module that uses Supervisor and specify a supervision strategy:
+
 ```elixir
 defmodule MySupervisor do
   use Supervisor
@@ -126,6 +140,7 @@ end
 ```
 
 ##### Starting the Supervisor
+
 You can start the supervisor and it will automatically start its child processes:
 
 ```elixir
@@ -137,4 +152,4 @@ IO.inspect(MyGenServer.get_state())  # Output: %{count: 42}
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

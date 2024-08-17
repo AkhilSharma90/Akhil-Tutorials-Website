@@ -56,6 +56,7 @@ interface AggregatorV3Interface {
 ### Explaining the Contract
 
 1. **Contract Initialization:**
+
    ```solidity
    constructor() {
        // ETH / USD
@@ -63,9 +64,11 @@ interface AggregatorV3Interface {
            AggregatorV3Interface(0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419);
    }
    ```
+
    - In the constructor, the contract initializes the `priceFeed` variable with the address of the Chainlink aggregator contract for the ETH/USD price feed.
 
 2. **Fetching Latest Price:**
+
    ```solidity
    function getLatestPrice() public view returns (int256) {
        (
@@ -79,6 +82,7 @@ interface AggregatorV3Interface {
        return price / 1e8;
    }
    ```
+
    - The `getLatestPrice` function fetches the latest ETH/USD price from the Chainlink aggregator contract.
    - It calls the `latestRoundData` function of the `priceFeed` interface, which returns various information including the latest price.
    - Since the price is scaled up by 10^8 in the Chainlink aggregator contract, we divide it by `1e8` to get the actual price.
@@ -107,4 +111,4 @@ The `ChainlinkPriceOracle` contract demonstrates how to integrate Chainlink's de
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

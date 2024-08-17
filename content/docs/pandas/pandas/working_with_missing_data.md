@@ -31,6 +31,7 @@ print(df.isnull())
 ```
 
 Output:
+
 ```
        A      B      C
 0  False   True  False
@@ -48,6 +49,7 @@ print(df.isna().sum())
 ```
 
 Output:
+
 ```
 A    1
 B    1
@@ -78,6 +80,7 @@ print(df.dropna(thresh=2))
 ```
 
 Output:
+
 ```
      A    B    C
 1  2.0  2.0  2.0
@@ -119,6 +122,7 @@ print(df.fillna(df.mean()))
 ```
 
 Output:
+
 ```
      A    B    C
 0  1.0  0.0  1.0
@@ -154,6 +158,7 @@ print(df.interpolate())
 ```
 
 Output:
+
 ```
      A    B    C
 0  1.0  NaN  1.0
@@ -173,6 +178,7 @@ print(df.where(pd.notna(df), df.mean(), axis=1))
 ```
 
 Output:
+
 ```
      A         B    C
 0  1.0  3.000000  1.0
@@ -190,6 +196,7 @@ print(df.replace(np.nan, -1))
 ```
 
 Output:
+
 ```
      A    B    C
 0  1.0  -1.0  1.0
@@ -214,4 +221,4 @@ Handling missing data is an essential step in the data cleaning process. Pandas 
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

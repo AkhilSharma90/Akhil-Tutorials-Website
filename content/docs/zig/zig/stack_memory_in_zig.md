@@ -18,6 +18,7 @@ Stack Frames
 All of the data we've seen so far have been constants stored in the global data section of our binary or local variables. "Local" indicates that the variable is only valid within the scope where it's declared. In Zig, scopes begin and end with curly braces, { ... }. Most variables are scoped to a function, including function parameters, or a control-flow block, like an if. But, as we've seen, you can create arbitrary blocks and thus, arbitrary scopes.
 
 In the previous part, we visualized the memory of our main and levelUp functions, each with a User:
+
 ```bash
 main: user ->    -------------  (id: 1043368d0)
                  |     1     |
@@ -86,6 +87,7 @@ In a normal program, the call stack can grow quite large. Between all the framew
 Like our global data, the call stack is managed by the OS and the executable. On program start, and for each thread we start thereafter, a call stack is created (the size of which can normally be configured in the OS). The call stack exists for the life of the program or, in the case of a thread, the life of the thread. On program or thread exit, the call stack is freed. But where our global data has all of the programs global data, the call stack only has stack frames for the currently executing hierarchy of functions. This is efficient both in terms of memory usage as well as the simplicity of pushing and popping stack frames on and off the stack.
 
 ### Dangling Pointers
+
 The call stack is amazing for both its simplicity and efficiency. But it's also frightening: when a function returns, any of its local data becomes inaccessible. That might sound reasonable, it is local data after all, but it can introduce serious issues. Consider this code:
 
 ```zig
@@ -114,12 +116,14 @@ pub const User = struct {
 ```
 
 At quick glance, it would be reasonable to expect the following output:
+
 ```bash
 User 1 has power of 10
 User 2 has power of 20
 ```
 
 I got:
+
 ```bash
 User 2 has power of 20
 User 9114745905793990681 has power of 0
@@ -132,6 +136,7 @@ When a stack frame is popped off the call stack, any references we have to that 
 One challenge with this type of bug is that, in languages with garbage collectors, the above code is perfectly fine. Go for example would detect that the local user outlives its scope, the init function, and would ensure its validity for as long as it's needed (how Go does this is an implementation detail, but it has a few options, including moving the data to the heap, which is what the next part is about).
 
 The other issue, I'm sorry to say, is that it can be a hard to spot bug. In our above example, we're clearly returning the address of a local. But such behavior can hide inside of nested function and complex data types. Do you see any possible issues with the following incomplete code:
+
 ```zig
 fn read() !void {
 	const input = try readUserInput();
@@ -141,11 +146,10 @@ fn read() !void {
 
 Whatever Parser.parse returns outlives input. If Parser holds a reference to input, that'll be a dangling pointer just waiting to crash our app. Ideally, if Parser needs input to live as long as it does, it will make a copy of it and that copy will be tied to its own lifetime (more on this in the next part). But there's nothing here to enforce this contract. Parser's documentation might shed some light on what it expects of input or what it does with it. Lacking that, we might need to dig into the code to figure it out.
 
-The simple way to solve our initial bug is to change init so that it returns a User rather than a *User (pointer to a User). We'd then be able to return user; rather than return &user;. But that won't always be possible. Data often has to live beyond the rigid boundaries of function scopes. For that we have the third memory area, the heap, the topic of the next part.
+The simple way to solve our initial bug is to change init so that it returns a User rather than a \*User (pointer to a User). We'd then be able to return user; rather than return &user;. But that won't always be possible. Data often has to live beyond the rigid boundaries of function scopes. For that we have the third memory area, the heap, the topic of the next part.
 
 Before diving into the heap, know that we'll see one final example of dangling pointers before the end of this guide. At that point, we'll have covered enough of the language to give a sightly less convoluted example. I want to revisit this topic because, for developers coming from garbage collected languages, this is likely to cause bugs and frustration. It is something you will get a handle on. It comes down to being aware of where and when data exists.
 
-
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

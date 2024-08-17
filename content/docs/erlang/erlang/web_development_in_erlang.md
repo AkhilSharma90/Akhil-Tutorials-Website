@@ -10,6 +10,7 @@ In Erlang, the `inets` library provides the functionality to build web servers, 
 ## Features of Erlang HTTP Server
 
 The Erlang HTTP server (`httpd`) supports several features:
+
 - Secure Sockets Layer (SSL)
 - Erlang Scripting Interface (ESI)
 - Common Gateway Interface (CGI)
@@ -139,4 +140,4 @@ In this tutorial, we explored how to set up a basic web server in Erlang using t
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

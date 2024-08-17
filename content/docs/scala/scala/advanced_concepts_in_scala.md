@@ -14,6 +14,7 @@ Scala offers several advanced features, including pattern matching, case classes
 Pattern matching in Scala is a powerful tool for checking a value against a pattern.
 
 - **Basic Syntax:**
+
   ```scala
   val number = 3
   number match {
@@ -48,6 +49,7 @@ Case classes are immutable by default and decomposable through pattern matching.
 Scala allows defining parameters as implicit, which are automatically passed by the compiler.
 
 - **Implicit Parameters:**
+
   ```scala
   def greet(implicit name: String): Unit = println(s"Hello, $name!")
   implicit val myName: String = "Bob"
@@ -87,4 +89,4 @@ This program defines a case class `Student`, demonstrates pattern matching, and 
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

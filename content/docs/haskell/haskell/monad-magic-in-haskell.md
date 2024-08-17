@@ -6,6 +6,7 @@ draft: false
 ---
 
 ### Introduction:
+
 Welcome to an intriguing exploration of one of Haskell’s most powerful and often mystifying features—monads. Monads play a crucial role in managing side effects and structuring functional programs in Haskell, providing a framework that helps maintain purity while performing IO, handling errors, or iterating over lists. This post will demystify the concept of monads, introduce you to the most commonly used monads like Maybe, IO, and List, and demonstrate how these can be leveraged for effective problem-solving in real-world applications.
 
 ### Understanding Monads: The Basic Concept and Theory
@@ -71,10 +72,8 @@ Monads can be incredibly powerful in managing complexity in real-world applicati
 
 - **Error Handling with Maybe Monad:**
   Handling operations that might fail, like parsing data or performing calculations where errors need graceful handling.
-  
 - **Managing Side Effects with IO Monad:**
   Building applications that require user interaction, file IO, or network communication, ensuring effects are handled predictably.
-  
 - **Iterating with List Monad:**
   Generating complex list transformations and filters, or handling multiple potential computation paths.
 
@@ -90,7 +89,6 @@ Monads are a cornerstone of functional programming in Haskell, providing essenti
 **Q: Are there other monads beyond Maybe, IO, and List?**
 **A: Yes, Haskell has several other monads like `Reader`, `Writer`, and `State`, each designed to handle specific types of computations and side effects effectively.**
 
-
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

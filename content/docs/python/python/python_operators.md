@@ -12,7 +12,7 @@ Operators in Python are special symbols that carry out arithmetic or logical com
 
 Arithmetic operators are used to perform mathematical operations like addition, subtraction, multiplication, and division.
 
-- **Addition** (`+`): Adds two operands. 
+- **Addition** (`+`): Adds two operands.
 - **Subtraction** (`-`): Subtracts right operand from the left.
 - **Multiplication** (`*`): Multiplies two operands.
 - **Division** (`/`): Divides left operand by the right one (result is always a float).
@@ -21,6 +21,7 @@ Arithmetic operators are used to perform mathematical operations like addition, 
 - **Exponentiation** (`**`): Performs exponential (power) calculation on operators.
 
 Example:
+
 ```python
 x = 15
 y = 4
@@ -46,6 +47,7 @@ Comparison operators are used to compare values. They return a Boolean value (ei
 - **Less than or equal to** (`<=`): True if left is less than or equal to the right.
 
 Example:
+
 ```python
 a = 10
 b = 20
@@ -67,6 +69,7 @@ Logical operators are used to combine conditional statements.
 - **not**: True if operand is false (complements the operand).
 
 Example:
+
 ```python
 c = True
 d = False
@@ -82,4 +85,4 @@ Operators play a critical role in constructing expressions and making decisions 
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

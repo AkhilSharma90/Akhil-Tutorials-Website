@@ -31,6 +31,7 @@ Type annotations are used to explicitly declare the type of a function or variab
 add : Int -> Int -> Int
 add x y = x + y
 ```
+
 This function, `add`, takes two `Int` values and returns an `Int`.
 
 ## Functions and Function Composition
@@ -69,9 +70,9 @@ Records in Elm are similar to objects in JavaScript. They are used to store stru
 ### Records
 
 ```elm
-type alias Person = 
+type alias Person =
     { name : String
-    , age : Int 
+    , age : Int
     }
 
 bob : Person
@@ -123,4 +124,4 @@ In this example, `FetchData` triggers an HTTP request, and `ReceiveData` updates
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

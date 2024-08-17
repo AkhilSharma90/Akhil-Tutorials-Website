@@ -19,6 +19,7 @@ Python supports various numeric types including integers, floating-point numbers
 - **Complex numbers** (`complex`) are written with a "j" as the imaginary part, e.g., `1 + 2j`.
 
 Example:
+
 ```python
 x = 3    # int
 y = 3.5  # float
@@ -30,12 +31,14 @@ z = 1+2j # complex
 Strings in Python are arrays of bytes representing Unicode characters. Python has no character data type; a single character is simply a string with a length of one. Strings are created by enclosing characters in either single quotes or double quotes.
 
 Example:
+
 ```python
 a = "Hello"
 b = 'World'
 ```
 
 String operations and slicing are important features:
+
 ```python
 print(a + " " + b)  # Concatenation
 print(a * 2)        # Repetition
@@ -46,6 +49,7 @@ print(a[1:4])       # Slicing
 #### Booleans
 
 Booleans represent one of two values: `True` or `False`. Boolean expressions include operations like:
+
 ```python
 print(10 > 9)        # Returns True
 print(10 == 9)       # Returns False
@@ -60,6 +64,7 @@ Type conversion refers to converting one data type into another. Python provides
 - **Explicit Conversion**: This requires the use of predefined functions like `int()`, `float()`, `str()`, etc.
 
 Example:
+
 ```python
 num_int = 123     # int
 num_flo = 1.23    # float
@@ -81,4 +86,4 @@ Understanding variables and data types is crucial for mastering Python as they f
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

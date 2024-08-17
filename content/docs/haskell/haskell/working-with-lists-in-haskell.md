@@ -16,6 +16,7 @@ Welcome back to our exploration of Haskell, the pure functional programming lang
 Lists in Haskell are homogeneous data structures, meaning they store elements of the same type. They are defined recursively and are central to the language's approach to handling collections of data.
 
 - **Syntax and Construction:**
+
   ```haskell
   primes :: [Integer]
   primes = [2, 3, 5, 7, 11, 13]  -- A simple list of integers
@@ -33,12 +34,14 @@ Lists in Haskell are homogeneous data structures, meaning they store elements of
 Haskell provides a suite of functions designed for efficient list manipulation, facilitating operations such as mapping, filtering, and folding that are essential in functional programming.
 
 - **Mapping (`map`):**
+
   ```haskell
   square :: [Integer] -> [Integer]
   square = map (^2)
   ```
 
 - **Filtering (`filter`):**
+
   ```haskell
   oddNumbers :: [Integer] -> [Integer]
   oddNumbers = filter odd
@@ -55,6 +58,7 @@ Haskell provides a suite of functions designed for efficient list manipulation, 
 List comprehensions in Haskell allow you to create new lists by describing their contents, making the code more readable and expressive.
 
 - **Generating Lists:**
+
   ```haskell
   squares = [x^2 | x <- [1..10]]  -- List of squares from 1 to 10
   ```
@@ -112,4 +116,4 @@ Lists are an indispensable part of Haskell, offering a versatile and powerful to
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

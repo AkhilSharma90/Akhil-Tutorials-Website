@@ -13,29 +13,35 @@ Modules in Python are simply files containing Python code that can be imported i
 Importing modules is fundamental in Python as it allows you to use functionalities that are not built into the core language but are vital for your programs.
 
 #### Basic Import
+
 ```python
 # Importing a single module
 import math
 print("The value of pi is:", math.pi)
 ```
+
 Here, the `math` module is imported, and we access its `pi` attribute to get the mathematical constant π.
 
 #### Importing Specific Functions
+
 ```python
 # Importing specific attributes or functions
 from math import sqrt, cos
 print("Square root of 16 is:", sqrt(16))
 print("Cosine of 90 degrees is:", cos(90))
 ```
+
 This method allows you to directly use `sqrt` and `cos` without the `math.` prefix, making the code cleaner and potentially more efficient.
 
 #### Importing with Aliases
+
 ```python
 # Importing modules with an alias
 import datetime as dt
 current_time = dt.datetime.now()
 print("Current time:", current_time)
 ```
+
 Using aliases (e.g., `dt`) can shorten your code and improve readability when dealing with modules having longer names.
 
 ### Exploring Standard Modules
@@ -43,15 +49,18 @@ Using aliases (e.g., `dt`) can shorten your code and improve readability when de
 Python’s standard library is vast, but let’s explore two commonly used modules: `math` for mathematical tasks and `datetime` for handling date and time.
 
 #### The `math` Module
+
 ```python
 # Using functions from the math module
 import math
 angle = math.radians(90)  # Convert degrees to radians
 print("Sine of 90 degrees is:", math.sin(angle))
 ```
+
 The `math` module provides access to mathematical functions like `sin`, `cos`, `tan`, and much more, which are crucial for scientific calculations.
 
 #### The `datetime` Module
+
 ```python
 # Working with the datetime module
 from datetime import datetime, timedelta
@@ -62,6 +71,7 @@ print("Now:", now)
 future_date = now + timedelta(days=10)
 print("Date after 10 days:", future_date)
 ```
+
 `datetime` helps manage dates and times in Python, from simple tasks like getting the current date and time to complex manipulations such as calculating differences between dates.
 
 ### Conclusion
@@ -72,4 +82,4 @@ This guide has aimed to provide a thorough understanding of modules and packages
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

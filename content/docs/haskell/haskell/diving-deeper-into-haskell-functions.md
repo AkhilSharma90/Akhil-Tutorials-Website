@@ -4,6 +4,7 @@ description: "Explore the advanced functionalities of Haskell functions includin
 icon: "code"
 draft: false
 ---
+
 **Introduction:**
 
 Welcome back to our exploration of Haskell, a language that shines brightly in the realm of functional programming due to its elegant handling of functions. In this session, we dive deeper into Haskell's approach to functions, focusing on pure functions, higher-order functions, and the intriguing concepts of currying and partial application. These advanced features empower developers to write more concise, flexible, and maintainable code.
@@ -18,6 +19,7 @@ In Haskell, pure functions are a fundamental concept. These functions guarantee 
 - **Ease of Reasoning:** Pure functions simplify understanding and reasoning about your code, as each piece behaves predictably and independently.
 
 **Example of a Pure Function:**
+
 ```haskell
 square :: Int -> Int
 square x = x * x
@@ -60,6 +62,7 @@ totalSum = foldl (+) 0
 Currying transforms a function that takes multiple arguments into a sequence of functions each with a single argument. This transformation is not just a theoretical concept in Haskell—it's how functions fundamentally work.
 
 **Benefits of Currying:**
+
 - **Modularity:** You can build more generalized functions and adapt them to specific situations by partial application.
 - **Code Reusability:** Currying helps in creating configurable and reusable code blocks that can adapt to various needs.
 
@@ -102,7 +105,6 @@ Exploring the deeper functionalities of Haskell's functions opens up a world of 
 **Q: Are there performance trade-offs with using higher-order functions?**
 **A: While higher-order functions can lead to slightly slower performance due to additional abstraction layers, they often make code much clearer and more maintainable. Optimization techniques and compiler improvements also mitigate these issues significantly.**
 
-
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

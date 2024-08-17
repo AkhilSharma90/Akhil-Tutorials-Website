@@ -4,6 +4,7 @@ description: "Explore the powerful capabilities of enums and pattern matching in
 icon: "code"
 draft: false
 ---
+
 #### Introduction
 
 Enums and pattern matching are two of Rust’s most powerful features, enabling programmers to write flexible, expressive, and safe code. Enums allow you to define a type by enumerating its possible variants, and pattern matching provides a way to execute different code paths based on which variant an enum value is. This post delves deep into both concepts, demonstrating their utility and efficiency in real-world Rust applications.
@@ -13,6 +14,7 @@ Enums and pattern matching are two of Rust’s most powerful features, enabling 
 Enums in Rust are types that can encapsulate different kinds of data in each of its variants. Unlike enums in some other languages, Rust’s enums can store different amounts and types of values depending on their needs.
 
 **Basic Definition of an Enum:**
+
 ```rust
 enum WebEvent {
     PageLoad,
@@ -22,6 +24,7 @@ enum WebEvent {
     Click { x: i64, y: i64 },
 }
 ```
+
 This `WebEvent` enum represents different types of web events that can occur. Some variants, like `PageLoad` and `PageUnload`, do not store additional data, whereas variants like `KeyPress` and `Paste` store additional data associated with them.
 
 #### Using Enums to Handle Variants
@@ -29,6 +32,7 @@ This `WebEvent` enum represents different types of web events that can occur. So
 Enums are particularly useful when you have multiple types that might have different kinds of associated data but you want to handle them together.
 
 **Example of Enum Usage:**
+
 ```rust
 fn inspect(event: WebEvent) {
     match event {
@@ -40,6 +44,7 @@ fn inspect(event: WebEvent) {
     }
 }
 ```
+
 In this function, `inspect` uses a `match` statement to determine what to do based on the variant of `WebEvent`. Each arm of the match corresponds to a variant of the enum, allowing for variant-specific behavior.
 
 #### Pattern Matching with `match` and `if let`
@@ -47,6 +52,7 @@ In this function, `inspect` uses a `match` statement to determine what to do bas
 Pattern matching in Rust is handled primarily through the `match` statement, which is a versatile and powerful feature for branching based on the patterns of enums, literals, or even complex data structures.
 
 **Advanced `match` Example:**
+
 ```rust
 match some_value {
     1 => println!("one"),
@@ -55,9 +61,11 @@ match some_value {
     _ => println!("anything"),
 }
 ```
+
 Here, `match` checks `some_value` against a series of patterns and executes the associated code block of the first matching pattern.
 
 **Using `if let` for Simpler Cases:**
+
 ```rust
 let some_option_value = Some(7);
 
@@ -65,6 +73,7 @@ if let Some(x) = some_option_value {
     println!("the value is: {}", x);
 }
 ```
+
 `if let` is a convenient shorthand for a `match` that runs code for one pattern and ignores others. It’s particularly useful when you are only interested in one variant of an enum.
 
 #### Practical Applications of Enums and Pattern Matching
@@ -72,6 +81,7 @@ if let Some(x) = some_option_value {
 Enums combined with pattern matching offer a robust framework for handling various programming scenarios, from simple to complex ones.
 
 **Handling State Transitions:**
+
 ```rust
 enum State {
     Inactive,
@@ -90,6 +100,7 @@ match state {
     State::Terminated => println!("Terminated"),
 }
 ```
+
 This setup is ideal for managing state transitions in applications like games or user interfaces.
 
 **Error Handling:**
@@ -101,4 +112,4 @@ Enums and pattern matching are indispensable tools in Rust that provide expressi
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -35,17 +35,17 @@ When you run the above program, the output will be:
 
 Erlang provides several functions to work with binaries. Below is a summary of some essential functions and their descriptions:
 
-| Sr.No. | Method            | Description                                          |
-|--------|-------------------|------------------------------------------------------|
-| 1      | `list_to_binary/1`  | Converts an existing list to a binary.              |
-| 2      | `split_binary/2`    | Splits the binary based on the specified index.     |
-| 3      | `term_to_binary/1`  | Converts a term to binary.                          |
-| 4      | `is_binary/1`       | Checks if a bitstring is a binary value.            |
-| 5      | `binary_part/2`     | Extracts a part of the binary.                      |
-| 6      | `binary_to_float/1` | Converts a binary value to a float.                 |
-| 7      | `binary_to_integer/1`| Converts a binary value to an integer.             |
-| 8      | `binary_to_list/1`  | Converts a binary value to a list.                  |
-| 9      | `binary_to_atom/1`  | Converts a binary value to an atom.                 |
+| Sr.No. | Method                | Description                                     |
+| ------ | --------------------- | ----------------------------------------------- |
+| 1      | `list_to_binary/1`    | Converts an existing list to a binary.          |
+| 2      | `split_binary/2`      | Splits the binary based on the specified index. |
+| 3      | `term_to_binary/1`    | Converts a term to binary.                      |
+| 4      | `is_binary/1`         | Checks if a bitstring is a binary value.        |
+| 5      | `binary_part/2`       | Extracts a part of the binary.                  |
+| 6      | `binary_to_float/1`   | Converts a binary value to a float.             |
+| 7      | `binary_to_integer/1` | Converts a binary value to an integer.          |
+| 8      | `binary_to_list/1`    | Converts a binary value to a list.              |
+| 9      | `binary_to_atom/1`    | Converts a binary value to an atom.             |
 
 ## Examples of Using Binary Functions
 
@@ -163,4 +163,4 @@ Erlang binaries are efficient for storing and manipulating large amounts of raw 
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -10,6 +10,7 @@ When a program needs to interact with external systems, such as communicating wi
 To handle these situations, Julia provides Tasks (also referred to as symmetric coroutines, lightweight threads, cooperative multitasking, or one-shot continuations). Designating a piece of work (typically, executing a particular function) as a Task allows it to be interrupted and switched to another Task. The original Task can later be resumed from where it was paused. While this may resemble a function call, there are two crucial differences. First, task switching doesn't use up stack space, allowing numerous task switches without affecting the call stack. Second, tasks can switch in any order, unlike function calls, where the called function must complete before control returns to the caller.
 
 ### Basic Task Operations
+
 A Task can be viewed as a handle to a unit of computational work. It follows a create-start-run-finish lifecycle. Tasks are created by calling the Task constructor on a zero-argument function or using the @task macro:
 
 ```julia
@@ -38,6 +39,7 @@ instead of only calling `schedule`, you will observe a five-second pause before 
 It is often useful to create and schedule a task immediately, so the `@async` macro is provided for this purpose – `@async x` is equivalent to `schedule(@task x)`.
 
 ### Communicating with Channels
+
 In some cases, different tasks are not naturally related by function calls; there isn't an obvious "caller" or "callee". An example is the producer-consumer problem, where one procedure generates values and another consumes them. The consumer cannot simply call a producer function to get a value because the producer may still be generating values and might not be ready to return. With tasks, both the producer and consumer can run as long as needed, passing values back and forth as necessary.
 
 Julia offers a Channel mechanism to address this issue. A Channel is a waitable first-in-first-out queue that multiple tasks can read from and write to.
@@ -93,11 +95,13 @@ taskHdl = @task mytask(7)
 To orchestrate more advanced work distribution patterns, bind and schedule can be used in conjunction with Task and Channel constructors to explicitly link a set of channels with a set of producer/consumer tasks.
 
 ### More on Channels
+
 A channel can be visualized as a pipe, i.e., it has a write end and a read end :
+
 - Multiple writers in different tasks can write to the same ch
-annel concurrently via put! calls.
+  annel concurrently via put! calls.
 - Multiple readers in different tasks can read data concurrently vi
-a take! calls.
+  a take! calls.
 - As an example:
 
 ```julia
@@ -126,6 +130,7 @@ end
 - If a Channel is full, writers (on a put! call) will block until space becomes available.
 - isready tests for the presence of any object in the channel, while wait waits for an object to become available.
 - A Channel is in an open state initially. This means that it can be read from and written to freely via take! and put! calls. close closes a Channel. On a closed Channel, put! will fail. For example:
+
 ```julia
 julia> c = Channel(2);
 
@@ -139,6 +144,7 @@ ERROR: InvalidStateException: Channel is closed.
 Stacktrace:
 [...]
 ```
+
 take! and fetch (which retrieves but does not remove the value) on a closed channel successfully return any existing values until it is emptied. Continuing the above example:
 
 ```julia
@@ -208,6 +214,7 @@ julia> @elapsed while n > 0 # print out results
 ```
 
 ### Tasks and Events
+
 Most task switches occur as a result of waiting for events like I/O requests and are managed by a scheduler included in Julia Base. The scheduler maintains a queue of runnable tasks and runs an event loop that restarts tasks based on external events such as message arrivals.
 
 The primary function for waiting for an event is `wait`. Several objects implement `wait`; for instance, given a `Process` object, `wait` will wait for it to exit. Often, `wait` is implicit; for example, a call to `read` might internally wait for data to become available.
@@ -218,4 +225,4 @@ A task explicitly created by calling `Task` is initially unknown to the schedule
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

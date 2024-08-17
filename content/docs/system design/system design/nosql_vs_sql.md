@@ -12,6 +12,7 @@ NoSQL databases, developed in the late 2000s, focus on scalability, fast queries
 ## Overview
 
 This article covers:
+
 - Differences between SQL and NoSQL databases
 - Benefits of NoSQL databases
 - Drawbacks of NoSQL databases
@@ -21,17 +22,17 @@ This article covers:
 
 The table below summarizes the main differences between SQL and NoSQL databases.
 
-| **Aspect**           | **SQL Databases**                                       | **NoSQL Databases**                                                   |
-|----------------------|---------------------------------------------------------|----------------------------------------------------------------------|
-| **Data Storage Model** | Tables with fixed rows and columns                      | Document: JSON documents, Key-value: key-value pairs, Wide-column: tables with dynamic columns, Graph: nodes and edges |
-| **Development History** | Developed in the 1970s to reduce data duplication       | Developed in the late 2000s for scalability and rapid application changes driven by agile and DevOps practices |
-| **Examples**         | Oracle, MySQL, Microsoft SQL Server, PostgreSQL         | Document: MongoDB, CouchDB; Key-value: Redis, DynamoDB; Wide-column: Cassandra, HBase; Graph: Neo4j, Amazon Neptune |
-| **Primary Purpose**  | General purpose                                         | Varies: general purpose, large data with simple queries, predictable query patterns, analyzing relationships |
-| **Schemas**          | Rigid                                                   | Flexible                                                            |
-| **Scaling**          | Vertical (scale-up)                                     | Horizontal (scale-out)                                               |
-| **Multi-Record ACID Transactions** | Supported                                               | Mostly unsupported, some like MongoDB support them                 |
-| **Joins**            | Typically required                                      | Typically not required                                               |
-| **Data to Object Mapping** | Requires ORM (Object-Relational Mapping)                   | Often not required, e.g., MongoDB documents map directly to programming language data structures |
+| **Aspect**                         | **SQL Databases**                                 | **NoSQL Databases**                                                                                                    |
+| ---------------------------------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| **Data Storage Model**             | Tables with fixed rows and columns                | Document: JSON documents, Key-value: key-value pairs, Wide-column: tables with dynamic columns, Graph: nodes and edges |
+| **Development History**            | Developed in the 1970s to reduce data duplication | Developed in the late 2000s for scalability and rapid application changes driven by agile and DevOps practices         |
+| **Examples**                       | Oracle, MySQL, Microsoft SQL Server, PostgreSQL   | Document: MongoDB, CouchDB; Key-value: Redis, DynamoDB; Wide-column: Cassandra, HBase; Graph: Neo4j, Amazon Neptune    |
+| **Primary Purpose**                | General purpose                                   | Varies: general purpose, large data with simple queries, predictable query patterns, analyzing relationships           |
+| **Schemas**                        | Rigid                                             | Flexible                                                                                                               |
+| **Scaling**                        | Vertical (scale-up)                               | Horizontal (scale-out)                                                                                                 |
+| **Multi-Record ACID Transactions** | Supported                                         | Mostly unsupported, some like MongoDB support them                                                                     |
+| **Joins**                          | Typically required                                | Typically not required                                                                                                 |
+| **Data to Object Mapping**         | Requires ORM (Object-Relational Mapping)          | Often not required, e.g., MongoDB documents map directly to programming language data structures                       |
 
 ## Benefits of NoSQL Databases
 
@@ -87,4 +88,4 @@ By understanding and leveraging the benefits of NoSQL databases, you can build s
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -79,7 +79,6 @@ In this Huff contract example, we define macros for initializing the token with 
 
 This document provides a comprehensive introduction to Huff, from setting up the development environment to writing and deploying smart contracts, including advanced features and practical examples like creating an ERC20 token.
 
-
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

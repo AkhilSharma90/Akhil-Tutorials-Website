@@ -30,7 +30,6 @@ The parallelism level will be set to numThreads as long as it remains within [mi
 
 As stated above the ForkJoinPool can increase the number of threads beyond its parallelismLevel in the presence of blocking computation. As explained in the ForkJoinPool API, this is only possible if the pool is explicitly notified:
 
-
 ```scala
 import scala.concurrent.{ Future, ExecutionContext }
 import scala.concurrent.forkjoin.*
@@ -57,7 +56,6 @@ Future {
 }
 ```
 
-
 Fortunately the concurrent package provides a convenient way for doing so:
 
 ```scala
@@ -75,6 +73,7 @@ Future {
 Note that blocking is a general construct that will be discussed more in depth below.
 
 ## Futures
+
 A Future is an object holding a value which may become available at some point. This value is usually the result of some other computation:
 
 - If the computation has not yet completed, we say that the Future is not completed.
@@ -139,6 +138,7 @@ val firstOccurrence: Future[Int] = Future {
 ```
 
 ## Callbacks
+
 We now know how to start an asynchronous computation to create a new future value, but we have not shown how to use the result once it becomes available, so that we can do something useful with it. We are often interested in the result of the computation, not just its side-effects.
 
 In many future implementations, once the client of the future becomes interested in its result, it has to block its own computation and wait until the future is completed – only then can it use the value of the future to continue its own computation. Although this is allowed by the Scala Future API as we will show later, from a performance point of view a better way to do it is in a completely non-blocking way, by registering a callback on the future. This callback is called asynchronously once the future is completed. If the future has already been completed when registering the callback, then the callback may either be executed asynchronously, or sequentially on the same thread.
@@ -220,6 +220,7 @@ text.foreach { txt =>
   totalA += txt.count(_ == 'A')
 }
 ```
+
 Above, the two callbacks may execute one after the other, in which case the variable totalA holds the expected value 18. However, they could also execute concurrently, so totalA could end up being either 16 or 2, since += is not an atomic operation (i.e. it consists of a read and a write step which may interleave arbitrarily with other reads and writes).
 
 For the sake of completeness the semantics of callbacks are listed here:
@@ -240,4 +241,4 @@ Once executed, the callbacks are removed from the future object, thus being elig
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

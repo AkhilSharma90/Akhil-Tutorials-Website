@@ -9,7 +9,6 @@ draft: false
 
 The Domain Name System (DNS) acts as the Internet's phonebook. Humans access information online using domain names like nytimes.com or espn.com, but web browsers communicate through Internet Protocol (IP) addresses. DNS translates these domain names into IP addresses, allowing browsers to load the correct internet resources. This eliminates the need for users to memorize complex IP addresses, such as 192.168.1.1 for IPv4 or 2400:cb00:2048:1::c629:d7a2 for IPv6.
 
-
 ## How Does DNS Work?
 
 <!-- ![dns](https://i.imgur.com/OMNo2HX.png) -->
@@ -85,9 +84,8 @@ Caching temporarily stores data to improve performance and reliability. DNS cach
 2. **OS Cache Check**: If the record is not found, the OS-level resolver checks its cache.
 3. **ISP Resolver Check**: If the OS-level cache does not have the record, the request is sent to the ISP's DNS recursive resolver.
 
-
 By understanding the DNS process and the roles of different components, users and administrators can ensure efficient and reliable access to internet resources.
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

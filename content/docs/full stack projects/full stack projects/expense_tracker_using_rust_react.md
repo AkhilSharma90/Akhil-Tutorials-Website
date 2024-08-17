@@ -141,61 +141,61 @@ npm install axios
 Replace the content of `src/App.js` with the following code:
 
 ```jsx
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import axios from "axios";
+import "./App.css";
 
 function App() {
-    const [expenses, setExpenses] = useState([]);
-    const [description, setDescription] = useState('');
-    const [amount, setAmount] = useState('');
+  const [expenses, setExpenses] = useState([]);
+  const [description, setDescription] = useState("");
+  const [amount, setAmount] = useState("");
 
-    useEffect(() => {
-        fetchExpenses();
-    }, []);
+  useEffect(() => {
+    fetchExpenses();
+  }, []);
 
-    const fetchExpenses = async () => {
-        const response = await axios.get('http://127.0.0.1:8080/expenses');
-        setExpenses(response.data);
-    };
+  const fetchExpenses = async () => {
+    const response = await axios.get("http://127.0.0.1:8080/expenses");
+    setExpenses(response.data);
+  };
 
-    const addExpense = async () => {
-        await axios.post('http://127.0.0.1:8080/expenses', {
-            description,
-            amount: parseFloat(amount),
-        });
-        setDescription('');
-        setAmount('');
-        fetchExpenses();
-    };
+  const addExpense = async () => {
+    await axios.post("http://127.0.0.1:8080/expenses", {
+      description,
+      amount: parseFloat(amount),
+    });
+    setDescription("");
+    setAmount("");
+    fetchExpenses();
+  };
 
-    return (
-        <div className="App">
-            <h1>Expense Tracker</h1>
-            <div>
-                <input
-                    type="text"
-                    placeholder="Description"
-                    value={description}
-                    onChange={(e) => setDescription(e.target.value)}
-                />
-                <input
-                    type="number"
-                    placeholder="Amount"
-                    value={amount}
-                    onChange={(e) => setAmount(e.target.value)}
-                />
-                <button onClick={addExpense}>Add Expense</button>
-            </div>
-            <ul>
-                {expenses.map((expense) => (
-                    <li key={expense.id}>
-                        {expense.description}: ${expense.amount.toFixed(2)}
-                    </li>
-                ))}
-            </ul>
-        </div>
-    );
+  return (
+    <div className="App">
+      <h1>Expense Tracker</h1>
+      <div>
+        <input
+          type="text"
+          placeholder="Description"
+          value={description}
+          onChange={(e) => setDescription(e.target.value)}
+        />
+        <input
+          type="number"
+          placeholder="Amount"
+          value={amount}
+          onChange={(e) => setAmount(e.target.value)}
+        />
+        <button onClick={addExpense}>Add Expense</button>
+      </div>
+      <ul>
+        {expenses.map((expense) => (
+          <li key={expense.id}>
+            {expense.description}: ${expense.amount.toFixed(2)}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
 }
 
 export default App;
@@ -217,4 +217,4 @@ In this tutorial, we created a simple expense tracker application with a Rust ba
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

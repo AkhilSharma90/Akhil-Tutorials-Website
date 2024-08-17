@@ -10,6 +10,7 @@ draft: false
 After reading tabular data as a DataFrame, you would need to have a glimpse of the data. You can either view a small sample of the dataset or a summary of the data in the form of summary statistics.
 
 #### How to View Data Using `.head()` and `.tail()`
+
 You can view the first few or last few rows of a DataFrame using the `.head()` or `.tail()` methods, respectively. You can specify the number of rows through the `n` argument (the default value is 5).
 
 ```python
@@ -25,6 +26,7 @@ df.tail(n=10)
 _Last 10 rows of the DataFrame using `.tail()`_
 
 #### Understanding Data Using `.describe()`
+
 The `.describe()` method prints the summary statistics of all numeric columns, such as count, mean, standard deviation, range, and quartiles of numeric columns.
 
 ```python
@@ -68,6 +70,7 @@ df.describe().T
 _Transpose summary statistics with `.T`_
 
 #### Understanding Data Using `.info()`
+
 The `.info()` method is a quick way to look at the data types, missing values, and data size of a DataFrame. Here, we’re setting the `show_counts` argument to `True`, which gives an overview of the total non-missing values in each column. We’re also setting `memory_usage` to `True`, which shows the total memory usage of the DataFrame elements. When `verbose` is set to `True`, it prints the full summary from `.info()`.
 
 ```python
@@ -75,6 +78,7 @@ df.info(show_counts=True, memory_usage=True, verbose=True)
 ```
 
 #### Understanding Your Data Using `.shape`
+
 The number of rows and columns of a DataFrame can be identified using the `.shape` attribute of the DataFrame. It returns a tuple `(row, column)` and can be indexed to get only rows or only columns count as output.
 
 ```python
@@ -84,6 +88,7 @@ df.shape[1] # Get the number of columns only
 ```
 
 #### Get All Columns and Column Names
+
 Calling the `.columns` attribute of a DataFrame object returns the column names in the form of an Index object. As a reminder, a pandas index is the address/label of the row or column.
 
 ```python
@@ -99,6 +104,7 @@ list(df.columns)
 ```
 
 #### Checking for Missing Values in Pandas with `.isnull()`
+
 The sample DataFrame does not have any missing values. Let's introduce a few to make things interesting. The `.copy()` method makes a copy of the original DataFrame. This is done to ensure that any changes to the copy don’t reflect in the original DataFrame. Using `.loc` (to be discussed later), you can set rows two to five of the `Pregnancies` column to `NaN` values, which denote missing values.
 
 ```python
@@ -146,4 +152,4 @@ df2.isnull().sum().sum()
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

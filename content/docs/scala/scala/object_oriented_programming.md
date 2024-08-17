@@ -12,6 +12,7 @@ Scala treats everything as objects and supports key object-oriented programming 
 **Classes and Objects**
 
 - **Classes:** A class in Scala is a blueprint for creating objects. It can contain fields and methods.
+
   ```scala
   class Person(var name: String, var age: Int) {
     def greet(): Unit = {
@@ -29,6 +30,7 @@ Scala treats everything as objects and supports key object-oriented programming 
 **Primary and Auxiliary Constructors**
 
 - **Primary Constructor:** Defined in the class signature. It can have default values.
+
   ```scala
   class Person(var name: String = "Unknown", var age: Int = 0)
   ```
@@ -43,6 +45,7 @@ Scala treats everything as objects and supports key object-oriented programming 
 **Inheritance and Traits**
 
 - **Inheritance:** Scala supports single inheritance, where a class can extend another class.
+
   ```scala
   class Employee(name: String, age: Int, var salary: Double) extends Person(name, age)
   ```
@@ -84,4 +87,4 @@ This program defines a `Person` class with a trait `Greeting`. When we create an
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

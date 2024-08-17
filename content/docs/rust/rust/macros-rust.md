@@ -4,6 +4,7 @@ description: "Dive deep into the powerful macro system of Rust with this compreh
 icon: "code"
 draft: false
 ---
+
 #### Introduction
 
 Macros in Rust are a powerful metaprogramming tool that allows you to write code that writes other code, which is a powerful way to reduce boilerplate and enhance the functionality of your Rust programs. Unlike functions, macros operate on the syntactic level and can take a variable number of arguments. This post explores the foundations of macros in Rust and guides you through writing custom macros.
@@ -13,7 +14,9 @@ Macros in Rust are a powerful metaprogramming tool that allows you to write code
 Macros come in several flavors in Rust, including declarative macros (`macro_rules!`) and procedural macros, which include custom `#[derive]` macros, attribute-like macros, and function-like macros.
 
 **Understanding `macro_rules!`:**
+
 - The most commonly used macros in Rust are defined with `macro_rules!`. These macros are pattern-matching macros that execute code based on the structure of the input tokens.
+
   ```rust
   macro_rules! say_hello {
       () => (
@@ -25,6 +28,7 @@ Macros come in several flavors in Rust, including declarative macros (`macro_rul
       say_hello!();
   }
   ```
+
   This simple macro prints "Hello" when called. It doesn’t take any arguments and uses no variables.
 
 #### Writing Custom Macros
@@ -32,7 +36,9 @@ Macros come in several flavors in Rust, including declarative macros (`macro_rul
 Custom macros can dramatically reduce the amount of code you need to write and maintain, especially when you find yourself repeating the same patterns.
 
 **Macro Syntax and Design:**
+
 - Writing macros often involves specifying patterns and the corresponding code that should be generated. Patterns are matched against the input provided to the macro.
+
   ```rust
   macro_rules! create_function {
       ($func_name:ident) => (
@@ -50,11 +56,15 @@ Custom macros can dramatically reduce the amount of code you need to write and m
       bar();
   }
   ```
+
   Here, `create_function!` generates functions based on the name provided. `$func_name:ident` captures a function name, and `stringify!` converts it to a string during compile time.
 
 **Procedural Macros:**
+
 - Procedural macros allow for more complex and flexible manipulations of Rust code. They are functions that receive tokens of Rust code as input and produce tokens to replace the macro invocation.
+
   - **Creating a Custom `derive` Macro:**
+
     ```rust
     extern crate proc_macro;
     use proc_macro::TokenStream;
@@ -75,6 +85,7 @@ Custom macros can dramatically reduce the amount of code you need to write and m
         gen.into()
     }
     ```
+
     This `derive` macro adds a `hello_macro` method to structs that derive it, showcasing the use of the `quote` and `syn` crates for macro expansion.
 
 #### Best Practices for Macro Usage
@@ -89,4 +100,4 @@ Macros in Rust offer a potent tool for code generation, allowing for more abstra
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

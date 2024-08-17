@@ -12,9 +12,11 @@ Consider an application that accepts the age of a user. The application should t
 Elm programming language handles errors in the following ways − MayBe and Result
 
 ### MayBe
+
 Consider the search feature in an application. The search function returns related data if the search keyword is found else does not return anything. This use case can be implemented in Elm using the MayBe type.
 
 **Syntax**
+
 ```elm
 variable_name:MayBe data_type
 ```
@@ -69,7 +71,7 @@ Step 2 − Import the module in elm repl and execute as given below
 ```elm
 E:\ElmWorks\ErroApp> elm repl
 ---- elm-repl 0.18.0 -----------------------------------------------------------
-:help for help, :exit to exit, more at 
+:help for help, :exit to exit, more at
 --------------------------------------------------------------------------------
 > import MayBeDemo exposing(..)
 > userName
@@ -87,6 +89,7 @@ Nothing : Maybe.Maybe MayBeDemo.Country
 The function checks if the value passed to the function is India or China or SriLanka. If the parameter's value does not match any of these, it returns nothing.
 
 ### Result
+
 Consider an example, where the application needs to validate some condition and raise an error if the condition is not satisfied. The Result type can be used to achieve this. The Result type should be used if the application wants to explicitly raise an error and return details about what went wrong.
 
 **Syntax**
@@ -170,5 +173,4 @@ Err "That is not a age!" : Result.Result String Int
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
-
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

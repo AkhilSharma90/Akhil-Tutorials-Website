@@ -38,39 +38,39 @@ The ABI for the above contract looks like this:
 
 ```json
 [
-    {
-        "type": "function",
-        "name": "increment",
-        "inputs": [],
-        "outputs": [],
-        "stateMutability": "nonpayable"
-    },
-    {
-        "type": "function",
-        "name": "number",
-        "inputs": [],
-        "outputs": [
-            {
-                "name": "",
-                "type": "uint256",
-                "internalType": "uint256"
-            }
-        ],
-        "stateMutability": "view"
-    },
-    {
-        "type": "function",
-        "name": "setNumber",
-        "inputs": [
-            {
-                "name": "newNumber",
-                "type": "uint256",
-                "internalType": "uint256"
-            }
-        ],
-        "outputs": [],
-        "stateMutability": "nonpayable"
-    }
+  {
+    "type": "function",
+    "name": "increment",
+    "inputs": [],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  },
+  {
+    "type": "function",
+    "name": "number",
+    "inputs": [],
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "stateMutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "setNumber",
+    "inputs": [
+      {
+        "name": "newNumber",
+        "type": "uint256",
+        "internalType": "uint256"
+      }
+    ],
+    "outputs": [],
+    "stateMutability": "nonpayable"
+  }
 ]
 ```
 
@@ -141,45 +141,49 @@ const provider = new ethers.providers.JsonRpcProvider();
 const counterAddress = "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045";
 
 const counterABI = [
-    {
-        "type": "function",
-        "name": "increment",
-        "inputs": [],
-        "outputs": [],
-        "stateMutability": "nonpayable"
-    },
-    {
-        "type": "function",
-        "name": "number",
-        "inputs": [],
-        "outputs": [
-            {
-                "name": "",
-                "type": "uint256",
-                "internalType": "uint256"
-            }
-        ],
-        "stateMutability": "view"
-    },
-    {
-        "type": "function",
-        "name": "setNumber",
-        "inputs": [
-            {
-                "name": "newNumber",
-                "type": "uint256",
-                "internalType": "uint256"
-            }
-        ],
-        "outputs": [],
-        "stateMutability": "nonpayable"
-    }
+  {
+    type: "function",
+    name: "increment",
+    inputs: [],
+    outputs: [],
+    stateMutability: "nonpayable",
+  },
+  {
+    type: "function",
+    name: "number",
+    inputs: [],
+    outputs: [
+      {
+        name: "",
+        type: "uint256",
+        internalType: "uint256",
+      },
+    ],
+    stateMutability: "view",
+  },
+  {
+    type: "function",
+    name: "setNumber",
+    inputs: [
+      {
+        name: "newNumber",
+        type: "uint256",
+        internalType: "uint256",
+      },
+    ],
+    outputs: [],
+    stateMutability: "nonpayable",
+  },
 ];
 
-const counterContract = new ethers.Contract(counterAddress, counterABI, provider);
+const counterContract = new ethers.Contract(
+  counterAddress,
+  counterABI,
+  provider
+);
 
 async function setNumber() {
-    await counterContract.setNumber(8);
+  await counterContract.setNumber(8);
 }
 ```
 
@@ -191,4 +195,4 @@ The ABI, or “Application Binary Interface,” is a crucial component that allo
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

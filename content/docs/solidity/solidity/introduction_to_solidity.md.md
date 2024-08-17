@@ -42,7 +42,7 @@ The EVM uses three data areas:
 - `Storage`: Persistent key-value store unique to each account.
 - `Memory`: Freshly cleared for each message call, linear, and costly as it grows.
 - `Stack`: 1024 elements, 256-bit words, used for computations with limited top-end access.
-Understanding these basics will help you grasp how blockchain technology and Ethereum smart contracts function.
+  Understanding these basics will help you grasp how blockchain technology and Ethereum smart contracts function.
 
 ### What is a Smart Contract?
 
@@ -213,4 +213,4 @@ Solidity is a powerful language for writing smart contracts on the Ethereum bloc
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

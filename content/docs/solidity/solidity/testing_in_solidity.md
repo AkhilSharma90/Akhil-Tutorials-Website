@@ -83,17 +83,20 @@ contract CounterTest is Test {
 Since this is not a complete contract, and we are using it to get to understand how to write unit tests, some functions will be simple and will not need all three AAA concepts.
 
 We will started on with the imports:
+
 ```solidity
 import {Test, console} from "forge-std/Test.sol";
 import {Counter} from "../src/Counter.sol";
 
 contract CounterTest is Test {
 ```
+
 We are importing two contraccts: the Counter contract which we will be testing and the `Test` contract which will help us test these contract and provide us with utility functions.
 
 The `setUp` function is used to initialize the `Counter` contract and set the number to `0`. This function runs before each test, ensuring a clean state.
 
 1. **`test_Increment**:
+
    - **Act**: The `counter.increment()` function is called to increment the number.
    - **Assert**: The `assertEq(counter.number(), 1)` statement checks if the number is incremented to 1. If true, the tests will pass, else they will fail.
 
@@ -117,4 +120,4 @@ Unit testing in Solidity is crucial for developing reliable smart contracts. Usi
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

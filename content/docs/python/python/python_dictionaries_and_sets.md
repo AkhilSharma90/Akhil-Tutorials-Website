@@ -13,6 +13,7 @@ Dictionaries and sets are powerful data structures in Python used to store and m
 Dictionaries in Python are a collection of key-value pairs enclosed in curly braces `{}`, where each key is unique.
 
 #### Creating a Dictionary
+
 ```python
 # Creating a dictionary
 student = {
@@ -24,6 +25,7 @@ print(student)
 ```
 
 #### Accessing Dictionary Values
+
 You can access the value associated with a particular key using the key itself or the `get` method.
 
 ```python
@@ -33,6 +35,7 @@ print(student.get('age'))  # Outputs 21
 ```
 
 #### Adding or Updating Items
+
 Adding or updating dictionary items is straightforward—assign a value to a key directly.
 
 ```python
@@ -47,6 +50,7 @@ print(student)
 Dictionaries provide a variety of methods that facilitate manipulation and access to their data.
 
 #### Keys, Values, and Items
+
 ```python
 # Keys, values, and items
 print(student.keys())  # Outputs all the keys
@@ -55,6 +59,7 @@ print(student.items())  # Outputs all key-value pairs
 ```
 
 #### Using `update` to Merge Dictionaries
+
 ```python
 # Updating with another dictionary
 other_data = {'gender': 'Female', 'age': 22}
@@ -63,6 +68,7 @@ print(student)
 ```
 
 #### Removing Items with `pop` and `popitem`
+
 ```python
 # Removing items
 phone = student.pop('phone')  # Removes 'phone'
@@ -76,6 +82,7 @@ print(last_item)
 Sets are collections of unordered, unique elements defined by curly braces `{}` or the `set()` constructor.
 
 #### Creating Sets
+
 ```python
 # Creating a set
 fruits = {'apple', 'banana', 'cherry'}
@@ -83,6 +90,7 @@ print(fruits)
 ```
 
 #### Set Operations: Union, Intersection, Difference
+
 ```python
 # Basic set operations
 vegetables = {'spinach', 'kale', 'banana'}
@@ -97,4 +105,4 @@ Dictionaries and sets are indispensable tools in Python programming, providing e
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

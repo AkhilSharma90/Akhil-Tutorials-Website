@@ -13,6 +13,7 @@ File handling is a critical aspect of many programming tasks, from data analysis
 Python uses file objects to interact with external files on your system. Files can be opened in various modes, like 'r' for reading, 'w' for writing, and 'a' for appending.
 
 #### Opening and Reading Files
+
 To read from a file, you must open it in read mode ('r') which is also the default mode when no mode is specified.
 
 ```python
@@ -26,9 +27,11 @@ with open('example.txt', 'r') as file:
     for line in file:
         print(line.strip())  # strip() removes the newline characters
 ```
+
 The `with` statement handles the file object and ensures it is properly closed after completing the operations. `file.read()` reads the entire file content into a string. Reading line by line is useful for large files that do not fit into memory.
 
 #### Writing to Files
+
 To write to a file, open it in write ('w') or append ('a') mode. Write mode overwrites the existing file content, while append mode adds to the end of the file.
 
 ```python
@@ -40,6 +43,7 @@ with open('output.txt', 'w') as file:
 with open('output.txt', 'a') as file:
     file.write("Adding more text.\n")
 ```
+
 The `file.write()` method writes a string to the file. Note that newline characters (`\n`) are used to move to the next line.
 
 ### Working with File Paths
@@ -47,6 +51,7 @@ The `file.write()` method writes a string to the file. Note that newline charact
 Managing file paths is essential for locating files on your filesystem. The `os` and `pathlib` modules provide tools for building and managing paths across different operating systems.
 
 #### Using `os.path`
+
 ```python
 import os
 
@@ -62,9 +67,11 @@ print("File path:", file_path)
 exists = os.path.exists(file_path)
 print("Does file exist?", exists)
 ```
+
 `os.path` offers functions like `getcwd()` for current directory, `join()` for path concatenation, and `exists()` to check if a path exists.
 
 #### Using `pathlib`
+
 ```python
 from pathlib import Path
 
@@ -78,6 +85,7 @@ if p.exists():
 # Writing to a file using pathlib
 p.write_text("Hello, Python!\n")
 ```
+
 `Pathlib` provides an object-oriented approach to filesystem paths. It includes methods like `read_text()` and `write_text()` which are straightforward for reading and writing files.
 
 ### Conclusion
@@ -86,4 +94,4 @@ Effective file handling in Python enhances the functionality of applications by 
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

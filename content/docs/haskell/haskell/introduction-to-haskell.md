@@ -4,6 +4,7 @@ description: "Begin your journey into Haskell and functional programming. Learn 
 icon: "code"
 draft: false
 ---
+
 **Introduction:**
 
 Welcome to the intriguing world of Haskell, a language that embodies the essence of functional programming with its emphasis on purity and immutability. If you're drawn to Haskell, you're likely intrigued by its elegance and robustness in tackling complex problems through simple, declarative code constructs. In this introductory guide, we will explore Haskell's functional programming paradigm, set up the Haskell development environment, and write our very first program. Whether you're a seasoned programmer or new to coding, Haskell offers a fresh perspective that can enhance your programming skills.
@@ -13,6 +14,7 @@ Welcome to the intriguing world of Haskell, a language that embodies the essence
 Haskell is a statically typed, purely functional programming language known for its high level of abstraction. Unlike imperative languages where you write code that describes how to perform tasks, Haskell uses expressions to describe what something is. This shift from "how" to "what" abstracts away many of the low-level operations you need to perform in other languages, allowing you to focus more on problem-solving and less on implementation details.
 
 **a. Key Features of Haskell:**
+
 - **Pure Functions:** Every function in Haskell is pure, meaning it always produces the same output for the same input and does not cause any side effects (like modifying a variable outside its scope).
 - **Immutability:** Once a value is set, it cannot be changed. If you need to store a modified value, you create new data instead.
 - **Type Safety:** Haskell's type system helps catch errors at compile time, making your programs more secure and robust.
@@ -23,6 +25,7 @@ Haskell is a statically typed, purely functional programming language known for 
 To begin programming in Haskell, you need to set up your development environment. The Glasgow Haskell Compiler (GHC) is the most widely used Haskell compiler, and Stack is a cross-platform program for developing Haskell projects that simplifies dependency management.
 
 **a. Installing GHC and Stack:**
+
 - **On Windows:** You can download the Haskell Platform from [haskell.org/platform](https://www.haskell.org/platform/), which includes GHC, Stack, and other useful tools.
 - **On MacOS and Linux:** It's recommended to install Stack through your package manager (like Homebrew on MacOS or apt on Ubuntu), and it will handle the installation of GHC for you.
 
@@ -58,6 +61,7 @@ main = putStrLn "Hello, World!"
 ```
 
 **a. Understanding the Code:**
+
 - `module Main where` declares that this is the main module.
 - `main :: IO ()` is the type signature, indicating that `main` is a function with no inputs and returns an IO action (side effect), which in this case, is printing a string.
 - `putStrLn "Hello, World!"` is a function that prints the string `"Hello, World!"` to the terminal.
@@ -85,4 +89,4 @@ Congratulations! You've just set up your Haskell development environment and wri
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

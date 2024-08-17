@@ -86,6 +86,7 @@ To run this program:
 ​ Click on HelloWorld.elm to see your program running.
 
 ## Example Code using elm
+
 Each section of the code is explained through the comments
 
 ```elm
@@ -118,11 +119,11 @@ hypotenuse a b =
 hello : String -> String
 hello = \s -> "Hi, " ++ s
 
--- Function declarations may have the anonymous parameter names denoted by `_`, which are matched but not used in the body. 
+-- Function declarations may have the anonymous parameter names denoted by `_`, which are matched but not used in the body.
 const : a -> b -> a
 const k _ = k
 
--- Functions are also curried; here we've curried the multiplication 
+-- Functions are also curried; here we've curried the multiplication
 -- infix operator with a `2`
 multiplyBy2 : number -> number
 multiplyBy2 =
@@ -138,7 +139,7 @@ book : { title : String, author : String, pages : Int }
 book =
     { title = "Steppenwolf"
     , author = "Hesse"
-    , pages = 237 
+    , pages = 237
     }
 
 -- Record access is done with `.`
@@ -168,4 +169,4 @@ depth tree =
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

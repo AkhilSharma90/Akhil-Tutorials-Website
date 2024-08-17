@@ -38,6 +38,7 @@ joinThreads(sender, recver)
 ```
 
 In this example:
+
 1. A `Channel[string]` is created to send and receive strings.
 2. Two threads (`sender` and `recver`) are created to send and receive messages through the channel.
 3. `commChan.open()` is called to open the channel before use.
@@ -68,6 +69,7 @@ sync()
 ```
 
 In this example:
+
 1. The `spawn` procedure is used to create and run threads.
 2. `sync()` is called to wait for all spawned threads to finish.
 
@@ -83,6 +85,7 @@ while true:
 ```
 
 In this example:
+
 1. `tryRecv()` is used to attempt to receive a message without blocking.
 2. If a message is available, it is printed.
 
@@ -98,6 +101,7 @@ chan.open(10)
 ```
 
 In this example:
+
 1. The channel is opened with a maximum size of 10 items.
 2. If the channel is full, sending new messages will block until space becomes available.
 
@@ -120,4 +124,4 @@ Channels in Nim offer a powerful way to handle thread communication, allowing bo
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

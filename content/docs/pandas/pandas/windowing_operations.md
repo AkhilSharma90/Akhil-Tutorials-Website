@@ -27,6 +27,7 @@ print(rolling_mean)
 ```
 
 Output:
+
 ```
 2023-01-01    NaN
 2023-01-02    NaN
@@ -52,6 +53,7 @@ print(rolling_std)
 ```
 
 Output:
+
 ```
 2023-01-01    NaN
 2023-01-02    NaN
@@ -81,6 +83,7 @@ print(rolling_mean_centered)
 ```
 
 Output:
+
 ```
 2023-01-01    NaN
 2023-01-02    2.0
@@ -104,6 +107,7 @@ print(expanding_mean)
 ```
 
 Output:
+
 ```
 2023-01-01    1.0
 2023-01-02    1.5
@@ -129,6 +133,7 @@ print(expanding_std)
 ```
 
 Output:
+
 ```
 2023-01-01     1
 2023-01-02     3
@@ -160,6 +165,7 @@ print(ewm_mean)
 ```
 
 Output:
+
 ```
 2023-01-01    1.000000
 2023-01-02    1.666667
@@ -181,6 +187,7 @@ print(ewm_std)
 ```
 
 Output:
+
 ```
 2023-01-01         NaN
 2023-01-02    0.707107
@@ -202,6 +209,7 @@ print(combined)
 ```
 
 Output:
+
 ```
 2023-01-01    NaN
 2023-01-02    1.5
@@ -218,4 +226,4 @@ Windowing operations in Pandas provide powerful tools for calculating statistics
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

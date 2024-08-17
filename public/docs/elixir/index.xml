@@ -4,7 +4,7 @@
     <title>Elixir on Tutorials</title>
     <link>http://localhost:1313/tutorials/docs/elixir/</link>
     <description>Recent content in Elixir on Tutorials</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tutorials/docs/elixir/index.xml" rel="self" type="application/rss+xml" />
     <item>

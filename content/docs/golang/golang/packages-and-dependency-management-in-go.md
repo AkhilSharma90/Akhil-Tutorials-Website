@@ -4,6 +4,7 @@ description: "Learn how to organize your Go code with packages, manage dependenc
 icon: "code"
 draft: false
 ---
+
 **Introduction:**
 
 Welcome back, Go enthusiasts! As you develop more complex applications or contribute to larger projects, understanding how to efficiently organize your Go code into packages and manage dependencies is essential. This blog will guide you through organizing your code with packages, using Go modules for dependency management, and publishing your own packages. These practices will help you maintain a clean codebase, manage dependencies easily, and share your work with the Go community.
@@ -24,6 +25,7 @@ package mypackage
 **b. Exporting Functions, Types, and Variables:**
 
 You can control the visibility of functions, types, and variables to other packages through Go's case sensitivity feature:
+
 - **Exported identifiers:** Start with a capital letter and can be accessed from other packages.
 - **Unexported identifiers:** Start with a lowercase letter and are private to the package.
 
@@ -75,14 +77,17 @@ go mod tidy        // Remove unused dependencies
 Sharing your code with other developers can be rewarding and beneficial for the community. To publish your package, you need to:
 
 **a. Prepare the Package:**
+
 - Make sure your code is well-documented.
 - Ensure all public APIs are stable and well-tested.
 - Organize your code into a sensible package structure.
 
 **b. Version Your Package:**
+
 - Use semantic versioning (e.g., v1.0.0, v1.0.1) when tagging releases in your version control system.
 
 **c. Publish on Version Control Systems:**
+
 - Push your code to a public repository on platforms like GitHub, GitLab, or Bitbucket.
 - Tag your release appropriately.
 
@@ -90,8 +95,7 @@ Sharing your code with other developers can be rewarding and beneficial for the 
 
 Mastering packages and dependency management in Go will elevate your development skills and improve the quality of your projects. By effectively organizing your code into packages, managing dependencies with Go modules, and sharing your work, you contribute to a vibrant ecosystem and reap the benefits of collaborative development.
 
-
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq)
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq)
 
 **Frequently Asked Questions:**
 

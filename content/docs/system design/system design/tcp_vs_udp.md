@@ -15,26 +15,26 @@ Protocols are basically the rules that dictate how data is formatted and sent ov
 
 Here's a table summarizing the key differences between TCP and UDP:
 
-| Factor          | TCP                                 | UDP                                   |
-|----------------|------------------------------------|-----------------------------------------|
-| Connection Type | Requires a connection beforehand     | No connection needed                    |
-| Data Sequence  | Can sequence data (ordered transfer) | Cannot sequence data (disorderly transfer) |
-| Retransmission  | Retransmits lost data packets        | Does not retransmit lost data packets     |
-| Delivery        | Guaranteed delivery                   | Delivery not guaranteed                  |
-| Error Checking  | Thorough error checking               | Minimal error checking                   |
-| Broadcasting   | Not supported                         | Supported                               |
-| Speed           | Slower, but complete data delivery  | Faster, but risk of incomplete data      |
+| Factor          | TCP                                  | UDP                                        |
+| --------------- | ------------------------------------ | ------------------------------------------ |
+| Connection Type | Requires a connection beforehand     | No connection needed                       |
+| Data Sequence   | Can sequence data (ordered transfer) | Cannot sequence data (disorderly transfer) |
+| Retransmission  | Retransmits lost data packets        | Does not retransmit lost data packets      |
+| Delivery        | Guaranteed delivery                  | Delivery not guaranteed                    |
+| Error Checking  | Thorough error checking              | Minimal error checking                     |
+| Broadcasting    | Not supported                        | Supported                                  |
+| Speed           | Slower, but complete data delivery   | Faster, but risk of incomplete data        |
 
 **Choosing the Right Protocol**
 
 The best protocol depends on what you're doing online and the type of data being transferred.
 
-* **Use TCP for:** Reliable data transfer where order and accuracy are crucial. Examples include emails, file transfers, and web browsing.
+- **Use TCP for:** Reliable data transfer where order and accuracy are crucial. Examples include emails, file transfers, and web browsing.
 
 <!-- ![alt text](https://i.imgur.com/ANKW1ui.png) -->
 <blockquote class="imgur-embed-pub" lang="en" data-id="ANKW1ui" data-context="false" ><a href="//imgur.com/ANKW1ui"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
-* **Use UDP for:** Real-time data where speed is more important than perfect delivery. Examples include online gaming, live streaming, and video chat.
+- **Use UDP for:** Real-time data where speed is more important than perfect delivery. Examples include online gaming, live streaming, and video chat.
 
 <!-- ![alt text](https://i.imgur.com/PSWSInH.png) -->
 <blockquote class="imgur-embed-pub" lang="en" data-id="PSWSInH" data-context="false" ><a href="//imgur.com/PSWSInH"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
@@ -43,31 +43,31 @@ The best protocol depends on what you're doing online and the type of data being
 
 **TCP Advantages:**
 
-* Reliable data transfer
-* Guaranteed delivery
-* Error checking
+- Reliable data transfer
+- Guaranteed delivery
+- Error checking
 
 **TCP Disadvantages:**
 
-* Slower speeds
-* Overhead for connection establishment
+- Slower speeds
+- Overhead for connection establishment
 
 **UDP Advantages:**
 
-* Faster speeds
-* Lower overhead
-* Suitable for broadcasting
+- Faster speeds
+- Lower overhead
+- Suitable for broadcasting
 
 **UDP Disadvantages:**
 
-* Unreliable data transfer
-* No guaranteed delivery
-* No error checking
+- Unreliable data transfer
+- No guaranteed delivery
+- No error checking
 
 **How They Work**
 
-* **TCP:** Uses a three-way handshake to establish a connection, ensuring data arrives correctly and in order. Think of it like carefully handing a package to someone.
-* **UDP:** Fires data packets at the receiver without a handshake, making it faster but less reliable. Imagine throwing the package across the room – it might arrive, but not necessarily in good shape.
+- **TCP:** Uses a three-way handshake to establish a connection, ensuring data arrives correctly and in order. Think of it like carefully handing a package to someone.
+- **UDP:** Fires data packets at the receiver without a handshake, making it faster but less reliable. Imagine throwing the package across the room – it might arrive, but not necessarily in good shape.
 
 **Analogy: Reliable vs. Fast Delivery**
 
@@ -77,7 +77,6 @@ Imagine delivering a sandwich to a friend. TCP is like walking it over for guara
 
 Both TCP and UDP are essential for smooth internet operation. TCP provides reliable data transfer, while UDP prioritizes speed. Understanding their differences helps you choose the right protocol for your online activities.
 
-
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

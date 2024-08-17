@@ -21,11 +21,13 @@ Functional programming treats computation as the evaluation of mathematical func
 Scala provides several immutable collections:
 
 - **List:** An immutable sequence.
+
   ```scala
   val numbers = List(1, 2, 3, 4, 5)
   ```
 
 - **Vector:** An immutable indexed sequence.
+
   ```scala
   val vector = Vector(1, 2, 3, 4, 5)
   ```
@@ -40,11 +42,13 @@ Scala provides several immutable collections:
 Scala's higher-order functions include `map`, `filter`, and `reduce`.
 
 - **map:** Transforms each element in a collection.
+
   ```scala
   val doubled = numbers.map(_ * 2)
   ```
 
 - **filter:** Returns elements of a collection that meet a condition.
+
   ```scala
   val evenNumbers = numbers.filter(_ % 2 == 0)
   ```
@@ -76,4 +80,4 @@ This program showcases the use of `map`, `filter`, and `reduce` functions on a l
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

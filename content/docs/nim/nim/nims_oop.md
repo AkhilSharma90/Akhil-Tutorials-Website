@@ -16,7 +16,7 @@ type Animal = object
   name: string
   age: int
 
-proc speak(self: Animal, msg: string) = 
+proc speak(self: Animal, msg: string) =
   echo self.name & " says: " & msg
 
 var sparky = Animal(name: "Sparky", age: 10)
@@ -108,6 +108,7 @@ for a in animals:
 ```
 
 Output:
+
 ```
 woof
 70
@@ -141,4 +142,4 @@ By following these guidelines, you can leverage Nim's OOP features to write clea
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

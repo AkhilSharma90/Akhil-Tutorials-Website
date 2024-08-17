@@ -4,6 +4,7 @@ description: "Deep dive into the world of smart pointers in Rust with this compr
 icon: "code"
 draft: false
 ---
+
 #### Introduction
 
 Smart pointers are data structures that not only manage memory but also have additional metadata and capabilities. Rust’s standard library provides several smart pointers, including `Box`, `Rc`, and `Arc`, each serving specific memory management needs with unique characteristics. This post covers each smart pointer in detail and discusses their appropriate use cases.
@@ -13,6 +14,7 @@ Smart pointers are data structures that not only manage memory but also have add
 Smart pointers are more complex than typical pointers because they include additional "intelligence" such as reference counting or the capability to deallocate the box memory they point to.
 
 **`Box<T>`:**
+
 - **Usage:** `Box` is used to allocate values on the heap instead of the stack. It's particularly useful for types whose size cannot be known at compile time and for large data structures to avoid stack overflow.
 - **Example:**
   ```rust
@@ -21,8 +23,10 @@ Smart pointers are more complex than typical pointers because they include addit
   ```
 
 **`Rc<T>`:**
+
 - **Usage:** `Rc`, or Reference Counting, enables multiple owners of the same data, tracking the number of references automatically and cleaning up the data when there are no more references.
 - **Example:**
+
   ```rust
   use std::rc::Rc;
 
@@ -32,8 +36,10 @@ Smart pointers are more complex than typical pointers because they include addit
   ```
 
 **`Arc<T>`:**
+
 - **Usage:** Similar to `Rc`, but designed for concurrent environments. `Arc`, or Atomic Reference Counting, is thread-safe and can be used across multiple threads.
 - **Example:**
+
   ```rust
   use std::sync::Arc;
   use std::thread;
@@ -53,10 +59,12 @@ Smart pointers are more complex than typical pointers because they include addit
 Choosing the right type of smart pointer depends on your specific needs:
 
 - **`Box<T>`:**
+
   - **When You Need to Store Data on the Heap:** Use `Box` when you need to ensure your data doesn't overflow the stack due to its size or when you want to keep a complex data structure alive for the duration of your program.
   - **For Recursive Data Structures:** Recursive data structures such as linked lists can be managed with `Box` because it allows you to have indeterminate length.
 
 - **`Rc<T>`:**
+
   - **When You Have Multiple Owners:** `Rc` is ideal when your data needs multiple owners, and none of the owners outlives the others, typically used in single-threaded scenarios.
 
 - **`Arc<T>`:**
@@ -74,4 +82,4 @@ Smart pointers in Rust provide powerful tools for managing memory and data acros
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

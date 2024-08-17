@@ -4,7 +4,9 @@ description: "Explore the sophisticated error handling techniques in Haskell, in
 icon: "code"
 draft: false
 ---
+
 ### Introduction:
+
 Welcome back to our Haskell series, where today we focus on a crucial aspect of any robust application—error handling. Haskell, with its strong type system and pure functional nature, offers unique approaches for managing errors effectively. In this post, we will compare exceptions and type-based error handling, delve into using the `Either` type and error monads, and discuss best practices for ensuring your Haskell applications are as robust and error-resistant as possible.
 
 ### Approaches to Error Handling: Exceptions vs. Types
@@ -15,7 +17,7 @@ Error handling in Haskell can generally be divided into two categories: using ex
 
 - **Exceptions:**
   Exceptions in Haskell are used for handling errors in IO operations or other side-effectful interactions. They are not commonly used in pure functions because they violate purity (exceptions are inherently side effects).
-  
+
   ```haskell
   import Control.Exception
 
@@ -40,6 +42,7 @@ Error handling in Haskell can generally be divided into two categories: using ex
 `Either` is commonly used to handle computations that may fail. It extends `Maybe` by allowing you to return additional information about the failure.
 
 - **Either Type Basics:**
+
   ```haskell
   safeDivide :: Int -> Int -> Either String Int
   safeDivide _ 0 = Left "Cannot divide by zero."
@@ -48,7 +51,7 @@ Error handling in Haskell can generally be divided into two categories: using ex
 
 - **Working with Error Monads:**
   The `Either` type can be used as a monad, where `Left` represents an error and `Right` contains the successful computation. This facilitates chaining operations that might fail.
-  
+
   ```haskell
   import Control.Monad (when)
 
@@ -71,7 +74,6 @@ To build robust Haskell applications, it’s crucial to follow best practices ta
 
 - **Explicit Error Handling:**
   Prefer type-based error handling (like `Either` and `Maybe`) over exceptions for most of your application logic. This approach forces you to think about error cases upfront and handle them explicitly.
-  
 - **Comprehensive Testing:**
   Utilize Haskell’s testing frameworks, such as QuickCheck, to test your error handling paths. Property-based testing can help ensure that your functions handle all expected error conditions correctly.
 
@@ -90,7 +92,6 @@ Error handling is a critical component of any software application, and Haskell 
 **Q: Can I mix exceptions and type-based error handling in my Haskell applications?**
 **A: Yes, but it should be done cautiously. Reserve exceptions for unpredictable errors that occur at the IO level or in other side-effectful interactions, and use type-based methods for predictable, domain-specific errors.**
 
-
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

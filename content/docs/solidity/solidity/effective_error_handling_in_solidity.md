@@ -30,7 +30,7 @@ In this example, if the caller does not send at least 1 ether, the function reve
 The `assert()` function is used to check for conditions that should never be false. If an `assert()` condition fails, it throws an error of type `Panic(uint256)` and reverts the transaction.
 
 ```solidity
-contract ThrowMe {   
+contract ThrowMe {
     function assertExample() public pure {
         assert(address(this).balance == 0);
         // Do something.
@@ -45,7 +45,7 @@ The `assert()` function is typically used to check invariants—conditions that 
 The `revert()` function can be used for more complex conditional logic where the conditions for throwing an error are more elaborate. `revert()` can also be used to throw custom-defined errors, which can be more informative and cost-effective in terms of gas.
 
 ```solidity
-contract ThrowMe {   
+contract ThrowMe {
     // custom error
     error ThrowMe_BadInput(string errorMsg, uint inputNum);
 
@@ -73,4 +73,4 @@ By understanding and using these error-handling mechanisms appropriately, you ca
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -179,61 +179,61 @@ npm install axios
 Replace the content of `src/App.js` with the following code:
 
 ```jsx
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import axios from "axios";
+import "./App.css";
 
 function App() {
-    const [notes, setNotes] = useState([]);
-    const [title, setTitle] = useState('');
-    const [content, setContent] = useState('');
+  const [notes, setNotes] = useState([]);
+  const [title, setTitle] = useState("");
+  const [content, setContent] = useState("");
 
-    useEffect(() => {
-        fetchNotes();
-    }, []);
+  useEffect(() => {
+    fetchNotes();
+  }, []);
 
-    const fetchNotes = async () => {
-        const response = await axios.get('http://127.0.0.1:8080/notes');
-        setNotes(response.data);
-    };
+  const fetchNotes = async () => {
+    const response = await axios.get("http://127.0.0.1:8080/notes");
+    setNotes(response.data);
+  };
 
-    const addNote = async () => {
-        await axios.post('http://127.0.0.1:8080/notes', {
-            title,
-            content,
-        });
-        setTitle('');
-        setContent('');
-        fetchNotes();
-    };
+  const addNote = async () => {
+    await axios.post("http://127.0.0.1:8080/notes", {
+      title,
+      content,
+    });
+    setTitle("");
+    setContent("");
+    fetchNotes();
+  };
 
-    return (
-        <div className="App">
-            <h1>Note Taking App</h1>
-            <div>
-                <input
-                    type="text"
-                    placeholder="Title"
-                    value={title}
-                    onChange={(e) => setTitle(e.target.value)}
-                />
-                <textarea
-                    placeholder="Content"
-                    value={content}
-                    onChange={(e) => setContent(e.target.value)}
-                ></textarea>
-                <button onClick={addNote}>Add Note</button>
-            </div>
-            <ul>
-                {notes.map((note) => (
-                    <li key={note.id}>
-                        <h2>{note.title}</h2>
-                        <p>{note.content}</p>
-                    </li>
-                ))}
-            </ul>
-        </div>
-    );
+  return (
+    <div className="App">
+      <h1>Note Taking App</h1>
+      <div>
+        <input
+          type="text"
+          placeholder="Title"
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
+        />
+        <textarea
+          placeholder="Content"
+          value={content}
+          onChange={(e) => setContent(e.target.value)}
+        ></textarea>
+        <button onClick={addNote}>Add Note</button>
+      </div>
+      <ul>
+        {notes.map((note) => (
+          <li key={note.id}>
+            <h2>{note.title}</h2>
+            <p>{note.content}</p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
 }
 
 export default App;
@@ -255,4 +255,4 @@ In this tutorial, we created a simple note-taking application with a Rust backen
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

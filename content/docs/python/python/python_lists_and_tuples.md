@@ -13,18 +13,22 @@ Lists and tuples are fundamental Python data structures for storing collections 
 Lists are versatile and can be used to store a collection of items (strings, numbers, or other lists).
 
 #### Creating Lists
+
 You can create a list by enclosing items in square brackets `[]`, separated by commas.
 
 #### Example:
+
 ```python
 fruits = ['apple', 'banana', 'cherry']
 print(fruits)
 ```
 
 #### Accessing List Items
+
 List items are indexed and can be accessed by referring to the index number, starting from zero.
 
 #### Example:
+
 ```python
 first_fruit = fruits[0]  # Accessing the first item
 print("The first fruit is:", first_fruit)
@@ -35,16 +39,19 @@ print("The first fruit is:", first_fruit)
 List comprehensions provide a concise way to create lists based on existing lists.
 
 #### Syntax and Explanation:
+
 ```python
 new_list = [expression for item in iterable if condition]
 ```
 
 #### Example:
+
 ```python
 # Create a list of squares from 1 to 10
 squares = [x**2 for x in range(1, 11)]
 print(squares)
 ```
+
 This example creates a list of square numbers from 1 to 10. It's a clear and efficient way to generate a list without needing multiple lines of code for a loop.
 
 ### Operations on Tuples
@@ -52,23 +59,28 @@ This example creates a list of square numbers from 1 to 10. It's a clear and eff
 Tuples are similar to lists but are immutable. They are created by placing comma-separated values inside parentheses `()`.
 
 #### Creating Tuples
+
 ```python
 my_tuple = (1, 2, 3)
 print(my_tuple)
 ```
 
 #### Accessing Tuple Items
+
 Tuple items are accessed similarly to list items, by using index numbers.
 
 #### Example:
+
 ```python
 print("First element of the tuple:", my_tuple[0])
 ```
 
 #### Tuple Operations
+
 While you cannot modify tuples, you can perform operations such as concatenation and repetition.
 
 #### Example:
+
 ```python
 # Concatenating two tuples
 tuple1 = (1, 2, 3)
@@ -87,4 +99,4 @@ Lists and tuples are integral to data handling in Python. Lists offer flexibilit
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

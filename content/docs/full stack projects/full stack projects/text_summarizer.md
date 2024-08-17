@@ -51,7 +51,8 @@ cd summarizer-app
 npm install
 ```
 
-We will also need `axios` so run 
+We will also need `axios` so run
+
 ```sh
 npm install axios
 ```
@@ -81,13 +82,13 @@ Add the following code to `src/App.js`:
 
 ```jsx
 // src/App.js
-import axios from 'axios';
-import React, { useState } from 'react';
- 
+import axios from "axios";
+import React, { useState } from "react";
+
 const App = () => {
-  const [inputText, setInputText] = useState('');
-  const [summary, setSummary] = useState('');
- 
+  const [inputText, setInputText] = useState("");
+  const [summary, setSummary] = useState("");
+
   const summarizeText = async () => {
     try {
       const response = await axios.post(
@@ -96,10 +97,10 @@ const App = () => {
       );
       setSummary(response.data.summary);
     } catch (error) {
-      console.error('Error calling backend API:', error);
+      console.error("Error calling backend API:", error);
     }
   };
- 
+
   return (
     <div>
       <h1>Text Summarizer</h1>
@@ -116,7 +117,7 @@ const App = () => {
     </div>
   );
 };
- 
+
 export default App;
 ```
 
@@ -176,59 +177,59 @@ const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
 // Connect to MongoDB
 mongoose.connect(process.env.MONGODB_URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
 });
 
 // Define a schema for summaries
 const summarySchema = new mongoose.Schema({
-    text: String,
-    summarizedText: String,
+  text: String,
+  summarizedText: String,
 });
 
 // Define a model for the schema
 const Summary = mongoose.model("Summary", summarySchema);
 
 app.post("/api/summarize", async (req, res) => {
-    const { text } = req.body;
+  const { text } = req.body;
 
-    const openai = new OpenAI({
-        apiKey: OPENAI_API_KEY,
+  const openai = new OpenAI({
+    apiKey: OPENAI_API_KEY,
+  });
+
+  try {
+    const response = await openai.chat.completions.create({
+      model: "gpt-3.5-turbo",
+      messages: [
+        {
+          role: "system",
+          content: `Summarize content you are provided with for a second-grade student.`,
+        },
+        {
+          role: "user",
+          content: text,
+        },
+      ],
+      temperature: 0.7,
+      max_tokens: 64,
+      top_p: 1,
     });
 
-    try {
-        const response = await openai.chat.completions.create({
-            model: "gpt-3.5-turbo",
-            messages: [
-                {
-                    role: "system",
-                    content: `Summarize content you are provided with for a second-grade student.`,
-                },
-                {
-                    role: "user",
-                    content: text,
-                },
-            ],
-            temperature: 0.7,
-            max_tokens: 64,
-            top_p: 1,
-        });
+    const summarizedText = String(response.choices[0].message.content);
 
-        const summarizedText = String(response.choices[0].message.content);
+    // Save the summary to MongoDB
+    const newSummary = new Summary({ text, summarizedText });
+    await newSummary.save();
 
-        // Save the summary to MongoDB
-        const newSummary = new Summary({ text, summarizedText });
-        await newSummary.save();
-
-        res.json({ summary: summarizedText });
-    } catch (error) {
-        console.error("Error calling OpenAI API:", error);
-        res.status(500).json({ error: "Internal Server Error" });
-    }
+    res.json({ summary: summarizedText });
+  } catch (error) {
+    console.error("Error calling OpenAI API:", error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
 });
 
 app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
+  console.log(`Server is running on port ${PORT}`);
 });
 ```
 
@@ -258,4 +259,4 @@ In this tutorial, we built a Summarizer Website using the MERN stack. We covered
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

@@ -14,15 +14,10 @@ Developed by Martin Odersky and released in 2003, Scala was designed to address 
 **Key Features and Advantages**
 
 - **Interoperability with Java:** Scala seamlessly integrates with Java, allowing the mixing of Scala and Java code within applications, and it leverages Java libraries and tools.
-  
 - **Conciseness:** Scala reduces boilerplate code, resulting in shorter, clearer, and more expressive code.
-  
 - **Immutability:** Scala encourages the use of immutable data, which simplifies reasoning about and parallelizing code.
-  
 - **Type Inference:** Scala's sophisticated type inference system reduces the need for explicit type declarations.
-  
 - **Functional Programming:** Scala supports functional programming paradigms, including first-class functions, immutability, and pattern matching.
-  
 - **Object-Oriented:** Scala is a pure object-oriented language where every value is an object, and every operation is a method call.
 
 **Scala Basics**
@@ -53,6 +48,7 @@ Scala comes with an interactive shell called the REPL (Read-Eval-Print Loop). Th
 Scala supports basic data types such as Int, Double, Float, Long, Short, Byte, Char, String, and Boolean. Variables can be declared as immutable (using `val`) or mutable (using `var`).
 
 Example:
+
 ```scala
 val age: Int = 30
 var name: String = "John"
@@ -63,6 +59,7 @@ var name: String = "John"
 Scala's control structures include if-else statements, while loops, and for loops, with concise syntax similar to Java.
 
 - **If-Else:** Scala's if-else works as both an expression and a statement.
+
   ```scala
   val number = 10
   val result = if (number % 2 == 0) "Even" else "Odd"
@@ -93,6 +90,7 @@ Functions are first-class citizens in Scala and can be defined independently of 
   }
   ```
 - **Calling a Function:**
+
   ```scala
   val sum = addNumbers(5, 10)
   ```
@@ -128,4 +126,4 @@ object MainApp {
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

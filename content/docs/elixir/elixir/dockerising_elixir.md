@@ -6,11 +6,13 @@ draft: false
 ---
 
 ### Introduction
+
 Phoenix is known for its ability to facilitate rapid development of Elixir web services. The Mix tool further enhances productivity by automating repetitive tasks such as compiling code and running tests. Containerization adds another layer of efficiency, especially when deploying applications with supporting infrastructure.
 
 In this tutorial, we will explore how to run a Phoenix application using Docker and Docker Compose, and create a custom Mix task to integrate containerization into the Elixir workflow seamlessly.
 
 ### Goals
+
 By the end of this tutorial, you will:
 
 1. Build a Docker container to run a Phoenix release.
@@ -18,6 +20,7 @@ By the end of this tutorial, you will:
 3. Create a custom Mix task to automate Docker tasks and simplify containerization.
 
 ### Prerequisites
+
 To follow this tutorial, you will need:
 
 - A basic understanding of Docker.
@@ -27,7 +30,9 @@ To follow this tutorial, you will need:
 - A basic Phoenix application (you can create one by following the [Phoenix Guides](https://hexdocs.pm/phoenix/up_and_running.html)).
 
 ### Setting Up Your Phoenix Application
+
 1. **Create a new Phoenix project:**
+
    ```sh
    mix phx.new my_app
    cd my_app
@@ -43,7 +48,9 @@ To follow this tutorial, you will need:
    ```
 
 ### Building the Phoenix Release
+
 1. **Compile the project:**
+
    ```sh
    MIX_ENV=prod mix compile
    ```
@@ -54,6 +61,7 @@ To follow this tutorial, you will need:
    ```
 
 ### Building a Docker Container
+
 1. **Create a Dockerfile in the root of your project:**
 
    ```Dockerfile
@@ -72,6 +80,7 @@ To follow this tutorial, you will need:
    ```
 
 2. **Build the Docker image:**
+
    ```sh
    docker build -t my_app .
    ```
@@ -82,10 +91,11 @@ To follow this tutorial, you will need:
    ```
 
 ### Setting Up Docker Compose
+
 1. **Create a `docker-compose.yml` file:**
 
    ```yaml
-   version: '3'
+   version: "3"
    services:
      web:
        build: .
@@ -116,6 +126,7 @@ To follow this tutorial, you will need:
    ```
 
 ### Creating a Custom Mix Task
+
 1. **Create a new Mix task in `lib/mix/tasks/compose.ex`:**
 
    ```elixir
@@ -156,6 +167,7 @@ To follow this tutorial, you will need:
    ```
 
 ### Conclusion
+
 In this tutorial, we have:
 
 - Built and run a Docker container for a Phoenix release.
@@ -166,4 +178,4 @@ This setup simplifies development and deployment workflows, making it easier to 
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

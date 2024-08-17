@@ -4,6 +4,7 @@ description: "Explore the concepts of type classes and polymorphism in Haskell, 
 icon: "code"
 draft: false
 ---
+
 **Introduction:**
 
 Dive deep into Haskell's advanced features with this comprehensive exploration of type classes and polymorphism. Type classes in Haskell allow for a level of abstraction and code reuse not readily available in many other programming languages, offering powerful ways to work with different data types while maintaining strict type safety. This blog post will guide you through the foundational type classes like `Eq`, `Ord`, and `Show`, show you how to create custom type classes, and discuss the nuanced application of polymorphism in Haskell.
@@ -42,6 +43,7 @@ Type classes are a fundamental concept in Haskell, representing a sort of interf
 Custom type classes are extremely useful for defining operations that can be generalized over different types. This section explores how to define your own type classes and implement instances of these classes.
 
 - **Creating a Simple Type Class:**
+
   ```haskell
   class Printable a where
       printIt :: a -> String
@@ -90,4 +92,4 @@ Type classes and polymorphism are cornerstones of Haskell's type system, enablin
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

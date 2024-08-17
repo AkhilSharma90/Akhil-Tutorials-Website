@@ -40,6 +40,7 @@ end
 ## Counting Words
 
 Add a function to count words in the `WordCounter` module in `lib/word_counter.ex`:
+
 ```elixir
 defmodule WordCounter do
   def read_file(file_path) do
@@ -55,7 +56,7 @@ defmodule WordCounter do
     |> length()
   end
 end
-````
+```
 
 ## Handling Command-line Arguments
 
@@ -144,7 +145,6 @@ The file contains 2 words.
 
 You've built a simple and useful CLI tool in Elixir that reads a text file and counts the number of words. This project demonstrates basic file handling, string manipulation, and command-line interaction in Elixir.
 
-
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).

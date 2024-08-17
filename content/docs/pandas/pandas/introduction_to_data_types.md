@@ -4,7 +4,8 @@ description: "This is an introduction to data structures in pandas, a python pac
 icon: "P"
 draft: false
 ---
-# 
+
+#
 
 `Pandas` is a powerful and widely-used data manipulation library in Python, providing versatile data structures and functions designed to make data analysis and manipulation simple and efficient. This blog will introduce you to two primary data structures in Pandas: Series and DataFrame. Understanding these data structures is fundamental to harnessing the full potential of Pandas for data analysis.
 
@@ -26,6 +27,7 @@ print(s)
 ```
 
 Output:
+
 ```
 0    1
 1    2
@@ -46,6 +48,7 @@ print(s['a'])
 ```
 
 Output:
+
 ```
 a    1
 b    2
@@ -66,6 +69,7 @@ print(s)
 ```
 
 Output:
+
 ```
 a    5.0
 b    7.0
@@ -85,6 +89,7 @@ print(s.name)
 ```
 
 Output:
+
 ```
 0    1
 1    2
@@ -111,6 +116,7 @@ print(df)
 ```
 
 Output:
+
 ```
    col1  col2
 0     1     4
@@ -132,6 +138,7 @@ print(df)
 ```
 
 Output:
+
 ```
    col1  col2
 0     1     4
@@ -150,6 +157,7 @@ print(df)
 ```
 
 Output:
+
 ```
    num letter
 0    1      A
@@ -171,6 +179,7 @@ print(df)
 ```
 
 Output:
+
 ```
      a  b    c
 0  1.0  2  NaN
@@ -191,6 +200,7 @@ print(df)
 ```
 
 Output:
+
 ```
    col1  col2
 0     1     4
@@ -209,6 +219,7 @@ print(df)
 ```
 
 Output:
+
 ```
    numbers
 0        1
@@ -230,6 +241,7 @@ print(df)
 ```
 
 Output:
+
 ```
     name  age
 0  Alice   25
@@ -254,6 +266,7 @@ print(df)
 ```
 
 Output:
+
 ```
     name  age
 0  Alice   25
@@ -285,6 +298,7 @@ print(df)
 ```
 
 Output:
+
 ```
 0    1
 1    2
@@ -307,6 +321,7 @@ print(df)
 ```
 
 Output:
+
 ```
    col1  col3  col4
 0     1     5     6
@@ -323,6 +338,7 @@ print(df.iloc[0, 0])
 ```
 
 Output:
+
 ```
 1
 1
@@ -340,6 +356,7 @@ print(result)
 ```
 
 Output:
+
 ```
      A   B
 a  NaN NaN
@@ -355,6 +372,7 @@ print(df.T)
 ```
 
 Output:
+
 ```
       0  1
 col1  1  2
@@ -363,4 +381,4 @@ col3
 
 ### Learn How To Build AI Projects
 
-Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Go where you learng about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
+Now, if you are interested in upskilling in 2024 with AI development, check out this 6 AI advanced projects with Golang where you will learn about building with AI and getting the best knowledge there is currently. Here's the [link](https://akhilsharmatech.gumroad.com/l/zgxqq).
